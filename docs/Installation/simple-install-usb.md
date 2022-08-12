@@ -1,5 +1,8 @@
 # Simple Installation (USB)
 
+!!! note
+	If you prefer to watch a video instead, we have one on [youtube](https://www.youtube.com/watch?v=Le-0wHEKvow).
+
 1. Download [Rufus](http://rufus.ie/en_US/) and open the application.
 2. Select your device (USB Stick) using the list box at the top.
 3. Import your desired .ISO file (https://atlasos.net)
