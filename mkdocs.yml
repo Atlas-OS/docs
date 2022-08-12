@@ -1,0 +1,34 @@
+site_name: Atlas Support Docs
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Atlas-OS
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/xx6S3g3HzE
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
