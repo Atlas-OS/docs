@@ -1,6 +1,6 @@
 # Windows Features is not working!
 
-You can use dism to toggle features instead, open command prompt and use any of the following commands:
+You can use **dism** to toggle features instead, open command prompt and use any of the following commands:
 
 ???+ failure "Disable Internet Explorer"
 	**Disabling IE can break some features like Steam shortcuts.**

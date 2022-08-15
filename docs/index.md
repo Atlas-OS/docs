@@ -1,9 +1,9 @@
 # Getting Started
 
-Welcome to our support docs! Installation guides, common questions, and other helpful information are available here which you can find listed on the sidebar.
+Welcome to our support documentation! Installation guides, common questions, and other helpful information are available here which you can find listed on the sidebar.
 
 !!! info ""
-    Check out our [website](https://atlasos.net) and [Github Repository](https://github.com/Atlas-OS/Atlas) if you want to learn more about AtlasOS. We also have a [discord](https://discord.gg/xx6S3g3HzE) where you can chat and get support!
+    Check out our [website](https://atlasos.net) and [GitHub repository](https://github.com/Atlas-OS/Atlas) if you want to learn more about Atlas OS. We also have a [Discord](https://discord.gg/xx6S3g3HzE) where you can chat and get support!
 
 ## Contributions
 

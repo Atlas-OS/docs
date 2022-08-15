@@ -1,11 +1,12 @@
-# My games are running at 1 FPS!
+# My games are running at EXTREMELY low framerates!
 
-This is usually because graphics drivers are not installed or improperly installed. To check:
+This is usually because graphics drivers are not installed or improperly installed. To check this:
 
-1. windows+r dxdiag
-2. If it asks you to check if drivers are digitally signed, click "No".
-3. Go to display (if you have multiple "display" tabs or a "render" tab check those also).
-4. On the left side, if the "Name" field says "Microsoft Basic Display Adapter", that means you don't have a graphics driver installed.
+1. Windows Key + R
+2. Type **dxdiag**
+3. If it asks you to check if drivers are digitally signed, click "No".
+4. Go to display (if you have multiple "display" tabs or a "render" tab check those also).
+5. On the left side, if the "Name" field says **Microsoft Basic Display Adapter**, that means you don't have a graphics driver installed.
 
 To install graphics drivers, check out our [guide](../Post%20Installation/Drivers/)!
 
