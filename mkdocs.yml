@@ -4,20 +4,9 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
   palette:
-      # Palette toggle for dark mode
     - scheme: slate
       primary: blue
       accent: blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-    # Palette toggle for light mode
-    - scheme: default
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
   font:
     text: Inter
     code: Roboto Mono
