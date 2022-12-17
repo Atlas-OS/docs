@@ -4,7 +4,7 @@ Not to be confused with [Common Issues](../Common%20Issues/), this is a list of 
 
 ## What is Atlas?
 
-Better answered on our [github](https://github.com/Atlas-OS/Atlas), Atlas is a customized windows ISO that improves the Windows gaming experience by removing bloat and tweaking the system to be as performant as possible without extreme drawbacks in compatibility.
+Atlas is a customized windows ISO that improves the Windows gaming experience by removing bloat and tweaking the system to be as performant as possible without extreme drawbacks in compatibility.
 
 ## How do I install Atlas?
 
