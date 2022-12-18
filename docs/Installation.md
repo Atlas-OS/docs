@@ -1,6 +1,11 @@
-# Text Methods
+# Installation
 
-??? "Method 1, the standard method."
+Here you can learn about how to install Atlas OS. There is video methods and text methods, whichever fits your niche
+
+!!! info "Reminder"
+    You can always join our [Discord](https://discord.com/servers/atlas-795710270000332800) if any of these methods do not work
+
+??? "Method 1, the standard method. Text Edition"
     !!! info ""
         Before you do this method, make sure you have a USB thumb drive on hand as it is required.
     1. Install an application that allows you to create bootable USB thumb drives, we recommend [Rufus](https://rufus.ie/en/).
@@ -14,3 +19,6 @@
     9. From there choose the option to boot via USB.
     10. You should be taken to a normal Windows install page, follow through how you normally would install Windows. Make sure you delete all partitions.
     11. Once Atlas is installed, you can head on over to our [post install](../../Post%20Installation/) page.
+
+??? "Method 1, the standard method. Video Edition"
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Le-0wHEKvow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
