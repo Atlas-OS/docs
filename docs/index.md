@@ -16,6 +16,3 @@ While keeping our main focus on performance, we are also a great option to reduc
 
 ??? quote "Contributions"
     Found a mistake? Wrote a guide? You are welcome to contribute to our [documentation](https://github.com/Atlas-OS/docs).
-
-Written by: 
-- [JayXTQ](https://github.com/JayXTQ)

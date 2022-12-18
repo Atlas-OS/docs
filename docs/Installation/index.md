@@ -4,6 +4,3 @@ Here you can learn about how to install Atlas OS. There is [video methods](Video
 
 !!! info "Reminder"
     You can always join our [Discord](https://discord.com/servers/atlas-795710270000332800) if any of these methods do not work
-
-Written by: 
-- [JayXTQ](https://github.com/JayXTQ)

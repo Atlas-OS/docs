@@ -14,6 +14,3 @@
     9. From there choose the option to boot via USB.
     10. You should be taken to a normal Windows install page, follow through how you normally would install Windows. Make sure you delete all partitions.
     11. Once Atlas is installed, you can head on over to our [post install](../../Post%20Installation/) page.
-
-Written by: 
-- [JayXTQ](https://github.com/JayXTQ)
