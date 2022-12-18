@@ -1,10 +1,6 @@
 # Installation
 
-There are multiple methods to install Atlas, but the *most* reliable way is to [install using a USB stick](simple-install-usb.md). If you don't have a USB stick, you can [install without one](no-usb-johnapolitan.md).
+Here you can learn about how to install Atlas OS. There is [video methods](Video%20Methods.md) and [text methods](Text%20Methods.md), whichever fits your niche
 
-## Third-Party Guides
-
-These guides **don't** require a USB stick to install.
-
-- [EasyBCD ISO Mount](https://neosmart.net/wiki/easybcd/portable-entries/iso-images/) - Difficulty: Easy, not supported on (U)EFI systems.
-- [VHD Guide by Melody](https://sites.google.com/view/melodystweaks/wintovhd) - Difficulty: Intermediate
+!!! info "Reminder"
+    You can always join our [Discord](https://discord.com/servers/atlas-795710270000332800) if any of these methods do not work
