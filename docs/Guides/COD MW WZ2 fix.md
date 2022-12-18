@@ -18,5 +18,5 @@ Remember, this doesn't work on 1803!
 ## Video Tutorial
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8s3DkHpv5ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Written by: 
+Written by:
 - [JayXTQ](https://github.com/JayXTQ)
