@@ -9,7 +9,8 @@ The title says it all, this is just a quick one, doesn't take 5 minutes.
 [3] Put the file you downloaded inside there
 [4] Restart your computer
 
-Remember, this doesn't work on 1803!
+!!! info "Reminder"
+    This doesn't work on 1803!
 
 ## FAQ
 - “Still getting version error, how to fix?”: Try the opposite game client. As an example, if using Battle.net, try using Steam.
