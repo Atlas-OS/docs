@@ -16,33 +16,36 @@ When you have installed Atlas, you will be on a clean desktop with the "Atlas" f
     Make sure you are connected to the internet for everything that will be mentioned below
 
 ??? example "Atlas folder tree"
-    Atlas/\
-    ├─ 1. Install Software/\
-    ├─ 2. Install Drivers/\
-    ├─ 3. Configuration/\
-    ├─ 4. Advanced Configuration/\
-    ├─ Optional Tweaks/\
-    ├─ Troubleshooting/\
-    ├─ Utilities/\
-    ├─ Atlas Discord\
-    ├─ Atlas Wallpapers\
-    ├─ Documentation\
-    ├─ Issues\
+    ```
+    Atlas/
+    ├─ 1. Install Software/
+    ├─ 2. Install Drivers/
+    ├─ 3. Configuration/
+    ├─ 4. Advanced Configuration/
+    ├─ Optional Tweaks/
+    ├─ Troubleshooting/
+    ├─ Utilities/
+    ├─ Atlas Discord
+    ├─ Atlas Wallpapers
+    ├─ Documentation
+    ├─ Issues
+    ```
 
 ## Install Software
 
 ??? example "Install Software tree"
+    ```
     Atlas/\
-    ├─ 1. Install Software/\
-    │  ├─ Links/\
-    │  ├─ HOW TO.txt\
-    │  ├─ Install Browser via Chocolatey.bat\
-    │  ├─ Install Browser via Scoop.bat\
-    │  ├─ Install Chocolatey.bat\
-    │  ├─ Install Other Software via Chocolatey.bat\
-    │  ├─ Install Other Software via Scoop.bat\
-    │  ├─ Install Scoop.bat\
-
+    ├─ 1. Install Software/
+    │  ├─ Links/
+    │  ├─ HOW TO.txt
+    │  ├─ Install Browser via Chocolatey.bat
+    │  ├─ Install Browser via Scoop.bat
+    │  ├─ Install Chocolatey.bat
+    │  ├─ Install Other Software via Chocolatey.bat
+    │  ├─ Install Other Software via Scoop.bat
+    │  ├─ Install Scoop.bat
+    ```
 
 Installing software is easy on Atlas, we have given you 2 methods to download software directly from Atlas
 - Scoop
@@ -60,14 +63,16 @@ Just choose what you want and click "Ok"
 ## Install Drivers
 
 ??? example "Install Drivers tree"
-    Atlas/\
-    ├─ 2. Install Drivers/\
-    │  ├─ AMD GPUs\
-    │  ├─ Intel (i)GPUs\
-    │  ├─ NVCleanstall Recommended Settings.png\
-    │  ├─ NVCleanstall_1.14.0.exe\
-    │  ├─ SDIO INSTALLATION.txt\
-    │  ├─ Snappy Driver Installer (SDIO)\
+    ```
+    Atlas/
+    ├─ 2. Install Drivers/
+    │  ├─ AMD GPUs
+    │  ├─ Intel (i)GPUs
+    │  ├─ NVCleanstall Recommended Settings.png
+    │  ├─ NVCleanstall_1.14.0.exe
+    │  ├─ SDIO INSTALLATION.txt
+    │  ├─ Snappy Driver Installer (SDIO)
+    ```
 
 Installing drivers is not as easy as installing software sadly, so we will try to download drivers the right way.
 
@@ -89,20 +94,31 @@ For Intel graphics cards you can either install from [here](https://www.intel.co
 For any other type of driver, we recommend using this. It is quick and easy and works for most people here at Atlas. Using this directly on your Atlas machine is better than on an external PC. 
 
 Here is a step by step process of how to use SDIO correctly:
+
 [1] Navigate to their site [here](https://www.glenn.delahoy.com/snappy-driver-installer-origin/).
+
 [2] Click on the option in the `Download Application` section.
+
 [3] Extract the .zip file and open the `x64` file. That is the only one that works on Atlas correctly.
+
 [4] Accept the terms if you are told to.
+
 [5] When you get a pop-up select `Download indexes only`.
+
 !!! danger ""
     Make sure you select `Download indexes only` otherwise you will also download useless drivers.
+
 [6] From there wait for SDIO to download the indexes, these are required to find all your drivers.
+
 [7] Tick the drivers you wish to install, if you do not know what some of them are, do not worry. You can click the option below to find out what you need.
+
 ??? info "What drivers do I need?"
     You should probably install graphics drivers if not done already, as well as Audio, LAN/WiFi and USB drivers. If you do not know the name of these, you can do some research for your providers to check what the drivers are and install them. 
     
     You can also install Bluetooth if you require that, it will be needed for Wireless Xbox controllers as an example.
+
 [8] Click `Install` on the left.
+
 [9] Done.
 
 ## Configuration
