@@ -14,5 +14,5 @@ Atlas is a modified version of Windows which removes all the negative drawbacks 
 
 While keeping our main focus on performance, we are also a great option to reduce system latency, network latency, input lag, and keep your system private.
 
-??? quote "Contributions"
+??? success "Contributions"
     Found a mistake? Wrote a guide? You are welcome to contribute to our [documentation](https://github.com/Atlas-OS/docs).
