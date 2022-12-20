@@ -1,4 +1,4 @@
-# Call Of Duty Modern Warfare / Warzone 2 not launching fix
+# Call Of Duty Modern Warfare
 
 Video tutorial is down at the bottom
 
