@@ -22,18 +22,18 @@ If you can't find your problem here, try searching for it at the top right. If n
 
 # 20H2
 
-??? bug "Warzone / Modern Warfare 2 not launching"
-    This is a common issue with many Atlas users with a solution made already [here](../../Guides/COD%20MW%20WZ2%20fix.md).
-
 ??? bug "FIFA 23 does not launch"
     This is an issue with the anti-cheat on FIFA 23 which seems to be fixed on Atlas 22H2. So your best solution is to upgrade to Atlas 22H2. You can download that [here](https://atlasos.net/downloads).
 
+??? bug "Warzone / Modern Warfare 2 not launching"
+    This is a common issue with many Atlas users with a solution made already [here](../../Guides/COD%20MW%20WZ2%20fix.md).
+
 ??? bug "Fortnite is asking for DirectX 12 even though I have it"
-    This issue is well known across Atlas, there is no fix except updating to Atlas 22H2 or above. You can download that [here](https://atlasos.net/downloads).
+    This issue is well known across Atlas, you must be running a new Windows version. You can download 22H2 [here](https://atlasos.net/downloads).
 
 # 1803
 
-??? danger "Check unsupported features on Atlas 1803"
+??? failure "Check unsupported features on Atlas 1803"
     - Search on taskbar - Due to Cortana being removed. If you want similar functionality, use [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) or [Everything](https://www.voidtools.com/)
     - Printing
     - Software/Games with a Windows version requirement above 1803 (Elden Ring)
