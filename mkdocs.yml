@@ -1,4 +1,4 @@
-site_name: Atlas Docs
+site_name: Atlas Documentation
 theme:
   name: material
   logo: assets/logo.png

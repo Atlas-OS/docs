@@ -48,6 +48,7 @@ When you have installed Atlas, you will be on a clean desktop with the "Atlas" f
     ```
 
 Installing software is easy on Atlas, we have given you 2 methods to download software directly from Atlas
+
 - Scoop
 - Chocolatey
 

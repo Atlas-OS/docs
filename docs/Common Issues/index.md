@@ -2,7 +2,7 @@
 
 You can find the most common problems and their corresponding solutions here.
 
-??? quote "Removed features on Atlas"
+??? failure "Removed features on Atlas"
     - TPM (Trusted Platform Module)
     - Windows Defender
     - Storage Spaces
@@ -11,7 +11,7 @@ You can find the most common problems and their corresponding solutions here.
     - Voice Recognition
     - Restore Points & System Reset
 
-??? quote "Unsupported features on Atlas"
+??? danger "Unsupported features on Atlas"
     - Alternate Languages, due to a [Windows Bug](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/language-packs-known-issue). With luck, you may be able to install a different language.
     - WSLv2 - Requires Hyper-V, v1 is supported
     - Projecting
