@@ -35,7 +35,7 @@ When you have installed Atlas, you will be on a clean desktop with the "Atlas" f
 
 ??? example "Install Software tree"
     ```
-    Atlas/\
+    Atlas/
     ├─ 1. Install Software/
     │  ├─ Links/
     │  ├─ HOW TO.txt
