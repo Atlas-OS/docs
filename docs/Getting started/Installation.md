@@ -26,6 +26,7 @@ The following bootable USB creators that we have written about need an ISO file 
 * Rufus
 * Ventoy
 * balenaEtcher
+* WoeUSB (Linux only)
 
 === "UUP dump"
 
@@ -95,6 +96,18 @@ This step may be different for you depending on how you made your bootable USB. 
     3. Click ``Continue`` on the warning about a possible Windows image.
     4. Click ``Select Target`` and tick your USB Drive, then click the blue ``Select 1`` button.
     5. Press ``Flash`` and your USB will be erased and turned into a bootable USB.
+    6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+       * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
+        
+=== "WoeUSB (Linux only)"
+
+    1. Download [WoeUSB](https://github.com/WoeUSB/WoeUSB#run-from-source).
+    2. Open a terminal and go to the location you downloaded it.
+    3. Run ``lsblk`` to locate your usb drive, in this guide it will be ``sdX``
+    4. Type ``chmod +x woeusb*.bash`` then press enter.
+    5. Type ``sudo bash woeusb*.bash --device PATH/TO/WINDOWS_10.iso /dev/sdX``
+    6. Double check you typed the correct drive.
+    5. Press enter and wait for it to turn your USB into a bootable USB.
     6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
        * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
         
