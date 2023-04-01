@@ -195,6 +195,8 @@ plugins:
       links_noopener: true
       links_attr_map:
         target: _blank
+      external_assets_exclude:
+        - insights.tweakcentral.net/*
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
   - search:
