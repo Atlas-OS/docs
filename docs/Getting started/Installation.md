@@ -17,6 +17,10 @@ We have made sure that installing AtlasOS is not a hard process. The installatio
 !!! tip "Download ethernet drivers"
     Some ethernet adapters don't have drivers that come with Windows. This means that if you're using ethernet, you might not be able to connect to the internet after a reinstall. We recommend that you download the drivers for your ethernet adapter ahead of time and put them on your bootable Windows USB.
 
+## Video Guide
+
+<iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## :material-disc: Download an ISO
 
 Depending on the bootable USB creator you want to use and how you want to use it, you may need to get your own Windows 10 ISO because the bootable USB creator may not have a built-in download feature.
