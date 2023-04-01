@@ -26,6 +26,17 @@ The following bootable USB creators that we have written about need an ISO file 
 * Rufus
 * Ventoy
 
+=== "Windows 10 Media Creation Tool (Recommended)"
+
+    1. Download [Windows 10 Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
+        * Make sure the "Feature update" you chose is for the x64 architecture.
+    2. Tick ``Create installation media (USB flash drive, DVD, or ISO file) for another PC`` and choose:
+        * Language: your desired language
+        * Edition: Windows 10
+        * Architecture: 64-bit (x64)
+    3. Choose ``ISO file`` option and choose the download location.
+    4. Click ``Finish`` to finish the installation.
+
 === "UUP dump"
 
     1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest "Feature update".
@@ -34,12 +45,21 @@ The following bootable USB creators that we have written about need an ISO file 
     3. Select the desired edition as the only edition (Professional is recommended), then click ``Next``.
     4. ``Download method`` should be "Download and convert to ISO," and "Include updates (Windows converter only)" should be selected.
     5. Click ``Create download package`` and extract the downloaded file. Run the included shell/bash script.
+        * Make sure that your folder has no spaces between.
         * Make sure you run the right ``uup_download`` script for your operating system.
         * The ISO will be downloaded to the same folder as the download script.
 
-=== "Windows 10 Media Creation Tool"
+=== "Other Methods"
 
-    **TBD**
+    Use the following links in order to download the ISO file:
+
+    - [New Download Links](https://docs.google.com/spreadsheets/d/1zTF5uRJKfZ3ziLxAZHh47kF85ja34_OFB5C5bVSPumk)
+
+    - [MVS Collection](https://isofiles.bd581e55.workers.dev)
+
+    - [Adguard File List](https://files.rg-adguard.net)
+
+    - [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
 !!! example "Install with no USB"
     There is a way to install AtlasOS without a USB drive. Learn how to install AtlasOS without a USB drive by reading [this](/Getting started/Other installation methods/Install with no USB) guide. But if you want to set up and install AtlasOS quickly and easily, we suggest using a USB drive.
