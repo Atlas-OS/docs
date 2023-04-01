@@ -106,22 +106,22 @@ extra:
       make our documentation better.
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
-  analytics: 
-    provider: custom
-    feedback:
-      title: Was page this helpful?
-      ratings:
-        - icon: material/emoticon-happy
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thank you for your feedback!
-        - icon: material/emoticon-confused
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thank you for your feedback! Help us improve by
-            <a href="https://github.com/Atlas-OS/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">submitting your feedback</a>.
+  #analytics: 
+  #  provider: custom
+  #  feedback:
+  #    title: Was page this helpful?
+  #    ratings:
+  #      - icon: material/emoticon-happy
+  #        name: This page was helpful
+  #        data: 1
+  #        note: >-
+  #          Thank you for your feedback!
+  #      - icon: material/emoticon-confused
+  #        name: This page could be improved
+  #        data: 0
+  #        note: >- 
+  #          Thank you for your feedback! Help us improve by
+  #          <a href="https://github.com/Atlas-OS/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">submitting your feedback</a>.
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:
@@ -188,15 +188,15 @@ nav:
 #
 plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
-  #- privacy:
-  #    enabled: true
-  #    assets_fetch_dir: assets/external
-  #    links: true
-  #    links_noopener: true
-  #    links_attr_map:
-  #      target: _blank
-  #    external_assets_exclude:
-  #      - insights.tweakcentral.net/*
+  - privacy:
+      enabled: true
+      assets_fetch_dir: assets/external
+      links: true
+      links_noopener: true
+      links_attr_map:
+        target: _blank
+      external_assets_exclude:
+        - insights.tweakcentral.net/*
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
   - search:
@@ -204,12 +204,12 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/
-  #- social:
-  #    cards_color:
-  #      fill: "#1991ff" 
-  #      text: "#e8eff4"
-  #    cards_font: Archivo
-  #    cards_dir: assets/images/metadata
+  - social:
+      cards_color:
+        fill: "#1991ff" 
+        text: "#e8eff4"
+      cards_font: Archivo
+      cards_dir: assets/images/metadata
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
   - git-revision-date-localized:
@@ -224,12 +224,12 @@ plugins:
       branch: master
 
   # https://squidfunk.github.io/mkdocs-material/setup/building-an-optimized-site/ (Insiders)
-  #- optimize:
-  #    enabled: true
-  #    optimize_png_speed: 4
-  #    optimize_jpg_quality: 75
-  #    cache: true
-  #    cache_dir: .cache/plugins/optimize
+  - optimize:
+      enabled: true
+      optimize_png_speed: 4
+      optimize_jpg_quality: 75
+      cache: true
+      cache_dir: .cache/plugins/optimize
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
