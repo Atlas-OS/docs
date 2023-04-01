@@ -57,11 +57,17 @@ Microsoft Store is a built-in feature on Windows 10 which is used to download ap
 
 ## Mitigations
 
-Mitigations are a built-in feature on Windows 10 which are used to protect your computer from malicious software. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable all mitigations.cmd` file in the `Mitigations (anti-cheat fix)` folder.
+Mitigations are a built-in feature in Windows which are used to fix securtity vulnerabilities protect your computer from malicious software. 
+
+On Atlas we have disabled this by default to improve performance for older CPUs, as it is very unlikely that a user will be compromised from this change. However, with some newer CPUs (like Zen 4 CPUs), it can be significantly worse for performance to disable mitigations or almost pointless to, due to the CPUs being optimised for these mitigations.
+
+If you have any issues with anticheats or have a new CPU, run the `Set Windows Default Mitigations.cmd` file in the `Mitigations` folder. Alternatively, you can use `Enable All Mitigations.cmd`, but that forces all mitigations to be enabled (unlike the Windows default), which can reduce performance and potentially compatibility, but increase security.
 
 ### Anti-Cheat Support
 
-Enabling DEP, Spectre and Meltdown makes anti-cheat software compatible with your computer. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable DEP & Meltdown-Spectre.cmd` file in the `Mitigations/Anti-Cheat Support` folder.
+Enabling Spectre and Meltdown and potentially using the `Set Windows Default Mitigations.cmd` script (documented above) should fix anti-cheat software compatiblility. On Atlas, it is disabled by default for increased performance, especially for older CPUs. However, with some newer CPUs (like Zen 4 CPUs), it can be significantly worse for performance to disable these mitigations or almost pointless to, due to the CPUs being optimised for these mitigations. To enable, run the `Enable Meltdown-Spectre.cmd` file in the `Mitigations/Anti-Cheat Support` folder.
+
+Additionally, you can configure Data Execution Prevention in the `Mitigations/Anti-Cheat Support` folder. This is set to the Windows default (`OptIn`) by default, because almost all CPUs have this mitigation at a CPU-level (so it should not affect performance) and it is applied for core system components only. Also, it is required for many anti-cheats.
 
 ## Network Discovery
 
