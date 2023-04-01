@@ -107,23 +107,22 @@ extra:
       make our documentation better.
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
-  #analytics: 
-  #  provider: google
-  #  property: G-XXXXXXXXXX
-  #  feedback:
-  #    title: Was page this helpful?
-  #    ratings:
-  #      - icon: material/emoticon-happy
-  #        name: This page was helpful
-  #        data: 1
-  #        note: >-
-  #          Thank you for your feedback!
-  #      - icon: material/emoticon-confused
-  #        name: This page could be improved
-  #        data: 0
-  #        note: >- 
-  #          Thank you for your feedback! Help us improve by
-  #          <a href="https://github.com/Atlas-OS/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">submitting your feedback</a>.
+  analytics: 
+    provider: custom
+    feedback:
+      title: Was page this helpful?
+      ratings:
+        - icon: material/emoticon-happy
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thank you for your feedback!
+        - icon: material/emoticon-confused
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thank you for your feedback! Help us improve by
+            <a href="https://github.com/Atlas-OS/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">submitting your feedback</a>.
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:

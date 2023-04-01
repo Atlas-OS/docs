@@ -25,6 +25,7 @@ The following bootable USB creators that we have written about need an ISO file 
 
 * Rufus
 * Ventoy
+* balenaEtcher
 
 === "UUP dump"
 
@@ -36,6 +37,10 @@ The following bootable USB creators that we have written about need an ISO file 
     5. Click ``Create download package`` and extract the downloaded file. Run the included shell/bash script.
         * Make sure you run the right ``uup_download`` script for your operating system.
         * The ISO will be downloaded to the same folder as the download script.
+
+=== "Windows 10 Media Creation Tool"
+
+    **TBD**
 
 !!! example "Install with no USB"
     There is a way to install AtlasOS without a USB drive. Learn how to install AtlasOS without a USB drive by reading [this](/Getting started/Other installation methods/Install with no USB/) guide. But if you want to set up and install AtlasOS quickly and easily, we suggest using a USB drive.
@@ -57,7 +62,31 @@ This step may be different for you depending on how you made your bootable USB. 
     6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
         * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
 
+=== "Rufus + Download ISO"
+
+    1. Download and open [Rufus](https://github.com/pbatard/rufus/releases).
+    2. Plug in your USB, and then click ``Device`` to select it.
+    3. Open the menu to the right of the ``SELECT`` button, and select ``DOWNLOAD``.
+    4. Follow the "Download ISO Image" wizard and use the following options:
+        * **Version**: Windows 10
+        * **Release**: 22H2
+        * **Edition**: Windows 10 Home/Pro/Edu
+        * **Language**: Your preferred language
+        * **Architecture**: x64
+    5. Choose where to save the ISO file.
+    6. Click ``START`` and in the "Windows User Experience" wizard, click ``OK``.
+    7. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
+    8. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+
 === "Ventoy"
+
+    *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+=== "balenaEtcher"
+
+    *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+=== "Windows 10 Media Creation Tool"
 
     *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
 
