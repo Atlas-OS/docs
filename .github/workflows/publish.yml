@@ -1,0 +1,29 @@
+name: Publish documentation
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+env:
+  MATERIAL_INSIDERS: ${{ secrets.MATERIAL_INSIDERS }} 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event.repository.fork == false
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: apt-get install pngquant 
+      - run: pip install git+https://${MATERIAL_INSIDERS}@github.com/whallin/mkdocs-material-insiders.git
+      - run: mkdocs gh-deploy --force
