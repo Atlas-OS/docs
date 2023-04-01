@@ -8,8 +8,8 @@ We have made sure that installing AtlasOS is not a hard process. The installatio
 
 ## :material-clipboard-list-outline: Requirements
 
-* [AME Wizard]()
-* [AtlasOS Playbook]()
+* [AME Wizard](https://atlasos.net/downloads)
+* [AtlasOS Playbook](https://atlasos.net/downloads)
 * A USB drive (minimum 8 GB)
 * Bootable USB creator (e.g. [Rufus](https://github.com/pbatard/rufus/releases))
 * A backup of all the files you want to keep, either in the cloud or on an external drive.
