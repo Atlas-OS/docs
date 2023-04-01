@@ -80,12 +80,24 @@ This step may be different for you depending on how you made your bootable USB. 
 
 === "Ventoy"
 
-    *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+    1. Download and **unzip** [Ventoy](https://github.com/ventoy/Ventoy/releases) (you want the file ending in ``-windows.zip``).
+    2. Open ``Ventoy2Disk.exe`` and pick your USB Drive in the Device menu.
+    3. If you are using UEFI, go in ``Option`` on the top left, then in ``Partition style`` select ``GPT``.
+    4. If you do not use Secure Boot or use MBR, disable Secure boot support from the Option menu.
+    5. Click ``Install`` then click OK in the two warnings, this will turn your USB into a bootable USB.
+    6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+       * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
 
 === "balenaEtcher"
 
-    *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
-
+    1. Download and open [balenaEtcher](https://www.balena.io/etcher#download-etcher).
+    2. Click ``Flash from File`` then select the Windows ISO you made.
+    3. Click ``Continue`` on the warning about a possible Windows image.
+    4. Click ``Select Target`` and tick your USB Drive, then click the blue ``Select 1`` button.
+    5. Press ``Flash`` and your USB will be erased and turned into a bootable USB.
+    6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+       * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
+        
 === "Windows 10 Media Creation Tool"
 
     *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
