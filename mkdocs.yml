@@ -188,15 +188,15 @@ nav:
 #
 plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
-  - privacy:
-      enabled: true
-      assets_fetch_dir: assets/external
-      links: true
-      links_noopener: true
-      links_attr_map:
-        target: _blank
-      external_assets_exclude:
-        - insights.tweakcentral.net/*
+  #- privacy:
+  #    enabled: true
+  #    assets_fetch_dir: assets/external
+  #    links: true
+  #    links_noopener: true
+  #    links_attr_map:
+  #      target: _blank
+  #    external_assets_exclude:
+  #      - insights.tweakcentral.net/*
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
   - search:
