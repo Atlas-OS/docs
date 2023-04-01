@@ -1,4 +1,4 @@
-git+https://${{ secrets.MKDOCS_INSIDER }}@github.com/squidfunk/mkdocs-material-insiders.git
+git+https://${{ secrets.MKDOCS_INSIDER }}@github.com/whallin/mkdocs-material-insiders.git
 pillow
 cairosvg
 mkdocs-git-revision-date-localized-plugin
