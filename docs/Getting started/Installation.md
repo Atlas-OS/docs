@@ -62,7 +62,7 @@ The following bootable USB creators that we have written about need an ISO file 
     - [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
 !!! example "Install with no USB"
-    There is a way to install AtlasOS without a USB drive. Learn how to install AtlasOS without a USB drive by reading [this](/Getting started/Other installation methods/Install with no USB) guide. But if you want to set up and install AtlasOS quickly and easily, we suggest using a USB drive.
+    There is a way to install AtlasOS without a USB drive. After you downloaded the ISO, you can learn how to install AtlasOS without a USB drive by reading [this](/Getting started/Other installation methods/Install with no USB) guide. But if you want to set up and install AtlasOS quickly and easily, we suggest using a USB drive.S
 
 ## :material-usb-flash-drive-outline: Preparing your USB
 
@@ -105,9 +105,9 @@ shutdown -r -o -f -t 00
 4. Proceed with the Windows installation as usual.
     * When asked, choose "Windows 10 Pro" as the edition.
 5. Finish installing Windows in the OOBE.
-    * Select your language and region.
-    * If prompted to connect to a network, select ``Skip``.
-    * If prompted to use a Microsoft Account, click ``Limited experience`` in the bottom left corner.
+    ![Windows 10 22H2 OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
+    Follow https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4
+
 
 ## :material-wrench-cog-outline: Post-installation
 
