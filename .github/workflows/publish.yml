@@ -23,6 +23,5 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: sudo apt-get install pngquant
-      - run: pip install git+https://${{ secrets.MATERIAL_INSIDERS }}@github.com/whallin/mkdocs-material-insiders.git
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
