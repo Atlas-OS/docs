@@ -108,9 +108,8 @@ shutdown -r -o -f -t 00
 3. You should now see the boot menu, select your USB.
 4. Proceed with the Windows installation as usual.
     * When asked, choose "Windows 10 Pro" as the edition.
-5. Finish installing Windows in the OOBE.
-<iframe width="930" height="523" src="https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4" title="Atlas OS — OOBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+5. Finish installing Windows in the OOBE, follow:
+    - [Windows 10 22H2 OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
 
 ## :material-wrench-cog-outline: Post-installation
 
