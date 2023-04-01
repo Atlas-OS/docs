@@ -2,9 +2,9 @@ You have reached the AtlasOS system's documentation. By reading this documentati
 
 Here are some places to start on your AtlasOS journey that may help:
 
-* [Getting started](/docs/Getting%20started/Installation)
+* [Getting started](/docs/Getting started/Installation.md)
 * [Troubleshooting](/docs/Troubleshooting)
-* [FAQ](/docs/Getting%20started/faq)
+* [FAQ](/docs/Getting started/faq)
 
 !!! info ""
     If you want to learn more about AtlasOS and how it works, check out our [website](https://atlasos.net) and [GitHub repository](https://github.com/Atlas-OS/Atlas). We also have a [Discord server](https://discord.com/servers/atlas-795710270000332800) where you can talk to other community members and get help from them!
