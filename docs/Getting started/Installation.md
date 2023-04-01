@@ -63,22 +63,6 @@ This step may be different for you depending on how you made your bootable USB. 
     6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
         * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
 
-=== "Rufus + Download ISO"
-
-    1. Download and open [Rufus](https://github.com/pbatard/rufus/releases).
-    2. Plug in your USB, and then click ``Device`` to select it.
-    3. Open the menu to the right of the ``SELECT`` button, and select ``DOWNLOAD``.
-    4. Follow the "Download ISO Image" wizard and use the following options:
-        * **Version**: Windows 10
-        * **Release**: 22H2
-        * **Edition**: Windows 10 Home/Pro/Edu
-        * **Language**: Your preferred language
-        * **Architecture**: x64
-    5. Choose where to save the ISO file.
-    6. Click ``START`` and in the "Windows User Experience" wizard, click ``OK``.
-    7. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
-    8. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
-
 === "Ventoy"
 
     1. Download and **unzip** [Ventoy](https://github.com/ventoy/Ventoy/releases) (you want the file ending in ``-windows.zip``).
@@ -88,6 +72,7 @@ This step may be different for you depending on how you made your bootable USB. 
     5. Click ``Install`` then click OK in the two warnings, this will turn your USB into a bootable USB.
     6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
        * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
+    7. Move Windows 10 22H2 iso onto the USB Stick.
 
 === "balenaEtcher"
 
