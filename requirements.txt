@@ -1,4 +1,3 @@
-git+https://${{ secrets.MATERIAL_INSIDERS }}@github.com/whallin/mkdocs-material-insiders.git
 pillow
 cairosvg
 mkdocs-git-revision-date-localized-plugin
