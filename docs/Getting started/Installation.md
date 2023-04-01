@@ -109,8 +109,7 @@ shutdown -r -o -f -t 00
 4. Proceed with the Windows installation as usual.
     * When asked, choose "Windows 10 Pro" as the edition.
 5. Finish installing Windows in the OOBE.
-    ![Windows 10 22H2 OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
-    Follow https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4
+<iframe width="930" height="523" src="https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4" title="Atlas OS — OOBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## :material-wrench-cog-outline: Post-installation
