@@ -105,6 +105,12 @@ Sleep States are enabled by default. These are features that allow your computer
 
 You can learn more about there [here](https://github.com/Atlas-OS/Atlas/wiki/3.-Post-Install#sleep-states)
 
+### Hibernation
+
+Hibernation is a feature in Windows that allows you to sleep your computer, except from it temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
+
+Hibernation is a disabled feature by default (due to its potential issues), but you can easily enable it with `Enable Hibernation.cmd` or `Disable Hibernation (default).cmd` in the `Hibernation` folder.
+
 ## Printing
 
 Printing is a built-in feature on Windows 10 which is used to print documents. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable Printing.cmd` file in the `Printing` folder.
