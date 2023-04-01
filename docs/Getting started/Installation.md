@@ -26,6 +26,7 @@ The following bootable USB creators that we have written about need an ISO file 
 * Rufus
 * Ventoy
 * balenaEtcher
+* WoeUSB (Linux only)
 
 === "UUP dump"
 
@@ -62,30 +63,39 @@ This step may be different for you depending on how you made your bootable USB. 
     6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
         * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
 
-=== "Rufus + Download ISO"
-
-    1. Download and open [Rufus](https://github.com/pbatard/rufus/releases).
-    2. Plug in your USB, and then click ``Device`` to select it.
-    3. Open the menu to the right of the ``SELECT`` button, and select ``DOWNLOAD``.
-    4. Follow the "Download ISO Image" wizard and use the following options:
-        * **Version**: Windows 10
-        * **Release**: 22H2
-        * **Edition**: Windows 10 Home/Pro/Edu
-        * **Language**: Your preferred language
-        * **Architecture**: x64
-    5. Choose where to save the ISO file.
-    6. Click ``START`` and in the "Windows User Experience" wizard, click ``OK``.
-    7. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
-    8. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
-
 === "Ventoy"
 
-    *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+    1. Download and **unzip** [Ventoy](https://github.com/ventoy/Ventoy/releases) (you want the file ending in ``-windows.zip``).
+    2. Open ``Ventoy2Disk.exe`` and pick your USB Drive in the Device menu.
+    3. If you are using UEFI, go in ``Option`` on the top left, then in ``Partition style`` select ``GPT``.
+    4. If you do not use Secure Boot or use MBR, disable Secure boot support from the Option menu.
+    5. Click ``Install`` then click OK in the two warnings, this will turn your USB into a bootable USB.
+    6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+       * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
+    7. Move Windows 10 22H2 iso onto the USB Stick.
 
 === "balenaEtcher"
 
-    *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+    1. Download and open [balenaEtcher](https://www.balena.io/etcher#download-etcher).
+    2. Click ``Flash from File`` then select the Windows ISO you made.
+    3. Click ``Continue`` on the warning about a possible Windows image.
+    4. Click ``Select Target`` and tick your USB Drive, then click the blue ``Select 1`` button.
+    5. Press ``Flash`` and your USB will be erased and turned into a bootable USB.
+    6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+       * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
+        
+=== "WoeUSB (Linux only)"
 
+    1. Download [WoeUSB](https://github.com/WoeUSB/WoeUSB#run-from-source).
+    2. Open a terminal and go to the location you downloaded it.
+    3. Run ``lsblk`` to locate your usb drive, in this guide it will be ``sdX``
+    4. Type ``chmod +x woeusb*.bash`` then press enter.
+    5. Type ``sudo bash woeusb*.bash --device PATH/TO/WINDOWS_10.iso /dev/sdX``
+    6. Double check you typed the correct drive.
+    5. Press enter and wait for it to turn your USB into a bootable USB.
+    6. Extract ``Atlas [version].zip`` and copy the files and folders to the root directory of your USB.
+       * If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
+        
 === "Windows 10 Media Creation Tool"
 
     *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
