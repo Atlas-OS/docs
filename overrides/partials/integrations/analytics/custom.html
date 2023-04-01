@@ -1,8 +1,0 @@
-{% if config.extra.analytics %}
-  {% set provider = config.extra.analytics.provider %}
-{% endif %}
-{% if provider %}
-  {% include "partials/integrations/analytics/" ~ provider ~ ".html" %}
-  <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
-  <script defer data-domain="docs.atlasos.net" src="https://insights.tweakcentral.net/js/script.outbound-links.file-downloads.js"></script>
-{% endif %}
