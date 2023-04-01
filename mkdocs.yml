@@ -78,7 +78,7 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   logo: assets/brand/icon.svg
-  favicon: assets/brand/icon.svg
+  favicon: assets/brand/icon.png
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
   icon:
