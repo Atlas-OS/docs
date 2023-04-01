@@ -13,5 +13,6 @@ We recommend using NVCleanstall, as it is a GUI app alternative to the manual me
     - Disable Multiplane Overlay (MPO)
     - Show Expert Tweaks
         - Disable Driver Telemetry
+    - Use method compatible with Easy-Anti-Cheat
     - Automatically accept the "driver unsinged" warning
 - Click ``Install`` and continue with the NVIDIA driver installation as usual.
