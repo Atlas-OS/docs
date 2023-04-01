@@ -1,18 +1,16 @@
-# Getting Started
+You have reached the AtlasOS system's documentation. By reading this documentation, you will be able to learn everything you need to know about AtlasOS. You can find out more about AtlasOS, its scripts and how to optimize them, how to install AtlasOS, and a lot of other things.
 
-Welcome to the Atlas OS documentation. This documentation will tell you everything you need to know about our project. On this page you can find information about Atlas. Here is some other places which may help on your Atlas journey:
+Here are some places to start on your AtlasOS journey that may help:
 
-- [How to install Atlas OS](Installation.md)
-- [Common Issues](Common%20Issues.md)
+* [Getting started](/Getting%20started/Installation)
+* [Troubleshooting](/Troubleshooting)
+* [FAQ](/Getting%20started/faq)
 
 !!! info ""
-    Check out our [website](https://atlasos.net) and [GitHub repository](https://github.com/Atlas-OS/Atlas) if you want to learn more about Atlas OS. We also have a [Discord](https://discord.com/servers/atlas-795710270000332800) where you can chat and get support!
+    If you want to learn more about AtlasOS and how it works, check out our [website](https://atlasos.net) and [GitHub repository](https://github.com/Atlas-OS/Atlas). We also have a [Discord server](https://discord.com/servers/atlas-795710270000332800) where you can talk to other community members and get help from them!
 
-## What is Atlas?
+## :material-head-question-outline: What is AtlasOS?
 
-Atlas is a modified version of Windows which removes all the negative drawbacks of Windows, which adversely affect gaming performance. We are a transparent and open source project striving for equal rights for players whether you are running a low-end, or a high-end PC.
+Atlas is a modified version of Windows 10, which removes all the negative drawbacks of Windows that adversely affect gaming performance. We are a transparent and open source project striving for equal rights for players whether you are running a low-end, or a gaming PC.
 
-While keeping our main focus on performance, we are also a great option to reduce system latency, network latency, input lag, and keep your system private.
-
-??? success "Contributions"
-    Found a mistake? Wrote a guide? You are welcome to contribute to our [documentation](https://github.com/Atlas-OS/docs).
+We are also a great option to reduce system latency, network latency, input lag, and keep your system private while keeping our main focus on performance.

@@ -1,1 +1,6 @@
-mkdocs-material
+git+https://${{ secrets.MKDOCS_INSIDER }}@github.com/squidfunk/mkdocs-material-insiders.git
+pillow
+cairosvg
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-committers-plugin-2
+mike
