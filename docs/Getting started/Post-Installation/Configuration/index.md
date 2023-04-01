@@ -65,7 +65,7 @@ If you have any issues with anticheats or have a new CPU, run the `Set Windows D
 
 ### Anti-Cheat Support
 
-Enabling Spectre and Meltdown and potentially using the `Set Windows Default Mitigations.cmd` script (documented above) should fix anti-cheat software compatiblility. On Atlas, it is disabled by default for increased performance, especially for older CPUs. To enable just run the `Enable Meltdown-Spectre.cmd` file in the `Mitigations/Anti-Cheat Support` folder.
+Enabling Spectre and Meltdown and potentially using the `Set Windows Default Mitigations.cmd` script (documented above) should fix anti-cheat software compatiblility. On Atlas, it is disabled by default for increased performance, especially for older CPUs. However, with some newer CPUs (like Zen 4 CPUs), it can be significantly worse for performance to disable these mitigations or almost pointless to, due to the CPUs being optimised for these mitigations. To enable, run the `Enable Meltdown-Spectre.cmd` file in the `Mitigations/Anti-Cheat Support` folder.
 
 Additionally, you can configure Data Execution Prevention in the `Mitigations/Anti-Cheat Support` folder. This is set to the Windows default (`OptIn`) by default, because almost all CPUs have this mitigation at a CPU-level (so it should not affect performance) and it is applied for core system components only. Also, it is required for many anti-cheats.
 
