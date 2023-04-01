@@ -10,9 +10,8 @@ edit_uri: edit/master/docs/
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
-  Copyright &copy; 2023 AtlasOS
+  Copyright &copy; 2023 AtlasOS — <a href="#__consent">Change cookie settings</a>
   <br>AtlasOS is not affiliated with Microsoft.
-  — <a href="#__consent">Change cookie settings</a>
 
 
 #
