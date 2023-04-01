@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+env:
+  MATERIAL_INSIDERS: ${{ secrets.MATERIAL_INSIDERS }} 
+
 jobs:
   deploy:
     name: Build & Deploy
@@ -15,6 +18,8 @@ jobs:
     if: github.event.repository.fork == false
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -22,7 +27,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: sudo apt-get install pngquant
-      - run: pip install git+https://${{ secrets.MATERIAL_INSIDERS }}@github.com/whallin/mkdocs-material-insiders.git
-      - run: pip install -r requirements.txt
+      - run: sudo apt-get install pngquant 
+      - run: pip install git+https://${MATERIAL_INSIDERS}@github.com/whallin/mkdocs-material-insiders.git pillow cairosvg mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
       - run: mkdocs gh-deploy --force
