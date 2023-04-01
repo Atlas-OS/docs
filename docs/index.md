@@ -2,7 +2,8 @@ You have reached the AtlasOS system's documentation. By reading this documentati
 
 Here are some places to start on your AtlasOS journey that may help:
 
-* [Getting started](/docs/Getting started/Installation.md)
+
+* [Getting started](/docs/Getting%20started/Installation.md)
 * [Troubleshooting](/docs/Troubleshooting)
 * [FAQ](/docs/Getting started/faq)
 
