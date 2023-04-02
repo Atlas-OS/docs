@@ -13,9 +13,9 @@ Snappy Driver Installer Origin (SDIO) is a good and free way to find and install
 !!! warning "Drivers for your GPU"
     We don't recommend installing your graphics drivers via SDIO as they can be heavily debloated when installed by other methods. We've included installation guides for popular graphics card brands below.
 
-    * [NVIDIA](/Getting%20started/Drivers/GPU/NVIDIA/Installation)
-    * [AMD](/Getting%20started/Drivers/GPU/AMD/Installation)
-    * [Intel](/Getting%20started/Drivers/GPU/Intel)
+    * [NVIDIA](/Getting%20started/Post-Installation/Drivers/GPU/NVIDIA/Installation)
+    * [AMD](/Getting%20started/Post-Installation/Drivers/GPU/AMD/Installation)
+    * [Intel](/Getting%20started/Post-Installation/Drivers/GPU/Intel)
 
 1. Visit [their website](https://www.glenn.delahoy.com/snappy-driver-installer-origin) and download the installer under the "Download Application" section.
 2. Extract the .zip file and open the ``x64`` file. Follow the steps in the wizard.
