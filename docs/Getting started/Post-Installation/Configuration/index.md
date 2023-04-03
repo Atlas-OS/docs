@@ -8,7 +8,7 @@ For other installation options, see:
 - [Optional Tweaks](/Getting%20started/Post-Installation/Optional%20Tweaks)
 - [Windows Settings](/Getting%20started/Post-Installation/Windows%20Settings)
 
-All of the configuration files are located in the `4. Configuration` folder. In your Atlas folder on your Desktop. If you have managed to misplace this folder you can download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Desktop) or find it in `C:/Users/default/Desktop/`.
+All of the configuration files are located in the `3. Configuration/1. General Configuration` folder. In your Atlas folder on your Desktop. If you have managed to misplace this folder you can download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas) or find it in `C:/Users/default/Desktop/`.
 
 ## Animations
 
@@ -163,4 +163,4 @@ Wi-Fi is a built-in feature on Windows 10 which is used to connect to Wi-Fi netw
     You may need to install Drivers for Wi-Fi to work. Learn how to do this [here](/Getting%20started/Post-Installation/Drivers/)
 ## Xbox
 
-Xbox services are enabled on Atlas because Xbox has a big part of the PC market for gaming. If you wish to disable these services just run the `Disable Xbox Services.cmd` file in the `Xbox` folder. You can also completely remove components these with the `Remove Xbox Components.cmd` file.
+Xbox services are enabled on Atlas because Xbox has a big part of the PC market for gaming. If you wish to disable these services just run the `Disable Xbox Services.cmd` file in the `Xbox` folder. You can also completely remove services these with the `Remove Xbox Services.cmd` file.
