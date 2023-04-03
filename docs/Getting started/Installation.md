@@ -46,7 +46,7 @@ The following bootable USB creators that we have written about need an ISO file 
     1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest ``amd64`` Feature Update.
     2. Choose the desired language and click ``Next``.
     3. Select the desired edition as the only edition (Professional is recommended), then click ``Next``.
-    4. ``Download method`` should be ``Download and convert to ISO``, and "Include updates (Windows converter only)" should be ticked only.
+    4. ``Download method`` should be ``Download and convert to ISO``, and ``Include updates (Windows converter only)`` should be ticked only.
     5. Click ``Create download package`` and extract the downloaded archive. Run the ``uup_download_windows.cmd`` file.
         * Make sure that your folder has no spaces between.
         * The ISO will be downloaded to the same folder as the download script.
@@ -95,7 +95,7 @@ This step may be different for you depending on how you made your bootable USB. 
         - If you are using ``UEFI`` select ``GPT``.
         - If you are using ``Legacy``, make sure to have ``MBR`` option selected.
     5. Click ``Install`` then click OK in the two warnings, this will turn your USB into a bootable USB.
-    6. Extract ``Atlas [version].zip`, and it to the root directory of your USB.
+    6. Extract ``Atlas [version].zip``, and it to the root directory of your USB.
         - Move AME Wizard to the ``Atlas`` folder on the USB Stick.
         - If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
     7. Move Windows 10 22H2 iso onto the USB Stick.
