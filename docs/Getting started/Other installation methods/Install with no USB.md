@@ -5,7 +5,7 @@
 !!! warning "Prerequisites"
 	Before proceeding with this guide, make sure you have the latest 22H2 .iso file by following the [Downloading an ISO guide](../Installation.md#material-disc-download-an-iso) on the installation page.
 
-1. Download [Macrorit Partition Expert](https://macrorit.com/download.html?mds&gclid=CjwKCAjwgr6TBhAGEiwA3aVuIVRrnYjiKkSiBiltjDX9mtl19KMJVRv3SUe_G_QfgmyVS78k0pyIZxoC61oQAvD_BwE)  and install it. (If prompted, choose 'Install Package')
+1. Download [Macrorit Partition Expert](https://macrorit.com/download.html?mde&gclid=CjwKCAjwgr6TBhAGEiwA3aVuIVRrnYjiKkSiBiltjDX9mtl19KMJVRv3SUe_G_QfgmyVS78k0pyIZxoC61oQAvD_BwE)  and install it. (If prompted, choose 'Install Package')
 2. Download [Install Windows Without USB by DanL](https://github.com/iidanL/InstallWindowsWithoutUSB) and extract it using 7zip or WinRAR
 ![Snapshot_2022-05-02_154455_github com](../../assets/images/iwwu.png)
 3. Run Macrorit Partition Expert, and select the drive you want to partition (basically, in order to use both your current OS and Atlas, you need to have a drive big enough for both. To 'partition' is to split the drive into multiple partitions). In most cases, this is going to be the `C:` partition.
