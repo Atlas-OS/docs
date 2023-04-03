@@ -110,7 +110,7 @@ This step may be different for you depending on how you made your bootable USB. 
         - If you are using ``Legacy``, make sure to have ``MBR`` option selected.
     4. Click ``START`` and in the ``Windows User Experience`` wizard, click ``OK``.
     5. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
-    6. Extract ``Atlas [version].zip`, and it to the root directory of your USB.
+    6. Extract ``Atlas [version].zip``, and it to the root directory of your USB.
         - Additionaly, move AME Wizard to the ``Atlas [version]`` folder.
         - If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over now.
 
