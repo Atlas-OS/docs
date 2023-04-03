@@ -163,4 +163,4 @@ Wi-Fi is a built-in feature on Windows 10 which is used to connect to Wi-Fi netw
     You may need to install Drivers for Wi-Fi to work. Learn how to do this [here](/Getting%20started/Post-Installation/Drivers/)
 ## Xbox
 
-Xbox services are enabled on Atlas because Xbox has a big part of the PC market for gaming. If you wish to disable these services just run the `Disable Xbox Services.cmd` file in the `Xbox` folder. You can also completely remove services these with the `Remove Xbox Services.cmd` file.
+Xbox is enabled on Atlas because it has a big part of the PC market for gaming. If you wish to remove Xbox, just run the `Remove Xbox Components.cmd` file in the `Xbox` folder.
