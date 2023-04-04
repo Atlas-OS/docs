@@ -109,7 +109,7 @@ Sleep States are enabled by default. These are features that allow your computer
 - Traditional Sleep/Legacy Standby (Sleep)
 - Hibernation
 
-You can learn more about there [here](https://github.com/Atlas-OS/Atlas/wiki/3.-Post-Install#sleep-states)
+You can learn more about them [here](https://github.com/Atlas-OS/Atlas/wiki/3.-Post-Install#sleep-states)
 
 ### Hibernation
 
