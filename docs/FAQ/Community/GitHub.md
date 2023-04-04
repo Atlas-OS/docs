@@ -5,4 +5,4 @@
 #### What you can do:
 - Improve our tweak Scripts
 - Translate our README
-- Translate our Docs (_NOT AVALIABLE_)
+- Translate our Docs (_NOT AVAILABLE)
