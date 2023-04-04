@@ -4,9 +4,9 @@ Here we will list all the built-in normal configuration options with the default
 
 For other installation options, see:
 
-- [Advanced Configuration](/Getting%20started/Post-Installation/Advanced%20Configuration)
-- [Optional Tweaks](/Getting%20started/Post-Installation/Optional%20Tweaks)
-- [Windows Settings](/Getting%20started/Post-Installation/Windows%20Settings)
+- [Advanced Configuration](https://docs.atlasos.net/Getting%20started/Post-Installation/Configuration/Advanced%20Configuration)
+- [Optional Tweaks](https://docs.atlasos.net/Getting%20started/Post-Installation/Configuration/Optional%20Tweaks)
+- [Windows Settings](https://docs.atlasos.net/Getting%20started/Post-Installation/Configuration/Windows%20Settings)
 
 All of the configuration files are located in the `3. Configuration/1. General Configuration` folder. In your Atlas folder on your Desktop. If you have managed to misplace this folder you can download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas) or find it in `C:/Users/default/Desktop/`.
 
