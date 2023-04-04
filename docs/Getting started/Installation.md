@@ -136,7 +136,7 @@ This step may be different for you depending on how you made your bootable USB. 
 
 After a few restarts, your system is optimized and has less junk on it, thanks to Atlas. We hope you enjoy more privacy, and faster speed.
 
-??? info
+??? info ""
     After the complete and successful installation of Atlas, continue the [Post-Installation - Activate Windows](https://docs.atlasos.net/Getting%20started/Post-Installation/Activate%20Windows.md) section in our documenatation, and then continue to other sections.
 
 ### :material-bug-outline: Post-installation troubleshooting
