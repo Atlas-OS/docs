@@ -22,4 +22,4 @@ rundll32 display.dll,ShowAdapterSettings 0
 
 ## Force P-State 0 (Advanced)
 
-TBD
+*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
