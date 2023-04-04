@@ -139,11 +139,6 @@ After a few restarts, your system is optimized and has less junk on it, thanks t
 !!! info ""
     After the complete and successful installation of Atlas, continue the [Post-Installation - Activate Windows](https://docs.atlasos.net/Getting%20started/Post-Installation/Activate%20Windows.md) section in our documenatation, and then continue to other sections.
 
-
-!!! info ""
-    It is not recommended to run UEFI with MBR or BIOS with GPT as it may cause compatibility and stability issues.
-    If you are using mixed combination, you may want to [convert your parition style](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk) during the install.
-
 ### :material-bug-outline: Post-installation troubleshooting
 
 ??? question "No internet?"
