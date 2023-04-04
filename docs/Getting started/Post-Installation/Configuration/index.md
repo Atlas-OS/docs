@@ -33,7 +33,7 @@ Firewall is a built-in feature on Windows 10 which is used to block unwanted con
 
 ## FSO and Game Bar
 
-FSO and Game Bar are built-in features on Windows 10 which are used to record your screen and take screenshots. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable FSO and Game Bar.reg` file in the `FSO and Game Bar` folder.
+FSO and Game Bar are built-in features on Windows 10 which are used to record your screen and take screenshots. On Atlas we have disabled them to make the experience more fluid and faster. To enable just run the `Enable FSO and Game Bar.reg` file in the `FSO and Game Bar` folder.
 
 ## HDD
 
@@ -41,7 +41,7 @@ Prefetching is a built-in feature on Windows 10 which is used to speed up your c
 
 ## Hyper-V and VBS
 
-Hyper-V and VBS are built-in features on Windows 10 which are used to run virtual machines and scripts. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable Hyper-V and VBS.cmd` file in the `Hyper-V and VBS` folder.
+Hyper-V and VBS are built-in features on Windows 10 which are used to run virtual machines and scripts. On Atlas we have disabled them to make the experience more fluid and faster. To enable just run the `Enable Hyper-V and VBS.cmd` file in the `Hyper-V and VBS` folder.
 
 ## IE and WMP
 
@@ -113,7 +113,7 @@ You can learn more about them [here](https://github.com/Atlas-OS/Atlas/wiki/3.-P
 
 ### Hibernation
 
-Hibernation is a feature in Windows that allows you to sleep your computer, except from it temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
+Hibernation is a feature in Windows that allows you to sleep your computer, it temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
 
 Hibernation is a disabled feature by default (due to its potential issues), but you can easily enable it with `Enable Hibernation.cmd` or `Disable Hibernation (default).cmd` in the `Hibernation` folder.
 
@@ -155,7 +155,7 @@ UWP (Universal Windows Platform) is a built-in feature on Windows 10 which is us
 
 VPN is a built-in feature on Windows 10 which is used to connect to a VPN. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable VPN support.cmd` file in the `VPN` folder.
 
-## Wi-FI
+## Wi-Fi
 
 Wi-Fi is a built-in feature on Windows 10 which is used to connect to Wi-Fi networks. On Atlas we have enabled this. To disable just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
@@ -163,4 +163,4 @@ Wi-Fi is a built-in feature on Windows 10 which is used to connect to Wi-Fi netw
     You may need to install Drivers for Wi-Fi to work. Learn how to do this [here](/Getting%20started/Post-Installation/Drivers/)
 ## Xbox
 
-Xbox is enabled on Atlas because it has a big part of the PC market for gaming. If you wish to remove Xbox, just run the `Remove Xbox Components.cmd` file in the `Xbox` folder.
+Xbox is enabled on Atlas because it is a big part of the PC market for gaming. If you wish to remove Xbox, just run the `Remove Xbox Components.cmd` file in the `Xbox` folder.

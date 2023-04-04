@@ -17,8 +17,8 @@ If you have changed your network settings but want to go back to the original At
 
 ActiveProbing pings Microsoft's servers every so often to see if there is a network connection. If you want more privacy on your computer, you should turn off ActiveProbing. However, turning off ActiveProbing can make things worse for the user. If ActiveProbing is turned off, the following can happen:
 
-* The network icon to show a disconnected icon—even though you have a stable and active connection
-* Apps do not work right because they need ActiveProbing
+* The network icon to show a disconnected icon, even though you have a stable and active connection.
+* Apps do not work right because they need ActiveProbing.
 
 ## :material-shield-lock-outline: Safe mode
 
@@ -29,8 +29,8 @@ Safe mode starts Windows in a very simple way, with only a few files and drivers
 
     Safe mode can help with:
 
-    * Uninstalling and fixing drivers
-    * Getting rid of viruses
+    * Uninstalling and fixing drivers.
+    * Getting rid of viruses.
 
 ### Safe Mode
 
