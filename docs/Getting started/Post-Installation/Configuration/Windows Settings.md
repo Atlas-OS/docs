@@ -27,7 +27,7 @@ This file will take you to the page in Windows Settings called Default Apps. You
 
 ## :material-monitor-screenshot: Desktop Icons
 
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+This file will take you to the Windows Settings page for Desktop Icon settings. On this page, you can change what default icons you want to view on your desktop. 
 
 ## :material-alphabetical: Language
 
