@@ -153,10 +153,8 @@ nav:
         - Index: Getting started/Post-Installation/Drivers/index.md
         - GPU:
           - Intel: Getting started/Post-Installation/Drivers/GPU/Intel.md
-          - AMD:
-            - Index: Getting started/Post-Installation/Drivers/GPU/AMD/index.md
-          - NVIDIA:
-            - Index: Getting started/Post-Installation/Drivers/GPU/NVIDIA/index.md
+          - AMD: Getting started/Post-Installation/Drivers/GPU/AMD.md
+          - NVIDIA: Getting started/Post-Installation/Drivers/GPU/NVIDIA.md
       - Configuration:
         - Index: Getting started/Post-Installation/Configuration/index.md
         - Advanced Configuration: Getting started/Post-Installation/Configuration/Advanced Configuration.md
