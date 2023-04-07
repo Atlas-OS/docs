@@ -35,6 +35,18 @@ Firewall is a built-in feature on Windows 10 which is used to block unwanted con
 
 FSO and Game Bar are built-in features on Windows 10 which are used to record your screen and take screenshots. On Atlas we have disabled them to make the experience more fluid and faster. To enable just run the `Enable FSO and Game Bar.reg` file in the `FSO and Game Bar` folder.
 
+## Game Mode
+
+Game Mode is a new feature in Windows 10 that lets you make your system work better for gaming, but it can also make some games run slower.
+
+It does this by turning off services and background processes that are not needed for gaming. It has shown that it is not as performant as it seems to be in the latest research.
+
+By default, this is turned off, but you can turn it on by running the ``Enable Game Mode.reg`` file. This can be found in the folder called "Game Mode."
+
+## HAGS
+
+*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
 ## HDD
 
 Prefetching is a built-in feature on Windows 10 which is used to speed up your computer by preloading files. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable Prefetching.cmd` file in the `HDD` folder.
