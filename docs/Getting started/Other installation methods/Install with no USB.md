@@ -1,6 +1,6 @@
 # Non-USB Install Guide
 
-#### Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in Atlas repository [issues](https://github.com/Atlas-OS/Atlas/issues/153). 
+#### Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in Atlas repository [issues](https://github.com/Atlas-OS/Atlas/issues/153).
 
 !!! warning "Prerequisites"
 	Before proceeding with this guide, make sure you have the latest 22H2 .iso file by following the [Downloading an ISO guide](https://docs.atlasos.net/Getting%20started/Installation/#download-an-iso) on the installation page.

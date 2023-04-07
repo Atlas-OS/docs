@@ -69,7 +69,7 @@ Microsoft Store is a built-in feature on Windows 10 which is used to download ap
 
 ## Mitigations
 
-Mitigations are a built-in feature in Windows which are used to fix securtity vulnerabilities protect your computer from malicious software. 
+Mitigations are a built-in feature in Windows which are used to fix securtity vulnerabilities protect your computer from malicious software.
 
 On Atlas we have disabled this by default to improve performance for older CPUs, as it is very unlikely that a user will be compromised from this change. However, with some newer CPUs (like Zen 4 CPUs), it can be significantly worse for performance to disable mitigations or almost pointless to, due to the CPUs being optimised for these mitigations.
 
@@ -143,7 +143,7 @@ Search Indexing is a built-in feature on Windows 10 which is used to index files
 
 ## Start Menu
 
-The start menu folder is a place that stores start menu related tweaks. It also gives you the option to disable the start menu. We will go through all the files in this folder. 
+The start menu folder is a place that stores start menu related tweaks. It also gives you the option to disable the start menu. We will go through all the files in this folder.
 
 The `Install Open-Shell (run first).cmd` file is there so you can install Open-Shell which you can find more information about [here](https://open-shell.github.io/Open-Shell-Menu/)
 

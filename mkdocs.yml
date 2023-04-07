@@ -82,7 +82,7 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
   icon:
-    edit: material/file-edit 
+    edit: material/file-edit
     view: material/file-eye
 
 
@@ -100,14 +100,14 @@ extra:
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/
   #consent:
   #  title: Cookie consent
-  #  description: >- 
+  #  description: >-
   #    We use cookies to recognize your repeated visits and preferences, as well
   #    as to measure the effectiveness of our documentation and whether users
   #    find what they are searching for. With your consent, you are helping us to
   #    make our documentation better.
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
-  analytics: 
+  analytics:
     provider: custom
   #  feedback:
   #    title: Was page this helpful?
@@ -120,7 +120,7 @@ extra:
   #      - icon: material/emoticon-confused
   #        name: This page could be improved
   #        data: 0
-  #        note: >- 
+  #        note: >-
   #          Thank you for your feedback! Help us improve by
   #          <a href="https://github.com/Atlas-OS/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">submitting your feedback</a>.
 
@@ -154,11 +154,9 @@ nav:
         - GPU:
           - Intel: Getting started/Post-Installation/Drivers/GPU/Intel.md
           - AMD:
-            - Getting started/Post-Installation/Drivers/GPU/AMD/Configuration.md
-            - Getting started/Post-Installation/Drivers/GPU/AMD/Installation.md
+            - Index: Getting started/Post-Installation/Drivers/GPU/AMD/index.md
           - NVIDIA:
-            - Getting started/Post-Installation/Drivers/GPU/NVIDIA/Configuration.md
-            - Getting started/Post-Installation/Drivers/GPU/NVIDIA/Installation.md
+            - Index: Getting started/Post-Installation/Drivers/GPU/NVIDIA/index.md
       - Configuration:
         - Index: Getting started/Post-Installation/Configuration/index.md
         - Advanced Configuration: Getting started/Post-Installation/Configuration/Advanced Configuration.md
@@ -208,7 +206,7 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/
   - social:
       cards_color:
-        fill: "#1991ff" 
+        fill: "#1991ff"
         text: "#ffffff"
       cards_dir: assets/images/metadata
 
@@ -240,7 +238,7 @@ plugins:
 # Python Markdown
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
-# 
+#
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - admonition
@@ -271,7 +269,7 @@ markdown_extensions:
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
 
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences
   - pymdownx.superfences

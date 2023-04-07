@@ -6,7 +6,7 @@ When you run these files, you will go straight to the Windows Settings page for 
 
 ## :material-lock-open-outline: Activation
 
-This file will take you to the page in Windows Settings for Activation. Before you can change some of the other settings, you will need to activate Windows. 
+This file will take you to the page in Windows Settings for Activation. Before you can change some of the other settings, you will need to activate Windows.
 
 Activation is a one-time thing that you won't have to do again. We recommend activating Windows because it gives you more customization features and gets rid of the "Activate Windows" watermark in the bottom right corner.
 
@@ -27,7 +27,7 @@ This file will take you to the page in Windows Settings called Default Apps. You
 
 ## :material-monitor-screenshot: Desktop Icons
 
-This file will take you to the Windows Settings page for Desktop Icon settings. On this page, you can change what default icons you want to view on your desktop. 
+This file will take you to the Windows Settings page for Desktop Icon settings. On this page, you can change what default icons you want to view on your desktop.
 
 ## :material-alphabetical: Language
 

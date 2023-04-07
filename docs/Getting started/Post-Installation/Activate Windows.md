@@ -1,6 +1,6 @@
 ## Activating Windows
 
-In some cases, your Windows may already be activated. If this is the case for you, you can skip this section. 
+In some cases, your Windows may already be activated. If this is the case for you, you can skip this section.
 
 To check if otherwise or to activate yourself you can follow one of the guides below.
 

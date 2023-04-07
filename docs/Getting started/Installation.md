@@ -117,8 +117,8 @@ This step may be different for you depending on how you made your bootable USB. 
 ## :material-power: Booting your USB
 
 1. Disconnect the internet cable from your device and do not connect to the internet during the installation.
-    - This stops the Windows OOBE from making unauthorized changes that could later hurt the Atlas installation process. 
-2. Boot into your USB using Boot Menu/BIOS. 
+    - This stops the Windows OOBE from making unauthorized changes that could later hurt the Atlas installation process.
+2. Boot into your USB using Boot Menu/BIOS.
     - If you are using Ventoy, choose the ISO file that you moved on the USB Stick in the program menu.
 4. Proceed with the Windows installation as usual.
     - If asked, choose your desired edition (Windows 10 Professional is recommended).
@@ -130,7 +130,7 @@ This step may be different for you depending on how you made your bootable USB. 
 1. Place the ``Atlas`` folder from the USB Stick on the desktop.
 2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent installing drivers via Windows Update. Restart your computer.
 3. After rebooting, you can install ethernet drivers, and connect to the internet.
-4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you might have missed. 
+4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you might have missed.
 5. Run ``AME Wizard.exe`` and load the Atlas Playbook. Follow the wizard instructions.
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing ``More info`` and ``Run anyway``.
 
