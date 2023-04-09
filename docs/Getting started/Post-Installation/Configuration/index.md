@@ -97,31 +97,9 @@ The Oculus VR folder is made to enable installing the Oculus software. We have d
 
 The power folder is a folder that allows you to manage power related settings. Some folders enable tweaks but we will go through all so you can understand what they do.
 
-### Idle Tweaks (100% CPU)
+### CPU Idle
 
 *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
-
-### Power Management (High Temps)
-
-Disable or enable:
-
-- Balanced power scheme
-- Power throttling
-- Drivers and PnP power savings
-- ACPI system devices
-
-It is recommended to enable power management features for laptop and low-end PC users.
-
-### Sleep States
-
-Sleep States are enabled by default. These are features that allow your computer to go into different sleep states. These are:
-
-- Low Latency wake sleep (Sleep)
-- Sleep
-- Traditional Sleep/Legacy Standby (Sleep)
-- Hibernation
-
-You can learn more about them [here](https://github.com/Atlas-OS/Atlas/wiki/3.-Post-Install#sleep-states)
 
 ### Hibernation
 
