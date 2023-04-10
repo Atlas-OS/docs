@@ -30,12 +30,16 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
     - Texture filtering - Quality - High performance
     - Threaded Optimization - Offloads GPU-related processing tasks on the CPU, it usually hurts frame pacing. If you are CPU bottlenecked, choose ``On`` option.
     - Vertical sync - Off
-- Configure the following in the ``Display -> Adjust desktop size and position`` page:
-    - Set a scaling mode to ``No scaling`` and perform scaling on ``Display``.
+- Configure the following in the ``Display -> Change resolution`` page:
     - Configure your monitor resolution and refresh rate.
+    - Output dynamic range - Full
+    - Output color depth - Value matching your monitor specification
 - Optionally increase the level of ``Digital vibrance`` in ``Display -> Adjust desktop color settings`` as it manages color saturation and intestity, and can reduce eye strain
     - Check out [VibranceGUI](https://vibrancegui.com).
-- Skim through color and video settings and make sure that the dynamic range is set to ``Full`` and output color depth is set to the value matching your monitor specification.
+- Configure the following in the ``Display -> Adjust desktop size and position`` page:
+    - Select a scaling mode - No scaling
+    - Perform scaling on - Display
+- Set dynamic range to ``Full`` in ``Video -> Adjust video color settings -> Advanced``
 
 ## Force P-State 0 (Advanced)
 
