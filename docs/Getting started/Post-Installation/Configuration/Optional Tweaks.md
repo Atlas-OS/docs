@@ -1,3 +1,5 @@
+# Optional Tweaks
+
 These are some cool tweaks that you can turn on. For example, you could change the old alt-tab to the new one or bring back the old one. You can pick and use any of the options.
 
 All of the configuration files are located in the `3. Configuration/4. Optional Tweaks` folder. In your Atlas folder on your Desktop. If you have managed to misplace this folder you can download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas) or find it in `C:/Users/default/Desktop/`.
