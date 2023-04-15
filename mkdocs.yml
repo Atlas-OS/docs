@@ -161,9 +161,7 @@ nav:
         - Optional Tweaks: Getting started/Post-Installation/Configuration/Optional Tweaks.md
         - Windows Settings: Getting started/Post-Installation/Configuration/Windows Settings.md
       - Software:
-        - Getting started/Post-Installation/Software/index.md
-        - Getting started/Post-Installation/Software/Chocolatey.md
-        - Getting started/Post-Installation/Software/Scoop.md
+        - Index: Getting started/Post-Installation/Software/index.md
       - Activate Windows: Getting started/Post-Installation/Activate Windows.md
   - Troubleshooting:
     - Removed features: Troubleshooting/Removed features.md
