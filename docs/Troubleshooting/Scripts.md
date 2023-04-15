@@ -13,14 +13,7 @@ If you are having trouble with networking after installing AtlasOS for the first
 
 If you have changed your network settings but want to go back to the original AtlasOS optimizations and network settings, you can reset your network settings to AtlasOS defaults. This will restore all of the internet settings from a new AtlasOS installation.
 
-### ActiveProbing
-
-ActiveProbing pings Microsoft's servers every so often to see if there is a network connection. If you want more privacy on your computer, you should turn off ActiveProbing. However, turning off ActiveProbing can make things worse for the user. If ActiveProbing is turned off, the following can happen:
-
-* The network icon to show a disconnected icon, even though you have a stable and active connection.
-* Apps do not work right because they need ActiveProbing.
-
-## :material-shield-lock-outline: Safe mode
+## :material-shield-lock-outline: Safe Mode
 
 Safe mode starts Windows in a very simple way, with only a few files and drivers. If a problem does not occur in safe mode, it means that the problem is not caused by the default settings or basic device drivers. Seeing how Windows works in safe mode can help you figure out where a problem is coming from and fix it on your PC.
 

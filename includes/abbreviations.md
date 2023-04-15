@@ -1,13 +1,15 @@
-*[UWP]: Universal Windows Platform
-*[WSL]: Windows Subsystem for Linux
-*[TPM]: Trusted Platform Module
-*[GPT]: GUID Partition Table
-*[MBR]: Master Boot Record
-*[UEFI]: Unified Extensible Firmware Interface
 *[BIOS]: Basic Input/Output System
+*[DSCP]: Differentiated Services Code Point
+*[GPT]: GUID Partition Table
+*[HAGS]: Hardware-accelerated GPU scheduling
+*[MBR]: Master Boot Record
+*[MPO]: Multi-Plane Overlay
 *[OOBE]: Out-of-box experience
 *[Playbook]: An .abpx file for the AME Wizard
-*[HAGS]: Hardware-accelerated GPU scheduling
 *[SDIO]: Snappy Driver Installer Origin
 *[SLUI]: Software License User Interface
-*[DSCP]: Differentiated Services Code Point
+*[TPM]: Trusted Platform Module
+*[UEFI]: Unified Extensible Firmware Interface
+*[UWP]: Universal Windows Platform
+*[VRR]: Variable refresh rate
+*[WSL]: Windows Subsystem for Linux

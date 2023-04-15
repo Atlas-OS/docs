@@ -39,6 +39,15 @@ rundll32 display.dll,ShowAdapterSettings 0
 ```
 - Disable the residual AMD services and drivers. Typically the ``AMD Crash Defender`` and ``AMD External Events Utility`` (required for VRR) services.
 
+### Disable Multi-Plane Overlay (MPO)
+
+Disabling Multi-plane Overlay (MPO) can fix some desktop applications flicker or stutter issues. Stuttering or screen flickers may occur during video playback using hardware acceleration with browsers. Blackscreens may occur when alt tabbing from games or applications to the browser that has a video on loop. Some desktop apps may flicker or stutter when resizing the window on some personal computers.
+
+MPO can be disabled by using the following command in CMD ran as administator:
+```bat
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm" /v "OverlayTestMode" /t REG_DWORD /d "5" /f
+```
+
 ## Force P-State 0 (Advanced)
 
 *We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*

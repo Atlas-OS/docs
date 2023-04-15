@@ -8,7 +8,7 @@ We recommend using NVCleanstall, as it is a GUI app alternative to the manual me
 - After the driver downloaded tick the following installation tweaks:
     - Disable Installer Telemetry & Advertising
     - Perform a Clean Installation
-    - Disable Multiplane Overlay (MPO)
+    - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/Getting%20started/Post-Installation/Drivers/GPU/AMD/#disable-multi-plane-overlay-mpo)
     - Show Expert Tweaks
         - Disable Driver Telemetry
     - Use method compatible with Easy-Anti-Cheat
@@ -44,12 +44,13 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
 ## Force P-State 0 (Advanced)
 
 ### Attention
+
 This will force P-State 0 on your NVIDIA card **AT ALL TIMES**, it will always run at full power.
 It is not recommended to set it, if you leave your computer on idle for a long time, have a bad cooling or use a laptop.
 
 Nvidia drivers force the power state for CUDA compute workloads other than real-time graphics to the lower P2 power state instead of the maximum P0 state. The difference between the two states is a lower memory clock frequency, the core clocks are identical in both states [[1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/WINDRIVERS/README.md#q-is-there-a-registry-setting-that-can-force-your-display-adapter-to-remain-at-its-highest-performance-state-pstate-p0), [2](https://forums.developer.nvidia.com/t/one-weird-trick-to-get-a-maxwell-v2-gpu-to-reach-its-max-memory-clock/40153)].
 
-P-State 0 can be forced by using the following command in CMD:
+P-State 0 can be forced by using the following command in CMD ran as administator:
 ```bat
 for /f "tokens=*" %a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}" /t REG_SZ /s /e /f "NVIDIA" ^| findstr "HK"') do (reg add "%a" /v "DisableDynamicPstate" /t REG_DWORD /d "1" /f)
 ```
