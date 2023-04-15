@@ -150,7 +150,8 @@ VPN is a built-in feature on Windows 10 which is used to connect to a VPN. On At
 Wi-Fi is a built-in feature on Windows 10 which is used to connect to Wi-Fi networks. On Atlas we have enabled this. To disable just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
 !!! warning
-    You may need to install Drivers for Wi-Fi to work. Learn how to do this [here](/Getting%20started/Post-Installation/Drivers/)
+    You may need to install Drivers for Wi-Fi to work. Learn how to do this [here](/Getting%20started/Post-Installation/Drivers)
+
 ## Xbox
 
-Xbox is enabled on Atlas because it is a big part of the PC market for gaming. If you wish to remove Xbox, just run the `Remove Xbox Components.cmd` file in the `Xbox` folder.
+Xbox is enabled on Atlas because it is a big part of the PC market for gaming. If you wish to remove Xbox, just run the `Remove Xbox Applications.cmd` file in the `Xbox` folder.
