@@ -55,10 +55,6 @@ Prefetching is a built-in feature on Windows 10 which is used to speed up your c
 
 Hyper-V and VBS are built-in features on Windows 10 which are used to run virtual machines and scripts. On Atlas we have disabled them to make the experience more fluid and faster. To enable just run the `Enable Hyper-V and VBS.cmd` file in the `Hyper-V and VBS` folder.
 
-## IE and WMP
-
-IE (Internet Explorer) and WMP (Windows Media Player) are built-in features on Windows 10 which are used to browse the internet and play media. On Atlas we have enabled these to allow you to browse the internet (we recommend not using Internet Explorer) or view media out of the box. You can disable these with the 2 files: `Disable Internet Explorer.cmd` and `Disable Windows Media Project.cmd` in the `IE and WMP` folder.
-
 ## Lanman Workstation (SMB)
 
 Lanman Workstation (SMB) is a built-in feature on Windows 10 which is used to connect to other computers on your network. On Atlas we have disabled this to make the experience more fluid and faster. To enable just run the `Enable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.

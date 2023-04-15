@@ -26,8 +26,6 @@ This is another folder that lets you change how your default file explorer works
 
 You can change the folders that are shown by default in File Explorer's "This PC" section. Run the ``Remove all folders in This PC (default).reg`` or ``Restore all folders in This PC.reg`` files to remove or add all folders from this section.
 
-You can also use the "Remove each folder" and "Restore each folder" folders to get rid of or bring back each folder.
-
 ## Network Navigation Pane
 
 By running the ``Network Pane.reg`` file, you can enable or disable the network pane.
@@ -36,7 +34,7 @@ By running the ``Network Pane.reg`` file, you can enable or disable the network 
 
 In File Explorer, there is a section called "Quick Access" that shows you your pinned folders. Run the ``Remove Quick Access.reg`` or ``Show Quick Access (default).reg`` files to turn this section on or off.
 
-## Removeable Drives in Sidebar
+## Removable Drives in Sidebar
 
 Here, you can run the ``Enable Removable Drives in Sidebar.reg`` file to make removable drives show up in the sidebar.
 
@@ -55,10 +53,6 @@ With the ``Debloat Send To Context Menu.cmd`` file, you can reduce the items in 
 ## :material-folder-text: Shortcut Text
 
 By default, this is turned off, but you can turn it back on by running the ``Restore Shortcut Text.reg`` file. This will show the text of start menu shortcuts.
-
-## :material-star-four-points: Visual Effects
-
-If you click on the "Configure Visual Effects" file, it will take you to the page in Windows Settings for visual effects. On this page, you can change the way your AtlasOS installation looks and feels visually.
 
 ## :material-volume-high: Volume Flyout
 
