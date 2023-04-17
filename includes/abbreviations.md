@@ -1,5 +1,7 @@
 *[BIOS]: Basic Input/Output System
+*[CPU]: Central Processing Unit
 *[DSCP]: Differentiated Services Code Point
+*[GPU]: Graphics Processing Unit
 *[GPT]: GUID Partition Table
 *[HAGS]: Hardware-accelerated GPU scheduling
 *[MBR]: Master Boot Record

@@ -6,12 +6,12 @@ Only install drivers that are needed for hardware that is not currently working.
 
 If you do not know what brands and drivers to get for each component, you can look up your hardware to find out what the drivers are called and then install them.
 
-!!! warning "GPU Drivers"
-    We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated and optimized when installed by other methods. We have included installation guides for popular graphics card brands below:
+## GPU Drivers
+We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated and optimized when installed by other methods. We have included installation guides for popular graphics card brands below:
 
-    * [NVIDIA](/Getting%20started/Post-Installation/Drivers/GPU/NVIDIA)
-    * [AMD](/Getting%20started/Post-Installation/Drivers/GPU/AMD)
-    * [Intel](/Getting%20started/Post-Installation/Drivers/GPU/Intel)
+* [NVIDIA](/Getting%20started/Post-Installation/Drivers/GPU/NVIDIA)
+* [AMD](/Getting%20started/Post-Installation/Drivers/GPU/AMD)
+* [Intel](/Getting%20started/Post-Installation/Drivers/GPU/Intel)
 
 ## :material-screwdriver: Snappy Driver Installer Origin
 
