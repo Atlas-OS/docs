@@ -43,8 +43,8 @@ The following bootable USB creators that we have written about need an ISO file 
 
 === "UUP dump"
 
-    1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest ``amd64`` Feature Update. If Feature Update is not available, c
-    choose latest Cumulative Update.
+    1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest ``amd64`` Feature Update. 
+    If Feature Update is not available, choose latest Cumulative Update.
     2. Choose the desired language and click ``Next``.
     3. Select the desired edition as the only edition (Professional is recommended), then click ``Next``.
     4. ``Download method`` should be ``Download and convert to ISO``, and ``Include updates (Windows converter only)`` should be ticked only.
