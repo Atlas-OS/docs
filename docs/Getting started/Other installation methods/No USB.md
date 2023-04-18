@@ -1,4 +1,4 @@
-# Non-USB Install Guide
+# No USB Installation Guide
 
 #### Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in the Atlas repository, in [issues](https://github.com/Atlas-OS/Atlas/issues/153).
 
