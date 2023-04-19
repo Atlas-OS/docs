@@ -1,8 +1,6 @@
-### Want to make Atlas better？ Feel free to commit in our open-source repository!
+### Do you want to make Atlas better？Feel free to commit to our open-source [repository](https://github.com/Atlas-OS/Atlas)!
 
-[CLICK HERE](https://github.com/Atlas-OS/Atlas)
-
-#### What you can do:
-- Improve our tweak Scripts
-- Translate our README
-- Translate our Docs (_NOT AVAILABLE)
+#### What you can help with:
+- Improving our Scripts.
+- Translating our Docs. (NOT AVAILABLE)
+- Translating our README.
