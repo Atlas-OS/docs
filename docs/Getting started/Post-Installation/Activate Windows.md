@@ -2,10 +2,10 @@
 
 In some cases, your Windows may already be activated. If this is the case for you, you can skip this section.
 
-To check if otherwise or to activate yourself you can follow one of the guides below.
+To check if your Windows is activated, or to activate yourself if it's not, you can follow one of the guides below.
 
 !!! warning
-    Please activate Windows using the key related to the Windows 10 edition you installed, you can check this by going to `Settings` > `System` > `About` and checking the edition. If it say's enterprise, in most cases or another you just have Windows 10 Pro.
+    Please activate Windows using the key related to the Windows edition you installed, you can check this by going to `Settings` > `System` > `About` and checking the edition. If it say's enterprise, in most cases you just have Windows Pro or Home.
 
 ??? info "Windows Settings"
     Open Windows Settings with ++windows+i++ or by clicking the Windows icon in the bottom left corner and clicking the gear icon. From here go to `Update & Security` and then `Activation`. You can then see if activated and if not you can activate yourself.
