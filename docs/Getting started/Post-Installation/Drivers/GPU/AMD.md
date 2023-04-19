@@ -17,7 +17,7 @@ We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app altern
         - AMD Streaming Audio Filter Driver
 - Untick everything in the ``Scheduled Tasks`` tab.
 - Untick evertything in the ``Display Driver Components``. If you are using Audio from your monitor, do not remove ``High Definition Audio Bus``.
-- Click ``Modify Installer`` and ``Run Installer``. Continue with driver setup as per usual.
+- Click ``Modify Installer`` and ``Run Installer``, and then continue with driver setup as usual.
 
 ## Configure Radeon Software
 
@@ -31,8 +31,8 @@ We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app altern
 - Configure the following in the ``Display`` tab:
     - AMD FreeSync - It has the potential to increase input latency due to extra processing. Your mileage may vary as it has supposedly improved over time.
     - GPU Scaling - Off
-    - Color Depth - Value that matches your monitor's specification
-- Disable all settings in ``Hotkeys`` and ``Prefrences`` tabs.
+    - Color Depth - Value that matches your monitor's specifications
+- Disable all settings in ``Hotkeys`` and ``Preferences`` tabs.
 - Configure your refresh rate and resolution by typing the following command in ++windows+r++:
 ```
 rundll32 display.dll,ShowAdapterSettings 0
@@ -41,9 +41,9 @@ rundll32 display.dll,ShowAdapterSettings 0
 
 ### Disable Multi-Plane Overlay (MPO)
 
-Disabling Multi-plane Overlay (MPO) can fix some desktop applications flicker or stutter issues. Stuttering or screen flickers may occur during video playback using hardware acceleration with browsers. Blackscreens may occur when alt tabbing from games or applications to the browser that has a video on loop. Some desktop apps may flicker or stutter when resizing the window on some personal computers.
+Disabling Multi-plane Overlay (MPO) can fix some desktop applications flickering or stuttering, which may occur during video playback using hardware acceleration with browsers. Blackscreens may occur when alt tabbing from games or applications to a browser that has a video on loop. Some desktop apps may flicker or stutter when resizing the window on some computers.
 
-MPO can be disabled by using the following command in CMD ran as administator:
+MPO can be disabled by running the following command in CMD (make sure you run CMD as administrator):
 ```bat
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm" /v "OverlayTestMode" /t REG_DWORD /d "5" /f
 ```
