@@ -147,7 +147,7 @@ nav:
   - Getting Started:
     - Installation: Getting started/Installation.md
     - Other installation methods:
-      - Install with no USB: Getting started/Other installation methods/Install with no USB.md
+      - No USB: Getting started/Other installation methods/No USB.md
     - Post-Installation:
       - Drivers:
         - Index: Getting started/Post-Installation/Drivers/index.md
