@@ -1,17 +1,17 @@
-AtlasOS comes with some simple scripts for fixing problems in the "Atlas" folder. These included scripts can help you find the cause of more general problems you are having and get Atlas back to its original state.
+Atlas comes with some simple scripts for fixing problems in the "Atlas" folder. These included scripts can help you find the cause of more general problems you are having and get Atlas back to its original state.
 
 ## :material-network-outline: Network
 
 !!! warning "Restart after running scripts"
-    Changes to the network made with the AtlasOS scripts will not work right until you restart your system. After running an AtlasOS network script, make sure to save your work and restart your computer.
+    Changes to the network made with the Atlas scripts will not work right until you restart your system. After running an Atlas network script, make sure to save your work and restart your computer.
 
 ### Reset Network
 
 If you have been messing around with your network settings to try to fix or improve them on your own, resetting them to the Windows or Atlas defaults can help.
 
-If you are having trouble with networking after installing AtlasOS for the first time, you might find that resetting your networking settings to the Windows defaults helps. Using the default network settings in Windows can help you figure out if the network optimizations in AtlasOS are the cause of your internet problems.
+If you are having trouble with networking after installing Atlas for the first time, you might find that resetting your networking settings to the Windows defaults helps. Using the default network settings in Windows can help you figure out if the network optimizations in Atlas are the cause of your internet problems.
 
-If you have changed your network settings but want to go back to the original AtlasOS optimizations and network settings, you can reset your network settings to AtlasOS defaults. This will restore all of the internet settings from a new AtlasOS installation.
+If you have changed your network settings but want to go back to the original Atlas optimizations and network settings, you can reset your network settings to Atlas defaults. This will restore all of the internet settings from a new Atlas installation.
 
 ## :material-shield-lock-outline: Safe Mode
 
@@ -31,7 +31,7 @@ Safe Mode starts your computer in the default safe mode, which has only the driv
 
 ### Safe Mode with Command Prompt
 
-The command prompt (cmd) is available in all safe mode states, but "Safe Mode with Command Prompt" only gives you the command prompt. You will not have menus and a user interface to help you get around. Instead, you will have an admin-level command prompt.
+The Command Proompt (CMD) is available in all safe mode states, but "Safe Mode with Command Prompt" only gives you the Command Prompt. You will not have a user interface to help you get around. Instead, you will have an admin-level command prompt.
 
 ### Safe Mode with Networking
 

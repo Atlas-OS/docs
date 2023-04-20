@@ -2,11 +2,11 @@
 
 These are some cool tweaks that you can turn on. For example, you could change the old alt-tab to the new one or bring back the old one. You can pick and use any of the options.
 
-All of the configuration files are located in the `3. Configuration/4. Optional Tweaks` folder. In your Atlas folder on your Desktop. If you have managed to misplace this folder you can download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas) or find it in `C:/Users/default/Desktop/`.
+All of the configuration files are located in the `3. Configuration/4. Optional Tweaks` folder. In your Atlas folder on your Desktop. If you deleted this folder you can find it in `C:/Users/default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
 
 ## :material-swap-horizontal-circle-outline: Alt-Tab
 
-Alt-Tab is a folder that lets you choose whether to use the new Alt-Tab menu or the old one. The new one is used in Windows 10, and the old one is used in Windows 7.
+The Alt-Tab folder lets you choose whether to use the new Alt-Tab menu or the old one. The new one is used in Windows 10, and the old one is used in Windows 7.
 
 AtlasOS comes with the Legacy Alt-Tab, but you can run the ``Modern Alt-Tab.reg`` file to get the modern one.
 
@@ -16,7 +16,7 @@ AtlasOS comes with the Legacy Alt-Tab, but you can run the ``Modern Alt-Tab.reg`
 
 ## :material-tab: Dark Titlebars
 
-Titlebars are the bars at the top of windows that have the window's name and buttons to close, minimize, and enlarge it. By running the ``Enable Dark Mode Titlebars.reg`` file, you can change these from white to dark.
+Titlebars are the bars at the top of windows that have the window's name and buttons to close, minimize, and enlarge it. By running the ``Enable Dark Mode Titlebars.reg`` file, you can change these from light to dark.
 
 ## :material-file-find-outline: File Explorer Customization
 
@@ -40,11 +40,11 @@ Here, you can run the ``Enable Removable Drives in Sidebar.reg`` file to make re
 
 ## :material-eye-lock-outline: Lock Screen
 
-By running the ``Show Lock Screen.reg`` file, the lock screen can be restored to appear.
+By running the ``Show Lock Screen.reg`` file, the lock screen can be restored.
 
 ## :material-arrow-up-bold-outline: Run With Priority in context menu
 
-Running with priority is a feature that lets you tell a program how important it should be. By running the ``Add Run With Priority In Context Menu.reg`` file, you can turn on to control the priority via the context menu.
+Running with priority is a feature that lets you tell a program how important it should be. By running the ``Add Run With Priority In Context Menu.reg`` file, you can control app priorities via the context menu.
 
 ## :material-menu: Send To Context Menu
 
@@ -56,4 +56,4 @@ By default, this is turned off, but you can turn it back on by running the ``Res
 
 ## :material-volume-high: Volume Flyout
 
-This lets you switch between the legacy and modern looks for the volume flyout. By default, AtlasOS uses the new one, but you can change that by running the ``Old Volume Flyout.reg`` file.
+This lets you switch between the legacy and modern looks for the volume flyout. By default, Atlas uses the modern look, but you can change that by running the ``Old Volume Flyout.reg`` file.

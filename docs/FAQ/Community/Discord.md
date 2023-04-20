@@ -1,8 +1,8 @@
-### We have a Discord! Feel free to join and discuss with others!
-
-[CLICK HERE](https://discord.gg/atlasos)
+### We have a [Discord](https://discord.gg/atlasos)! Feel free to join our community!
 
 #### What you can do:
-- Chat with other users who use Atlas
-- Get support from the Community & Help others
-- more...
+- Chat with other people who use Atlas.
+- Get support from the community.
+- More...
+
+If you have any trouble with the installation, you can ask for help on our Discord server or our forums. We have a big group of people who care and want to help.
