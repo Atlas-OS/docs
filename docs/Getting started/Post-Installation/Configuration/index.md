@@ -45,11 +45,7 @@ By default, this is turned off, but you can turn it on by running the ``Enable G
 
 ## HAGS
 
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
-
-## HDD
-
-Prefetching is a built-in feature on Windows which is used to speed up your computer by preloading files. On Atlas we have disabled it by default to make the experience more fluid and faster. To enable it just run the `Enable Prefetching.cmd` file in the `HDD` folder.
+HAGS (Hardware-Accelerated GPU Scheduling) is a built-in feature in Windows that aims to make your system faster, but it doesn't produce positive results for every system, so you should test it for yourself.
 
 ## Hyper-V and VBS
 
