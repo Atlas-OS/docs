@@ -128,10 +128,10 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically instaling drivers via Windows Update, and restart your computer.
 3. After restarting, you can install ethernet drivers, and connect to the internet.
 4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
-5. Run ``AME Wizard.exe`` and load the Atlas Playbook, and Follow the wizard instructions.
+5. Run ``AME Wizard.exe`` and load the Atlas Playbook, and follow the wizard instructions.
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing ``More info`` and ``Run anyway``.
 
-After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and faster speed.
+After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info ""
     After completing the Atlas installation process, continue the [Post-Installation - Activate Windows](https://docs.atlasos.net/Getting%20started/Post-Installation/Activate%20Windows) section in our documentation, and then continue to the other sections.
