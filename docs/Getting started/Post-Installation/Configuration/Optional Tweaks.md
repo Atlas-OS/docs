@@ -2,7 +2,7 @@
 
 These are some cool tweaks that you can turn on. For example, you could change the old alt-tab to the new one or bring back the old one. You can pick and use any of the options.
 
-All of the configuration files are located in the `3. Configuration/4. Optional Tweaks` folder. In your Atlas folder on your Desktop. If you deleted this folder you can find it in `C:/Users/default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
+All of the configuration files are located in the `3. Configuration/3. Optional Tweaks` folder. In your Atlas folder on your Desktop. If you deleted this folder you can find it in `C:/Users/default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
 
 ## :material-swap-horizontal-circle-outline: Alt-Tab
 
@@ -12,7 +12,7 @@ AtlasOS comes with the Legacy Alt-Tab, but you can run the ``Modern Alt-Tab.reg`
 
 ## :material-chip: CPU Idle in context menu
 
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+By running the ``Add Idle toggle in context menu.reg``, you can toggle idle on and off from the context menu.
 
 ## :material-tab: Dark Titlebars
 
