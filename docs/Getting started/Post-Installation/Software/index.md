@@ -6,6 +6,6 @@ Atlas makes it easy to install software. Chocolatey is a Windows package manager
 
 ## :material-shape-plus-outline: Installing software with Chocolatey
 
-You can install software by going to the folder (``Desktop/Atlas/1. Install Software``) and running the ``Install Software.ps1``script. This script will let you use Chocolatey to install popular software, follow the options to install the applications successfully.
+You can install software by going to the ``Desktop/Atlas/1. Install Software`` folder and running the ``Install Software.ps1`` script. This script will let you use Chocolatey to install popular software, follow the options to install the applications successfully.
 
 Furthermore, you can install software by typing ``choco install -y --ignore-checksums <package name>`` in the command line. You can find the name of the package on the [Chocolatey website](https://chocolatey.org/packages).
