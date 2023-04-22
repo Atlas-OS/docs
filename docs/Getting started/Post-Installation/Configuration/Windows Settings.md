@@ -1,6 +1,6 @@
 # Windows Settings
 
-Windows Settings is a folder on AtlasOS that lets you change the most common settings when you set up Atlas. For some of these, you may need to use the "Activation" file and activate Windows.
+Windows Settings is a folder on Atlas that lets you change the most common settings when you set up Atlas. For some of these, you may need to use the "Activation" file and activate Windows.
 
 All of the configuration files are located in the `3. Configuration/3. Windows Settings` folder. In your Atlas folder on your Desktop. If you deleted this folder you can find it in `C:/Users/default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas)
 

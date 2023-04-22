@@ -12,7 +12,7 @@ AtlasOS comes with the Legacy Alt-Tab, but you can run the ``Modern Alt-Tab.reg`
 
 ## :material-chip: CPU Idle in context menu
 
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+By running the ``Add Idle toggle in context menu.reg``, you can toggle idle on and off from the context menu.
 
 ## :material-tab: Dark Titlebars
 
