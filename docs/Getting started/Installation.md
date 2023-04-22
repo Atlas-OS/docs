@@ -139,4 +139,4 @@ After a few reboots, your system will be optimized and have less junk on it, tha
 ### :material-bug-outline: Troubleshooting
 
 ??? question "No internet?"
-    If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else
+    If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else.
