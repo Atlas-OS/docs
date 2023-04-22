@@ -1,21 +1,21 @@
-We have made sure that installing Atlas is not a hard process. The installation process takes only a few minutes longer than when you normally install Windows. Let us start setting up Atlas.
+We have made sure to make installing Atlas easy. The installation process only takes a few minutes longer, than when you normally install Windows. Now, l et us start setting up Atlas.
 
 !!! warning "Atlas is not pre-activated"
-    Atlas is **not** a pre-activated version of Windows. If you want to run Atlas legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure the seller is trusted and the key is legitimate, no matter where you buy it.
+    Atlas is **not** a pre-activated version of Windows. If you want to run Atlas legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure that the seller is trusted and that the key is legitimate, no matter where you buy it.
 
 !!! question "Need help?"
-    If you have any trouble with the installation, you can ask for help on our [forums](https://forum.atlasos.net/) or our [Discord server](https://discord.com/servers/atlas-795710270000332800). We have a big group of people who care and want to help.
+    If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net/), or our [Discord server](https://discord.com/servers/atlas-795710270000332800). We have a big community of people who care and want to help.
 
 ## :material-clipboard-list-outline: Requirements
 
-* [AME Wizard](https://atlasos.net/downloads)
-* [Atlas Playbook](https://atlasos.net/downloads)
 * A USB drive (8 GB minimum)
 * Bootable USB creator
 * A backup of all the files that you want to keep, either in the cloud or on an external drive.
+* [AME Wizard](https://atlasos.net/downloads)
+* [Atlas Playbook](https://atlasos.net/downloads)
 
 !!! tip "Download ethernet drivers"
-    Some ethernet adapters don't have drivers that come with Windows. This means that if you are using ethernet, you might not be able to connect to the internet after a reinstall. We recommend you to download the drivers for your ethernet adapter ahead of time and put them on your bootable Windows USB.
+    Some ethernet adapters don't have drivers that come with Windows. This means that if you are using ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
 
 ## Video Guide
 
@@ -23,23 +23,23 @@ We have made sure that installing Atlas is not a hard process. The installation 
 
 ## :material-disc: Download an ISO
 
-Depending on the bootable USB creator you want to use and how you want to use it, you may need to get your own Windows ISO because the bootable USB creator may not have a built-in download feature.
+Depending on the bootable USB creator you want to use, you may need to get your own Windows ISO because the bootable USB creator may not have a built-in download feature.
 
-The following bootable USB creators that we have written about need an ISO file manually:
+The following bootable USB creators that we have written about need an ISO file:
 
 * Ventoy
 * Rufus
 
 === "Windows Media Creation Tool (Recommended)"
 
-    1. Download [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
+    1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
     2. Click the ``Accept`` button to agree to the Microsoft license terms.
     3. Tick ``Create installation media (USB flash drive, DVD, or ISO file) for another PC``, click ``Next``, and choose:
         * Language: Desired language
         * Edition: Windows 10
         * Architecture: 64-bit (x64)
     4. Choose ``ISO file`` option and choose the download location.
-    5. After the ISO downloaded, click ``Finish`` to end the installation.
+    5. After the ISO completed downloading, click ``Finish`` to end the installation.
 
 === "UUP dump"
 
@@ -52,9 +52,7 @@ The following bootable USB creators that we have written about need an ISO file 
         * Make sure that your folder has no spaces between.
         * The ISO will be downloaded to the same folder as the download script.
 
-=== "Other Methods"
-
-    Use the following links in order to download Windows 10 22H2:
+=== "Other methods"
 
     - [MVS Collection](https://isofiles.bd581e55.workers.dev)
 
@@ -62,8 +60,8 @@ The following bootable USB creators that we have written about need an ISO file 
 
     - [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
-!!! example "Install with no USB"
-    There is a way to install Atlas without a USB drive. After you downloaded the ISO, you can learn how to install Atlas without a USB drive by reading [this](/Getting started/Other installation methods/Install with no USB). But if you want to set up and install Atlas quickly and easily, we suggest using a USB drive.
+!!! example "No USB"
+    There is a way to install Atlas without a USB drive. After you downloaded the ISO, you can read on how to install Atlas without a USB drive by reading [this](/Getting started/Other installation methods/No USB). But if you want to install Atlas quickly and easily, we suggest you to use a USB drive.
 
 ## Identify BIOS mode
 
@@ -82,8 +80,6 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 
 ## :material-usb-flash-drive-outline: Preparing your USB
 
-This step may be different for you depending on how you made your bootable USB. We have written down how to use the most popular tools for making bootable USB drives. But unfortunately, we cannot provide support and documentation for all bootable USB creators.
-
 !!! danger "Your USB will be wiped"
     Make sure to back up any files on the USB drive that you may want to keep, because the bootable USB creator will delete them. You cannot get around this, copy any files you want to keep to an external drive or the cloud.
 
@@ -91,15 +87,15 @@ This step may be different for you depending on how you made your bootable USB. 
 
     1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
     2. Plug in your USB Stick and open ``Ventoy2Disk.exe``.
-    2. Disable ``Secure Boot Support`` in the ``Option`` menu, if you have it disabled in BIOS and you use ``UEFI``.
+    2. Disable ``Secure Boot Support`` in the ``Option`` menu, if you have it disabled in your BIOS and you use ``UEFI``.
     3. Then in the same tab, configure ``Partition Style`` depending on the BIOS Mode:
         - If you are using ``UEFI``, select ``GPT``.
         - If you are using ``Legacy``, select ``MBR``.
-    5. Click ``Install`` and then click OK in the two warnings, this will turn your USB into a bootable USB.
+    5. Click ``Install`` and then click OK in the two warnings.
     6. Extract ``Atlas [version].zip``, to the root directory of your USB.
         - Move AME Wizard to the ``Atlas`` folder on the USB Stick.
         - If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over.
-    7. Move the Windows 10 22H2 iso onto the USB Stick.
+    7. Move the iso onto your USB Stick.
 
 === "Rufus"
 
@@ -124,18 +120,18 @@ This step may be different for you depending on how you made your bootable USB. 
 4. Proceed with the Windows installation as usual.
     - If asked, choose your desired edition (Professional is recommended).
 5. Finish installing Windows in the OOBE, and follow the video below:
-    - [Windows 10 22H2 OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
+    - [Windows 10+ OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
 
 ## :material-wrench-cog-outline: Post-Installation
 
 1. Place the ``Atlas`` folder from the USB Stick to the desktop.
-2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent windows from automatically instaling drivers via Windows Update, and restart your computer.
+2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically instaling drivers via Windows Update, and restart your computer.
 3. After restarting, you can install ethernet drivers, and connect to the internet.
 4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
 5. Run ``AME Wizard.exe`` and load the Atlas Playbook, and Follow the wizard instructions.
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing ``More info`` and ``Run anyway``.
 
-After a few restarts, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and faster speed.
+After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and faster speed.
 
 !!! info ""
     After completing the Atlas installation process, continue the [Post-Installation - Activate Windows](https://docs.atlasos.net/Getting%20started/Post-Installation/Activate%20Windows) section in our documentation, and then continue to the other sections.
@@ -143,4 +139,4 @@ After a few restarts, your system will be optimized and have less junk on it, th
 ### :material-bug-outline: Troubleshooting
 
 ??? question "No internet?"
-    If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else.
+    If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else
