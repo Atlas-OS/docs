@@ -171,8 +171,6 @@ nav:
         - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
-    - Installation: faq/installation.md
-    - Contribute: faq/contribute.md
     - Community:
       - Discord: faq/community/discord.md
       - Forums: faq/community/forums.md
