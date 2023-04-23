@@ -1,4 +1,4 @@
-# Post-install Guide
+## Post-install Guide
 
 Congrats! You have already done the hardest part of installing Atlas! Now, the only required thing left to do is to [Activate Windows](/getting-started/post-installation/activate-windows/)!
 
