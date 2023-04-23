@@ -145,8 +145,10 @@ nav:
   - Home:
     - Home: index.md
   - Getting Started:
+    - Index: getting-started/index.md
     - Installation: getting-started/installation.md
     - Other installation methods:
+      - Index: getting-started/other-installation-methods/index.md
       - No USB: getting-started/other-installation-methods/no-usb.md
     - Post-Installation:
       - Index: getting-started/post-installation/index.md
