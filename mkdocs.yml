@@ -167,15 +167,17 @@ nav:
         - Index: getting-started/post-installation/software/index.md
       - Activate Windows: getting-started/post-installation/activate-windows.md
   - Troubleshooting:
+    - Index: troubleshooting/index.md
     - Removed features: troubleshooting/removed-features.md
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
+      - Index: troubleshooting/common-issues/index.md
       - Adobe:
         - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
     - Index: faq/index.md
-    - Community:
+    - Community: 
       - Discord: faq/community/discord.md
       - Forums: faq/community/forums.md
       - GitHub: faq/community/github.md
