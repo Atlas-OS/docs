@@ -165,7 +165,7 @@ nav:
       - Activate Windows: getting-started/post-installation/activate-windows.md
   - Troubleshooting:
     - Removed features: troubleshooting/removed-features.md
-    - Scripts: Troubleshooting/scripts.md
+    - Scripts: troubleshooting/scripts.md
     - Common Issues:
       - Adobe:
         - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
