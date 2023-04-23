@@ -134,7 +134,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info ""
-    After completing the Atlas installation process, continue the [Post-Installation - Activate Windows](https://docs.atlasos.net/Getting%20started/Post-Installation/Activate%20Windows) section in our documentation, and then continue to the other sections.
+    After completing the Atlas installation process, continue the [Post-Installation - Activate Windows](/getting-started/post-installation/activate-windows) section in our documentation, and then continue to the other sections.
 
 ### :material-bug-outline: Troubleshooting
 

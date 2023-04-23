@@ -19,4 +19,4 @@
 9.   Wait for the script to finish running and display text saying you can restart your PC. At this point you may want to install [EasyBCD ](https://www.techspot.com/downloads/3112-easybcd.html)to add the drive as a boot option, because Windows will detect Atlas as a normal Windows install, so when you try to reboot, it's going to have you choose between your current OS (Windows Volume 1-10), and Atlas (Windows Volume 1-10). If you are confused by this statement though, don't install EasyBCD. Just reboot your PC, and select the non-default boot option.
 10. Disconnect your ethernet/do not connect your Wi-Fi when going through Windows Setup.
 11. Once the setup is complete, connect to the internet and download the [Wizard and Playbook](https://atlasos.net/downloads) from our site.
-12. You can now continue with the [post installation](https://docs.atlasos.net/Getting%20started/Post-Installation/Drivers)
+12. You can now continue with the [post installation](/getting-started/post-installation/).
