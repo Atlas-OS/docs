@@ -1,1 +1,7 @@
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+### Do you want to make Atlas better？Feel free to commit to our open-source [repository](https://github.com/Atlas-OS/Atlas)!
+
+#### What you can help with:
+
+- Improving our Scripts.
+- Translating our Documentation.
+- Translating our README.
