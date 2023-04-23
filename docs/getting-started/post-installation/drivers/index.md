@@ -9,9 +9,9 @@ If you do not know what brands and drivers to get for each component, you can lo
 ## GPU Drivers
 We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated. We have included installation guides for popular graphics card brands below:
 
-* [NVIDIA](/Getting%20started/Post-Installation/Drivers/GPU/NVIDIA)
-* [AMD](/Getting%20started/Post-Installation/Drivers/GPU/AMD)
-* [Intel](/Getting%20started/Post-Installation/Drivers/GPU/Intel)
+* [NVIDIA](/getting-started/post-installation/drivers/gpu/nvidia)
+* [AMD](/getting-started/post-installation/drivers/gpu/amd)
+* [Intel](/getting-started/post-installation/drivers/gpu/intel)
 
 ## :material-screwdriver: Snappy Driver Installer Origin
 

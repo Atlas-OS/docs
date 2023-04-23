@@ -145,38 +145,38 @@ nav:
   - Home:
     - Home: index.md
   - Getting Started:
-    - Installation: Getting started/Installation.md
+    - Installation: getting-started/installation.md
     - Other installation methods:
-      - No USB: Getting started/Other installation methods/No USB.md
+      - No USB: getting-started/other-installation-methods/no-usb.md
     - Post-Installation:
       - Drivers:
-        - Index: Getting started/Post-Installation/Drivers/index.md
+        - Index: getting-started/post-installation/drivers/index.md
         - GPU:
-          - Intel: Getting started/Post-Installation/Drivers/GPU/Intel.md
-          - AMD: Getting started/Post-Installation/Drivers/GPU/AMD.md
-          - NVIDIA: Getting started/Post-Installation/Drivers/GPU/NVIDIA.md
+          - Intel: getting-started/post-installation/drivers/gpu/intel.md
+          - AMD: getting-started/post-installation/drivers/gpu/amd.md
+          - NVIDIA: getting-started/post-installation/drivers/gpu/nvidia.md
       - Configuration:
-        - Index: Getting started/Post-Installation/Configuration/index.md
-        - Advanced Configuration: Getting started/Post-Installation/Configuration/Advanced Configuration.md
-        - Optional Tweaks: Getting started/Post-Installation/Configuration/Optional Tweaks.md
-        - Windows Settings: Getting started/Post-Installation/Configuration/Windows Settings.md
+        - Index: getting-started/post-installation/configuration/index.md
+        - Advanced Configuration: getting-started/post-installation/configuration/advanced-configuration.md
+        - Optional Tweaks: getting-started/post-installation/configuration/optional-tweaks.md
+        - Windows Settings: getting-started/post-installation/configuration/windows-settings.md
       - Software:
-        - Index: Getting started/Post-Installation/Software/index.md
-      - Activate Windows: Getting started/Post-Installation/Activate Windows.md
+        - Index: getting-started/post-installation/software/index.md
+      - Activate Windows: getting-started/post-installation/activate-windows.md
   - Troubleshooting:
-    - Removed features: Troubleshooting/Removed features.md
-    - Scripts: Troubleshooting/Scripts.md
+    - Removed features: troubleshooting/removed-features.md
+    - Scripts: Troubleshooting/scripts.md
     - Common Issues:
       - Adobe:
-        - Acrobat fails to install: Troubleshooting/Common Issues/Adobe/Acrobat fails to install.md
-        - Creative Cloud error 191: Troubleshooting/Common Issues/Adobe/Creative Cloud error 191.md
+        - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
+        - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
-    - Installation: FAQ/Installation.md
-    - Contribute: FAQ/Contribute.md
+    - Installation: faq/installation.md
+    - Contribute: faq/contribute.md
     - Community:
-      - Discord: FAQ/Community/Discord.md
-      - Forums: FAQ/Community/Forums.md
-      - GitHub: FAQ/Community/GitHub.md
+      - Discord: faq/community/discord.md
+      - Forums: faq/community/forums.md
+      - GitHub: faq/community/github.md
 
 #
 # Plugins
