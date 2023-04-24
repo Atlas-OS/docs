@@ -1,4 +1,4 @@
-## Activating Windows
+# Activating Windows
 
 If your PC has installed Windows before, it should migrate the license to the current install. In that case, you can skip this guide.
 
