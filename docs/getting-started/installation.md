@@ -122,7 +122,8 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically instaling drivers via Windows Update, and restart your computer.
 3. After restarting, you can install ethernet drivers, and connect to the internet.
 4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
-5. Run ``AME Wizard.exe`` and load the Atlas Playbook, and follow the wizard instructions.
+5. Once here, you will need to disable `Memory Integrity` which you can do by opening `Windows Security`, then click `Device Security` on the left. From here click `Core isolation details` and then turn off `Memory Integrity`.
+6. Run ``AME Wizard.exe`` and load the Atlas Playbook, and follow the wizard instructions.
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing ``More info`` and ``Run anyway``.
 
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
