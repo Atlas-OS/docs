@@ -1,3 +1,5 @@
+# Atlas Forum
+
 ### We have our own [forums](https://forum.atlasos.net/)! Feel free to join them!
 
 #### What you can do:

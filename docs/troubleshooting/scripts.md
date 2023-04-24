@@ -1,3 +1,5 @@
+# Scripts in Atlas
+
 Atlas comes with some simple scripts for fixing problems in the "Atlas" folder. These included scripts can help you find the cause of more general problems you are having and get Atlas back to its original state.
 
 ## :material-network-outline: Network

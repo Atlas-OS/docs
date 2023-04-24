@@ -1,3 +1,5 @@
+# Installing AMD graphics drivers
+
 We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app alternative to the manual method of stripping the drivers.
 
 ## Driver Installation

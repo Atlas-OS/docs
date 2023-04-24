@@ -1,3 +1,5 @@
+# Getting Started
+
 We have made sure to make installing Atlas easy. The installation process only takes a few minutes longer, than when you normally install Windows. Now, let us start setting up Atlas.
 
 !!! warning "Atlas is not pre-activated"

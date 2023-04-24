@@ -1,3 +1,5 @@
+# Welcome to Atlas Documentation!
+
 You have reached the Atlas documentation. By reading, you will learn everything you need to know about Atlas.
 
 ## :material-head-question-outline: What is Atlas?

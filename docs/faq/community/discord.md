@@ -1,3 +1,5 @@
+# Atlas Discord
+
 ### We have a [Discord](https://discord.gg/atlasos)! Feel free to join our community!
 
 #### What you can do:

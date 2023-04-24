@@ -1,3 +1,5 @@
+# Installation
+
 ## :material-clipboard-list-outline: Requirements
 
 * A USB drive (8 GB minimum)

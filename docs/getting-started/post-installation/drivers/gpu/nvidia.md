@@ -1,3 +1,5 @@
+# Installing NVIDIA graphics drivers
+
 We recommend using NVCleanstall, as it is a GUI alternative to manually stripping drivers.
 
 ## Driver Installation
