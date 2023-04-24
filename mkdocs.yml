@@ -145,8 +145,10 @@ nav:
   - Home:
     - Home: index.md
   - Getting Started:
+    - Index: getting-started/index.md
     - Installation: getting-started/installation.md
     - Other installation methods:
+      - Index: getting-started/other-installation-methods/index.md
       - No USB: getting-started/other-installation-methods/no-usb.md
     - Post-Installation:
       - Index: getting-started/post-installation/index.md
@@ -165,15 +167,17 @@ nav:
         - Index: getting-started/post-installation/software/index.md
       - Activate Windows: getting-started/post-installation/activate-windows.md
   - Troubleshooting:
+    - Index: troubleshooting/index.md
     - Removed features: troubleshooting/removed-features.md
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
+      - Index: troubleshooting/common-issues/index.md
       - Adobe:
         - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
     - Index: faq/index.md
-    - Community:
+    - Community: 
       - Discord: faq/community/discord.md
       - Forums: faq/community/forums.md
       - GitHub: faq/community/github.md
