@@ -3,7 +3,7 @@
 _Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in the Atlas repository, in [issues](https://github.com/Atlas-OS/Atlas/issues/153)._
 
 !!! warning "Prerequisites"
-	Before proceeding with this guide, make sure you have the latest 22H2 .iso file by following the [Downloading an ISO guide](https://docs.atlasos.net/Getting%20started/Installation/#download-an-iso) on the installation page.
+	Before proceeding with this guide, make sure you have the latest 22H2 .iso file by following the [Downloading an ISO guide](https://docs.atlasos.net/getting-started/installation/#download-an-iso) on the installation page.
 
 1. Download the [Macrorit Partition Expert](https://macrorit.com/download.html) and install it. (If prompted, choose 'Install Package')
 2. Download [Install Windows Without USB by DanL](https://github.com/iidanL/InstallWindowsWithoutUSB) and extract it using 7-Zip or WinRAR
