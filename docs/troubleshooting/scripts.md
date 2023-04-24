@@ -35,7 +35,7 @@ The Command Prompt (CMD) is available in all safe mode states, but "Safe Mode wi
 
 ### Safe Mode with Networking
 
-Safe Mode with Networking functions similarly to safe mode without networking. B safe Mode with Networking adds the network drivers and services you need to connect to the internet.
+Safe Mode with Networking functions similarly to safe mode without networking. But safe Mode with networking adds the network drivers and services you need to connect to the internet.
 
 ## :material-cog-outline: Services
 
