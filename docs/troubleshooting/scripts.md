@@ -15,7 +15,7 @@ If you have changed your network settings but want to go back to the original At
 
 ## :material-shield-lock-outline: Safe Mode
 
-Safe mode starts Windows in a very simple way, with only a few files and drivers. If a problem does not occur in safe mode, it means that the problem is not caused by the default settings or basic device drivers. Seeing how Windows works in safe mode can help you figure out where a problem is coming from and fix it on your PC.
+Safe mode starts Windows in a very simple way, with only a few files and drivers. If a problem does not occur in safe mode, it means that the problem is not caused by the default settings or basic device drivers. Seeing how Windows works in safe mode can help you figure out where a problem is coming from so you can fix it on your PC.
 
 !!! danger "Safe mode can be confusing"
     Safe mode is a state in Windows that only has the bare necessities to run Windows. So, you might be confused about what you need to do to get into safe mode. You should not have to use safe mode unless you know what you are doing or are following a trusted tutorial.
@@ -27,15 +27,15 @@ Safe mode starts Windows in a very simple way, with only a few files and drivers
 
 ### Safe Mode
 
-Safe Mode starts your computer in the default safe mode, which has only the drivers and files Windows needs to run. You will not be able to connect with other people in this state.
+Safe Mode starts your computer in the default safe mode, which only has the drivers and files Windows needs to run. You will not be able to connect to the internet in this state.
 
 ### Safe Mode with Command Prompt
 
-The Command Proompt (CMD) is available in all safe mode states, but "Safe Mode with Command Prompt" only gives you the Command Prompt. You will not have a user interface to help you get around. Instead, you will have an admin-level command prompt.
+The Command Prompt (CMD) is available in all safe mode states, but "Safe Mode with Command Prompt" only gives you the Command Prompt. You will not have a user interface to help you navigate your system. Instead, you will have an admin-level command prompt.
 
 ### Safe Mode with Networking
 
-Safe Mode with Networking functions similarly to safe mode without networking. Safe Mode with Networking adds the network drivers and services you need to connect to the internet and other computers on your network.
+Safe Mode with Networking functions similarly to safe mode without networking. B safe Mode with Networking adds the network drivers and services you need to connect to the internet.
 
 ## :material-cog-outline: Services
 
@@ -43,6 +43,6 @@ Safe Mode with Networking functions similarly to safe mode without networking. S
 
 ## :material-brain: Visual C++ Redistributables
 
-The Microsoft Visual C++ Redistributables are a key part of any Windows desktop deployment. Visual C++ Redistributables must be installed on your computer in at least one version for many games and programs to work. This is why most Visual C++ Redistributables are already installed on AtlasOS.
+The Microsoft Visual C++ Redistributables are a key part of any Windows desktop. Visual C++ Redistributables must be installed on your computer for many games and programs to work. This is why most Visual C++ Redistributables are already installed on Atlas.
 
 Our "Reinstall Visual C++ Redistributables" script uses an all-in-one repack of the Visual C++ Redistributables called [abbodi1406/vcredist](https://github.com/abbodi1406/vcredist), which makes it easy to install new redistributables or reinstall broken ones.
