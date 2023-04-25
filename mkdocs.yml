@@ -176,12 +176,7 @@ nav:
       - Adobe:
         - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
-  - FAQ:
-    - Index: faq/index.md
-    - Community: 
-      - Discord: faq/community/discord.md
-      - Forums: faq/community/forums.md
-      - GitHub: faq/community/github.md
+  - FAQ: 'https://atlasos.net/faq'
 
 #
 # Plugins
