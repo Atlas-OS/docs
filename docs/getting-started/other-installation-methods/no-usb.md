@@ -3,7 +3,7 @@
 _Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in the Atlas repository, in [issues](https://github.com/Atlas-OS/Atlas/issues/153)._
 
 !!! warning "Prerequisites"
-	Before proceeding with this guide, make sure you have the latest 22H2 .iso file by following the [Downloading an ISO guide](https://docs.atlasos.net/Getting%20started/Installation/#download-an-iso) on the installation page.
+	Before proceeding with this guide, make sure you have the latest 22H2 .iso file by following the [Downloading an ISO guide](https://docs.atlasos.net/getting-started/installation/#download-an-iso) on the installation page.
 
 1. Download the [Macrorit Partition Expert](https://macrorit.com/download.html) and install it. (If prompted, choose 'Install Package')
 2. Download [Install Windows Without USB by DanL](https://github.com/iidanL/InstallWindowsWithoutUSB) and extract it using 7-Zip or WinRAR
@@ -12,7 +12,7 @@ _Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in the Atl
 4. Right-click the selected partition, and click 'Resize/Move Volume'. In the menu that opens, allocate (to make space) as much space as you believe is necessary for Atlas. You do this by dragging the yellow slider. The unallocated section is how much space Atlas will have. I recommend having _atleast_ 20GB of storage.
 ![Record_2022_05_02_15_52_18_68](../../assets/videos/resize.gif)
 5. Once your done, click OK. The menu should now close. Now a new section should appear next to your selected partition. It should be called 'Unallocated' and it needs to have more than 29 GB of available space. This is where Atlas will be installed. Right-click the unallocated space, and press 'Create Volume'. This should open another pop-up menu. Everything can be left as default, except you need to make sure the File System is set to 'NTFS'. _Also, make sure you remember the drive letter you set it to._ Once you're done, click OK.
-![Record_2022_05_02_16_00_26_345](../../assets/videos/adding%20partition.gif)
+![Record_2022_05_02_16_00_26_345](../../assets/videos/adding-partition.gif)
 6. Press the 'Commit' button in the upper-left-hand corner. Press 'OK' or 'Accept' to any prompts which appear. If it asks you to restart your PC, close any other applications and accept the prompt.
 7. Once your PC has restarted, open the [Install Windows Without USB](https://github.com/iidanL/InstallWindowsWithoutUSB) folder you extracted earlier. It should prompt you to select a .iso, so select the .iso you installed (**Note: It may take a while for the file explorer window to pop-up. Please be patient**).
 8.  Wait for the script to start. When prompted to enter the letter of the partition you want to install the iso on, **type the letter** of the partition we made earlier. For example: If you made the partition letter `E:` then type `E`.

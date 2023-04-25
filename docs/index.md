@@ -15,4 +15,4 @@ Here are some resources to help you with your Atlas journey:
 * [FAQ](/faq/)
 
 !!! info ""
-    If you want to learn more about Atlas, and how it works, check out our [website](https://atlasos.net), and [GitHub repository](https://github.com/Atlas-OS/Atlas). We also have a [Discord server](https://discord.com/servers/atlas-795710270000332800) where you can talk with the Atlas community and get suppot from them!
+    If you want to learn more about Atlas, and how it works, check out our [website](https://atlasos.net), and [GitHub repository](https://github.com/Atlas-OS/Atlas). We also have a [Discord server](https://discord.com/servers/atlas-795710270000332800) where you can talk with the Atlas community and get support from them!
