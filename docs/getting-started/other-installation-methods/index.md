@@ -1,3 +1,5 @@
 # Alternative install methods
 
-_We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at https://github.com/Atlas-OS/docs._
+Here is a list of currently written alternative installation methods for Atlas:
+
+* [Without USB](no-usb/)
