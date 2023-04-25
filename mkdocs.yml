@@ -144,6 +144,7 @@ extra:
 nav:
   - Home:
     - Home: index.md
+    - Acknowledgements: acknowledgements.md
   - Getting Started:
     - Index: getting-started/index.md
     - Installation: getting-started/installation.md

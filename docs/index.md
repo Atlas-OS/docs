@@ -10,7 +10,7 @@ We are a great option for reducing system latency, network latency, input lag, a
 
 Here are some resources to help you with your Atlas journey:
 
-* [Getting started](/getting-started/)
+* [Getting started](/getting-started/) [(Installation)](/getting-started/installation/)
 * [Troubleshooting](/troubleshooting/)
 * [FAQ](/faq/)
 

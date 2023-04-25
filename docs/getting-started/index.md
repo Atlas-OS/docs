@@ -2,6 +2,8 @@
 
 We have made sure to make installing Atlas easy. The installation process only takes a few minutes longer, than when you normally install Windows. Now, let us start setting up Atlas.
 
+You can find the installation guide [here](installation/)
+
 !!! warning "Atlas is not pre-activated"
     Atlas is **not** a pre-activated version of Windows. If you want to run Atlas legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure that the seller is trusted and that the key is legitimate, no matter where you buy it.
 
