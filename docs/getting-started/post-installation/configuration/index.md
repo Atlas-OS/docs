@@ -1,6 +1,6 @@
 # Configuration
 
-In this section we will list all of the general configuration options in the Atlas folder, and how to change them and their defaults. Only touch them if you know what you're doing or if a team member asks you to do so.
+In this section we will list all of the general configuration options in the Atlas folder, how to change them and their defaults. Only touch them if you know what you're doing or if a team member asks you to do so.
 
 For other configuration options, check:
 
@@ -18,7 +18,7 @@ If you want to enable them run the `Enable Animations.cmd` file in the `Animatio
 
 ## Background Apps
 
-Background Apps run in the background and aren't visible to the user. These apps are usually just used for things like updating, syncing files, and other things that are not needed to be seen by the user. On Atlas we have disabled them by default to make the system more responsive and less bloated. To enable them run the `Enable Background Apps.cmd` file in the `Background Apps` folder.
+These Apps run in the background and aren't visible to the user. These apps are typically used for things like updating, syncing files, and other things that are not needed to be seen by the user. On Atlas we have disabled them by default to make the system more responsive and less bloated. To enable them run the `Enable Background Apps.cmd` file in the `Background Apps` folder.
 
 ## Bluetooth
 
@@ -64,15 +64,15 @@ Microsoft Store is a built-in application on Windows which is used to download a
 
 ## Mitigations
 
-Mitigations are a built-in security feature on Windows which are used to fix security vulnerabilities protect your computer from malicious software.
+Mitigations are a built-in security feature on Windows, used to fix security vulnerabilities and protect your computer from malicious software.
 
 On Atlas we have them disabled by default to improve performance for older CPUs, as it is very unlikely that a user will be affected from this change. However, some newer CPUs (like Zen 4 CPUs) can be negatively impacted if you disable mitigations, due to the newer CPUs being optimized for these mitigations.
 
-If you have any issues with anti-cheats or have a newer CPU, run the `Set Windows Default Mitigations.cmd` file in the `Mitigations` folder. Alternatively, you can use `Enable All Mitigations.cmd`, but that forces all mitigations to be enabled (unlike the Windows default), which can reduce performance significantly and may potentially reduce compatibility, but it will increase system security.
+If you have any issues with anti-cheats or have a newer CPU, run the `Set Windows Default Mitigations.cmd` file in the `Mitigations` folder. Alternatively, you can use `Enable All Mitigations.cmd`, but that forces all mitigations to be enabled (unlike the Windows default), which can reduce performance significantly and may potentially reduce compatibility, while increasing system security.
 
 ### Anti-Cheat Support
 
-Enabling Spectre and Meltdown and using the `Set Windows Default Mitigations.cmd` script (documented above) should fix all anti-cheat compatiblility. On Atlas, they have been disabled by default for increased performance.
+Enabling Spectre and Meltdown and using the `Set Windows Default Mitigations.cmd` script (documented above) should fix all anti-cheat compatibility. On Atlas, they have been disabled by default for increased performance.
 
 Additionally, you can also configure Data Execution Prevention in the `Mitigations/Anti-Cheat Support` folder. This is set to the Windows default (`OptIn`) by default, because almost all CPUs have this mitigation at a CPU-level (so it shouldn't affect performance) and it gets applied for core system components only. Also, it is required for many anti-cheats.
 
@@ -86,7 +86,7 @@ Notifications are a built-in feature on Windows which are used to show you notif
 
 ## Oculus VR
 
-The Oculus VR folder is a folder made to allow you to use the the Oculus software. We have disabled support for it by default as it isn't needed for most users. To enable it run the `Enable Oculus VR.cmd` file in the `Oculus VR` folder.
+The Oculus VR folder contains resources that allow you to use the Oculus software. We have disabled support for it by default as it isn't needed by most users. To enable it run the `Enable Oculus VR.cmd` file in the `Oculus VR` folder.
 
 ## Power
 
@@ -98,9 +98,9 @@ The Power folder is a folder that allows you to manage power related settings.
 
 ### Hibernation
 
-Hibernation is a feature in Windows that allows you to sleep your computer, it temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
+Hibernation is a feature in Windows that allows you to put your computer to sleep. It temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
 
-Hibernation is disabled by default due to the potential issues it can cause, but you can enable it with `Enable Hibernation.cmd` or `Disable Hibernation (default).cmd` in the `Hibernation` folder.
+Hibernation is disabled by default due to the potential stability issues it can cause, but you can manage it with `Enable Hibernation.cmd` or `Disable Hibernation (default).cmd` in the `Hibernation` folder.
 
 ## Printing
 
@@ -108,7 +108,7 @@ Printing is a built-in feature on Windows which is used to print documents. On A
 
 ## Process Explorer
 
-Process Explorer is an application made by Microsoft that can be considered a "better" task manager. On Atlas we have kept Task Manager. But if you want to make the default "Task Manager" process explorer just run the `Install Process Explorer.cmd` file in the `Process Explorer` folder.
+Process Explorer is an application made by Microsoft that can be considered a "better" task manager. On Atlas we have kept Task Manager, but if you want to make Process Explorer the default utility for managing tasks, just run the `Install Process Explorer.cmd` file in the `Process Explorer` folder.
 
 ## Search Indexing
 
@@ -122,7 +122,7 @@ The `Install Open-Shell (run first).cmd` file is there so you can install Open-S
 
 The `Unlock Start Menu Tiles.cmd` file allows you to unlock the start menu tiles which you would have noticed on the start menu in normal Windows 10. This is useful if you want to move the tiles around when you add them to the start menu.
 
-The `Atlas Openshell Preset.xml` file is a preset which we recommend you use for Open-Shell but you can change the settings to your liking.
+The `Atlas Openshell Preset.xml` file is a preset which we recommend using for Open-Shell, but you can still change the suggested settings to your liking.
 
 ## Troubleshooting
 
@@ -130,7 +130,7 @@ Troubleshooting is a built-in feature on Windows which is used to help you troub
 
 ## UAC
 
-UAC (User Account Control) is a built-in feature on Windows which is used to protect your computer from malicious software. This feature when disabled makes everything be ran as Administrator. On Atlas we have disabled it by default to make the system more more responsive. To enable it run the `Enable UAC.cmd` file in the ``UAC Folder``.
+UAC (User Account Control) is a built-in feature on Windows which is used to protect your computer from malicious software. When UAC is disabled, everything will be run as Administrator. On Atlas we have disabled it by default to make the system more responsive. To enable it run the `Enable UAC.cmd` file in the ``UAC Folder``.
 
 ## UWP
 
@@ -138,11 +138,11 @@ UWP (Universal Windows Platform) is a built-in feature on Windows which is used 
 
 ## VPN
 
-VPN (Virtual Private Network) is a built-in feature on Windows which allows users to connect to a VPN. On Atlas it has been disabled by default to make the sytem. To enable it just run the `Enable VPN support.cmd` file in the `VPN` folder.
+VPN is a built-in feature on Windows which allows users to connect to a Virtual Private Network. On Atlas it has been disabled by default to make the system less bloated. To enable it just run the `Enable VPN support.cmd` file in the `VPN` folder.
 
 ## Wi-Fi
 
-Wi-Fi is a built-in feature on Windows which is used to connect to Wi-Fi networks. On Atlas it has been enabled by default since it is very commonly used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
+Wi-Fi is a built-in feature on Windows which is used to connect to Wi-Fi networks. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
 !!! warning
     You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](/getting-started/post-installation/drivers)
