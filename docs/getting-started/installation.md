@@ -114,6 +114,8 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 4. Proceed with the Windows installation as usual.
     - If asked, choose your desired edition (Professional is recommended).
 5. Finish installing Windows in the OOBE, and follow the video below:
+    <iframe src="https://streamable.com/e/21wdvv?loop=0" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+    If the video above does not work, use the video provided here:
     - [Windows 10+ OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
 
 ## :material-wrench-cog-outline: Post-Installation
