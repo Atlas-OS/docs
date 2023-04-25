@@ -70,7 +70,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 
 !!! info ""
     It is not recommended to run UEFI with MBR or BIOS with GPT as it may cause compatibility and stability issues.
-    If you are using a mixed combination, you may want to [convert your parition style](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk) during the installation.
+    If you are using a mixed combination, you may want to [convert your partition style](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk) during the installation.
 
 ## :material-usb-flash-drive-outline: Preparing your USB
 
