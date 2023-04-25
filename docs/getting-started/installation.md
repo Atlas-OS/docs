@@ -102,7 +102,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
     4. Click ``START`` and in the ``Windows User Experience`` wizard, and then click ``OK``.
     5. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
     6. Extract ``Atlas [version].zip``, to the root directory of your USB.
-        - Additionaly, move AME Wizard to the ``Atlas [version]`` folder.
+        - Additionally, move AME Wizard to the ``Atlas [version]`` folder.
         - If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over.
 
 ## :material-power: Booting into your USB
