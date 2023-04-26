@@ -8,6 +8,9 @@
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
 
+!!! info
+    Atlas no longer provides ISOs to download, please use this method here to install.
+
 !!! tip "Download ethernet drivers"
     Some ethernet adapters don't have drivers that come with Windows. This means that if you are using ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
 
