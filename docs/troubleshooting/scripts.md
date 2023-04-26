@@ -41,7 +41,7 @@ Safe Mode with Networking functions similarly to safe mode without networking. B
 
 ## :material-cog-outline: Services
 
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
 
 ## :material-brain: Visual C++ Redistributables
 
