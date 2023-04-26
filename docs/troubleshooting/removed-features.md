@@ -5,6 +5,7 @@ Please do keep in mind that Atlas is made for gaming, so many features and servi
 Atlas gets rid of the following services and features:
 
 * Windows Defender
+* Windows Updates (inc. security updates)
 * Restore Points and System Reset
 
 ## Unsupported software/features

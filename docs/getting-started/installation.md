@@ -8,6 +8,9 @@
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
 
+!!! info
+    Atlas no longer provides ISOs to download, please use this method here to install.
+
 !!! tip "Download ethernet drivers"
     Some ethernet adapters don't have drivers that come with Windows. This means that if you are using ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
 
@@ -102,7 +105,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
     4. Click ``START`` and in the ``Windows User Experience`` wizard, and then click ``OK``.
     5. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
     6. Extract ``Atlas [version].zip``, to the root directory of your USB.
-        - Additionaly, move AME Wizard to the ``Atlas [version]`` folder.
+        - Additionally, move AME Wizard to the ``Atlas [version]`` folder.
         - If you downloaded drivers for your Ethernet/Wi-Fi adapter, copy them over.
 
 ## :material-power: Booting into your USB

@@ -173,11 +173,15 @@ nav:
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
       - Index: troubleshooting/common-issues/index.md
+      - Nitrosense not showing stats: troubleshooting/common-issues/nitrosense-stats-issue.md
+      - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
+      - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
       - Adobe:
-        - Acrobat fails toinstall: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
+        - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
     - Index: faq/index.md
+    - General FAQ: 'https://atlasos.net/faq'
     - Community: 
       - Discord: faq/community/discord.md
       - Forums: faq/community/forums.md
