@@ -180,7 +180,7 @@ nav:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
-    - Support FAQ: faq/index.md
+    - Index: faq/index.md
     - General FAQ: 'https://atlasos.net/faq'
     - Community: 
       - Discord: faq/community/discord.md
