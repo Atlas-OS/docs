@@ -181,6 +181,7 @@ nav:
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
     - Index: faq/index.md
+    - General FAQ: 'https://atlasos.net/faq'
     - Community: 
       - Discord: faq/community/discord.md
       - Forums: faq/community/forums.md
