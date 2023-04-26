@@ -1,0 +1,1 @@
+You can fix this by turning on `Power Features` which is found in the Atlas folder on your desktop and in this directory: `3. Configuration/1. General Configuration/Power/Power Management (High temps)`. From here run `Enable power features.cmd`, you may need to run as admin and restart after.

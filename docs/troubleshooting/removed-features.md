@@ -12,4 +12,3 @@ Atlas gets rid of the following services and features:
 * Cracked software — If they don't work, there won't be any support for them.
 * Cheating software — If they don't work, there won't be any support for them.
 * Projecting
-* Laptop Software, such as Nitro Sense or Armoury Crate do not work.
