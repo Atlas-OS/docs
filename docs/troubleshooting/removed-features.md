@@ -5,9 +5,11 @@ Please do keep in mind that Atlas is made for gaming, so many features and servi
 Atlas gets rid of the following services and features:
 
 * Windows Defender
+* Windows Updates (inc. security updates)
 * Restore Points and System Reset
 
 ## Unsupported software/features
 * Cracked software — If they don't work, there won't be any support for them.
 * Cheating software — If they don't work, there won't be any support for them.
 * Projecting
+* Laptop Software, such as Nitro Sense or Armoury Crate do not work.
