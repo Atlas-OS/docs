@@ -173,9 +173,14 @@ nav:
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
       - Index: troubleshooting/common-issues/index.md
+      - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
+      - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
+      - Login password changed: troubleshooting/common-issues/login-password-changed.md
       - Nitrosense not showing stats: troubleshooting/common-issues/nitrosense-stats-issue.md
       - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
-      - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
+      - Stuck in Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md
+
+      -
       - Adobe:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
