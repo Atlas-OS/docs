@@ -21,6 +21,6 @@ Atlas gets rid of the following services and features:
 * Disk Defragmentation
 
 !!! info
-  You can find all of these options and enable/disable them inside the Atlas folder on your Desktop, just follow our [Configuration guide](/getting-started/post-installation/configuration) for more info. If you do not have the Atlas folder on your Desktop, please check [here](common-issues/atlas-folder-missing).
-  
-  Atlas gives you the option to enable/disable lots of other options too which you can also find in the folder above.
+    You can find all of these options and enable/disable them inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), just follow our [Configuration guide](/getting-started/post-installation/configuration) for more info. If you do not have the Atlas folder on your Desktop, please check [here](common-issues/atlas-folder-missing).
+    
+    Atlas gives you the option to enable/disable lots of other options too which you can also find in the folder above.
