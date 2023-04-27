@@ -1,4 +1,3 @@
-# Hyper-V not working
 Some people get "...not found" errors when trying to enable Hyper-V.
 
 1. Run "Reset Network to Windows Default" in `Atlas/4. Troubleshooting/Network/`
