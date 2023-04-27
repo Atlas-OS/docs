@@ -13,5 +13,6 @@
 *[TPM]: Trusted Platform Module
 *[UEFI]: Unified Extensible Firmware Interface
 *[UWP]: Universal Windows Platform
+*[VBS]: Virtualization Based Security
 *[VRR]: Variable refresh rate
 *[WSL]: Windows Subsystem for Linux
