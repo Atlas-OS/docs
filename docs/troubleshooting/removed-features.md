@@ -21,6 +21,7 @@ Atlas gets rid of the following services and features:
 ## Things that are disabled by default but can be enabled
 * Hyper-V and VBS
 * Background Apps
+* Disk Fragmentation
 
 ## Unsupported software/features
 * Cracked software — If they don't work, there won't be any support for them.
