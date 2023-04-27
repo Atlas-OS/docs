@@ -167,7 +167,7 @@ nav:
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
       - Index: troubleshooting/common-issues/index.md
-      - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
+      - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
       - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
       - CSGO VAC Unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
       - Adobe:
