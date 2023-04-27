@@ -160,7 +160,6 @@ nav:
         - Windows Settings: getting-started/post-installation/configuration/windows-settings.md
       - Software:
         - Index: getting-started/post-installation/software/index.md
-      - Activate Windows: getting-started/post-installation/activate-windows.md
   - Troubleshooting:
     - Index: troubleshooting/index.md
     - Removed features: troubleshooting/removed-features.md
@@ -170,10 +169,12 @@ nav:
       - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
       - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
       - CSGO VAC Unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
+      - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
       - Adobe:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ:
+    - Index: faq/index.md
     - General FAQ: 'https://atlasos.net/faq'
     - Community: 
       - Discord: faq/community/discord.md
