@@ -1,6 +1,6 @@
 # Atlas Discord
 
-### We have a [Discord](https://discord.gg/atlasos)! Feel free to join our community!
+### We have a [Discord](https://discord.atlasos.net)! Feel free to join our community!
 
 #### What you can do:
 - Chat with other people who use Atlas.

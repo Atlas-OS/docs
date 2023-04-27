@@ -11,4 +11,4 @@ You can find the installation guide [here](installation/)
     No, Atlas has stopped providing ISOs to download to prevent breaking Microsoft ToS. This also allows people to update Windows before they install Atlas to get the most recent version of Windows.
 
 !!! question "Need help?"
-    If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net/), or our [Discord server](https://discord.com/servers/atlas-795710270000332800). We have a big community of people who care and want to help.
+    If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a big community of people who care and want to help.

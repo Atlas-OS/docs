@@ -54,7 +54,7 @@ Nvidia drivers force the power state for CUDA compute workloads other than real-
 
 P-State 0 can be forced by using the following command in CMD ran as administator:
 ```bat
-for /f "tokens=*" %a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}" /t REG_SZ /s /e /f "NVIDIA" ^| findstr "HK"') do (reg add "%a" /v "DisableDynamicPstate" /t REG_DWORD /d "1" /f)
+for /f "tokens=*" %a in (areg query "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}" /t REG_SZ /s /e /f "NVIDIA" ^| findstr "HK"') do (reg add "%a" /v "DisableDynamicPstate" /t REG_DWORD /d "1" /f)
 ```
 
 After running this command, download and extract [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector). Open the tool, scroll down to ``5 - Common`` section and set ``CUDA - Force P2 State`` to OFF. Press ``Apply changes`` on the upper right corner and close the application. Restart your device.

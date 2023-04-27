@@ -12,7 +12,7 @@
     Atlas no longer provides ISOs to download, please use this method here to install.
 
 !!! tip "Download ethernet drivers"
-    Some ethernet adapters don't have drivers that come with Windows. This means that if you are using ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
+    Some network adapters do not have drivers that come with Windows. This means that if you are using Ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
 
 ## Video Guide
 
@@ -27,7 +27,7 @@ The following bootable USB creators that we have written about need an ISO file:
 * Ventoy
 * Rufus
 
-=== "Windows Media Creation Tool (Recommended)"
+=== "Windows Media Creation Tool (recommended)"
 
     1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
     2. Click the ``Accept`` button to agree to the Microsoft license terms.
@@ -137,7 +137,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info ""
-    After completing the Atlas installation process, continue the [Post-Installation - Activate Windows](/getting-started/post-installation/activate-windows) section in our documentation, and then continue to the other sections.
+    After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/) section in our documentation, and then continue to the other sections.
 
 ### :material-bug-outline: Troubleshooting
 

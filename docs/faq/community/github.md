@@ -5,5 +5,5 @@
 #### What you can help with:
 
 - Improving our Scripts.
-- Translating our Documentation. (NOT AVAILABLE)
+- Translating our Documentation (currently not available).
 - Translating our README.

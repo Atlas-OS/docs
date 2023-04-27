@@ -1,6 +1,6 @@
 # Configuration
 
-In this section we will list all of the general configuration options in the Atlas folder, how to change them and their defaults. Only touch them if you know what you're doing or if a team member asks you to do so.
+In this section we will list all of the general configuration options in the Atlas folder, how to change them and their defaults. Only touch them if you know what youare doing or if a team member asks you to do so.
 
 For other configuration options, check:
 
@@ -8,7 +8,7 @@ For other configuration options, check:
 - [Optional Tweaks](/getting-started/post-installation/configuration/optional-Tweaks)
 - [Windows Settings](/getting-started/post-installation/configuration/windows-Settings)
 
-All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, you can find it in `C:/Users/default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
+All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, you can find it in `C:/Users/Default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
 
 ## Animations
 
@@ -18,7 +18,7 @@ If you want to enable them run the `Enable Animations.cmd` file in the `Animatio
 
 ## Background Apps
 
-These Apps run in the background and aren't visible to the user. These apps are typically used for things like updating, syncing files, and other things that are not needed to be seen by the user. On Atlas we have disabled them by default to make the system more responsive and less bloated. To enable them run the `Enable Background Apps.cmd` file in the `Background Apps` folder.
+These Apps run in the background and are not visible to the user. These apps are typically used for things like updating, syncing files, and other things that are not needed to be seen by the user. On Atlas we have disabled them by default to make the system more responsive and less bloated. To enable them run the `Enable Background Apps.cmd` file in the `Background Apps` folder.
 
 ## Bluetooth
 
@@ -39,7 +39,7 @@ FSO and Game Bar are built-in features on Windows which are used to record your 
 
 Game Mode is a built-in feature in Windows that aims to make your system work better for gaming related tasks, but it can also make some games run slower.
 
-It does this by turning off services and background processes which aren't needed for gaming. It has been proven that it is not as helpful as it seems to be according to the latest research.
+It does this by turning off services and background processes which are not needed for gaming. It has been proven that it is not as helpful as it seems to be according to the latest research.
 
 By default, this is turned off, but you can turn it on by running the ``Enable Game Mode.reg`` file. This can be found in the folder called "Game Mode."
 
@@ -86,7 +86,7 @@ Notifications are a built-in feature on Windows which are used to show you notif
 
 ## Oculus VR
 
-The Oculus VR folder contains resources that allow you to use the Oculus software. We have disabled support for it by default as it isn't needed by most users. To enable it run the `Enable Oculus VR.cmd` file in the `Oculus VR` folder.
+The Oculus VR folder contains resources that allow you to use the Oculus software. We have disabled support for it by default as it is not needed by most users. To enable it run the `Enable Oculus VR.cmd` file in the `Oculus VR` folder.
 
 ## Power
 
@@ -94,7 +94,7 @@ The Power folder is a folder that allows you to manage power related settings.
 
 ### CPU Idle
 
-*We're sorry, but the documentation for this isn't written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
 
 ### Hibernation
 
