@@ -1,6 +1,6 @@
 # Configuration
 
-In this section we will list all of the general configuration options in the Atlas folder, how to change them and their defaults. Only touch them if you know what youare doing or if a team member asks you to do so.
+In this section we will list all of the general configuration options in the Atlas folder, how to change them and their defaults. Only touch them if you know what you are doing or if a team member asks you to do so.
 
 For other configuration options, check:
 
