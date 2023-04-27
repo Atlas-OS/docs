@@ -18,7 +18,7 @@ Atlas gets rid of the following services and features:
 * Error Reporting
 * Telemetry
 
-## Things that are disabled by default
+## Things that are disabled by default but can be enabled
 * Hyper-V and VBS
 * Background Apps
 
