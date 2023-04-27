@@ -1,6 +1,6 @@
 # Features removed from Atlas
 
-Please do keep in mind that Atlas is made for gaming, so many features and services that aren't needed for most gamers have been taken away. When services or features are taken away, they can cause problems with the apps you use or even with hardware.
+Please do keep in mind that Atlas is made for gaming, so many features and services that are not needed for most gamers have been taken away. When services or features are taken away, they can cause problems with the apps you use or even with hardware.
 
 Atlas gets rid of the following services and features:
 
