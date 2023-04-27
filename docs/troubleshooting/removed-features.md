@@ -19,6 +19,7 @@ Atlas gets rid of the following services and features:
 * Hyper-V and VBS
 * Background Apps
 * Disk Defragmentation
+* UAC (User Account Control)
 
 !!! info
     You can find all of these options and enable/disable them inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), just follow our [Configuration guide](/getting-started/post-installation/configuration) for more info. If you do not have the Atlas folder on your Desktop, please check [here](common-issues/atlas-folder-missing).
