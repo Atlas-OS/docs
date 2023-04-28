@@ -127,7 +127,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 ## :material-wrench-cog-outline: Post-Installation
 
 1. Place the ``Atlas`` folder from the USB Stick to the desktop.
-2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically instaling drivers via Windows Update, and restart your computer.
+2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
 3. After restarting, you can install ethernet drivers, and connect to the internet.
 4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
 5. Once here, you will need to disable `Memory Integrity` which you can do by opening `Windows Security`, then click `Device Security` on the left. From here click `Core isolation details` and then turn off `Memory Integrity`.
