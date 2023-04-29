@@ -2,6 +2,9 @@
 
 You have reached the Atlas documentation. By reading, you will learn everything you need to know about Atlas.
 
+!!! danger "Security Concerns"
+    We have heard your concerns about the security of Atlas and we have addressed them in a [tweet posted by our official account](https://twitter.com/AtlasOS/status/1651284816489336832?s=20). We will be working on making Atlas secure as the project goes along! Thank you for your patience.
+
 ## :material-head-question-outline: What is Atlas?
 
 Atlas is a open source, and transparent project, that modifies Windows, and removes all of the negative drawbacks that affect gaming performance.
