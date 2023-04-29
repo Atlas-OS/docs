@@ -11,10 +11,9 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
     - Disable Installer Telemetry & Advertising
     - Perform a Clean Installation
     - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/gpu/amd/#disable-multi-plane-overlay-mpo)
-    - Show Expert Tweaks
-        - Disable Driver Telemetry
-        - Use method compatible with Easy-Anti-Cheat
-        - Automatically accept the "driver unsigned" warning
+    - Disable Driver Telemetry in ``Show Expert Tweaks``
+    - Use method compatible with Easy-Anti-Cheat
+    - Automatically accept the "driver unsigned" warning
 - Click ``Install`` and continue with the NVIDIA driver installation as usual.
 
 ## Configure NVIDIA Control Panel
@@ -36,8 +35,8 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
     - Configure your monitor resolution and refresh rate.
     - Output dynamic range - Full
     - Output color depth - Value matching your monitor specification
-    - Optionally increase the level of ``Digital vibrance`` in ``Display -> Adjust desktop color settings`` as it manages color saturation and intestity, and can reduce eye strain.
-      - Also check out [VibranceGUI](https://vibrancegui.com).
+- Optionally increase the level of ``Digital vibrance`` in ``Display -> Adjust desktop color settings`` as it manages color saturation and intestity, and can reduce eye strain.
+    - Also check out [VibranceGUI](https://vibrancegui.com).
 - Configure the following in the ``Display -> Adjust desktop size and position`` page:
     - Select a scaling mode - No scaling
     - Perform scaling on - Display
