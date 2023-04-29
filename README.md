@@ -10,6 +10,8 @@ We recommend for development purposes that you use [Conventional Commits](https:
 
 We also recommend that you make a preview build on your own machine for our documentation before you commit, just so that there is no issues with the pull request.
 
+Please check out our [Contributing Guidelines](.github/CONTRIBUTING.md) for more information.
+
 ## How to make a preview build
 
 As MkDocs uses Python, you will need to have Python and pip installed, we recommend using [Scoop](https://scoop.sh/) or [Chocolatey](https://chocolatey.org/) to install these but you can also install via [Python's website](https://www.python.org/).
