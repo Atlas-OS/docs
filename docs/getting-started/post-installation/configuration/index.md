@@ -130,7 +130,13 @@ Troubleshooting is a built-in feature on Windows which is used to help you troub
 
 ## UAC
 
-UAC (User Account Control) is a built-in feature on Windows which is used to protect your computer from malicious software. When UAC is disabled, everything will be run as Administrator. On Atlas we have disabled it by default. To enable it run the `Enable UAC.cmd` file in the ``UAC Folder``.
+UAC (User Account Control) is a built-in feature on Windows which is used to limit the permissions of applications. This helps protect against applications malfunctioning and doing harmful changes to your computer. 
+
+Please note that most well-made malware will be able to bypass UAC easily, and that the only true way to protect yourself against UAC bypasses is to turn UAC up to the maximum level.
+
+When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is disabled it by default. To enable it, run the `Enable UAC.cmd` file in the `UAC Folder`.
+
+**Note:** The next version of Atlas (v0.3) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
 
 ## UWP
 
