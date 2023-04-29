@@ -136,7 +136,8 @@ Please note that most well-made malware will be able to bypass UAC easily, and t
 
 When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is disabled it by default. To enable it, run the `Enable UAC.cmd` file in the `UAC Folder`.
 
-**Note:** The next version of Atlas (v0.3) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
+!!! note
+	The next version of Atlas (v0.3) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
 
 ## UWP
 
