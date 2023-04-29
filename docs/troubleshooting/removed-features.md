@@ -11,7 +11,7 @@ Atlas gets rid of the following services and features:
 * Restore Points and System Reset
 * Telemetry
 * Tools for virus and malware protection (such as SecHealth, HealthCheck, MsMpEng and SmartScreen)
-* Windows Defender
+* Windows Defender (Adding back in Release 0.3.0, Check this [tweet](https://twitter.com/AtlasOS/status/1651284816489336832) for more info.)
 * Windows Error Reporting
 * Windows Updates
 
