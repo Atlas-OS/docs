@@ -13,7 +13,7 @@ Atlas gets rid of the following services and features:
 * Tools for virus and malware protection (such as SecHealth, HealthCheck, MsMpEng and SmartScreen)
 * Windows Defender (Adding back in a future release, check this [tweet](https://twitter.com/AtlasOS/status/1651284816489336832) for more information.)
 * Windows Error Reporting
-* Windows Updates
+* Windows Updates (Removed because it reverts Atlas tweaks. use [Microsoft Update Catalog](https://catalog.update.microsoft.com/Home.aspx) to install security updates instead.)
 
 ## Features disabled by default but can be enabled
 * Hyper-V and VBS
