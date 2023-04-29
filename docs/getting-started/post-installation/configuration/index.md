@@ -16,10 +16,6 @@ Animations are visual effects that aim to make your system feel smoother. They a
 
 If you want to enable them run the `Enable Animations.cmd` file in the `Animations` folder.
 
-## Background Apps
-
-These Apps run in the background and are not visible to the user. These apps are typically used for things like updating, syncing files, and other things that are not needed to be seen by the user. On Atlas we have disabled them by default to make the system more responsive and less bloated. To enable them run the `Enable Background Apps.cmd` file in the `Background Apps` folder.
-
 ## Bluetooth
 
 Bluetooth is built-in feature on Windows which allows you to connect devices to your computer. On Atlas it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Bluetooth.cmd` file in the `Bluetooth` folder.
@@ -137,7 +133,7 @@ Please note that most well-made malware will be able to bypass UAC easily, and t
 When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is disabled it by default. To enable it, run the `Enable UAC.cmd` file in the `UAC Folder`.
 
 !!! note
-	The next version of Atlas (v0.3) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
+	The next version of Atlas (v0.3.0) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
 
 ## UWP
 
