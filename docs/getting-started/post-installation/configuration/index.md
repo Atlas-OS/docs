@@ -8,7 +8,7 @@ For other configuration options, check:
 - [Optional Tweaks](/getting-started/post-installation/configuration/optional-tweaks)
 - [Windows Settings](/getting-started/post-installation/configuration/windows-settings)
 
-All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, you can find it in `C:/Users/Default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
+All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](/troubleshooting/common-issues/atlas-folder-missing) for how to find it/get it back.
 
 ## Animations
 
