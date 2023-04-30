@@ -133,6 +133,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 5. Once here, you will need to disable `Memory Integrity` which you can do by opening `Windows Security`, then click `Device Security` on the left. From here click `Core isolation details` and then turn off `Memory Integrity`.
 6. Run ``AME Wizard.exe`` and load the Atlas Playbook, and follow the wizard instructions.
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing ``More info`` and ``Run anyway``.
+    - You may have to activate Windows to install Atlas. Get a supported key for Home/Pro, depending on what you installed and activate in Windows Settings.
 
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
