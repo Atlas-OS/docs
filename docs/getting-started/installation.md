@@ -124,7 +124,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
     
     - [Windows 10+ OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
 
-## :material-wrench-cog-outline: Post-Installation
+## :material-wrench-cog-outline: Install Atlas
 
 1. Place the ``Atlas`` folder from the USB Stick to the desktop.
 2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
