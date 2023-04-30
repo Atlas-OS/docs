@@ -1,9 +1,9 @@
-The Atlas folder on your desktop should be there by default, if for some reason it is not there is some other places of which we will upload to just incase you do manage to misplace it. You can find the replacement folder in `C:/Users/Default/Desktop`.
+The Atlas folder is on your desktop by default. If it is not there, you can find the replacement folder in `C:/Users/Default/Desktop`.
 
-If for some reason that folder does not contain the `Atlas` folder, then there is another solution that we can give you. We do not personally recommend this method because it means that your Atlas install may be broken and you may need to reinstall Atlas. If you wish though you can follow the steps below:
+If for some reason that folder does not contain the `Atlas` folder, you can get it from our Github repository. Though we do not recommend this method because it means that your Atlas installation may be broken and you may need to reinstall Atlas.
 
-1. Head on over to our repository on GitHub and locate the Atlas folder, luckily for you I already have a link to it right [here](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas)
-2. Copy the link and head over to [GitHub Directory Downloader](https://download-directory.github.io/)
-3. Paste the link into the box and press ++enter++
-4. Wait for the download to finish and then extract the zip file which is downloaded via the website
-5. You should now have the Atlas folder, we recommend putting it on your desktop for safe keeping and naming it `Atlas` so it does not look messy
+For those who still want to proceed, [here is the download link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAtlas-OS%2FAtlas%2Ftree%2Fmain%2Fsrc%2FExecutables%2FAtlas) for your convenience.
+
+After it finished downloading, extract the ZIP file by right clicking it, select `7-Zip`, then `Extract to "Atlas.../"`.
+
+You can rename the extracted folder to `Atlas` and store it somewhere safe.
