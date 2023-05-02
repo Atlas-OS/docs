@@ -27,7 +27,7 @@ We also use [MkDocs](https://www.mkdocs.org/) to build our documentation. If you
 
 The theme we use for [MkDocs](https://www.mkdocs.org/) is [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). If you are new to Material for MkDocs, we recommend reading the [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material/) to get started. You can find lots of useful information on styling, and how to use MkDocs to your best.
 
-*We use the Insiders edition of Material for MkDocs, so do not worry about limitations!*
+We use the [Insiders edition of Material for MkDocs](https://squidfunk.github.io/mkdocs-material/insiders/), so do not worry about formatting or feature limitations when creating documentation. Keep in mind that you'll need your own copy of Material for MkDocs Insiders to build and preview the documentation locally with the right formatting and features support.
 
 ## Committing to our standards
 
