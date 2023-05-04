@@ -1,6 +1,6 @@
 # AtlasOS Documentation
 
-Atlas documentation hosted on GitHub Pages using Material for MkDocs.
+Atlas documentation hosted on Cloudflare Pages using Material for MkDocs.
 
 Here you can help Atlas with documentation, for now we do not have translation capabilities but they will be added in the future.
 
