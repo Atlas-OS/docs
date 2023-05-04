@@ -41,8 +41,6 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
     - content.action.view
-    # https://squidfunk.github.io/mkdocs-material/reference/tooltips/#improved-tooltips (Insiders)
-    - content.tooltips
     # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#configuration
     - content.code.copy
     - content.code.select
@@ -132,6 +130,7 @@ extra:
       link: https://twitter.com/AtlasOS
       name: AtlasOS on Twitter
 
+
 #
 # Navigation
 # https://www.mkdocs.org/user-guide/configuration/#nav
@@ -140,10 +139,8 @@ nav:
   - Home:
     - Home: index.md
   - Getting Started:
-    - Index: getting-started/index.md
     - Installation: getting-started/installation.md
     - Other installation methods:
-      - Index: getting-started/other-installation-methods/index.md
       - No USB: getting-started/other-installation-methods/no-usb.md
     - Post-Installation:
       - Index: getting-started/post-installation/index.md
@@ -161,11 +158,9 @@ nav:
       - Software:
         - Index: getting-started/post-installation/software/index.md
   - Troubleshooting:
-    - Index: troubleshooting/index.md
     - Removed features: troubleshooting/removed-features.md
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
-      - Index: troubleshooting/common-issues/index.md
       - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
       - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
       - CSGO VAC Unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
@@ -175,30 +170,13 @@ nav:
       - Adobe:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
-  - FAQ:
-    - Index: faq/index.md
-    - General FAQ: 'https://atlasos.net/faq'
-    - Community: 
-      - Discord: faq/community/discord.md
-      - Forums: faq/community/forums.md
-      - GitHub: faq/community/github.md
+  - FAQ: 'https://atlasos.net/faq'
+
 
 #
 # Plugins
 #
 plugins:
-  # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
-  - privacy:
-      enabled: true
-      assets_fetch_dir: assets/external
-      links: true
-      links_noopener: true
-      links_attr_map:
-        target: _blank
-      assets_exclude:
-        - insights.tweakcentral.net/*
-        - unpkg.com/*
-
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   - search:
       lang: en
@@ -215,24 +193,7 @@ plugins:
   - git-revision-date-localized:
       enabled: true
       enable_creation_date: true
-      fallback_to_build_date: true
       type: datetime
-
-  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors (Insiders)
-  - git-committers:
-      repository: Atlas-OS/docs
-      branch: master
-
-  # https://squidfunk.github.io/mkdocs-material/setup/building-an-optimized-site (Insiders)
-  #- optimize:
-  #    enabled: true
-  #    optimize_png_speed: 4
-  #    optimize_jpg_quality: 75
-  #    cache: true
-  #    cache_dir: .cache/plugins/optimize
-
-  # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
-  - typeset
 
 
 #
