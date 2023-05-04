@@ -90,7 +90,7 @@ The Power folder is a folder that allows you to manage power related settings.
 
 ### CPU Idle
 
-*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+Disabling idle reduces jitter and increases responsiveness as the CPU is forced to operate at C-State 0 which prevents the CPU clocks constantly fluctuating and eliminates the latency penalty introduced from the time taken to restore and transition to a higher C-State. The drawbacks of forcing the CPU to operate at C0 is increased power consumption and higher temperatures, so it is not recommended disabling idle if you leave your PC running for extended durations, have inadequate cooling, uncontrolled voltages or a laptop. Idle states can be toggled in the context menu after running the ``Add Idle toggle in context menu.reg`` file.
 
 ### Hibernation
 
