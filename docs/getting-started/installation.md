@@ -1,5 +1,8 @@
 # Installation
 
+!!! info
+    Atlas no longer provides ISOs to download, please use this method here to install.
+
 ## :material-clipboard-list-outline: Requirements
 
 * A USB drive (8 GB minimum)
@@ -8,13 +11,13 @@
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
 
-!!! info
-    Atlas no longer provides ISOs to download, please use this method here to install.
+!!! warning "Atlas is not pre-activated"
+    Atlas is **not** a pre-activated version of Windows. If you want to run Atlas legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure that the seller is trusted and that the key is legitimate, no matter where you buy it.
 
 !!! tip "Download ethernet drivers"
     Some network adapters do not have drivers that come with Windows. This means that if you are using Ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
 
-## Video Guide
+## :material-video-box: Video Tutorial
 
 <iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -60,7 +63,7 @@ The following bootable USB creators that we have written about need an ISO file:
 !!! example "No USB"
     There is a way to install Atlas without a USB drive. After you downloaded the ISO, you can read on how to install Atlas without a USB drive by reading [this](/getting-started/other-installation-methods/no-usb). But if you want to install Atlas quickly and easily, we suggest you to use a USB drive.
 
-## Identify BIOS mode
+## :material-chip: Identify BIOS mode
 
 To identify your BIOS Mode you can either check your device's manual, or look it up in your BIOS or check it in Windows.
 To check it in Windows, you can use PowerShell, and copy and pasting the following into PowerShell (make sure you run PowerShell as administrator):
@@ -144,3 +147,6 @@ After a few reboots, your system will be optimized and have less junk on it, tha
 
 ??? question "No internet?"
     If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else.
+
+!!! question "Need help?"
+    If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a big community of people who care and want to help.

@@ -6,7 +6,7 @@ Only install drivers that are needed for hardware that is currently not working.
 
 If you do not know what brands and drivers to get for each component, you can look up your hardware to find out what the drivers are called and then install them.
 
-## GPU Drivers
+## :material-cogs: GPU Drivers
 We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated. We have included installation guides for popular graphics card brands below:
 
 * [NVIDIA](/getting-started/post-installation/drivers/gpu/nvidia)

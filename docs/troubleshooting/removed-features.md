@@ -1,9 +1,3 @@
-## Features removed from Atlas
-
-Please do keep in mind that Atlas is made for gaming, so many features and services that are not needed for most gamers have been taken away. When services or features are taken away, they can cause problems with the apps you use or even with hardware.
-
-Atlas gets rid of the following services and features:
-
 !!! success "Features being added back in v0.3.0"
 	In v0.3.0, these features are being added back as optional features:
 	
@@ -24,6 +18,12 @@ Atlas gets rid of the following services and features:
 	
 	Overall, Atlas will be more transparent from now on, with more clarity and warnings to the user about security.
 
+## :material-delete-off: Features removed from Atlas
+
+Please do keep in mind that Atlas is made for gaming, so many features and services that are not needed for most gamers have been taken away. When services or features are taken away, they can cause problems with the apps you use or even with hardware.
+
+Atlas gets rid of the following services and features:
+
 * Some APPX and UWP applications
 * Logging of Network Configuration
 * Malicious Removal Tool
@@ -35,7 +35,7 @@ Atlas gets rid of the following services and features:
 * Windows Error Reporting
 * Windows Updates
 
-## Features disabled by default but can be enabled
+## :material-check-bold: Features disabled by default but can re-enable
 * Hyper-V and VBS
 * Background Apps
 * Disk Defragmentation

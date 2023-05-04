@@ -1,11 +1,11 @@
 # Welcome to Atlas Documentation!
 
-You have reached the Atlas documentation. By reading, you will learn everything you need to know about Atlas.
-
 !!! danger "Security Concerns"
     We have heard your concerns about the security of Atlas and we have addressed them in a [tweet posted by our official account](https://twitter.com/AtlasOS/status/1651284816489336832?s=20). 
 	
 	Please see [this page](/troubleshooting/removed-features/) to see which features will be coming back, mostly related to security.
+
+You have reached the Atlas documentation. By reading, you will learn everything you need to know about Atlas.
 
 ## :material-head-question-outline: What is Atlas?
 
