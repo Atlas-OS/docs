@@ -121,15 +121,14 @@ extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.com/servers/atlas-795710270000332800
-      name: discord.gg/atlasos
+      link: https://discord.atlasos.net
+      name: AtlasOS on Discord
     - icon: fontawesome/brands/github
       link: https://github.com/Atlas-OS
       name: AtlasOS on GitHub
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/AtlasOS
       name: AtlasOS on Twitter
-
 
 #
 # Navigation
@@ -163,15 +162,14 @@ nav:
     - Common Issues:
       - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
       - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - CSGO VAC Unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
+      - CSGO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
       - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
-      - Process Hacker enabled: troubleshooting/common-issues/process-hacker.md
+      - Process Hacker process enabled: troubleshooting/common-issues/process-hacker.md
       - Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md
       - Adobe:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ: 'https://atlasos.net/faq'
-
 
 #
 # Plugins
@@ -194,7 +192,6 @@ plugins:
       enabled: true
       enable_creation_date: true
       type: datetime
-
 
 #
 # Python Markdown
