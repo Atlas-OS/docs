@@ -10,6 +10,7 @@
 * A backup of all the files that you want to keep, either in the cloud or on an external drive.
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
+* x64/64-bit CPU (x86 or 32-bit is not supported)
 
 !!! warning "Atlas is not pre-activated"
     Atlas is **not** a pre-activated version of Windows. If you want to run Atlas legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure that the seller is trusted and that the key is legitimate, no matter where you buy it.
