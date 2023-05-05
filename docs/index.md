@@ -21,7 +21,7 @@
 
     Find the cause and fix to troubleshoot any common issues with your AtlasOS system.
 
-    [:octicons-arrow-right-24: Troubleshoot](/troubleshooting/)
+    [:octicons-arrow-right-24: Troubleshoot](/troubleshooting/removed-features/)
 
 -   :material-chat-question:{ .lg .middle } __FAQ__
 
