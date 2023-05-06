@@ -56,7 +56,7 @@ On each commit, you should make sure that you have checked that:
 * There are the most minimal amount of mistakes, check grammar and anything else important
 	* For any YAML changed, please verify that it is valid before commiting with [YAML Lint](https://www.yamllint.com/)
 * People would generally agree with the change
-	* If you don't know, ask people in the [Discord](https://discord.gg/atlasos) or [GitHub issues](https://github.com/Atlas-OS/Atlas/issues))
+	* If you don't know, ask people in the [Discord](https://discord.gg/atlasos) or [GitHub issues](https://github.com/Atlas-OS/Atlas/issues)
 
 Making sure that your commits are already to a high standard means that development will be faster and more organised. However, keep in mind that it's okay to make mistakes sometimes, as people will give feedback/reviews in your pull requests, so don't worry about it too much.
 
