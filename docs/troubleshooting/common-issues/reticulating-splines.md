@@ -9,8 +9,8 @@ Switch to a different network environment. (This includes but are not limited to
 
 ### Fix 2
 1. Open Task Manager.
-2. Kill The `curl executable`,
-3. Kill `powershell`,
-4. Kill `Windows Command Processor`,
+2. Kill ``curl`.
+3. Kill ``PowerShell``.
+4. Kill ``Windows Command Processor`` (cmd).
 
 The install progress should start again.
