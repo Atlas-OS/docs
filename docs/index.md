@@ -1,3 +1,9 @@
+---
+description: The official documentation for AtlasOS
+subtitle: The official documentation for AtlasOS
+icon: material/home
+---
+
 # Welcome to Atlas Documentation!
 
 !!! danger "Security Concerns"
