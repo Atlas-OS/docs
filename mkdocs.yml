@@ -193,10 +193,10 @@ plugins:
       cards_dir: assets/images/metadata
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
-  - git-revision-date-localized:
-      enabled: true
-      enable_creation_date: false
-      type: timeago
+  #- git-revision-date-localized:
+  #    enabled: true
+  #    enable_creation_date: false
+  #    type: timeago
 
 
 #
