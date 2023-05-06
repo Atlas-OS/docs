@@ -122,6 +122,9 @@ extra:
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:
+    - icon: material/forum
+      link: https://forum.atlasos.net/
+      name: AtlasOS forums
     - icon: fontawesome/brands/discord
       link: https://discord.atlasos.net
       name: AtlasOS on Discord

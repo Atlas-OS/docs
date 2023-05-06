@@ -30,14 +30,6 @@
     Get the answer to any frequently asked questions regarding AtlasOS.
 
     [:octicons-arrow-right-24: Visit FAQ](https://atlasos.net/faq)
-
--   :material-account-supervisor:{ .lg .middle } __AtlasOS Forums__
-
-    ---
-
-    Join our community online by signing up to the AtlasOS forums.
-
-    [:octicons-arrow-right-24: Sign up](https://forum.atlasos.net/)
 	
 -   :material-git:{ .lg .middle } __Contribution Guidelines__
 
