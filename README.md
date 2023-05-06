@@ -6,7 +6,7 @@ Here you can help Atlas with documentation, for now we do not have translation c
 
 ## How to contribute?
 
-We recommend you to use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) with [Emojis](https://gitmoji.dev)for development purposes. You can also use [Angular's Conventional Commits Format](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
+We recommend you to use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) with [Emojis](https://gitmoji.dev) for development purposes. You can also use [Angular's Conventional Commits Format](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
 
 We also recommend that you make a preview build on your own machine for our documentation before you commit, just so that there is no issues with the pull request.
 

@@ -1,4 +1,4 @@
-# Welcome to the AtlasOS docs contributing guide
+# Welcome to the AtlasOS documentation contributing guide
 
 Thank you for being invested in helping out AtlasOS and our documentation. This is amazingly useful to us and we appreciate it a lot!
 
