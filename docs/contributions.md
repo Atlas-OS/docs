@@ -18,7 +18,7 @@ Alternatively, you can use the [Git](https://git-scm.com/) command-line. Use wha
 
 These are the main three repositories to contribute to. There might also be other repositories that you can contribute to, see [here](https://github.com/Atlas-OS).
 
-See [here](https://github.com/Atlas-OS/docs/.github/CONTRIBUTING.md) as well for the contribution guide for the documentation.
+See [here](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) as well for the contribution guide for the documentation.
 
 ## :material-chat-question: How it works
 
