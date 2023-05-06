@@ -124,7 +124,7 @@ extra:
   social:
     - icon: material/forum
       link: https://forum.atlasos.net/
-      name: AtlasOS forums
+      name: AtlasOS Forums
     - icon: fontawesome/brands/discord
       link: https://discord.atlasos.net
       name: AtlasOS on Discord
