@@ -9,7 +9,7 @@ Switch to a different network environment. (This includes but are not limited to
 
 ### Fix 2
 1. Open Task Manager.
-2. Kill ``curl`.
+2. Kill ``curl``.
 3. Kill ``PowerShell``.
 4. Kill ``Windows Command Processor`` (cmd).
 
