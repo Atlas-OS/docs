@@ -1,3 +1,8 @@
+---
+description: The official contribution guidelines for the AtlasOS playbook
+icon: material/handshake
+---
+
 # Contribution Guidelines
 
 This page will tell you how to properly contribute to Atlas, all contributions are much appriciated!
