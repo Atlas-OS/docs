@@ -12,6 +12,7 @@ copyright: >
   <br>AtlasOS is not affiliated with Microsoft.
 #  <a href="#__consent">Change cookie settings</a>
 
+
 #
 # Theme Settings
 #
@@ -80,6 +81,7 @@ theme:
     edit: material/file-edit
     view: material/file-eye
 
+
 #
 # Extra Settings
 #
@@ -130,6 +132,7 @@ extra:
       link: https://twitter.com/AtlasOS
       name: AtlasOS on Twitter
 
+
 #
 # Navigation
 # https://www.mkdocs.org/user-guide/configuration/#nav
@@ -171,6 +174,7 @@ nav:
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ: 'https://atlasos.net/faq'
 
+
 #
 # Plugins
 #
@@ -182,6 +186,7 @@ plugins:
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
   - social:
+      cards_font: Inter
       cards_color:
         fill: "#1991ff"
         text: "#ffffff"
@@ -190,8 +195,9 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
   - git-revision-date-localized:
       enabled: true
-      enable_creation_date: true
-      type: datetime
+      enable_creation_date: false
+      type: timeago
+
 
 #
 # Python Markdown
