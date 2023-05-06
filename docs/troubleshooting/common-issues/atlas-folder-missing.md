@@ -1,3 +1,8 @@
+---
+description: How to fix missing Atlas folder on AtlasOS
+icon: material/folder-question
+---
+
 The Atlas folder is on your desktop by default. If it is not there, you can find the replacement folder in `C:/Users/Default/Desktop`.
 
 If for some reason that folder does not contain the `Atlas` folder, you can get it from our Github repository. Though we do not recommend this method because it means that your Atlas installation may be broken and you may need to reinstall Atlas.

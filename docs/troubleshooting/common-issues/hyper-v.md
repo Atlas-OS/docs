@@ -1,3 +1,8 @@
+---
+description: How to fix Hyper-V "not found" errors on AtlasOS
+icon: material/server
+---
+
 Some people get "...not found" errors when trying to enable Hyper-V.
 
 1. Run "Reset Network to Windows Default" in `Atlas/4. Troubleshooting/Network/` (Atlas is on your Desktop, if it is not, follow this guide [here](/troubleshooting/common-issues/atlas-folder-missing))

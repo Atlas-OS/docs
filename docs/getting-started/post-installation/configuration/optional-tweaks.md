@@ -1,3 +1,8 @@
+---
+description: An overview of all the optional tweak scripts installed by the AtlasOS playbook
+icon: material/hammer
+---
+
 # Optional Tweaks
 
 These are some cool tweaks that you can turn on. For example, you could change the old alt-tab to the new one or bring back the old one. You can pick and use any of the options.
@@ -22,19 +27,19 @@ Titlebars are the bars at the top of windows that have the window's name and but
 
 This is another folder that lets you change how your default file explorer works. Here, we'll talk about each option.
 
-## Folders in This PC
+## :material-folder-outline: Folders in This PC
 
 You can change the folders that are shown by default in File Explorer's "This PC" section. Run the ``Remove all folders in This PC (default).reg`` or ``Restore all folders in This PC.reg`` files to remove or add all folders from this section.
 
-## Network Navigation Pane
+## :material-network-outline: Network Navigation Pane
 
 By running the ``Network Pane.reg`` file, you can enable or disable the network pane.
 
-## Quick Access
+## :material-star-outline: Quick Access
 
 In File Explorer, there is a section called "Quick Access" that shows you your pinned folders. Run the ``Remove Quick Access.reg`` or ``Show Quick Access (default).reg`` files to turn this section on or off.
 
-## Removable Drives in Sidebar
+## :material-usb-flash-drive-outline: Removable Drives in Sidebar
 
 Here, you can run the ``Enable Removable Drives in Sidebar.reg`` file to make removable drives show up in the sidebar.
 

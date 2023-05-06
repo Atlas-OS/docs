@@ -1,6 +1,6 @@
 git+https://${MATERIAL_INSIDERS}@github.com/whallin/mkdocs-material-insiders.git
 pillow
 cairosvg
-mkdocs-git-revision-date-localized-plugin
+#mkdocs-git-revision-date-localized-plugin
 mkdocs-git-committers-plugin-2
-mike
+#mike

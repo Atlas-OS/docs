@@ -1,3 +1,8 @@
+---
+description: An overview of all advanced configuration options installed by the AtlasOS playbook
+icon: material/sign-caution
+---
+
 # Advanced Configuration
 
 If you do not know what you are doing, please skip this section in order not to bring any harm to your PC.

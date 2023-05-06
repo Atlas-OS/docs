@@ -1,3 +1,8 @@
+--- 
+description: How to fix Adobe Acrobat fails to install on AtlasOS
+icon: simple/adobe
+---
+
 # Acrobat fails to install
 
 If Adobe Acrobat will not install on your Atlas system, you should first try to fix the problem by following Adobe's official instructions.

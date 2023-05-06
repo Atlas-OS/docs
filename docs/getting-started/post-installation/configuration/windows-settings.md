@@ -1,3 +1,8 @@
+---
+description: An overview of the Windows setting shortcuts installed by the AtlasOS playbook
+icon: simple/windows
+---
+
 # Windows Settings
 
 Windows Settings is a folder on Atlas that lets you change the most common settings when you set up Atlas. For some of these, you may need to use the "Activation" file and activate Windows.

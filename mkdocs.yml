@@ -12,6 +12,7 @@ copyright: >
   <br>AtlasOS is not affiliated with Microsoft.
 #  <a href="#__consent">Change cookie settings</a>
 
+
 #
 # Theme Settings
 #
@@ -80,6 +81,7 @@ theme:
     edit: material/file-edit
     view: material/file-eye
 
+
 #
 # Extra Settings
 #
@@ -130,6 +132,7 @@ extra:
       link: https://twitter.com/AtlasOS
       name: AtlasOS on Twitter
 
+
 #
 # Navigation
 # https://www.mkdocs.org/user-guide/configuration/#nav
@@ -142,7 +145,6 @@ nav:
     - Other installation methods:
       - No USB: getting-started/other-installation-methods/no-usb.md
     - Post-Installation:
-      - Index: getting-started/post-installation/index.md
       - Drivers:
         - Index: getting-started/post-installation/drivers/index.md
         - GPU:
@@ -161,15 +163,16 @@ nav:
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
       - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
-      - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - CSGO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
+      - Atlas folder missing: troubleshooting/common-issues/atlas-folder-missing.md
+      - CS:GO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
       - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
-      - Process Hacker process enabled: troubleshooting/common-issues/process-hacker.md
+      - Process Hacker process enable: troubleshooting/common-issues/process-hacker.md
       - Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md
       - Adobe:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
   - FAQ: 'https://atlasos.net/faq'
+
 
 #
 # Plugins
@@ -182,16 +185,18 @@ plugins:
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
   - social:
+      cards_font: Inter
       cards_color:
         fill: "#1991ff"
         text: "#ffffff"
       cards_dir: assets/images/metadata
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
-  - git-revision-date-localized:
-      enabled: true
-      enable_creation_date: true
-      type: datetime
+  #- git-revision-date-localized:
+  #    enabled: true
+  #    enable_creation_date: false
+  #    type: timeago
+
 
 #
 # Python Markdown

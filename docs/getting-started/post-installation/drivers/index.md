@@ -1,3 +1,8 @@
+---
+description: An overview of how to install drivers on an AtlasOS install
+icon: material/hammer-screwdriver
+---
+
 # Drivers
 
 ## :material-emoticon-confused-outline: What drivers do I need?

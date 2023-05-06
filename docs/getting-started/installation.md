@@ -1,3 +1,8 @@
+---
+description: The official AtlasOS playbook installation guide
+icon: material/cogs
+---
+
 # Installation
 
 !!! info
