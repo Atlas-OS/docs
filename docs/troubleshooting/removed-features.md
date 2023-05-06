@@ -1,3 +1,8 @@
+---
+description: All Windows features removed by the AtlasOS playbook
+icon: material/file-remove
+---
+
 !!! success "Features being added back in v0.3.0"
 	In v0.3.0, these features are being added back as optional features:
 	

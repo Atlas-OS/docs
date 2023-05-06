@@ -1,3 +1,8 @@
+---
+description: How to fix Adobe Creative Cloud error 191 to install on AtlasOS
+icon: simple/adobe
+---
+
 # Creative Cloud error 191
 
 Since Adobe Creative Cloud is an app that runs on the UWP, it needs services that you might have turned off using one of the Atlas scripts.

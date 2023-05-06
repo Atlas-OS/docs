@@ -1,3 +1,8 @@
+---
+description: The official no-USB AtlasOS playbook installation guide
+icon: material/usb-port
+---
+
 # No USB Installation Guide
 
 _Originally posted by [Johnapolitan](https://github.com/Johnapolitan) in the Atlas repository, in [issues](https://github.com/Atlas-OS/Atlas/issues/153)._

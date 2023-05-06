@@ -1,6 +1,5 @@
 ---
 description: The official documentation for AtlasOS
-subtitle: The official documentation for AtlasOS
 icon: material/home
 ---
 

@@ -145,7 +145,6 @@ nav:
     - Other installation methods:
       - No USB: getting-started/other-installation-methods/no-usb.md
     - Post-Installation:
-      - Index: getting-started/post-installation/index.md
       - Drivers:
         - Index: getting-started/post-installation/drivers/index.md
         - GPU:
@@ -164,8 +163,8 @@ nav:
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
       - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
-      - Atlas folder is missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - CSGO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
+      - Atlas folder missing: troubleshooting/common-issues/atlas-folder-missing.md
+      - CS:GO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
       - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
       - Process Hacker process enable: troubleshooting/common-issues/process-hacker.md
       - Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md

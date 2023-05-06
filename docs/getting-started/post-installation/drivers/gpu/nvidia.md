@@ -1,8 +1,13 @@
+---
+description: A guide on how to configure and install NVIDIA GPU drivers in AtlasOS
+icon: simple/nvidia
+---
+
 # Installing NVIDIA graphics drivers
 
 We recommend using NVCleanstall, as it is a GUI alternative to manually stripping drivers.
 
-## Driver Installation
+## :simple-nvidia: Driver Installation
 
 - Download [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall).
 - Open the application and click ``Next``.
@@ -16,7 +21,7 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
     - Automatically accept the "driver unsigned" warning
 - Click ``Install`` and continue with the NVIDIA driver installation as usual.
 
-## Configure NVIDIA Control Panel
+## :material-cog: Configure NVIDIA Control Panel
 
 This section was partly based on [AMIT's documentation](https://github.com/amitxv/PC-Tuning/blob/main/docs/configure-nvidia.md)
 
@@ -42,12 +47,10 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
     - Perform scaling on - Display
 - Set dynamic range to ``Full`` in ``Video -> Adjust video color settings -> Advanced``
 
-## Force P-State 0 (Advanced)
+## :material-numeric-0: Force P-State 0 (advanced)
 
-### Attention
-
-This will force P-State 0 on your NVIDIA card **AT ALL TIMES**, making it always run at full power.
-It is not recommended to set it, if you leave your computer on idle for a long time, have bad cooling or use a laptop.
+!!! danger "Attention"
+    This will force P-State 0 on your NVIDIA card **AT ALL TIMES**, making it always run at full power. It is not recommended to set it, if you leave your computer on idle for a long time, have bad cooling or use a laptop.
 
 Nvidia drivers force the power state for CUDA compute workloads other than real-time graphics to the lower P2 power state instead of the maximum P0 state. The difference between the two states is a lower memory clock frequency, the core clocks are identical in both states [[1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/WINDRIVERS/README.md#q-is-there-a-registry-setting-that-can-force-your-display-adapter-to-remain-at-its-highest-performance-state-pstate-p0), [2](https://forums.developer.nvidia.com/t/one-weird-trick-to-get-a-maxwell-v2-gpu-to-reach-its-max-memory-clock/40153)].
 

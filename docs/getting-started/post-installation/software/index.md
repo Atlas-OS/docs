@@ -1,6 +1,11 @@
+---
+description: The recommended way to install software in AtlasOS
+icon: material/download
+---
+
 # Installing Software
 
-## :material-clipboard-list-outline: What is Chocolatey?
+## :simple-chocolatey: What is Chocolatey?
 
 Atlas makes it easy to install software. Chocolatey is a Windows package manager. It is like apt-get and Homebrew on Linux and macOS respectively. It enables you to install software on your computer from the command line. Chocolatey is a project run by the community. Microsoft and Atlas do not officially support it, but we use it to make it easy for users to install the software they want.
 
