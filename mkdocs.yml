@@ -137,7 +137,7 @@ extra:
 nav:
   - Home:
     - Home: index.md
-    - Contribution Guidelines: home/contributions.md
+    - Contribution Guidelines: contributions.md
   - Getting Started:
     - Installation: getting-started/installation.md
     - Other installation methods:
