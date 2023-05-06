@@ -139,6 +139,9 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing ``More info`` and ``Run anyway``.
     - You may have to activate Windows to install Atlas. Get a supported key for Home/Pro, depending on what you installed and activate in Windows Settings.
 
+!!! question "Stuck on `Reticulating Splines`?"
+    If you are, check our guide [here](/troubleshooting/common-issues/reticulating-splines/) for the fix.
+
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info ""
