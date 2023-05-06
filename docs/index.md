@@ -45,7 +45,7 @@
 
     Learn how you can properly contribute to Atlas.
 
-    [:octicons-arrow-right-24: Contribution Guidelines](/home/contributions/)
+    [:octicons-arrow-right-24: Contribution Guidelines](/contributions/)
 
 </div>
 
