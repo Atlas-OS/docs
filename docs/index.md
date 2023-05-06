@@ -38,6 +38,14 @@
     Join our community online by signing up to the AtlasOS forums.
 
     [:octicons-arrow-right-24: Sign up](https://forum.atlasos.net/)
+	
+-   :material-git:{ .lg .middle } __Contribution Guidelines__
+
+    ---
+
+    Learn how you can properly contribute to Atlas.
+
+    [:octicons-arrow-right-24: Contribution Guidelines](/home/contributions/)
 
 </div>
 
