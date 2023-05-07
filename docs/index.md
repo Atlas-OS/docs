@@ -35,14 +35,14 @@ icon: material/home
     Get the answer to any frequently asked questions regarding AtlasOS.
 
     [:octicons-arrow-right-24: Visit FAQ](https://atlasos.net/faq)
-
--   :material-account-supervisor:{ .lg .middle } __AtlasOS Forums__
+	
+-   :material-git:{ .lg .middle } __Contribution Guidelines__
 
     ---
 
-    Join our community online by signing up to the AtlasOS forums.
+    Learn how you can properly contribute to Atlas.
 
-    [:octicons-arrow-right-24: Sign up](https://forum.atlasos.net/)
+    [:octicons-arrow-right-24: Contribution Guidelines](/contributions/)
 
 </div>
 
