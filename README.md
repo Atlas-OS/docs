@@ -4,13 +4,7 @@ Atlas documentation hosted on Cloudflare Pages using Material for MkDocs.
 
 Here you can help Atlas with documentation, for now we do not have translation capabilities but they will be added in the future.
 
-## How to contribute?
-
-We recommend you to use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0) with [Emojis](https://gitmoji.dev) for development purposes. You can also use [Angular's Conventional Commits Format](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
-
-We also recommend that you make a preview build on your own machine for our documentation before you commit, just so that there is no issues with the pull request.
-
-Please check out our [Contributing Guidelines](.github/CONTRIBUTING.md) for more information.
+**Want to contribute?** Please check out our [Contribution Guidelines](.github/CONTRIBUTING.md) and the [Atlas Contribution Guidelines](https://docs.atlasos.net/contributions) for more information.
 
 ## How to make a preview build?
 

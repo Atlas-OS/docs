@@ -12,18 +12,21 @@ Atlas uses Git to manage everything on the platform [GitHub](https://github.com/
 * An IDE like [Visual Studio Code](https://code.visualstudio.com/) or [VSCodium](https://vscodium.com)
 * [GitHub Desktop](https://desktop.github.com/) (recommended)
 
-Alternatively, you can use the [Git](https://git-scm.com/) command-line. Use whichever Git interface you find most familiar and easiest. Before contributing, you should research about Git first.
+Alternatively, you can use the [Git](https://git-scm.com/) command-line. Use whichever Git interface you find most familiar and easiest. Before contributing, you should [research](https://docs.github.com/en/get-started/quickstart) about Git first.
 
 ## :octicons-git-commit-24: How you can contribute
 
-* :material-pen-plus: [**Atlas Playbook**](https://github.com/Atlas-OS/Atlas) - The Atlas playbook file (`.apbx`) that is executed by AME Wizard ([GPLv3](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE))
+* :material-pen-plus: [**Atlas Playbook**](https://github.com/Atlas-OS/Atlas) - The Atlas playbook (`.apbx`) that is used in AME Wizard ([GPLv3](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE)) ([CoC](https://github.com/Atlas-OS/Atlas/blob/main/.github/CODE_OF_CONDUCT.md))
 	* Refer to the AME Wizard [documentation](https://docs.ameliorated.io/developers.html) for help
 	* You can also contribute to the `README.md` and its translations
 * :material-language-rust: [**Atlas Utilities**](https://github.com/Atlas-OS/Atlas-Utilities) - General tools used in Atlas like `filepicker.exe`, made in Rust ([GPLv3](https://github.com/Atlas-OS/Atlas-Utilities/blob/main/LICENSE))
-* :material-book-plus-multiple: [**Atlas Documentation**](https://github.com/Atlas-OS/docs) - The website that you are looking at right now ([CC-BY-SA-4.0](https://github.com/Atlas-OS/docs/blob/master/LICENSE))
-	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation specific contribution guide as well as this contribution guide
+* :material-book-plus-multiple: [**Atlas Documentation**](https://github.com/Atlas-OS/docs) - The website that you are looking at ([CC-BY-SA-4.0](https://github.com/Atlas-OS/docs/blob/master/LICENSE)) ([CoC](https://github.com/Atlas-OS/docs/blob/master/.github/CODE_OF_CONDUCT.md))
+	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation-specific contribution guide as well as these contribution guidelines to setup a development environment
+	* Reading the [GitHub documentation contribution guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) might also be useful
 
 These are the main three repositories to contribute to. There might also be other repositories that you can contribute to, see [here](https://github.com/Atlas-OS).
+
+If a repository has a specified template for pull requests or issues, please use them. Otherwise, your pull request could be closed.
 
 ## :material-chat-question: How it works
 
@@ -76,7 +79,7 @@ For a more simple guide, click [here](https://gist.github.com/Beneboe/3183a8a9eb
 
 ### :octicons-git-branch-16: Conventional Commits
 
-Preferably use [Conventional Commits](https://www.conventionalcommits.org/) for Atlas repositories for consistency and making commits more descriptive.
+Preferably use [Conventional Commits](https://www.conventionalcommits.org/) for Atlas repositories for consistency and making commits more descriptive. You can also take a peak at [Angular's Conventional Commits](https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit) for more help.
 
 *Example*: [`feat: ✨ add fAllowFullControl`](https://github.com/Atlas-OS/Atlas/commit/72cdcc7b327df19fd07e9c6eb0a10812ac6936b0)
 

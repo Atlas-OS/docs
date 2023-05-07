@@ -1,0 +1,33 @@
+name: "Pull Request Filter"
+
+on:
+  - pull_request_target
+
+jobs:
+  filter:
+    permissions:
+        contents: read
+        pull-requests: write
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Close pull requests that directly commit to master
+        run: |
+            comment="
+            You can not directly commit to the [\`master\`](https://github.com/Atlas-OS/docs) branch, read the contribution guide and only commit to [\`dev\`](https://github.com/Atlas-OS/docs/tree/dev).
+                
+            **Atlas Contribution Guidelines:** https://docs.atlasos.net/contributions
+            "
+            
+            for pr_number in $(gh pr list --json number --jq '.[].number'); do
+                echo "Processing pull request: #$pr_number"
+                if [ $(gh pr view $pr_number --json baseRefName --jq '.baseRefName') == 'master' ]; then
+                    echo "Closing pull request #$pr_number as it directly commits to master..."
+                    gh pr close $pr_number --comment "$comment"
+                fi
+            done
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
