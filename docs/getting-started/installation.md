@@ -18,7 +18,7 @@ icon: material/cogs
 * x64/64-bit CPU (x86 or 32-bit is not supported)
 
 !!! warning "Atlas is not pre-activated"
-    Atlas is **not** a pre-activated version of Windows. If you want to run Atlas legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure that the seller is trusted and that the key is legitimate, no matter where you buy it.
+    Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
 
 !!! tip "Download ethernet drivers"
     Some network adapters do not have drivers that come with Windows. This means that if you are using Ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
