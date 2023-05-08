@@ -18,7 +18,7 @@ Alternatively, you can use the [Git](https://git-scm.com/) command-line. Use whi
 
 * :material-pen-plus: [**Atlas Playbook**](https://github.com/Atlas-OS/Atlas) - The Atlas playbook (`.apbx`) that is used in AME Wizard ([GPLv3](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE)) ([CoC](https://github.com/Atlas-OS/Atlas/blob/main/.github/CODE_OF_CONDUCT.md))
 	* Refer to the AME Wizard [documentation](https://docs.ameliorated.io/developers.html) for help
-	* You can also contribute to the `README.md` and its translations
+	* You can also contribute to the `README.md` and its translations, which is the only exclusion for committing to the `main` branch
 * :material-language-rust: [**Atlas Utilities**](https://github.com/Atlas-OS/Atlas-Utilities) - General tools used in Atlas like `filepicker.exe`, made in Rust ([GPLv3](https://github.com/Atlas-OS/Atlas-Utilities/blob/main/LICENSE))
 * :material-book-plus-multiple: [**Atlas Documentation**](https://github.com/Atlas-OS/docs) - The website that you are looking at ([CC-BY-SA-4.0](https://github.com/Atlas-OS/docs/blob/master/LICENSE)) ([CoC](https://github.com/Atlas-OS/docs/blob/master/.github/CODE_OF_CONDUCT.md))
 	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation-specific contribution guide as well as these contribution guidelines to setup a development environment
@@ -35,7 +35,7 @@ There is a `dev` branch and a `main` or `master` branch for development on each 
 !!! warning
 	Make **all of your changes** to the `dev` branch of the respective repositories! 
 
-	Never commit or pull request directly to the `main` branches.
+	Never commit or pull request directly to the `main` branches, with the **only exception** being committing to the `main` branch on the main repository for translations.
 
 The reason why the `dev` branch exists is to ensure that the `main` branch only has approved and high quality changes. A pull request **every week** will be automatically created to merge the `dev` branch into the `main` branch, where the changes can be properly reviewed by **5 contributors** before the pull request is merged.
 
@@ -55,6 +55,8 @@ If there's any big changes, you should instead make a pull request for `dev` ins
 This means less potential headache in the future if the change is disagreed upon, as you can avoid reverting all of the disliked changes for the automatic pull request every week. 
 
 For manual/non-automated pull requests, you can make your own branch in the Atlas repository or make a fork, it is your choice.
+
+If you want to, you can also manually make a pull request to merge `dev` into `main`, but the 5 reviews will still be in effect.
 
 ## :material-format-letter-case: Formatting
 
