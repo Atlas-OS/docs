@@ -203,12 +203,12 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
-  - social:
-      cards_layout_options:
-        background_color: "#1991ff"
-        color: "#ffffff"
-        font_family: Inter
-      cards_dir: assets/images/metadata
+  # - social:
+  #     cards_layout_options:
+  #       background_color: "#1991ff"
+  #       color: "#ffffff"
+  #       font_family: Inter
+  #     cards_dir: assets/images/metadata
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
   #- git-revision-date-localized:
