@@ -196,6 +196,7 @@ plugins:
         - insights.tweakcentral.net/*
         - unpkg.com/*
         - avatars.githubusercontent.com/*
+        - insights.atlasos.net/Ä
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   - search:
