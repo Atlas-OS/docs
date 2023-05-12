@@ -1,0 +1,23 @@
+readme:
+- '**/README.md'
+
+actions:
+- .github/workflows/**/*
+- .github/labeler.yml
+
+github: 
+- .github/*
+- .git*
+
+mkdocs-config:
+- mkdocs.insiders.yml
+- mkdocs.yml
+
+getting-started:
+- docs/getting-started/**/*
+
+troubleshooting:
+- docs/troubleshooting/**/*
+
+home:
+- docs/*
