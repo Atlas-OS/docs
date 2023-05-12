@@ -150,7 +150,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info ""
-    After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/) section in our documentation, and then continue to the other sections.
+    After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/drivers/) section in our documentation, and then continue to the other sections.
 
 ### :material-bug-outline: Troubleshooting
 
