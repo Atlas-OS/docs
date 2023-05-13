@@ -119,11 +119,11 @@ Search Indexing is a built-in feature on Windows which is used to index files on
 
 The start menu folder stores start menu related configuration options.
 
-The `Install Open-Shell (run first).cmd` file is there so you can install Open-Shell which you can find more information about [here.](https://open-shell.github.io/Open-Shell-Menu/)
+The `Install Open-Shell.cmd` file is there so you can install Open-Shell. You can find more information about it [here.](https://github.com/Open-Shell/Open-Shell-Menu)
 
 The `Unlock Start Menu Tiles.cmd` file allows you to unlock the start menu tiles which you would have noticed on the start menu in normal Windows 10. This is useful if you want to move the tiles around when you add them to the start menu.
 
-The `Atlas Openshell Preset.xml` file is a preset which we recommend using for Open-Shell, but you can still change the suggested settings to your liking.
+The `Atlas Open-Shell Preset.xml` file is a pre-made preset which we recommend using for Open-Shell, but you can still change the suggested settings to your liking.
 
 ## Troubleshooting
 
