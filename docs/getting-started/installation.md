@@ -60,11 +60,9 @@ The following bootable USB creators that we have written about need an ISO file:
 
 === "Other methods"
 
-    - [MVS Collection](https://isofiles.bd581e55.workers.dev)
+	- [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
     - [Adguard File List](https://files.rg-adguard.net)
-
-    - [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
 !!! example "No USB"
     There is a way to install Atlas without a USB drive. After you downloaded the ISO, you can read on how to install Atlas without a USB drive by reading [this](/getting-started/other-installation-methods/no-usb). But if you want to install Atlas quickly and easily, we suggest you to use a USB drive.
