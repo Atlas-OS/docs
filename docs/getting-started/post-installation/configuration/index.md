@@ -85,10 +85,6 @@ Network Discovery is a built-in feature on Windows which is used to discover oth
 
 Notifications are a built-in feature on Windows which are used to show you notifications. On Atlas we have disabled them by default to make the experience more responsive and less bloated. To enable them just run the `Enable Notifications.cmd` file in the `Notifications` folder.
 
-## Oculus VR
-
-The Oculus VR folder contains resources that allow you to use the Oculus software. We have disabled support for it by default as it is not needed by most users. To enable it run the `Enable Oculus VR.cmd` file in the `Oculus VR` folder.
-
 ## Power
 
 The Power folder is a folder that allows you to manage power related settings.
