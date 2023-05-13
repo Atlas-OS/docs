@@ -17,7 +17,7 @@ All of the configuration files listed here are located in the `3. Configuration/
 
 ## Boot Configuration
 
-*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+Here you can change the boot configuration for Windows, which can modify system timers, QoL, mitigations and more.
 
 ## DSCP
 
@@ -29,7 +29,8 @@ All of the configuration files listed here are located in the `3. Configuration/
 
 ## NVIDIA Display Container
 
-*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+This allows you to enable/disable the 'NVIDIA Display Container LS service', which connects to a few NVIDIA IPs and uses a tiny bit of CPU usage.
+These scripts are aimed at users that have a stripped driver, and people that barely touch the NVIDIA Control Panel.
 
 ## Static IP
 
