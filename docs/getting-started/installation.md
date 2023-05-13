@@ -60,7 +60,7 @@ The following bootable USB creators that we have written about need an ISO file:
 
 === "Other methods"
 
-	- [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
+    - [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
     - [Adguard File List](https://files.rg-adguard.net)
 
