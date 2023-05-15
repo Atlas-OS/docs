@@ -30,7 +30,7 @@ jobs:
             **Last commit to [\`dev\`](https://github.com/Atlas-OS/docs/tree/dev):** https://github.com/Atlas-OS/docs/commit/$(git rev-parse remotes/origin/dev)
             "
             
-            gitLog=$(git log main..remotes/origin/dev)
+            gitLog=$(git log master..remotes/origin/dev)
             
             if [ -n "$gitLog" ]; then
                 gh pr create -B "master" -H "dev" --title "$title" -l "auto-pr" --body "$body"
