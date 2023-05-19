@@ -19,7 +19,7 @@ icon: material/usb-port
 
   - [Windows 10+ OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
 
-- Your computer should shortly be in Windows 10. At this time you can quickly enable your Internet and open Google drive, drag then files on to your desktop and then turn your internet off.
+- Your computer should shortly be in Windows 10. At this time you can quickly enable your Internet and open Google drive, drag the files on to your desktop and then turn your internet off.
 
 - Now proceed to follow the AtlasOS Installation Guide at the specified time. [ 9:50 ]
 <iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE?t=523" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
