@@ -13,15 +13,11 @@ icon: material/usb-port
 
 - You should now be prompted with a Windows Setup, when you encounter 'Which type of installation do you want?', press 'Custom: Install Windows only'. Delete all of your drive partitions and make a New partition on your main drive.
 
-- Finish installing Windows in the OOBE, and follow the video attached: <iframe src="https://streamable.com/e/21wdvv?loop=0" width="560" height="420" frameborder="0" allowfullscreen></iframe>
-
-  If the video above does not work, use the video provided here:
-
-  - [Windows 10+ OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
+- Finish installing Windows in the OOBE, and follow the video attached: <iframe src="https://cdn.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
 
 - Your computer should shortly be in Windows 10. At this time you can quickly enable your Internet and open Google drive, drag the files on to your desktop and then turn your internet off.
 
 - Now proceed to follow the AtlasOS Installation Guide at the specified time. [ 9:50 ]
 <iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE?t=523" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-_By : Chronos_
+#### Credit: [Chronos](https://github.com/CrownedMatrix)
