@@ -70,6 +70,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 4. Proceed with the Windows installation as usual.
     - If asked, choose your desired edition (Professional is recommended).
 5. Finish installing Windows in the OOBE, and follow the video below:
+
     <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
 
 You can now follow the [main guide](/getting-started/installation/#install-atlas) to install Atlas. Alternatively, follow the video guide:
