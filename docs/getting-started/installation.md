@@ -100,6 +100,9 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 
 You will want to do this offline to ensure that no drivers can install via Windows Update in your new installation, so that the minimal third-party drivers are installed for the lightest experience.
 
+!!! tip "Dual booting"
+	Although not covered here, you can also dual boot Windows with this method. You would have to make a seperate partition to dual boot with, then select that instead of `C:` in the Windows Setup.
+
 1. Double click your downloaded ISO to mount it, which adds the ISO as a virtual read-only drive in File Explorer. If it opens up in a program like WinRAR or 7-Zip, right click the ISO, click 'Open With' then open it with File Explorer.
 
 2. Go to your mounted ISO (as a drive letter) in File Explorer, then go into `sources`, and open `setup.exe`.
@@ -112,7 +115,7 @@ You will want to do this offline to ensure that no drivers can install via Windo
 
 6. Accept the license agreement, click 'Custom: Install Windows only (advanced)' to completely wipe your current installation of Windows and replace it with the new one.
 
-7. Find your `C:` drive, click 'OK' to the warning, click next, and let the installation do its thing (you might restart a couple of times) and wait.
+7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation do its thing (you might restart a couple of times) and wait.
 
 8. Finish installing Windows and in the OOBE, follow the video attached: <iframe src="https://cdn.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
 
