@@ -117,7 +117,7 @@ You will want to do this offline to ensure that no drivers can install via Windo
 
 7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation do its thing (you might restart a couple of times) and wait.
 
-8. Finish installing Windows and in the OOBE, follow the video attached: <iframe src="https://cdn.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+8. Finish installing Windows and in the OOBE, follow the video attached: <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
 
 9. Once inside Windows, your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you need from it before deleting it.
 
