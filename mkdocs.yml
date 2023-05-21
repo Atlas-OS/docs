@@ -147,7 +147,7 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
     - Other installation methods:
-      - No USB: getting-started/other-installation-methods/no-usb.md
+      - USB: getting-started/other-installation-methods/usb.md
     - Post-Installation:
       - Drivers:
         - Index: getting-started/post-installation/drivers/index.md
@@ -189,10 +189,10 @@ plugins:
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
   # - social:
-  #     cards_font: Inter
-  #     cards_color:
-  #       fill: "#1991ff"
-  #       text: "#ffffff"
+  #     cards_layout_options:
+  #       background_color: "#1991ff"
+  #       color: "#ffffff"
+  #       font_family: Inter
   #     cards_dir: assets/images/metadata
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
