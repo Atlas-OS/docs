@@ -73,9 +73,7 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
 
     <iframe src="https://streamable.com/e/21wdvv?loop=0" width="560" height="420" frameborder="0" allowfullscreen></iframe>
     
-    If the video above does not work, use the video provided here:
-    
-    - [Windows 10+ OOBE](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4)
+    If the video above does not work, click [here](https://raw.githubusercontent.com/amitxv/PC-Tuning/main/media/oobe-windows10+-example.mp4).
 
 You can now follow the [main guide](/getting-started/installation/#install-atlas) to install Atlas. Alternatively, follow the video guide:
 <iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE?t=523" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
