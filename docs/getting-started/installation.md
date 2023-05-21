@@ -15,7 +15,7 @@ icon: material/cogs
 
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
-* x86_64/64-bit CPU (x86 or 32-bit is not supported)
+* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (x86 or 32-bit is not supported)
 
 !!! warning "Atlas is not pre-activated"
     Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
@@ -78,7 +78,13 @@ You should now have an Atlas folder with all the files you need on the root dire
 
 ### :material-harddisk-plus: Creating a temporary partition
 
-This is for the case that you have nothing to put the Atlas files on, which won't be wiped by reinstalling Windows. If you have already done the [Preparing Atlas](/getting-started/installation/#preparing-atlas) steps, skip to [Reinstalling Windows](/getting-started/installation/#reinstalling-windows).
+!!! info
+	This is only for the case that you have **nothing** to put the Atlas files on, which won't be wiped by reinstalling Windows.
+	
+	If you have already done the [Preparing Atlas](/getting-started/installation/#preparing-atlas) steps, skip to [Reinstalling Windows](/getting-started/installation/#reinstalling-windows).
+
+!!! tip
+	If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
 1. Open Disk Management (`diskmgmt.msc`) and locate your `C:` drive
 2. Right click :material-arrow-right: Shrink volume
@@ -86,13 +92,11 @@ This is for the case that you have nothing to put the Atlas files on, which won'
 4. There should now be 'Unallocated' space, right click :material-arrow-right: New Simple Volume
 5. Go through the wizard, you can simply keep clicking 'Next'
 
-To delete it later, you can:
+#### :material-harddisk-remove: Deleting the temporary partition later
 
 1. Right click :material-arrow-right: Delete volume
 2. Right click on your `C:` drive :material-arrow-right: Extend volume
 3. Go through the wizard, you can simply keep clicking 'Next'
-
-If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
 ## :material-microsoft-windows: Reinstalling Windows
 
