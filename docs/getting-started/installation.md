@@ -138,18 +138,13 @@ You will want to do this offline to ensure that no drivers can install via Windo
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing `More info` and `Run anyway`.
     - You may have to activate Windows to install Atlas. Get a supported key for Home/Pro, depending on what you installed and activate in Windows Settings.
 
-!!! question "Stuck on `Reticulating Splines`?"
-    If you are, check our guide [here](/troubleshooting/common-issues/reticulating-splines/) for the fix.
-
 After a few reboots, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info ""
     After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/drivers/) section in our documentation, and then continue to the other sections.
 
 ### :material-bug-outline: Troubleshooting
-
-!!! question "Need help?"
+!!! tip "Need help?"
     If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a big community of people who care and want to help.
 
-??? question "No internet?"
-    If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else.
+Please see our [troubleshooting section](/troubleshooting/removed-features/) for issues like being stuck on 'Reticulating Splines'.
