@@ -1,192 +1,14 @@
-site_name: Atlas Documentation
-site_url: https://docs.atlasos.net
-
-# https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
-repo_url: https://github.com/Atlas-OS/docs
-repo_name: Atlas-OS/docs
-edit_uri: edit/master/docs/
-
-# https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
-copyright: >
-  Copyright &copy; 2023 AtlasOS
-  <br>AtlasOS is not affiliated with Microsoft.
-#  <a href="#__consent">Change cookie settings</a>
-
-
-#
-# Theme Settings
-#
-theme:
-  # https://squidfunk.github.io/mkdocs-material/customization/#setup-and-theme-structure
-  name: material
-  custom_dir: overrides
-
-  features:
-    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
-    - navigation.instant
-    - navigation.path
-    - navigation.prune
-    - navigation.indexes
-    - navigation.top
-    - navigation.tabs
-    - navigation.sections
-    - navigation.tracking
-    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-pruning
-    - navigation.prune
-    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
-    - toc.follow
-    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
-    - search.suggest
-    - search.highlight
-    - search.share
-    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
-    - content.action.edit
-    - content.action.view
-    # https://squidfunk.github.io/mkdocs-material/reference/tooltips/#improved-tooltips (Insiders)
-    - content.tooltips
-    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#configuration
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
-
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts
-  font:
-    text: Archivo
-    code: Chivo Mono
-
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language
-  language: en
-
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons
-  logo: assets/brand/icon.svg
-  favicon: assets/brand/icon.png
-
-  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
-  icon:
-    edit: material/file-edit
-    view: material/file-eye
-
-
-#
-# Extra Settings
-#
-extra:
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice
-  generator: false
-
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning
-  #version:
-  #  provider: mike
-
-  # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy
-  #consent:
-  #  title: Cookie consent
-  #  description: >-
-  #    We use cookies to recognize your repeated visits and preferences, as well
-  #    as to measure the effectiveness of our documentation and whether users
-  #    find what they are searching for. With your consent, you are helping us to
-  #    make our documentation better.
-
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
-  analytics:
-    provider: custom
-  #  feedback:
-  #    title: Was page this helpful?
-  #    ratings:
-  #      - icon: material/emoticon-happy
-  #        name: This page was helpful
-  #        data: 1
-  #        note: >-
-  #          Thank you for your feedback!
-  #      - icon: material/emoticon-confused
-  #        name: This page could be improved
-  #        data: 0
-  #        note: >-
-  #          Thank you for your feedback! Help us improve by
-  #          <a href="https://github.com/Atlas-OS/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">submitting your feedback</a>.
-
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
-  social:
-    - icon: material/forum
-      link: https://forum.atlasos.net
-      name: AtlasOS Forums
-    - icon: fontawesome/brands/discord
-      link: https://discord.atlasos.net
-      name: AtlasOS on Discord
-    - icon: fontawesome/brands/github
-      link: https://github.com/Atlas-OS
-      name: AtlasOS on GitHub
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/AtlasOS
-      name: AtlasOS on Twitter
-
-
-#
-# Navigation
-# https://www.mkdocs.org/user-guide/configuration/#nav
-#
-nav:
-  - Home:
-    - Home: index.md
-    - Contribution Guidelines: contributions.md
-  - Getting Started:
-    - Installation: getting-started/installation.md
-    - Other installation methods:
-      - USB: getting-started/other-installation-methods/usb.md
-    - Post-Installation:
-      - Drivers:
-        - Index: getting-started/post-installation/drivers/index.md
-        - GPU:
-          - Intel: getting-started/post-installation/drivers/gpu/intel.md
-          - AMD: getting-started/post-installation/drivers/gpu/amd.md
-          - NVIDIA: getting-started/post-installation/drivers/gpu/nvidia.md
-      - Configuration:
-        - Index: getting-started/post-installation/configuration/index.md
-        - Advanced Configuration: getting-started/post-installation/configuration/advanced-configuration.md
-        - Optional Tweaks: getting-started/post-installation/configuration/optional-tweaks.md
-        - Windows Settings: getting-started/post-installation/configuration/windows-settings.md
-      - Software:
-        - Index: getting-started/post-installation/software/index.md
-  - Troubleshooting:
-    - Removed features: troubleshooting/removed-features.md
-    - Scripts: troubleshooting/scripts.md
-    - Common Issues:
-      - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
-      - Atlas folder missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - CS:GO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
-      - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
-      - Process Hacker process enable: troubleshooting/common-issues/process-hacker.md
-      - Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md
-      - Adobe:
-        - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
-        - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
-  - FAQ: 'https://atlasos.net/faq'
-
+# https://www.mkdocs.org/user-guide/configuration/#configuration-inheritance
+INHERIT: mkdocs.yml
 
 #
 # Plugins
 #
 plugins:
+  - search: {}
+
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
   - privacy:
-      enabled: true
       assets_fetch_dir: assets/external
       links: true
       links_noopener: true
@@ -198,24 +20,13 @@ plugins:
         - avatars.githubusercontent.com/*
         - insights.atlasos.net/*
 
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
-  - search:
-      lang: en
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
-  # - social:
-  #     cards_layout_options:
-  #       background_color: "#1991ff"
-  #       color: "#ffffff"
-  #       font_family: Inter
-  #     cards_dir: assets/images/metadata
-
-  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
-  #- git-revision-date-localized:
-  #    enabled: true
-  #    enable_creation_date: false
-  #    type: timeago
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards (Insiders)
+  - social:
+      cards_layout: default/variant
+      cards_layout_options:
+        background_color: "#1991FF"
+        color: "#FFFFFF"
+        font_family: Inter
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors (Insiders)
   - git-committers:
@@ -225,61 +36,9 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/building-an-optimized-site (Insiders)
   #- optimize:
   #    enabled: true
-  #    optimize_png_speed: 4
-  #    optimize_jpg_quality: 75
-  #    cache: true
-  #    cache_dir: .cache/plugins/optimize
+  #    optimize_png_speed: 5
+  #    optimize_jpg_quality: 85
+  #    cache: false
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
-
-
-#
-# Python Markdown
-# https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown
-# https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions
-#
-markdown_extensions:
-  # https://squidfunk.github.io/mkdocs-material/reference/admonitions
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-
-  # https://squidfunk.github.io/mkdocs-material/reference/annotations
-  - abbr
-  - attr_list
-  - md_in_html
-
-  # https://squidfunk.github.io/mkdocs-material/reference/formatting
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#inlinehilite
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#snippets
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
-
-  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
-  - pymdownx.tabbed:
-      alternate_style: true
-
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences
-  - pymdownx.superfences
-
-  # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-
-  # https://squidfunk.github.io/mkdocs-material/reference/lists
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
