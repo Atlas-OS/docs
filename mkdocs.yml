@@ -89,19 +89,6 @@ extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice
   generator: false
 
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning
-  #version:
-  #  provider: mike
-
-  # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy
-  #consent:
-  #  title: Cookie consent
-  #  description: >-
-  #    We use cookies to recognize your repeated visits and preferences, as well
-  #    as to measure the effectiveness of our documentation and whether users
-  #    find what they are searching for. With your consent, you are helping us to
-  #    make our documentation better.
-
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
   analytics:
     provider: custom
@@ -186,20 +173,6 @@ plugins:
   - search:
       lang: en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards
-  # - social:
-  #     cards_layout_options:
-  #       background_color: "#1991ff"
-  #       color: "#ffffff"
-  #       font_family: Inter
-  #     cards_dir: assets/images/metadata
-
-  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-dates
-  #- git-revision-date-localized:
-  #    enabled: true
-  #    enable_creation_date: false
-  #    type: timeago
 
 
 #
