@@ -153,9 +153,9 @@ nav:
     - Removed features: troubleshooting/removed-features.md
     - Scripts: troubleshooting/scripts.md
     - Common Issues:
+      - Auto Cleaner issues: troubleshooting/common-issues/auto-cleaner.md
       - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
       - Atlas folder missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - CS:GO VAC unable to verify session: troubleshooting/common-issues/csgo-vac-no-session-verified.md
       - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
       - Process Hacker process enable: troubleshooting/common-issues/process-hacker.md
       - Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md
