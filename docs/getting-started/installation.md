@@ -31,7 +31,15 @@ icon: material/cogs
 
 An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
 
-=== "Windows Media Creation Tool (recommended)"
+=== "MSDL (recommended)"
+    This website generates an official direct download link from Microsoft for multiple Windows versions, and it is used here to get Windows 10 22H2.
+    
+    1. Visit the [Windows 10 22H2 MSDL](https://massgravel.github.io/msdl/#2618) page and select your language
+	2. Click the 'IsoX64 Download' link and the ISO should download (32-bit is unsupported)
+	    * If you have an error, click 'Use shared session'
+
+=== "Windows Media Creation Tool"
+    This is the supported method to download Windows 10 by Microsoft.
 
     1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
     2. Click the `Accept` button to agree to the Microsoft license terms.
@@ -43,9 +51,9 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
     5. After the ISO completed downloading, click `Finish` to end the installation.
 
 === "UUP dump"
+    This website allows you to download a package to build a Windows ISO based off of a Windows Update, using files from Microsoft's servers.
 
-    1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest `amd64` Feature Update. 
-    If Feature Update is not available, choose latest Cumulative Update.
+    1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest `amd64` Feature Update. If Feature Update is not available, choose latest Cumulative Update.
     2. Choose the desired language and click `Next`.
     3. Select the desired edition as the only edition (Professional is recommended), then click `Next`.
     4. `Download method` should be `Download and convert to ISO`, and `Include updates (Windows converter only)` should be ticked only.
@@ -54,8 +62,6 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
         * The ISO will be downloaded to the same folder as the download script.
 
 === "Other methods"
-
-    - [Microsoft Software Download Listing](https://ave9858.github.io/msdl)
 
     - [Adguard File List](https://files.rg-adguard.net)
 
