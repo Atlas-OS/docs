@@ -35,8 +35,8 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
     This website generates an official direct download link from Microsoft for multiple Windows versions, and it is used here to get Windows 10 22H2.
     
     1. Visit the [Windows 10 22H2 MSDL](https://massgravel.github.io/msdl/#2618) page and select your language
-	2. Click the 'IsoX64 Download' link and the ISO should download (32-bit is unsupported)
-	    * If you have an error, click 'Use shared session'
+    2. Click the 'IsoX64 Download' link and the ISO should download (32-bit is unsupported)
+        * If you have an error, click 'Use shared session'
 
 === "Windows Media Creation Tool"
     This is the supported method to download Windows 10 by Microsoft.
