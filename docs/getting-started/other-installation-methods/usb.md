@@ -15,11 +15,11 @@ You should also meet the regular [Requirements](/getting-started/installation/#r
 
 ## :material-chip: Identify boot mode
 
-To identify your boot mode, you can either check your device's manual, or look it up in your BIOS or check it in Windows.
-To check it in Windows, you can use PowerShell, and copy and pasting the following into PowerShell (make sure you run PowerShell as administrator):
+To identify your boot mode, you can look it up in your BIOS or check it in Windows.
+To check it in Windows, you can use PowerShell, and copy and paste the following (make sure you run PowerShell as an administrator):
 
 ```PowerShell
-$BootMode = If((bcdedit | Select-String "path.*efi") -eq $null){"Legacy"}else{"UEFI"}; Write-Host "Computer is running in $BootMode boot mode."
+fltmc *>$null;if($LASTEXITCODE -ne 0){echo "Not running as admin!"}else{$BootMode = If(bcdedit | Select-String "path.*efi"){"UEFI"}else{"legacy"};echo "Computer is running in $BootMode boot mode."}
 ```
 
 You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that is recommended for new machines, and it supports the ``GPT`` partition style. ``Legacy`` is an older BIOS mode, and it supports the ``MBR`` partition style.
