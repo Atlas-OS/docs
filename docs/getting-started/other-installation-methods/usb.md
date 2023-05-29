@@ -19,7 +19,7 @@ To identify your boot mode, you can look it up in your BIOS or check it in Windo
 To check it in Windows, you can use PowerShell, and copy and paste the following (make sure you run PowerShell as an administrator):
 
 ```PowerShell
-fltmc *>$null;if($LASTEXITCODE -ne 0){echo "Not running as admin!"}else{$BootMode = If(bcdedit | Select-String "path.*efi"){"UEFI"}else{"legacy"};echo "Computer is running in $BootMode boot mode."}
+fltmc >$null;if($LASTEXITCODE -ne 0){echo "Not running as admin!"}else{$BootMode = If(bcdedit | Select-String "path.*efi"){"UEFI"}else{"legacy"};echo "Computer is running in $BootMode boot mode."}
 ```
 
 You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that is recommended for new machines, and it supports the ``GPT`` partition style. ``Legacy`` is an older BIOS mode, and it supports the ``MBR`` partition style.
@@ -28,6 +28,12 @@ You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that i
     It is not recommended to run UEFI with MBR or BIOS with GPT as it may cause compatibility and stability issues.
     If you are using a mixed combination, you may want to [convert your partition style](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk) during the installation.
 
+    **Here's how to check with Disk Management:**
+
+    <video controls>
+        <source id="mp4" src="/assets/videos/check-gpt-mbr.mp4" type="video/mp4">
+    </videos>
+	
 ## :material-usb-flash-drive-outline: Preparing your USB
 
 !!! danger "Your USB will be wiped"
