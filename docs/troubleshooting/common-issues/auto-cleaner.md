@@ -1,6 +1,6 @@
 ---
 description: How to fix issues orignating from Auto Cleaner in Atlas
-icon: material\broom
+icon: material/broom
 ---
 
 !!! success "Fixed in upcoming release"
