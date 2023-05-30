@@ -37,7 +37,9 @@ There is a `dev` branch and a `main` or `master` branch for development on each 
 
 	Never commit or pull request directly to the `main` branches, with the **only exception** being committing to the `main` branch on the main repository for translations.
 
-The reason why the `dev` branch exists is to ensure that the `main` branch only has approved and high quality changes. A pull request **every week** will be automatically created to merge the `dev` branch into the `main` branch, where the changes can be properly reviewed by **5 contributors** before the pull request is merged.
+The reason why the `dev` branch exists is to ensure that the `main` branch only has approved and high quality changes. 
+
+A pull request **every week** will be automatically created to merge the `dev` branch into the `main` branch, where the changes can be properly reviewed by **5 contributors** before the pull request is merged. The only exclusion to having less than 5 reviews is if there's not enough people reviewing, e.g. 4 reviews for documentation.
 
 This ensures that all changes are thoroughly reviewed and agreed upon collectively, resulting in fewer bugs, improved code quality, and a more organized development process.
 
@@ -54,9 +56,9 @@ If there's any big changes, you should instead make a pull request for `dev` ins
 
 This means less potential headache in the future if the change is disagreed upon, as you can avoid reverting all of the disliked changes for the automatic pull request every week. 
 
-For manual/non-automated pull requests, you can make your own branch in the Atlas repository or make a fork, it is your choice.
+If you want to, you can also manually trigger the automatic pull request to merge `dev` into `main` early, but the 5 reviews will still be in effect. As a note, if you need to urgently fix something, you can use the `bypass` label to bypass your pull request being automatically closed by the pull request filter.
 
-If you want to, you can also manually make a pull request to merge `dev` into `main`, but the 5 reviews will still be in effect.
+For regular pull requests, you can make your own branch in the Atlas repository or make a fork, it is your choice.
 
 ## :material-format-letter-case: Formatting
 
