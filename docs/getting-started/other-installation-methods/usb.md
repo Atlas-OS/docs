@@ -73,7 +73,7 @@ You will either get `UEFI` or `Legacy`. `UEFI` is a newer BIOS mode that is reco
     1. Download and open [Rufus](https://github.com/pbatard/rufus).
     2. Plug in your USB Stick.
     3. Click the `SELECT` button and pick your ISO file.
-    4. Configure `Partition scheme`
+    4. Configure `Partition scheme`:
         - If you are using `UEFI`, select `GPT`.
         - If you are using `Legacy`, select `MBR`.
     4. Click `START` and in the `Windows User Experience` wizard, and then click `OK`.
