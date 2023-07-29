@@ -17,6 +17,6 @@ If you are experiencing these issues:
 
 Then the issue is from a script provided called `Auto-Cleaner.cmd`. Here's how to fix it:
 
-1. Download the fix script [here](https://he3als.xyz/mystuff/scripts/Fix-Auto-Cleaner.bat) and open it
+1. Download the fix script [here](https://github.com/Atlas-OS/Atlas/releases/download/0.2.0/Fix-Auto-Cleaner.bat) and open it
 2. Accept the prompt for administrator priviliges if it appears, then press any key to continue
 3. Once it completes, restart Windows and it should be fixed
