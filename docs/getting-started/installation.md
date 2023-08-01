@@ -8,7 +8,7 @@ icon: material/cogs
 !!! danger "Removed Features"
 	Before installing, it is highly recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page.
 	
-	It is recommended to wait until v0.3 releases to install Atlas for improved compatibility, security and many bug fixes.
+	It is recommended to wait until v0.3.0 releases to install Atlas for improved compatibility, security and many bug fixes.
 
 !!! info
     Atlas no longer provides ISOs to download, please use this method here to install.
@@ -146,7 +146,7 @@ You will want to do this offline to ensure that no drivers can install via Windo
     - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing `More info` and `Run anyway`.
     - You may have to activate Windows to install Atlas. Get a supported key for Home/Pro, depending on what you installed and activate in Windows Settings.
 7. After Atlas has fully installed, run the `Fix-Auto-Cleaner.bat` script in the `Atlas` folder.
-	- This will fix various issues with v0.2, which will be fixed in v0.3. See the ['Auto Cleaner issues'](https://docs.atlasos.net/troubleshooting/common-issues/auto-cleaner/) page for more information.
+	- This will fix various issues with v0.2, which will be fixed in v0.3.0. See the ['Auto Cleaner issues'](https://docs.atlasos.net/troubleshooting/common-issues/auto-cleaner/) page for more information.
 
 Once completed, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 

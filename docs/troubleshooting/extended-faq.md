@@ -21,26 +21,26 @@ This FAQ collects common issues that people may have, extended from [the website
 
 	🔗 [https://docs.atlasos.net/getting-started/installation/](https://docs.atlasos.net/getting-started/installation/ )
 
-#### v0.3 FAQ
-???+ question "Should I wait until v0.3?"
-	Yes, v0.3 will be much more stable with more options for security, improved compatibility and overall much less issues.
+#### v0.3.0 FAQ
+???+ question "Should I wait until v0.3.0?"
+	Yes, v0.3.0 will be much more stable with more options for security, improved compatibility and overall much less issues.
 
-??? question "When is v0.3 coming out?"
+??? question "When is v0.3.0 coming out?"
 	There's no exact ETA, please do not constantly ask in the Discord or forums.
 	
 	However, it should be sometime soon (potentially early next month), at a maximum of a couple of months (as of 29/07/23).
 
-??? question "Will v0.3 have Windows 11?"
-	Yes, although that will be in the latest stage of v0.3 development.
+??? question "Will v0.3.0 have Windows 11?"
+	Yes, although that will be in the latest stage of v0.3.0 development.
 
-??? example "Can I use these 'alpha' versions of v0.3 from GitHub?"
-	These builds are unsupported, potentially broken and only for testing. You should not use these as a main install. These are not finished versions of v0.3 and are simply under development.
+??? example "Can I use these 'alpha' versions of v0.3.0 from GitHub?"
+	These builds are unsupported, potentially broken and only for testing. You should not use these as a main install. These are not finished versions of v0.3.0 and are simply under development.
 	
-	If you want to learn more about the development of v0.3, see the 'Channels & Roles' section in the [Atlas Discord](https://discord.atlasos.net/).
+	If you want to learn more about the development of v0.3.0, see the 'Channels & Roles' section in the [Atlas Discord](https://discord.atlasos.net/).
 	
 #### Other common issues
 ??? bug "I am stuck in a Windows Update loop."
-	View [`sabaasa`/Atlas-UpdateFix](https://github.com/sabaasa/Atlas-UpdateFix) and follow the `README.md`. This will be fixed in v0.3.
+	View [`sabaasa`/Atlas-UpdateFix](https://github.com/sabaasa/Atlas-UpdateFix) and follow the `README.md`. This will be fixed in v0.3.0.
 
 ??? bug "I uninstalled my third-party antivirus, but AME Wizard still says that I have it!"
 	After ensuring that **all** antiviruses are uninstalled, run this command in PowerShell with administrator permissions:
@@ -50,7 +50,7 @@ This FAQ collects common issues that people may have, extended from [the website
 	```
 
 ??? bug "There is a password after I install!"
-	Just press enter, don't type in any password and see if it works.
+	Just press enter, don't type in any password and see if it works. This will be fixed in v0.3.0.
 	
 	If leaving it blank doesn't work, try `atlas` as the password.
 ??? question "Where can I get the old ISOs?"
