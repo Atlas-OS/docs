@@ -34,7 +34,7 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
     - Power management mode - Prefer maximum performance
     - Shader Cache Size - Unlimited
     - Texture filtering - Quality - High performance
-    - Threaded Optimization - Offloads GPU-related processing tasks on the CPU, it usually hurts frame pacing. If you are CPU bottlenecked, choose the ``Off`` option.
+    - Threaded Optimization - Offloads GPU-related processing tasks on the CPU, it usually hurts frame pacing. If you are CPU bottlenecked, choose the ``On`` option.
     - Vertical sync - Off
 - Configure the following in the ``Display -> Change resolution`` page:
     - Configure your monitor resolution and refresh rate.
