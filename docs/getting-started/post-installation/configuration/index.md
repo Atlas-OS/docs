@@ -61,15 +61,7 @@ Lanman Workstation (SMB) is a built-in feature on Windows which is used to conne
 Microsoft Store is a built-in application on Windows which is used to download applications or games without using a web browser. On Atlas we have enabled it by default due to alot of applications and games being on the store but if you want to disable it you can run the `Disable Microsoft Store.cmd` file in the `Microsoft Store` folder.
 
 !!! warning
-    Disabling it will break the night light feature! 
-
-## Mitigations
-
-Mitigations are a built-in security feature on Windows, used to fix security vulnerabilities and protect your computer from malicious software.
-
-On Atlas we have them disabled by default to improve performance for older CPUs, as it is very unlikely that a user will be affected from this change. However, some newer CPUs (like Zen 4 CPUs) can be negatively impacted if you disable mitigations, due to the newer CPUs being optimized for these mitigations.
-
-If you have any issues with anti-cheats or have a newer CPU, run the `Set Windows Default Mitigations.cmd` file in the `Mitigations` folder. Alternatively, you can use `Enable All Mitigations.cmd`, but that forces all mitigations to be enabled (unlike the Windows default), which can reduce performance significantly and may potentially reduce compatibility, while increasing system security.
+    Disabling it will break the 'Night Light' feature!
 
 ### Anti-Cheat Support
 
