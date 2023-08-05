@@ -128,10 +128,6 @@ When UAC is disabled, everything will be run as Administrator. On the current ve
 !!! note
 	The next version of Atlas (v0.3.0) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
 
-## UWP
-
-UWP (Universal Windows Platform) is a built-in feature on Windows which is used to run apps from the Microsoft Store. On Atlas we have it enabled by default. To disable it run the `Disable All UWP.cmd` file in the `UWP` folder.
-
 ## VPN
 
 VPN is a built-in feature on Windows which allows users to connect to a Virtual Private Network. On Atlas it has been disabled by default to make the system less bloated. To enable it just run the `Enable VPN support.cmd` file in the `VPN` folder.
