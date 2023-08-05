@@ -4,7 +4,7 @@ icon: material/web
 ---
 # Web Browsers
 
-In Atlas, you can choose between 4 browsers pre-installation that we have chose for user convienience and user-respectiveness. We have compiled a table below so you can decide which browser to pick.
+In Atlas, you can choose between 4 browsers pre-installation that we have chose for user convenience and user-respectiveness. We have compiled a table below so you can decide which browser to pick.
 
 When choosing a browser, we highly recommend to prioritise considering how it respects user privacy. However, also consider other factors, like speed, ease of use and more.
 
