@@ -8,7 +8,7 @@ In Atlas, you can choose between 4 browsers pre-installation that we have chose 
 
 When choosing a browser, we highly recommend to prioritise considering how it respects user privacy. However, also consider other factors, like speed, ease of use and more.
 
-| Features                                        | :simple-brave: Brave | :simple-wolframlanguage: LibreWolf  | :material-google-chrome: Chrome | :material-microsoft-edge: Edge |
+| Features                                        | :simple-brave: Brave | :custom-librewolf: LibreWolf        | :material-google-chrome: Chrome | :material-microsoft-edge: Edge |
 | ----------------------------------------------- | :------------------: | :---------------------------------: | :-----------------------------: | :----------------------------: |
 | Privacy respecting                              | :material-check-all: |        :material-check-all:         |      :material-close:[^1]       |      :material-close:[^1]      |
 | Open source                                     | :material-check-all: |        :material-check-all:         |        :material-close:         |        :material-close:        |
