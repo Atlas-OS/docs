@@ -5,11 +5,15 @@ icon: material/sign-caution
 
 # Advanced Configuration
 
-If you do not know what you are doing, please skip this section in order not to bring any harm to your PC.
-Here you can break compatibility and cause general issues, make sure you know what you are doing, and how to revert the changes you make. 
-This section is made for advanced users only.
+If you do not know what you are doing, please skip this section in order not to bring any harm to your PC. Here you can break compatibility and cause general issues, make sure you know what you are doing, and how to revert the changes you make. This section is made for advanced users only.
 
 All of the configuration files listed here are located in the `3. Configuration/2. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you happened to misplace it, check our guide [here](/troubleshooting/common-issues/atlas-folder-missing).
+
+## UWP
+
+UWP (Universal Windows Platform) is a certain type of application in Windows, also refered to as modern apps, e.g. Settings or Microsoft Store. On Atlas, for people that want the absaloute minimal amount of processes at the cost of **system instability and compatibility**, you can disable it run the `Disable All UWP.cmd` file in the `UWP` folder.
+
+Please note that this is **not recommended or suppported** by Atlas, and the gains from doing this will be minimal to none.
 
 ## Affinity
 
