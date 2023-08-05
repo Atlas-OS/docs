@@ -150,6 +150,7 @@ nav:
         - Security: getting-started/post-installation/security/index.md
       - Software:
         - Index: getting-started/post-installation/software/index.md 
+        - Web Browsers: getting-started/post-installation/software/web-browsers.md 
   - Troubleshooting:
     - Removed features: troubleshooting/removed-features.md
     - Extended FAQ: troubleshooting/extended-faq.md
@@ -185,6 +186,7 @@ plugins:
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/admonitions
   - admonition
+  - footnotes
   - pymdownx.details
   - pymdownx.superfences
 
