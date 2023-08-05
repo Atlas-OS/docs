@@ -42,7 +42,7 @@ For Windows 11 users, Core isolation features are typically enabled by default, 
 
 In the `Core Isolation (VBS)` folder, we provide the `Current Configuration.ps1` script to check which Core isolation features are avaliable, enabled and configured, along with other shortcuts to Core isolation features. Additionally, there is a prompt in AME Wizard for disabling Core isolation features.
 
-### Current Core isolation features in Windows
+### :simple-windows11: Current Core isolation features in Windows
 
 Please note that not all features may not be avaliable, due to avaliable hardware security features or  your Windows edition and version. Windows 11 should generally have more Core isolation features.
 
