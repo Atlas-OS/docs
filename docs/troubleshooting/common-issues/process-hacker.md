@@ -4,7 +4,7 @@ icon: material/monitor-eye
 ---
 
 !!! success "Fixed in upcoming release"
-    For Atlas v0.3, the `kprocesshacker2` driver won't be used at all.
+    For Atlas v0.3.0, the `kprocesshacker2` driver won't be used at all.
 
 AME Wizard currently uses an old version of the driver `kprocesshacker2`, belonging to the popular alternative to Task Manager called [Process Hacker](https://processhacker.sourceforge.io/). It is used to do certain actions with full privileges, like kill processes. This driver is commonly blocked by anticheats due to its unrestricted access to Windows.
 

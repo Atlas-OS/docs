@@ -4,7 +4,7 @@ icon: material/broom
 ---
 
 !!! success "Fixed in upcoming release"
-	The problematic script here will be removed in v0.3.
+	The problematic script here will be removed in v0.3.0.
 	
 	It is replaced with [Storage Sense](https://support.microsoft.com/en-us/windows/manage-drive-space-with-storage-sense-654f6ada-7bfc-45e5-966b-e24aded96ad5) for an officially supported by Microsoft and lightweight method of automatically cleaning your disk.
 
