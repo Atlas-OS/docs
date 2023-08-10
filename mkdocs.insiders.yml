@@ -33,5 +33,12 @@ plugins:
       repository: Atlas-OS/docs
       branch: master
 
+  # https://squidfunk.github.io/mkdocs-material/setup/building-an-optimized-site (Insiders)
+  #- optimize:
+  #    enabled: true
+  #    optimize_png_speed: 5
+  #    optimize_jpg_quality: 85
+  #    cache: false
+
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
