@@ -1,9 +1,11 @@
 ---
+title: Installation
+subtitle: 'Preferred method'
 description: The official AtlasOS playbook installation guide
 icon: material/cogs
 ---
 
-# Installation
+# Installing AtlasOS
 
 !!! danger "Removed Features"
 	Before installing, it is highly recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page.

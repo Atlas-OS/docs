@@ -1,4 +1,5 @@
 ---
+title: Drivers
 description: An overview of how to install drivers on an AtlasOS install
 icon: material/hammer-screwdriver
 ---

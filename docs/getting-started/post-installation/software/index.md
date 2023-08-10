@@ -1,4 +1,5 @@
 ---
+title: Installing Software
 description: The recommended way to install software in AtlasOS
 icon: material/download
 ---

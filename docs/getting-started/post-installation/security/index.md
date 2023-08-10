@@ -1,4 +1,5 @@
 ---
+title: Security
 description: An overview of all 'Security' options avaliable in the AtlasOS playbook
 icon: material/security
 ---

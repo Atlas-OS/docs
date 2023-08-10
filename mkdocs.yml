@@ -135,9 +135,8 @@ nav:
     - Home: index.md
     - Contribution Guidelines: contributions.md
   - Getting Started:
-    - Installation: getting-started/installation.md
-    - Other installation methods:
-      - USB: getting-started/other-installation-methods/usb.md
+    - Install AtlasOS: getting-started/installation.md
+    - Install via USB: getting-started/other-installation-methods/usb.md
     - Post-Installation:
       - Drivers:
         - Index: getting-started/post-installation/drivers/index.md

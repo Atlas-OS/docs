@@ -1,4 +1,5 @@
 ---
+title: Configuration
 description: An overview of all general configuration options installed by the AtlasOS playbook
 icon: material/cog
 ---
