@@ -133,7 +133,9 @@ extra:
 nav:
   - Home:
     - Home: index.md
+    - FAQ: faq.md
     - Contribution Guidelines: contributions.md
+    - Branding: branding.md
   - Getting Started:
     - Install AtlasOS: getting-started/installation.md
     - Install via USB: getting-started/other-installation-methods/usb.md
@@ -166,7 +168,6 @@ nav:
       - Adobe:
         - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
         - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
-  - FAQ: faq.md
 
 
 #

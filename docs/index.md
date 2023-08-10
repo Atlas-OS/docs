@@ -3,7 +3,7 @@ description: The official documentation for AtlasOS
 icon: material/home
 ---
 
-# Welcome to Atlas Documentation!
+# Welcome to the Atlas Documentation
 
 <div class="grid cards" markdown>
 
@@ -29,7 +29,7 @@ icon: material/home
 
     Get the answer to any frequently asked questions regarding AtlasOS.
 
-    [:octicons-arrow-right-24: Visit FAQ](https://atlasos.net/faq)
+    [:octicons-arrow-right-24: Visit FAQ](/faq)
 	
 -   :material-git:{ .lg .middle } __Contribution Guidelines__
 
