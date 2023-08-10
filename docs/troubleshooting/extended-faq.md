@@ -14,10 +14,10 @@ This FAQ collects common issues that people may have, extended from [the website
 	Follow only these steps and ignore everything else on the installation documentation:
 	
 	- Download an ISO
-		- If you want Windows 11, firstly make sure that you fit the requirements and go to the [Windows 11 MSDL page](https://massgrave.dev/msdl/#2616)
+		- If you want Windows 11 instead of Windows 10, firstly make sure that you fit the requirements and go to the [Windows 11 MSDL page](https://massgrave.dev/msdl/#2616) and skip this header/step
 	- Reinstalling Windows
 
-	This will get you to a completely stock Windows 10 installation.
+	This will get you to a completely stock Windows installation.
 
 	🔗 [https://docs.atlasos.net/getting-started/installation/](https://docs.atlasos.net/getting-started/installation/ )
 
