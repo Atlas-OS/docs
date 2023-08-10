@@ -5,11 +5,6 @@ icon: material/home
 
 # Welcome to Atlas Documentation!
 
-!!! danger "Security Concerns"
-    We have heard your concerns about the security of Atlas and we have addressed them in a [tweet posted by our official account](https://twitter.com/AtlasOS/status/1651284816489336832?s=20). 
-	
-	Please see [this page](/troubleshooting/removed-features/) to see which features will be coming back, mostly related to security.
-
 <div class="grid cards" markdown>
 
 -   :material-power:{ .lg .middle } __Install AtlasOS__
@@ -45,6 +40,11 @@ icon: material/home
     [:octicons-arrow-right-24: Contribution Guidelines](/contributions/)
 
 </div>
+
+!!! question "Concerned about security?"
+    We have heard your concerns about the security of Atlas and we have addressed them in a [tweet posted by our official account](https://twitter.com/AtlasOS/status/1651284816489336832?s=20).
+
+    Please see [this page](/troubleshooting/removed-features/) to see which features will be coming back, mostly related to security.
 
 ## :material-head-question-outline: What is Atlas?
 
