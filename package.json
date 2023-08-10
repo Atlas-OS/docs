@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@divriots/jampack": "^0.13.0"
+  },
+  "scripts": {
+    "compress": "jampack ./site"
+  }
+}
