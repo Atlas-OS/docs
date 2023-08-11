@@ -8,12 +8,10 @@ icon: material/cogs
 # Installing AtlasOS
 
 !!! danger "Removed Features"
-	Before installing, it is highly recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page.
-	
-	It is recommended to wait until v0.3 releases to install Atlas for improved compatibility, security and many bug fixes.
+	Before installing, it is recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page and [FAQ](/faq/).
 
-!!! info
-    Atlas no longer provides ISOs to download, please use this method here to install.
+!!! warning "Atlas is not pre-activated"
+    AtlasOS is **NOT** a pre-activated version of Windows, activation works just the same as vanilla Windows.
 
 ## :material-clipboard-list-outline: Requirements
 
@@ -21,13 +19,8 @@ icon: material/cogs
 * [Atlas Playbook](https://atlasos.net/downloads)
 * [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (x86 or 32-bit is not supported)
 
-!!! warning "Atlas is not pre-activated"
-    Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
-
 ## :material-video-box: Video Tutorial
 
-!!! info "Outdated with new installation method"
-	The video guide is currently outdated with the new installation method to install Atlas without a USB. If you want to follow along with it, it still works fine, and you can find the old method [here](/getting-started/other-installation-methods/usb/). However, if you want to install without a USB and still follow along with it, start from [9:55](https://youtu.be/GoO36Tj5TGE?t=596).
 
 <iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -140,15 +133,13 @@ You will want to do this offline to ensure that no drivers can install via Windo
 ## :material-wrench-cog-outline: Install Atlas
 
 1. Place the `Atlas` folder from your external drive (like a USB). If you previously made a temporary partition, you can delete it [here](/getting-started/installation/#creating-a-temporary-partition).
-2. Run `Disable Drivers Installation in Windows Update.reg` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
+2. Optionally, run the `Disable Drivers Installation in Windows Update.reg` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
+    - Automatic driver updates are commonly a source for bloatware or drivers that you do not need
+    - It is more convienient to allow Windows to install all of them
 3. After restarting, you can install ethernet drivers, and connect to the internet.
 4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
-5. You will need to disable `Memory Integrity` due to current incompatibilities with AME Wizard, which you can do by opening `Windows Security`, then click `Device Security` on the left. From here, click `Core isolation details` and then turn off `Memory Integrity`.
-6. Run `AME Wizard.exe` and load the Atlas Playbook, and follow the wizard instructions.
-    - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing `More info` and `Run anyway`.
-    - You may have to activate Windows to install Atlas. Get a supported key for Home/Pro, depending on what you installed and activate in Windows Settings.
-7. After Atlas has fully installed, run the `Fix-Auto-Cleaner.bat` script in the `Atlas` folder.
-	- This will fix various issues with v0.2, which will be fixed in v0.3. See the ['Auto Cleaner issues'](https://docs.atlasos.net/troubleshooting/common-issues/auto-cleaner/) page for more information.
+5. Run `AME Wizard.exe` and load the Atlas Playbook, and follow the wizard instructions.
+    - SmartScreen will notify you that AME Wizard is an unrecognized application, as it is not digitally signed. You can get around this by pressing `More info` and `Run anyway`.
 
 Once completed, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
