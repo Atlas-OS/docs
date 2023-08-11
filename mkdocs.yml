@@ -135,7 +135,7 @@ nav:
     - Home: index.md
     - FAQ: faq.md
     - Contribution Guidelines: contributions.md
-    - Branding: branding.md
+    - Branding Kit: branding.md
   - Getting Started:
     - Install AtlasOS: getting-started/installation.md
     - Install via USB: getting-started/other-installation-methods/usb.md
