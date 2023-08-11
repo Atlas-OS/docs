@@ -41,11 +41,6 @@ icon: material/home
 
 </div>
 
-!!! question "Concerned about security?"
-    We have heard your concerns about the security of Atlas and we have addressed them in a [tweet posted by our official account](https://twitter.com/AtlasOS/status/1651284816489336832?s=20).
-
-    Please see [this page](/troubleshooting/removed-features/) to see which features will be coming back, mostly related to security.
-
 ## :material-head-question-outline: What is Atlas?
 
 Atlas is a open source, and transparent project, that modifies Windows, and removes all of the negative drawbacks that affect gaming performance.
