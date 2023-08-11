@@ -189,46 +189,238 @@ We make all of our brand assets available to the public in a variety of formats 
 
 === "v0.3 Version 1"
 
+    ![AtlasOS v0.3 Version 1 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v1/preview/Wallpapper%2016_9%20-%20v0.3-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 1 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v1/Wallpapper%2016_9%20-%20v0.3.png)
+
+    [:material-download: Download v0.3 Version 1 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3.png)
+
+    [:material-download: Download v0.3 Version 1 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v1/Wallpapper%2021_9%20-%20v0.3.png)
+
+    [:material-download: Download v0.3 Version 1 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v1/Wallpapper%204_3%20-%20v0.3.png)
+
 === "v0.3 Version 1.1"
 
+    ![AtlasOS v0.3 Version 1.1 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v1/preview/Wallpapper%2016_9%20-%20v0.3%20v2-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 1.1 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v1/Wallpapper%2016_9%20-%20v0.3%20v2.png)
+
+    [:material-download: Download v0.3 Version 1.1 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3%20v2.png)
+
+    [:material-download: Download v0.3 Version 1.1 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v1/Wallpapper%2021_9%20-%20v0.3%20v2.png)
+
+    [:material-download: Download v0.3 Version 1.1 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v1/Wallpapper%204_3%20-%20v0.3%20v2.png)
+
 === "v0.3 Version 1.2"
+
+    ![AtlasOS v0.3 Version 1.2 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v1/preview/Wallpapper%2016_9%20-%20v0.3%20v3-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 1.2 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v1/Wallpapper%2016_9%20-%20v0.3%20v3.png)
+
+    [:material-download: Download v0.3 Version 1.2 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3%20v3.png)
+
+    [:material-download: Download v0.3 Version 1.2 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v1/Wallpapper%2021_9%20-%20v0.3%20v3.png)
+
+    [:material-download: Download v0.3 Version 1.2 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v1/Wallpapper%204_3%20-%20v0.3%20v3.png)
 
 #### Version 2
 
 === "v0.3 Version 2"
 
+    ![AtlasOS v0.3 Version 2 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v2/preview/Wallpapper%2016_9%20-%20v0.3%20v4-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 2 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v2/Wallpapper%2016_9%20-%20v0.3%20v4.png)
+
+    [:material-download: Download v0.3 Version 2 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v2/Wallpapper%2016_10%20-%20v0.3%20v4.png)
+
+    [:material-download: Download v0.3 Version 2 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v2/Wallpapper%2021_9%20-%20v0.3%20v4.png)
+
+    [:material-download: Download v0.3 Version 2 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v2/Wallpapper%2014_3%20-%20v0.3%20v4.png)
+
 === "v0.3 Version 2.1"
+
+    ![AtlasOS v0.3 Version 2.1 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v2/preview/Wallpapper%2016_9%20-%20v0.3%20v7-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 2.1 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v2/Wallpapper%2016_9%20-%20v0.3%20v7.png)
+
+    [:material-download: Download v0.3 Version 2.1 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v2/Wallpapper%2016_10%20-%20v0.3%20v7.png)
+
+    [:material-download: Download v0.3 Version 2.1 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v2/Wallpapper%2021_9%20-%20v0.3%20v7.png)
+
+    [:material-download: Download v0.3 Version 2.1 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v2/Wallpapper%2014_3%20-%20v0.3%20v7.png)
 
 #### Version 3
 
 === "v0.3 Version 3"
 
+    ![AtlasOS v0.3 Version 3 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v3/preview/Wallpapper%2016_9%20-%20v0.3%20v5-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 3 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v3/Wallpapper%2016_9%20-%20v0.3%20v5.png)
+
+    [:material-download: Download v0.3 Version 3 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v3/Wallpapper%2016_10%20-%20v0.3%20v5.png)
+
+    [:material-download: Download v0.3 Version 3 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v3/Wallpapper%2021_9%20-%20v0.3%20v5.png)
+
+    [:material-download: Download v0.3 Version 3 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v3/Wallpapper%204_3%20-%20v0.3%20v5.png)
+
 === "v0.3 Version 3.1"
+
+    ![AtlasOS v0.3 Version 3.1 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v3/preview/Wallpapper%2016_9%20-%20v0.3%20v6-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 3.1 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v3/Wallpapper%2016_9%20-%20v0.3%20v6.png)
+
+    [:material-download: Download v0.3 Version 3.1 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v3/Wallpapper%2016_10%20-%20v0.3%20v6.png)
+
+    [:material-download: Download v0.3 Version 3.1 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v3/Wallpapper%2021_9%20-%20v0.3%20v6.png)
+
+    [:material-download: Download v0.3 Version 3.1 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v3/Wallpapper%204_3%20-%20v0.3%20v6.png)
 
 === "v0.3 Version 3.2"
 
+    ![AtlasOS v0.3 Version 3.2 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v3/preview/Wallpapper%2016_9%20-%20v0.3%20v8-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 3.2 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v3/Wallpapper%2016_9%20-%20v0.3%20v8.png)
+
+    [:material-download: Download v0.3 Version 3.2 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v3/Wallpapper%2016_10%20-%20v0.3%20v8.png)
+
+    [:material-download: Download v0.3 Version 3.2 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v3/Wallpapper%2021_9%20-%20v0.3%20v8.png)
+
+    [:material-download: Download v0.3 Version 3.2 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v3/Wallpapper%204_3%20-%20v0.3%20v8.png)
+
 === "v0.3 Version 3.3"
+
+    ![AtlasOS v0.3 Version 3.3 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v3/preview/Wallpapper%2016_9%20-%20v0.3%20v9-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 3.3 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v3/Wallpapper%2016_9%20-%20v0.3%20v9.png)
+
+    [:material-download: Download v0.3 Version 3.3 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v3/Wallpapper%2016_10%20-%20v0.3%20v9.png)
+
+    [:material-download: Download v0.3 Version 3.3 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v3/Wallpapper%2021_9%20-%20v0.3%20v9.png)
+
+    [:material-download: Download v0.3 Version 3.3 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v3/Wallpapper%204_3%20-%20v0.3%20v9.png)
 
 #### Version 4
 
 === "v0.3 Version 4"
 
+    ![AtlasOS v0.3 Version 4 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v4/preview/Wallpapper%2016_9%20-%20v0.3%20v10-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 4 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v4/Wallpapper%2016_9%20-%20v0.3%20v10.png)
+
+    [:material-download: Download v0.3 Version 4 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v4/Wallpapper%2016_10%20-%20v0.3%20v10.png)
+
+    [:material-download: Download v0.3 Version 4 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v4/Wallpapper%2021_9%20-%20v0.3%20v10.png)
+
+    [:material-download: Download v0.3 Version 4 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v4/Wallpapper%204_3%20-%20v0.3%20v10.png)
+
 === "v0.3 Version 4.1"
+
+    ![AtlasOS v0.3 Version 4.1 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v4/preview/Wallpapper%2016_9%20-%20v0.3%20v11-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 4.1 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v4/Wallpapper%2016_9%20-%20v0.3%20v11.png)
+
+    [:material-download: Download v0.3 Version 4.1 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v4/Wallpapper%2016_10%20-%20v0.3%20v11.png)
+
+    [:material-download: Download v0.3 Version 4.1 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v4/Wallpapper%2021_9%20-%20v0.3%20v11.png)
+
+    [:material-download: Download v0.3 Version 4.1 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v4/Wallpapper%204_3%20-%20v0.3%20v11.png)
 
 === "v0.3 Version 4.2"
 
+    ![AtlasOS v0.3 Version 4.2 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v4/preview/Wallpapper%2016_9%20-%20v0.3%20v12-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 4.2 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v4/Wallpapper%2016_9%20-%20v0.3%20v12.png)
+
+    [:material-download: Download v0.3 Version 4.2 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v4/Wallpapper%2016_10%20-%20v0.3%20v12.png)
+
+    [:material-download: Download v0.3 Version 4.2 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v4/Wallpapper%2021_9%20-%20v0.3%20v12.png)
+
+    [:material-download: Download v0.3 Version 4.2 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v4/Wallpapper%204_3%20-%20v0.3%20v12.png)
+
 === "v0.3 Version 4.3"
 
+    ![AtlasOS v0.3 Version 4.3 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v4/preview/Wallpapper%2016_9%20-%20v0.3%20v13-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 4.3 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v4/Wallpapper%2016_9%20-%20v0.3%20v13.png)
+
+    [:material-download: Download v0.3 Version 4.3 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v4/Wallpapper%2016_10%20-%20v0.3%20v13.png)
+
+    [:material-download: Download v0.3 Version 4.3 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v4/Wallpapper%2021_9%20-%20v0.3%20v13.png)
+
+    [:material-download: Download v0.3 Version 4.3 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v4/Wallpapper%204_3%20-%20v0.3%20v13.png)
+
 === "v0.3 Version 4.4"
+
+    ![AtlasOS v0.3 Version 4.4 Wallpaper](assets/brand/wallpapers/16_9/v0.3/v4/preview/Wallpapper%2016_9%20-%20v0.3%20v14-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.3 Version 4.4 Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/v0.3/v4/Wallpapper%2016_9%20-%20v0.3%20v14.png)
+
+    [:material-download: Download v0.3 Version 4.4 Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/v0.3/v4/Wallpapper%2016_10%20-%20v0.3%20v14.png)
+
+    [:material-download: Download v0.3 Version 4.4 Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/v0.3/v4/Wallpapper%2021_9%20-%20v0.3%20v14.png)
+
+    [:material-download: Download v0.3 Version 4.4 Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/v0.3/v4/Wallpapper%204_3%20-%20v0.3%20v14.png)
 
 ### Generic
 
 === "Ice Wordmark"
 
+    ![AtlasOS Ice Wordmark Wallpaper](assets/brand/wallpapers/16_9/generic/preview/Wallpapper%2016_9%20-%20Ice%20Wordmark-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download Ice Wordmark Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/generic/Wallpapper%2016_9%20-%20Ice%20Wordmark.png)
+
+    [:material-download: Download Ice Wordmark Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/generic/Wallpapper%2016_10%20-%20Ice%20Wordmark.png)
+
+    [:material-download: Download Ice Wordmark Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/generic/Wallpapper%2021_9%20-%20Ice%20Wordmark.png)
+
+    [:material-download: Download Ice Wordmark Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/generic/Wallpapper%204_3%20-%20Ice%20Wordmark.png)
+
 === "Clouds Wordmark"
+
+    ![AtlasOS Clouds Wordmark Wallpaper](assets/brand/wallpapers/16_9/generic/preview/Wallpapper%2016_9%20-%20Clouds%20Wordmark-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download Clouds Wordmark Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/generic/Wallpapper%2016_9%20-%20Clouds%20Wordmark.png)
+
+    [:material-download: Download Clouds Wordmark Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/generic/Wallpapper%2016_10%20-%20Clouds%20Wordmark.png)
+
+    [:material-download: Download Clouds Wordmark Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/generic/Wallpapper%2021_9%20-%20Clouds%20Wordmark.png)
+
+    [:material-download: Download Clouds Wordmark Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/generic/Wallpapper%204_3%20-%20Clouds%20Wordmark.png)
 
 === "Night Wordmark"
 
+    ![AtlasOS Night Wordmark Wallpaper](assets/brand/wallpapers/16_9/generic/preview/Wallpapper%2016_9%20-%20Night%20Wordmark-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download Night Wordmark Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/generic/Wallpapper%2016_9%20-%20Night%20Wordmark.png)
+
+    [:material-download: Download Night Wordmark Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/generic/Wallpapper%2016_10%20-%20Night%20Wordmark.png)
+
+    [:material-download: Download Night Wordmark Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_+/generic/Wallpapper%2021_9%20-%20Night%20Wordmark.png)
+
+    [:material-download: Download Night Wordmark Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/generic/Wallpapper%204_3%20-%20Night%20Wordmark.png)
+
 === "Night Pride"
 
-=== "Ice x Clouds Setup"
+    ![AtlasOS Night Pride Wallpaper](assets/brand/wallpapers/16_9/generic/preview/Wallpapper%2016_9%20-%20Night%20Pride-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download Night Pride Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/generic/Wallpapper%2016_9%20-%20Night%20Pride.png)
+
+    [:material-download: Download Night Pride Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/generic/Wallpapper%2016_10%20-%20Night%20Pride.png)
+
+    [:material-download: Download Night Pride Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/generic/Wallpapper%2021_9%20-%20Night%20Pride.png)
+
+    [:material-download: Download Night Pride Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/generic/Wallpapper%204_3%20-%20Night%20Pride.png)
+
+=== "Setup"
+
+    ![AtlasOS Setup Wallpaper](assets/brand/wallpapers/16_9/generic/preview/Wallpapper%2016_9%20-%20Setup-preview.png){ width=650 loading=lazy }
+
+    *Photo taken by [Roberto Nickson (@rpnickson)](https://unsplash.com/@rpnickson) via Unsplash.*
+
+    [:material-download: Download Setup Wallpaper 16:9 (3840x2160)](assets/brand/wallpapers/16_9/generic/Wallpapper%2016_9%20-%20Setup.png)
+
+    [:material-download: Download Setup Wallpaper 16:10 (3440x2400)](assets/brand/wallpapers/16_10/generic/Wallpapper%2016_10%20-%20Setup.png)
+
+    [:material-download: Download Setup Wallpaper 21:9 (5120x2160)](assets/brand/wallpapers/21_9/generic/Wallpapper%2021_9%20-%20Setup.png)
+
+    [:material-download: Download Setup Wallpaper 4:3 (3072x2304)](assets/brand/wallpapers/4_3/generic/Wallpapper%204_3%20-%20Setup.png)
