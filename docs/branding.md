@@ -63,11 +63,11 @@ We make all of our brand assets available to the public in a variety of formats 
 
     *Black Logomark*
 
-    [:material-download: Download Black Logomark .png](https://github.com/Atlas-OS/branding/blob/main/logomark/black/Logomark%20-%20Black%20Black.png)
+    [:material-download: Download Black Logomark .png](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/logomark/black/Logomark%20-%20Black%20Black.png)
 
-    [:material-download: Download Black Logomark .svg](https://github.com/Atlas-OS/branding/blob/main/logomark/black/Logomark%20-%20Black%20Black.svg)
+    [:material-download: Download Black Logomark .svg](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/logomark/black/Logomark%20-%20Black%20Black.svg)
 
-    [:material-download: Download Black Logomark .pdf](https://github.com/Atlas-OS/branding/blob/main/logomark/black/Logomark%20-%20Black%20Black.pdf)
+    [:material-download: Download Black Logomark .pdf](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/logomark/black/Logomark%20-%20Black%20Black.pdf)
 
 ## Wordmarks
 
