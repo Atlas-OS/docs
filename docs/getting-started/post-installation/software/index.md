@@ -6,12 +6,14 @@ icon: material/download
 
 # Installing Software
 
-## :simple-chocolatey: What is Chocolatey?
+## :material-package-down: What is the Windows Package Manager?
 
-Atlas makes it easy to install software. Chocolatey is a Windows package manager. It is like apt-get and Homebrew on Linux and macOS respectively. It enables you to install software on your computer from the command line. Chocolatey is a project run by the community. Microsoft and Atlas do not officially support it, but we use it to make it easy for users to install the software they want.
+Atlas makes it easy to install software by utilizing WinGet.
 
-## :material-shape-plus-outline: Installing software with Chocolatey
+WinGet is the default Windows package manager by Microsoft installed via the App Installer package on the Microsoft Store, with the software repository ran by the community. It is like apt-get and Homebrew on Linux and macOS respectively. It enables you to install software on your computer from the command line.
 
-You can install software by going to the ``Desktop/Atlas/1. Install Software`` folder and running the ``Install Software.ps1`` script. This script will let you use Chocolatey to install popular software, follow the options to install the applications successfully.
+## :material-shape-plus-outline: Installing software with WinGet
 
-Furthermore, you can install software by typing ``choco install -y --ignore-checksums <package name>`` in the command line. You can find the name of the package on the [Chocolatey website](https://chocolatey.org/packages).
+You can install software we have listed using WinGet by going to the `Desktop/Atlas/1. Install Software` folder and running the `Install Software.ps1` script.
+
+Furthermore, you can install software by typing `winget install <package name>` in the command line. You can find the names of the packages on the [winget.run](https://winget.run) website.
