@@ -11,13 +11,14 @@ icon: material/cogs
 	Before installing, it is recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page and [FAQ](/faq/).
 
 !!! warning "Atlas is not pre-activated"
-    AtlasOS is **NOT** a pre-activated version of Windows, activation works just the same as vanilla Windows.
+    AtlasOS is **NOT** a pre-activated version of Windows, activation in Windows is not modified.
 
 ## :material-clipboard-list-outline: Requirements
 
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
-* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (x86 or 32-bit is not supported)
+* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (32-bit and ARM is not supported)
+* An internet connection
 
 ## :material-video-box: Video Tutorial
 
@@ -29,20 +30,20 @@ icon: material/cogs
 An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
 
 === "MSDL (recommended)"
-    This website generates an official direct download link from Microsoft for multiple Windows versions, and it is used here to get Windows 10 22H2.
+    This website generates official direct download links from Microsoft for multiple Windows versions.
     
-    1. Visit the [Windows 10 22H2 MSDL](https://massgrave.dev/msdl/#2618) page, select your language and click 'Confirm'
+    1. Visit either the [Windows 10 22H2 MSDL](https://massgrave.dev/msdl/#2618) or [Windows 11 22H2 MSDL](https://massgrave.dev/msdl/#2616) page, select your language and click 'Confirm'
     2. Click the 'IsoX64 Download' link and the ISO should download (32-bit is unsupported)
         * If you have an error, click 'Use shared session'
 
 === "Windows Media Creation Tool"
-    This is the supported method to download Windows 10 by Microsoft.
+    This is the supported method to download Windows 10 and 11 by Microsoft.
 
-    1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
+    1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it.
     2. Click the `Accept` button to agree to the Microsoft license terms.
     3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
         * Language: Desired language
-        * Edition: Windows 10
+        * Edition: Windows 10 or Windows 11
         * Architecture: 64-bit (x64)
     4. Choose `ISO file` option and choose the download location.
     5. After the ISO completed downloading, click `Finish` to end the installation.
@@ -63,12 +64,12 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
     - [Adguard File List](https://files.rg-adguard.net)
 
 !!! info "Using a USB stick"
-    If you are looking for the other method of installation, see [here](/getting-started/other-installation-methods/usb). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
+    If you are looking for installation with a USB stick, see [here](/getting-started/other-installation-methods/usb). However, we highly recommend you follow this guide instead.
 
 ## :material-download: Preparing Atlas
 
 !!! tip "Download drivers"
-    Some network adapters do not have drivers that come with Windows. This means that on some computers, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your network adapter ahead of time, and put them on your external drive.
+    Some network adapters do not have drivers that come with Windows. This means that on some computers, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your network adapter ahead of time, and put them on your drive.
 
 Once you have all of the downloads for Atlas from [here](/getting-started/installation/#requirements), you will need to have them on your new installation of Windows for use offline.
 
@@ -81,10 +82,10 @@ You should now have an Atlas folder with all the files you need on the root dire
 
 ### :material-harddisk-plus: Creating a temporary partition
 
-!!! info
-	This is only for the case that you have **nothing** to put the Atlas files on, which won't be wiped by reinstalling Windows.
+!!! warning
+	This is only for the case that you have **no other drives except from the `C:` drive** to put the Atlas files on.
 	
-	If you have already done the [Preparing Atlas](/getting-started/installation/#preparing-atlas) steps, skip to [Reinstalling Windows](/getting-started/installation/#reinstalling-windows).
+	If you have already done the [Preparing Atlas](/getting-started/installation/#preparing-atlas) steps as you have another drive, skip to [Reinstalling Windows](/getting-started/installation/#reinstalling-windows).
 
 !!! tip
 	If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
@@ -105,37 +106,52 @@ You should now have an Atlas folder with all the files you need on the root dire
 
 Before proceeding, it is recommended to do backups of files that you may need. Although your old installation (including user data) will be placed a `Windows.old` folder in your `C:` drive in your new installation, there will always be a small risk of something going wrong.
 
-You will want to do this offline to ensure that no drivers can install via Windows Update in your new installation, so that the minimal third-party drivers are installed for the lightest experience.
+!!! info "Offline installation"
+    If you want to disable automatic driver installation, you must install Windows without an internet connection. We recommend to do so to reduce unwanted programs and unnecessary drivers.
 
-!!! tip "Dual booting"
-	Although not covered here, you can also dual boot Windows with this method. You would have to make a seperate partition to dual boot with, then select that instead of `C:` in the Windows Setup.
+1. Double click your downloaded ISO to mount it, which mounts the ISO drive in File Explorer. If it opens up in a program like WinRAR or 7-Zip, right click the ISO, click 'Open With' then open it with File Explorer.
 
-1. Double click your downloaded ISO to mount it, which adds the ISO as a virtual read-only drive in File Explorer. If it opens up in a program like WinRAR or 7-Zip, right click the ISO, click 'Open With' then open it with File Explorer.
+2. Go to 'This PC', then go into the Windows ISO, go into `sources`, and open `setup.exe`.
 
-2. Go to your mounted ISO (as a drive letter) in File Explorer, then go into `sources`, and open `setup.exe`.
+3. Click 'No thanks' to the updates, and uncheck 'I want to help make the Windows installation better'.
 
-3. Click 'No thanks' to the updates, as you will update Windows once you have finished reinstalling, and uncheck 'I want to help make the Windows installation better' for privacy reasons.
+4. Click 'I don't have a product key', as Windows will activate later.
 
-4. Click 'I don't have a product key', as Windows will activate its self (if you are currently activated) once you have finished installing.
-
-5. Select your edition of Windows, we highly recommend Windows 10 Pro, but if you do not have a key for it, use Windows 10 Home.
+5. Select your edition of Windows, we highly recommend and only officially support Windows Pro, but if you do not have a license for it, use Windows Home.
 
 6. Accept the license agreement, click 'Custom: Install Windows only (advanced)' to completely wipe your current installation of Windows and replace it with the new one.
 
-7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation do its thing (you might restart a couple of times) and wait.
+7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation finish.
 
-8. Finish installing Windows and in the OOBE, follow the video attached: <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+8. Finish installing Windows and in the OOBE, follow the respective video:
 
-9. Once inside Windows, your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you need from it before deleting it.
+    !!! warning
+        Follow the no internet Windows 11 video only if you chose to have Windows **not** automatically install drivers. Your computer **must** be offline.
 
-10. To delete your previous Windows installation, goto Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'.
+        For Windows 10, the one setup video works for both non-internet and internet.
+
+    === "Windows 11 (no internet)"
+        <iframe src="/assets/videos/win11-OOBE-nointernet.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+
+    === "Windows 11"
+        <iframe src="/assets/videos/win11-OOBE.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+
+    === "Windows 10"
+        <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+
+9. Go to Windows Settings and update Windows until there's no more updates left. Additionally, go to the Microsoft Store and update all the apps there.
+
+10. Once inside Windows, your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you need from it before deleting it.
+
+11. To delete your previous Windows installation, goto Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'.
 
 ## :material-wrench-cog-outline: Install Atlas
 
 1. Place the `Atlas` folder from your external drive (like a USB). If you previously made a temporary partition, you can delete it [here](/getting-started/installation/#creating-a-temporary-partition).
-2. Optionally, run the `Disable Drivers Installation in Windows Update.reg` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
+2. If you chose to install Windows offline, run the `Disable Drivers Installation in Windows Update.reg` to prevent Windows from automatically installing drivers via Windows Update, restart your computer and connect to the internet.
     - Automatic driver updates are commonly a source for bloatware or drivers that you do not need
-    - It is more convienient to allow Windows to install all of them
+    - However, it is more convienient and easier to allow Windows to install all of them
+    - Only do this if you know how to install drivers
 3. After restarting, you can install ethernet drivers, and connect to the internet.
 4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
 5. Run `AME Wizard.exe` and load the Atlas Playbook, and follow the wizard instructions.
