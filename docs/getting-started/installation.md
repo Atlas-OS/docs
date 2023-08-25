@@ -117,7 +117,9 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 
 7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation finish.
 
-8. Finish installing Windows and in the OOBE, follow the respective video:
+### :material-cog: Initial setup (OOBE)
+
+1. Follow the respective video:
 
     !!! warning
         Follow the no internet Windows 11 video only if you chose to have Windows **not** automatically install drivers. Your computer **must** be offline.
@@ -133,11 +135,11 @@ Before proceeding, it is recommended to do backups of files that you may need. A
     === "Windows 10"
         <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
 
-9. Go to Windows Settings and update Windows until there's no more updates left. Additionally, go to the Microsoft Store and update all the apps there.
+2. Go to Windows Settings and update Windows until there's no more updates left. Additionally, go to the Microsoft Store and update all the apps there.
 
-10. Once inside Windows, your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you need from it before deleting it.
+3. Once inside Windows, your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you need from it before deleting it.
 
-11. To delete your previous Windows installation, goto Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'.
+4. To delete your previous Windows installation, goto Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'.
 
 ## :material-wrench-cog-outline: Install Atlas
 
@@ -153,7 +155,7 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 
 Once completed, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
-!!! info ""
+!!! info "Next steps"
     After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/drivers/) section in our documentation, and then continue to the other sections.
 
 ### :material-bug-outline: Troubleshooting
