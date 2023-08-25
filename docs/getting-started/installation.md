@@ -98,6 +98,11 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 !!! info "Offline installation"
     If you want to disable automatic driver installation, you must install Windows without an internet connection. We recommend to do so to reduce unwanted programs and unnecessary drivers.
 
+!!! tip "Bypassing Windows 11 Requirements"
+    You can bypass the Windows 11 requirements by using the `Bypass Windows 11 Requirements.cmd` script before launching `sources\setup.exe`.
+    
+    This doesn't work for other methods of installation.
+
 1. Double click your downloaded ISO to mount it, which mounts the ISO drive in File Explorer. If it opens up in a program like WinRAR or 7-Zip, right click the ISO, click 'Open With' then open it with File Explorer.
 
 2. Go to 'This PC', then go into the Windows ISO, go into `sources`, and open `setup.exe`.
