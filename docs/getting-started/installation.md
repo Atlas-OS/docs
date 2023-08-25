@@ -48,17 +48,6 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
     4. Choose `ISO file` option and choose the download location.
     5. After the ISO completed downloading, click `Finish` to end the installation.
 
-=== "UUP dump"
-    This website allows you to download a package to build a Windows ISO based off of a Windows Update, using files from Microsoft's servers.
-
-    1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest `amd64` Feature Update. If Feature Update is not available, choose latest Cumulative Update.
-    2. Choose the desired language and click `Next`.
-    3. Select the desired edition as the only edition (Professional is recommended), then click `Next`.
-    4. `Download method` should be `Download and convert to ISO`, and `Include updates (Windows converter only)` should be ticked only.
-    5. Click `Create download package` and extract the downloaded archive. Run the `uup_download_windows.cmd` file.
-        * Make sure that your folder has no spaces between.
-        * The ISO will be downloaded to the same folder as the download script.
-
 === "Other methods"
 
     - [Adguard File List](https://files.rg-adguard.net)
