@@ -7,7 +7,7 @@ icon: material/sign-caution
 
 If you do not know what you are doing, please skip this section in order not to bring any harm to your PC. Here you can break compatibility and cause general issues, make sure you know what you are doing, and how to revert the changes you make. This section is made for advanced users only.
 
-All of the configuration files listed here are located in the `3. Configuration/2. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you happened to misplace it, check our guide [here](/troubleshooting/common-issues/atlas-folder-missing).
+All of the configuration files listed here are located in the `3. Configuration/2. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you happened to misplace it, check our guide [here](../../../troubleshooting/common-issues/atlas-folder-missing.md).
 
 ## UWP
 

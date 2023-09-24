@@ -16,7 +16,7 @@ This FAQ collects common issues and questions that people may have, extended fro
 
 	This will get you to a completely stock Windows 10 installation.
 
-	🔗 [https://docs.atlasos.net/getting-started/installation/](https://docs.atlasos.net/getting-started/installation/ )
+	🔗 [https://docs.atlasos.net/getting-started/installation/](getting-started/installation.md)
 
 ??? question "Where can I get the old ISOs?"
 	You can't, as they are old and unsupported builds that violate the Windows EULA, meaning that they can be taken down by Microsoft.

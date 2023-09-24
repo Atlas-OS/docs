@@ -10,11 +10,11 @@ In this section we will list all of the general configuration options in the Atl
 
 For other configuration options, check:
 
-- [Advanced Configuration](/getting-started/post-installation/configuration/advanced-configuration)
-- [Optional Tweaks](/getting-started/post-installation/configuration/optional-tweaks)
-- [Windows Settings](/getting-started/post-installation/configuration/windows-settings)
+- [Advanced Configuration](advanced-configuration.md)
+- [Optional Tweaks](optional-tweaks.md)
+- [Windows Settings](windows-settings.md)
 
-All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](/troubleshooting/common-issues/atlas-folder-missing) for how to find it/get it back.
+All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](../../../troubleshooting/common-issues/atlas-folder-missing.md) for how to find it/get it back.
 
 ## Animations
 
@@ -27,7 +27,7 @@ If you want to enable them run the `Enable Animations.cmd` file in the `Animatio
 Bluetooth is built-in feature on Windows which allows you to connect devices to your computer. On Atlas it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Bluetooth.cmd` file in the `Bluetooth` folder.
 
 !!! warning
-    You may need to install drivers for Bluetooth to work. Learn how to do this [here.](/getting-started/post-installation/drivers/).
+    You may need to install drivers for Bluetooth to work. Learn how to do this [here.](../drivers/index.md).
 
 ## Firewall
 
@@ -138,7 +138,7 @@ VPN is a built-in feature on Windows which allows users to connect to a Virtual 
 Wi-Fi is a built-in feature on Windows which is used to connect to Wi-Fi networks. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
 !!! warning
-    You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](/getting-started/post-installation/drivers)
+    You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/index.md)
 
 ## Xbox
 

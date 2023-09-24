@@ -15,7 +15,7 @@ icon: material/security
 
 In this section, we will list all of the 'Security' options in the Atlas folder, how to change them and their defaults. As the warning says above, make sure you know what you're doing when changing from the defaults.
 
-All of the configuration files listed here are located in the `3. Configuration/5. Security` folder, which is inside of the Atlas folder on the Desktop. If you accidently moved the folder, check [here](/troubleshooting/common-issues/atlas-folder-missing) for how to get it back.
+All of the configuration files listed here are located in the `3. Configuration/5. Security` folder, which is inside of the Atlas folder on the Desktop. If you accidently moved the folder, check [here](../../../troubleshooting/common-issues/atlas-folder-missing.md) for how to get it back.
 
 ## :material-cpu-64-bit: Mitigations
 

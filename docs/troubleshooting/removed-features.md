@@ -25,6 +25,6 @@ These can be reinstalled after installation, but are removed by default.
 - OneDrive
 
 !!! tip
-    If something isn't working, try enabling services or features  inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](/getting-started/post-installation/configuration) for more info. If you do not have the Atlas folder on your Desktop, please check [here](/troubleshooting/common-issues/atlas-folder-missing).
+    If something isn't working, try enabling services or features  inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/configuration/index.md) for more info. If you do not have the Atlas folder on your Desktop, please check [here](common-issues/atlas-folder-missing.md).
     
     Atlas gives you the option to enable/disable lots of other options too, which you can also find in the folder above.

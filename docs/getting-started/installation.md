@@ -8,17 +8,20 @@ icon: material/cogs
 # Installing AtlasOS
 
 !!! danger "Removed Features"
-	Before installing, it is recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page and [FAQ](/faq/).
+	Before installing, it is recommended to take a look at our [Removed Features](../troubleshooting/removed-features.md) page and [FAQ](../faq.md).
 
 !!! warning "Atlas is not pre-activated"
     AtlasOS is **NOT** a pre-activated version of Windows, activation in Windows is not modified.
 
 ## :material-clipboard-list-outline: Requirements
 
+!!! question "Using a USB stick"
+    If you are looking for installation with a USB stick, see [here](../getting-started/other-installation-methods/usb.md). However, we recommend you follow this page instead.
+
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
-* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (32-bit and ARM is not supported)
-* An internet connection
+* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (32-bit and ARM **is not supported**)
+* A stable internet connection
 
 ## :material-video-box: Video Tutorial
 
@@ -52,17 +55,14 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
 
     - [Adguard File List](https://files.rg-adguard.net)
 
-!!! info "Using a USB stick"
-    If you are looking for installation with a USB stick, see [here](/getting-started/other-installation-methods/usb). However, we highly recommend you follow this guide instead.
-
 ## :material-download: Preparing Atlas
 
 !!! tip "Download drivers"
     Some network adapters do not have drivers that come with Windows. This means that on some computers, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your network adapter ahead of time, and put them on your drive.
 
-Once you have all of the downloads for Atlas from [here](/getting-started/installation/#requirements), you will need to have them on your new installation of Windows for use offline.
+Once you have all of the downloads for Atlas from [here](#requirements), you will need to have them on your new installation of Windows for use offline.
 
-You can do this by either using an external drive like a USB stick or a seperate hard drive in your computer, which won't be wiped/formatted. Alternatively, see [here](/getting-started/installation/#creating-a-temporary-partition) if you don't have anything to put files on.
+You can do this by either using an external drive like a USB stick or a seperate hard drive in your computer, which won't be wiped/formatted. Alternatively, see [here](#creating-a-temporary-partition) if you don't have anything to put files on.
 
 1. Extract `Atlas [version].zip` onto the root directory of your seperate drive, and rename the folder it extracts to `Atlas`
 2. Extract `AME Wizard.exe` from the `AME Wizard Beta.zip`, then place it in your newly created `Atlas` folder
@@ -74,7 +74,7 @@ You should now have an Atlas folder with all the files you need on the root dire
 !!! warning
 	This is only for the case that you have **no other drives except from the `C:` drive** to put the Atlas files on.
 	
-	If you have already done the [Preparing Atlas](/getting-started/installation/#preparing-atlas) steps as you have another drive, skip to [Reinstalling Windows](/getting-started/installation/#reinstalling-windows).
+	If you have already done the [Preparing Atlas](#preparing-atlas) steps as you have another drive, skip to [Reinstalling Windows](#reinstalling-windows).
 
 !!! tip
 	If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
@@ -143,7 +143,7 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 
 ## :material-wrench-cog-outline: Install Atlas
 
-1. Place the `Atlas` folder from your external drive (like a USB). If you previously made a temporary partition, you can delete it [here](/getting-started/installation/#creating-a-temporary-partition).
+1. Place the `Atlas` folder from your external drive (like a USB). If you previously made a temporary partition, you can delete it [here](#creating-a-temporary-partition).
 2. If you chose to install Windows offline, run the `Disable Drivers Installation in Windows Update.reg` to prevent Windows from automatically installing drivers via Windows Update, restart your computer and connect to the internet.
     - Automatic driver updates are commonly a source for bloatware or drivers that you do not need
     - However, it is more convienient and easier to allow Windows to install all of them
@@ -156,10 +156,10 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 Once completed, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
 
 !!! info "Next steps"
-    After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/drivers/) section in our documentation, and then continue to the other sections.
+    After completing the Atlas installation process, continue the [Post-Installation](./post-installation/drivers/index.md) section in our documentation, and then continue to the other sections.
 
 ### :material-bug-outline: Troubleshooting
 !!! tip "Need help?"
     If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a big community of people who care and want to help.
 
-Please see our [troubleshooting section](/troubleshooting/removed-features/) for issues like being stuck on 'Reticulating Splines'.
+Please see our [troubleshooting section](../troubleshooting/removed-features.md) for issues like being stuck on 'Reticulating Splines'.

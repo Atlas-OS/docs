@@ -7,7 +7,7 @@ icon: material/usb-port
 
 ## :material-clipboard-list-outline: Additional requirements
 
-You should also meet the regular [Requirements](/getting-started/installation/#requirements).
+You should also meet the regular [Requirements](../installation.md#requirements).
 
 * A USB drive (8 GB minimum)
 * Bootable USB creator
@@ -55,7 +55,7 @@ You will either get `UEFI` or `Legacy`. `UEFI` is the latest boot mode that is h
     6. Click `Finish` and complete the steps above for putting Atlas onto the USB.
 
 === "Ventoy"
-    For this method, you will need to get a Windows 10 22H2 ISO first. See [here](/getting-started/installation/#download-an-iso) to get one, and come back afterwards.
+    For this method, you will need to get a Windows 10 22H2 ISO first. See [here](../installation.md#download-an-iso) to get one, and come back afterwards.
 
     1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
     2. Plug in your USB Stick and open `Ventoy2Disk.exe`.
@@ -68,7 +68,7 @@ You will either get `UEFI` or `Legacy`. `UEFI` is the latest boot mode that is h
     7. Complete the steps above for putting Atlas onto the USB.
 
 === "Rufus"
-    For this method, you will need to get a Windows 10 22H2 ISO first. See [here](/getting-started/installation/#download-an-iso) to get one, and come back afterwards.
+    For this method, you will need to get a Windows 10 22H2 ISO first. See [here](../installation.md#download-an-iso) to get one, and come back afterwards.
 
     1. Download and open [Rufus](https://github.com/pbatard/rufus).
     2. Plug in your USB Stick.
@@ -92,5 +92,5 @@ You will either get `UEFI` or `Legacy`. `UEFI` is the latest boot mode that is h
 
     <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
 
-You can now follow the [main guide](/getting-started/installation/#install-atlas) to install Atlas. Alternatively, follow the video guide:
+You can now follow the [main guide](../installation.md#install-atlas) to install Atlas. Alternatively, follow the video guide:
 <iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE?t=523" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
