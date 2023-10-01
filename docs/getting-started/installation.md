@@ -22,46 +22,57 @@ icon: material/cogs
 !!! warning "Atlas is not pre-activated"
     Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
 
+!!! info "Using a USB stick"
+    If you are looking for the other method of installation, see [here](/getting-started/other-installation-methods/usb). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
+
 ## :material-disc: Download an ISO
 
 An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
 
-=== "MSDL (recommended)"
-    This website generates an official direct download link from Microsoft for multiple Windows versions, and it is used here to get Windows 10 22H2.
-    
-    1. Visit the [Windows 10 22H2 MSDL](https://massgrave.dev/msdl/#2618) page, select your language and click 'Confirm'
-    2. Click the 'IsoX64 Download' link and the ISO should download (32-bit is unsupported)
-        * If you have an error, click 'Use shared session'
+??? tip "Other Methods"
+    === "Windows Media Creation Tool"
+        This is the supported method to download Windows 10 and 11 by Microsoft.
 
-=== "Windows Media Creation Tool"
-    This is the supported method to download Windows 10 by Microsoft.
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it.
+        2. Click the `Accept` button to agree to the Microsoft license terms.
+        3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
+            * Language: Desired language
+            * Edition: Windows 10 or Windows 11
+            * Architecture: 64-bit (x64)
+        4. Choose `ISO file` option and choose the download location.
+        5. After the ISO completed downloading, click `Finish` to end the installation.
 
-    1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
-    2. Click the `Accept` button to agree to the Microsoft license terms.
-    3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
-        * Language: Desired language
-        * Edition: Windows 10
-        * Architecture: 64-bit (x64)
-    4. Choose `ISO file` option and choose the download location.
-    5. After the ISO completed downloading, click `Finish` to end the installation.
+<!--
+    This is based upon the Microsoft Software Download Listing website by massgravel on GitHub.
+-->
+<!--
+    The JavaScript file that is used with this is licensed under GNU Affero General Public License v3.0,
+    in accordance with the original project. https://github.com/massgravel/msdl/blob/main/LICENSE
+-->
+<!--
+    See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js
+-->
 
-=== "UUP dump"
-    This website allows you to download a package to build a Windows ISO based off of a Windows Update, using files from Microsoft's servers.
+<center class="centerMsdl">
+<button class="win-dl" onclick="getWindows(2616);">Download Windows 11</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10</button>
 
-    1. Visit [UUP dump](https://uupdump.net/known.php?q=Windows+10+22H2) and click the latest `amd64` Feature Update. If Feature Update is not available, choose latest Cumulative Update.
-    2. Choose the desired language and click `Next`.
-    3. Select the desired edition as the only edition (Professional is recommended), then click `Next`.
-    4. `Download method` should be `Download and convert to ISO`, and `Include updates (Windows converter only)` should be ticked only.
-    5. Click `Create download package` and extract the downloaded archive. Run the `uup_download_windows.cmd` file.
-        * Make sure that your folder has no spaces between.
-        * The ISO will be downloaded to the same folder as the download script.
+<div id="msdl-ms-content"></div>
 
-=== "Other methods"
+<div id="msdl-please-wait">
+    <p>Please wait...</p>
+</div>
 
-    - [Adguard File List](https://files.rg-adguard.net)
+<div id="msdl-processing-error">
+    <p>An error has occurred while processing your request.</p>
+    <p>Try refreshing the page, or using an alternative method.</p>
+</div>
 
-!!! info "Using a USB stick"
-    If you are looking for the other method of installation, see [here](/getting-started/other-installation-methods/usb). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
+<div id="msdl-download">
+    <p>A download should soon be started, if not, <a id="msdl-download-link" href="about:blank">click to download the ISO</a>.</p>
+</div>
+
+<input id="msdl-session-id" type="hidden">
+</center>
 
 ## :material-download: Preparing Atlas
 
