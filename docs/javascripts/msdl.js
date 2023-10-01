@@ -15,17 +15,17 @@ const sessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&sessio
 const apiUrl = "https://massgrave.dev/api/msdl/"
 const sharedSessionGUID = "47cbc254-4a79-4be6-9866-9c625eb20911";
 
-const sessionId = document.getElementById('msdl-session-id');
-const msContent = document.getElementById('msdl-ms-content');
-const pleaseWait = document.getElementById('msdl-please-wait');
-const processingError = document.getElementById('msdl-processing-error');
-const download = document.getElementById('msdl-download');
-const downloadLink = document.getElementById('msdl-download-link');
+let sessionId;
+let msContent;
+let pleaseWait;
+let processingError;
+let download;
+let downloadLink;
 
 let availableProducts = {};
 let sharedSession = false;
 let shouldUseSharedSession = true;
-let attemptToGetFromServer = false;
+let attemptToGetFromProxy = false;
 let winProductID;
 let isoLink;
 let skuId;
@@ -63,7 +63,7 @@ function downloadISO() {
 	pleaseWait.style.display = "none";
 	processingError.style.display = "none";
 
-	if (!attemptToGetFromServer) {
+	if (!attemptToGetFromProxy) {
 		let elements = document.getElementsByClassName('product-download-hidden');
 		for (let i = 0; i < elements.length; i++) {
 			let jsonValue = elements[i].getAttribute('value');
@@ -108,11 +108,11 @@ function displayResponseFromServer() {
 	}
 
 	let errorStatus = checkError(msContent, this.responseText);
-	if (!(errorStatus) && attemptToGetFromServer) {
+	if (!(errorStatus) && attemptToGetFromProxy) {
 		showError();
 		return;
 	} else if (!(errorStatus)) {
-		attemptToGetFromServer = true;
+		attemptToGetFromProxy = true;
 		getFromServer();
 	}
 
@@ -255,6 +255,13 @@ function prepareDownload(id) {
 }
 
 function getWindows(id) {
+	sessionId = document.getElementById('msdl-session-id');
+	msContent = document.getElementById('msdl-ms-content');
+	pleaseWait = document.getElementById('msdl-please-wait');
+	processingError = document.getElementById('msdl-processing-error');
+	download = document.getElementById('msdl-download');
+	downloadLink = document.getElementById('msdl-download-link');
+
 	sessionId.value = uuidv4();
 
 	const xhr = new XMLHttpRequest();
