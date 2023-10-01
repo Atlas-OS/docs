@@ -22,13 +22,6 @@ icon: material/cogs
 !!! warning "Atlas is not pre-activated"
     Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
 
-## :material-video-box: Video Tutorial
-
-!!! info "Outdated with new installation method"
-	The video guide is currently outdated with the new installation method to install Atlas without a USB. If you want to follow along with it, it still works fine, and you can find the old method [here](/getting-started/other-installation-methods/usb/). However, if you want to install without a USB and still follow along with it, start from [9:55](https://youtu.be/GoO36Tj5TGE?t=596).
-
-<iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE" title="Atlas OS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## :material-disc: Download an ISO
 
 An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
