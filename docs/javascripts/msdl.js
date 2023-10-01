@@ -51,56 +51,52 @@ function checkError(content, response) {
 	content.innerHTML = response;
 	let errorMessage = document.getElementById('errorModalMessage');
 
-	console.log("Checking errors")
-
 	if (errorMessage) {
-		console.log("Error occured")
 		showError()
 		return false;
 	}
 
-	console.log("no errors")
 	return true;
 }
 
 function downloadISO() {
-    pleaseWait.style.display = "none";
+	pleaseWait.style.display = "none";
 	processingError.style.display = "none";
 
-    if (!attemptToGetFromServer) {
-        let elements = document.getElementsByClassName('product-download-hidden');
-        for (let i = 0; i < elements.length; i++) {
-            let jsonValue = elements[i].getAttribute('value');
+	if (!attemptToGetFromServer) {
+		let elements = document.getElementsByClassName('product-download-hidden');
+		for (let i = 0; i < elements.length; i++) {
+			let jsonValue = elements[i].getAttribute('value');
 
-            // Microsoft's response has invalid JSON, this fixes it
-            if (jsonValue.includes("IsoX64")) {
-                jsonValue = jsonValue.replace("IsoX64", "\"IsoX64\"");
-            } else {
-                continue;
-            }
-        
-            let parsedValue = JSON.parse(jsonValue);
-            if (parsedValue.DownloadType === "IsoX64") {
-                isoLink = parsedValue.Uri
-            }
-        }
-    } else {
-        let isoLinkElement = this.querySelector('a:contains("Isox64")');
-        if (isoLinkElement) {
-            isoLink = isoLinkElement.getAttribute('href');
-        } else {
-            showError();
-            return;
-        }
-    }
-    
-    if (isoLink.startsWith("https://software.download.prss.microsoft.com")) {
-        downloadLink.setAttribute("href", isoLink)
-        download.style.display = "block";
-        window.location = isoLink;
-    } else {
-        showError();
-    }
+			// Microsoft's response has invalid JSON, this fixes it
+			if (jsonValue.includes("IsoX64")) {
+				jsonValue = jsonValue.replace("IsoX64", "\"IsoX64\"");
+			} else {
+				continue;
+			}
+
+			let parsedValue = JSON.parse(jsonValue);
+			if (parsedValue.DownloadType === "IsoX64") {
+				isoLink = parsedValue.Uri
+			}
+		}
+	} else {
+		let isoLinkElement = this.querySelector('a:contains("Isox64")');
+		if (isoLinkElement) {
+			isoLink = isoLinkElement.getAttribute('href');
+		} else {
+			showError();
+			return;
+		}
+	}
+
+	if (isoLink.startsWith("https://software.download.prss.microsoft.com")) {
+		downloadLink.setAttribute("href", isoLink)
+		download.style.display = "block";
+		window.location = isoLink;
+	} else {
+		showError();
+	}
 }
 
 function displayResponseFromServer() {
@@ -111,18 +107,18 @@ function displayResponseFromServer() {
 		return;
 	}
 
-    let errorStatus = checkError(msContent, this.responseText);
-    if (!(errorStatus) && attemptToGetFromServer) {
-        showError();
-        return;
-    } else if (!(errorStatus)) {
-        attemptToGetFromServer = true;
-        getFromServer();
-    }
+	let errorStatus = checkError(msContent, this.responseText);
+	if (!(errorStatus) && attemptToGetFromServer) {
+		showError();
+		return;
+	} else if (!(errorStatus)) {
+		attemptToGetFromServer = true;
+		getFromServer();
+	}
 
 	msContent.innerHTML = this.responseText
-    if (retry)
-        downloadISO();
+	if (retry)
+		downloadISO();
 }
 
 function getFromServer() {
@@ -137,7 +133,7 @@ function getFromServer() {
 
 function useSharedSession() {
 	sharedSession = true;
-    retry = true;
+	retry = true;
 	retryDownload();
 }
 
@@ -159,8 +155,6 @@ function onDownloadsXhrChange() {
 		return;
 	}
 
-    console.log("onDownloadsXhrChange")
-
 	msContent.style.display = "block";
 
 	let wasSuccessful = checkError(msContent, this.responseText);
@@ -171,15 +165,14 @@ function onDownloadsXhrChange() {
 			fetch(sessionUrl + sharedSessionGUID);
 			fetch(sessionUrl + "de40cb69-50a5-415e-a0e8-3cf1eed1b7cd");
 			fetch(apiUrl + 'add_session?session_id=' + sessionId.value)
-            console.log("was successful, shared session, download iso")
+			console.info("Using own session was successful, downloading ISO...")
 		}
-        console.log("was successful, download iso")
-        downloadISO();
+		downloadISO();
 	} else if (!sharedSession && shouldUseSharedSession) {
-        console.log("was not successful, use shared sessiion")
+		console.warn("Using own session was not successful, using shared session...")
 		useSharedSession();
 	} else {
-        console.log("was not successful, get from server")
+		console.warn("using own session was not successful, getting from Massgrave MSDL proxy...")
 		getFromServer();
 	}
 }
@@ -262,9 +255,9 @@ function prepareDownload(id) {
 }
 
 function getWindows(id) {
-    sessionId.value = uuidv4();
+	sessionId.value = uuidv4();
 
-    const xhr = new XMLHttpRequest();
+	const xhr = new XMLHttpRequest();
 	xhr.open("GET", sessionUrl + sessionId.value, true);
 	xhr.send();
 
