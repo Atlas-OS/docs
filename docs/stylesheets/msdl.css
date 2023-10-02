@@ -13,7 +13,8 @@
 }
 
 #msdl-processing-error {
-    line-height: 0.5;
+    line-height: 1;
+    color: var(--md-code-hl-number-color);
 }
 
 select {

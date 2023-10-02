@@ -29,6 +29,8 @@ icon: material/cogs
 
 An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
 
+The downloader integrated into the documentation generates an ISO download link from Microsoft. It will download the latest version of Windows 10 for Intel and AMD CPUs.
+
 ??? tip "Other Methods"
     === "Windows Media Creation Tool"
         This is the supported method to download Windows 10 and 11 by Microsoft.
@@ -54,7 +56,7 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
 -->
 
 <center class="centerMsdl">
-<button class="win-dl" onclick="getWindows(2616);">Download Windows 11</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10</button>
+<button class="win-dl" onclick="getWindows(2616);">Download Windows 11 x86_64</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10 x86_64</button>
 
 <div id="msdl-ms-content"></div>
 
