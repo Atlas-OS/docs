@@ -46,7 +46,8 @@ option {
 }
 
 .win-dl {
-    width: 49.7%;
+    /* width: 49.7%; */
+    width: 100%;
     border: .1rem solid;
     border-color: currentcolor;
     border-radius: .1rem;
