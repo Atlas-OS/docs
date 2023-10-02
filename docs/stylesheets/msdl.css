@@ -29,6 +29,7 @@ select {
     background: #0000 calc(100% - 7px) 50%/20px no-repeat;
     background-image: var(--md-dropdown-icon);
     background-repeat: no-repeat;
+    color: white !important;
     padding-top: 0.9em;
     padding-bottom: 0.9em;
     text-align-last: center;
