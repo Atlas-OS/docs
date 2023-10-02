@@ -30,7 +30,7 @@ icon: material/cogs
 
 An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
 
-The downloader integrated into the documentation generates an ISO download link from Microsoft. It will download the latest version of Windows 10 for Intel and AMD CPUs.
+The downloader integrated into the documentation generates an ISO download link from Microsoft. It will download the latest version of Windows for Intel and AMD CPUs.
 
 ??? tip "Other Methods"
     === "Windows Media Creation Tool"
