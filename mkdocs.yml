@@ -85,6 +85,14 @@ theme:
 #
 # Extra Settings
 #
+extra_javascript:
+  - javascripts/msdl.js
+
+
+extra_css:
+  - stylesheets/msdl.css
+
+
 extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice
   generator: false
