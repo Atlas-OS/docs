@@ -17,7 +17,7 @@ icon: material/cogs
 
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
-* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (x86 or 32-bit is not supported)
+* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (x86/32-bit and ARM isn't supported)
 
 !!! warning "Atlas is not pre-activated"
     Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
@@ -35,11 +35,11 @@ The downloader integrated into the documentation generates an ISO download link 
     === "Windows Media Creation Tool"
         This is the supported method to download Windows 10 and 11 by Microsoft.
 
-        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it.
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool and open it.
         2. Click the `Accept` button to agree to the Microsoft license terms.
         3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
             * Language: Desired language
-            * Edition: Windows 10 or Windows 11
+            * Edition: Windows 10
             * Architecture: 64-bit (x64)
         4. Choose `ISO file` option and choose the download location.
         5. After the ISO completed downloading, click `Finish` to end the installation.
