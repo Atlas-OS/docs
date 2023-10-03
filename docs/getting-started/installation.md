@@ -40,7 +40,7 @@ The downloader integrated into the documentation generates an ISO download link 
         2. Click the `Accept` button to agree to the Microsoft license terms.
         3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
             * Language: Desired language
-            * Edition: Windows 10 or Windows 11
+            * Edition: Windows 10 or 11
             * Architecture: 64-bit (x64)
         4. Choose `ISO file` option and choose the download location.
         5. After the ISO completed downloading, click `Finish` to end the installation.
