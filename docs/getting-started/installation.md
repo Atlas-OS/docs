@@ -32,7 +32,7 @@ An ISO is a virtual disc file, and in this case, it will be the Windows Setup. T
 
 The downloader integrated into the documentation generates an ISO download link from Microsoft. It will download the latest version of Windows for Intel and AMD CPUs.
 
-??? tip "Other Methods"
+??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
         This is the supported method to download Windows 10 and 11 by Microsoft.
 
