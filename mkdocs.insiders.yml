@@ -15,10 +15,9 @@ plugins:
       links_attr_map:
         target: _blank
       assets_exclude:
-        - insights.tweakcentral.net/*
         - unpkg.com/*
         - avatars.githubusercontent.com/*
-        - insights.atlasos.net/*
+        - pla.atlasos.net/*
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards (Insiders)
   - social:
