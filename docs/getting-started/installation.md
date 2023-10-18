@@ -5,32 +5,27 @@ description: The official AtlasOS playbook installation guide
 icon: material/cogs
 ---
 
-# Installing AtlasOS
+# :material-package-down: Installing AtlasOS
 
-!!! danger "Removed Features"
-	Before installing, it is recommended to take a look at our [Removed Features](../troubleshooting/removed-features.md) page and [FAQ](../faq.md).
+!!! danger "Read before continuing"
 
-!!! warning "Atlas is not pre-activated"
-    AtlasOS is **NOT** a pre-activated version of Windows, activation in Windows is not modified.
+    AtlasOS is **NOT** a pre-activated version of Windows, activation in Windows is not modified. Additionally, no Windows ISOs are redistributed.
+
+    It is recommended to take a look at our [Removed Features](../troubleshooting/removed-features.md) page and [FAQ](../faq.md).
 
 ## :material-clipboard-list-outline: Requirements
 
-!!! question "Using a USB stick"
-    If you are looking for installation with a USB stick, see [here](other-installation-methods/usb.md). However, we recommend you follow this page instead.
-
-* [AME Wizard](https://atlasos.net/downloads)
-* [Atlas Playbook](https://atlasos.net/downloads)
-* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (32-bit and ARM **is not supported**)
-* A stable internet connection
-
-!!! info "Using a USB stick"
-    If you are looking for the other method of installation, see [here](other-installation-methods/usb.md). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
+- [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2) system requirements
+    - Excluding a Microsoft account and TPM
+- [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) Intel or AMD CPU
+    - 64-bit ARM (aarch64) isn't supported currently
+- A stable internet connection
 
 ## :material-disc: Download an ISO
 
-An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
+An ISO is a virtual disc file (like a DVD), and to reinstall Windows in our recommended way, you will need a Windows ISO.
 
-The downloader integrated into the documentation generates an ISO download link from Microsoft. It will download the latest version of Windows for Intel and AMD CPUs.
+The downloader integrated into the documentation below generates an ISO download link from Microsoft. It will download the latest version of Windows for Intel and AMD CPUs.
 
 **Based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
 
@@ -79,45 +74,53 @@ The downloader integrated into the documentation generates an ISO download link 
 <input id="msdl-session-id" type="hidden">
 </center>
 
-## :material-download: Preparing Atlas
+## :material-download: Preparation
 
-!!! tip "Download drivers"
-    Some network adapters do not have drivers that come with Windows. This means that on some computers, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your network adapter ahead of time, and put them on your drive.
+??? question "If you have no seperate storage..."
 
-Once you have all of the downloads for Atlas from [here](#requirements), you will need to have them on your new installation of Windows for use offline.
+    !!! tip
+        If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
-You can do this by either using an external drive like a USB stick or a seperate hard drive in your computer, which won't be wiped/formatted. Alternatively, see [here](#creating-a-temporary-partition) if you don't have anything to put files on.
+    1. Open Disk Management (`diskmgmt.msc`) and locate your `C:` drive
+    2. Right click :material-arrow-right: Shrink volume
+    3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
+    4. There should now be 'Unallocated' space, right click :material-arrow-right: New Simple Volume
+    5. Go through the wizard, you can simply keep clicking 'Next'
 
-1. Extract `Atlas [version].zip` onto the root directory of your seperate drive, and rename the folder it extracts to `Atlas`
-2. Extract `AME Wizard.exe` from the `AME Wizard Beta.zip`, then place it in your newly created `Atlas` folder
+    You should now have a drive that you can use for copying the Atlas files to in File Explorer.
 
-You should now have an Atlas folder with all the files you need on the root directory of your external drive.
+    <h3>:material-harddisk-remove: Deleting the temporary partition later</h3>
 
-### :material-harddisk-plus: Creating a temporary partition
+    1. Right click :material-arrow-right: Delete volume
+    2. Right click on your `C:` drive :material-arrow-right: Extend volume
+    3. Go through the wizard, you can simply keep clicking 'Next'
 
-!!! warning
-	This is only for the case that you have **no other drives except from the `C:` drive** to put the Atlas files on.
-	
-	If you have already done the [Preparing Atlas](#preparing-atlas) steps as you have another drive, skip to [Reinstalling Windows](#reinstalling-windows).
+Once you have [all of the downloads for Atlas from the requirements](#requirements), you will need to have them on your new installation of Windows for use offline. Only your system drive will be wiped by reinstalling.
 
-!!! tip
-	If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
+Firstly, make a folder to contain each downloaded file called **Atlas** on another drive. Each file you download from the steps below should be put into there.
 
-1. Open Disk Management (`diskmgmt.msc`) and locate your `C:` drive
-2. Right click :material-arrow-right: Shrink volume
-3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
-4. There should now be 'Unallocated' space, right click :material-arrow-right: New Simple Volume
-5. Go through the wizard, you can simply keep clicking 'Next'
+1. Head over to the [Atlas downloads](https://atlasos.net/downloads) and download **AME Wizard** and the **Atlas Playbook**
+2. Download network drivers from your device/motherboard manufacturer's website into your folder
+    - You can use this later if your internet is not working on the initial boot
+    - You should search for the brand (e.g. Dell) and model number
+    - If you can't find it, find your network card in [Device Manager](../../assets/images/device-manager-nic.png) and search for that instead
+3. Extract `Atlas [version].zip` into your folder
+4. Extract `AME Wizard.exe` from the downloaded `AME Wizard Beta.zip` into your folder
 
-#### :material-harddisk-remove: Deleting the temporary partition later
+**You should now have an Atlas folder with all the files you need on your external drive.**
 
-1. Right click :material-arrow-right: Delete volume
-2. Right click on your `C:` drive :material-arrow-right: Extend volume
-3. Go through the wizard, you can simply keep clicking 'Next'
+## :material-screwdriver: Driver Updates
+
+Before continuing, consider which option is right for you and keep it in mind for future steps.
+
+| :material-download: Manual Driver Installation & Updates (recommended) | :material-update: Automatic Driver Installation & Updates |
+| ------------------------------------ | --------------------------------------- |
+| :material-check-all: Potentially less system resource usage | :material-check-all: Easiest if you don't know how to get drivers |
+| :material-check-all: Less potential bloat/annoyances | :material-check: Best compatibility, especially with OEM apps |
+| :material-check: Full control over your driver versions | :material-check: Convienient with new getting devices |
+| :material-alert-circle-outline: Ability to switch to automatic driver updates later | :material-check: Latest security and feature updates
 
 ## :material-microsoft-windows: Reinstalling Windows
-
-Before proceeding, it is recommended to do backups of files that you may need. Although your old installation (including user data) will be placed a `Windows.old` folder in your `C:` drive in your new installation, there will always be a small risk of something going wrong.
 
 !!! info "Offline installation"
     If you want to disable automatic driver installation, you must install Windows without an internet connection. We recommend to do so to reduce unwanted programs and unnecessary drivers.
@@ -126,6 +129,8 @@ Before proceeding, it is recommended to do backups of files that you may need. A
     You can bypass the Windows 11 requirements by using the `Bypass Windows 11 Requirements.cmd` script before launching `sources\setup.exe`.
     
     This doesn't work for other methods of installation.
+
+Before proceeding, it is recommended to do backups of files that you may need. Although your old installation (including user data) will be placed a `Windows.old` folder in your `C:` drive in your new installation, there will always be a small risk of something going wrong.
 
 1. Double click your downloaded ISO to mount it, which mounts the ISO drive in File Explorer. If it opens up in a program like WinRAR or 7-Zip, right click the ISO, click 'Open With' then open it with File Explorer.
 
@@ -145,19 +150,43 @@ Before proceeding, it is recommended to do backups of files that you may need. A
 
 1. Follow the respective video:
 
-    !!! warning
-        Follow the no internet Windows 11 video only if you chose to have Windows **not** automatically install drivers. Your computer **must** be offline.
+    === "Windows 11 (manual driver install)"
+        ??? info "Written Instructions"
+            1. Disconnect your ethernet (if you use it) before booting into the setup
+            2. Once in the setup, press ++shift+f10++ to open Command Prompt
+            3. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+            4. Continue through with setup as normal, but make sure to:
+                - Not connect to the internet
+                - Deny each privacy option
 
-        For Windows 10, the one setup video works for both non-internet and internet.
+        <center>
+            <video src="/assets/videos/win11-OOBE-nointernet.mp4" controls muted width="560" height="420"></video>
+        </center>
 
-    === "Windows 11 (no internet)"
-        <iframe src="/assets/videos/win11-OOBE-nointernet.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+    === "Windows 11 (automatic driver install)"
+        ??? info "Written Instructions"
+            1. Continue with the Windows Setup until you get to '**How would you like to set up this device?**'
+            2. Select '**Set up for work or school**'
+            3. Once at the Microsoft sign in page, click '**Sign-in options**' and then '**Domain join**'
+            4. Continue with setup, and deny each privacy option
 
-    === "Windows 11"
-        <iframe src="/assets/videos/win11-OOBE.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+        <center>
+            <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
+        </center>
 
     === "Windows 10"
-        <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+        ??? info "Written Instructions"
+            1. Disconnect your ethernet (if you use it) before booting into the setup
+            2. Once in the setup, press ++shift+f10++ to open Command Prompt
+            3. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+            4. Continue through with setup as normal, but make sure to:
+                - Not connect to the internet
+                - Deny each privacy option
+
+        <center>
+            <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
+            <p>Credit to [@amitxv](https://github.com/amitxv) for the video demonstration.<p>
+        </center>
 
 2. Go to Windows Settings and update Windows until there's no more updates left. Additionally, go to the Microsoft Store and update all the apps there.
 

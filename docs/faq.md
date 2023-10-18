@@ -11,7 +11,6 @@ This FAQ collects common issues and questions that people may have, extended fro
 	Follow only these steps and ignore everything else on the installation documentation:
 	
 	- Download an ISO
-		- If you want Windows 11, firstly make sure that you fit the requirements and go to the [Windows 11 MSDL page](https://massgrave.dev/msdl/#2616)
 	- Reinstalling Windows
 
 	This will get you to a completely stock Windows 10 installation.
@@ -38,7 +37,7 @@ This FAQ collects common issues and questions that people may have, extended fro
 ??? example "Can I help test for Atlas?"
 	Anyone can help test the latest Atlas versions in development via the automatic building with [GitHub Actions](https://github.com/Atlas-OS/Atlas/actions).
 
-	Please keep in mind that these builds are potentially incomplete, buggy and unsupported. Report any issues to our [GitHub Issues](https://github.com/Atlas-OS/Atlas/issues). 
+	Please keep in mind that these builds are potentially incomplete, buggy and unsupported. Report any issues to our [GitHub Issues](https://github.com/Atlas-OS/Atlas/issues) or in the 'Development' category on the [Discord](https://discord.gg/atlasos).
 
 ??? bug "Why does AME Wizard still say that I have a third party antivirus?"
 	After ensuring that **all** antiviruses are uninstalled, run this command in PowerShell with administrator permissions:
