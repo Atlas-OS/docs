@@ -16,7 +16,7 @@ icon: material/cogs
 ## :material-clipboard-list-outline: Requirements
 
 !!! question "Using a USB stick"
-    If you are looking for installation with a USB stick, see [here](../getting-started/other-installation-methods/usb.md). However, we recommend you follow this page instead.
+    If you are looking for installation with a USB stick, see [here](other-installation-methods/usb.md). However, we recommend you follow this page instead.
 
 * [AME Wizard](https://atlasos.net/downloads)
 * [Atlas Playbook](https://atlasos.net/downloads)
@@ -24,7 +24,7 @@ icon: material/cogs
 * A stable internet connection
 
 !!! info "Using a USB stick"
-    If you are looking for the other method of installation, see [here](/getting-started/other-installation-methods/usb). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
+    If you are looking for the other method of installation, see [here](other-installation-methods/usb.md). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
 
 ## :material-disc: Download an ISO
 
