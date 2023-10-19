@@ -6,9 +6,9 @@ icon: material/cog
 
 # Configuration
 
-In this section we will list all of the general configuration options in the Atlas folder, how to change them and their defaults. Only touch them if you know what you are doing or if a team member asks you to do so.
+In this section, we will provide a comprehensive list of most of the general configuration options that are available in the Atlas folder. You should only modify these configuration settings if you are fully aware of what you are doing or if a team member specifically requests you to do so.
 
-For other configuration options, check:
+For more configuration options, check:
 
 - [Advanced Configuration](advanced-configuration.md)
 - [Optional Tweaks](optional-tweaks.md)
@@ -120,26 +120,24 @@ Troubleshooting is a built-in feature on Windows which is used to help you troub
 
 ## UAC
 
-UAC (User Account Control) is a built-in feature on Windows which is used to limit the permissions of applications. This helps protect against applications malfunctioning and doing harmful changes to your computer. 
+UAC (User Account Control) is a feature in Windows that helps control what changes software can make to your computer. This helps protect against applications malfunctioning and doing harmful changes to your computer.
 
 Please note that most well-made malware will be able to bypass UAC easily, and that the only true way to protect yourself against UAC bypasses is to turn UAC up to the maximum level.
 
-When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is disabled it by default. To enable it, run the `Enable UAC.cmd` file in the `UAC Folder`.
+When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is enabled it by default. To disable it, run the `Disable UAC.cmd` file in the `UAC Folder`.
 
-!!! note
-	The next version of Atlas (v0.3.0) will have this feature enabled **by default** for security purposes, you will still be able to configure it.
 
 ## VPN
 
-VPN is a built-in feature on Windows which allows users to connect to a Virtual Private Network. On Atlas it has been disabled by default to make the system less bloated. To enable it just run the `Enable VPN support.cmd` file in the `VPN` folder.
+A VPN (Virtual Private Network) is a feature in Windows that lets you connect to the internet in a more secure and private way. On Atlas it has been disabled by default to make the system less bloated. To enable it just run the `Enable VPN support.cmd` file in the `VPN` folder.
 
 ## Wi-Fi
 
-Wi-Fi is a built-in feature on Windows which is used to connect to Wi-Fi networks. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
+Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
 !!! warning
     You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/index.md)
 
 ## Xbox
 
-Xbox has been enabled on Atlas by default, since it is a big part of the gaming PC market. If you want to remove it, run the `Remove Xbox Applications.cmd` file in the `Xbox` folder.
+The Xbox features are turned on in Atlas by default because many people use their PCs for gaming. If you want to remove it, run the `Remove Xbox Applications.cmd` file in the `Xbox` folder.
