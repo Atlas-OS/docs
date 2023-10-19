@@ -9,7 +9,7 @@ icon: material/cogs
 
 !!! danger "Read before continuing"
 
-    AtlasOS is **NOT** a pre-activated version of Windows; activation in Windows is not modified.
+    AtlasOS is in compliance with the Windows EULA; activation in Windows is not modified.
 
     It is recommended to take a look at our [Removed Features](../troubleshooting/removed-features.md) page and [FAQ](../faq.md).
 
@@ -82,7 +82,7 @@ For the following steps in our documentation, we assume you have another drive t
     !!! tip
         If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
-    1. Open Disk Management (`diskmgmt.msc`) and locate your `C:` drive
+    1. Open Disk Management (`diskmgmt.msc`) and locate your Windows drive
     2. Right-click :material-arrow-right: Shrink volume
     3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
     4. There should now be 'Unallocated' space, right-click :material-arrow-right: 'New Simple Volume'
@@ -93,7 +93,7 @@ For the following steps in our documentation, we assume you have another drive t
     <h3>:material-harddisk-remove: Deleting the temporary partition later</h3>
 
     1. Right-click :material-arrow-right: Delete volume
-    2. Right-click on your `C:` drive :material-arrow-right: Extend volume
+    2. Right-click on your Windows drive :material-arrow-right: Extend volume
     3. Go through the wizard, you can keep clicking 'Next'
 
 Firstly, let's create a folder to contain the installation files for Atlas. Create a folder on your second drive/volume called `AtlasFiles`. We will refer to this as "your folder" in the following steps.
@@ -101,11 +101,64 @@ Firstly, let's create a folder to contain the installation files for Atlas. Crea
 1. Head over to the [Atlas downloads](https://atlasos.net/) and download **AME Wizard** and the **Atlas Playbook**
 2. Download network drivers from your device/motherboard manufacturer's website into your folder *(in case networking doesn't work on installation, we can use this)*
     - We recommend searching for the brand (e.g. Dell) followed by your device model number
-        - If you're having trouble, search for your device in [Device Manager](../../assets/images/device-manager-nic.png) and download this driver using the internet from the original source
+        - If you're having trouble, search for your device in [Device Manager](../assets/images/device-manager-nic.png) and download this driver using the internet from the original source
 3. Extract `Atlas [version].zip` into your folder
 4. Extract `AME Wizard Beta.exe` from the downloaded `AME Wizard Beta.zip` into your folder
 
 **You should now have an `AtlasFiles` folder with all the files you need on your external drive/volume.**
+
+## :material-microsoft-windows: Reinstalling Windows
+
+!!! info "USB Installation"
+    If you want to install with a USB stick instead, you can do that and skip this section. **Make sure that your `AtlasFiles` folder doesn't get deleted.**
+
+!!! tip "Bypassing Windows 11 Requirements (optional)"
+    You can bypass Windows 11 requirements by using the `Bypass Windows 11 Requirements.cmd` script in your folder before launching `sources\setup.exe`.
+
+Before proceeding, back up any necessary files to a second drive or cloud platform.
+
+However, your old installation (including user data) will be copied to a `Windows.old` folder in your Windows drive. Use this as a safety measure if you forget to back up important files.
+
+1. Right-click the ISO file we downloaded previously, clicking **Open With** :material-arrow-right: **File Explorer**. This will mount it to your File Explorer
+
+2. Under **This PC**, there should be an option for this ISO. Open it, then proceed to the `sources` folder, and open `setup.exe`
+
+3. Click **No thanks** to the updates, and uncheck **I want to help make the Windows installation better**
+
+4. Click **I don't have a product key**, as Windows will activate automatically later (if you're currently activated)
+
+5. Select your edition of Windows. We highly recommend and only officially support **Windows Pro**, but if you do not have a license for it, use **Windows Home** *(not recommended)*
+
+6. Accept the license agreement and click **Custom: Install Windows only (advanced)**
+
+7. Select your Windows drive, click next, click **OK** to the warning about `Windows.old`, and let the installation finish
+
+### :material-cog: Initial setup (OOBE)
+
+!!! danger "Internet connection"
+
+    Inside of the Windows Setup, you should have **your ethernet cable and Wi-Fi disconnected**, and you should not reconnect it until further instruction.
+
+=== "Windows 11"
+    ??? info "Written Instructions"
+        1. Once in the setup, press ++shift+f10++ to open Command Prompt
+        2. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+        3. Continue through with setup as normal, but make sure to:
+            - Not connect to the internet
+            - Deny each privacy option
+
+    <center>
+        <video src="/assets/videos/win11-OOBE-nointernet.mp4" controls muted width="560" height="420"></video>
+    </center>
+
+=== "Windows 10"
+    ??? info "Written Instructions"
+        TBD
+
+    <center>
+        <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
+        <p>Credit to [@amitxv](https://github.com/amitxv) for the video demonstration.<p>
+    </center>
 
 ## :material-screwdriver: Driver Updates
 
@@ -120,119 +173,27 @@ Before continuing, consider which option is right for you and keep it in mind fo
 | :material-check-all: Potentially less system resource usage | :material-check-all: Easiest if you don't know how to get drivers |
 | :material-check-all: Less potential bloat/annoyances | :material-check: Best compatibility, especially with OEM apps |
 | :material-check: Full control over your driver versions | :material-check: Convienient with new getting devices |
-| :material-alert-circle-outline: Ability to switch to automatic driver updates later | :material-check: Latest security and feature updates
-
-## :material-microsoft-windows: Reinstalling Windows
-
-!!! tip "Bypassing Windows 11 Requirements (optional)"
-    You can bypass the Windows 11 requirements by using the `Bypass Windows 11 Requirements.cmd` script before launching `sources\setup.exe`.
-
-Before proceeding, back up any necessary files to a second drive or cloud platform.
-
-However, your old installation (including user data) will be copied to a `Windows.old` folder in your `C:` drive. Use this as a safety measure if you forget to back up important files.
-
-1. Right-click the ISO file we downloaded previously, clicking 'Open With' :material-arrow-right: 'File Explorer'. This will mount it to your File Explorer
-
-2. Under 'This PC', there should be an option for this ISO. Open it, then proceed to the `sources` folder, and open `setup.exe`
-
-3. Click 'No thanks' to the updates, and uncheck 'I want to help make the Windows installation better'
-
-4. Click 'I don't have a product key', as Windows will activate later
-
-5. Select your edition of Windows. We highly recommend and only officially support Windows Pro, but if you do not have a license for it, use Windows Home *(not recommended)*
-
-6. Accept the license agreement and click 'Custom: Install Windows only (advanced)'. This will install a fresh install of Windows and create a `Windows.old` folder
-
-7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation finish
-
-
-### :material-cog: Initial setup (OOBE)
-
-We previously mentioned in the [Driver Updates](#driver-updates) section regarding two options: Manual and Automatic Driver Installation. In case you still need to decide, revisit and make a choice for your installation.
-
-!!! danger "Manual driver installation? Read this before continuing"
-
-    If you decide to go with manual driver installation and use an ethernet cable for your internet connection, **disconnect it before continuing to the setup**. If you use Wi-Fi, disregard this; you will select "I don't have internet" during installation.
-
-    If you use an ethernet cable and don't disconnect it, Windows will install drivers without your permission.
-
-Depending on your finalized choice, follow the respective video below.
-
-
-=== "Windows 11 (manual driver install)"
-    ??? info "Written Instructions"
-        1. Once in the setup, press ++shift+f10++ to open Command Prompt
-        2. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
-        3. Continue through with setup as normal, but make sure to:
-            - Not connect to the internet
-            - Deny each privacy option
-
-    <center>
-        <video src="/assets/videos/win11-OOBE-nointernet.mp4" controls muted width="560" height="420"></video>
-    </center>
-
-=== "Windows 11 (automatic driver install)"
-    ??? info "Written Instructions"
-        1. Continue with the Windows Setup until you get to '**How would you like to set up this device?**'
-        2. Select '**Set up for work or school**'
-        3. Once at the Microsoft sign-in page, click '**Sign-in options**' and then '**Domain join**'
-        4. Continue with setup and deny each privacy option
-
-    <center>
-        <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
-    </center>
-
-=== "Windows 10 "
-    ??? info "Written Instructions"
-        TBD
-
-    <center>
-        <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
-        <p>Credit to [@amitxv](https://github.com/amitxv) for the video demonstration.<p>
-    </center>
-
-!!! tip
-    Your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you may need before deleting it
-
-    To delete your previous Windows installation, go to Windows Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'
+| :material-alert-circle-outline: Ability to switch to automatic driver updates later | :material-check: Latest security and feature updates |
 
 ## :material-wrench-cog-outline: Installing AtlasOS
 
-When you've made it to the desktop, follow the steps for your respective choice:
+!!! tip
+    Your old Windows installation will be put into a `Windows.old` folder in your Windows drive on your new installation. You can copy the files that you may need before deleting it
 
-=== "Windows 11 (manual driver install)"
-    1. Copy the `AtlasFiles` from your seperate drive/volume to your desktop
-    2. Open it and run the `Disable Drivers Installation in Windows Update.reg`
-    3. Restart your device, you can now connect to your Wi-Fi (or plug in ethernet)
-        - If you can't connect to the internet, run the internet driver executable you downloaded prior to reinstalling located in `AtlasFiles`
-    4. Go to 'Windows Settings' and update Windows until there's no more updates left. Additionally, go to the 'Microsoft Store' and update all the apps there
-        - You will need to restart after completing updates. After restarting, check again for updates on both 'Windows Settings' and 'Microsoft Store' repeating until there are no more updates
-    5. Open `AtlasFiles` and proceed to running `AME Wizard Beta.exe`
-        - SmartScreen will notify you that AME Wizard is an unrecognized application, as it is not digitally signed. You can get around this by pressing `More info` and `Run anyway`.
-    6. Import the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
-    7. Follow the on-screen instructions to successfully install AtlasOS
+    To delete your previous Windows installation, go to Windows Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'
 
-=== "Windows 11 (automatic driver install)"
-    1. Copy the `AtlasFiles` from your seperate drive/volume to your desktop
-    2. Connect yourself to the internet through Wi-Fi (or plug in your ethernet)
-    4. Go to 'Windows Settings' and update Windows until there's no more updates left. Additionally, go to the 'Microsoft Store' and update all the apps there
-        - You will need to restart after completing updates. After restarting, check again for updates on both 'Windows Settings' and 'Microsoft Store' repeating until there are no more updates
-    5. Open `AtlasFiles` and proceed to running `AME Wizard Beta.exe`
-        - SmartScreen will notify you that AME Wizard is an unrecognized application, as it is not digitally signed. You can get around this by pressing `More info` and `Run anyway`.
-    6. Import the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
-    7. Follow the on-screen instructions to successfully install AtlasOS
+We previously mentioned in the [Driver Updates](#driver-updates) section regarding two options: Manual and Automatic Driver Installation. You'll need to choose one before continuing.
 
-=== "Windows 10"
-    1. Copy the `AtlasFiles` from your seperate drive/volume to your desktop
-    2. Open it and run the `Disable Drivers Installation in Windows Update.reg`
-    3. Restart your device, you can now connect to your Wi-Fi (or plug in ethernet)
-        - If you can't connect to the internet, run the internet driver executable you downloaded prior to reinstalling located in `AtlasFiles`
-    4. Go to 'Windows Settings' and update Windows until there's no more updates left. Additionally, go to the 'Microsoft Store' and update all the apps there
-        - You will need to restart after completing updates. After restarting, check again for updates on both 'Windows Settings' and 'Microsoft Store' repeating until there are no more updates
-    5. Open `AtlasFiles` and proceed to running `AME Wizard Beta.exe`
-        - SmartScreen will notify you that AME Wizard is an unrecognized application, as it is not digitally signed. You can get around this by pressing `More info` and `Run anyway`.
-    6. Import the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
-    7. Follow the on-screen instructions to successfully install AtlasOS
+1. Copy the `AtlasFiles` from your seperate drive/volume to your desktop
+2. If you have chosen **Manual Driver Installation**, run `Disable Drivers Installation in Windows Update.reg` and restart
+3. Connect to the internet
+    - If you can't connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) you downloaded prior to reinstalling located in `AtlasFiles`
+4. Go to **Windows Settings** and update Windows until there's no more updates left. Additionally, go to the **Microsoft Store** and update all the apps there
+    - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop-up
+5. Open `AtlasFiles` and proceed to running `AME Wizard Beta.exe`
+    - SmartScreen will notify you that AME Wizard is an unrecognized application, as it is not digitally signed. You can get around this by pressing **More info** and **Run anyway**
+6. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
+7. Follow the on-screen instructions to successfully install AtlasOS
 
 Once completed, you will see the `Atlas` folder on your desktop. We guide you on how to configure your Atlas installation using this folder at the [Post-Installation](./post-installation/drivers/index.md) part of the documentation.
 

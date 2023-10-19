@@ -16,6 +16,8 @@
 *[VBS]: Virtualization Based Security
 *[VRR]: Variable refresh rate
 *[WSL]: Windows Subsystem for Linux
-*[AME Wizard]: A tool that is used to strip components and apply tweaks live on a Windows Install
+*[AME Wizard]: A tool that is used to run modification packages (Playbooks) for Windows
 *[OEM]: Original Equipment Manufacturer
 *[OS]: Operating System
+*[Windows drive]: Commonly referred to as the C drive
+*[EULA]: End-user license agreement

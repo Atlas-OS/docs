@@ -145,8 +145,7 @@ nav:
     - Contribution Guidelines: contributions.md
     - Branding Kit: branding.md
   - Getting Started:
-    - Install AtlasOS: getting-started/installation.md
-    - Install via USB: getting-started/other-installation-methods/usb.md
+    - Installation: getting-started/installation.md
     - Post-Installation:
       - Drivers:
         - Index: getting-started/post-installation/drivers/index.md
