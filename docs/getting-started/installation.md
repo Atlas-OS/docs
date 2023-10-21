@@ -195,6 +195,11 @@ We previously mentioned in the [Driver Updates](#driver-updates) section regardi
 6. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
 7. Follow the on-screen instructions to successfully install AtlasOS
 
+!!! danger "AME Wizard closing and being deleted?"
+    To prevent Windows Defender from closing and deleting the AME Wizard file, you should add AME Wizard to the exclusion list in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used by many people yet.
+
+    To read more about this, view the [Security Exceptions](https://docs.ameliorated.io/guides/security-exceptions.html) docs from the Ameliorated team.
+
 Once completed, you will see the `Atlas` folder on your desktop. We guide you on how to configure your Atlas installation using this folder at the [Post-Installation](./post-installation/drivers/index.md) part of the documentation.
 
 ### :material-bug-outline: Troubleshooting
