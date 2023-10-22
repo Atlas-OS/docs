@@ -48,13 +48,6 @@ This FAQ collects common issues and questions that people may have, extended fro
 
 	You can install a third-party antivirus after installation. Keep in mind that you **should be installing Atlas on a clean installation of Windows.**
 
-??? bug "Why did I get a popup saying that a driver cannot load?"
-	AME Wizard currently uses a kernel mode driver internally (`kprocesshacker.sys`) to kill processes at a kernel-level.
-
-	On Windows 11 by default, the Microsoft Vulnerable Driver Blocklist is enabled by default, blocking this driver as it can be potentially exploited.
-
-	To circumvent this, Atlas disables the kernel mode driver first thing in the playbook, so that no future warnings will occur.
-
 ??? question "Will I have to reinstall Windows when I want to update Atlas?"
 	Past Atlas v0.3.0, we have a goal to have upgrading support. However, we cannot guarentee that certain releases will not need a reinstall.
 
