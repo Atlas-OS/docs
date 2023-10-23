@@ -1,6 +1,5 @@
 ---
 title: Installation
-subtitle: 'Preferred method'
 description: The official AtlasOS playbook installation guide
 icon: material/cogs
 ---
