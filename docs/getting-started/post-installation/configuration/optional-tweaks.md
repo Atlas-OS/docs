@@ -19,27 +19,31 @@ AtlasOS comes with the Legacy Alt-Tab, but you can run the ``Modern Alt-Tab.reg`
 
 By running the ``Add Idle toggle in context menu.reg``, you can toggle idle on and off from the context menu.
 
-## :material-tab: Dark Titlebars
+## :material-file-arrow-up-down: Delivery Optimisation
 
-Titlebars are the bars at the top of windows that have the window's name and buttons to close, minimize, and enlarge it. By running the ``Enable Dark Mode Titlebars.reg`` file, you can change these from light to dark.
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
 
 ## :material-file-find-outline: File Explorer Customization
 
 This is another folder that lets you change how your default file explorer works. Here, we'll talk about each option.
 
-## :material-folder-outline: Folders in This PC
+### Compact View
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+### :material-folder-outline: Folders in This PC
 
 You can change the folders that are shown by default in File Explorer's "This PC" section. Run the ``Remove all folders in This PC (default).reg`` or ``Restore all folders in This PC.reg`` files to remove or add all folders from this section.
 
-## :material-network-outline: Network Navigation Pane
+### Gallery
 
-By running the ``Network Pane.reg`` file, you can enable or disable the network pane.
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
 
-## :material-star-outline: Quick Access
+### :material-star-outline: Quick Access
 
 In File Explorer, there is a section called "Quick Access" that shows you your pinned folders. Run the ``Remove Quick Access.reg`` or ``Show Quick Access (default).reg`` files to turn this section on or off.
 
-## :material-usb-flash-drive-outline: Removable Drives in Sidebar
+### :material-usb-flash-drive-outline: Removable Drives in Sidebar
 
 Here, you can run the ``Enable Removable Drives in Sidebar.reg`` file to make removable drives show up in the sidebar.
 
@@ -55,6 +59,10 @@ Running with priority is a feature that lets you tell a program how important it
 
 With the ``Debloat Send To Context Menu.cmd`` file, you can reduce the items in the "Send to context" menu.
 
+## :octicons-file-directory-symlink-16: Shortcut Icon
+
+This lets you switch between the Classic and modern looks for the Shortcut Icons, you also have the option to disable it. By default, this is set to the Windows Default, but you can change it by running the ``Classic.reg`` to change to the Classic syle. Alternatively, you can turn off the icon by running the ``None (security risk).reg`` file. To restore back to the default setting, run the ``Default Windows (default).reg`` file.
+
 ## :material-folder-text: Shortcut Text
 
 By default, this is turned off, but you can turn it back on by running the ``Restore Shortcut Text.reg`` file. This will show the text of start menu shortcuts.
@@ -62,3 +70,7 @@ By default, this is turned off, but you can turn it back on by running the ``Res
 ## :material-volume-high: Volume Flyout
 
 This lets you switch between the legacy and modern looks for the volume flyout. By default, Atlas uses the modern look, but you can change that by running the ``Old Volume Flyout.reg`` file.
+
+## :octicon-three-bars-16: Windows 11 Context Menu
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*

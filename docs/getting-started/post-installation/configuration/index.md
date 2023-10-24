@@ -29,10 +29,6 @@ Bluetooth is built-in feature on Windows which allows you to connect devices to 
 !!! warning
     You may need to install drivers for Bluetooth to work. Learn how to do this [here.](../drivers/index.md).
 
-~~## FSO and Game Bar~~
-
-~~FSO and Game Bar are built-in features on Windows which are used to record your screen and take screenshots. On Atlas they have been disabled by default to make the system more responsive and less bloated. To enable them just run the `Enable FSO and Game Bar.reg` file in the `FSO and Game Bar` folder.~~
-
 ## Diagnostics & Troubleshooting
 
 Troubleshooting is a built-in feature on Windows which is used to help you troubleshoot issues with your computer. On Atlas we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Diagnostics &Troubleshooting` folder.
@@ -53,30 +49,21 @@ By default, this is turned off, but you can turn it on by running the ``Enable G
 
 HAGS (Hardware-Accelerated GPU Scheduling) is a built-in feature in Windows that aims to make your system more performant in GPU intensive tasks, but it may not produce positive results for every system, so you should test it on your own system to see for yourself.
 
-~~## Hyper-V and VBS~~
-
-~~Hyper-V and VBS are built-in features on Windows which are used to run virtual machines and scripts. On Atlas we have disabled them by default to make the experience more responsive and less bloated. To enable them run the `Enable Hyper-V and VBS.cmd` file in the `Hyper-V and VBS` folder.~~
-
 ## Lanman Workstation (SMB)
 
 Lanman Workstation (SMB) is a built-in feature on Windows which is used to connect to other computers that are on the same network. On Atlas it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
 
-~~## Microsoft Store~~
-
-~~Microsoft Store is a built-in application on Windows which is used to download applications or games without using a web browser. On Atlas we have enabled it by default due to alot of applications and games being on the store but if you want to disable it you can run the `Disable Microsoft Store.cmd` file in the `Microsoft Store` folder.~~
-
-~~!!! warning~~
-    ~~Disabling it will break the 'Night Light' feature!~~
-
-~~### Anti-Cheat Support~~
-
-~~Enabling Spectre and Meltdown and using the `Set Windows Default Mitigations.cmd` script (documented above) should fix all anti-cheat compatibility. On Atlas, they have been disabled by default for increased performance.~~
-
-~~Additionally, you can also configure Data Execution Prevention in the `Mitigations/Anti-Cheat Support` folder. This is set to the Windows default (`OptIn`) by default, because almost all CPUs have this mitigation at a CPU-level (so it shouldn't affect performance) and it gets applied for core system components only. Also, it is required for many anti-cheats.~~
-
 ## Network Discovery
 
 Network Discovery is a built-in feature on Windows which is used to discover other computers on your network. On Atlas we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Network Discovery.cmd` file in the `Network Discovery` folder.
+
+### File Sharing
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+### :material-network-outline: Network Navigation Pane
+
+By running the ``Network Pane.reg`` file, you can enable or disable the network pane.
 
 ## Notifications
 
@@ -111,10 +98,6 @@ FSO and Game Bar are built-in features on Windows which are used to record your 
 ## Printing
 
 Printing is a built-in feature on Windows which is used to print documents. On Atlas we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Printing.cmd` file in the `Printing` folder.
-
-~~## Process Explorer~~
-
-~~Process Explorer is an application made by Microsoft that can be considered a "better" task manager. On Atlas we have kept Task Manager, but if you want to make Process Explorer the default utility for managing tasks, just run the `Install Process Explorer.cmd` file in the `Process Explorer` folder.~~
 
 ## Search Indexing
 
