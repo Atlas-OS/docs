@@ -29,13 +29,21 @@ Bluetooth is built-in feature on Windows which allows you to connect devices to 
 !!! warning
     You may need to install drivers for Bluetooth to work. Learn how to do this [here.](../drivers/index.md).
 
-## Firewall
+~~## Firewall~~
 
-Firewall is a built-in feature on Windows which is used to block unwanted connections. On Atlas we have kept this enabled by default to enhance system security. To disable it you can run the `Disable Windows Firewall.cmd` file in the `Firewall` folder.
+~~Firewall is a built-in feature on Windows which is used to block unwanted connections. On Atlas we have kept this enabled by default to enhance system security. To disable it you can run the `Disable Windows Firewall.cmd` file in the `Firewall` folder.~~
 
-## FSO and Game Bar
+~~## FSO and Game Bar~~
 
-FSO and Game Bar are built-in features on Windows which are used to record your screen and take screenshots. On Atlas they have been disabled by default to make the system more responsive and less bloated. To enable them just run the `Enable FSO and Game Bar.reg` file in the `FSO and Game Bar` folder.
+~~FSO and Game Bar are built-in features on Windows which are used to record your screen and take screenshots. On Atlas they have been disabled by default to make the system more responsive and less bloated. To enable them just run the `Enable FSO and Game Bar.reg` file in the `FSO and Game Bar` folder.~~
+
+## Diagnostics & Troubleshooting
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+## Driver Updates
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
 
 ## Game Mode
 
@@ -49,26 +57,26 @@ By default, this is turned off, but you can turn it on by running the ``Enable G
 
 HAGS (Hardware-Accelerated GPU Scheduling) is a built-in feature in Windows that aims to make your system more performant in GPU intensive tasks, but it may not produce positive results for every system, so you should test it on your own system to see for yourself.
 
-## Hyper-V and VBS
+~~## Hyper-V and VBS~~
 
-Hyper-V and VBS are built-in features on Windows which are used to run virtual machines and scripts. On Atlas we have disabled them by default to make the experience more responsive and less bloated. To enable them run the `Enable Hyper-V and VBS.cmd` file in the `Hyper-V and VBS` folder.
+~~Hyper-V and VBS are built-in features on Windows which are used to run virtual machines and scripts. On Atlas we have disabled them by default to make the experience more responsive and less bloated. To enable them run the `Enable Hyper-V and VBS.cmd` file in the `Hyper-V and VBS` folder.~~
 
 ## Lanman Workstation (SMB)
 
 Lanman Workstation (SMB) is a built-in feature on Windows which is used to connect to other computers that are on the same network. On Atlas it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
 
-## Microsoft Store
+~~## Microsoft Store~~
 
-Microsoft Store is a built-in application on Windows which is used to download applications or games without using a web browser. On Atlas we have enabled it by default due to alot of applications and games being on the store but if you want to disable it you can run the `Disable Microsoft Store.cmd` file in the `Microsoft Store` folder.
+~~Microsoft Store is a built-in application on Windows which is used to download applications or games without using a web browser. On Atlas we have enabled it by default due to alot of applications and games being on the store but if you want to disable it you can run the `Disable Microsoft Store.cmd` file in the `Microsoft Store` folder.~~
 
-!!! warning
-    Disabling it will break the 'Night Light' feature!
+~~!!! warning~~
+    ~~Disabling it will break the 'Night Light' feature!~~
 
-### Anti-Cheat Support
+~~### Anti-Cheat Support~~
 
-Enabling Spectre and Meltdown and using the `Set Windows Default Mitigations.cmd` script (documented above) should fix all anti-cheat compatibility. On Atlas, they have been disabled by default for increased performance.
+~~Enabling Spectre and Meltdown and using the `Set Windows Default Mitigations.cmd` script (documented above) should fix all anti-cheat compatibility. On Atlas, they have been disabled by default for increased performance.~~
 
-Additionally, you can also configure Data Execution Prevention in the `Mitigations/Anti-Cheat Support` folder. This is set to the Windows default (`OptIn`) by default, because almost all CPUs have this mitigation at a CPU-level (so it shouldn't affect performance) and it gets applied for core system components only. Also, it is required for many anti-cheats.
+~~Additionally, you can also configure Data Execution Prevention in the `Mitigations/Anti-Cheat Support` folder. This is set to the Windows default (`OptIn`) by default, because almost all CPUs have this mitigation at a CPU-level (so it shouldn't affect performance) and it gets applied for core system components only. Also, it is required for many anti-cheats.~~
 
 ## Network Discovery
 
@@ -92,13 +100,25 @@ Hibernation is a feature in Windows that allows you to put your computer to slee
 
 Hibernation is disabled by default due to the potential stability issues it can cause, but you can manage it with `Enable Hibernation.cmd` or `Disable Hibernation (default).cmd` in the `Hibernation` folder.
 
+### Power Saving
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+### Timer Resolution
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+## Presentation Mode and Game Bar
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
 ## Printing
 
 Printing is a built-in feature on Windows which is used to print documents. On Atlas we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Printing.cmd` file in the `Printing` folder.
 
-## Process Explorer
+~~## Process Explorer~~~
 
-Process Explorer is an application made by Microsoft that can be considered a "better" task manager. On Atlas we have kept Task Manager, but if you want to make Process Explorer the default utility for managing tasks, just run the `Install Process Explorer.cmd` file in the `Process Explorer` folder.
+~~Process Explorer is an application made by Microsoft that can be considered a "better" task manager. On Atlas we have kept Task Manager, but if you want to make Process Explorer the default utility for managing tasks, just run the `Install Process Explorer.cmd` file in the `Process Explorer` folder.~~
 
 ## Search Indexing
 
@@ -114,18 +134,27 @@ The `Unlock Start Menu Tiles.cmd` file allows you to unlock the start menu tiles
 
 The `Atlas Open-Shell Preset.xml` file is a pre-made preset which we recommend using for Open-Shell, but you can still change the suggested settings to your liking.
 
-## Troubleshooting
+~~## Troubleshooting~~
 
-Troubleshooting is a built-in feature on Windows which is used to help you troubleshoot issues with your computer. On Atlas we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Troubleshooting` folder.
+~~Troubleshooting is a built-in feature on Windows which is used to help you troubleshoot issues with your computer. On Atlas we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Troubleshooting` folder.~~
 
-## UAC
+~~## UAC~~
 
-UAC (User Account Control) is a feature in Windows that helps control what changes software can make to your computer. This helps protect against applications malfunctioning and doing harmful changes to your computer.
+~~UAC (User Account Control) is a feature in Windows that helps control what changes software can make to your computer. This helps protect against applications malfunctioning and doing harmful changes to your computer.~~
 
-Please note that most well-made malware will be able to bypass UAC easily, and that the only true way to protect yourself against UAC bypasses is to turn UAC up to the maximum level.
+~~Please note that most well-made malware will be able to bypass UAC easily, and that the only true way to protect yourself against UAC bypasses is to turn UAC up to the maximum level.~~
 
-When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is enabled it by default. To disable it, run the `Disable UAC.cmd` file in the `UAC Folder`.
+~~When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is enabled it by default. To disable it, run the `Disable UAC.cmd` file in the `UAC Folder`.~~
 
+## System Restore
+
+*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+
+## Visual Effects
+
+Windows enables various Visual Effects by default. These include animated menus and tooltips, and animations while minimizing and maximizing, all of these enhance the appearance of Windows but can reduce performance.
+
+On Atlas, visual effects are disabled by default. To restore these effects, run the `Default Windows Visual Effects.cmd` file in the `Visual Effects` folder.
 
 ## VPN
 
@@ -138,6 +167,6 @@ Wi-Fi is a feature in Windows that lets your computer connect to the internet wi
 !!! warning
     You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/index.md)
 
-## Xbox
+~~## Xbox~~
 
-The Xbox features are turned on in Atlas by default because many people use their PCs for gaming. If you want to remove it, run the `Remove Xbox Applications.cmd` file in the `Xbox` folder.
+~~The Xbox features are turned on in Atlas by default because many people use their PCs for gaming. If you want to remove it, run the `Remove Xbox Applications.cmd` file in the `Xbox` folder.~~
