@@ -29,9 +29,9 @@ Bluetooth is built-in feature on Windows which allows you to connect devices to 
 !!! warning
     You may need to install drivers for Bluetooth to work. Learn how to do this [here.](../drivers/index.md).
 
-## Diagnostics & Troubleshooting
+## Diagnostics and Troubleshooting
 
-Troubleshooting is a built-in feature on Windows which is used to help you troubleshoot issues with your computer. On Atlas we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Diagnostics &Troubleshooting` folder.
+Troubleshooting is a built-in feature on Windows which is used to help you troubleshoot issues with your computer. On Atlas we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Diagnostics and Troubleshooting` folder.
 
 ## Driver Updates
 
