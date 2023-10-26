@@ -14,8 +14,8 @@ To run the `setup.exe` file in the `sources` folder, we will be focusing on decr
 
 1. Run `CMD` (Command Prompt) with **Administrator privileges**
 2. Type `manage-bde -off C:` this will then start BitLocker with the parameters we entered
-    - Many users will see: [ERROR: This volume stores external key(s) that can automatically unlock other volumes.](../images/bitlocker-error-decrypting.jpg). If this applies to you, type `manage-bde -autounlock - ClearAllKeys C:` to clear the keys. After completion, re-type manage-bde -off C: to continue decrypting.
+    - Many users will see: [ERROR: This volume stores external key(s) that can automatically unlock other volumes.](../assets/images/bitlocker-error-decrypting.jpg). If this applies to you, type `manage-bde -autounlock - ClearAllKeys C:` to clear the keys. After completion, re-type manage-bde -off C: to continue decrypting.
 3. If you got "Decryption is now in progress." you have completed the steps correctly. It will take some time to fully decrypt the drive
 4. You can checkthe progress b
-y typing `manage-bde -status` and finding the `C:` drive and the [percentage encrypted](../assets/images/bitlocker-error-decrypting.jpg).
+y typing `manage-bde -status` and finding the `C:` drive and the [percentage encrypted](../assets/images/bitlocker-decryption-progress.png).
 5. When the decyption percentage reaches "0%" you've successfully decrypted the drive!
