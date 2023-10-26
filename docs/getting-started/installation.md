@@ -121,6 +121,7 @@ However, your old installation (including user data) will be copied to a `Window
 1. Right-click the ISO file we downloaded previously, clicking **Open With** :material-arrow-right: **File Explorer**. This will mount it to your File Explorer
 
 2. Under **This PC**, there should be an option for this ISO. Open it, then proceed to the `sources` folder, and open `setup.exe`
+    - For many retail Windows 11 laptops, BitLocker comes pre-installed, encrypting all drives on the machine. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) will appear when you attempt to execute the `setup.exe`. Refer to our [BitLocker decrypting instructions]() to resolve this.
 
 3. Click **No thanks** to the updates, and uncheck **I want to help make the Windows installation better**
 
