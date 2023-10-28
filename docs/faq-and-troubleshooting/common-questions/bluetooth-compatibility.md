@@ -5,7 +5,7 @@ icon: material/bluetooth
 
 # Does Bluetooth work on AtlasOS?
 
-**Yes. Bluetooth comes disabled by default on Atlas, but you can enable it in the Atlas folder.**
+**Yes, Bluetooth is fully functional on Atlas, you can choose to enable or disable it during installation.**
 
 If you're using Atlas and not using Automatic Driver Installation, you will need to install the Bluetooth driver yourself.
 
