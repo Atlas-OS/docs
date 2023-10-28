@@ -141,7 +141,6 @@ extra:
 nav:
   - Home:
     - Home: index.md
-    - FAQ: faq.md
     - Contribution Guidelines: contributions.md
     - Branding Kit: branding.md
   - Getting Started:
