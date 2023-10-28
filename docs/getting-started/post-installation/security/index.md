@@ -70,3 +70,15 @@ As Atlas believes in user freedom, we have given the option to fully toggle Defe
         - A malicious PCI device could be plugged in through a Thunderbolt port, as an example
     - Kernel-mode Hardware-enforced Stack Protection
         - Protects against [Return-Oriented Programming (ROP)](https://en.wikipedia.org/wiki/Return-oriented_programming) attacks
+
+## :octicons-shield-lock-16: UAC
+
+UAC (User Account Control) is a feature in Windows that helps control what changes software can make to your computer. This helps protect against applications malfunctioning and doing harmful changes to your computer.
+
+Please note that most well-made malware will be able to bypass UAC easily, and that the only true way to protect yourself against UAC bypasses is to turn UAC up to the maximum level.
+
+When UAC is disabled, everything will be run as Administrator. On the current version of Atlas, it is enabled it by default. To disable it, run the `Disable UAC.cmd` file in the `User Account Control (UAC)`.
+
+## :octicons-flame-16: Firewall
+
+Firewall is a built-in feature on Windows which is used to block unwanted connections. On Atlas we have kept this enabled by default to enhance system security. To disable it you can run the `Disable Windows Firewall.cmd` file in the `Firewall` folder.
