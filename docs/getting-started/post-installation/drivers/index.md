@@ -6,7 +6,7 @@ icon: material/hammer-screwdriver
 
 # Drivers
 
-If you have installed AtlasOS through the "Manual Driver Installation" method, this guide will be your go-to helping hand for setting up your system with all the drivers you may need.
+If you have installed AtlasOS through the Manual Driver Installation method, this guide will be your go-to helping hand for setting up your system with all the drivers you may need.
 
 
 ## :material-emoticon-confused-outline: What drivers do I need?
