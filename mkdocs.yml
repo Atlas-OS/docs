@@ -162,14 +162,23 @@ nav:
       - Software:
         - Index: getting-started/post-installation/software/index.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
-  - Troubleshooting:
-    - Removed features: troubleshooting/removed-features.md
-    - Scripts: troubleshooting/scripts.md
-    - Decrypting using BitLocker: troubleshooting/decrypting-bitlocker.md
-    - Common Issues:
-      - Atlas folder missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - Adobe Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
-
+  - FAQ & Troubleshooting:
+    - What's removed?: faq-and-troubleshooting/removed-features.md
+    - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
+    - Atlas folder scripts: faq-and-troubleshooting/atlas-folder-scripts.md
+    - Atlas & Security: faq-and-troubleshooting/atlas-and-security.md
+    - Updating Atlas: faq-and-troubleshooting/updating-atlas.md
+    - Testing nightly builds: faq-and-troubleshooting/testing-nightly-builds.md
+    - Common Questions:
+      - Atlas folder missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
+      - Adobe Acrobat compatibility: faq-and-troubleshooting/common-questions/adobe-acrobat.md
+      - iTunes compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
+      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
+      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
+      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
+      - Bluetooth compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
+      - Microsoft Store comatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
+      - AME Wizard virus detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
 
 #
 # Plugins
