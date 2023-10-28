@@ -75,7 +75,7 @@ Making sure that your commits are already to a high standard means that developm
 ### :octicons-verified-16: Commit Signature Verification
 It is also highly recommended to setup [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification), which means that your commits will be marked as 'Verified' so that other people will know that your commits come from a trusted source.
 
-You can install [GPG](https://gnupg.org/) (used for signing) on Windows with [Scoop](https://scoop.sh/) with the following command:
+You can install [GPG](https://gnupg.org/) (used for signing) in Windows with [Scoop](https://scoop.sh/) with the following command:
 ```
 scoop install gpg
 ```
