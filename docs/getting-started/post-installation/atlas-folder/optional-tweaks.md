@@ -5,9 +5,9 @@ icon: material/hammer
 
 # Optional Tweaks
 
-These are some cool tweaks that you can turn on. For example, you could change the old alt-tab to the new one or bring back the old one. You can pick and use any of the options.
+These are some optional tweaks that you can turn on. For example, you could change the old alt-tab to the new one or change the context menu. You can pick and choose how you like your Windows.
 
-All of the configuration files listed here are located in the `3. Configuration/4. Optional Tweaks` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, you can find it in `C:/Users/Default/Desktop/` or download it via our [GitHub](https://github.com/Atlas-OS/Atlas/tree/main/src/Executables/Atlas).
+All of the configuration files listed here are located in the `4. Optional Tweaks` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) for how to find it/get it back.
 
 ## :material-swap-horizontal-circle-outline: Alt-Tab
 

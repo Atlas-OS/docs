@@ -146,6 +146,12 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
     - Post Installation:
+      - Atlas folder:
+        - Configuration: getting-started/post-installation/atlas-folder/configuration.md
+        - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
+        - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
+        - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
+        - Security: getting-started/post-installation/atlas-folder/security.md
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
         - Graphics:
@@ -153,12 +159,6 @@ nav:
           - AMD: getting-started/post-installation/drivers/gpu/amd.md
           - Intel: getting-started/post-installation/drivers/gpu/intel.md
         - Others: getting-started/post-installation/drivers/others.md
-      - Atlas folder:
-        - Configuration: getting-started/post-installation/atlas-folder/configuration.md
-        - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
-        - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
-        - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
-        - Security: getting-started/post-installation/atlas-folder/security.md
       - Software:
         - Index: getting-started/post-installation/software/index.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
