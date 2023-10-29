@@ -48,12 +48,6 @@ By default, this is turned off, but you can turn it on by running the `Enable Ga
 
 HAGS (Hardware-Accelerated GPU Scheduling) is a built-in feature in Windows that aims to make your system more performant in GPU intensive tasks, but it may not produce positive results for every system, so you should test it on your own system to see for yourself.
 
-## Hibernation
-
-Hibernation is a feature in Windows that allows you to put your computer to sleep. It temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
-
-Hibernation is disabled by default due to the potential stability issues it can cause, but you can manage it with `Enable Hibernation.cmd` or `Disable Hibernation (default).cmd` in the `Hibernation` folder.
-
 ## Lanman Workstation (SMB)
 
 Lanman Workstation (SMB) is a built-in feature in Windows which is used to connect to other computers that are on the same network. On Atlas it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
@@ -82,11 +76,11 @@ Disabling idle reduces jitter and increases responsiveness as the CPU is forced 
 
 The drawbacks of forcing the CPU to operate at C0 is increased power consumption and higher temperatures, so it is not recommended disabling idle if you leave your PC running for extended durations, have inadequate cooling, uncontrolled voltages or a laptop.
 
-### Hibernation
+## Hibernation
 
 Hibernation is a feature in Windows that allows you to put your computer to sleep. It temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
 
-Hibernation is disabled by default due to the potential stability issues it can cause, but you can enable it with `Enable Hibernation.cmd` in the `Hibernation` folder and restart.
+Hibernation is disabled by default due to the potential stability issues it can cause, but you can enable it by running the `Enable Hibernation.cmd` in the `Hibernation` folder.
 
 ### Power Saving
 
