@@ -13,4 +13,4 @@ If you need help reinstalling Windows, you can use Google, YouTube or follow our
 
 This will get you to a completely stock Windows installation.
 
-🔗 [https://docs.atlasos.net/getting-started/installation/](getting-started/installation.md)
+🔗 [https://docs.atlasos.net/getting-started/installation/](/getting-started/installation.md)
