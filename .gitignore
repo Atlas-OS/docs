@@ -1,16 +1,14 @@
 # Directories
 .cache/
 site/
+node_modules/
 
 # MacOS related
 .DS_Store
 .AppleDouble
 .LSOverride
-
 Icon
-
 ._*
-
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -18,7 +16,6 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
 .AppleDB
 .AppleDesktop
 Network Trash Folder
