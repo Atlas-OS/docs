@@ -5,7 +5,7 @@ icon: material/cog
 
 # Configuration
 
-In this section, we will provide a comprehensive list of most of the general configuration options that are available in the Atlas folder. You should only modify these configuration settings if you are fully aware of what you are doing or if a team member specifically requests you to do so.
+In this section, we will be presenting a comprehensive list of general configuration options that are available in the Atlas folder. It is important to note that you should only modify these configuration settings if you have a complete understanding of what you are doing or if a team member specifically requests you to do so.
 
 For more configuration options, check:
 
