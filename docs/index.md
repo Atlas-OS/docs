@@ -21,7 +21,7 @@ icon: material/home
 
     Find the cause and fix to troubleshoot any common issues with your AtlasOS system.
 
-    [:octicons-arrow-right-24: Troubleshoot](/getting-started/post-installation/atlas-folder/configuration.md)
+    [:octicons-arrow-right-24: Troubleshoot](getting-started/post-installation/atlas-folder/configuration.md)
 
 -   :material-chat-question:{ .lg .middle } __FAQ & Troubleshooting__
 
