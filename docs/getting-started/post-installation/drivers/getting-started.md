@@ -1,6 +1,6 @@
 ---
 description: Getting started with installing drivers for AtlasOS
-icon: material/hammer-screwdriver
+icon: material/progress-download
 ---
 
 # Drivers? How do I start?
