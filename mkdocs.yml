@@ -145,13 +145,14 @@ nav:
     - Branding Kit: branding.md
   - Getting Started:
     - Installation: getting-started/installation.md
-    - Post-Installation:
+    - Post Installation:
       - Drivers:
-        - Index: getting-started/post-installation/drivers/index.md
-        - GPU:
-          - Intel: getting-started/post-installation/drivers/gpu/intel.md
-          - AMD: getting-started/post-installation/drivers/gpu/amd.md
+        - Getting Started: getting-started/post-installation/drivers/getting-started.md
+        - Graphics:
           - NVIDIA: getting-started/post-installation/drivers/gpu/nvidia.md
+          - AMD: getting-started/post-installation/drivers/gpu/amd.md
+          - Intel: getting-started/post-installation/drivers/gpu/intel.md
+        - Others: getting-started/post-installation/drivers/others.md
       - Atlas folder:
         - Configuration: getting-started/post-installation/atlas-folder/configuration.md
         - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md

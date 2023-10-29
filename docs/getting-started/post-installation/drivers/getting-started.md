@@ -1,13 +1,11 @@
 ---
-title: Drivers
-description: An overview of how to install drivers on an AtlasOS install
+description: Getting started with installing drivers for AtlasOS
 icon: material/hammer-screwdriver
 ---
 
-# Drivers
+# Drivers? How do I start?
 
 If you have installed AtlasOS through the Manual Driver Installation method, this guide will be your go-to helping hand for setting up your system with all the drivers you may need.
-
 
 ## :material-emoticon-confused-outline: What drivers do I need?
 
@@ -15,7 +13,7 @@ It is important to only install drivers that are necessary for hardware that is 
 
 If you are unsure of the brands and drivers required for each component, you can look up your hardware to determine what the specific drivers are called and then install them accordingly.
 
-## :material-cogs: GPU Drivers
+## :material-cogs: Graphics (GPU/iGPU) Drivers
 We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated. We have included installation guides for popular graphics card brands below:
 
 * [NVIDIA](../drivers/gpu/nvidia.md)

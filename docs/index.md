@@ -21,7 +21,7 @@ icon: material/home
 
     Find the cause and fix to troubleshoot any common issues with your AtlasOS system.
 
-    [:octicons-arrow-right-24: Troubleshoot](troubleshooting/removed-features.md)
+    [:octicons-arrow-right-24: Troubleshoot](faq-and-troubleshooting/removed-features.md)
 
 -   :material-chat-question:{ .lg .middle } __FAQ__
 
@@ -29,7 +29,7 @@ icon: material/home
 
     Get the answer to any frequently asked questions regarding AtlasOS.
 
-    [:octicons-arrow-right-24: Visit FAQ](faq.md)
+    [:octicons-arrow-right-24: Visit FAQ](faq-and-troubleshooting/removed-features.md)
 	
 -   :material-git:{ .lg .middle } __Contribution Guidelines__
 

@@ -10,7 +10,7 @@ icon: material/cogs
 
     AtlasOS is in compliance with the Windows EULA; activation in Windows is not modified.
 
-    It is recommended to take a look at our [Removed Features](../troubleshooting/removed-features.md) page and [FAQ](../faq.md).
+    It is recommended to take a look at our [FAQ page](../faq-and-troubleshooting/removed-features.md).
 
 ## :material-clipboard-list-outline: Requirements
 
@@ -121,7 +121,7 @@ However, your old installation (including user data) will be copied to a `Window
 1. Right-click the ISO file we downloaded previously, clicking **Open With** :material-arrow-right: **File Explorer**. This will mount it to your File Explorer
 
 2. Under **This PC**, there should be an option for this ISO. Open it, then proceed to the `sources` folder, and open `setup.exe`
-    - For many retail Windows 11 laptops, BitLocker comes pre-installed, encrypting all drives on the machine. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) will appear when you attempt to execute the `setup.exe`. Refer to our [BitLocker decrypting instructions](/troubleshooting/decrypting-bitlocker) to resolve this.
+    - For many retail Windows 11 laptops, BitLocker comes pre-installed, encrypting all drives on the machine. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) will appear when you attempt to execute the `setup.exe`. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this.
 
 3. Click **No thanks** to the updates, and uncheck **I want to help make the Windows installation better**
 
@@ -200,10 +200,10 @@ We previously mentioned in the [Driver Updates](#driver-updates) section regardi
 
     To read more about this, view the [Security Exceptions](https://docs.ameliorated.io/guides/security-exceptions.html) docs from the Ameliorated team.
 
-Once completed, you will see the `Atlas` folder on your desktop. We guide you on how to configure your Atlas installation using this folder at the [Post-Installation](./post-installation/drivers/index.md) part of the documentation.
+Once completed, you will see the `Atlas` folder on your desktop. We guide you on how to configure your Atlas installation using this folder at the [Post Installation](post-installation/drivers/getting-started.md) part of the documentation.
 
 ### :material-bug-outline: Troubleshooting
 !!! tip "Need help?"
     If you face any trouble while installing, you can ask for help on our [Forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a large community of people who care and want to help.
 
-    We recommend viewing our [FAQ](../faq.md) before posting in our Discord server or Forum to reduce wait time for possible common, answered questions.
+    We recommend viewing our [FAQ](../faq-and-troubleshooting/removed-features.md) before posting in our Discord server or Forum to reduce wait time for possible common, answered questions.

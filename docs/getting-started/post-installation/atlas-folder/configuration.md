@@ -1,5 +1,4 @@
 ---
-title: Configuration
 description: An overview of all general configuration options installed by the AtlasOS playbook
 icon: material/cog
 ---
@@ -14,7 +13,7 @@ For more configuration options, check:
 - [Optional Tweaks](optional-tweaks.md)
 - [Windows Settings](windows-settings.md)
 
-All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](../../../troubleshooting/common-issues/atlas-folder-missing.md) for how to find it/get it back.
+All of the configuration files listed here are located in the `3. Configuration/1. General Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) for how to find it/get it back.
 
 ## Background Apps
 
@@ -24,7 +23,7 @@ By defauly we disable background apps in Windows, however you may need to enable
 
 Bluetooth is built-in feature in Windows which allows you to connect devices to your computer. On Atlas it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Bluetooth.cmd` file in the `Bluetooth` folder and restart.
 
-You may need to install drivers for Bluetooth to work. [View our guide here](/faq-and-troubleshooting/common-questions-bluetooth-compatibility).
+You may need to install drivers for Bluetooth to work. [View our guide here](../../../faq-and-troubleshooting/common-questions/bluetooth-compatibility.md).
 
 ## Diagnostics and Troubleshooting
 
@@ -130,5 +129,5 @@ On Atlas, visual effects are disabled by default. To restore these effects, run 
 
 Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
-You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/index.md)
+You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/getting-started.md)
 

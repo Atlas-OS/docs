@@ -13,7 +13,7 @@ These steps will guide you on getting setup with Bluetooth:
 
 1. Enable Bluetooth in the Atlas folder
 
-2. Install your Bluetooth driver (from OEM or via our [SDIO guide](/getting-started/post-installation/drivers/#snappy-driver-installer-origin))
+2. Install your Bluetooth driver (from OEM or via our [SDIO guide](../../getting-started/post-installation/drivers/getting-started.md#snappy-driver-installer-origin))
     - Most issues with Bluetooth are caused by installing improper drivers. Make sure you research and find the driver which is suited for your device.
 
 3. Turn ON Bluetooth, and pair your device
