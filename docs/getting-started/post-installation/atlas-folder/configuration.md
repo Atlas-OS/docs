@@ -75,7 +75,7 @@ Disabling idle reduces jitter and increases responsiveness as the CPU is forced 
 
 The drawbacks of forcing the CPU to operate at C0 is increased power consumption and higher temperatures, so it is not recommended disabling idle if you leave your PC running for extended durations, have inadequate cooling, uncontrolled voltages or a laptop.
 
-## Hibernation
+### Hibernation
 
 Hibernation is a feature in Windows that allows you to put your computer to sleep. It temporarily saves all of the current memory/RAM onto your disk, in case of power loss.
 
@@ -83,7 +83,9 @@ Hibernation is disabled by default due to the potential stability issues it can 
 
 ### Power Saving
 
-*We are sorry, but the documentation for this is not written yet. Feel free to provide your contribution at [https://github.com/Atlas-OS/docs](https://github.com/Atlas-OS/docs).*
+In this folder, you will find two files that can either enable or disable power saving. These files not only control the power scheme but also have an impact on other settings that can affect power consumption, and thus altering your system's performance.
+
+If you wish to modify your choice after installation, you can do so through the registry files provided in this folder.
 
 ### Timer Resolution
 
