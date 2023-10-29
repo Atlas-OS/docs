@@ -1,6 +1,6 @@
 ---
 description: An overview of the Windows setting shortcuts installed by the AtlasOS playbook
-icon: simple/windows
+icon: material/microsoft-windows
 ---
 
 # Windows Settings
