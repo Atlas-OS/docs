@@ -18,6 +18,7 @@ plugins:
         - unpkg.com/*
         - avatars.githubusercontent.com/*
         - pla.atlasos.net/*
+        - widget.kapa.ai/*
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards (Insiders)
   - social:
