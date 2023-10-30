@@ -6,24 +6,40 @@ icon: material/information
 
 # System Information
 
-System Information helps you see information relating to your system (yes, obviously). It can be useful for debugging and seeing what is going on with your system, or if not debugging then it can help you see what is going on with your system, whether that be temperatures, CPU usage, RAM usage, etc. There are many options for system information software, and we have listed some below, most are inside of our software install script.
+System information tools provides you with information about your system, such as temperatures, CPU usage, RAM usage, and more. This information can be useful for debugging and troubleshooting issues on your system. There are various system information software choices available, so we'll break it down for you.
 
-## Task Manager
+### Task Manager
 
-Task Manager is a built-in Windows app that allows you to see what is going on with your system. It is useful for seeing what is going on with your system, whether that be temperatures, CPU usage, RAM usage, etc. It is also useful for debugging and seeing what is going on with your system. This is the default option for system information software, but it sadly doesn't contain as much information as you may need. Due to this being a default Windows application, this isn't in our software install script.
+The Task Manager is a pre-installed app in Windows that enables you to monitor your system's performance. It is helpful for tracking CPU usage, RAM usage, and other relevant system information. Moreover, it is an effective tool for troubleshooting and identifying system issues. Although it is the default option for system information software, it may not provide as much data as you require such as temperatures.
 
 ## HWiNFO
 
-HWiNFO is a system information software that allows you to see what is going on with your system. It is useful for seeing what is going on with your system, whether that be temperatures, CPU usage, RAM usage, etc. It is also useful for debugging and seeing what is going on with your system. It is a bit more advanced than Task Manager, and it is also more lightweight. HWiNFO is also really customisable so you can use it in lots of ways. Check it out, [HWiNFO](https://www.hwinfo.com/).
+HWiNFO is a system information software that provides you with an in-depth analysis of your computer's vitals. It allows you to monitor various aspects of your system, such as temperature, CPU usage, and RAM usage, among others. HWiNFO is a more advanced alternative to the Task Manager, which provides a more comprehensive overview of your system performance, and it is also more lightweight. Its high degree of customization means that you can tailor it to your specific needs, making it a versatile tool that can be used in many different ways.
 
-## MSI Afterburner
+`winget install -e --id REALiX.HWiNFO`
 
-MSI Afterburner allows for modifications of your system and provides informaton about your system too. Sadly it is more of an overclocking software than an actual information software, so if you want just information this may not be the best choice for you. MSI Afterburner also allows for system stats ingame, like FPS, CPU%, GPU%, RAM usage and others. Check it out, [MSI Afterburner](https://www.msi.com/Landing/afterburner).
+[Download HWiNFO](https://www.hwinfo.com/).
 
 ## CPU-Z
 
-Allows you to see system information relating to your CPU. It is useful for seeing what is going on with your CPU, whether that be temperatures, CPU usage, etc. It is also useful for debugging and seeing what is going on with your CPU. Check it out, [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html).
+If you want to know more about your CPU, CPU-Z is for you. This tool is helpful for checking various aspects of the CPU, such as sensors, usage, and other details. Additionally, it can be used for debugging purposes to help you identify any issues with your CPU.
+
+`winget install -e --id CPUID.CPU-Z`
+
+[Download CPU-Z](https://www.cpuid.com/softwares/cpu-z.html).
 
 ## GPU-Z
 
-Pretty much the same as CPU-Z but for GPUs. Check it out, [GPU-Z](https://www.techpowerup.com/gpuz/).
+Basically CPU-Z for your GPU. If you want to know more about your GPU, GPU-Z is for you. This tool is helpful for checking various aspects of the GPU, such as sensors, usage, and other details. Additionally, it can be used for debugging purposes to help you identify any issues with your GPU.
+
+`winget install -e --id TechPowerUp.GPU-Z`
+
+[Download GPU-Z](https://www.techpowerup.com/gpuz/).
+
+## MSI Afterburner
+
+MSI Afterburner is a software that allows you to modify your system and obtain information about it. However, it is primarily designed for overclocking rather than providing information. If you are looking for a software that provides only information, MSI Afterburner may not be the best option for you. However, MSI Afterburner enables you to view system stats while gaming, such as detailed FPS, CPU%, GPU%, RAM usage, and more.
+
+`winget install -e --id Guru3D.Afterburner`
+
+[MSI Afterburner](https://www.msi.com/Landing/afterburner).
