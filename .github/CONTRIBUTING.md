@@ -18,7 +18,7 @@ We use the [Insiders edition of Material for MkDocs](https://squidfunk.github.io
 
 ## Issues
 
-If you find any issues with our documentation, please open an issue [here](https://github.com/Atlas-OS/docs/issues/new). Please fill issues out with utmost detail and preferably images too so we can understand where we went wrong or so contributors can make a pull request to fix the issue.
+If you find any issues with our documentation, please [open an issue](https://github.com/Atlas-OS/docs/issues/new). Please fill issues out with utmost detail and preferably images too so we can understand where we went wrong or so contributors can make a pull request to fix the issue.
 
 ## More help?
 
