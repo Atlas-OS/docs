@@ -6,20 +6,30 @@ icon: material/text
 
 # Text editors and IDEs
 
-Text editors and IDEs are very useful for programming and writing code. They can also be used for writing documents, but we recommend using a word processor for that. There are many options for text editors and IDEs, and we have listed some below, most are inside of our software install script.
+Text editors and Integrated Development Environments (IDEs) are powerful tools for programming and writing code. However, we suggest using a word processor for writing documents. There are numerous options for text editors and IDEs, and we have compiled a list of some of them in our software installation script.
 
-## Notepad
-
-Notepad is a built-in Windows app that allows you to write text. It is useful for writing text, whether that be code or documents. This is the default option for text editors and IDEs, but it sadly doesn't contain as much features as you may need. Due to this being a default Windows application, this isn't in our software install script. If for some reason you don't have it, you can get [Notepad from the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSMLRH6LZF3).
+By defauly we have Notepad installed. If you're looking to spice it up, check some of the options below.
 
 ## Notepad++
 
-Notepad++ (also known as the older brother of Notepad) is a text editor that allows you to write text. It is useful for writing text, whether that be code or documents. It is a bit more advanced than Notepad. Notepad++ is also really customisable so you can use it in lots of ways. Check it out, [Notepad++](https://notepad-plus-plus.org/).
+Notepad++ is a text editor that is more advanced than Notepad. It allows you to easily write code or documents. Notepad++ is highly customizable, making it a versatile tool for power users.
+
+`winget install -e --id Notepad++.Notepad++`
+
+[Download Notepad++](https://notepad-plus-plus.org/)
 
 ## Visual Studio Code
 
-Visual Studio Code (also known as VSCode) is a text editor out of the box, but with some extensions it can turn into a really usefull IDE for developers. It is useful for writing code and text, but we recommend a text editor for text. It is a bit more advanced than Notepad++. Check it out, [Visual Studio Code](https://code.visualstudio.com/).
+Visual Studio Code, also known as VSCode, is a rich text editor and Integrated Development Environment (IDE). While it can be useful for writing both code and text, you may want to use Notepad++ for text editing.
+
+`winget install -e --id Microsoft.VisualStudioCode`
+
+[Download Visual Studio Code](ms-windows-store://pdp/?ProductId=XP9KHM4BK9FZ7Q)
 
 ## VSCodium
 
-VSCodium is the same as Visual Studio Code, but it is open source and doesn't have the Microsoft branding and telemetry. It is useful for writing code and text, but we recommend a text editor for text. Check it out, [VSCodium](https://vscodium.com/).
+VSCodium is an open-source version of Visual Studio Code without Microsoft branding and telemetry.
+
+`winget install -e --id VSCodium.VSCodium`
+
+[Download VSCodium](ms-windows-store://pdp/?ProductId=XP9KHM4BK9FZ7Q)
