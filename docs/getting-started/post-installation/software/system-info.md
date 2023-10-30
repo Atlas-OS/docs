@@ -10,7 +10,7 @@ System information tools provides you with information about your system, such a
 
 ### Task Manager
 
-The Task Manager is a pre-installed app in Windows that enables you to monitor your system's performance. It is helpful for tracking CPU usage, RAM usage, and other relevant system information. Moreover, it is an effective tool for troubleshooting and identifying system issues. Although it is the default option for system information software, it may not provide as much data as you require such as temperatures.
+The Task Manager is a pre-installed app in Windows that enables you to monitor your system's performance. It is helpful for tracking CPU usage, RAM usage, and other relevant system information. Moreover, it is an effective tool for troubleshooting and identifying system issues. Although it is the default option for system information software, it may not provide as much data as you require, such as temperatures.
 
 ## HWiNFO
 
