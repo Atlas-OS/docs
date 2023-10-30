@@ -10,7 +10,7 @@ Text editors and IDEs are very useful for programming and writing code. They can
 
 ## Notepad
 
-Notepad is a built-in Windows app that allows you to write text. It is useful for writing text, whether that be code or documents. This is the default option for text editors and IDEs, but it sadly doesn't contain as much features as you may need. Due to this being a default Windows application, this isn't in our software install script.
+Notepad is a built-in Windows app that allows you to write text. It is useful for writing text, whether that be code or documents. This is the default option for text editors and IDEs, but it sadly doesn't contain as much features as you may need. Due to this being a default Windows application, this isn't in our software install script. If for some reason you don't have it, you can get [Notepad from the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSMLRH6LZF3).
 
 ## Notepad++
 

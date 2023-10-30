@@ -10,7 +10,7 @@ For media, there is obviously the default way to play media using Windows Media 
 
 ## Groove Music
 
-Groove Music is a built in music app for Windows 10/11 but Atlas removes it for you when you first install. It is available via the Microsoft Store for free. It is useful for playing music, whether that be local or online. It is a bit more advanced than Windows Media Player. There is obviously better choices out there but if you just want an easy to use music software, this is an option.
+Groove Music is a built in music app for Windows 10/11 but Atlas removes it for you when you first install. It is available via the Microsoft Store for free. It is useful for playing music, whether that be local or online. It is a bit more advanced than Windows Media Player. There is obviously better choices out there but if you just want an easy to use music software, this is an option. Check it out, [Groove Music](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 
 ## VLC Media Player
 
@@ -26,7 +26,11 @@ Spotify is a music player that allows you to play music. It allows online and lo
 
 ## Film & TV
 
-Film & TV is a built in video app for Windows 10/11 but Atlas removes it for you when you first install. It is available via the Microsoft Store for free. It is useful for playing videos. It is a bit more advanced than Windows Media Player. There is obviously better choices out there but if you just want an easy to use video software, this is an option.
+Film & TV is a built in video app for Windows 10/11 but Atlas removes it for you when you first install. It is available via the Microsoft Store for free. It is useful for playing videos. It is a bit more advanced than Windows Media Player. There is obviously better choices out there but if you just want an easy to use video software, this is an option. Check it out, [Film & TV](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
+
+## Windows Media Player
+
+Windows Media Player is built into Windows 10/11 but is stripped from Atlas. It is useful for playing videos and music. It is a bit more advanced than Film & TV. If you want to use it instead of the other options, check it out, [Windows Media Player](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 
 ## Windows Media Player Legacy
 
