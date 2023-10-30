@@ -6,12 +6,22 @@ icon: material/camera
 
 # Screenshotting
 
-For screenshotting, there is obviously the default way to screenshot using ++win+shift+s++ which to us is the most convient way to screenshot out of the box. There is also Snipping tool which comes built in with Windows and can be opened how you would usually open an app. However, in our software install script we include some other options, which are listed below.
+In Windows, the Snipping Tool is not included in Atlas by default. It can be reinstalled from the Microsoft Store. However, we've kept the shortcut for quickly taking screenshots: ++win+shift+s++.
 
-## Lightshot
-
-Lightshot is a screenshotting tool that allows you to take screenshots of your screen and edit them. It is lightweight and can run on most computers. Check it out, [Lightshot](https://app.prntscr.com/en/index.html)
+If you're looking for something more advanced, we recommend the following options.
 
 ## ShareX
 
-ShareX is also a screenshotting tool that allows you to take screenshots of your screen and edit them. Whilst it is comparable to Lightshot, it is less lightweight but because of that it allows more features which allow you to customise your photos further. Check it out, [ShareX](https://getsharex.com/)
+ShareX is an advanced tool for capturing screenshots that not only allows you to take screenshots of your screen but also provides advanced options to edit and enhance the captured images. With a wide range of features, ShareX stands out as the best option for capturing and editing screenshots, making it the ideal choice for most users.
+
+`winget install -e --id ShareX.ShareX`
+
+[Download ShareX](ms-windows-store://pdp/?ProductId=9NBLGGH4Z1SP)
+
+## Lightshot
+
+Lightshot is a lightweight and proprietary screenshot tool that enables you to capture and edit screenshots. It can be installed and run on most computers.
+
+`winget install -e --id Skillbrains.Lightshot`
+
+[Download Lightshot](https://app.prntscr.com/en/index.html)
