@@ -7,7 +7,7 @@ icon: material/sign-caution
 
 If you are not confident with your technical ability, it is recommended to avoid this section. Any misinterpretation can result in compatibility issues and other problems. Therefore, it's important to understand what you are doing and how to revert it. This section is intended for advanced users only.
 
-All of the configuration files listed here are located in the `6. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, [view our guide on how to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
+All of the configuration files listed here are located in the `6. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
 
 ## Affinity
 

@@ -13,7 +13,7 @@ For more configuration options, check:
 - [Optional Tweaks](optional-tweaks.md)
 - [Windows Settings](windows-settings.md)
 
-All of the configuration files listed here are located in the `3. Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) for how to find it/get it back.
+All of the configuration files listed here are located in the `3. Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
 
 ## Background Apps
 

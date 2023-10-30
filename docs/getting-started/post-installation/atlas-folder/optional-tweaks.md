@@ -7,7 +7,7 @@ icon: material/hammer
 
 These are some optional tweaks that you can turn on. For example, you could change the old alt-tab to the new one or change the context menu. You can pick and choose how you like your Windows.
 
-All of the configuration files listed here are located in the `4. Optional Tweaks` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check [here](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) for how to find it/get it back.
+All of the configuration files listed here are located in the `4. Optional Tweaks` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
 
 ## Alt-Tab
 

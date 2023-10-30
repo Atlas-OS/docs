@@ -14,7 +14,7 @@ icon: material/security
     **Atlas is not responsible** for any damages caused by disabling security features against our recommendations.
 
 !!! tip
-    If you deleted the Atlas folder from the desktop, it's also in your Start menu and `C:\Windows\AtlasDesktop`.
+    If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md)..
 
 In this section, we will list all of the 'Security' options in the Atlas folder, how to change them and their defaults.
 
