@@ -52,7 +52,7 @@ The downloader integrated into the documentation below generates an ISO download
 -->
 
 <center class="centerMsdl">
-<button class="win-dl" onclick="getWindows(2616);">Download Windows 11 x86_64</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10 x86_64</button>
+<button class="win-dl" onclick="getWindows(2860);">Download Windows 11 x86_64</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10 x86_64</button>
 
 <div id="msdl-ms-content"></div>
 
