@@ -3,7 +3,7 @@ description: How to fix Itunes not recognising Apple device?
 icon: material/apple
 ---
 
-**iTunes not recognising your Apple device is a driver issue. Diwbkiad Apple USB Drivers to fix this issue.**
+**iTunes not recognising your Apple device is a driver issue. Download Apple USB Drivers to fix this issue.**
 
 If you're using Atlas and not using Automatic Driver Installation, you will need to install the Apple USB driver yourself.
 
