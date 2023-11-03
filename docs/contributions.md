@@ -24,7 +24,7 @@ Alternatively, you can use the [Git](https://git-scm.com/) command-line. Use whi
 	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation-specific contribution guide as well as these contribution guidelines to setup a development environment
 	* Reading the [GitHub documentation contribution guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) might also be useful
 
-These are the main three repositories to contribute to. There might also be other repositories that you can contribute to, see [here](https://github.com/Atlas-OS).
+These are the main three repositories to contribute to. There might also may be other repositories that fits your expertise. [Check out our GitHub organisation](https://github.com/Atlas-OS).
 
 If a repository has a specified template for pull requests or issues, please use them. Otherwise, your pull request could be closed.
 
@@ -33,11 +33,11 @@ If a repository has a specified template for pull requests or issues, please use
 There is a `dev` branch and a `main` or `master` branch for development on each repository.
 
 !!! warning
-	Make **all of your changes** to the `dev` branch of the respective repositories! 
+	Make **all of your changes** to the `dev` branch of the respective repositories!
 
 	Never commit or pull request directly to the `main` branches, with the **only exception** being committing to the `main` branch on the main repository for translations.
 
-The reason why the `dev` branch exists is to ensure that the `main` branch only has approved and high quality changes. 
+The reason why the `dev` branch exists is to ensure that the `main` branch only has approved and high quality changes.
 
 A pull request **every week** will be automatically created to merge the `dev` branch into the `main` branch, where the changes can be properly reviewed by **5 contributors** before the pull request is merged. The only exclusion to having less than 5 reviews is if there's not enough people reviewing, e.g. 4 reviews for documentation.
 
@@ -49,12 +49,12 @@ You will have to make your own fork of the respective Atlas repository, and then
 
 !!! note
 	This only applies to people with direct access to commit to the repositories, without the need to do a pull request.
-	
-	The list of people that have access is [here](https://github.com/orgs/Atlas-OS/people).
 
-If there's any big changes, you should instead make a pull request for `dev` instead of directly committing to it. Some examples of big changes could be mass formatting changes, feature changes, or anything similar. 
+	This list is from [our GitHub organisation's member list](https://github.com/orgs/Atlas-OS/people).
 
-This means less potential headache in the future if the change is disagreed upon, as you can avoid reverting all of the disliked changes for the automatic pull request every week. 
+If there's any big changes, you should instead make a pull request for `dev` instead of directly committing to it. Some examples of big changes could be mass formatting changes, feature changes, or anything similar.
+
+This means less potential headache in the future if the change is disagreed upon, as you can avoid reverting all of the disliked changes for the automatic pull request every week.
 
 If you want to, you can also manually trigger the automatic pull request to merge `dev` into `main` early, but the 5 reviews will still be in effect. As a note, if you need to urgently fix something, you can use the `bypass` label to bypass your pull request being automatically closed by the pull request filter.
 
@@ -75,11 +75,11 @@ Making sure that your commits are already to a high standard means that developm
 ### :octicons-verified-16: Commit Signature Verification
 It is also highly recommended to setup [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification), which means that your commits will be marked as 'Verified' so that other people will know that your commits come from a trusted source.
 
-You can install [GPG](https://gnupg.org/) (used for signing) on Windows with [Scoop](https://scoop.sh/) with the following command:
+You can install [GPG](https://gnupg.org/) (used for signing) in Windows with [Scoop](https://scoop.sh/) with the following command:
 ```
 scoop install gpg
 ```
-For a more simple guide, click [here](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md).
+Check out this for a detailed [guide on setting up verified commits](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md).
 
 ### :octicons-git-branch-16: Conventional Commits
 

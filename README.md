@@ -10,6 +10,6 @@ Here you can help Atlas with documentation, for now we do not have translation c
 
 As MkDocs uses Python, you will need to have Python and pip installed, we recommend using [Scoop](https://scoop.sh) or [Chocolatey](https://chocolatey.org) to install these but you can also install via [Python's website](https://www.python.org).
 
-Material for MkDocs has already made a page, which you can use for Installation of Material for MkDocs [here](https://squidfunk.github.io/mkdocs-material/getting-started).
+Material for MkDocs has already made a page, which you can use for [Installation of Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started).
 
-Depending if you installed it locally or via a virtual envioronment, there is already a guide on previewing [here](https://squidfunk.github.io/mkdocs-material/creating-your-site/#previewing-as-you-write)
+Depending if you installed it locally or via a virtual envioronment, there is already a [guide on previewing](https://squidfunk.github.io/mkdocs-material/creating-your-site/#previewing-as-you-write)
