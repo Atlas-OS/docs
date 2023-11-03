@@ -15,7 +15,7 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - After the driver downloaded tick the following:
     - Disable Installer Telemetry & Advertising
     - Perform a Clean Installation
-    - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net../drivers/index.md/gpu/amd/#disable-multi-plane-overlay-mpo)
+    - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/gpu/amd/#disable-multi-plane-overlay-mpo)
     - Disable Driver Telemetry in ``Show Expert Tweaks``
     - Use method compatible with Easy-Anti-Cheat
     - Automatically accept the "driver unsigned" warning
