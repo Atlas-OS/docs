@@ -1,16 +1,21 @@
 ---
+title: Installing Software
 description: The recommended way to install software in AtlasOS
 icon: material/download
 ---
 
 # Installing Software
 
-## :simple-chocolatey: What is Chocolatey?
+It is advisable to use package managers to install software. However, if you prefer not to use a package manager, you can install the executables directly from the internet via the official source, just as you would normally do.
 
-Atlas makes it easy to install software. Chocolatey is a Windows package manager. It is like apt-get and Homebrew on Linux and macOS respectively. It enables you to install software on your computer from the command line. Chocolatey is a project run by the community. Microsoft and Atlas do not officially support it, but we use it to make it easy for users to install the software they want.
+In this instance, we will use `winget` which is the official package manager that comes pre-installed on all machines.
 
-## :material-shape-plus-outline: Installing software with Chocolatey
+## :material-package-down: What is the Windows Package Manager?
 
-You can install software by going to the ``Desktop/Atlas/1. Install Software`` folder and running the ``Install Software.ps1`` script. This script will let you use Chocolatey to install popular software, follow the options to install the applications successfully.
+WinGet is the default Windows package manager by Microsoft installed via the App Installer package on the Microsoft Store, with the software repository ran by the community. It is like apt-get and Homebrew on Linux and macOS respectively. It enables you to install software on your computer from the command line.
 
-Furthermore, you can install software by typing ``choco install -y --ignore-checksums <package name>`` in the command line. You can find the name of the package on the [Chocolatey website](https://chocolatey.org/packages).
+## :material-shape-plus-outline: Installing software with WinGet
+
+You can install software we have listed using WinGet by going to the `1. Software` folder and running the `Install Software.ps1` script in the Atlas folder.
+
+Furthermore, you can install software by typing `winget install <package name>` in the command line. You can find the names of the packages on the [winget.run](https://winget.run) website.

@@ -119,6 +119,9 @@ extra:
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:
+    - icon: material/earth
+      link: https://atlasos.net
+      name: AtlasOS Website
     - icon: material/forum
       link: https://forum.atlasos.net
       name: AtlasOS Forums
@@ -141,40 +144,47 @@ nav:
   - Home:
     - Home: index.md
     - Contribution Guidelines: contributions.md
+    - Branding Kit: branding.md
   - Getting Started:
     - Installation: getting-started/installation.md
-    - Other installation methods:
-      - USB: getting-started/other-installation-methods/usb.md
-    - Post-Installation:
+    - Post Installation:
+      - Atlas folder:
+        - Configuration: getting-started/post-installation/atlas-folder/configuration.md
+        - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
+        - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
+        - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
+        - Security: getting-started/post-installation/atlas-folder/security.md
       - Drivers:
-        - Index: getting-started/post-installation/drivers/index.md
-        - GPU:
-          - Intel: getting-started/post-installation/drivers/gpu/intel.md
-          - AMD: getting-started/post-installation/drivers/gpu/amd.md
+        - Getting Started: getting-started/post-installation/drivers/getting-started.md
+        - Graphics:
           - NVIDIA: getting-started/post-installation/drivers/gpu/nvidia.md
-      - Configuration:
-        - Index: getting-started/post-installation/configuration/index.md
-        - Advanced Configuration: getting-started/post-installation/configuration/advanced-configuration.md
-        - Optional Tweaks: getting-started/post-installation/configuration/optional-tweaks.md
-        - Windows Settings: getting-started/post-installation/configuration/windows-settings.md
+          - AMD: getting-started/post-installation/drivers/gpu/amd.md
+          - Intel: getting-started/post-installation/drivers/gpu/intel.md
+        - Others: getting-started/post-installation/drivers/others.md
       - Software:
         - Index: getting-started/post-installation/software/index.md
-  - Troubleshooting:
-    - Removed features: troubleshooting/removed-features.md
-    - Extended FAQ: troubleshooting/extended-faq.md
-    - Scripts: troubleshooting/scripts.md
-    - Common Issues:
-      - Auto Cleaner issues: troubleshooting/common-issues/auto-cleaner.md
-      - Hyper-V not found: troubleshooting/common-issues/hyper-v.md
-      - Atlas folder missing: troubleshooting/common-issues/atlas-folder-missing.md
-      - Mobile Hotspot not working: troubleshooting/common-issues/mobile-hotspot.md
-      - Process Hacker process enable: troubleshooting/common-issues/process-hacker.md
-      - Reticulating Splines: troubleshooting/common-issues/reticulating-splines.md
-      - Adobe:
-        - Acrobat fails to install: troubleshooting/common-issues/adobe/acrobat-fails-to-install.md
-        - Creative Cloud error 191: troubleshooting/common-issues/adobe/creative-cloud-error-191.md
-  - FAQ: 'https://atlasos.net/faq'
-
+        - Web Browsers: getting-started/post-installation/software/web-browsers.md
+        - Media: getting-started/post-installation/software/media-playback.md
+        - Screenshotting: getting-started/post-installation/software/screenshotting.md
+        - System Info: getting-started/post-installation/software/system-info.md
+        - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
+  - FAQ & Troubleshooting:
+    - What's removed?: faq-and-troubleshooting/removed-features.md
+    - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
+    - Atlas folder scripts: faq-and-troubleshooting/atlas-folder-scripts.md
+    - Atlas & Security: faq-and-troubleshooting/atlas-and-security.md
+    - Updating Atlas: faq-and-troubleshooting/updating-atlas.md
+    - Testing nightly builds: faq-and-troubleshooting/testing-nightly-builds.md
+    - Common Questions:
+      - Atlas folder missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
+      - Adobe Acrobat compatibility: faq-and-troubleshooting/common-questions/adobe-acrobat.md
+      - iTunes compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
+      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
+      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
+      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
+      - Bluetooth compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
+      - Microsoft Store compatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
+      - AME Wizard virus detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
 
 #
 # Plugins
@@ -194,6 +204,7 @@ plugins:
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/admonitions
   - admonition
+  - footnotes
   - pymdownx.details
   - pymdownx.superfences
 
@@ -228,8 +239,11 @@ markdown_extensions:
 
   # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 
   # https://squidfunk.github.io/mkdocs-material/reference/lists
   - def_list

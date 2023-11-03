@@ -1,35 +1,29 @@
 ---
+title: Installation
 description: The official AtlasOS playbook installation guide
 icon: material/cogs
 ---
 
-# Installation
+# :material-package-down: Installing AtlasOS
 
-!!! danger "Removed Features"
-	Before installing, it is highly recommended to take a look at our [Removed Features](/troubleshooting/removed-features/) page.
-	
-	It is recommended to wait until v0.3.0 releases to install Atlas for improved compatibility, security and many bug fixes.
+!!! danger "Read before continuing"
 
-!!! info
-    Atlas no longer provides ISOs to download, please use this method here to install.
+    AtlasOS is in compliance with the Windows EULA; activation in Windows is not modified.
+
+    It is recommended to take a look at our [FAQ page](../faq-and-troubleshooting/removed-features.md).
 
 ## :material-clipboard-list-outline: Requirements
 
-* [AME Wizard](https://atlasos.net/downloads)
-* [Atlas Playbook](https://atlasos.net/downloads)
-* [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) CPU (x86/32-bit and ARM isn't supported)
-
-!!! warning "Atlas is not pre-activated"
-    Atlas-OS is **NOT** a pre-activated version of Windows. You **must** use a valid key to activate Windows before running. Before buying a Windows 10 (Professional or Home) license, be sure the seller is trustworthy and the key is legitimate — no matter where you buy it.
-
-!!! info "Using a USB stick"
-    If you are looking for the other method of installation, see [here](/getting-started/other-installation-methods/usb). However, if you want to install Atlas quickly and easily, we suggest you follow this guide instead.
+- Device which meets [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2) system requirements *(excluding a Microsoft account and TPM)*
+- [64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) Intel or AMD CPU
+    - 64-bit ARM (aarch64) isn't supported currently
+- A stable internet connection
 
 ## :material-disc: Download an ISO
 
-An ISO is a virtual disc file, and in this case, it will be the Windows Setup. This is required to reinstall Windows in our recommended way.
+An ISO is a virtual disc file (like a DVD) that we will use to reinstall Windows in our recommended way.
 
-The downloader integrated into the documentation generates an ISO download link from Microsoft. It will download the latest version of Windows 10 for Intel and AMD CPUs.
+The downloader integrated into the documentation below generates an ISO download link from Microsoft. It will download the latest version of Windows for Intel and AMD CPUs.
 
 **Based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
 
@@ -37,14 +31,14 @@ The downloader integrated into the documentation generates an ISO download link 
     === "Windows Media Creation Tool"
         This is the supported method to download Windows 10 and 11 by Microsoft.
 
-        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool and open it.
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it.
         2. Click the `Accept` button to agree to the Microsoft license terms.
         3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
             * Language: Desired language
-            * Edition: Windows 10
+            * Edition: Windows 10 or 11
             * Architecture: 64-bit (x64)
         4. Choose `ISO file` option and choose the download location.
-        5. After the ISO completed downloading, click `Finish` to end the installation.
+        5. After the ISO has completed downloading, click `Finish` to end the installation.
 
 <!--
     This is based upon the Microsoft Software Download Listing website by massgravel on GitHub.
@@ -58,7 +52,7 @@ The downloader integrated into the documentation generates an ISO download link 
 -->
 
 <center class="centerMsdl">
-<!-- <button class="win-dl" onclick="getWindows(2616);">Download Windows 11 x86_64</button> --> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10 x86_64</button>
+<button class="win-dl" onclick="getWindows(2860);">Download Windows 11 x86_64</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10 x86_64</button>
 
 <div id="msdl-ms-content"></div>
 
@@ -68,7 +62,7 @@ The downloader integrated into the documentation generates an ISO download link 
 
 <div id="msdl-processing-error">
     <p>An error has occurred while processing your request.</p>
-    <p>Try refreshing the page, or using an alternative method.</p>
+    <p>Try refreshing the page or using an alternative method.</p>
 </div>
 
 <div id="msdl-download">
@@ -78,91 +72,138 @@ The downloader integrated into the documentation generates an ISO download link 
 <input id="msdl-session-id" type="hidden">
 </center>
 
-## :material-download: Preparing Atlas
+## :material-download: Preparation
 
-!!! tip "Download drivers"
-    Some network adapters do not have drivers that come with Windows. This means that on some computers, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your network adapter ahead of time, and put them on your external drive.
+For the following steps in our documentation, we assume you have another drive to store Atlas' installation files during reinstallation. If you only have one drive, follow the steps in **"Only have one drive to store files?"** below this message, to create a new volume from your single drive.
 
-Once you have all of the downloads for Atlas from [here](/getting-started/installation/#requirements), you will need to have them on your new installation of Windows for use offline.
+??? question "Only have one drive to store files?"
 
-You can do this by either using an external drive like a USB stick or a seperate hard drive in your computer, which won't be wiped/formatted. Alternatively, see [here](/getting-started/installation/#creating-a-temporary-partition) if you don't have anything to put files on.
+    !!! tip
+        If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
-1. Extract `Atlas [version].zip` onto the root directory of your seperate drive, and rename the folder it extracts to `Atlas`
-2. Extract `AME Wizard.exe` from the `AME Wizard Beta.zip`, then place it in your newly created `Atlas` folder
+    1. Open Disk Management (`diskmgmt.msc`) and locate your Windows drive
+    2. Right-click :material-arrow-right: Shrink volume
+    3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
+    4. There should now be 'Unallocated' space, right-click :material-arrow-right: 'New Simple Volume'
+    5. Go through the wizard, you can keep clicking 'Next'
 
-You should now have an Atlas folder with all the files you need on the root directory of your external drive.
+    After following these steps, you should have a new storage device in your File Explorer. You can now continue with the rest
 
-### :material-harddisk-plus: Creating a temporary partition
+    <h3>:material-harddisk-remove: Deleting the temporary partition later</h3>
 
-!!! info
-	This is only for the case that you have **nothing** to put the Atlas files on, which won't be wiped by reinstalling Windows.
-	
-	If you have already done the [Preparing Atlas](/getting-started/installation/#preparing-atlas) steps, skip to [Reinstalling Windows](/getting-started/installation/#reinstalling-windows).
+    1. Right-click :material-arrow-right: Delete volume
+    2. Right-click on your Windows drive :material-arrow-right: Extend volume
+    3. Go through the wizard, you can keep clicking 'Next'
 
-!!! tip
-	If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
+Firstly, let's create a folder to contain the installation files for Atlas. Create a folder on your second drive/volume called `AtlasFiles`. We will refer to this as "your folder" in the following steps.
 
-1. Open Disk Management (`diskmgmt.msc`) and locate your `C:` drive
-2. Right click :material-arrow-right: Shrink volume
-3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
-4. There should now be 'Unallocated' space, right click :material-arrow-right: New Simple Volume
-5. Go through the wizard, you can simply keep clicking 'Next'
+1. Head over to the [Atlas downloads](https://atlasos.net/) and download **AME Wizard** and the **Atlas Playbook**
+2. Download network drivers from your device/motherboard manufacturer's website into your folder *(in case networking doesn't work on installation, we can use this)*
+    - We recommend searching for the brand (e.g. Dell) followed by your device model number
+        - If you're having trouble, search for your device in [Device Manager](../assets/images/device-manager-nic.png) and download this driver using the internet from the original source
+3. Extract `Atlas [version].zip` into your folder
+4. Extract `AME Wizard Beta.exe` from the downloaded `AME Wizard Beta.zip` into your folder
 
-#### :material-harddisk-remove: Deleting the temporary partition later
-
-1. Right click :material-arrow-right: Delete volume
-2. Right click on your `C:` drive :material-arrow-right: Extend volume
-3. Go through the wizard, you can simply keep clicking 'Next'
+**You should now have an `AtlasFiles` folder with all the files you need on your external drive/volume.**
 
 ## :material-microsoft-windows: Reinstalling Windows
 
-Before proceeding, it is recommended to do backups of files that you may need. Although your old installation (including user data) will be placed a `Windows.old` folder in your `C:` drive in your new installation, there will always be a small risk of something going wrong.
+!!! info "USB Installation"
+    If you want to install with a USB stick instead, you can do that and skip this section. **Make sure that your `AtlasFiles` folder doesn't get deleted.**
 
-You will want to do this offline to ensure that no drivers can install via Windows Update in your new installation, so that the minimal third-party drivers are installed for the lightest experience.
+!!! tip "Bypassing Windows 11 Requirements (optional)"
+    You can bypass Windows 11 requirements by using the `Bypass Windows 11 Requirements.cmd` script in your folder before launching `sources\setup.exe`.
 
-!!! tip "Dual booting"
-	Although not covered here, you can also dual boot Windows with this method. You would have to make a seperate partition to dual boot with, then select that instead of `C:` in the Windows Setup.
+Before proceeding, back up any necessary files to a second drive or cloud platform.
 
-1. Double click your downloaded ISO to mount it, which adds the ISO as a virtual read-only drive in File Explorer. If it opens up in a program like WinRAR or 7-Zip, right click the ISO, click 'Open With' then open it with File Explorer.
+However, your old installation (including user data) will be copied to a `Windows.old` folder in your Windows drive. Use this as a safety measure if you forget to back up important files.
 
-2. Go to your mounted ISO (as a drive letter) in File Explorer, then go into `sources`, and open `setup.exe`.
+1. Right-click the ISO file we downloaded previously, clicking **Open With** :material-arrow-right: **File Explorer**. This will mount it to your File Explorer
 
-3. Click 'No thanks' to the updates, as you will update Windows once you have finished reinstalling, and uncheck 'I want to help make the Windows installation better' for privacy reasons.
+2. Under **This PC**, there should be an option for this ISO. Open it, then proceed to the `sources` folder, and open `setup.exe`
+    - For many retail Windows 11 laptops, BitLocker comes pre-installed, encrypting all drives on the machine. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) will appear when you attempt to execute the `setup.exe`. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this.
 
-4. Click 'I don't have a product key', as Windows will activate its self (if you are currently activated) once you have finished installing.
+3. Click **No thanks** to the updates, and uncheck **I want to help make the Windows installation better**
 
-5. Select your edition of Windows, we highly recommend Windows 10 Pro, but if you do not have a key for it, use Windows 10 Home.
+4. Click **I don't have a product key**, as Windows will activate automatically later (if you're currently activated)
 
-6. Accept the license agreement, click 'Custom: Install Windows only (advanced)' to completely wipe your current installation of Windows and replace it with the new one.
+5. Select your edition of Windows. We highly recommend and only officially support **Windows Pro**, but if you do not have a license for it, use **Windows Home** *(not recommended)*
 
-7. Find your `C:` drive, click next, click 'OK' to the warning about `Windows.old`, and let the installation do its thing (you might restart a couple of times) and wait.
+6. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
-8. Finish installing Windows and in the OOBE, follow the video attached: <iframe src="https://gcore.jsdelivr.net/gh/amitxv/PC-Tuning@main/media/oobe-windows10+-example.mp4" width="560" height="420" frameborder="0" allowfullscreen></iframe>
+7. Select your Windows drive, click next, click **OK** to the warning about `Windows.old`, and let the installation finish
 
-9. Once inside Windows, your old Windows installation will be put into a `Windows.old` folder in your `C:` drive on your new installation. You can copy the files that you need from it before deleting it.
+### :material-cog: Initial setup (OOBE)
 
-10. To delete your previous Windows installation, goto Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'.
+!!! danger "Internet connection"
 
-## :material-wrench-cog-outline: Install Atlas
+    Inside of the Windows Setup, you should have **your ethernet cable and Wi-Fi disconnected**, and you should not reconnect it until further instruction.
 
-1. Place the `Atlas` folder from your external drive (like a USB). If you previously made a temporary partition, you can delete it [here](/getting-started/installation/#creating-a-temporary-partition).
-2. Run `Disable Drivers Installation in Windows Update.reg` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
-3. After restarting, you can install ethernet drivers, and connect to the internet.
-4. Make sure you have the latest updates by running Windows Update. Once you are done, restart your computer and look for any updates you may have missed.
-5. You will need to disable `Memory Integrity` due to current incompatibilities with AME Wizard, which you can do by opening `Windows Security`, then click `Device Security` on the left. From here, click `Core isolation details` and then turn off `Memory Integrity`.
-6. Run `AME Wizard.exe` and load the Atlas Playbook, and follow the wizard instructions.
-    - SmartScreen will notify you that the wizard is unsigned. You can get around this by pressing `More info` and `Run anyway`.
-    - You may have to activate Windows to install Atlas. Get a supported key for Home/Pro, depending on what you installed and activate in Windows Settings.
-7. After Atlas has fully installed, run the `Fix-Auto-Cleaner.bat` script in the `Atlas` folder.
-	- This will fix various issues with v0.2, which will be fixed in v0.3.0. See the ['Auto Cleaner issues'](https://docs.atlasos.net/troubleshooting/common-issues/auto-cleaner/) page for more information.
+=== "Windows 11"
+    ??? info "Written Instructions"
+        1. Once in the setup, press ++shift+f10++ to open Command Prompt
+        2. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+        3. Continue through with setup as normal, but make sure to:
+            - Not connect to the internet
+            - Deny each privacy option
 
-Once completed, your system will be optimized and have less junk on it, thanks to Atlas, you will enjoy more privacy, and better performance.
+    <center>
+        <video src="/assets/videos/win11-OOBE-nointernet.mp4" controls muted width="560" height="420"></video>
+    </center>
 
-!!! info ""
-    After completing the Atlas installation process, continue the [Post-Installation](/getting-started/post-installation/drivers/) section in our documentation, and then continue to the other sections.
+=== "Windows 10"
+    ??? info "Written Instructions"
+        TBD
+
+    <center>
+        <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
+        <p>Credit to [@amitxv](https://github.com/amitxv) for the video demonstration.<p>
+    </center>
+
+## :material-screwdriver: Driver Updates
+
+Drivers are essential software components that allow the OS to communicate with hardware devices. While Windows has basic drivers pre-installed, some devices need additional drivers to function. Examples of devices would be bluetooth, printers or speakers.
+
+Automatic driver installation simplifies the process and keeps drivers up-to-date, saving time and effort with the downside of more bloat.
+
+Before continuing, consider which option is right for you and keep it in mind for future steps.
+
+| :material-download: Manual Driver Installation & Updates (recommended) | :material-update: Automatic Driver Installation & Updates |
+| ------------------------------------ | --------------------------------------- |
+| :material-check-all: Potentially less system resource usage | :material-check-all: Easiest if you don't know how to get drivers |
+| :material-check-all: Less potential bloat/annoyances | :material-check: Best compatibility, especially with OEM apps |
+| :material-check: Full control over your driver versions | :material-check: Convienient with new getting devices |
+| :material-alert-circle-outline: Ability to switch to automatic driver updates later | :material-check: Latest security and feature updates |
+
+## :material-wrench-cog-outline: Installing AtlasOS
+
+!!! tip
+    Your old Windows installation will be put into a `Windows.old` folder in your Windows drive on your new installation. You can copy the files that you may need before deleting it
+
+    To delete your previous Windows installation, go to Windows Settings :material-arrow-right: System :material-arrow-right: Storage, then click 'Temporary files', select 'Previous version of Windows' and then click 'Remove files'
+
+We previously mentioned in the [Driver Updates](#driver-updates) section regarding two options: Manual and Automatic Driver Installation. You'll need to choose one before continuing.
+
+1. Copy the `AtlasFiles` from your seperate drive/volume to your desktop
+2. If you have chosen **Manual Driver Installation**, run `Disable Drivers Installation in Windows Update.reg` and restart
+3. Connect to the internet
+    - If you can't connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) you downloaded prior to reinstalling located in `AtlasFiles`
+4. Go to **Windows Settings** and update Windows until there's no more updates left. Additionally, go to the **Microsoft Store** and update all the apps there
+    - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop-up
+5. Open `AtlasFiles` and proceed to running `AME Wizard Beta.exe`
+    - SmartScreen will notify you that AME Wizard is an unrecognized application, as it is not digitally signed. You can get around this by pressing **More info** and **Run anyway**
+6. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
+7. Follow the on-screen instructions to successfully install AtlasOS
+
+!!! danger "AME Wizard closing and being deleted?"
+    To prevent Windows Defender from closing and deleting the AME Wizard file, you should add AME Wizard to the exclusion list in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used by many people yet.
+
+    To read more about this, view the [Security Exceptions](https://docs.ameliorated.io/guides/security-exceptions.html) docs from the Ameliorated team.
+
+Once completed, you will see the `Atlas` folder on your desktop. We guide you on how to configure your Atlas installation using this folder at the [Post Installation](post-installation/drivers/getting-started.md) part of the documentation.
 
 ### :material-bug-outline: Troubleshooting
 !!! tip "Need help?"
-    If you face any trouble while installing, you can ask for help on our [forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a big community of people who care and want to help.
+    If you face any trouble while installing, you can ask for help on our [Forums](https://forum.atlasos.net), or our [Discord server](https://discord.atlasos.net). We have a large community of people who care and want to help.
 
-Please see our [troubleshooting section](/troubleshooting/removed-features/) for issues like being stuck on 'Reticulating Splines'.
+    We recommend viewing our [FAQ](../faq-and-troubleshooting/removed-features.md) before posting in our Discord server or Forum to reduce wait time for possible common, answered questions.
