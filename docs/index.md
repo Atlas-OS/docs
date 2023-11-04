@@ -11,7 +11,7 @@ icon: material/home
 
     ---
 
-    Get started and setup with AtlasOS on your system in the matter of minutes.
+    Get started with setting up AtlasOS on your system in just a few minutes.
 
     [:octicons-arrow-right-24: Install AtlasOS](getting-started/installation.md)
 
@@ -19,7 +19,7 @@ icon: material/home
 
     ---
 
-    Find the cause and fix to troubleshoot any common issues with your AtlasOS system.
+    Identify and resolve common issues with your AtlasOS system.
 
     [:octicons-arrow-right-24: Troubleshoot](getting-started/post-installation/atlas-folder/configuration.md)
 
@@ -35,7 +35,7 @@ icon: material/home
 
     ---
 
-    Learn how you can properly contribute to Atlas.
+    Learn how to contribute effectively to Atlas.
 
     [:octicons-arrow-right-24: Contribution Guidelines](contributions.md)
 
@@ -43,9 +43,9 @@ icon: material/home
 
 ## :material-head-question-outline: What is Atlas?
 
-Atlas is an open source and transparent project that modifies Windows to eliminate all negative drawbacks that affect gaming performance.
+Atlas is an open-source, transparent project that modifies Windows to eliminate drawbacks that negatively impact gaming performance.
 
-We are the perfect choice for reducing system latency, network latency, input lag, and maintaining system privacy while still prioritizing performance.
+Atlas is an ideal choice for reducing system latency, network latency, and input lag, while maintaining system privacy and prioritizing performance.
 
 !!! info ""
     If you are interested in learning more about Atlas and how it works, please visit our [website](https://atlasos.net/), explore our [GitHub repository](https://github.com/Atlas-OS/Atlas), or join our [Discord server](https://discord.atlasos.net/) to connect with the Atlas community and get support.

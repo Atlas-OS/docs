@@ -3,12 +3,10 @@ description: Does Microsoft Store work on AtlasOS?
 icon: material/microsoft
 ---
 
-# Does Microsoft Store work on AtlasOS?
+**Yes, the Microsoft Store works seamlessly with AtlasOS right from the start.**
 
-**Yes, Microsoft Store is fully functional in Atlas out of the box.**
+If you encounter any issues with the Microsoft Store on AtlasOS, follow these troubleshooting steps:
 
-Microsoft Store has not been altered in Atlas and works out of the box. If you're having troubles with it, we have some steps you can follow to try and fix any issues.
-
-1. Open CMD (Command Prompt) with Administrator Privileges
-2. Type `wsreset.exe` and pres ++enter++
-3. Try opening Microsoft Store
+1. Open the Command Prompt (CMD) with Administrator Privileges. You can do this by searching for 'CMD' in the Start menu, right-clicking on it, and selecting 'Run as administrator'.
+2. In the Command Prompt, type `wsreset.exe` and press Enter. This command resets the Microsoft Store without changing your settings or apps.
+3. Try opening the Microsoft Store again.

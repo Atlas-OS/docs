@@ -9,20 +9,19 @@ Please do keep in mind that Atlas is made for performance and privacy, so many f
 
 Atlas gets rid of the following services and features:
 
-- Restore Points and System Reset
-- Telemetry
-- Smart App Control
-- Settings sync
+- :simple-opentelemetry: Telemetry (can be toggled)
+- :material-application-cog: Smart App Control
+- :material-sync: Settings Sync
 
 ### :material-application: Applications or features uninstalled by default
 
 These can be reinstalled after installation, but are removed by default.
 
-- Many default included Microsoft Store applications
-- Microsoft Update Health Tools
-- Internet Explorer
-- PC Health Check
-- OneDrive
+- :material-shopping-outline: Many default included Microsoft Store applications
+- :material-update: Microsoft Update Health Tools
+- :simple-internetexplorer: Internet Explorer
+- :material-heart-pulse: PC Health Check
+- :simple-microsoftonedrive: OneDrive
 
 !!! tip
     If something isn't working, try enabling services or features  inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/drivers/getting-started.md) for more info.
