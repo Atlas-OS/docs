@@ -9,10 +9,9 @@ Please do keep in mind that Atlas is made for performance and privacy, so many f
 
 Atlas gets rid of the following services and features:
 
-- :material-backup-restore: Restore Points and System Reset
-- :simple-opentelemetry: Telemetry
+- :simple-opentelemetry: Telemetry (can be toggled)
 - :material-application-cog: Smart App Control
-- :material-sync: Settings sync
+- :material-sync: Settings Sync
 
 ### :material-application: Applications or features uninstalled by default
 
