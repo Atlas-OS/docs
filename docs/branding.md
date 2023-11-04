@@ -5,7 +5,7 @@ icon: material/palette
 
 # Official AtlasOS Branding
 
-You can use the official AtlasOS branding to show your support for AtlasOS whether you're making a video, a website, or a presentation.
+We're proud to share our official branding assets with our community. Whether you're making a video, a website, or a presentation, you can use these assets to show your support for AtlasOS.
 
 We make all of our brand assets available to the public in a variety of formats and sizes, allowing you to use them however you see fit. You can either make cool fan art or use it in your AtlasOS video reviews. The only limit is your imagination!
 
