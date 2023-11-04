@@ -5,19 +5,19 @@ icon: material/bluetooth
 
 # Does Bluetooth work on AtlasOS?
 
-**Yes, Bluetooth is fully functional on Atlas, you can choose to enable or disable it during installation.**
+**Yes, Bluetooth is fully functional on AtlasOS. You can choose to enable or disable it during the installation process.**
 
-If you're using Atlas and not using Automatic Driver Installation, you will need to install the Bluetooth driver yourself.
+If you're using AtlasOS and have not enabled Automatic Driver Installation, you will need to install the Bluetooth driver manually.
 
-These steps will guide you on getting setup with Bluetooth:
+Follow these steps to set up Bluetooth:
 
-1. Enable Bluetooth in the Atlas folder
+1. Enable Bluetooth in the Atlas folder. You can find this folder in the XYZ location.
 
-2. Install your Bluetooth driver (from OEM or via our [SDIO guide](../../getting-started/post-installation/drivers/getting-started.md#snappy-driver-installer-origin))
-    - Most issues with Bluetooth are caused by installing improper drivers. Make sure you research and find the driver which is suited for your device.
+2. Install your Bluetooth driver. You can get this from your device's OEM or follow our [SDIO guide](../../getting-started/post-installation/drivers/getting-started.md#snappy-driver-installer-origin).
+    - Most issues with Bluetooth are caused by installing improper drivers. Make sure to research and find the driver that is suited for your device.
 
-3. Turn ON Bluetooth, and pair your device
+3. Turn ON Bluetooth and pair your device.
 
 <img src="/assets/images/bluetooth-script-folder.png" style="border-radius:8px" />
 
-If this did not work, try researching further into the driver you should download for your system. These are almost always the cause and is not an issue directly with Atlas.
+If these steps did not resolve your issue, try researching further into the driver you should download for your system. These are almost always the cause and is not an issue directly with AtlasOS.
