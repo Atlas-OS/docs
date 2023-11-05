@@ -8,7 +8,7 @@ icon: material/cogs
 
 !!! danger "Read before continuing"
 
-    AtlasOS is in compliance with the Windows EULA; activation in Windows is not modified.
+    AtlasOS complies with the Windows EULA; activation in Windows is not modified.
 
     It is recommended to take a look at our [FAQ page](../faq-and-troubleshooting/removed-features.md).
 
@@ -100,7 +100,7 @@ First, create a folder to store the Atlas installation files. Create a folder on
 1. Go to the [Atlas downloads](https://atlasos.net/) page and download **AME Wizard** and the **Atlas Playbook**.
 2. Download network drivers from your device or motherboard manufacturer's website and save them in your folder. *(This is a precaution in case networking doesn't work during installation.)*
     - We recommend searching for the brand (e.g. Dell) followed by your device model number
-        - If you're having trouble, search for your device in [Device Manager](../assets/images/device-manager-nic.png) and download this driver using the internet from the original source
+        - If you're having trouble, search for your device in [Device Manager](../assets/images/device-manager-nic.png) and download this driver using the internet from the source
 3. Extract `Atlas [version].zip` into your folder
 4. Extract `AME Wizard Beta.exe` from the downloaded `AME Wizard Beta.zip` into your folder
 
@@ -183,13 +183,14 @@ Before continuing, consider which option is right for you and keep it in mind fo
 
 As mentioned earlier in the [Driver Updates](#driver-updates) section, there are two options for driver installation: Manual and Automatic. Please choose one of these options before proceeding.
 
-1. Copy the `AtlasFiles` from your seperate drive or volume to your desktop.
+1. Copy the `AtlasFiles` from your separate drive or volume to your desktop.
 2. If you have chosen **Manual Driver Installation**, run `Disable Drivers Installation in Windows Update.reg` and restart
 3. Connect to the internet
     - If you're unable to connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) that you previously downloaded and stored in the AtlasFiles folder.
 4. Navigate to **Windows Settings** and update Windows until no more updates are available. Also, visit the **Microsoft Store** and update all apps.
-    - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop-up
-5. Open `AtlasFiles` and proceed to running `AME Wizard Beta.exe`
+    - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop up
+5. Open `AtlasFiles` and proceed to run `AME Wizard` Beta.exe`
+    - Click on **Updates** at the top of the application and check for AME Wizard updates
     - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**.
 6. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
 7. Follow the on-screen instructions to successfully install AtlasOS
