@@ -55,3 +55,9 @@ We only recommend the use of Gameutil for Windows 10, as has yet to be updated f
 ### MSI Utility V3
 
 This is a utility to allow you to enable the Message Signaled Interrupts (MSI) feature on your systems devices, which may help improve performance by eliminating interrupt conflicts from multiple devices. We have a link in this folder to a forum post which further explains the performance and latency benefits of MSI mode, along with the download link for MSI Utility V3.
+
+## Wi-Fi
+
+Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
+
+You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/getting-started.md)
