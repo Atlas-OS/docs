@@ -16,7 +16,7 @@ icon: material/cogs
 
 - A device that meets the system requirements for [:simple-windows11: Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [:simple-windows10: Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2), excluding a Microsoft account and TPM.
 - [:material-cpu-64-bit: 64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) Intel or AMD CPU
-    - 64-bit ARM (aarch64) isn't supported currently
+    - 64-bit ARM (aarch64) only for Windows 11 via [Parallels for MacOS](https://www.parallels.com/products/desktop/)
 - A stable internet connection
 
 ## :material-disc: Download an ISO
