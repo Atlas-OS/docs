@@ -45,7 +45,7 @@ You can run the `Enable Removable Drives in Sidebar.reg` file to make removable 
 
 ## Lock Screen
 
-By default, Atlas disables the lock screen. If you would like to restore the lock screen, you can run the `Show Lock Screen.reg` file.
+By default, Atlas has the lock screen enabled. If you would like to disable the lock screen, you can run the `Hide Lock Screen.reg` file.
 
 ## Run With Priority in context menu
 
