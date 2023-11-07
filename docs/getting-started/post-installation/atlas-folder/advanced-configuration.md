@@ -42,7 +42,7 @@ The files in this folder are open-source projects in our [GitHub utilities repos
 
 ### Process Explorer
 
-Process Explorer is an application part of Microsoft Sysinternals Suite of utilities. Process Explorer can be best described as an advanced version of the Task Manager, allowing the user see what resources a program is using. More information can be found on [Microsoft's documentation for process explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).
+Process Explorer is an application part of Microsoft Sysinternals Suite of utilities. Process Explorer can be best described as an advanced version of the Task Manager, allowing the user to see what resources a program is using. More information can be found on [Microsoft's documentation for process explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).
 
 This folder has scripts that can automate the installation/uninstallation of this utility.
 
@@ -54,4 +54,10 @@ We only recommend the use of Gameutil for Windows 10, as has yet to be updated f
 
 ### MSI Utility V3
 
-This is a utility to allow you to enable the Message Signaled Interrupts (MSI) feature on your systems devices, which may help improve performance by eliminating interrupt conflicts from multiple devices. We have a link in this folder to a forum post which further explains the performance and latency benefits of MSI mode, along with the download link for MSI Utility V3.
+This is a utility to allows you to enable the Message Signaled Interrupts (MSI) feature on your system's devices, which may help improve performance by eliminating interrupt conflicts from multiple devices. We have a link in this folder to a forum post which further explains the performance and latency benefits of MSI mode, along with the download link for MSI Utility V3.
+
+## Wi-Fi
+
+Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas, it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
+
+You may need to [install drivers](../drivers/getting-started.md) for Wi-Fi to work.

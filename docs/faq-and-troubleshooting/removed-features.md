@@ -9,7 +9,7 @@ Please do keep in mind that Atlas is made for performance and privacy, so many f
 
 Atlas gets rid of the following services and features:
 
-- :simple-opentelemetry: Telemetry (can be toggled)
+- :simple-opentelemetry: Telemetry (components can be toggled for troubleshooting purposes)
 - :material-application-cog: Smart App Control
 - :material-sync: Settings Sync
 
@@ -24,6 +24,6 @@ These can be reinstalled after installation, but are removed by default.
 - :simple-microsoftonedrive: OneDrive
 
 !!! tip
-    If something isn't working, try enabling services or features  inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/drivers/getting-started.md) for more info.
-    
+    If something isn't working, try enabling services or features inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/drivers/getting-started.md) for more info.
+
     Atlas gives you the option to enable/disable lots of other options too, which you can also find in the folder above.
