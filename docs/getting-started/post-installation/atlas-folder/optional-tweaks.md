@@ -33,7 +33,7 @@ You can change the folders that are shown by default in File Explorer's "This PC
 
 ### Gallery
 
-Unique to Windows 11 is the gallary feauture. In Atlas we disable by default, but if you wish to restore this, run the `Enable Gallery.reg` file.
+Unique to Windows 11 is the gallary feature. In Atlas we disable by default, but if you wish to restore this, run the `Enable Gallery.reg` file.
 
 ### Quick Access
 
@@ -49,7 +49,7 @@ By default, Atlas disables the lock screen. If you would like to restore the loc
 
 ## Run With Priority in context menu
 
-Running with priority is a feature that lets you tell a program how important it should be. By running the `Add Run With Priority In Context Menu.reg` file, you can control app piorities via the context menu (right-click menu).
+Running with priority is a feature that lets you tell a program how important it should be. By running the `Add Run With Priority In Context Menu.reg` file, you can control app priorities via the context menu (right-click menu).
 
 ## Send To Context Menu
 
@@ -57,17 +57,17 @@ With the `Debloat Send To Context Menu.cmd` file, you can reduce the items in th
 
 ## Shortcut Icon
 
-This lets you switch between the Classic and modern looks for the shortcut icons, you also have the option to disable it. By default, this is set to the Windows Default, but you can change it by running the `Classic.reg` to change to the classic syle. Alternatively, you can turn off the icon by running the `None (security risk).reg` file.
+This lets you switch between the Classic and modern looks for the shortcut icons, you also have the option to disable it. By default, this is set to the Windows Default, but you can change it by running the `Classic.reg` to change to the classic style. Alternatively, you can turn off the icon by running the `None (security risk).reg` file.
 
-None is a security risk because there will be no way to see if an icon is a shortcut or not. This could leave you victim to attacks.
+None is a security risk because there will be no way to see if an icon is a shortcut or not. This could leave you a victim of attacks.
 
 ## Shortcut Text
 
-By default, this is turned off, but you can turn it back on by running the `Restore Shortcut Text.reg` file. This will show the text of start menu shortcuts.
+By default, this is turned off, but you can turn it back on by running the `Restore Shortcut Text.reg` file. This will show the text of the start menu shortcuts.
 
 ## Windows 11 Context Menu
 
-On Atlas, by default you'll have the old context menu. You can run the `New Context Menu.reg` if you prefer Windows 11's modern context menu.
+On Atlas, by default, you'll have the old context menu. You can run the `New Context Menu.reg` if you prefer Windows 11's modern context menu.
 
 ## Explorer Patcher
 

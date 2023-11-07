@@ -46,7 +46,7 @@ The downloader integrated into the documentation below generates an ISO download
 -->
 <!--
     The JavaScript file that is used with this is licensed under GNU Affero General Public License v3.0,
-    in accordance with the original project. https://github.com/massgravel/msdl/blob/main/LICENSE
+    per the original project. https://github.com/massgravel/msdl/blob/main/LICENSE
 -->
 <!--
     See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js

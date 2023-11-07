@@ -24,6 +24,6 @@ These can be reinstalled after installation, but are removed by default.
 - :simple-microsoftonedrive: OneDrive
 
 !!! tip
-    If something isn't working, try enabling services or features  inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/drivers/getting-started.md) for more info.
-    
+    If something isn't working, try enabling services or features inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/drivers/getting-started.md) for more info.
+
     Atlas gives you the option to enable/disable lots of other options too, which you can also find in the folder above.

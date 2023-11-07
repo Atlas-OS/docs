@@ -20,4 +20,4 @@ Follow these steps to set up Bluetooth:
 
 <img src="/assets/images/bluetooth-script-folder.png" style="border-radius:8px" />
 
-If these steps did not resolve your issue, try researching further into the driver you should download for your system. These are almost always the cause and is not an issue directly with AtlasOS.
+If these steps did not resolve your issue, try researching further into the driver you should download for your system. These are almost always the cause and are not an issue directly with AtlasOS.
