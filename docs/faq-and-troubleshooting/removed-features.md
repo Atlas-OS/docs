@@ -9,7 +9,7 @@ Please do keep in mind that Atlas is made for performance and privacy, so many f
 
 Atlas gets rid of the following services and features:
 
-- :simple-opentelemetry: Telemetry (can be toggled)
+- :simple-opentelemetry: Telemetry (components can be toggled for troubleshooting purposes)
 - :material-application-cog: Smart App Control
 - :material-sync: Settings Sync
 

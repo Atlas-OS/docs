@@ -12,11 +12,12 @@ icon: material/cogs
 
     It is recommended to take a look at our [FAQ page](../faq-and-troubleshooting/removed-features.md).
 
-## :material-clipboard-list-outline: Requirements
+## :material-clipboard-list-outline: Prerequisites
 
-- A device that meets the system requirements for [:simple-windows11: Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [:simple-windows10: Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2), excluding a Microsoft account and TPM.
-- [:material-cpu-64-bit: 64-bit](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) Intel or AMD CPU
-    - 64-bit ARM (aarch64) only for Windows 11 via [Parallels for MacOS](https://www.parallels.com/products/desktop/)
+- Meeting the system requirements for [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2)
+    - This exlcudes a Microsoft account, TPM and Secure Boot
+- 64-bit processor ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
+    - 64-bit ARM (aarch64) only works on Windows 11
 - A stable internet connection
 
 ## :material-disc: Download an ISO
