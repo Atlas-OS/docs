@@ -35,6 +35,10 @@ When installing Atlas, you can choose between Automatic Driver Installation and 
 
 When you have ran the desired choice, restart your device for the changes to take effect.
 
+## FSO and Game Bar
+
+Game Bar is a built-in feature in Windows which is used to record your screen and take screenshots, and relies on FSO. In Atlas, FSO is enabled by default, but Game Bar is disabled for performance. You enable Game Bar and FSO using `Enable FSO & Game Bar.reg` or disable both FSO and Game Bar by running `Disable FSO & Game Bar.reg` in the folder `FSO and Game Bar` folder and restart
+
 ## Game Mode
 
 Game Mode is a built-in feature in Windows that aims to make your system work better for gaming related tasks, but it can also make some games run slower.
@@ -90,10 +94,6 @@ If you wish to modify your choice after installation, you can do so through the 
 ### Timer Resolution
 
 Increasing the timer resolution improves precision, which is beneficial for applications that require consistent pacing or sleeping, such as multimedia applications and framerate limiters. This is at the cost of increased power consumption and is not always beneficial for all machines.
-
-## FSO and Game Bar
-
-Game Bar is a built-in feature in Windows which is used to record your screen and take screenshots, and relies on FSO. In Atlas, FSO is enabled by default, but Game Bar is disabled for performance. You enable Game Bar and FSO using `Enable FSO & Game Bar.reg` or disable both FSO and Game Bar by running `Disable FSO & Game Bar.reg` in the folder `FSO and Game Bar` folder and restart
 
 ## Printing
 
