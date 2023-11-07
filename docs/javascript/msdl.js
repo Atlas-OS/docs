@@ -113,9 +113,25 @@ async function getDownloadLinkFromProxy() {
 
     const parser = new DOMParser();
     const doc = parser.parseFromString(data, "text/html");
-    const downloadElement = doc.getElementsByTagName("a")[0];
+    const downloadElements = doc.getElementsByTagName("a");
 
-    return downloadElement.href;
+    let found = false;
+    let downloadLink = '';
+
+    for (let i = 0; i < downloadElements.length; i++) {
+        const href = downloadElements[i].getAttribute('href');
+        if (href && href.includes('_x64')) {
+            found = true;
+            downloadLink = href;
+            break;
+        }
+    }
+
+    if (found) {
+        return downloadLink;
+    } else {
+        showError();
+    }
 }
 
 function useSharedSession() {
