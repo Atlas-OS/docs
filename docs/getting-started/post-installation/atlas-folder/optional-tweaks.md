@@ -68,3 +68,7 @@ By default, this is turned off, but you can turn it back on by running the `Rest
 ## Windows 11 Context Menu
 
 On Atlas, by default you'll have the old context menu. You can run the `New Context Menu.reg` if you prefer Windows 11's modern context menu.
+
+## Explorer Patcher
+
+The shortcut links to a tool that patches several aspects of Explorer to restore the UI from previous versions of Windows.
