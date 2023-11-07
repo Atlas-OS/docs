@@ -102,7 +102,7 @@ First, create a folder to store the Atlas installation files. Create a folder on
 2. Download network drivers from your device or motherboard manufacturer's website and save them in your folder. *(This is a precaution in case networking doesn't work during installation.)*
     - We recommend searching for the brand (e.g. Dell) followed by your device model number
         - If you're having trouble, search for your device in [Device Manager](../assets/images/device-manager-nic.png) and download this driver using the internet from the source
-3. Extract `Atlas [version].zip` into your folder
+3. Extract `AtlasPlaybook_v[version].zip` into your folder
 4. Extract `AME Wizard Beta.exe` from the downloaded `AME Wizard Beta.zip` into your folder
 
 **You should now have an `AtlasFiles` folder with all the files you need on your external drive/volume.**
@@ -188,7 +188,7 @@ As mentioned earlier in the [Driver Updates](#driver-updates) section, there are
 2. If you have chosen **Manual Driver Installation**, run `Disable Drivers Installation in Windows Update.reg` and restart
 3. Connect to the internet
     - If you're unable to connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) that you previously downloaded and stored in the AtlasFiles folder.
-4. Navigate to **Windows Settings** and update Windows until no more updates are available. Also, visit the **Microsoft Store** and update all apps.
+4. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available. Also, visit the **Microsoft Store** and update all apps.
     - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop up
 5. Open `AtlasFiles` and proceed to run `AME Wizard` Beta.exe`
     - Click on **Updates** at the top of the application and check for AME Wizard updates
