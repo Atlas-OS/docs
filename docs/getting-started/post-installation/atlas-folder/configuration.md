@@ -35,6 +35,10 @@ When installing Atlas, you can choose between Automatic Driver Installation and 
 
 When you have ran the desired choice, restart your device for the changes to take effect.
 
+## FSO and Game Bar
+
+Game Bar is a built-in feature in Windows which is used to record your screen and take screenshots, and relies on FSO. In Atlas, FSO is enabled by default, but Game Bar is disabled for performance. You enable Game Bar and FSO using `Enable FSO & Game Bar.reg` or disable both FSO and Game Bar by running `Disable FSO & Game Bar.reg` in the folder `FSO and Game Bar` folder and restart
+
 ## Game Mode
 
 Game Mode is a built-in feature in Windows that aims to make your system work better for gaming related tasks, but it can also make some games run slower.
@@ -91,10 +95,6 @@ If you wish to modify your choice after installation, you can do so through the 
 
 Increasing the timer resolution improves precision, which is beneficial for applications that require consistent pacing or sleeping, such as multimedia applications and framerate limiters. This is at the cost of increased power consumption and is not always beneficial for all machines.
 
-## FSO and Game Bar
-
-Game Bar is a built-in feature in Windows which is used to record your screen and take screenshots, and relies on FSO. In Atlas, FSO is enabled by default, but Game Bar is disabled for performance. You enable Game Bar and FSO using `Enable FSO & Game Bar.reg` or disable both FSO and Game Bar by running `Disable FSO & Game Bar.reg` in the folder `FSO and Game Bar` folder and restart
-
 ## Printing
 
 Printing is a built-in feature in Windows which is used to print documents. On Atlas we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Printing.cmd` file in the `Printing` folder and restart.
@@ -126,10 +126,3 @@ A VPN (Virtual Private Network) is a feature in Windows that lets you connect to
 Windows enables various Visual Effects by default. These include animated menus and tooltips, and animations while minimizing and maximizing, all of these enhance the appearance of Windows but can slightly reduce performance.
 
 On Atlas, visual effects are disabled by default. To restore these effects, run the `Default Windows Visual Effects.cmd` file in the `Visual Effects` folder.
-
-## Wi-Fi
-
-Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
-
-You may need to install drivers for Wi-Fi to work. You can learn on how to do this [here.](../drivers/getting-started.md)
-
