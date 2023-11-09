@@ -55,6 +55,13 @@ Windows has a built-in photo app called Microsoft Photos. However, it is not inc
 
 ## Honeyview
 
-Honeyview is a lightweight image editor with a large amount of supported files
+Honeyview is a lightweight image viewer with a large amount of supported files
 
 [Download Honeyview](https://www.bandisoft.com/honeyview/)
+
+## Imageglass
+
+Imageglass is a lightweight image viewer which also supports SVG format
+
+
+[Download Imageglass](https://imageglass.org/)
