@@ -34,10 +34,27 @@ Windows Media Player is a built-in feature of Windows operating system, but it i
 
 Windows has a built-in video app called Film & TV. However, it is not included by default in Atlas. This app is useful for playing videos and provides more advanced features than Windows Media Player. It is important to note that Film & TV does not include all codecs like MPV or VLC Media Player by default and may require users to purchase additional codecs.
 
-[Download Film & TV](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT) | [Download HEVC Codec](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
+[Download Film & TV](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3P2) | [Download HEVC Codec](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
 
 ## foobar2000
 
 FooBar2000 is a music player that allows you to play both local and online music. It can handle audio with multiple tracks and is user-friendly.
 
 [Download foobar2000](https://www.foobar2000.org/).
+
+
+# Picture apps
+
+By default we use Windows photo viewer, if you're looking for something else we'll cover more options in this guide.
+
+## Microsoft Photos
+
+Windows has a built-in photo app called Microsoft Photos. However, it is not included by default in Atlas. This app is useful for showing pictues. It is important to note that Microsoft Photos does not open SVG images and there is no real way to do that
+
+[Download Microsoft Photos](https://www.microsoft.com/store/productId/9WZDNCRFJBH4)
+
+## Honeyview
+
+Honeyview is a lightweight image editor with a large amount of supported files
+
+[Download Honeyview](https://www.bandisoft.com/honeyview/)
