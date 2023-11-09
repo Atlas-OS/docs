@@ -28,19 +28,6 @@ The downloader integrated into the documentation below generates an ISO download
 
 **Based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
 
-??? grey-tip "Alternatives"
-    === "Windows Media Creation Tool"
-        This is the method supported by Microsoft for downloading Windows 10 and 11.
-
-        1. Download the [:simple-windows10: Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [:simple-windows11: Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it.
-        2. Click the `Accept` button to agree to the Microsoft license terms.
-        3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
-            * Language: Desired language
-            * Edition: Windows 10 or 11
-            * Architecture: 64-bit (x64)
-        4. Choose `ISO file` option and choose the download location.
-        5. After the ISO has completed downloading, click `Finish` to end the installation.
-
 <!--
     This is based upon the Microsoft Software Download Listing website by massgravel on GitHub.
 -->
@@ -190,7 +177,7 @@ As mentioned earlier in the [Driver Updates](#driver-updates) section, there are
     - If you're unable to connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) that you previously downloaded and stored in the AtlasFiles folder.
 4. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available. Also, visit the **Microsoft Store** and update all apps.
     - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop up
-5. Open `AtlasFiles` and proceed to run `AME Wizard` Beta.exe`
+5. Open `AtlasFiles` and proceed to run `AME Wizard Beta.exe`
     - Click on **Updates** at the top of the application and check for AME Wizard updates
     - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**.
 6. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
