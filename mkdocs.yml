@@ -179,13 +179,13 @@ nav:
       - Atlas folder missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
       - Adobe Acrobat compatibility: faq-and-troubleshooting/common-questions/adobe-acrobat.md
       - iTunes compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
-      - Windows build not supported: faq-and-troubleshooting/common-questions/windows-build-not-supported.md
       - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
       - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
       - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
       - Bluetooth compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
       - Microsoft Store compatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
       - AME Wizard virus detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
+      - Windows build not supported: faq-and-troubleshooting/common-questions/windows-build-not-supported.md
 
 #
 # Plugins
