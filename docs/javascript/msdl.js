@@ -39,6 +39,7 @@ function showError(error) {
 
     if (error) {
         console.error("ISO Downloader: " + error);
+        processingErrorText.style.display = "block";
         processingErrorText.innerHTML = 'Error: ' + error
     } else {
         processingErrorText.style.display = "none";

@@ -66,7 +66,7 @@ select {
     text-align-last: center;
     appearance: none;
     width: 100%;
-    margin-top: -0.9em;
+    margin-top: 0.25em;
 }
 
 option {
