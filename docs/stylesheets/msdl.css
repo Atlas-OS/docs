@@ -77,8 +77,13 @@ option {
     width: 100%;
 }
 
-.win-dl {
-    width: 49.7%;
+.msdl-button-container {
+    display: flex;
+    width: 100%;
+}
+
+.msdl-button {
+    flex: 1;
     border: .1rem solid;
     border-color: currentcolor;
     border-radius: .1rem;
@@ -88,9 +93,11 @@ option {
     font-weight: 700;
     padding: .625em 2em;
     transition: color 125ms,background-color 125ms,border-color 125ms;
+    min-width: 0%;
+    overflow: hidden;
 }
 
-.win-dl:hover {
+.msdl-button:hover {
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color);
