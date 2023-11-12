@@ -39,6 +39,22 @@ The downloader integrated into the documentation below generates an ISO download
     See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js
 -->
 
+??? grey-tip "Alternatives"
+    === "Windows Media Creation Tool"
+        !!! warning "Windows 11"
+            Atlas only supports Windows 10 22H2 and Windows 11 23H2.
+
+            The current Media Creation Tool for Windows 11 only creates 23H2, so the Windows 11 Media Creation Tool currently can't be used for Atlas.
+
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool and open it.
+        2. Click the `Accept` button to agree to the Microsoft license terms.
+        3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
+            * Language: Desired language
+            * Edition: Windows 10
+            * Architecture: 64-bit (x64)
+        4. Choose `ISO file` option and choose the download location.
+        5. After the ISO has completed downloading, click `Finish` to end the installation.
+
 <center class="centerMsdl">
 <button class="win-dl" onclick="getWindows(2860);">Download Windows 11 x86_64</button> <button class="win-dl" onclick="getWindows(2618);">Download Windows 10 x86_64</button>
 
@@ -49,12 +65,12 @@ The downloader integrated into the documentation below generates an ISO download
 </div>
 
 <div id="msdl-processing-error">
-    <p>An error has occurred while processing your request.</p>
-    <p>Try refreshing the page or using an alternative method.</p>
+    <p>An error has occurred while processing your request. Try refreshing the page or using an alternative method.</p>
+    <p id="msdl-error-code">Error: Unknown</p>
 </div>
 
 <div id="msdl-download">
-    <p>A download should soon be started, if not, <a id="msdl-download-link" href="about:blank">click to download the ISO</a>.</p>
+    <p>A download should soon be started, if not, <a id="msdl-download-link" href="about:blank">click here download the ISO</a>.</p>
 </div>
 
 <input id="msdl-session-id" type="hidden">

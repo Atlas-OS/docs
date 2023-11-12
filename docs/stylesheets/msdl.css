@@ -38,8 +38,14 @@
 }
 
 #msdl-processing-error {
-    line-height: 1;
+    line-height: normal;
+    color: #d16464;
+    max-width: 60%;
+}
+
+#msdl-error-code {
     color: var(--md-code-hl-number-color);
+    font-weight: bold; 
 }
 
 select {
