@@ -168,7 +168,7 @@ function getLangError(msFailure) {
             }
         } else {
             console.warn(`ISO Downloader: Failed to get langauges ${getLangFailCount} times, and Microsoft's response failing is ${msFailure}. Max tries is ${langAttempt}.`)
-            getLanguages();
+            getLanguages(true);
         }
     }, 1000);
 }
@@ -208,6 +208,11 @@ function getWindows(id) {
     mxhr.onload = function () {
         if (this.status != 200) {
             shouldUseSharedSession = false;
+        } else {
+            sessionId.value = uuidv4();
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", sessionUrl + sharedSessionGUID, true);
+            xhr.send();
         }
     };
     mxhr.open("GET", apiUrl + "use_shared_session", true);
