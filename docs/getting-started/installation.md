@@ -44,7 +44,7 @@ The downloader integrated into the documentation below generates an ISO download
         !!! warning "Windows 11"
             Atlas only supports Windows 10 22H2 and Windows 11 23H2.
 
-            The current Media Creation Tool for Windows 11 only creates 23H2, so the Windows 11 Media Creation Tool currently can't be used for Atlas.
+            The current Media Creation Tool for Windows 11 only creates 22H2, so the Windows 11 Media Creation Tool currently can't be used for Atlas.
 
         1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool and open it.
         2. Click the `Accept` button to agree to the Microsoft license terms.

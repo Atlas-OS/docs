@@ -14,7 +14,7 @@ const downUrl =
     "https://www.microsoft.com/en-us/api/controls/contentinclude/html?pageId=cfa9e580-a81e-4a4b-a846-7b21bf4e2e5b&host=www.microsoft.com&segments=software-download%2Cwindows11&query=&action=GetProductDownloadLinksBySku&sdVersion=2";
 const sessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&session_id=";
 const apiUrl = "https://massgrave.dev/api/msdl/";
-const sharedSessionGUID = "f8a4ea6f-3389-486b-b12d-a1093ed16661";
+const sharedSessionGUID = "c2452a22-b85c-4f2b-a20c-7cb8c4dc95ac";
 const langAttempt = 3;
 
 let sessionId;
@@ -69,9 +69,10 @@ async function getDownloadLink(sharedSession, useProxy = false) {
 async function getDownload() {
     msContent.style.display = "none";
     pleaseWait.style.display = "block";
-    let isoLink;
+    let isoLink; let sharedSession = false;
 
     async function useProxy() {
+        sharedSession = true;
         try {
             console.warn("ISO Downloader: Getting ISO from Microsoft failed, attempting to use the proxy...");
             isoLink = await getDownloadLink(false, true);
@@ -90,6 +91,7 @@ async function getDownload() {
         if (!shouldUseSharedSession) await useProxy();
 
         // Microsoft without shared session failed, attempting with shared session
+        sharedSession = true;
         try {
             console.warn("ISO Downloader: Getting ISO from Microsoft without shared session failed, attempting using shared session...");
             isoLink = await getDownloadLink(true);
@@ -97,6 +99,13 @@ async function getDownload() {
             // Microsoft with and without shared session failed, try proxy
             await useProxy();
         }
+    }
+
+    if (!sharedSession) {
+        console.info("ISO Downloader: Validating shared sessions...");
+        fetch(sessionUrl + sharedSessionGUID);
+        fetch(sessionUrl + "de40cb69-50a5-415e-a0e8-3cf1eed1b7cd");
+        fetch(apiUrl + 'add_session?session_id=' + sessionId.value)
     }
 
     if (!isoLink) {
@@ -206,14 +215,7 @@ function getWindows(id) {
     // This should ensure that the user doesn't invalidate the shared session
     let mxhr = new XMLHttpRequest();
     mxhr.onload = function () {
-        if (this.status != 200) {
-            shouldUseSharedSession = false;
-        } else {
-            sessionId.value = uuidv4();
-            const xhr = new XMLHttpRequest();
-            xhr.open("GET", sessionUrl + sharedSessionGUID, true);
-            xhr.send();
-        }
+        if (this.status != 200) shouldUseSharedSession = false;
     };
     mxhr.open("GET", apiUrl + "use_shared_session", true);
     mxhr.send();    
