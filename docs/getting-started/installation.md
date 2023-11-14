@@ -16,6 +16,7 @@ icon: material/cogs
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2)
     - This excludes a Microsoft account, TPM and Secure Boot
+    - Your system must also be UEFI/GPT compatible. Users have experienced issues with systems that only support BIOS/MBR. 
 - 64-bit processor ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
     - 64-bit ARM (aarch64) only works on Windows 11
 - A stable internet connection
