@@ -99,6 +99,15 @@ extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice
   generator: false
 
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language-selector
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Svenska
+      link: /sv/
+      lang: sv
+
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
   analytics:
     provider: custom
