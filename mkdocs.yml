@@ -1,5 +1,6 @@
 site_name: Atlas Documentation
 site_url: https://docs.atlasos.net
+site_author: AtlasOS
 
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
 repo_url: https://github.com/Atlas-OS/docs
@@ -23,7 +24,7 @@ theme:
 
   features:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
-    - navigation.instant
+    #- navigation.instant
     - navigation.path
     - navigation.prune
     - navigation.indexes
@@ -98,15 +99,6 @@ extra_css:
 extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice
   generator: false
-
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language-selector
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: Svenska
-      link: /sv/
-      lang: sv
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
   analytics:
@@ -204,6 +196,25 @@ plugins:
   - search:
       lang: en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+  # https://ultrabug.github.io/mkdocs-static-i18n/setup/
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: sv
+          name: Svenska
+          build: true
+          site_name: Atlas-dokumentationen
+          nav_translations:
+            Home: Hem
+            Contribution Guidelines: Riktlinjer för medverkan
+            Branding Kit: Varumärkeskit
 
 
 #

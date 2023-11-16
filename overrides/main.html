@@ -1,1 +1,7 @@
 {% extends "base.html" %}
+
+{% block announce %}
+    {% if config.theme.language != 'en' %}
+    <span class="twemoji">{% include ".icons/material/alert.svg" %}</span><b> English is the original documentation language.</b> We can't guarantee information consistency across languages.
+    {% endif %}
+{% endblock %}
