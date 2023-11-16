@@ -44,6 +44,17 @@ To create your language, navigate to the `i18n` section under "Plugins" in the `
 
 Once you've created your language, copy it to the same section but also inside `mkdocs.insiders.yml`, as this is the configuration used during website build in our production environment.
 
+To ensure that you have correctly configured your language within the `i18n` "Plugin" section, your language configuration should look like this:
+
+```yaml
+  - i18n:
+      languages:
+        - locale: sv 
+          name: Svenska
+          build: true # Always set this to "true"
+          site_name: Atlas-dokumentationen
+```
+
 ## Translating titles & descriptions
 
 It is extremely simple to translate page titles and descriptions. To begin with descriptions, simply update the `description` property in the documentation piece you're translating and you're done!
@@ -53,6 +64,22 @@ When it comes to translating the title, however, things get a little more compli
 !!! warning "Don't change the original name"
 
     You do not want to change the part of the property that is already in English; that part indicates what the originally written page is called in the documentation. Changing the English name in the `nav_translations` property will prevent your localized title from appearing.
+
+If you're not sure how to do your nav_translations, check out the example below: 
+
+```yaml
+  - i18n:
+      languages:
+        - locale: sv
+          name: Svenska
+          build: true
+          site_name: Atlas-dokumentationen
+          nav_translations:
+            Home: Hem # "Home" is the original name, while "Hem" is the translated version
+            Contribution Guidelines: Riktlinjer för medverkan
+            Branding Kit: Varumärkeskit
+            Translation Guide: Översättningsguide
+```
 
 ## Translating documentation
 
