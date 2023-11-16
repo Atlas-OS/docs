@@ -146,6 +146,7 @@ nav:
     - Home: index.md
     - Contribution Guidelines: contributions.md
     - Branding Kit: branding.md
+    - Translation Guide: localization.md
   - Getting Started:
     - Installation: getting-started/installation.md
     - Post Installation:
