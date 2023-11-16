@@ -7,6 +7,25 @@ INHERIT: mkdocs.yml
 plugins:
   - search: {}
 
+  # https://ultrabug.github.io/mkdocs-static-i18n/setup/
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: sv
+          name: Svenska
+          build: true
+          site_name: Atlas-dokumentationen
+          nav_translations:
+            Home: Hem
+            Contribution Guidelines: Riktlinjer för medverkan
+            Branding Kit: Varumärkeskit
+
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
   - privacy:
       assets_fetch_dir: assets/external

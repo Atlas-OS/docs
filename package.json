@@ -1,8 +1,5 @@
 {
-  "scripts": {
-    "optimize": "jampack ./site"
-  },
-  "dependencies": {
-    "@divriots/jampack": "^0.21.1"
-  }
+	"dependencies": {
+		"@divriots/jampack": "^0.22.1"
+	}
 }

@@ -1,5 +1,4 @@
-git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-insiders.git
-pillow
-cairosvg
+# git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-insiders.git
+mkdocs-material[imaging]
 mkdocs-git-committers-plugin-2
 mkdocs-static-i18n[material]
