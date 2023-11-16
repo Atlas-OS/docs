@@ -5,7 +5,10 @@ INHERIT: mkdocs.yml
 # Plugins
 #
 plugins:
-  - search: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
   # https://ultrabug.github.io/mkdocs-static-i18n/setup/
   - i18n:
@@ -48,9 +51,9 @@ plugins:
         font_family: Inter
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors (Insiders)
-  - git-committers:
-      repository: Atlas-OS/docs
-      branch: master
+  #- git-committers:
+  #    repository: Atlas-OS/docs
+  #    branch: master
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
