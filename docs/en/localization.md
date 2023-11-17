@@ -69,7 +69,7 @@ It is extremely simple to translate page titles and descriptions. To begin with 
 
 When it comes to translating the title, however, things get a little more complicated. Find the `i18n` section under "Plugins" in the `mkdocs.yml` file to update titles to your local language. Once there, replicate the existing `nav_translations` examples in other languages but apply them to your language instead.
 
-All of the original (english) titles that can be translated can be found in the "nav" section of the `mkdocs.yml` file.
+All of the original (english) titles that can be translated can be found in the "nav" section of the `mkdocs.yml` file. You can view the "nav" section directly in the `mkdocs.yml` file [here](https://github.com/Atlas-OS/docs/blob/i18n/mkdocs.yml#L140-L144).
 
 If you're not sure how to do your nav_translations to properly translate your page titles, check out the example below: 
 
@@ -84,6 +84,8 @@ If you're not sure how to do your nav_translations to properly translate your pa
 ```
 
 1. All of the original (english) titles that can be translated can be found in the "nav" section of the `mkdocs.yml` file.
+  <br><br>
+  **View the file:** [https://github.com/Atlas-OS/docs/blob/i18n/mkdocs.yml#L140-L144](https://github.com/Atlas-OS/docs/blob/i18n/mkdocs.yml#L140-L144)
 2. In the original language (English), "Home" is the navigation name, while "Hem" is the translated name.
   <br><br>
   **Source:** [https://ultrabug.github.io/mkdocs-static-i18n/setup/localizing-navigation/](https://ultrabug.github.io/mkdocs-static-i18n/setup/localizing-navigation/)
