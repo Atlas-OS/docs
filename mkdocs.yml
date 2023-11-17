@@ -9,8 +9,8 @@ edit_uri: edit/master/docs/
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
-  Copyright &copy; 2023 AtlasOS
-  <br>AtlasOS is not affiliated with Microsoft.
+  Bản quyền thuộc về &copy; 2023 AtlasOS
+  <br>AtlasOS không có bất cứ mối liên kết nào với Microsoft.
 #  <a href="#__consent">Change cookie settings</a>
 
 
@@ -56,14 +56,14 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Chuyển sang chế độ tối
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
       accent: light blue
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Chuyển sang chế độ sáng
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts
   font:
@@ -122,19 +122,19 @@ extra:
   social:
     - icon: material/earth
       link: https://atlasos.net
-      name: AtlasOS Website
+      name: Website AtlasOS
     - icon: material/forum
       link: https://forum.atlasos.net
-      name: AtlasOS Forums
+      name: Diễn đàn AtlasOS
     - icon: fontawesome/brands/discord
       link: https://discord.atlasos.net
-      name: AtlasOS on Discord
+      name: Máy chủ Discord của AtlasOS
     - icon: fontawesome/brands/github
       link: https://github.com/Atlas-OS
-      name: AtlasOS on GitHub
+      name: Trang GitHub của AtlasOS
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/AtlasOS
-      name: AtlasOS on Twitter
+      name: Trang Twitter của AtlasOS
 
 
 #
@@ -216,10 +216,54 @@ plugins:
             Home: Hem
             Contribution Guidelines: Riktlinjer för medverkan
             Branding Kit: Varumärkeskit
-            Translation Guide: Översättningsguide
-            Getting Started: Kom igång
-            Post Installation: Efter installationen
-            Atlas folder: Atlas-mappen
+        - locale: vi
+          name: Tiếng Việt
+          build: true
+          site_name: Tài liệu về AtlasOS
+          nav_translations:
+            Home: Trang chủ
+            Contribution Guidelines: Hướng dẫn đóng góp
+            Branding Kit: Bộ nhận diện thương hiệu
+            Getting Started: Bắt đầu
+            FAQ & Troubleshooting: Những câu hỏi thường gặp và xử lí sự cố
+            What's removed?: Những thứ gì đã được lược bỏ?
+            Who is Atlas for?: Atlas dành cho ai?
+            Atlas folder scripts: Thư mục Atlas
+            Atlas & Security: Atlas và bảo mật
+            Updating Atlas: Cập nhật Atlas
+            Testing nightly builds: Thử nghiệm các bản dựng Atlas
+            Common Questions: Những câu hỏi thường gặp
+            Atlas folder missing: Thiếu thư mục Atlas 
+            Adobe Acrobat compatibility: Tính tương thích với Adobe Acrobat
+            iTunes compatibility: Tính tương thích với iTunes
+            Atlas ISO files: File ISO Atlas
+            Reverting Atlas: Gỡ bỏ Atlas
+            Decrypting using BitLocker: Mở khóa BitLocker
+            Bluetooth compatibility: Tính tương thích với Bluetooth
+            Microsoft Store compatibility: Tính tương thích với Microsoft Store
+            AME Wizard virus detection: Phát hiện virus trong AME Wizard
+            Windows build not supported: Phiên bản Windows không được hỗ trợ
+
+            Installation: Cài đặt AtlasOS
+            Post Installation: Sau khi cài đặt
+            Atlas folder: Thư mục Atlas
+            Drivers: Driver
+            Software: Phần mềm
+
+            Web Browsers: Trình duyệt Web
+            Media: Đa phương tiện
+            Screenshotting: Chụp màn hình
+            System Info: Thông tin hệ thống
+            Text Editors & IDEs: Trình soạn thảo văn bản và IDE
+
+            Graphics: Card đồ họa
+            Others: Những driver khác
+
+            Configuration: Cấu hình
+            Advanced Configuration: Cấu hình nâng cao
+            Optional Tweaks: Những tinh chỉnh tùy ý
+            Windows Settings: Cấu hình Windows
+            Security: Bảo mật
 
 
 #

@@ -15,7 +15,6 @@ plugins:
       docs_structure: folder
       reconfigure_material: true
       reconfigure_search: true
-      fallback_to_default: true
       languages:
         - locale: en
           default: true
@@ -30,9 +29,15 @@ plugins:
             Contribution Guidelines: Riktlinjer för medverkan
             Branding Kit: Varumärkeskit
             Translation Guide: Översättningsguide
-            Getting Started: Kom igång
-            Post Installation: Efter installationen
-            Atlas folder: Atlas-mappen
+        - locale: vi
+          name: Tiếng Việt
+          build: true
+          site_name: Atlas - Hướng dẫn
+          nav_translations:
+            Home: Trang chủ
+            Contribution Guidelines: Hướng dẫn đóng góp
+            Branding Kit: Bộ nhận diện thương hiệu
+            Translation Guide: Hướng dẫn dịch thuật
 
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
   - privacy:
