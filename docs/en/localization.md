@@ -150,3 +150,9 @@ To begin translating the warning, checkout the example below. Check the annotati
     When you're ready to share your translations with the world, please submit a pull request in [:simple-github: Atlas-OS/Docs](https://github.com/Atlas-OS/docs/pulls) to the existing `i18n` branch, which will then be merged to the domain you're currently on.
 
 When you're ready to show off your translations to the world, submit a pull request to our [:simple-github: Atlas-OS/Docs](https://github.com/Atlas-OS/docs/pulls) repository with your files. In our [:material-handshake: Contribution Guidelines](./contributions.md), you can learn more about contributing and, in particular, contributing to our documentation.
+
+!!! warning "Remember to copy to mkdocs.insiders.yml"
+
+    If you've made any changes to the "i18n" plugin section in `mkdocs.yml`, make sure you've also copied your updated changes into the `mkdocs.insiders.yml` file. Otherwise, your changes will not be included in our production builds.
+    
+    Remember not to replace or overwrite existing languages in the configuration files. Unless they are changes specific to that language.
