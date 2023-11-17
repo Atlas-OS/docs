@@ -6,7 +6,7 @@ icon: material/earth
 !!! example "Localization (i18n) is in BETA"
 
     Any size project is difficult to localize. Community-made translations can add technical and maintenance debt, so we're debating whether to do this for the AtlasOS documentation.
-    
+
     Please report any issues, suggestions, or comments. Please use our [Discord server](https://discord.atlasos.net) or [GitHub documentation repository](https://github.com/Atlas-OS/docs) to report issues.
 
 AtlasOS strives to make itself as user-friendly and accessible as possible. This is something we try to reinforce through our playbook, forums, Discord server, and documentation. That is why we want to make it even easier for our community to interact with and contribute to Atlas by supporting community-driven localizations and translations of our official documentation.
@@ -61,7 +61,7 @@ To ensure that you have correctly configured your language within the `i18n` "Pl
   <br><br>
   **Source**: [https://ultrabug.github.io/mkdocs-static-i18n/setup/setting-up-languages/](https://ultrabug.github.io/mkdocs-static-i18n/setup/setting-up-languages/)
 3. Make sure this is always set to `true`.
-4. Always include the `site_name` property and localize "Atlas Documentation" into your language. 
+4. Always include the `site_name` property and localize "Atlas Documentation" into your language.
 
 ## Translating titles & descriptions
 
@@ -71,7 +71,7 @@ When it comes to translating the title, however, things get a little more compli
 
 All of the original (english) titles that can be translated can be found in the "nav" section of the `mkdocs.yml` file. You can view the "nav" section directly in the `mkdocs.yml` file [here](https://github.com/Atlas-OS/docs/blob/i18n/mkdocs.yml#L140-L144).
 
-If you're not sure how to do your nav_translations to properly translate your page titles, check out the example below: 
+If you're not sure how to do your nav_translations to properly translate your page titles, check out the example below:
 
 ```yaml
   - i18n:
@@ -81,6 +81,10 @@ If you're not sure how to do your nav_translations to properly translate your pa
           build: true
           nav_translations: # (1)!
             Home: Hem # (2)!
+            Getting Started: Kom igång
+            Post Installation: Efter installationen
+            Atlas folder: Atlas-mappen # (3)!
+            Configuration: Configuration
 ```
 
 1. All of the original (english) titles that can be translated can be found in the "nav" section of the `mkdocs.yml` file.
@@ -89,6 +93,7 @@ If you're not sure how to do your nav_translations to properly translate your pa
 2. In the original language (English), "Home" is the navigation name, while "Hem" is the translated name.
   <br><br>
   **Source:** [https://ultrabug.github.io/mkdocs-static-i18n/setup/localizing-navigation/](https://ultrabug.github.io/mkdocs-static-i18n/setup/localizing-navigation/)
+3. Navigation paths that are nested, regardless of depth, should simply be named & translated. You don't need to do any identification to make it work.
 
 !!! warning "Don't change the original name"
 
@@ -110,8 +115,8 @@ Copy the original files from the `en` folder into your own languages folder for 
 
 If you're ever unsure about what to translate and what not to translate, here's a quick list of tips and tricks to help you decide:
 
-* Filename references (for example, in the Atlas folder) should always be in English (e.g., "Enable Workstation.cmd").
-* Brand and product names (e.g., "Playbook", "AME Wizard", etc.) should not be translated. 
+* Filename references (for example, in the Atlas folder) should always be in English (e.g., "Enable Workstation.cmd", folder names, etc.).
+* Brand and product names (e.g., "Playbook", "AME Wizard", etc.) should not be translated.
 * Prioritize sounding natural in the language you're translating. Don't force a translation if it would be linguistically incorrect in your native language.
 * It is perfectly acceptable to use English words where a proper translation does not exist. (e.g., "open-source")
 
@@ -140,7 +145,7 @@ To begin translating the warning, checkout the example below. Check the annotati
 1. The language code in the `config.theme.language` statement should match the locale code inside of `mkdocs.yml` for your language.
 
 !!! warning "Don't delete existing languages"
-  
+
     Languages that already exist in the overrides `main.html` file should **not** be replaced. You only need to add the language that you're attempting to translate, and you'll be good to go.
 
 ## Authoring your changes
@@ -154,5 +159,5 @@ When you're ready to show off your translations to the world, submit a pull requ
 !!! warning "Remember to copy to mkdocs.insiders.yml"
 
     If you've made any changes to the "i18n" plugin section in `mkdocs.yml`, make sure you've also copied your updated changes into the `mkdocs.insiders.yml` file. Otherwise, your changes will not be included in our production builds.
-    
+
     Remember not to replace or overwrite existing languages in the configuration files. Unless they are changes specific to that language.
