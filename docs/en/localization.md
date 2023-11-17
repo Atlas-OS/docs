@@ -37,6 +37,10 @@ To create your language, navigate to the `i18n` section under "Plugins" in the `
 
 Once you've created your language, copy it to the same section but also inside `mkdocs.insiders.yml`, as this is the configuration used during website build in our production environment.
 
+!!! warning "Don't delete existing languages"
+
+  Languages that already exist in the configuration files should **not** be replaced. You only need to add a new language/local for the language you're attempting to translate, and you'll be good to go.
+
 To ensure that you have correctly configured your language within the `i18n` "Plugin" section, your language configuration should look like this:
 
 ``` yaml
@@ -101,6 +105,41 @@ Copy the original files from the `en` folder into your own languages folder for 
 !!! warning "Don't modify the file name or structure"
 
     Always use the same folder structure with the same file names as in the `en` folder as in your language. If you do not use the same folder structure and file names, your translated documentation will fail to load and build.
+
+If you're ever unsure about what to translate and what not to translate, here's a quick list of tips and tricks to help you decide:
+
+* Filename references (for example, in the Atlas folder) should always be in English (e.g., "Enable Workstation.cmd").
+* Brand and product names (e.g., "Playbook", "AME Wizard", etc.) should not be translated. 
+* Prioritize sounding natural in the language you're translating. Don't force a translation if it would be linguistically incorrect in your native language.
+* It is perfectly acceptable to use English words where a proper translation does not exist. (e.g., "open-source")
+
+## Translating the localization warning
+
+It is quite simple to translate the warning that appears at the very top of the documentation when you visit any page that is not in English.
+
+This warning bar can be found in the `overrides` directory within the `main.html` file. The warning bar can be found in its original language, English, by looking for the `{% elif config.theme.language != 'en' %}` statement inside the file.
+
+To begin translating the warning, checkout the example below. Check the annotations provided in the example to better understand how to translate the localization.
+
+```html
+    {% if config.theme.language == 'sv' %}
+            <span class="twemoji" style="color: #fbbf24;">{% include ".icons/material/alert.svg" %}</span><b> Engelska är det ursprungliga dokumentationsspråket.</b> Vi kan inte garantera att informationen är konsekvent mellan olika språk.
+        <!-- Your locale can be pasted below, starting from here -->
+        {% elif config.theme.language == 'vi' %} <!-- (1)! -->
+            <span class="twemoji" style="color: #fbbf24;">{% include ".icons/material/alert.svg" %}</span><b> Tiếng Anh là ngôn ngữ chính của tài liệu này.</b> Chúng tôi không thể đảm bảo tính đồng nhất của thông tin giữa các ngôn ngữ.
+        <!-- Your locale can NOT go below this line -->
+        {% elif config.theme.language != 'en' %}
+            <span class="twemoji" style="color: #fbbf24;">{% include ".icons/material/alert.svg" %}</span><b> English is the original documentation language.</b> We can't guarantee information consistency across languages.
+        {% else %}
+            <span class="twemoji" style="color: #38bdf8;">{% include ".icons/material/earth.svg" %}</span><b> Want to translate our documentation?</b> <a href="/localization">Read our translation guide</a>.
+    {% endif %}
+```
+
+1. The language code in the `config.theme.language` statement should match the locale code inside of `mkdocs.yml` for your language.
+
+!!! warning "Don't delete existing languages"
+  
+    Languages that already exist in the overrides `main.html` file should **not** be replaced. You only need to add the language that you're attempting to translate, and you'll be good to go.
 
 ## Authoring your changes
 
