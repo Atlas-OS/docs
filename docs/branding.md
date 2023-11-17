@@ -193,7 +193,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
     [:material-download: Download v0.3 Version 1 Wallpaper 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_9/v0.3/v1/Wallpapper%2016_9%20-%20v0.3.png)
 
-    [:material-download: Downlhoad v0.3 Version 1 Wallpaper 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3.png)
+    [:material-download: Download v0.3 Version 1 Wallpaper 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3.png)
 
     [:material-download: Download v0.3 Version 1 Wallpaper 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/v0.3/v1/Wallpapper%2021_9%20-%20v0.3.png)
 
