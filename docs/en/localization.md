@@ -9,14 +9,6 @@ icon: material/earth
     
     Please report any issues, suggestions, or comments. Please use our [Discord server](https://discord.atlasos.net) or [GitHub documentation repository](https://github.com/Atlas-OS/docs) to report issues.
 
-!!! question "Where do I push my changes during beta?"
-
-    When you're ready to share your translations with the world, please submit a pull request in [:simple-github: Atlas-OS/Docs](https://github.com/Atlas-OS/docs/pulls) to the existing `i18n` branch, which will then be merged to the domain you're currently on.
-
-!!! tip "Are you stuck?"
-
-    If you ever get stuck translating a specific section of the documentation. Don't be afraid to ask for assistance in our [Discord server](https://discord.atlasos.net) if you're trying to figure out the meaning of a specific section or word in our documentation.
-
 AtlasOS strives to make itself as user-friendly and accessible as possible. This is something we try to reinforce through our playbook, forums, Discord server, and documentation. That is why we want to make it even easier for our community to interact with and contribute to Atlas by supporting community-driven localizations and translations of our official documentation.
 
 This page will walk you through everything you need to know about translating our documentation, as well as how to properly localize our documentation.
@@ -39,6 +31,7 @@ To create your language, navigate to the `i18n` section under "Plugins" in the `
 
 * Make sure the `default` property is set to `false` — the default language should always be English.
 * When adding the `locale` code, use either the [2-letter code](https://en.wikipedia.org/wiki/ISO_639-1) (e.g. en) or the 5-character code (e.g. en_US, eg_GB) that includes the country/region/territory.
+    * You can find a list of all supported languages and their codes [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language).
 * The `name` should always be the name of the language in which it is spoken. Don't call the language after its English equivalent.
 * Always include the `site_name` property and localize "Atlas Documentation" into your language.
 
@@ -56,6 +49,8 @@ To ensure that you have correctly configured your language within the `i18n` "Pl
 ```
 
 1. Check that this value is set correctly for your language. Set the code accordingly if your language varies by country/region/territory.
+  <br><br>
+  You can find a list of all supported languages and their codes [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language).
   <br><br>
   **Source**: [https://ultrabug.github.io/mkdocs-static-i18n/setup/setting-up-languages/](https://ultrabug.github.io/mkdocs-static-i18n/setup/setting-up-languages/)
 2. The `name` should always be the name of the language in which it is spoken.
@@ -95,6 +90,10 @@ If you're not sure how to do your nav_translations to properly translate your pa
 
 ## Translating documentation
 
+!!! tip "Are you stuck?"
+
+    If you ever get stuck translating a specific section of the documentation. Don't be afraid to ask for assistance in our [Discord server](https://discord.atlasos.net) if you're trying to figure out the meaning of a specific section or word in our documentation.
+
 You can begin translating our documentation right away by creating a subfolder in the `docs` folder with your language's `locale` code. You can find the locale code in the `mkdocs.yml` file.
 
 Copy the original files from the `en` folder into your own languages folder for the documentation you want to translate. After that, you're ready to start translating.
@@ -104,5 +103,9 @@ Copy the original files from the `en` folder into your own languages folder for 
     Always use the same folder structure with the same file names as in the `en` folder as in your language. If you do not use the same folder structure and file names, your translated documentation will fail to load and build.
 
 ## Authoring your changes
+
+!!! question "Where do I push my changes during BETA?"
+
+    When you're ready to share your translations with the world, please submit a pull request in [:simple-github: Atlas-OS/Docs](https://github.com/Atlas-OS/docs/pulls) to the existing `i18n` branch, which will then be merged to the domain you're currently on.
 
 When you're ready to show off your translations to the world, submit a pull request to our [:simple-github: Atlas-OS/Docs](https://github.com/Atlas-OS/docs/pulls) repository with your files. In our [:material-handshake: Contribution Guidelines](./contributions.md), you can learn more about contributing and, in particular, contributing to our documentation.
