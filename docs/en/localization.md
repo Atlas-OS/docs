@@ -39,7 +39,7 @@ Once you've created your language, copy it to the same section but also inside `
 
 !!! warning "Don't delete existing languages"
 
-  Languages that already exist in the configuration files should **not** be replaced. You only need to add a new language/local for the language you're attempting to translate, and you'll be good to go.
+    Languages that already exist in the configuration files should **not** be replaced. You only need to add a new language/local for the language you're attempting to translate, and you'll be good to go.
 
 To ensure that you have correctly configured your language within the `i18n` "Plugin" section, your language configuration should look like this:
 
