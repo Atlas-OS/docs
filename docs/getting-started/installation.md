@@ -88,7 +88,7 @@ The following steps assume that you have a separate drive to store Atlas' instal
     !!! tip
         If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
-    1. Open Disk Management by typing `diskmgmt.msc` into the Run dialog box (Win + R), and locate your Windows drive.
+    1. Open Disk Management by typing `diskmgmt.msc` into the Run dialog box (++win+r++), and locate your Windows drive.
     2. Right-click on the temporary partition and select 'Delete Volume'.
     3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
     4. There should now be 'Unallocated' space, right-click :material-arrow-right: 'New Simple Volume'
