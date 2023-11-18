@@ -1,29 +1,26 @@
 ---
-description: Does the Microsoft Store work on AtlasOS?
+description: Does Microsoft Store work on Atlas?
 icon: material/microsoft
 ---
 
-**Yes, the Microsoft Store works seamlessly with AtlasOS right from the start.**
+**Yes, Microsoft Store works the same as on unmodified Windows.**
 
+However, currently there's an issue with unmodified Windows 10 where it ships with an outdated verison of Microsoft Store.
 
-If you encounter any issues with the Microsoft Store on AtlasOS, follow these troubleshooting steps:
+This old version is now incompatible with Microsoft's servers, and will display a yellow error on launch. Before trying the methods below, first try updating Windows until everything is latest.
 
-??? question "Why does this happen?"
-    This is a stock Windows 10 issue. Microsoft doesn't update the Windows 10 ISO on their website, so it's using an outdated Store that is now broken.
-
+## :material-store-check: Fixes
 
 === "Method 1 (Recommended)"
 
-    1. Press ++win+r++
-    2. In the **Run** box, type `wsreset -i` and press ++enter++
-    3. Wait for the store to update, this could take a while. Then, try opening the Microsoft Store again. Once it's open, head to **Downloads and Updates** and wait for the Microsoft Store to update.
-    
-    Video guide:
+    ??? tip "Video demonstration"
+        <center>
+            <video src="/assets/videos/wsreset.mp4" controls muted width="560" height="420"></video>
+        </center>
 
-    <center>
-        <video src="/assets/videos/wsreset.mp4" controls muted width="560" height="420"></video>
-    </center>
-
+    1. Press ++win+r++ to open the **Run** dialog
+    2. Type in `wsreset -i` and press ++enter++
+    3. Try opening the Microsoft Store again. Once it's open, head to **Downloads and Updates** and wait for Microsoft Store to update
 
 === "Method 2"
 
@@ -32,6 +29,5 @@ If you encounter any issues with the Microsoft Store on AtlasOS, follow these tr
     3. Paste in `9WZDNCRFJBMP` and click the tick button
     4. Scroll down until you find the files starting with `Microsoft.WindowsStore`
     5. Click on the one that has the highest version number and ends in `.msixbundle`
-    6. Double click the downloaded file, and click **Install**.
-   
-    ![msstoreappx](../../assets/images/msstoreappx.png)
+       ![msstoreappx](../../assets/images/msstoreappx.png)
+    6. Double click the downloaded file, and click **Install**
