@@ -5,6 +5,8 @@ site/
 
 # Dependencies
 node_modules/
+Pipfile
+Pipfile.lock
 
 # Logs
 npm-debug.log*
