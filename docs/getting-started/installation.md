@@ -89,7 +89,7 @@ The following steps assume that you have a separate drive to store Atlas' instal
         If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
 
     1. Open Disk Management by typing `diskmgmt.msc` into the Run dialog box (++win+r++), and locate your Windows drive.
-    2. Right click on your Windows drive (like `C:`) and click **Shrink Space**
+    2. Right-click on your Windows drive (like `C:`) and click **Shrink Space**
     3. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
     4. There should now be 'Unallocated' space, right-click :material-arrow-right: 'New Simple Volume'
     5. Go through the wizard, you can keep clicking 'Next'
@@ -99,9 +99,9 @@ The following steps assume that you have a separate drive to store Atlas' instal
     <h3>:material-harddisk-remove: Deleting the temporary partition later</h3>
 
     1. Open Disk Management by typing `diskmgmt.msc` into the Run dialog box (++win+r++), and locate your temporary 4GB partition.
-    1. Right-click :material-arrow-right: **Delete volume**
-    2. Right-click on your Windows drive :material-arrow-right: **Extend volume**
-    3. Go through the wizard, you can keep clicking 'Next'
+    2. Right-click :material-arrow-right: **Delete volume**
+    3. Right-click on your Windows drive :material-arrow-right: **Extend volume**
+    4. Go through the wizard, you can keep clicking 'Next'
 
 First, create a folder to store the Atlas installation files. Create a folder on your second drive/volume called `AtlasFiles`. We will refer to this as "your folder" in the following steps.
 
