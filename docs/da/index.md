@@ -11,9 +11,9 @@ icon: material/home
 
     ---
 
-    start op med at få AtlasOS sat op på dit system på blot et par minutter.
+    Start op med at få AtlasOS sat op på dit system på blot et par minutter.
 
-    [:octicons-arrow-right-24: Install AtlasOS](getting-started/installation.md)
+    [:octicons-arrow-right-24: Installer AtlasOS](getting-started/installation.md)
 
 -   :material-wrench:{ .lg .middle } __Efter Installation__
 

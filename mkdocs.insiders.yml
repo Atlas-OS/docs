@@ -21,6 +21,11 @@ plugins:
           default: true
           name: English
           build: true
+        - locale: da
+          default: false
+          name: Dansk
+          build: true
+          site_name: Atlas dokumentation
         - locale: sv
           name: Svenska
           build: true

@@ -208,6 +208,17 @@ plugins:
           default: true
           name: English
           build: true
+        - locale: da
+          default: false
+          name: Dansk
+          build: true
+          site_name: Atlas dokumentation
+          nav_translations:
+            Home: Hjem
+            Getting Started: Kom igang
+            Contribution Guidelines: Retningslinjer for at bidrage
+            Atlas folder: Atlas mappen
+            Configuration: Konfiguration
         - locale: sv
           name: Svenska
           build: true
