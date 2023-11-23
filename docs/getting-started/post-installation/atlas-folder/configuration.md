@@ -56,7 +56,7 @@ HAGS (Hardware-Accelerated GPU Scheduling) is a built-in feature in Windows that
 
 ## Lanman Workstation (SMB)
 
-Lanman Workstation (SMB) is a built-in feature in Windows which is used to connect to other computers that are on the same network. On Atlas, it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
+Lanman Workstation (SMB) is a built-in feature in Windows which is used to connect to other computers that are on the same network. On Atlas, it has been enabled by default. To disable it run the `Disable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
 
 ## Network Discovery
 
