@@ -21,13 +21,13 @@ By default we disable background apps in Windows, however, you may need to enabl
 
 ## Bluetooth
 
-Bluetooth is a built-in feature in Windows which allows you to connect devices to your computer. On Atlas, it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Bluetooth.cmd` file in the `Bluetooth` folder and restart.
+Bluetooth is a built-in feature in Windows that allows you to connect devices to your computer. On Atlas, it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Bluetooth.cmd` file in the `Bluetooth` folder and restart.
 
 You may need to install drivers for Bluetooth to work. [View our guide here](../../../faq-and-troubleshooting/common-questions/bluetooth-compatibility.md).
 
 ## Diagnostics and Troubleshooting
 
-Troubleshooting is a built-in feature in Windows which is used to help you troubleshoot issues with your computer. On Atlas, we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Diagnostics and Troubleshooting` folder and restart.
+Troubleshooting is a built-in feature in Windows that is used to help you troubleshoot issues with your computer. On Atlas, we have disabled it by default to avoid any tweaks being reset. To enable it just run the `Enable Troubleshooting.cmd` file in the `Diagnostics and Troubleshooting` folder and restart.
 
 ## Driver Updates
 
@@ -37,11 +37,11 @@ When you have run the desired choice, restart your device for the changes to tak
 
 ## FSO and Game Bar
 
-Game Bar is a built-in feature in Windows which is used to record your screen, take screenshots, show performance information, and more. It relies on [Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/), which is shortened to FSO.
+Game Bar is a built-in feature in Windows that is used to record your screen, take screenshots, show performance information, and more. It relies on [Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/), which is shortened to FSO.
 
 In Atlas, FSO is enabled by default, but Game Bar is removed. You can enable Game Bar support by using `Enable FSO & Game Bar.reg` and getting Game Bar from the [Microsoft Store](ms-windows-store://review/?ProductId=9NZKPSTSNW4P).
 
-If you want to disable FSO and use [Fullscreen Exclusive](https://wiki.special-k.info/en/SwapChain) instead, run `Disable FSO & Game Bar.reg` and this should fix all issues with the **Disable full-screen optimisations** compatibility option in modern Windows.
+If you want to disable FSO and use [Fullscreen Exclusive](https://wiki.special-k.info/en/SwapChain) instead, run `Disable FSO & Game Bar.reg` and this should fix all issues with the **Disable full-screen optimizations** compatibility option in modern Windows.
 ## Game Mode
 
 Game Mode is a built-in feature in Windows that aims to make your system work better for gaming-related tasks, but it can also make some games run slower.
@@ -56,11 +56,11 @@ HAGS (Hardware-Accelerated GPU Scheduling) is a built-in feature in Windows that
 
 ## Lanman Workstation (SMB)
 
-Lanman Workstation (SMB) is a built-in feature in Windows which is used to connect to other computers that are on the same network. On Atlas, it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
+Lanman Workstation (SMB) is a service that provides features like file sharing but is also required for software like AMD Ryzen Master to function. On Atlas, it has been enabled by default. To disable it run the `Disable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
 
 ## Network Discovery
 
-Network Discovery is a built-in feature in Windows which is used to discover other computers on your network. On Atlas, we have enabled it by default. To disable it just run the `Disable Network Discovery Services.cmd` file in the `Network Discovery` folder and restart.
+Network Discovery is a built-in feature in Windows that is used to discover other computers on your network. On Atlas, we have enabled it by default. To disable it just run the `Disable Network Discovery Services.cmd` file in the `Network Discovery` folder and restart.
 
 ### File Sharing
 File Sharing is a part of Network Discovery and by default is disabled. If you wish to send files across your local connection to other Windows devices, run the `Enable File Sharing.cmd` file in the `File Sharing` folder and restart.
@@ -70,7 +70,7 @@ Network Navigation pane is a part of network discovery and controls whether the 
 
 ## Notifications
 
-Notifications are a built-in feature in Windows which are used to show you notifications. On Atlas, we have enabled them by default. If you wish to disable them, run the `Disable Notifications.cmd` file in the `Notifications` folder and restart.
+Notifications are a built-in feature in Windows that is used to show you notifications. On Atlas, we have enabled them by default. If you wish to disable them, run the `Disable Notifications.cmd` file in the `Notifications` folder and restart.
 
 ## Power
 
@@ -96,15 +96,15 @@ If you wish to modify your choice after installation, you can do so through the 
 
 ### Timer Resolution
 
-Increasing the timer resolution improves precision, which is beneficial for applications that require consistent pacing or sleeping, such as multimedia applications and framerate limiters. This is at the cost of increased power consumption and is not always beneficial for all machines.
+Increasing the timer resolution improves precision, that is beneficial for applications that require consistent pacing or sleeping, such as multimedia applications and framerate limiters. This is at the cost of increased power consumption and is not always beneficial for all machines.
 
 ## Printing
 
-Printing is a built-in feature in Windows which is used to print documents. On Atlas, we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Printing.cmd` file in the `Printing` folder and restart.
+Printing is a built-in feature in Windows that is used to print documents. On Atlas, we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Printing.cmd` file in the `Printing` folder and restart.
 
 ## Search Indexing
 
-Search Indexing is a built-in feature in Windows which is used to index files on your computer. On Atlas, we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Search Indexing.cmd` file in the `Search Indexing` folder and restart.
+Search Indexing is a built-in feature in Windows that is used to index files on your computer. On Atlas, we have disabled it by default to make the system more responsive and less bloated. To enable it just run the `Enable Search Indexing.cmd` file in the `Search Indexing` folder and restart.
 
 ## Start Menu
 
