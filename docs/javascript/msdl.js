@@ -143,8 +143,8 @@ function onLanguageXhrChange() {
 
     if (prodLang) {
         let options = prodLang.options;
-        let emptyRemoved = false;
-        let englishSet = false;
+        let emptyRemoved;
+        let englishSet;
 
         for (let i = options.length - 1; i >= 0; i--) {
             let option = options[i];
