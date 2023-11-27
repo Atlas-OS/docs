@@ -70,7 +70,7 @@ Network Navigation pane is a part of network discovery and controls whether the 
 
 ## Notifications
 
-Notifications are a built-in feature in Windows that is used to show you notifications. On Atlas, we have enabled them by default. If you wish to disable them, run the `Disable Notifications.cmd` file in the `Notifications` folder and restart.
+Notifications are a built-in feature in Windows that is used to show you notifications. On Atlas, we have disabled them by default. If you wish to enable them, run the `Enable Notifications.cmd` file in the `Notifications` folder and restart.
 
 ## Power
 
