@@ -13,7 +13,7 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - Open the application and click ``Next``.
 - Make sure that only ``Display Driver`` is checked and click ``Next``.
 
-!!! warning
+!!! warning 
     If you are on a laptop, make sure that ``Optimus`` is also selected, read more info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus) 
 
 - After the driver downloaded tick the following:
