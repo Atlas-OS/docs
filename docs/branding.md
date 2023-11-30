@@ -11,7 +11,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 !!! info "Remember the brand rules"
 
-    Please read our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/Atlas@main/img/Atlas%20-%20Brand%20Guidelines.pdf) for instructions on how to properly apply all of our various branding assets when applying the AtlasOS branding.
+    Please read our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/atlas_brand_guidelines.pdf) for instructions on how to properly apply all of our various branding assets when applying the AtlasOS branding.
 
 ## Logomarks
 
