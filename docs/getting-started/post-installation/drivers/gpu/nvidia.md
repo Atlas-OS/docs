@@ -12,6 +12,10 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - Download [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall).
 - Open the application and click ``Next``.
 - Make sure that only ``Display Driver`` is checked and click ``Next``.
+
+!!! warning
+    If you are on a laptop, make sure that ``Optimus`` is also selected, read more info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus) 
+
 - After the driver downloaded tick the following:
     - Disable Installer Telemetry & Advertising
     - Perform a Clean Installation
