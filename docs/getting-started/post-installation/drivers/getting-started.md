@@ -20,6 +20,9 @@ We do not recommend installing your graphics drivers via SDIO as they can be hea
 * [AMD](../drivers/gpu/amd.md)
 * [Intel](../drivers/gpu/intel.md)
 
+!!! warning 
+    If you have integrated graphics as well as dedicated graphics, you will need to install both drivers. i.e. if you have an Intel CPU with integrated graphics with an NVIDIA GPU, you will need to install both the Intel and NVIDIA drivers. This is most commonly the case with gaming/studio laptops.
+
 ## :material-screwdriver: Snappy Driver Installer Origin
 
 Snappy Driver Installer Origin (SDIO) can help you finding drivers which are compatible with your hardware. SDIO scans your system for missing or outdated drivers and installs the most up-to-date ones for you.

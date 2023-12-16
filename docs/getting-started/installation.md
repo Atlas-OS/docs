@@ -81,6 +81,12 @@ The downloader integrated into the documentation below generates an ISO download
 <input id="msdl-session-id" type="hidden">
 </center>
 
+??? question "Windows 10 or 11?"
+
+    If you're unsure whether to install Windows 10 or 11, we unfortunately can not help decide for you due to it being a thing that depends on your PC. However, we can provide some information to help you decide.
+
+    Windows 11 typically runs better on high-end systems, whereas Windows 10 runs better on low-end systems. Personally, we recommend testing yourself to see which one runs better on your system.
+
 ## :material-download: Preparation
 
 The following steps assume that you have a separate drive to store Atlas' installation files during reinstallation. If you only have one drive, follow the steps in **"Only have one drive to store files?"** below this message, to create a new volume from your single drive.
