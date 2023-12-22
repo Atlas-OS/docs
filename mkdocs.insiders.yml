@@ -35,6 +35,9 @@ plugins:
             Contribution Guidelines: Riktlinjer för medverkan
             Branding Kit: Varumärkeskit
             Translation Guide: Översättningsguide
+            Getting Started: Kom igång
+            Post Installation: Efter installationen
+            Atlas folder: Atlas-mappen
 
   # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#built-in-privacy-plugin (Insiders)
   - privacy:

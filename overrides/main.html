@@ -1,7 +1,13 @@
 {% extends "base.html" %}
 
 {% block announce %}
-    {% if config.theme.language != 'en' %}
+    {% if config.theme.language == 'sv' %}
+            <span class="twemoji" style="color: #fbbf24;">{% include ".icons/material/alert.svg" %}</span><b> Engelska är det ursprungliga dokumentationsspråket.</b> Vi kan inte garantera att informationen är konsekvent mellan olika språk.
+        <!-- Your locale can be pasted below, starting from here -->
+        {% elif config.theme.language == 'vi' %}
+            <span class="twemoji" style="color: #fbbf24;">{% include ".icons/material/alert.svg" %}</span><b> Tiếng Anh là ngôn ngữ gốc của tài liệu này.</b> Chúng tôi không thể đảm bảo tính đồng nhất của thông tin giữa các ngôn ngữ.
+        <!-- Your locale can NOT go below this line -->
+        {% elif config.theme.language != 'en' %}
             <span class="twemoji" style="color: #fbbf24;">{% include ".icons/material/alert.svg" %}</span><b> English is the original documentation language.</b> We can't guarantee information consistency across languages.
         {% else %}
             <span class="twemoji" style="color: #38bdf8;">{% include ".icons/material/earth.svg" %}</span><b> Want to translate our documentation?</b> <a href="/localization">Read our translation guide</a>.
