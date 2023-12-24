@@ -20,11 +20,11 @@ icon: material/cogs
 
 ## :material-disc: Download an ISO
 
-An ISO is a virtual disc file, similar to a DVD, that we will use to reinstall Windows following our recommended method.
+Before installing Atlas, you need to reinstall Windows. To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
 
-The downloader integrated into the documentation below generates an ISO download link from Microsoft. It will download the latest version of Windows for Intel and AMD CPUs.
+The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel and AMD CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1). ARM ISOs have to be [built manually](https://uupdump.net/fetchupd.php?arch=arm64&ring=retail&build=22631.1).
 
-**Based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
+*We only recommend installing Windows 11 if your hardware is fully supported.*
 
 <!--
     This is based upon the Microsoft Software Download Listing website by massgravel on GitHub.
@@ -39,19 +39,15 @@ The downloader integrated into the documentation below generates an ISO download
 
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
-        !!! warning "Windows 11"
-            Atlas only supports Windows 10 22H2 and Windows 11 23H2.
 
-            The current Media Creation Tool for Windows 11 only creates 22H2, so the Windows 11 Media Creation Tool currently can't be used for Atlas.
-
-        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool and open it.
-        2. Click the `Accept` button to agree to the Microsoft license terms.
-        3. Tick `Create installation media (USB flash drive, DVD, or ISO file) for another PC`, click `Next`, and choose:
-            * Language: Desired language
-            * Edition: Windows 10
-            * Architecture: 64-bit (x64)
-        4. Choose `ISO file` option and choose the download location.
-        5. After the ISO has completed downloading, click `Finish` to end the installation.
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it
+        2. Click the **Accept** button to agree to the Microsoft license terms
+        3. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
+            - **Language:** Desired language
+            - **Edition:** Windows 10 or 11
+            - **Architecture (Windows 10 only):** 64-bit (x64)
+        4. Select the **ISO file** option and choose the download location
+        5. After the ISO has completed downloading, click **Finish**
 
 <center class="centerMsdl">
 <div class="msdl-button-container">
@@ -75,13 +71,11 @@ The downloader integrated into the documentation below generates an ISO download
 </div>
 
 <input id="msdl-session-id" type="hidden">
+
+:simple-github: **Downloader based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
+
+
 </center>
-
-??? question "Windows 10 or 11?"
-
-    If you're unsure whether to install Windows 10 or 11, we unfortunately can not help decide for you due to it being a thing that depends on your PC. However, we can provide some information to help you decide.
-
-    Windows 11 typically runs better on high-end systems, whereas Windows 10 runs better on low-end systems. Personally, we recommend testing yourself to see which one runs better on your system.
 
 ## :material-download: Preparation
 
