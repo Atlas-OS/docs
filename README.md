@@ -4,7 +4,7 @@ Atlas documentation hosted on Cloudflare Pages using Material for MkDocs.
 
 Here you can help Atlas with documentation, for now we do not have translation capabilities but they will be added in the future.
 
-**Want to contribute?** Please check out our [Contribution Guidelines](.github/CONTRIBUTING.md) and the [Atlas Contribution Guidelines](https://docs.atlasos.net/contributions) for more information.
+**Want to contribute?** Please check out our [Documentation Contribution Guidelines](.github/CONTRIBUTING.md) and the [Atlas Contribution Guidelines](https://docs.atlasos.net/contributions) for more information.
 
 ## How to make a preview build?
 
