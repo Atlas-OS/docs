@@ -8,7 +8,9 @@ icon: material/cogs
 
 !!! danger "Read before continuing"
 
-    AtlasOS complies with the Windows EULA; activation in Windows is not modified.
+    AtlasOS complies with the Windows EULA; activation in Windows is not modified. A valid legitimate license is required to install Atlas. 
+    
+    Before you buy a Windows license, make sure the seller is trusted and the key is legitimate, no matter where you buy it.
 
     It is recommended to take a look at our [FAQ page](../faq-and-troubleshooting/removed-features.md).
 
@@ -183,7 +185,9 @@ Before continuing, consider which option is right for you and keep it in mind fo
 | :material-alert-circle-outline: Ability to switch to automatic driver updates later | :material-check: Latest security and feature updates |
 
 ## :material-wrench-cog-outline: Installing AtlasOS
-
+!!! warning
+    If your Windows install is not activated, AME Wizard will require you to Activate your Windows install before continuing. This is required to install Atlas.
+    
 !!! tip
     Your previous Windows installation will be moved to a `Windows.old` folder on your Windows drive during the new installation. You can copy any necessary files from this folder before deleting it.
 
@@ -196,7 +200,7 @@ As mentioned earlier in the [Driver Updates](#driver-updates) section, there are
 3. Connect to the internet
     - If you're unable to connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) that you previously downloaded and stored in the AtlasFiles folder.
 4. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available. Also, visit the **Microsoft Store** and update all apps.
-    - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop up
+    - You will need to restart after completing updates. After restarting, check again for updates repeatedly until there are no more updates that pop up.
 5. Open `AtlasFiles` and proceed to run `AME Wizard Beta.exe`
     - Click on **Updates** at the top of the application and check for AME Wizard updates
     - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**.
