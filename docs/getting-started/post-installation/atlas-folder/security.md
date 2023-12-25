@@ -3,7 +3,8 @@ title: Security
 description: All the configurable security options in AtlasOS
 icon: material/security
 ---
-# Security
+
+# :material-security: Security
 
 !!! danger "User risk"
     Disabling security features is at **your own risk**, and you should only disable any security features if:

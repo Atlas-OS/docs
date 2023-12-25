@@ -3,7 +3,7 @@ description: How to fix missing Atlas folder on AtlasOS
 icon: material/folder-question
 ---
 
-# How to fix Atlas folder missing?
+# :material-folder-question: How to fix Atlas folder missing?
 
 **If there is not a shortcut for the folder on your desktop, you can find it here: `C:/Windows/AtlasDesktop`.**
 

@@ -1,7 +1,9 @@
 ---
-description: How to fix Itunes not recognising Apple device?
+description: How to fix iTunes not recognising Apple device?
 icon: material/apple
 ---
+
+# :material-apple: iTunes Compatibility
 
 **If iTunes is not recognizing your Apple device, it's likely a driver issue. You can fix this by downloading and installing the Apple USB Drivers.**
 

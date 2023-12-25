@@ -3,7 +3,7 @@ description: A guide on how to configure and install AMD GPU drivers in AtlasOS
 icon: simple/amd
 ---
 
-# Installing AMD graphics drivers
+# :simple-amd: Installing AMD graphics drivers
 
 We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app alternative to the manual method of stripping the drivers.
 

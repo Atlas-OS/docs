@@ -3,7 +3,7 @@ description: See the official branding & wallpapers for AtlasOS
 icon: material/palette
 ---
 
-# Official AtlasOS Branding
+# :material-palette: Official AtlasOS Branding
 
 We're proud to share our official branding assets with our community. Whether you're making a video, a website, or a presentation, you can use these assets to show your support for AtlasOS.
 

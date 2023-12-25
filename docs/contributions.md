@@ -3,7 +3,7 @@ description: The official contribution guidelines for the AtlasOS playbook
 icon: material/handshake
 ---
 
-# Contribution Guidelines
+# :material-handshake: Contribution Guidelines
 
 This page provides guidelines on how to contribute to Atlas. All contributions are much appreciated!
 

@@ -3,7 +3,7 @@ description: An overview of all advanced configuration options installed by the 
 icon: material/sign-caution
 ---
 
-# Advanced Configuration
+# :material-sign-caution: Advanced Configuration
 
 If you are not confident with your technical ability, it is recommended to avoid this section. Any misinterpretation can result in compatibility issues and other problems. Therefore, it's important to understand what you are doing and how to revert it. This section is intended for advanced users only.
 

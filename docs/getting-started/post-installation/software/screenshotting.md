@@ -4,7 +4,7 @@ description: Recommended screenshotting software for AtlasOS
 icon: material/camera
 ---
 
-# Screenshotting
+# :material-camera: Screenshotting
 
 In Windows, the Snipping Tool is not included in Atlas by default. It can be reinstalled from the Microsoft Store. However, we've kept the shortcut for quickly taking screenshots: ++win+shift+s++.
 

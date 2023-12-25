@@ -3,7 +3,7 @@ description: All Windows features removed by the AtlasOS playbook
 icon: material/file-remove
 ---
 
-## :material-delete-off: Features removed from Atlas
+# :material-delete-off: Features removed from Atlas
 
 Please do keep in mind that Atlas is made for performance and privacy, so many features and services that are not needed have been disabled for these reasons, without any easy way for enabling them. When services or features are taken away, they can cause problems with the apps you use or even with hardware, although generally unlikely. Keep this in mind before installing Atlas.
 

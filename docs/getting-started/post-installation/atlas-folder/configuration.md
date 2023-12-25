@@ -3,7 +3,7 @@ description: An overview of all general configuration options installed by the A
 icon: material/cog
 ---
 
-# Configuration
+# :material-cog: Configuration
 
 In this section, we will be presenting a comprehensive list of general configuration options that are available in the Atlas folder. It is important to note that you should only modify these configuration settings if you have a complete understanding of what you are doing or if a team member specifically requests you to do so.
 
@@ -70,7 +70,7 @@ Network Navigation pane is a part of network discovery and controls whether the 
 
 ## Notifications
 
-Notifications are a built-in feature in Windows that is used to show you notifications. On Atlas, we have enabled them by default. If you wish to disable them, run the `Disable Notifications.cmd` file in the `Notifications` folder and restart.
+Notifications are a built-in feature in Windows that is used to show you notifications. On Atlas, we have disabled them by default. If you wish to enable them, run the `Enable Notifications.cmd` file in the `Notifications` folder and restart.
 
 ## Power
 

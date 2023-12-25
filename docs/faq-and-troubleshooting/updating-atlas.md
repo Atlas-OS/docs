@@ -3,7 +3,7 @@ description: How do I update AtlasOS to the latest version?
 icon: material/microsoft-windows
 ---
 
-# How do I update AtlasOS to the latest version?
+# :material-microsoft-windows: How do I update AtlasOS to the latest version?
 
 **If you're running a version of Atlas before v0.3.0, you can NOT update.**
 
