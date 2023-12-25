@@ -112,14 +112,14 @@
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     .md-header,
     .md-tabs {
-        background-color: rgba(255, 255, 255, .6);
+        background-color: hsla(0, 0%, 100%, 0.6);
         -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
     }
 
     [data-md-color-scheme="slate"] .md-header,
     [data-md-color-scheme="slate"] .md-tabs {
-        background-color: rgba(9, 9, 11, 0.5);
+        background-color: hsla(240, 10%, 4%, 0.5);
         -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
     }
@@ -163,7 +163,7 @@ nav[class="md-tabs"] {
     .md-search__form {
         border: 1px solid var(--pg-light-border);
         background-color: var(--md-primary-fg-color) !important;
-        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, hsla(0, 0%, 0%, 0) 0px 0px 0px 0px, hsla(0, 0%, 0%, 0.02) 0px 1px 3px 0px, hsla(0, 0%, 0%, 0.02) 0px 1px 2px -1px;
+        box-shadow: hsla(0, 0%, 0%, 0) 0px 0px 0px 0px, hsla(0, 0%, 0%, 0) 0px 0px 0px 0px, hsla(0, 0%, 0%, 0.02) 0px 1px 3px 0px, hsla(0, 0%, 0%, 0.02) 0px 1px 2px -1px;
         border-radius: 6px;
         height: 1.4rem;
     }
