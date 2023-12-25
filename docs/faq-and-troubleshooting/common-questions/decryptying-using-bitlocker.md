@@ -3,7 +3,7 @@ description: A guide on how to decrypt your system drive using BitLocker
 icon: material/lock-check
 ---
 
-# Decrypting a BitLocker Encrypted Drive
+# :material-lock-check: Decrypting a BitLocker Encrypted Drive
 
 BitLocker is a powerful encryption tool pre-installed on many retail notebooks, particularly those running Windows 11. This guide will walk you through the process of decrypting your system drive (usually the `C:` drive) using BitLocker.
 

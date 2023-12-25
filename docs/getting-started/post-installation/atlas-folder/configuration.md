@@ -3,7 +3,7 @@ description: An overview of all general configuration options installed by the A
 icon: material/cog
 ---
 
-# Configuration
+# :material-cog: Configuration
 
 In this section, we will be presenting a comprehensive list of general configuration options that are available in the Atlas folder. It is important to note that you should only modify these configuration settings if you have a complete understanding of what you are doing or if a team member specifically requests you to do so.
 

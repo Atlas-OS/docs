@@ -3,7 +3,7 @@ description: A guide on how to install other drivers
 icon: material/wrench-cog-outline
 ---
 
-# What about other drivers?
+# :material-wrench-cog-outline: What about other drivers?
 
 When it comes to other drives, which includes Bluetooth, Scanners, Printer drivers we recommend to **download directly from the OEM of the device,** or use SDIO as a back up option.
 

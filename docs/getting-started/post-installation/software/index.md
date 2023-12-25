@@ -4,7 +4,7 @@ description: The recommended way to install software in AtlasOS
 icon: material/download
 ---
 
-# Installing Software
+# :material-download: Installing Software
 
 It is advisable to use package managers to install software. However, if you prefer not to use a package manager, you can install the executables directly from the internet via the official source, just as you would normally do.
 

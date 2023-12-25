@@ -2,7 +2,8 @@
 description: The Atlas recommended web browsers
 icon: material/web
 ---
-# Web Browsers
+
+# :material-web: Web Browsers
 
 In Atlas, you can choose between 4 browsers pre-installation that we have chose for user convenience and user-respectiveness. We have compiled a table below so you can decide which browser to pick.
 

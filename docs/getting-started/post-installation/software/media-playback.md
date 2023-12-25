@@ -4,7 +4,7 @@ description: Recommended media software for AtlasOS
 icon: simple/vlcmediaplayer
 ---
 
-# Media
+# :simple-vlcmediaplayer: Media
 
 We keep Windows Media Player Legacy by default, if you're looking for something else we'll cover more options in this guide.
 

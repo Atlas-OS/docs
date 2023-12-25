@@ -3,7 +3,7 @@ description: Getting started with installing drivers for AtlasOS
 icon: material/progress-download
 ---
 
-# Drivers? How do I start?
+# :material-progress-download: Drivers? How do I start?
 
 If you have installed AtlasOS through the Manual Driver Installation method, this guide will be your go-to helping hand for setting up your system with all the drivers you may need.
 

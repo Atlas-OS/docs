@@ -3,7 +3,7 @@ description: How to fix Adobe Acrobat fails to install on AtlasOS
 icon: simple/adobe
 ---
 
-# How to fix Adobe Acrobat not installing?
+# :simple-adobe: How to fix Adobe Acrobat not installing?
 
 **Printing must be enabled (via the Atlas folder) to install Adobe Acrobat correctly**
 

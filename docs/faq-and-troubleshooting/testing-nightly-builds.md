@@ -3,7 +3,7 @@ description: How can I test pre-release builds of AtlasOS?
 icon: material/test-tube
 ---
 
-# How can I test pre-release builds of AtlasOS?
+# :material-test-tube: How can I test pre-release builds of AtlasOS?
 
 **If you wish to take part in testing nightly, pre-release dev builds, you can do so by adding the "Development" Discord role to your profile.**
 

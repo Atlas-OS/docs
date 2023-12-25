@@ -3,7 +3,7 @@ description: A guide on how to configure and install NVIDIA GPU drivers in Atlas
 icon: simple/nvidia
 ---
 
-# Installing NVIDIA graphics drivers
+# :simple-nvidia: Installing NVIDIA graphics drivers
 
 We recommend using NVCleanstall, as it is a GUI alternative to manually stripping drivers.
 

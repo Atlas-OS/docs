@@ -13,3 +13,6 @@ As MkDocs uses Python, you will need to have Python and pip installed, we recomm
 Material for MkDocs has already made a page, which you can use for [Installation of Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started).
 
 Depending if you installed it locally or via a virtual envioronment, there is already a [guide on previewing](https://squidfunk.github.io/mkdocs-material/creating-your-site/#previewing-as-you-write)
+
+## Credit
+- [Hummingbot documentation](https://github.com/hummingbot/hummingbot) for many aspects of the documentation theming, such as the blurred header
