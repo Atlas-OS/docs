@@ -4,36 +4,38 @@
 /* Colour scheme */
 :root,
 [data-md-color-scheme="default"] {
-    --md-default-bg-color: rgb(250, 250, 250);
-    --md-primary-fg-color: rgb(255, 255, 255);
+    --md-default-bg-color: hsl(0, 0%, 98%);
+    --md-primary-fg-color: hsl(0, 0%, 100%);
     --md-primary-fg-color--light: hsl(209, 100%, 65%);
     --md-primary-fg-color--dark: hsl(209, 100%, 35%);
-    --md-primary-bg-color: rgba(31, 30, 30, 0.75);
-    --md-primary-bg-color--light: rgba(0, 0, 0, .54);
+    --md-primary-bg-color: hsla(0, 2%, 12%, 0.75);
+    --md-primary-bg-color--light: hsla(0, 0%, 0%, 0.54);
     --md-accent-fg-color: hsl(209, 100%, 35%);
-    --pg-light-border: rgb(229, 231, 235);
-    --hb-hero-color: rgb(45, 45, 45);
+    --pg-light-border: hsl(220, 13%, 91%);
+    --hb-hero-color: hsl(0, 0%, 18%);
 }
 :root,
 [data-md-color-scheme="slate"] {
     --md-default-bg-color: hsl(228, 11%, 9%);
-    --md-primary-fg-color: rgba(9, 9, 11, 0.5);
+    --md-primary-fg-color: hsla(240, 10%, 4%, 0.5);
     --md-primary-fg-color--light: hsl(209, 100%, 65%);
     --md-primary-fg-color--dark: hsl(209, 100%, 80%);
-    --md-primary-bg-color: rgba(0, 0, 0, .75);
-    --md-primary-bg-color--light: rgba(0, 0, 0, .54);
+    --md-primary-bg-color: hsla(0, 0%, 0%, 0.75);
+    --md-primary-bg-color--light: hsla(0, 0%, 0%, 0.54);
     --md-accent-fg-color: hsl(209, 100%, 80%);
-    --pg-light-border: rgb(47, 47, 47);
+    --pg-light-border: hsl(0, 0%, 18%);
     --hb-hero-color: hsl(209, 100%, 65%);
 }
 
 /* Gradient coming from header */
 [data-md-color-scheme="slate"] .header-gradient {
-    background: linear-gradient(to bottom, #004e9638 0%, var(--md-default-bg-color) 100%);
-    width: 100%;
-    height: 30.5vh;
-    position: absolute;
+    background: radial-gradient(70.81% 208.07% at 49.97% 160.07%,rgba(0, 78, 150, 0.18) 0%,rgba(2, 24, 45, 0) 100%);
     z-index: -99;
+    width: 100%;
+    filter: blur(100px);
+    height: 30.5vh;
+    transform: rotate(180deg);
+    position: absolute;
 }
 
 /* Remove weird gradient that appears with gradient header */
@@ -84,7 +86,7 @@
 
 [data-md-color-scheme="slate"] .md-header>*,
 [data-md-color-scheme="slate"] .md-tabs {
-    color: #fff;
+    color: hsl(0, 0%, 100%);
 }
 
 /* Cards */
@@ -100,12 +102,12 @@
 .md-header,
 .md-tabs {
     /* Unsupported blur fallback */
-    background-color: rgba(255, 255, 255, .95);
+    background-color: hsla(0, 0%, 100%, 0.95);
 }
 [data-md-color-scheme="slate"] .md-header,
 [data-md-color-scheme="slate"] .md-tabs {
     /* Unsupported blur fallback */
-    background-color: rgba(9, 9, 9, 0.95);
+    background-color: hsla(0, 0%, 4%, 0.95);
 }
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     .md-header,
@@ -161,7 +163,7 @@ nav[class="md-tabs"] {
     .md-search__form {
         border: 1px solid var(--pg-light-border);
         background-color: var(--md-primary-fg-color) !important;
-        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 1px 2px -1px;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, hsla(0, 0%, 0%, 0) 0px 0px 0px 0px, hsla(0, 0%, 0%, 0.02) 0px 1px 3px 0px, hsla(0, 0%, 0%, 0.02) 0px 1px 2px -1px;
         border-radius: 6px;
         height: 1.4rem;
     }
@@ -176,7 +178,7 @@ nav[class="md-tabs"] {
     }
 
     [data-md-toggle="search"]:checked~.md-header .md-search__output {
-        box-shadow: 0 0 .6rem rgba(0, 0, 0, .07);
+        box-shadow: 0 0 .6rem hsla(0, 0%, 0%, 0.07);
     }
 
     .md-search__input {
