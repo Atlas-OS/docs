@@ -47,20 +47,18 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: blue
       accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts
   font:
