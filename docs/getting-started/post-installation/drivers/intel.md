@@ -1,8 +1,12 @@
 ---
 description: A guide on how to configure and install Intel GPU drivers in AtlasOS
-icon: simple/intel
+icon: custom/intel-inside
 ---
 
-# :simple-intel: :simple-intel: Installing Intel graphics drivers
+# :custom-intel-inside: Installing Intel graphics drivers
 
-You can either install your drivers from [the official Intel website](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html#211969), or by using  [Snappy Driver Installer Origin (SDIO)](https://www.glenn.delahoy.com/snappy-driver-installer-origin) or another driver installer.
+In order of preference, we recommend installing your Intel graphics drivers via:
+
+1. Searching up your device/motherboard model or OEM support page
+2. [The official Intel website](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html#211969)
+3. [Snappy Driver Installer Origin (SDIO)](https://www.glenn.delahoy.com/snappy-driver-installer-origin)
