@@ -16,20 +16,17 @@ If you are unsure of the brands and drivers required for each component, you can
 ## :material-cogs: Graphics (GPU/iGPU) Drivers
 We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated. We have included installation guides for popular graphics card brands below:
 
-* [NVIDIA](../drivers/gpu/nvidia.md)
-* [AMD](../drivers/gpu/amd.md)
-* [Intel](../drivers/gpu/intel.md)
+* [NVIDIA](../drivers/nvidia.md)
+* [AMD](../drivers/amd.md)
+* [Intel](../drivers/intel.md)
 
-!!! warning 
+!!! warning
     If you have integrated graphics as well as dedicated graphics, you will need to install both drivers. i.e. if you have an Intel CPU with integrated graphics with an NVIDIA GPU, you will need to install both the Intel and NVIDIA drivers. This is most commonly the case with gaming/studio laptops.
 
-## :material-screwdriver: Snappy Driver Installer Origin
+## :material-screwdriver: Other drivers
 
-Snappy Driver Installer Origin (SDIO) can help you finding drivers which are compatible with your hardware. SDIO scans your system for missing or outdated drivers and installs the most up-to-date ones for you.
+It's important to understand that when you have chosen the **manual driver updates** path when installing AtlasOS, no drivers will be installed when needed.
 
-1. Visit [their website](https://www.glenn.delahoy.com/snappy-driver-installer-origin) and download the installer under the "Download Application" section.
-2. Extract the .zip file and open the ``x64`` file. Follow the steps in the wizard.
-    * The x64 build is the only one that works with Atlas.
-    * When prompted, select "Download indexes only". Otherwise, you'll download useless drivers.
-3. Wait for SDIO to download the indexes.
-4. Select drivers to install and press "Install" on the left.
+Assuming you have your graphics drivers installed and configured, you may need a Bluetooth driver for your speakers, printer driver, or maybe you have an external drawing tablet, etc...
+
+[We have a guide that helps you install the drivers you may need](others.md).
