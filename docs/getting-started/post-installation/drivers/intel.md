@@ -1,9 +1,9 @@
 ---
 description: A guide on how to configure and install Intel GPU drivers in AtlasOS
-icon: custom/intel-inside
+icon: custom/intel
 ---
 
-# :custom-intel-inside: Installing Intel graphics drivers
+# :custom-intel: Installing Intel graphics drivers
 
 In order of preference, we recommend installing your Intel graphics drivers via:
 
