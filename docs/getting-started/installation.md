@@ -198,6 +198,7 @@ As mentioned earlier in the [Driver Updates](#driver-updates) section, there are
 1. Copy the `AtlasFiles` from your separate drive or volume to your desktop.
 
 1. If you have chosen **Manual Driver Installation**, run `Disable Drivers Installation in Windows Update.reg` and restart
+    - Manual Driver installation requires you to set up your drivers MANUALLY. You will need to consult our post-installation guide after Atlas has been installed.
 
 1. Connect to the internet
     - If you're unable to connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) that you previously downloaded and stored in the AtlasFiles folder.
@@ -218,10 +219,18 @@ As mentioned earlier in the [Driver Updates](#driver-updates) section, there are
 
     To read more about this, view the [Security Exceptions](https://docs.ameliorated.io/guides/security-exceptions.html) docs from the Ameliorated team.
 
-Once completed, you will see the `Atlas` folder on your desktop. We guide you on how to configure your Atlas installation using this folder at the [Post Installation](post-installation/drivers/getting-started.md) part of the documentation.
+## :material-robot-happy: Finalizing your installation of AtlasOS
 
-### :material-bug-outline: Troubleshooting
-!!! tip "Need help?"
-    If you encounter any issues during installation, feel free to seek help on our [Forums](https://forum.atlasos.net) or [Discord server](https://discord.atlasos.net). We have a large community of people who care and want to help.
+You're almost finished with setting up Atlas. There are a couple more steps before you start setting up software!
 
-    We recommend viewing our [FAQ](../faq-and-troubleshooting/removed-features.md) before posting in our Discord server or Forum to reduce wait time for possible common, answered questions.
+- **Manual Driver Installation:** If this is you, go to [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up needed drivers in our recommended way.
+
+- **Automatic Driver Installation:** If this is you, you do not need to set up drivers - they are installed automatically through Windows Updates.
+
+After you've finished with your drivers, you can optionally [configure your Atlas installation](post-installation/atlas-folder/configuration.md).
+
+If you encounter any issues after installation, feel free to seek help on our [Forums](https://forum.atlasos.net) or [Discord server](https://discord.atlasos.net). We have a large community of people who care and dedicate their spare time to helping others.
+
+We recommend viewing our [FAQ](../faq-and-troubleshooting/removed-features.md) before posting in our Discord server or Forum to reduce wait time for possible common, answered questions.
+
+With all that out of the way, we hope you enjoy using AtlasOS! :material-emoticon-happy:

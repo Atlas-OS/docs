@@ -153,10 +153,9 @@ nav:
         - Security: getting-started/post-installation/atlas-folder/security.md
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
-        - Graphics:
-          - NVIDIA: getting-started/post-installation/drivers/gpu/nvidia.md
-          - AMD: getting-started/post-installation/drivers/gpu/amd.md
-          - Intel: getting-started/post-installation/drivers/gpu/intel.md
+        - NVIDIA: getting-started/post-installation/drivers/nvidia.md
+        - AMD: getting-started/post-installation/drivers/amd.md
+        - Intel: getting-started/post-installation/drivers/intel.md
         - Others: getting-started/post-installation/drivers/others.md
       - Software:
         - Index: getting-started/post-installation/software/index.md

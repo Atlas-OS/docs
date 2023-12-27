@@ -19,7 +19,7 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - After the driver downloaded tick the following:
     - Disable Installer Telemetry & Advertising
     - Perform a Clean Installation
-    - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/gpu/amd/#disable-multi-plane-overlay-mpo)
+    - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/amd/#disable-multi-plane-overlay-mpo)
     - Disable Driver Telemetry in ``Show Expert Tweaks``
     - Use method compatible with Easy-Anti-Cheat
     - Automatically accept the "driver unsigned" warning
@@ -51,12 +51,12 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
     - Perform scaling on - Display
 - Set dynamic range to ``Full`` in ``Video -> Adjust video color settings -> Advanced``
 
-## :material-numeric-0: Force P-State 0 (advanced)
+## :material-temperature-celsius: Force P-State 0 (advanced)
 
 !!! danger "Attention"
-    This will force P-State 0 on your NVIDIA card **AT ALL TIMES**, making it always run at full power. It is not recommended to set it, if you leave your computer on idle for a long time, have bad cooling or use a laptop.
+    This will force P-State 0 on your NVIDIA card **AT ALL TIMES**, making it always run at full power. It is not recommended to set it if you leave your computer idle for long periods, have poor cooling or use a laptop.
 
-Nvidia drivers force the power state for CUDA compute workloads other than real-time graphics to the lower P2 power state instead of the maximum P0 state. The difference between the two states is a lower memory clock frequency, the core clocks are identical in both states [[1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/WINDRIVERS/README.md#q-is-there-a-registry-setting-that-can-force-your-display-adapter-to-remain-at-its-highest-performance-state-pstate-p0), [2](https://forums.developer.nvidia.com/t/one-weird-trick-to-get-a-maxwell-v2-gpu-to-reach-its-max-memory-clock/40153)].
+NVIDIA drivers force the power state for CUDA compute workloads other than real-time graphics to the lower P2 power state instead of the maximum P0 state. The difference between the two states is a lower memory clock frequency, the core clocks are identical in both states [[1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/WINDRIVERS/README.md#q-is-there-a-registry-setting-that-can-force-your-display-adapter-to-remain-at-its-highest-performance-state-pstate-p0), [2](https://forums.developer.nvidia.com/t/one-weird-trick-to-get-a-maxwell-v2-gpu-to-reach-its-max-memory-clock/40153)].
 
 P-State 0 can be forced by using the following command in CMD ran as administator:
 ```bat
