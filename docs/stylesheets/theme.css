@@ -1,6 +1,9 @@
 /* Modified from https://github.com/hummingbot/hummingbot-site
    Apache-2.0 license */
 
+/* Get additional Inter font weights */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 /* Colour scheme */
 :root,
 [data-md-color-scheme="default"] {
@@ -84,10 +87,14 @@
 .md-header__topic:first-child {
     font-weight: 700;
 }
-
 .md-typeset h1 {
     font-weight: 700;
     color: var(--md-typeset-a-color);
+}
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+    font-weight: 600 !important
 }
 
 /* Correct page icon size */
