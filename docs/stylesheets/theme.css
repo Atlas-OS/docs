@@ -39,11 +39,13 @@
     position: absolute;
 }
 
-/* Remove weird gradient that appears with gradient header */
+/* Remove weird gradient that appears with gradient header
+   Not ideal as the section's label scrolls instead of being sticky */
 .md-nav--secondary .md-nav__title,
 .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
     background: none !important;
     box-shadow: none !important;
+    position: unset !important;
 }
 
 /* Customise cards */
