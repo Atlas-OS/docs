@@ -1,13 +1,13 @@
 ---
 description: A guide on how to configure and install AMD GPU drivers in AtlasOS
-icon: simple/amd
+icon: custom/amd
 ---
 
-# Installing AMD graphics drivers
+# :custom-amd: Installing AMD graphics drivers
 
 We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app alternative to the manual method of stripping the drivers.
 
-## :simple-amd: Driver Installation
+## :custom-amd: Driver Installation
 
 - Download the latest WHQL recommended driver from the [AMD Drivers and Support page](https://www.amd.com/en/support).
 - Download [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) with the name of ``RadeonSoftwareSlimmer_XXX_net48.zip``.

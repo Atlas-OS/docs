@@ -3,7 +3,7 @@ description: All troubleshooting scripts bundled in the AtlasOS playbook
 icon: material/script
 ---
 
-# Scripts in Atlas
+# :material-script: Scripts in Atlas
 
 Atlas comes with some simple scripts for fixing problems in the "Atlas" folder. These included scripts can help you find the cause of more general problems you are having and get Atlas back to its original state.
 

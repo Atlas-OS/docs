@@ -4,7 +4,7 @@ description: Recommended system information software for AtlasOS
 icon: material/information
 ---
 
-# System Information
+# :material-information: System Information
 
 System information tools provides you with information about your system, such as temperatures, CPU usage, RAM usage, and more. This information can be useful for debugging and troubleshooting issues on your system. There are various system information software choices available, so we'll break it down for you.
 

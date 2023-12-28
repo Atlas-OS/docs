@@ -3,7 +3,7 @@ description: The official contribution guidelines for the AtlasOS playbook
 icon: material/handshake
 ---
 
-# Contribution Guidelines
+# :material-handshake: Contribution Guidelines
 
 This page provides guidelines on how to contribute to Atlas. All contributions are much appreciated!
 
@@ -16,17 +16,20 @@ Alternatively, you can use the [:simple-git: Git](https://git-scm.com/) command-
 
 ## :octicons-git-commit-24: How you can contribute
 
-* [:material-pen-plus: **Atlas Playbook**](https://github.com/Atlas-OS/Atlas) - The Atlas playbook (`.apbx`) that is used in AME Wizard ([GPL-3.0](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/Atlas/blob/main/.github/CODE_OF_CONDUCT.md))
-	* Refer to the AME Wizard [:material-file-document: Documentation](https://docs.ameliorated.io/developers.html) for help
-	* You can also contribute to the `README.md` and its translations, which is the only exclusion for committing to the `main` branch
-* [:material-language-rust: **Atlas Utilities**](https://github.com/Atlas-OS/Atlas-Utilities) - General tools used in Atlas like `filepicker.exe`, made in Rust ([GPLv3](https://github.com/Atlas-OS/Atlas-Utilities/blob/main/LICENSE))
-* [:material-book-plus-multiple: **Atlas Documentation**](https://github.com/Atlas-OS/docs) - The website that you are looking at ([CC-BY-SA-4.0](https://github.com/Atlas-OS/docs/blob/master/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/docs/blob/master/.github/CODE_OF_CONDUCT.md))
-	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation-specific contribution guide as well as these contribution guidelines to setup a development environment
-	* Reading the [GitHub documentation contribution guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) might also be useful
+* [:material-pen-plus: **Atlas Playbook**](https://github.com/Atlas-OS/Atlas) - The Atlas playbook (`.apbx`) that is used in AME Wizard.
+	* ([GPLv3](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/Atlas/blob/main/.github/CODE_OF_CONDUCT.md))
+	* Read AME Wizard's [:material-file-document: Documentation](https://docs.ameliorated.io/developers.html) for help.
+
+* [:material-language-rust: **Atlas Utilities**](https://github.com/Atlas-OS/Atlas-Utilities) - General tools used in Atlas like `filepicker.exe`, made in Rust.
+	*  ([GPLv3](https://github.com/Atlas-OS/Atlas-Utilities/blob/main/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/utilities/blob/master/.github/CODE_OF_CONDUCT.md))
+
+* [:material-book-plus-multiple: **Atlas Documentation**](https://github.com/Atlas-OS/docs) - The website that you are looking at.
+	* ([:fontawesome-brands-creative-commons: CC-BY-SA-4.0](https://github.com/Atlas-OS/docs/blob/master/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/docs/blob/master/.github/CODE_OF_CONDUCT.md))
+	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation-specific contribution guide for help.
 
 These are the three main repositories to contribute to. There might also may be other repositories that fits your expertise. [Check out our GitHub organisation](https://github.com/Atlas-OS).
 
-If a repository has a specified template for pull requests or issues, please use them. Otherwise, your pull request could be closed.
+If a repository has a specified template for pull requests or issues, please use them. Otherwise, the maintainers reserve the right to close and lock your issue without further response.
 
 ## :material-chat-question: How it works
 
@@ -35,7 +38,7 @@ Each repository has a `dev` branch and a `main` or `master` branch for developme
 !!! warning
 	Make **all of your changes** to the `dev` branch of the respective repositories!
 
-	Never commit or pull request directly to the `main` branches, with the **only exception** being committing to the `main` branch on the main repository for translations.
+	Never commit or pull request directly to the `main` branches.
 
 The `dev` branch exists to ensure that only approved and high-quality changes are merged into the `main` branch.
 
@@ -66,9 +69,9 @@ Before each commit, ensure that:
 
 * Your changes comply with the overall formatting of a repository
 * There are the most minimal amount of mistakes, check grammar and anything else important
-	* For any YAML changed, please verify that it is valid before committing with [YAML Lint](https://www.yamllint.com/)
+	* For any YAML changed, please verify that it is valid before committing with [YAML Lint](https://www.yamllint.com/).
 * People would generally agree with the change
-	* If you don't know, ask people in the [Discord](https://discord.gg/atlasos) or [GitHub issues](https://github.com/Atlas-OS/Atlas/issues)
+	* If you don't know, ask people in the [:simple-discord: Discord](https://discord.gg/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues).
 
 Making sure that your commits are already to a high standard means that development will be faster and more organised. However, keep in mind that it's okay to make mistakes sometimes, as people will give feedback/reviews in your pull requests, so don't worry about it too much.
 

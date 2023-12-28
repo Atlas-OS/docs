@@ -3,7 +3,7 @@ description: Who is AtlasOS designed for?
 icon: material/head-check
 ---
 
-# Who is Atlas designed for?
+# :material-head-check: Who is Atlas designed for?
 
 **Atlas is for any enthusiast looking to improve the privacy, performance and ease of use of their Windows installation.**
 

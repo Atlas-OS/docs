@@ -3,7 +3,7 @@ description: Where can I find the Atlas ISO file?
 icon: material/disc
 ---
 
-# Where is the Atlas ISO file?
+# :material-disc: Where is the Atlas ISO file?
 
 **Atlas doesn't have an ISO file. It uses AME Wizard to modify Windows on a new live installation, applying configurations like an ISO file.**
 

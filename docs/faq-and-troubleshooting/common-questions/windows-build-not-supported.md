@@ -3,6 +3,8 @@ description: What to do if your Windows build is not supported by AtlasOS.
 icon: material/microsoft-windows-classic
 ---
 
+# :material-microsoft-windows-classic: Windows build not supported
+
 **If your current build is not supported by AtlasOS, you may need to update.**
 
 To see if your build matches the AtlasOS requirements, follow this guide:

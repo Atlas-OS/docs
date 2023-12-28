@@ -3,7 +3,7 @@ description: The official documentation for AtlasOS
 icon: material/home
 ---
 
-# Welcome to the Atlas Documentation
+# :material-home: AtlasOS Documentation
 
 <div class="grid cards" markdown>
 
@@ -19,9 +19,9 @@ icon: material/home
 
     ---
 
-    Identify and resolve common issues with your AtlasOS system.
+    Customize and tweak your AtlasOS installation to your liking.
 
-    [:octicons-arrow-right-24: Troubleshoot](getting-started/post-installation/atlas-folder/configuration.md)
+    [:octicons-arrow-right-24: Post Installation](getting-started/post-installation/atlas-folder/configuration.md)
 
 -   :material-chat-question:{ .lg .middle } __FAQ & Troubleshooting__
 
@@ -35,13 +35,13 @@ icon: material/home
 
     ---
 
-    Learn how to contribute effectively to Atlas.
+    Learn how you can contribute to AtlasOS, and do so effectively.
 
     [:octicons-arrow-right-24: Contribution Guidelines](contributions.md)
 
 </div>
 
-## :material-head-question-outline: What is Atlas?
+## :material-head-question-outline: What is AtlasOS?
 
 Atlas is an open-source, transparent project that modifies Windows to eliminate drawbacks that negatively impact gaming performance.
 

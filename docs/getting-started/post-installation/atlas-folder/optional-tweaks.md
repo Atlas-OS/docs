@@ -3,7 +3,7 @@ description: An overview of all the optional tweak scripts installed by the Atla
 icon: material/hammer
 ---
 
-# Optional Tweaks
+# :material-hammer: Optional Tweaks
 
 These are some optional tweaks that you can turn on. For example, you could change the old alt-tab to the new one or change the context menu. You can pick and choose how you like your Windows.
 

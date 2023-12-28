@@ -82,12 +82,23 @@ option {
     width: 100%;
 }
 
+.md-button {
+    color: var(--md-primary-fg-color--light) !important;
+    border-color: currentcolor !important;
+}
+
+.md-button:hover {
+    background-color: var(--md-primary-fg-color--light) !important;
+    border-color: var(--md-primary-fg-color--light) !important;
+    color: var(--md-accent-bg-color) !important;
+}
+
 .msdl-button {
     flex: 1;
     border: .1rem solid;
     border-color: currentcolor;
     border-radius: .1rem;
-    color: var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color--light);
     cursor: pointer;
     display: inline-block;
     font-weight: 700;
@@ -98,8 +109,8 @@ option {
 }
 
 .msdl-button:hover {
-    background-color: var(--md-accent-fg-color);
-    border-color: var(--md-accent-fg-color);
+    background-color: var(--md-primary-fg-color--light);
+    border-color: var(--md-primary-fg-color--light);
     color: var(--md-accent-bg-color);
 }
 

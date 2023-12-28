@@ -3,7 +3,7 @@ description: Does Bluetooth work on AtlasOS?
 icon: material/bluetooth
 ---
 
-# Does Bluetooth work on AtlasOS?
+# :material-bluetooth: Does Bluetooth work on AtlasOS?
 
 **Yes, Bluetooth is fully functional on AtlasOS. You can choose to enable or disable it during the installation process.**
 

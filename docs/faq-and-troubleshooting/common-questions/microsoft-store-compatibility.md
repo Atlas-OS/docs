@@ -3,6 +3,8 @@ description: Does Microsoft Store work on Atlas?
 icon: material/microsoft
 ---
 
+# :material-microsoft: Microsoft Store Compatibility
+
 **Yes, Microsoft Store works the same as on unmodified Windows.**
 
 However, currently there's an issue with unmodified Windows 10 where it ships with an outdated verison of Microsoft Store.
