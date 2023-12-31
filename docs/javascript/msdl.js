@@ -134,14 +134,14 @@ function onLanguageXhrChange() {
     pleaseWait.style.display = "none";
     msContent.style.display = "block";
 
-    let submitSku = document.getElementById("submit-sku");
-    submitSku.setAttribute("onClick", "getDownload();");
-    submitSku.setAttribute("class", "md-button");
-
     let prodLang = document.getElementById("product-languages");
-    prodLang.setAttribute("onChange", "updateVars();");
+    let submitSku = document.getElementById("submit-sku");
 
-    if (prodLang) {
+    if (prodLang && submitSku) {
+        submitSku.setAttribute("onClick", "getDownload();");
+        submitSku.setAttribute("class", "md-button");
+        prodLang.setAttribute("onChange", "updateVars();");
+
         let options = prodLang.options;
         let emptyRemoved;
         let englishSet;
@@ -162,6 +162,8 @@ function onLanguageXhrChange() {
                 break;
             }
         }
+    } else {
+        showError("UNEXPECTED_LANG_RESPONSE");
     }
 
     updateVars();
