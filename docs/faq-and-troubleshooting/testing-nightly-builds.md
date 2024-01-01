@@ -11,4 +11,4 @@ We love it when people want to help contribute to Atlas. If you don't know how t
 
 We often post announcements to the "Development" Discord role when we need help testing new pre-release builds which are close to public releases. If you're interested, you can [join our Discord server](https://discord.atlasos.net/) and apply the "Development" role to your profile.
 
-<img src="/assets/images/discord-development-role.png" style="border-radius:5px" />
+![The Atlas Discord server's 'Channels & Role' page, cropped onto the 'Development' role](../assets/images/discord-development-role.png)
