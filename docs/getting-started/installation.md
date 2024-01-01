@@ -10,7 +10,7 @@ icon: material/cogs
 
     AtlasOS complies with the Windows EULA; activation in Windows is not modified. To currently install AtlasOS, Windows must be activated beforehand.
 
-    It is recommended to take a look at our page on [what Atlas changes](../faq-and-troubleshooting/removed-features.md) before installing.
+    It is recommended to take a look at our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md) before installing.
 
 ## :material-clipboard-list-outline: Prerequisites
 

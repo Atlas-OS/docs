@@ -9,6 +9,6 @@ icon: material/microsoft-windows
 
 Many changes that older Atlas versions made were irreversible, meaning that updating to the latest version of Atlas does not revert those changes. This makes for an unsupported configuration, and causes stability issues.
 
-Previous versions of Atlas [have security concerns](../atlas-and-security/#legacy-versions-of-atlas), which only increases with old installations that will forever remain unpatched. These versions of Atlas are no longer supported, lack features, and lack many bug fixes.
+Previous versions of Atlas [have security concerns](atlas-and-security.md#legacy-versions-of-atlas), which only increases with old installations that will forever remain unpatched. These versions of Atlas are no longer supported, lack features, and lack many bug fixes.
 
 [:octicons-arrow-right-24: Reinstalling Windows and installing Atlas](../getting-started/installation.md)
