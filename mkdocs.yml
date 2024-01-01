@@ -14,6 +14,61 @@ copyright: >
 
 
 #
+# Navigation
+# https://www.mkdocs.org/user-guide/configuration/#nav
+#
+nav:
+  - Home:
+    - Home: index.md
+    - Contribution Guidelines: contributions.md
+    - Branding Kit: branding.md
+
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Post Installation:
+      - Atlas folder:
+        - Configuration: getting-started/post-installation/atlas-folder/configuration.md
+        - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
+        - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
+        - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
+        - Security: getting-started/post-installation/atlas-folder/security.md
+      - Drivers:
+        - Getting Started: getting-started/post-installation/drivers/getting-started.md
+        - NVIDIA: getting-started/post-installation/drivers/nvidia.md
+        - AMD: getting-started/post-installation/drivers/amd.md
+        - Intel: getting-started/post-installation/drivers/intel.md
+        - Others: getting-started/post-installation/drivers/others.md
+      - Software:
+        - Index: getting-started/post-installation/software/index.md
+        - Web Browsers: getting-started/post-installation/software/web-browsers.md
+        - Media: getting-started/post-installation/software/media-playback.md
+        - Screenshotting: getting-started/post-installation/software/screenshotting.md
+        - System Info: getting-started/post-installation/software/system-info.md
+        - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
+
+  - FAQ & Troubleshooting:
+    - What's removed?: faq-and-troubleshooting/removed-features.md
+    - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
+    - Atlas folder scripts: faq-and-troubleshooting/atlas-folder-scripts.md
+    - Atlas & Security: faq-and-troubleshooting/atlas-and-security.md
+    - Updating Atlas: faq-and-troubleshooting/updating-atlas.md
+    - Testing nightly builds: faq-and-troubleshooting/testing-nightly-builds.md
+    - Common Questions:
+      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
+      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
+      - Windows Editions: faq-and-troubleshooting/common-questions/windows-editions.md
+      - Atlas folder missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
+      - Adobe Acrobat compatibility: faq-and-troubleshooting/common-questions/adobe-acrobat.md
+      - iTunes compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
+      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
+      - Bluetooth compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
+      - Microsoft Store compatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
+      - AME Wizard virus detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
+      - Windows build not supported: faq-and-troubleshooting/common-questions/windows-build-not-supported.md
+      - Recommended Antiviruses: faq-and-troubleshooting/common-questions/recommended-antiviruses.md
+
+
+#
 # Theme Settings
 #
 theme:
@@ -132,57 +187,6 @@ extra:
       link: https://twitter.com/AtlasOS
       name: AtlasOS on Twitter
 
-
-#
-# Navigation
-# https://www.mkdocs.org/user-guide/configuration/#nav
-#
-nav:
-  - Home:
-    - Home: index.md
-    - Contribution Guidelines: contributions.md
-    - Branding Kit: branding.md
-  - Getting Started:
-    - Installation: getting-started/installation.md
-    - Post Installation:
-      - Atlas folder:
-        - Configuration: getting-started/post-installation/atlas-folder/configuration.md
-        - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
-        - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
-        - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
-        - Security: getting-started/post-installation/atlas-folder/security.md
-      - Drivers:
-        - Getting Started: getting-started/post-installation/drivers/getting-started.md
-        - NVIDIA: getting-started/post-installation/drivers/nvidia.md
-        - AMD: getting-started/post-installation/drivers/amd.md
-        - Intel: getting-started/post-installation/drivers/intel.md
-        - Others: getting-started/post-installation/drivers/others.md
-      - Software:
-        - Index: getting-started/post-installation/software/index.md
-        - Web Browsers: getting-started/post-installation/software/web-browsers.md
-        - Media: getting-started/post-installation/software/media-playback.md
-        - Screenshotting: getting-started/post-installation/software/screenshotting.md
-        - System Info: getting-started/post-installation/software/system-info.md
-        - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
-  - FAQ & Troubleshooting:
-    - What's removed?: faq-and-troubleshooting/removed-features.md
-    - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
-    - Atlas folder scripts: faq-and-troubleshooting/atlas-folder-scripts.md
-    - Atlas & Security: faq-and-troubleshooting/atlas-and-security.md
-    - Updating Atlas: faq-and-troubleshooting/updating-atlas.md
-    - Testing nightly builds: faq-and-troubleshooting/testing-nightly-builds.md
-    - Common Questions:
-      - Atlas folder missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
-      - Adobe Acrobat compatibility: faq-and-troubleshooting/common-questions/adobe-acrobat.md
-      - iTunes compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
-      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
-      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
-      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
-      - Bluetooth compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
-      - Microsoft Store compatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
-      - AME Wizard virus detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
-      - Windows build not supported: faq-and-troubleshooting/common-questions/windows-build-not-supported.md
-      - Recommended Antiviruses: faq-and-troubleshooting/common-questions/recommended-antiviruses.md
 
 #
 # Plugins
