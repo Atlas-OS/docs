@@ -5,7 +5,7 @@ icon: material/list-status
 
 # :material-list-status: Windows Editions
 
-**Atlas does not officially support or recommend Windows Home editions due its limited amount of customization, meaning some of Atlas' configuration might not apply.**
+**Atlas does not officially support or recommend Windows Home editions due to its limited amount of customization, meaning some of Atlas' configuration might not apply.**
 
 ## :material-check: What's offically supported
 
