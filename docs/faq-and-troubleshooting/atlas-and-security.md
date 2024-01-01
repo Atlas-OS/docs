@@ -34,3 +34,5 @@ We listed to the feedback, and we have taken a shift to include maintaining secu
 1. User Account Control being enabled
 1. Virtualization Based Security support
 1. Improved transparency and resources about security features
+
+There has also been many feature and stability improvements in general.
