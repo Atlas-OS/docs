@@ -18,6 +18,6 @@ Follow these steps to set up Bluetooth:
 
 3. Turn on Bluetooth and pair your device.
 
-![The Atlas 'Bluetooth' configuration folder](../../assets/images/bluetooth-script-folder.png)
+![The Atlas 'Bluetooth' configuration folder](../../assets/images/bluetooth-script-folder.webp)
 
 If these steps did not resolve your issue, try researching further into the driver you should download for your system. These are almost always the cause and are not an issue directly with AtlasOS.

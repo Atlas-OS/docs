@@ -9,4 +9,4 @@ icon: material/folder-question
 
 If you wish to have the folder on your desktop, instead of moving the main folder we recommend you create a shortcut and place it on your desktop.
 
-![The AtlasDesktop folder on an AtlasOS installation, located in the Windows folder](../../assets/images/atlasdesktop-windows-folder.png)
+![The AtlasDesktop folder on an AtlasOS installation, located in the Windows folder](../../assets/images/atlasdesktop-windows-folder.webp)

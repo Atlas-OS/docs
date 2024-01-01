@@ -31,5 +31,5 @@ This old version is now incompatible with Microsoft's servers, and will display 
     3. Paste in `9WZDNCRFJBMP` and click the tick button
     4. Scroll down until you find the files starting with `Microsoft.WindowsStore`
     5. Click on the one that has the highest version number and ends in `.msixbundle`
-       ![msstoreappx](../../assets/images/msstoreappx.png)
+       ![msstoreappx](../../assets/images/msstoreappx.webp)
     6. Double click the downloaded file, and click **Install**

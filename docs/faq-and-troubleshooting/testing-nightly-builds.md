@@ -11,4 +11,4 @@ We highly appriciate any and all contributions, and testing is [one of the many 
 
 We often post announcements to the development Discord role when we need help testing new pre-release builds, as well as small polls and development updates. If you're interested, you can [join our Discord server](https://discord.atlasos.net/) and apply the development role to your profile.
 
-![The Atlas Discord server's 'Channels & Role' page, cropped onto the 'Development' role](../assets/images/discord-development-role.png)
+![The Atlas Discord server's 'Channels & Role' page, cropped onto the 'Development' role](../assets/images/discord-development-role.webp)

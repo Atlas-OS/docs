@@ -11,4 +11,4 @@ This can be found in the Atlas folder, under configuration.
 
 This is because Adobe installs the "Adobe PDF" printer on your system. Adobe PDF is a printer driver that saves documents in a format called Adobe PDF.
 
-![The Atlas 'Printing' configuration folder](../../assets/images/printer-script-folder.png)
+![The Atlas 'Printing' configuration folder](../../assets/images/printer-script-folder.webp)
