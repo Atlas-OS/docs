@@ -105,7 +105,7 @@ First, create a folder to store the Atlas installation files. Create a folder on
 1. Go to the [Atlas downloads](https://atlasos.net/) page and download **AME Wizard** and the **Atlas Playbook**
 1. Download network drivers from your device or motherboard manufacturer's website and save them in your folder
     - This is a precaution in case your network drivers aren't included in Windows
-    - Search for your device or motherboard model, and look for an official drivers download page. If you can't find it, get the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp), and search for the official driver page of your network device instead
+    - Search for your device or motherboard model, and look for an official driver's download page. If you can't find it, get the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp), and search for the official driver page of your network device instead
 1. Extract `AtlasPlaybook_v[version].zip` into your folder
 1. Extract `AME Wizard Beta.exe` from the downloaded `AME Wizard Beta.zip` into your folder
 
@@ -120,22 +120,21 @@ First, create a folder to store the Atlas installation files. Create a folder on
     If you opt to install from a USB stick, you still need your `AtlasFiles` folder, so don't accidentally wipe it.
 
     <h3>Installing via USB</h3>
-    
+
     1. Disconnect your ethernet cable
     2. Install Windows using your USB stick
     3. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
-    
-    
+
 ??? danger "Bypassing Windows 11 Requirements (optional)"
 
     To bypass Windows 11 requirements, you can open the `Bypass Windows 11 Requirements.cmd` script in your folder before continuing.
     Before attempting to bypass the requirements, check if you can enable any BIOS settings to meet them first, such as TPM and Secure Boot.
-    
+
     :simple-windows10: We recommend using Windows 10 instead of bypassing requirements.
 
-Before proceeding, back up any necessary files to external storage or cloud platform.
+Before proceeding, back up any necessary files to an external storage or cloud platform.
 
-However, your current installation (including user data) should be copied to a `Windows.old` folder in your Windows drive on your new install. You can delete this after you have reinstalled, which will be covered later on.
+However, your current installation (including user data) should be copied to a `Windows.old` folder in your Windows drive on your new install. You can delete this after you have reinstalled it, which will be covered later on.
 
 1. Disconnect any cables providing your computer internet, such as an ethernet cable. Do not reconnect it until instructed to do so
 
@@ -145,10 +144,10 @@ However, your current installation (including user data) should be copied to a `
 
 1. Press ++win+r++ to open the Run dialog
 
-1. Type in your noted down drive letter including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
+1. Type in your noted-down drive letter including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
 1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-    - For many retail Windows 11 laptops, device encryption is default. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++ in the Run dialog. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
+    - For many retail Windows 11 laptops, device encryption is the default. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++ in the Run dialog. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
 
 
 1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
