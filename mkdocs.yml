@@ -46,6 +46,8 @@ nav:
         - Screenshotting: getting-started/post-installation/software/screenshotting.md
         - System Info: getting-started/post-installation/software/system-info.md
         - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
+      - Hardware:
+        - Resizable BAR: getting-started/post-installation/hardware/resizable-bar.md
 
   - FAQ & Troubleshooting:
     - What's removed?: faq-and-troubleshooting/removed-features.md

@@ -196,7 +196,7 @@ Your previous Windows installation has been moved to a `Windows.old` folder in y
 When you're certain all data needed has been retrieved, follow these steps to delete it:
 
 1. Open **Windows Settings** :material-arrow-right: **System** :material-arrow-right: **Storage**
-1. Click **Temporary files**, and wait for it to scan files
+1. Click **Temporary files**, and wait for it to scan your files
 1. Select **Previous version of Windows**, and then click **Remove files**
 
 ## :material-screwdriver: Driver Updates
