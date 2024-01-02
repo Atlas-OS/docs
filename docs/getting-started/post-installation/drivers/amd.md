@@ -23,7 +23,7 @@ We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app altern
         - AMD High-Definition Audio Controller
         - AMD Streaming Audio Filter Driver
 - Untick everything in the ``Scheduled Tasks`` tab.
-- Untick evertything in the ``Display Driver Components``. If you are using Audio from your monitor, do not remove ``High Definition Audio Bus``.
+- Untick everything in the ``Display Driver Components``. If you are using Audio from your monitor, do not remove ``High Definition Audio Bus``.
 - Click ``Modify Installer`` and ``Run Installer``, and then continue with driver setup as usual.
 
 ## :material-cog: Configure Radeon Software

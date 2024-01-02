@@ -10,7 +10,7 @@ We keep Windows Media Player Legacy by default, if you're looking for something 
 
 ## VLC Media Player
 
-One of the most known media players, because it does it well. It has all codecs you'll need installed and ready for playback.
+One of the most known media players, because it does it well. It has all the codecs you'll need installed and ready for playback.
 
 `winget install -e --id VideoLAN.VLC`
 
@@ -26,7 +26,7 @@ MPV is primarily meant to be used through the command line. However, we recommen
 
 ## Windows Media Player
 
-Windows Media Player is a built-in feature of Windows operating system, but it is not included in Atlas by default. It is a useful tool for playing videos and music, and it offers more advanced features than the Film & TV app. However, it does not include all codecs like MPV or VLC Media Player by default. To use Windows Media Player, you may need to install a codec expansion pack.
+Windows Media Player is a built-in feature of the Windows operating system, but it is not included in Atlas by default. It is a useful tool for playing videos and music, and it offers more advanced features than the Film & TV app. However, it does not include all codecs like MPV or VLC Media Player by default. To use Windows Media Player, you may need to install a codec expansion pack.
 
 [Download Windows Media Player](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 

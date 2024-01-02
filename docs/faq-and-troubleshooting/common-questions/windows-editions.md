@@ -7,7 +7,7 @@ icon: material/list-status
 
 **Atlas does not officially support or recommend Windows Home editions due to its limited amount of customization, meaning some of Atlas' configuration might not apply.**
 
-## :material-check: What's offically supported
+## :material-check: What's officially supported
 
 Below is an ordered list of which Windows editions Atlas supports. Keep in mind that Atlas is only officially tested with **Enterprise** and **Pro**, so those are what we recommend.
 
@@ -20,7 +20,7 @@ Below is an ordered list of which Windows editions Atlas supports. Keep in mind 
 
 ### Group Policies
 
-Most notably, **Automatic Driver Installation** cannot be disabled on Windows Home edition. 
+Most notably, **Automatic Driver Installation** cannot be disabled on Windows Home edition.
 
 It's not that the Group Policy Editor is missing in the Windows Home edition, but rather, many of the policies it controls do not apply to the Home edition. This means that even if it was present, Atlas wouldn't have the same level of customization and control over system settings as you would with Windows Pro.
 

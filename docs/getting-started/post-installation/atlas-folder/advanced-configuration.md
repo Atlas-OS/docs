@@ -48,13 +48,13 @@ This folder has scripts that can automate the installation/uninstallation of thi
 
 ### Gameutil
 
-Gameutil is our own utility that can be used to automate tasks such as setting Timer Resolution, killing Desktop Window Manager (DWM) or Explorer, disabling CPU Idle states and cleaning memory. In our GitHub repository, we have some [usage instructions & description](https://github.com/Atlas-OS/utilities/tree/dev#gameutil-rs) to help you get started.
+Gameutil is our own utility that can be used to automate tasks such as setting Timer Resolution, killing Desktop Window Manager (DWM) or Explorer, disabling CPU Idle states and cleaning memory. In our GitHub repository, we have some [usage instructions & descriptions](https://github.com/Atlas-OS/utilities/tree/dev#gameutil-rs) to help you get started.
 
 We only recommend the use of Gameutil for Windows 10, as has yet to be updated for full Windows 11 support.
 
 ### MSI Utility V3
 
-This is a utility to allows you to enable the Message Signaled Interrupts (MSI) feature on your system's devices, which may help improve performance by eliminating interrupt conflicts from multiple devices. We have a link in this folder to a forum post which further explains the performance and latency benefits of MSI mode, along with the download link for MSI Utility V3.
+This is a utility to allows you to enable the Message Signaled Interrupts (MSI) feature on your system's devices, which may help improve performance by eliminating interrupt conflicts from multiple devices. We have a link in this folder to a forum post that further explains the performance and latency benefits of MSI mode, along with the download link for MSI Utility V3.
 
 ## Wi-Fi
 

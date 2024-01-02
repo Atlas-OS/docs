@@ -96,7 +96,7 @@ If you wish to modify your choice after installation, you can do so through the 
 
 ### Timer Resolution
 
-Increasing the timer resolution improves precision, that is beneficial for applications that require consistent pacing or sleeping, such as multimedia applications and framerate limiters. This is at the cost of increased power consumption and is not always beneficial for all machines.
+Increasing the timer resolution improves precision, which is beneficial for applications that require consistent pacing or sleeping, such as multimedia applications and framerate limiters. This is at the cost of increased power consumption and is not always beneficial for all machines.
 
 ## Printing
 

@@ -69,11 +69,11 @@ Before each commit, ensure that:
 
 * Your changes comply with the overall formatting of a repository
 * There are the most minimal amount of mistakes, check grammar and anything else important
-	* For any YAML changed, please verify that it is valid before committing with [YAML Lint](https://www.yamllint.com/).
+	* For any YAML change, please verify that it is valid before committing with [YAML Lint](https://www.yamllint.com/).
 * People would generally agree with the change
 	* If you don't know, ask people in the [:simple-discord: Discord](https://discord.gg/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues).
 
-Making sure that your commits are already to a high standard means that development will be faster and more organised. However, keep in mind that it's okay to make mistakes sometimes, as people will give feedback/reviews in your pull requests, so don't worry about it too much.
+Making sure that your commits are already to a high standard means that development will be faster and more organized. However, keep in mind that it's okay to make mistakes sometimes, as people will give feedback/reviews in your pull requests, so don't worry about it too much.
 
 ### :octicons-verified-16: Commit Signature Verification
 We highly recommend setting up [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification). This marks your commits as 'Verified', indicating they come from a trusted source.
@@ -88,7 +88,7 @@ Check out this [detailed guide on setting up verified commits](https://gist.gith
 
 We recommend using [:simple-conventionalcommits: Conventional Commits](https://www.conventionalcommits.org/) in Atlas repositories for consistency and more descriptive commits. You can also take a look at [Angular's Conventional Commits](https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit) for more guidance.
 
-Conventional Commits are a type of commit message format that helps to make the commit history more readable and easier to navigate. 
+Conventional Commits are a type of commit message format that helps to make the commit history more readable and easier to navigate.
 
 *Example*: [`feat: ✨ add fAllowFullControl`](https://github.com/Atlas-OS/Atlas/commit/72cdcc7b327df19fd07e9c6eb0a10812ac6936b0)
 
