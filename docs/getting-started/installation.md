@@ -154,7 +154,7 @@ However, your current installation (including user data) should be copied to a `
 
 1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that you're legitimately activated beforehand
 
-1. Choose your edition of Windows. We strongly recommend and officially support **Windows Pro**. See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for the reasoning behind this, and which other editions are supported
+1. Choose your edition of Windows. We strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
 
 1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
