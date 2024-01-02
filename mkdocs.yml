@@ -26,7 +26,7 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
     - Post Installation:
-      - Atlas folder:
+      - Atlas Folder:
         - Configuration: getting-started/post-installation/atlas-folder/configuration.md
         - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
         - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
@@ -40,7 +40,7 @@ nav:
         - Chipset: getting-started/post-installation/drivers/chipset.md
         - Others: getting-started/post-installation/drivers/others.md
       - Software:
-        - Index: getting-started/post-installation/software/index.md
+        - Getting Started: getting-started/post-installation/software/getting-started.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
         - Media: getting-started/post-installation/software/media-playback.md
         - Screenshotting: getting-started/post-installation/software/screenshotting.md

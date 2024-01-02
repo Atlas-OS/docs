@@ -18,7 +18,7 @@ HWiNFO is a system information software that provides you with an in-depth analy
 
 `winget install -e --id REALiX.HWiNFO`
 
-[Download HWiNFO](https://www.hwinfo.com/).
+[Download HWiNFO ->](https://www.hwinfo.com/).
 
 ## CPU-Z
 
@@ -26,7 +26,7 @@ If you want to know more about your CPU, CPU-Z is for you. This tool helps check
 
 `winget install -e --id CPUID.CPU-Z`
 
-[Download CPU-Z](https://www.cpuid.com/softwares/cpu-z.html).
+[Download CPU-Z ->](https://www.cpuid.com/softwares/cpu-z.html).
 
 ## GPU-Z
 
@@ -34,7 +34,7 @@ If you want to know more about your GPU, GPU-Z is for you. This tool helps check
 
 `winget install -e --id TechPowerUp.GPU-Z`
 
-[Download GPU-Z](https://www.techpowerup.com/gpuz/).
+[Download GPU-Z ->](https://www.techpowerup.com/gpuz/).
 
 ## MSI Afterburner
 
@@ -42,4 +42,4 @@ MSI Afterburner is a software that allows you to modify your system and obtain i
 
 `winget install -e --id Guru3D.Afterburner`
 
-[MSI Afterburner](https://www.msi.com/Landing/afterburner).
+[MSI Afterburner ->](https://www.msi.com/Landing/afterburner).
