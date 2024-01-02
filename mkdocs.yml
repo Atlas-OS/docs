@@ -37,6 +37,7 @@ nav:
         - NVIDIA: getting-started/post-installation/drivers/nvidia.md
         - AMD: getting-started/post-installation/drivers/amd.md
         - Intel: getting-started/post-installation/drivers/intel.md
+        - Chipset: getting-started/post-installation/drivers/chipset.md
         - Others: getting-started/post-installation/drivers/others.md
       - Software:
         - Index: getting-started/post-installation/software/index.md
