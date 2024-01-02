@@ -16,9 +16,9 @@ If you are unsure of the brands and drivers required for each component, you can
 ## :material-cogs: Graphics (GPU/iGPU) Drivers
 We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated. We have included installation guides for popular graphics card brands below:
 
-* [NVIDIA](../drivers/nvidia.md)
-* [AMD](../drivers/amd.md)
-* [Intel](../drivers/intel.md)
+* [NVIDIA ->](../drivers/nvidia.md)
+* [AMD ->](../drivers/amd.md)
+* [Intel ->](../drivers/intel.md)
 
 !!! warning
     If you have integrated graphics as well as dedicated graphics, you will need to install both drivers. i.e. if you have an Intel CPU with integrated graphics with an NVIDIA GPU, you will need to install both the Intel and NVIDIA drivers. This is most commonly the case with gaming/studio laptops.
@@ -29,4 +29,4 @@ It's important to understand that when you have chosen the **manual driver updat
 
 Assuming you have your graphics drivers installed and configured, you may need a Bluetooth driver for your speakers, printer driver, or maybe you have an external drawing tablet, etc...
 
-[We have a guide that helps you install the drivers you may need](others.md).
+[We have a guide that helps you install the drivers you may need ->](others.md).
