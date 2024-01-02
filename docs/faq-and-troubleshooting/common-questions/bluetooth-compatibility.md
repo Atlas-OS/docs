@@ -11,7 +11,7 @@ If you're using AtlasOS and have not enabled Automatic Driver Installation, you 
 
 Follow these steps to set up Bluetooth:
 
-1. Enable Bluetooth in the Atlas folder. 
+1. Enable Bluetooth in the Atlas folder.
 
 2. Install your Bluetooth driver. You can get this from your device's OEM or follow our [SDIO guide](../../getting-started/post-installation/drivers/getting-started.md#snappy-driver-installer-origin).
     - Most issues with Bluetooth are caused by installing improper drivers. Make sure to research and find the driver that is suited for your device.

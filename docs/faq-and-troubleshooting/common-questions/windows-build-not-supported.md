@@ -18,7 +18,7 @@ To see if your build matches the AtlasOS requirements, follow this guide:
 !!! note "Latest Windows versions"
     **:material-microsoft-windows: Windows 10:**
     Version 22H2 (OS Build 19045)
-    
+
     **:material-microsoft: Windows 11:**
     Version 23H2 (OS Build 22631)
 
