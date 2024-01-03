@@ -7,9 +7,9 @@ icon: material/list-status
 
 **Atlas does not officially support or recommend Windows Home editions due to its limited amount of customization, meaning some of Atlas' configurations might not apply.**
 
-## :material-check: What's officially supported
+## :material-check: What's Officially Supported
 
-Below is an ordered list of which Windows editions Atlas supports. Keep in mind that Atlas is only officially tested with **Enterprise** and **Pro**, so those are what we recommend.
+Atlas is officially tested with Windows **Professional** and **Enterprise**. A full list of all the editions that should theoretically work without issues is below:
 
 1. Windows Pro
 1. Windows Enterprise
