@@ -9,9 +9,9 @@ In this section, we will be presenting a comprehensive list of general configura
 
 For more configuration options, check:
 
-- [Advanced Configuration](advanced-configuration.md)
-- [Optional Tweaks](optional-tweaks.md)
-- [Windows Settings](windows-settings.md)
+- [Advanced Configuration ->](advanced-configuration.md)
+- [Optional Tweaks ->](optional-tweaks.md)
+- [Windows Settings ->](windows-settings.md)
 
 All of the configuration files listed here are located in the `3. Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
 
