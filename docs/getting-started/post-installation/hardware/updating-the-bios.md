@@ -18,11 +18,10 @@ If you have an outdated BIOS version, you can even be missing settings such as [
 
 ## :material-transfer-up: How to Upgrade your BIOS
 
-!!! danger "Updating your BIOS will reset settings!"
+!!! info "Read before continuing"
     All current settings will likely be reset on a BIOS upgrade. It's also likely for profiles to be cleared, and any exported profiles to only be compatible with the BIOS version they were exported on. If you know you need any BIOS settings, note them down before continuing.
 
-!!! info "This guide is generalized"
-    Each motherboard manufacturer has a unique website layout and release process. This guide provides general instructions. If you encounter difficulties, consider searching for a guide tailored to your specific manufacturer.
+    Also, each motherboard manufacturer has a unique website layout and release process. This guide provides general instructions. If you encounter difficulties, consider searching for a guide tailored to your specific manufacturer.
 
 ### :material-vector-selection: Checking your Motherboard Model
 1. [Download HWiNFO](https://www.hwinfo.com/), open it, select **Sensors Only**, and then **Start**.
