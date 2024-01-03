@@ -14,7 +14,7 @@ Now that we understand why it's important to upgrade, we need to check how outda
 
 ## :material-clipboard-list-outline: Prerequisites
 
-- A USB stick, preferably 32GB or less
+- A USB stick, preferably smaller than 32GB
     - If you only have a USB stick larger than 32GB, it will still work but you will need to do an extra step.
 - Up to an hour for the process
 
