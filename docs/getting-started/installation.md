@@ -151,7 +151,7 @@ However, your current installation (including user data) should be copied to a `
 
 1. Right-click the previously downloaded ISO file and select **Open With** :material-arrow-right: **File Explorer** to mount it
 
-1. Open **This PC**, and note down the drive letter (e.g. `H:`) of the mounted ISO for the next step. The drive should look similar to **CCCOMA_X64FRE_EN-GB_DV9** ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji }
+1. Open **This PC**, and note down the drive letter (e.g. `H:`) of the mounted ISO for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
 
 1. Press ++win+r++ to open the Run dialog
 

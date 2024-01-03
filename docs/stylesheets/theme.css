@@ -336,5 +336,7 @@ nav[class="md-tabs"] {
 }
 
 .twemoji {
-    --md-icon-size: 1.225em !important
+    --md-icon-size: 1.225em !important;
+    height: var(--md-icon-size);
+    width: var(--md-icon-size);
 }
