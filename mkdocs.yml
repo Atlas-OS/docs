@@ -48,6 +48,7 @@ nav:
         - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
       - Hardware:
         - Updating the BIOS: getting-started/post-installation/hardware/updating-the-bios.md
+        - XMP/DOCP: getting-started/post-installation/hardware/enabling-xmp-or-docp.md
         - Resizable BAR: getting-started/post-installation/hardware/resizable-bar.md
 
   - FAQ & Troubleshooting:

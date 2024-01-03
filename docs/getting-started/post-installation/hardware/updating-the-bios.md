@@ -47,7 +47,7 @@ If you have an outdated BIOS version, you can even be missing settings such as [
     1. Many motherboards require the USB stick to be formatted to FAT32. If you don't have this option, use the [FAT32Format GUI tool](https://web.archive.org/web/20150331215614/http:/www.ridgecrop.demon.co.uk/guiformat-x64.Exe). Select the correct drive (your USB), leave the allocation size at its default setting, and click format.
 1. Once your USB stick is formatted to FAT32, transfer the .cap file or the update file for your motherboard onto the USB stick.
 
-### :material-usb-flash-drive-outline: Flashing the BIOS
+### :material-monitor-shimmer: Flashing the BIOS
 1. To boot into the BIOS, press the **BIOS Key** as your PC powers on.
     1. The ++del++ key is commonly used to access the BIOS, but it's best to look up the specific key for your motherboard.
 1. Locate the **Flash Tool** in the BIOS. Make sure you're in the **Advanced Mode**, not the **Easy Mode**.
@@ -56,5 +56,5 @@ If you have an outdated BIOS version, you can even be missing settings such as [
     1. If you can't find the flash tool, try searching online for your manufacturer's BIOS settings.
 1. Once you're on the flash page, select the file on your USB stick and proceed with flashing the BIOS with the new firmware.
 1. After the update is complete, access the BIOS again and **Restore Defaults** to apply any default settings that may have changed during the update.
-1. Remember, updating the BIOS resets your settings. You'll need to re-enable **XMP/DOOCP** for AMD or Intel motherboards, respectively, and [**Resizable BAR** if your hardware supports it](./resizable-bar.md).
-    1. Failing to re-enable **XMP/DOOCP** may result in decreased performance.
+1. Remember, updating the BIOS resets your settings. You'll need to re-enable **XMP/DOCP** for Intel or AMD motherboards, respectively, and [**Resizable BAR** if your hardware supports it](./resizable-bar.md).
+    1. Failing to re-enable **XMP/DOCP** may result in decreased performance.
