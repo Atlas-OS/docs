@@ -47,6 +47,7 @@ nav:
         - System Info: getting-started/post-installation/software/system-info.md
         - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
       - Hardware:
+        - Updating the BIOS: getting-started/post-installation/hardware/updating-the-bios.md
         - Resizable BAR: getting-started/post-installation/hardware/resizable-bar.md
 
   - FAQ & Troubleshooting:
