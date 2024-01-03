@@ -27,6 +27,7 @@ plugins:
         background_color: "#1991FF"
         color: "#FFFFFF"
         font_family: Inter
+        logo: docs/assets/brand/icon-white.svg
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors (Insiders)
   - git-committers:

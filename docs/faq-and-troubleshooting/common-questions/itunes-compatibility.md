@@ -1,5 +1,5 @@
 ---
-description: How to fix iTunes not recognising Apple device?
+description: How to fix iTunes not recognizing Apple devices?
 icon: material/apple
 ---
 
@@ -16,7 +16,7 @@ If you're using Atlas and have not enabled [Automatic Driver Installation](../..
 
 1. Download the latest Apple USB drivers from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=Apple%2C%20Inc.%20-%20USBDevice) that begins with a three-digit version number.
 
-    ![Image saying that you should only select the Apple USB driver that starts with a three digit version](../../assets/images/apple-driver-version.png)
+    ![Image saying that you should only select the Apple USB driver that starts with a three-digit version](../../assets/images/apple-driver-version.webp)
 
 2. Extract the downloaded zip file using 7-Zip or Explorer. Ignore any warnings that may appear.
 

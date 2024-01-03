@@ -15,10 +15,10 @@ When you run these files, you will go straight to the Windows Settings page for 
 
 This file will take you to the page in Windows Settings for Activation. Before you can change some of the other settings, you will need to activate Windows.
 
-Atlas requires you to Activate Windows with a valid legitimate license before performing the install. Activation is a one-time thing that you will not have to do again. 
+Atlas requires you to Activate Windows with a valid legitimate license before performing the installation. Activation is a one-time thing that you will not have to do again.
 
 !!! warning "Atlas is not pre-activated"
-    Atlas is **not** a pre-activated version of Windows. We require you to Activate Windows with a valid legitimate license before performing the install. Before you buy a Windows license, make sure the seller is trusted and the license is legitimate, no matter where you buy it.
+    Atlas is **not** a pre-activated version of Windows. We require you to Activate Windows with a valid legitimate license before performing the installation. Before you buy a Windows license, make sure the seller is trusted and the license is legitimate, no matter where you buy it.
 
 ## :material-palette-swatch-outline: Colors
 

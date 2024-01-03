@@ -11,4 +11,5 @@ Distributing ISO files violates Microsoft's End-User License Agreement (EULA) an
 
 > "For software downloads, unless expressly permitted in the accompanying License Terms or End-User License Agreement (EULA), Microsoft does not allow redistribution. You may link to the download page, but not directly to the download, from your product or website."
 
-🔗 [https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions](https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions)
+🔗 <https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions>
+

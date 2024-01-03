@@ -11,25 +11,25 @@ We recommend using RadeonSoftwareSlimmer, as it is an open-source GUI app altern
 
 - Download the latest WHQL recommended driver from the [AMD Drivers and Support page](https://www.amd.com/en/support).
 - Download [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) with the name of ``RadeonSoftwareSlimmer_XXX_net48.zip``.
-- Open the application and go to the ``Pre Install`` tab.
+- Open the application and go to the ``Pre-Install`` tab.
     - Select your installer file by clicking ``Browse`` and then confirm by double-clicking ``Next``.
-- After the extraction process, untick everyting in the ``Packages`` tab apart from:
+- After the extraction process, untick everything in the ``Packages`` tab apart from:
     - AMD Display Driver
     - AMD Settings (Required for Radeon Software)
     - These settings might be required for monitor sound:
         - AMD Audio CoProcessor Bus Driver
         - AMD Audio filter driver
         - AMD HDMI Audio driver
-        - AMD High Definition Audio Controller
+        - AMD High-Definition Audio Controller
         - AMD Streaming Audio Filter Driver
 - Untick everything in the ``Scheduled Tasks`` tab.
-- Untick evertything in the ``Display Driver Components``. If you are using Audio from your monitor, do not remove ``High Definition Audio Bus``.
+- Untick everything in the ``Display Driver Components``. If you are using Audio from your monitor, do not remove ``High Definition Audio Bus``.
 - Click ``Modify Installer`` and ``Run Installer``, and then continue with driver setup as usual.
 
 ## :material-cog: Configure Radeon Software
 
-- Open Radeon Software by right-clicking on dekstop.
-- Accept the terms and click the Settings icon in top-right.
+- Open Radeon Software by right-clicking on the desktop.
+- Accept the terms and click the Settings icon in the top-right.
 - Configure the following settings in the ``Graphics`` tab:
     - Wait for Vertical Refresh - Always Off
     - Texture Filtering Quality - Performance
@@ -48,7 +48,7 @@ rundll32 display.dll,ShowAdapterSettings 0
 
 ## :material-desktop-tower: Disable Multi-Plane Overlay (MPO)
 
-Disabling Multi-plane Overlay (MPO) can fix some desktop applications flickering or stuttering, which may occur during video playback using hardware acceleration with browsers. Blackscreens may occur when alt tabbing from games or applications to a browser that has a video on loop. Some desktop apps may flicker or stutter when resizing the window on some computers.
+Disabling Multi-plane Overlay (MPO) can fix some desktop applications flickering or stuttering, which may occur during video playback using hardware acceleration with browsers. Black screens may occur when alt-tabbing from games or applications to a browser that has a video on loop. Some desktop apps may flicker or stutter when resizing the window on some computers.
 
 MPO can be disabled by running the following command in CMD (make sure you run CMD as administrator):
 ```bat

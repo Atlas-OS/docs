@@ -16,7 +16,7 @@ Notepad++ is a text editor that is more advanced than Notepad. It allows you to 
 
 `winget install -e --id Notepad++.Notepad++`
 
-[Download Notepad++](https://notepad-plus-plus.org/)
+[Download Notepad++ ->](https://notepad-plus-plus.org/)
 
 ## Visual Studio Code
 
@@ -24,7 +24,7 @@ Visual Studio Code, also known as VSCode, is a rich text editor and Integrated D
 
 `winget install -e --id Microsoft.VisualStudioCode`
 
-[Download Visual Studio Code](ms-windows-store://pdp/?ProductId=XP9KHM4BK9FZ7Q)
+[Download Visual Studio Code ->](ms-windows-store://pdp/?ProductId=XP9KHM4BK9FZ7Q)
 
 ## VSCodium
 
@@ -32,4 +32,4 @@ VSCodium is an open-source version of Visual Studio Code without Microsoft brand
 
 `winget install -e --id VSCodium.VSCodium`
 
-[Download VSCodium](ms-windows-store://pdp/?ProductId=XP9KHM4BK9FZ7Q)
+[Download VSCodium ->](ms-windows-store://pdp/?ProductId=XP9KHM4BK9FZ7Q)

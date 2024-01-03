@@ -16,7 +16,7 @@ ShareX is an advanced tool for capturing screenshots that not only allows you to
 
 `winget install -e --id ShareX.ShareX`
 
-[Download ShareX](ms-windows-store://pdp/?ProductId=9NBLGGH4Z1SP)
+[Download ShareX ->](ms-windows-store://pdp/?ProductId=9NBLGGH4Z1SP)
 
 ## Lightshot
 
@@ -24,4 +24,4 @@ Lightshot is a lightweight and proprietary screenshot tool that enables you to c
 
 `winget install -e --id Skillbrains.Lightshot`
 
-[Download Lightshot](https://app.prntscr.com/en/index.html)
+[Download Lightshot ->](https://app.prntscr.com/en/index.html)

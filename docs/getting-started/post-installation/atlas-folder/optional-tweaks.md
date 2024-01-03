@@ -29,11 +29,11 @@ When Windows 11 refreshed the File Explorer, they introduced larger padding to t
 
 ### Folders in This PC
 
-You can change the folders that are shown by default in File Explorer's "This PC" section. By default, we've removed all of the folders in favour of Quick Access. If you wish to restore the folders, run the `Restore all folders in This PC.reg` file.
+You can change the folders that are shown by default in File Explorer's "This PC" section. By default, we've removed all of the folders in favor of Quick Access. If you wish to restore the folders, run the `Restore all folders in This PC.reg` file.
 
 ### Gallery
 
-Unique to Windows 11 is the gallary feature. In Atlas we disable by default, but if you wish to restore this, run the `Enable Gallery.reg` file.
+Unique to Windows 11 is the gallery feature. In Atlas we disable by default, but if you wish to restore this, run the `Enable Gallery.reg` file.
 
 ### Quick Access
 
@@ -47,7 +47,7 @@ You can run the `Enable Removable Drives in Sidebar.reg` file to make removable 
 
 By default, Atlas has the lock screen enabled. If you would like to disable the lock screen, you can run the `Hide Lock Screen.reg` file.
 
-## Run With Priority in context menu
+## Run With Priority in the context menu
 
 Running with priority is a feature that lets you tell a program how important it should be. By running the `Add Run With Priority In Context Menu.reg` file, you can control app priorities via the context menu (right-click menu).
 

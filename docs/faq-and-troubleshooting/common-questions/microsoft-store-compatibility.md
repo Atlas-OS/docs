@@ -5,11 +5,9 @@ icon: material/microsoft
 
 # :material-microsoft: Microsoft Store Compatibility
 
-**Yes, Microsoft Store works the same as on unmodified Windows.**
+**Yes, the Microsoft Store works the same as on unmodified Windows.**
 
-However, currently there's an issue with unmodified Windows 10 where it ships with an outdated verison of Microsoft Store.
-
-This old version is now incompatible with Microsoft's servers, and will display a yellow error on launch. Before trying the methods below, first try updating Windows until everything is latest.
+If you're experiencing issues with the Microsoft Store, these are unrelated to Atlas. However, we have some general fixes below which will restore its functionality.
 
 ## :material-store-check: Fixes
 
@@ -27,9 +25,9 @@ This old version is now incompatible with Microsoft's servers, and will display 
 === "Method 2"
 
     1. Go to [store.rg-adguard.net](https://store.rg-adguard.net)
-    2. Change the drop down on the left to **ProductID**
+    2. Change the drop-down on the left to **ProductID**
     3. Paste in `9WZDNCRFJBMP` and click the tick button
     4. Scroll down until you find the files starting with `Microsoft.WindowsStore`
     5. Click on the one that has the highest version number and ends in `.msixbundle`
-       ![msstoreappx](../../assets/images/msstoreappx.png)
-    6. Double click the downloaded file, and click **Install**
+       ![msstoreappx](../../assets/images/msstoreappx.webp)
+    6. Double-click the downloaded file, and click **Install**

@@ -13,10 +13,10 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - Open the application and click ``Next``.
 - Make sure that only ``Display Driver`` is checked and click ``Next``.
 
-!!! warning 
-    If you are on a laptop, make sure that ``Optimus`` is also selected, read more info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus) 
+!!! warning
+    If you are on a laptop, make sure that ``Optimus`` is also selected, read more info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus)
 
-- After the driver downloaded tick the following:
+- After the driver is downloaded tick the following:
     - Disable Installer Telemetry & Advertising
     - Perform a Clean Installation
     - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/amd/#disable-multi-plane-overlay-mpo)
@@ -29,7 +29,7 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 
 This section was partly based on [AMIT's documentation](https://github.com/amitxv/PC-Tuning/blob/main/docs/configure-nvidia.md)
 
-- Open the NVIDIA Control Panel by right-clicking on dekstop.
+- Open the NVIDIA Control Panel by right-clicking on the desktop.
 - Disable ``Desktop > Show Notification Tray Icon``
 - Configure the following in the ``3D Settings -> Manage 3D settings`` page:
     - Anisotropic filtering - Off
@@ -58,9 +58,9 @@ This section was partly based on [AMIT's documentation](https://github.com/amitx
 
 NVIDIA drivers force the power state for CUDA compute workloads other than real-time graphics to the lower P2 power state instead of the maximum P0 state. The difference between the two states is a lower memory clock frequency, the core clocks are identical in both states [[1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/WINDRIVERS/README.md#q-is-there-a-registry-setting-that-can-force-your-display-adapter-to-remain-at-its-highest-performance-state-pstate-p0), [2](https://forums.developer.nvidia.com/t/one-weird-trick-to-get-a-maxwell-v2-gpu-to-reach-its-max-memory-clock/40153)].
 
-P-State 0 can be forced by using the following command in CMD ran as administator:
+P-State 0 can be forced by using the following command in CMD run as administrator:
 ```bat
 for /f "tokens=*" %a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}" /t REG_SZ /s /e /f "NVIDIA" ^| findstr "HK"') do (reg add "%a" /v "DisableDynamicPstate" /t REG_DWORD /d "1" /f)
 ```
 
-After running this command, download and extract [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector). Open the tool, scroll down to ``5 - Common`` section and set ``CUDA - Force P2 State`` to OFF. Press ``Apply changes`` on the upper right corner and close the application. Restart your device.
+After running this command, download and extract [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector). Open the tool, scroll down to ``5 - Common`` section and set ``CUDA - Force P2 State`` to OFF. Press ``Apply changes`` in the upper right corner and close the application. Restart your device.
