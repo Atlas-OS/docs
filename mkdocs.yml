@@ -147,8 +147,8 @@ extra_javascript:
 
 
 extra_css:
-  - stylesheets/msdl.css
-  - stylesheets/theme.css
+  - stylesheets/msdl.v2.css
+  - stylesheets/theme.v2.css
 
 
 extra:
