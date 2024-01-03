@@ -1,5 +1,5 @@
 ---
-title: Resizable Bar
+title: Resizable BAR
 description: Guiding you to enable resizable bar on supported systems
 icon: material/transit-detour
 ---
@@ -18,13 +18,13 @@ Resizable BAR changes this by allowing your CPU to access the GPU’s entire fra
 
 If you do not meet these specifications, it's recommended to not enable the feature.
 
-## How to check if you have Resizable Bar enabled?
+## How to check if you have Resizable BAR enabled?
 
 1. [Download GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/) and open the application
-1. Check to see if **Rezisable Bar** is disabled or enabled [**GPU-Z Example**](../../../assets/images/gpu-z-resizable-bar.png).
+1. Check to see if **Rezisable BAR** is disabled or enabled [**GPU-Z Example**](../../../assets/images/gpu-z-resizable-bar.png).
     1. GPU-Z allows you to see why it's disabled. Click on **Disabled** to see more information about what you're missing.
 
-## How to enable Resizable Bar?
+## How to enable Resizable BAR?
 
 Before continuing with these steps, **we recommend to update your BIOS**. If you continue without doing so, you may find that the settings are not visible in your BIOS.
 
