@@ -6,7 +6,7 @@ icon: material/chip
 
 # :material-chip: How to Update the BIOS
 
-Updating the BIOS can benefit everyone as it can provide additional hardware support, security fixes, more configuration, and improve overall performance and stability. It also ensures security updates are applied to protect against potential threats.
+Updating the BIOS can benefit everyone as it can provide additional hardware support, security fixes, more configuration, and improve overall performance and stability.
 
 If you have an outdated BIOS version, you can even be missing settings such as [Resizable BAR](./resizable-bar.md) which is crucial to enable supporting systems to improve performance.
 
