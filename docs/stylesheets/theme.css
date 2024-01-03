@@ -1,10 +1,37 @@
-/* Modified from https://github.com/hummingbot/hummingbot-site
-   Apache-2.0 license */
+/* -------------------------------------------------------------------------------- */
+/* Modified from https://github.com/hummingbot/hummingbot-site - Apache-2.0 license */
+/* -------------------------------------------------------------------------------- */
 
-/* Get additional Inter font weights */
+/*
+   ===============================
+    Font configuration
+   ===============================
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+.md-header__topic:first-child {
+    font-weight: 700;
+}
+.md-typeset h1 {
+    font-weight: 700;
+    color: var(--md-typeset-a-color);
+}
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+    font-weight: 600 !important
+}
+.accent a {
+    font-weight: 500;
+}
 
-/* Colour scheme */
+
+/*
+   =================
+    Colour scheme
+   =================
+*/
+
 :root,
 [data-md-color-scheme="default"] {
     --md-default-bg-color: hsl(0, 0%, 98%);
@@ -31,7 +58,13 @@
     --hb-hero-color: hsl(209, 100%, 65%);
 }
 
-/* Gradient coming from header */
+
+/*
+   ===============================
+    Gradient coming from header
+   ===============================
+*/
+
 [data-md-color-scheme="slate"] .header-gradient {
     background: radial-gradient(70.81% 208.07% at 49.97% 160.07%, rgba(0, 78, 150, 0.18) 0%, rgba(2, 24, 45, 0) 100%);
     z-index: -99;
@@ -51,7 +84,15 @@
     position: unset !important;
 }
 
-/* Customise cards */
+
+/*
+   ===============================
+    Customise cards - such as
+    on Home page
+   ===============================
+*/
+
+/* Remove box shadow & border */
 .md-typeset .grid.cards>ol>li:focus-within,
 .md-typeset .grid.cards>ol>li:hover,
 .md-typeset .grid.cards>ul>li:focus-within,
@@ -62,19 +103,16 @@
     border-color: hsla(209, 100%, 65%, 0.5);
 }
 
+/* Make rounded */
 .md-typeset .grid.cards>ol>li,
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
     border-radius: 7px;
 }
 
-/* Better contrast link colors */
-[data-md-color-scheme="default"]>* {
-    --md-typeset-a-color: hsl(209, 100%, 65%);
-}
-
-[data-md-color-scheme="slate"]>* {
-    --md-typeset-a-color: hsl(209, 100%, 65%);
+/* Change colour */
+.md-typeset .grid.cards>ul>li {
+    background-color: var(--md-primary-fg-color);
 }
 
 /* Hide shadow under navigation */
@@ -83,63 +121,24 @@
     box-shadow: none;
 }
 
-/* Header font */
-.md-header__topic:first-child {
-    font-weight: 700;
-}
-.md-typeset h1 {
-    font-weight: 700;
-    color: var(--md-typeset-a-color);
-}
-.md-typeset h2,
-.md-typeset h3,
-.md-typeset h4 {
-    font-weight: 600 !important
-}
 
-/* Correct page icon size */
-.md-nav__link svg {
-    width: 22px;
-}
+/*
+   ===============================
+    Blurred header
+   ===============================
+*/
 
-/* Un-sticky sidebar without JS */
-.no-js .md-sidebar {
-    align-self: auto;
-}
-
-/* Custom header + nav */
-.md-header>*,
-.md-tabs {
-    background: none;
-}
-
-[data-md-color-scheme="slate"] .md-header>*,
-[data-md-color-scheme="slate"] .md-tabs {
-    color: hsl(0, 0%, 100%);
-}
-
-/* Cards */
-.md-typeset .grid.cards>ul>li {
-    background-color: var(--md-primary-fg-color);
-}
-
-.md-header__button {
-    color: var(--md-default-fg-color--light);
-}
-
-/* Blurred header */
+/* Unsupported blur fallback */
 .md-header,
 .md-tabs {
-    /* Unsupported blur fallback */
     background-color: hsla(0, 0%, 100%, 0.95);
 }
-
 [data-md-color-scheme="slate"] .md-header,
 [data-md-color-scheme="slate"] .md-tabs {
-    /* Unsupported blur fallback */
     background-color: hsla(0, 0%, 4%, 0.95);
 }
 
+/* Blurred header on devices which support it */
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
 
     .md-header,
@@ -157,10 +156,6 @@
     }
 }
 
-.twemoji {
-    --md-icon-size: 1.225em !important
-}
-
 /* Fix mobile search with blurred header 
    Causes a delay when opening search, not optimal */
 [data-md-scrolllock] .md-header,
@@ -168,6 +163,30 @@
     -webkit-backdrop-filter: none !important;
     backdrop-filter: none !important;
 }
+
+/* Header border */
+header[class="md-header md-header--shadow"],
+nav[class="md-tabs"] {
+    border-bottom: 1px solid var(--pg-light-border);
+}
+
+/* Make light/dark mode button less bright */
+.md-header__button {
+    color: var(--md-default-fg-color--light);
+}
+
+/* White text */
+[data-md-color-scheme="slate"] .md-header>*,
+[data-md-color-scheme="slate"] .md-tabs {
+    color: hsl(0, 0%, 100%);
+}
+
+
+/*
+   ===============================
+    Customise mobile sidebar
+   ===============================
+*/
 
 [data-md-color-scheme="slate"] .md-nav--primary .md-nav__title[for="__drawer"] {
     background-color: var(--md-primary-fg-color);
@@ -180,12 +199,16 @@
 
 [data-md-color-scheme="default"] .md-nav__source {
     background-color: var(--md-primary-fg-color--light);
+    color: white;
 }
 
-header[class="md-header md-header--shadow"],
-nav[class="md-tabs"] {
-    border-bottom: 1px solid var(--pg-light-border);
-}
+
+/*
+   ===============================
+    Customise search - make
+    it round and such
+   ===============================
+*/
 
 @media screen and (min-width: 60em) {
     .md-search__overlay {
@@ -238,212 +261,80 @@ nav[class="md-tabs"] {
     }
 }
 
-.md-tabs__link--active {
-    background:
-        radial-gradient(farthest-side, var(--md-typeset-a-color) 98%, transparent 100%) bottom right/2px 2px,
-        radial-gradient(farthest-side, var(--md-typeset-a-color) 98%, transparent 100%) bottom left /2px 2px,
-        linear-gradient(var(--md-typeset-a-color), var(--md-typeset-a-color)) bottom/calc(100% - 2px) 2px;
-    background-repeat: no-repeat;
-    background-origin: padding-box;
-    padding-bottom: 2px;
-}
+
+/*
+   ===============================
+    Customise footer
+   ===============================
+*/
 
 .md-footer {
     margin-top: 1rem;
     border-top: 1px solid var(--pg-light-border);
 }
 
-/* Wide card grids */
-.md-typeset .grid.wide {
-    grid-template-columns: repeat(2, 1fr);
-}
 
-@media (max-width: 768px) {
-    .md-typeset .grid.wide {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+/*
+   ===============================
+    Customise buttons
+   ===============================
+*/
 
-
-/* Primary buttons */
 .md-main .md-button--primary {
     color: var(--md-primary-fg-color);
     background-color: var(--hb-hero-color);
     border-color: transparent;
 }
 
-.md-typeset hr {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
 
+/*
+   ===============================
+    Customise links
+   ===============================
+*/
 
-/* Testimonial cards */
-.testimonial {
-    padding: 40px 20px;
-    border: 1px solid var(--pg-light-border);
-    border-radius: 6px;
-    background-color: var(--md-primary-fg-color);
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s; */
-
-    .quote {
-        font-size: 0.9rem;
-        font-weight: 300;
-    }
-
-    .headshot {
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        object-fit: cover;
-        /* Ensures the image keeps its aspect ratio */
-    }
-
-    .author {
-        font-weight: bold;
-        font-size: 1rem;
-    }
-
-    .logo {
-        width: 7rem;
-        /* You can adjust this based on the size you want */
-        object-fit: contain;
-        /* Ensures the logo keeps its aspect ratio */
-        transition: opacity 0.3s;
-    }
-
-    .logo:hover {
-        opacity: 0.8;
-    }
-}
-
-/* Accent color */
 .accent {
     color: var(--md-typeset-a-color);
 }
 
-.accent a {
-    font-weight: 500;
+/* Improve contrast on link colours */
+[data-md-color-scheme="default"]>* {
+    --md-typeset-a-color: hsl(209, 100%, 65%);
 }
 
-/* Centered item */
-.centered {
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
+[data-md-color-scheme="slate"]>* {
+    --md-typeset-a-color: hsl(209, 100%, 65%);
 }
 
-/* Announcement Bar */
+
+/*
+   ===============================
+    Customise announcement bar
+   ===============================
+*/
+
 .md-banner {
     background-color: var(--md-typeset-a-color);
     color: var(--md-default-bg-color);
     font-weight: 700;
 }
 
-/* Logo Grids */
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+/*
+   ===============================
+    Misc
+   ===============================
+*/
+
+/* Correct page icon size */
+.md-nav__link svg {
+    width: 22px;
 }
 
-.flex-item {
-    flex-basis: calc(50% - 10px);
+.noJs {
+    display: none
 }
 
-.flex-item img {
-    padding: 3rem 1rem;
-}
-
-/* Botcamp - 4 col grid */
-
-.botcamp>.flex-item {
-    flex-basis: calc(25% - 10px);
-    /* adjust this value for different screen sizes */
-    margin: 5px;
-}
-
-.botcamp>.flex-item img {
-    padding: 1rem 3rem;
-    width: 100%;
-    height: auto;
-}
-
-@media only screen and (min-width: 769px) {
-    .botcamp>.flex-item {
-        flex-basis: calc(25% - 10px);
-    }
-}
-
-@media (max-width: 768px) {
-    .flex-item {
-        flex-basis: calc(50% - 10px);
-    }
-
-    .botcamp>.flex-item img {
-        padding: 3rem 1rem;
-    }
-}
-
-/* Home - 3 col grid */
-
-.home>.flex-item {
-    flex-basis: calc(33% - 10px);
-    /* adjust this value for different screen sizes */
-    margin: 5px;
-}
-
-.home>.flex-item img {
-    padding: 1rem 3rem;
-    width: 100%;
-    height: auto;
-}
-
-@media only screen and (min-width: 769px) {
-    .home>.flex-item {
-        flex-basis: calc(33% - 10px);
-    }
-}
-
-@media (max-width: 768px) {
-    .home>.flex-item {
-        flex-basis: calc(50% - 10px);
-    }
-
-    .home>.flex-item img {
-        padding: 3rem 1rem;
-    }
-}
-
-
-[data-md-color-scheme="default"] .dark-logo {
-    display: none;
-}
-
-[data-md-color-scheme="slate"] .light-logo {
-    display: none;
-}
-
-/* Two Thirds Grids */
-.grid.two-thirds {
-    grid-template-columns: 2fr 1fr;
-    /* Default to 2/3 and 1/3 width columns */
-}
-
-@media (max-width: 768px) {
-    .grid.two-thirds {
-        grid-template-columns: 1fr;
-        /* All items will stack on top of each other */
-    }
-
-    /* Highlights text to link color */
-    .text-highlight {
-        color: var(--md-typeset-a-color);
-    }
-
-    /* Highlights 2nd card in a card grid to the hover state */
-    .highlight-second-card>ul>li:nth-child(2) {
-        border-color: var(--md-accent-fg-color) !important;
-    }
+.twemoji {
+    --md-icon-size: 1.225em !important
 }

@@ -25,7 +25,12 @@ icon: material/cogs
 
 Before installing Atlas, you need to reinstall Windows. To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
 
-The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel and AMD CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1). ARM ISOs have to be [built manually](https://uupdump.net/fetchupd.php?arch=arm64&ring=retail&build=22631.1).
+<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel and AMD CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span> ARM ISOs have to be [built manually](https://uupdump.net/fetchupd.php?arch=arm64&ring=retail&build=22631.1).
+
+<noscript>
+<b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
+See the alternatives below.
+</noscript>
 
 <!--
     This is based upon the Microsoft Software Download Listing website by massgravel on GitHub.
@@ -50,7 +55,7 @@ The buttons below download an ISO directly from Microsoft's servers. It gets the
         1. Select the **ISO file** option and choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
-<center class="centerMsdl">
+<center class="noJs centerMsdl">
 <div class="msdl-button-container">
     <button class="msdl-button" style="margin-right: 2px" onclick="getWindows(2935);">Download Windows 11 64-bit</button>
     <button class="msdl-button" style="margin-left: 2px" onclick="getWindows(2618);">Download Windows 10 64-bit</button>
@@ -75,6 +80,12 @@ The buttons below download an ISO directly from Microsoft's servers. It gets the
 
 :simple-github: **Downloader based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
 </center>
+
+<script>
+    var styleSheet = document.createElement("style")
+    styleSheet.innerText = '.noJs { display: revert !important }'
+    document.head.appendChild(styleSheet)
+</script>
 
 ## :material-download: Preparation
 
