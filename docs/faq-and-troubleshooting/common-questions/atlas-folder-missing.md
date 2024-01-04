@@ -1,12 +1,18 @@
 ---
-description: How to fix missing Atlas folder on AtlasOS
+description: How to fix the missing Atlas folder on AtlasOS
 icon: material/folder-question
 ---
 
-# :material-folder-question: How to fix Atlas folder missing?
+# :material-folder-question: How do I get the Atlas configuration folder back?
 
-**If there is not a shortcut for the folder on your desktop, you can find it here: `C:/Windows/AtlasDesktop`.**
+**If you deleted the Atlas configuration folder shortcut on your desktop, you can find it here: `C:\Windows\AtlasDesktop`.**
 
-If you wish to have the folder on your desktop, instead of moving the main folder we recommend you create a shortcut and place it on your desktop.
+If you wish to have the folder on your desktop, you should right-click on the folder and create a shortcut.
 
 ![The AtlasDesktop folder on an AtlasOS installation, located in the Windows folder](../../assets/images/atlasdesktop-windows-folder.webp)
+
+## What about if I can't find AtlasDesktop?
+
+You should download the **.zip** archive below, extract it, and place the `AtlasDesktop` folder in `C:\Windows` as AtlasDesktop. The link below updates upon each new Atlas release.
+
+[Download AtlasDesktop ->](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAtlas-OS%2FAtlas%2Ftree%2F0.3.2%2Fsrc%2Fplaybook%2FExecutables%2FAtlasDesktop)
