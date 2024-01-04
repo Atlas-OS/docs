@@ -124,11 +124,11 @@ First, create a folder to store the Atlas installation files. Create a folder on
 
 ## :material-microsoft-windows: Reinstalling Windows
 
-???+ info "USB Installation"
+???+ info "USB Installation (optional)"
 
-    The method listed here does not require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media). There's practically no differences between each method.
+    The method listed here **does not** require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media) if you prefer to. There are practically no differences between using one or not.
 
-    If you opt to install from a USB stick, you still need your `AtlasFiles` folder, so don't accidentally wipe it.
+    If you opt to install from a USB stick, you still need your `AtlasFiles` folder, so don't wipe it. This will go onto the USB after it's made bootable.
 
     <h3>Installing via USB</h3>
 
@@ -213,7 +213,7 @@ When you're certain all data needed has been retrieved, follow these steps to de
 ## :material-screwdriver: Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows comes with basic drivers pre-installed, some devices, such as Bluetooth devices, printers, or speakers, likely require additional drivers to function properly.
-On Atlas, there's two options for driver installation:
+On Atlas, there are two options for driver installation:
 
 | :material-download: Manual Driver Installation & Updates | :material-update: Automatic Driver Installation & Updates |
 | ------------------------------------ | --------------------------------------- |
