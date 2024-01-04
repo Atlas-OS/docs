@@ -3,7 +3,7 @@ description: Which Windows editions Atlas supports
 icon: material/list-status
 ---
 
-# :material-list-status: Windows Editions
+# :material-list-status: Which Windows edition should I use with AtlasOS?
 
 **Atlas does not officially support or recommend Windows Home editions due to its limited amount of customization, meaning some of Atlas' configurations might not apply.**
 

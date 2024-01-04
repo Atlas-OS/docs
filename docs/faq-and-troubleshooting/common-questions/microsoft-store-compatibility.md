@@ -3,7 +3,7 @@ description: Does Microsoft Store work on Atlas?
 icon: material/microsoft
 ---
 
-# :material-microsoft: Microsoft Store Compatibility
+# :material-microsoft: Does AtlasOS support the Microsoft Store?
 
 **Yes, the Microsoft Store works the same as on unmodified Windows.**
 

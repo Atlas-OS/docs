@@ -3,7 +3,7 @@ description: How to fix iTunes not recognizing Apple devices?
 icon: material/apple
 ---
 
-# :material-apple: iTunes Compatibility
+# :material-apple: Why is iTunes not recognizing my Apple device?
 
 **If iTunes is not recognizing your Apple device, it's likely a driver issue. You can fix this by downloading and installing the Apple USB Drivers.**
 
@@ -16,7 +16,7 @@ If you're using Atlas and have not enabled [Automatic Driver Installation](../..
 
 1. Download the latest Apple USB drivers from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=Apple%2C%20Inc.%20-%20USBDevice) that begins with a three-digit version number.
 
-    ![Image saying that you should only select the Apple USB driver that starts with a three-digit version](../../assets/images/apple-driver-version.webp)
+    ![You should only select the Apple USB driver that starts with a three-digit version](../../assets/images/apple-driver-version.webp)
 
 2. Extract the downloaded zip file using 7-Zip or Explorer. Ignore any warnings that may appear.
 

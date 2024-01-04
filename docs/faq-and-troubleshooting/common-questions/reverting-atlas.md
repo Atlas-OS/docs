@@ -3,9 +3,9 @@ description: How do I return to Windows after installing AtlasOS?
 icon: material/microsoft-windows
 ---
 
-# :material-microsoft-windows: How do I return to Windows after installing AtlasOS?
+# :material-microsoft-windows: How do I revert AtlasOS' changes?
 
-**You'll need to reinstall Windows to revert Atlas' modification.**
+**You'll need to reinstall Windows to revert Atlas' modifications.**
 
 This is required because our installation instructions on our documentation guide you to reinstall Windows (deleting your previous install), and then, install Atlas.
 
