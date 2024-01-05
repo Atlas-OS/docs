@@ -13,7 +13,7 @@ icon: material/home
 
     Get started with setting up AtlasOS on your system in just a few minutes.
 
-    [:octicons-arrow-right-24: Install AtlasOS](getting-started/installation.md)
+    [-> Install AtlasOS](getting-started/installation.md)
 
 -   :material-wrench:{ .lg .middle } __Post Installation__
 
@@ -21,7 +21,7 @@ icon: material/home
 
     Customize and tweak your AtlasOS installation to your liking.
 
-    [:octicons-arrow-right-24: Post Installation](getting-started/post-installation/atlas-folder/configuration.md)
+    [-> Post Installation](getting-started/post-installation/atlas-folder/configuration.md)
 
 -   :material-chat-question:{ .lg .middle } __FAQ & Troubleshooting__
 
@@ -29,7 +29,7 @@ icon: material/home
 
     Get the answer to any frequently asked questions regarding AtlasOS.
 
-    [:octicons-arrow-right-24: Visit FAQ](faq-and-troubleshooting/removed-features.md)
+    [-> Visit FAQ](faq-and-troubleshooting/removed-features.md)
 
 -   :material-git:{ .lg .middle } __Contribution Guidelines__
 
@@ -37,7 +37,7 @@ icon: material/home
 
     Learn how you can contribute to AtlasOS, and do so effectively.
 
-    [:octicons-arrow-right-24: Contribution Guidelines](contributions.md)
+    [-> Contribution Guidelines](contributions.md)
 
 </div>
 

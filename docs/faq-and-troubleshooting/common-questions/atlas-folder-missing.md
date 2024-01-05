@@ -15,4 +15,4 @@ If you wish to have the folder on your desktop, you should right-click on the fo
 
 You should download the **.zip** archive below, extract it, and place the `AtlasDesktop` folder in `C:\Windows` as AtlasDesktop. The link below updates upon each new Atlas release.
 
-[Download AtlasDesktop ->](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAtlas-OS%2FAtlas%2Ftree%2F0.3.2%2Fsrc%2Fplaybook%2FExecutables%2FAtlasDesktop)
+[Download AtlasDesktop -->](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAtlas-OS%2FAtlas%2Ftree%2F0.3.2%2Fsrc%2Fplaybook%2FExecutables%2FAtlasDesktop)
