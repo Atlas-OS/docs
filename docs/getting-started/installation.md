@@ -87,53 +87,20 @@ See the alternatives below.
     document.head.appendChild(styleSheet)
 </script>
 
-## :material-download: Preparation
-
-The following steps assume that you have a separate drive to store Atlas' installation files during reinstallation. If you only have one drive, follow the steps in **"Only have one drive to store files?"** below this message to create a new partition on your single drive for Atlas' files.
-
-??? question "Only have one drive to store files?"
-
-    !!! tip
-        If you run into any issues with Disk Management, you can alternatively use [Macroit Partition Expert Free Edition](https://macrorit.com/partition-magic-manager/free-edition.html).
-
-    1. Open Disk Management by typing `diskmgmt.msc` into the Run dialog box (++win+r++), and locate your Windows drive.
-    1. Right-click on your Windows drive (like `C:`) and click **Shrink Space**
-    1. Type `4000` in the amount of space to shrink (in megabytes), which is 4GB
-    1. There should now be 'Unallocated' space, right-click :material-arrow-right: 'New Simple Volume'
-    1. Go through the wizard, you can keep clicking 'Next'
-
-    After following these steps, you should have a new storage device in your File Explorer. You can now continue with the rest of the steps.
-
-    <h3>:material-harddisk-remove: Deleting the temporary partition later</h3>
-
-    1. Open Disk Management by typing `diskmgmt.msc` into the Run dialog box (++win+r++), and locate your temporary 4GB partition.
-    1. Right-click :material-arrow-right: **Delete volume**
-    1. Right-click on your Windows drive :material-arrow-right: **Extend volume**
-    1. Go through the wizard, you can keep clicking 'Next'
-
-First, create a folder to store the Atlas installation files. Create a folder on your second drive/volume called `AtlasFiles`. We will refer to this as "your folder" in the following steps.
-
-1. Go to the [Atlas downloads](https://atlasos.net/) page and download **AME Wizard** and the **Atlas Playbook**
-1. Download network drivers from your device or motherboard manufacturer's website and save them in your folder
-    - This is a precaution in case your network drivers aren't included in Windows
-    - Search for your device or motherboard model, and look for an official driver's download page. If you can't find it, get the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp), and search for the official driver page of your network device instead
-1. Extract `AtlasPlaybook_v[version].zip` into your folder
-1. Extract `AME Wizard Beta.exe` from the downloaded `AME Wizard Beta.zip` into your folder
-
-**You should now have an `AtlasFiles` folder with all the files you need on your external drive/volume.**
-
 ## :material-microsoft-windows: Reinstalling Windows
 
 ???+ info "USB Installation (optional)"
 
     The method listed here **does not** require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media) if you prefer to. There are practically no differences between using one or not.
 
-    If you opt to install from a USB stick, you still need your `AtlasFiles` folder, so don't wipe it. This will go onto the USB after it's made bootable.
-
     <h3>Installing via USB</h3>
 
-    1. Disconnect your ethernet cable
+    1. If you use an ethernet cable, disconnect it now.
+
+        - Do not connect to the internet until instructed to.
+
     2. Install Windows using your USB stick
+
     3. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
 ??? danger "Bypassing Windows 11 Requirements (optional)"
@@ -201,15 +168,6 @@ After completing this step, you should be at the desktop, without an internet co
         <p>Credit to [@amitxv](https://github.com/amitxv) for the video demonstration.<p>
     </center>
 
-### :material-microsoft-windows-classic: Your old Windows installation
-Your previous Windows installation has been moved to a `Windows.old` folder in your Windows drive. This contains all of your old Windows user data, meaning that you can retrieve any data you may need from it.
-
-When you're certain all data needed has been retrieved, follow these steps to delete it:
-
-1. Open **Windows Settings** :material-arrow-right: **System** :material-arrow-right: **Storage**
-1. Click **Temporary files**, and wait for it to scan your files
-1. Select **Previous version of Windows**, and then click **Remove files**
-
 ## :material-screwdriver: Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows comes with basic drivers pre-installed, some devices, such as Bluetooth devices, printers, or speakers, likely require additional drivers to function properly.
@@ -222,32 +180,65 @@ On Atlas, there are two options for driver installation:
 | :material-check: Full control over your driver versions | :material-check-all: Latest security & feature updates automatically |
 | :material-alert-circle-outline: You will likely need to get drivers for new devices | :material-check: Almost never having to manually get drivers |
 
-Before continuing, consider which option is right for you and keep it in mind for future steps. You can switch between each later [in the Atlas configuration folder](post-installation/atlas-folder/configuration.md#driver-updates), although switching to Manual Driver Installation will not uninstall automatically installed drivers.
-
 ## :material-wrench-cog-outline: Installing AtlasOS
 
-1. Copy the AtlasFiles folder from your separate drive or volume to your desktop
 
-1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` and restart
+### Driver Updates
 
-1. Connect to the internet. If you're unable to connect to the internet, [install the network adapter driver](https://www.techspot.com/community/topics/how-to-install-a-driver-when-theres-no-installation-exe-file-to-run.171861/) that you previously downloaded and stored in the AtlasFiles folder
+You should be aware of Automatic Driver Installation vs Manual Driver Installation from [the section above](#driver-updates).
 
-1. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available. Also, visit the **Microsoft Store** and update all apps
+**Choose the option you wish to install with...**
 
-1. Restart after updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
+=== "Automatic Driver Installation (easier)"
+    You should now connect your device to the internet.
 
-1. Open `AtlasFiles` and proceed to run `AME Wizard Beta.exe`
+=== "Manual Driver Installation (advanced, less bloat)"
+    **Don't connect to the internet yet, follow these steps**
+
+    1. Open **Settings**, and go to the **Windows Update**
+
+    1. Temporarily **Pause Updates** for at least 1 week
+
+    1. **Connect your device to the internet (Ethernet/Wi-Fi)**
+
+### AAA
+
+1. Using **Microsoft Edge** go to our [Official Website](https://atlasos.net) and download **AME Wizard** and **Atlas Playbook**.
+
+1. Extract both zipped folders to your desktop for ease of use.
+
+1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the **Atlas Playbook folder** and restart.
+
+1. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available.
+
+    - If you had chosen **Manual Driver Installation**, you should un-pause Windows Updates to follow this step.
+
+1. Open the **Microsoft Store** and update all apps that have pending updates.
+
+1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up.
+
+1. Open `AME Wizard Beta.exe` from the AME Wizard folder
     - Click on **Updates** at the top of the application and check for AME Wizard updates
-    - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**
+    - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**.
 
-1. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the `AtlasFiles` folder
+1. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the Atlas Playbook folder.
 
-1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
+1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS.
 
 !!! danger "AME Wizard closing and/or being deleted?"
     To prevent Windows Defender from closing and deleting AME Wizard, you should add AME Wizard to the exclusion list in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used by many people yet.
 
     To read more about this, view the [Security Exceptions](https://docs.ameliorated.io/guides/security-exceptions.html) docs from the Ameliorated team.
+
+### :material-microsoft-windows-classic: Your old Windows installation
+
+Your previous Windows installation has been moved to a `Windows.old` folder in your Windows drive. This contains all of your old Windows user data, meaning that you can retrieve any data you may need from it.
+
+When you're certain all data needed has been retrieved, follow these steps to delete it:
+
+1. Open **Windows Settings** :material-arrow-right: **System** :material-arrow-right: **Storage**
+1. Click **Temporary files**, and wait for it to scan your files
+1. Select **Previous version of Windows**, and then click **Remove files**
 
 ## :material-robot-happy: Finalizing your installation of AtlasOS
 
