@@ -54,23 +54,24 @@ nav:
   - FAQ & Troubleshooting:
     - What's removed?: faq-and-troubleshooting/removed-features.md
     - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
-    - Atlas Folder Scripts: faq-and-troubleshooting/atlas-folder-scripts.md
-    - Atlas & Security: faq-and-troubleshooting/atlas-and-security.md
-    - Updating Atlas: faq-and-troubleshooting/updating-atlas.md
-    - Testing Nightly Builds: faq-and-troubleshooting/testing-nightly-builds.md
     - Common Questions:
-      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
-      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
-      - Windows Editions: faq-and-troubleshooting/common-questions/windows-editions.md
+      - Acrobat Compatibility: faq-and-troubleshooting/common-questions/acrobat-compatibility.md
+      - AME Wizard Deleted: faq-and-troubleshooting/common-questions/ame-wizard-deleted.md
+      - Atlas and Security: faq-and-troubleshooting/common-questions/atlas-and-security.md
       - Atlas Folder Missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
-      - Adobe Acrobat Compatibility: faq-and-troubleshooting/common-questions/adobe-acrobat.md
-      - iTunes Compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
-      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
+      - Atlas Folder Scripts: faq-and-troubleshooting/common-questions/atlas-folder-scripts.md
+      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
       - Bluetooth Compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
-      - Microsoft Store Compatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
-      - AME Wizard Virus Detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
-      - Windows Build Not Supported: faq-and-troubleshooting/common-questions/windows-build-not-supported.md
+      - Build Not Supported: faq-and-troubleshooting/common-questions/build-not-supported.md
+      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
+      - iTunes Compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
+      - Microsoft Store: faq-and-troubleshooting/common-questions/microsoft-store.md
       - Recommended Antiviruses: faq-and-troubleshooting/common-questions/recommended-antiviruses.md
+      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
+      - Testing Nightly Builds: faq-and-troubleshooting/common-questions/testing-nightly-builds.md
+      - Updating Atlas: faq-and-troubleshooting/common-questions/updating-atlas.md
+      - Windows Editions: faq-and-troubleshooting/common-questions/windows-editions.md
+
 
 
 #

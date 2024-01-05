@@ -11,4 +11,4 @@ Many changes that older Atlas versions made were irreversible, meaning that upda
 
 Previous versions of Atlas [have security concerns](atlas-and-security.md#legacy-versions-of-atlas), which only increase with old installations that will forever remain unpatched. These versions of Atlas are no longer supported, lack features, and lack many bug fixes.
 
-[Reinstalling Windows and installing Atlas -->](../getting-started/installation.md)
+[Reinstalling Windows and installing Atlas -->](../../getting-started/installation.md)
