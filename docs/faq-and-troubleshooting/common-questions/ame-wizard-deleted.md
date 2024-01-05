@@ -21,9 +21,7 @@ Combined with the other factors below, new releases of AME Wizard are highly lik
 
 Code signing is a system that allows users to verify that the executable they receive has not been altered by a third party. This is standard on most applications from companies, such as your web browser and games. Code signing makes false positives highly unlikely from antiviruses.
 
-However, code signing requires a code signing certificate, [which is very expensive](https://order.digicert.com/step1/code_signing).
-
-This is the reason why AME Wizard currently is not code-signed, although it will be in the future. If you would support AME Wizard to get code signing, check out [:material-patreon: Ameliorated's Patreon](https://www.patreon.com/Ameliorated).
+AME Wizard currently does not have a code signing certificate, however it is being worked on internally.
 
 ### Modifications to the operating system
 
