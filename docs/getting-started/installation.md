@@ -87,6 +87,15 @@ See the alternatives below.
     document.head.appendChild(styleSheet)
 </script>
 
+## :material-ethernet: Networking Drivers
+
+There is a chance that Windows does not include your network interface's driver by default. For this reason, we strongly recommend that you either:
+
+1. Have the ability to download and transfer network drivers from another device later
+1. Download your network drivers beforehand and put them on external storage
+
+You can find a download to your network driver by searching for an official driver download page for your device or motherboard model. If you can't find it, get the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp), and search for that instead.
+
 ## :material-microsoft-windows: Reinstalling Windows
 
 ???+ info "USB Installation (optional)"
@@ -105,7 +114,7 @@ See the alternatives below.
 ??? danger "Bypassing Windows 11 Requirements (optional)"
 
     To bypass Windows 11 requirements, you can open the `Bypass Windows 11 Requirements.cmd` script in your folder before continuing.
-    Before attempting to bypass the requirements, check if you can enable any BIOS settings to meet the offical requirements first, such as TPM and Secure Boot.
+    Before attempting to bypass the requirements, check if you can enable any BIOS settings to meet the official requirements first, such as TPM and Secure Boot.
 
     :simple-windows10: We recommend using Windows 10 instead of bypassing requirements.
 
