@@ -199,27 +199,27 @@ On Atlas, there are two options for driver installation:
 
 ## :material-wrench-cog-outline: Installing AtlasOS
 
-1. Using **Microsoft Edge** go to our [Official Website](https://atlasos.net) and download **AME Wizard** and the **Atlas Playbook**.
+1. Using **Microsoft Edge** go to our [Official Website](https://atlasos.net) and download **AME Wizard** and the **Atlas Playbook**
 
-1. Extract both zipped folders to your desktop for ease of use.
+1. Extract both zipped folders to your desktop for ease of use
 
-1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the **Atlas Playbook folder** and restart.
+1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the **Atlas Playbook folder** and restart
 
-1. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available.
+1. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available
 
-    - If you had chosen **Manual Driver Installation**, you should un-pause Windows Updates to follow this step.
+    - If you had chosen **Manual Driver Installation**, you should un-pause Windows Updates to follow this step
 
-1. Open the **Microsoft Store** and update all apps that have pending updates.
+1. Open the **Microsoft Store** and update all apps that have pending updates
 
-1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up.
+1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
     - Click on **Updates** at the top of the application and check for AME Wizard updates
-    - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**.
+    - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**
 
-1. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the Atlas Playbook folder.
+1. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the Atlas Playbook folder
 
-1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS.
+1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
 
 !!! danger "AME Wizard closing and/or being deleted?"
     Add AME Wizard as an exclusion in the Windows Security settings, or disable **Real Time Protection**. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
