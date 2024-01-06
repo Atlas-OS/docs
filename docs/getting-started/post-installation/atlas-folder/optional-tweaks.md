@@ -25,7 +25,7 @@ This is another folder that lets you change how your default file explorer works
 
 ### Compact View
 
-When Windows 11 refreshed the File Explorer, they introduced larger padding to the interface. By default, Atlas sets the File Explorer mode to compact view. You can revert this by going into File Explorer and locating **View** at the top :material-arrow-right: **Compact View** or by running the `Disable Compact View.reg` file.
+When Windows 11 refreshed the File Explorer, they introduced larger padding to the interface. By default, Atlas sets the File Explorer mode to compact view. You can revert this by going into File Explorer and locating **View** at the top -> **Compact View** or by running the `Disable Compact View.reg` file.
 
 ### Folders in This PC
 
