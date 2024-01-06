@@ -8,14 +8,14 @@ icon: material/cogs
 
 !!! danger "Read before continuing"
 
-    AtlasOS complies with the Windows EULA; activation in Windows is not modified. To currently install AtlasOS, Windows must be activated beforehand.
+    AtlasOS complies with the Windows EULA; activation in Windows is not modified. To install AtlasOS currently, Windows must be activated beforehand.
 
     It is recommended to take a look at our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md) before installing.
 
 ## :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2)
-    - For Windows 11, you can bypass the TPM and Secure Boot requirements
+    - For Windows 11, you can bypass the TPM and Secure Boot requirements, although it is not recommended
     - We recommend choosing Windows 11 if you meet the official requirements
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
@@ -91,13 +91,12 @@ See the alternatives below.
 
 ???+ info "USB Installation (optional)"
 
-    The method listed here **does not** require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media) if you prefer to. There are practically no differences between using one or not.
+    The method listed here **does not** require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media) if you prefer to. Using a USB stick or not will practically have the same result.
 
     <h3>Installing via USB</h3>
 
-    1. If you use an ethernet cable, disconnect it now.
-
-        - Do not connect to the internet until instructed to.
+    1. Disconnect any cables providing your computer internet, such as an ethernet cable
+        - Do not reconnect to the internet until instructed to
 
     2. Install Windows using your USB stick
 
@@ -106,7 +105,7 @@ See the alternatives below.
 ??? danger "Bypassing Windows 11 Requirements (optional)"
 
     To bypass Windows 11 requirements, you can open the `Bypass Windows 11 Requirements.cmd` script in your folder before continuing.
-    Before attempting to bypass the requirements, check if you can enable any BIOS settings to meet them first, such as TPM and Secure Boot.
+    Before attempting to bypass the requirements, check if you can enable any BIOS settings to meet the offical requirements first, such as TPM and Secure Boot.
 
     :simple-windows10: We recommend using Windows 10 instead of bypassing requirements.
 
@@ -116,7 +115,7 @@ However, your current installation (including user data) should be copied to a `
 
 1. Disconnect any cables providing your computer internet, such as an ethernet cable. Do not reconnect it until instructed to do so
 
-1. Right-click the previously downloaded ISO file and select **Open With** :material-arrow-right: **File Explorer** to mount it
+1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer** to mount it
 
 1. Open **This PC**, and note down the drive letter (e.g. `H:`) of the mounted ISO for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
 
@@ -125,7 +124,7 @@ However, your current installation (including user data) should be copied to a `
 1. Type in your noted-down drive letter including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
 1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-    - For many retail Windows 11 laptops, device encryption is the default. The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++ in the Run dialog. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
+    - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
 
 
 1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
@@ -151,7 +150,7 @@ After completing this step, you should be at the desktop, without an internet co
             - Deny each option in the **Privacy** section
 
     <center>
-        <video src="/assets/videos/win11-OOBE-nointernet.mp4" controls muted width="560" height="420"></video>
+        <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
     </center>
 
 === "Windows 10"
@@ -173,37 +172,34 @@ After completing this step, you should be at the desktop, without an internet co
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows comes with basic drivers pre-installed, some devices, such as Bluetooth devices, printers, or speakers, likely require additional drivers to function properly.
 On Atlas, there are two options for driver installation:
 
-| :material-download: Manual Driver Installation & Updates | :material-update: Automatic Driver Installation & Updates |
-| ------------------------------------ | --------------------------------------- |
-| :material-check-all: Potentially less system resource usage | :material-check-all: Easiest if you don't know how to get drivers |
-| :material-check-all: Less potential bloat/annoyances | :material-check: Best compatibility, especially with OEM apps |
-| :material-check: Full control over your driver versions | :material-check-all: Latest security & feature updates automatically |
-| :material-alert-circle-outline: You will likely need to get drivers for new devices | :material-check: Almost never having to manually get drivers |
+| :material-update: Automatic Driver Installation & Updates | :material-download: Manual Driver Installation & Updates |
+| --------------------------------------- | ------------------------------------ |
+| :material-check-all: Easiest if you don't know how to get drivers | :material-check-all: Potentially less system resource usage |
+| :material-check: Best compatibility, especially with OEM apps | :material-check-all: Less potential bloat/annoyances |
+| :material-check-all: Latest security & feature updates automatically | :material-check: Full control over your driver versions |
+| :material-check: Almost never having to manually get drivers | :material-alert-circle-outline: You will likely need to get drivers for new devices |
 
-## :material-wrench-cog-outline: Installing AtlasOS
+**Choose the option you wish to install with and follow the instructions.**
 
+=== "Automatic Driver Installation"
+    1. Connect your device to the internet
 
-### Driver Updates
+    1. Move on to the next section
 
-You should be aware of Automatic Driver Installation vs Manual Driver Installation from [the section above](#driver-updates).
+=== "Manual Driver Installation"
+    Don't connect to the internet yet, follow these steps:
 
-**Choose the option you wish to install with...**
-
-=== "Automatic Driver Installation (easier)"
-    You should now connect your device to the internet.
-
-=== "Manual Driver Installation (advanced, less bloat)"
-    **Don't connect to the internet yet, follow these steps**
-
-    1. Open **Settings**, and go to the **Windows Update**
+    1. Open **Settings** -> **Windows Update**
 
     1. Temporarily **Pause Updates** for at least 1 week
 
-    1. **Connect your device to the internet (Ethernet/Wi-Fi)**
+    1. Connect your device to the internet
+    
+    1. Move on to the next section
 
-### AAA
+## :material-wrench-cog-outline: Installing AtlasOS
 
-1. Using **Microsoft Edge** go to our [Official Website](https://atlasos.net) and download **AME Wizard** and **Atlas Playbook**.
+1. Using **Microsoft Edge** go to our [Official Website](https://atlasos.net) and download **AME Wizard** and the **Atlas Playbook**.
 
 1. Extract both zipped folders to your desktop for ease of use.
 
@@ -226,17 +222,17 @@ You should be aware of Automatic Driver Installation vs Manual Driver Installati
 1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS.
 
 !!! danger "AME Wizard closing and/or being deleted?"
-    To prevent Windows Defender from closing and deleting AME Wizard, you should add AME Wizard to the exclusion list in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used by many people yet.
+    Add AME Wizard as an exclusion in the Windows Security settings, or disable **Real Time Protection**. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
 
-    To read more about this, view the [Security Exceptions](https://docs.ameliorated.io/guides/security-exceptions.html) docs from the Ameliorated team.
+    To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md) page.
 
 ### :material-microsoft-windows-classic: Your old Windows installation
 
-Your previous Windows installation has been moved to a `Windows.old` folder in your Windows drive. This contains all of your old Windows user data, meaning that you can retrieve any data you may need from it.
+If you reinstalled Windows using the method on the documentation, your previous Windows installation has been moved to a `Windows.old` folder in your Windows drive. This contains all of your old Windows user data, meaning that you can retrieve any data you may need from it.
 
 When you're certain all data needed has been retrieved, follow these steps to delete it:
 
-1. Open **Windows Settings** :material-arrow-right: **System** :material-arrow-right: **Storage**
+1. Open **Windows Settings** -> **System** -> **Storage**
 1. Click **Temporary files**, and wait for it to scan your files
 1. Select **Previous version of Windows**, and then click **Remove files**
 
