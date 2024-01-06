@@ -152,7 +152,8 @@ After completing this step, you should be at the desktop, without an internet co
 
 === "Windows 11"
     ??? info "Written Instructions"
-        1. Once the setup starts, press ++shift+f10++ to open the Command Prompt.
+        1. Once the setup starts, select your language and then your keyboard layout.
+        1. Press ++shift+f10++ to open the Command Prompt.
         1. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
         1. Continue through with setup as normal, but make sure to:
             - Not connect to the internet
