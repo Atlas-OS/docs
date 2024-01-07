@@ -87,14 +87,18 @@ See the alternatives below.
     document.head.appendChild(styleSheet)
 </script>
 
-## :material-ethernet: Networking Drivers
+## :material-ethernet: Network Drivers
 
-There is a chance that Windows does not include your network interface's driver by default. For this reason, we strongly recommend that you either:
+Your network devices may not work out of the box with the drivers included in the default Windows installation. For this reason, we **strongly** recommend that you either:
 
-1. Have the ability to download and transfer network drivers from another device later
-1. Download your network drivers beforehand and put them on external storage
+- Download your network drivers beforehand and store them on portable storage devices like USB flash drive or external SSD.
+- Have the ability to download and transfer network drivers from another device later.
 
-You can find a download to your network driver by searching for an official driver download page for your device or motherboard model. If you can't find it, get the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp), and search for that instead.
+You can find your network driver online by searching for the official support page your device/motherboard. Recommended search query: `manufacturer` + `model` + driver. Example: MSI B450-A PRO driver.
+
+If the above method failed, search for the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp) instead.
+
+If you 2 have network devices (Ethernet and Wi-Fi), we recommend to find drivers for both incase 1 fail to work.
 
 ## :material-microsoft-windows: Reinstalling Windows
 
