@@ -8,7 +8,7 @@ edit_uri: edit/master/docs/
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
-  Copyright &copy; 2024 AtlasOS
+  <span class="twemoji"><img style="filter: invert(0.8)" src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/material/templates/.icons/material/creative-commons.svg"></span> <a href="https://github.com/Atlas-OS/docs/blob/master/LICENSE">CC-BY-SA-4.0</a>
   <br>AtlasOS is not affiliated with Microsoft.
 #  <a href="#__consent">Change cookie settings</a>
 
