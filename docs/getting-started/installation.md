@@ -98,7 +98,7 @@ You can find your network driver online by searching for the official support pa
 
 If the above method failed, search for the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp) instead.
 
-If you 2 have network devices (Ethernet and Wi-Fi), we recommend to find drivers for both incase 1 fail to work.
+If you have 2 network devices (Ethernet and Wi-Fi), we recommend to find drivers for both incase 1 fail to work.
 
 ## :material-microsoft-windows: Reinstalling Windows
 
