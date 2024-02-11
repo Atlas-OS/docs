@@ -5,12 +5,12 @@ icon: custom/intel
 
 # :custom-intel: Installing Intel graphics drivers
 
-In order of preference, we recommend installing your Intel graphics drivers from:
+We recommend installing your Intel graphics drivers from one of the following:
 
-1. [Intel website](https://www.intel.com/content/www/us/en/support/articles/000005629/graphics/processor-graphics.html), using the Manual method.
+1. The [official Intel website](https://www.intel.com/content/www/us/en/support/articles/000005629/graphics/processor-graphics.html)
 
-    Note: Intel 5th Generation Processors and before are not supported by [DCH](https://www.intel.com/content/www/us/en/support/articles/000058295/graphics.html), you must get the graphics driver from the manufacturer website.
+1. Your device/motherboard support or driver page
+    - **Recommended search query:** `manufacturer` + `model` + driver
+    - **Example:** MSI B450-A PRO driver.
 
-2. Your device/motherboard support page, recommended search query: `manufacturer` + `model` + driver. Example: MSI B450-A PRO driver.
-
-3. [Snappy Driver Installer Origin (SDIO)](https://www.glenn.delahoy.com/snappy-driver-installer-origin).
+1. [Snappy Driver Installer Origin (SDIO)](https://www.glenn.delahoy.com/snappy-driver-installer-origin)
