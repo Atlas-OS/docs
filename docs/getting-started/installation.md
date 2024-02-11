@@ -89,16 +89,14 @@ See the alternatives below.
 
 ## :material-ethernet: Network Drivers
 
-Your network devices may not work out of the box with the drivers included in the default Windows installation. For this reason, we **strongly** recommend that you either:
+By default, Windows may not have your computer's network drivers, meaning your computer would be left without a network connection.
 
-- Download your network drivers beforehand and store them on portable storage devices like USB flash drive or external SSD.
-- Have the ability to download and transfer network drivers from another device later.
+For this reason, we **strongly** recommend that you either:
 
-You can find your network driver online by searching for the official support page your device/motherboard. Recommended search query: `manufacturer` + `model` + driver. Example: MSI B450-A PRO driver.
+- Download your network drivers beforehand and store them on external storage
+- Have the ability to download and transfer network drivers from another device later
 
-If the above method failed, search for the name of your network device in [Device Manager](../assets/images/device-manager-nic.webp) instead.
-
-If you have 2 network devices (Ethernet and Wi-Fi), we recommend to find drivers for both incase 1 fail to work.
+You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If there are multiple latest network drivers available for your device, download all of them.
 
 ## :material-microsoft-windows: Reinstalling Windows
 
