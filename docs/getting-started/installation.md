@@ -8,9 +8,9 @@ icon: material/cogs
 
 !!! danger "Read before continuing"
 
-    AtlasOS complies with the Windows EULA; activation in Windows is not modified. To install AtlasOS currently, Windows must be activated beforehand.
-
-    It is recommended to take a look at our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md) before installing.
+    AtlasOS complies with the Windows EULA and does not modify Windows activation. To install AtlasOS, you must have Windows activated beforehand.
+    
+    We recommended looking at our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md) before installing.
 
 ## :material-clipboard-list-outline: Prerequisites
 
@@ -96,7 +96,7 @@ For this reason, we **strongly** recommend that you either:
 - Download your network drivers beforehand and store them on external storage
 - Have the ability to download and transfer network drivers from another device later
 
-You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If there are multiple latest network drivers available for your device, download all of them.
+You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple latest network drivers are available for your device, download all of them.
 
 ## :material-microsoft-windows: Reinstalling Windows
 
@@ -115,24 +115,22 @@ You can find your network driver online by searching for your device/motherboard
 
 ??? danger "Bypassing Windows 11 Requirements (optional)"
 
-    To bypass Windows 11 requirements, you can open the `Bypass Windows 11 Requirements.cmd` script in your folder before continuing.
-    Before attempting to bypass the requirements, check if you can enable any BIOS settings to meet the official requirements first, such as TPM and Secure Boot.
+    To bypass the Windows 11 requirements, open the `Bypass Windows 11 Requirements.cmd` script in your folder before continuing.
+    Before bypassing the requirements, check if you can enable any BIOS settings to meet the official requirements, such as TPM and Secure Boot.
 
     :simple-windows10: We recommend using Windows 10 instead of bypassing requirements.
 
-Before proceeding, back up any necessary files to an external storage or cloud platform.
-
-However, your current installation (including user data) should be copied to a `Windows.old` folder in your Windows drive on your new install. You can delete this after you have reinstalled it, which will be covered later on.
+Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
 1. Disconnect any cables providing your computer internet, such as an ethernet cable. Do not reconnect it until instructed to do so
 
 1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer** to mount it
 
-1. Open **This PC**, and note down the drive letter (e.g. `H:`) of the mounted ISO for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
+1. Open **This PC**, and note down the mounted ISO's drive letter (e.g. `H:`) for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
 
 1. Press ++win+r++ to open the Run dialog
 
-1. Type in your noted-down drive letter including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
+1. Type in your noted-down drive letter, including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
 1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
     - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
@@ -140,7 +138,7 @@ However, your current installation (including user data) should be copied to a `
 
 1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
 
-1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that you're legitimately activated beforehand
+1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
 
 1. Choose your edition of Windows. We strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
 
@@ -150,7 +148,7 @@ However, your current installation (including user data) should be copied to a `
 
 ### :material-cog: Initial setup (OOBE)
 
-After completing this step, you should be at the desktop, without an internet connection.
+After completing this step, you should be at the desktop without an internet connection.
 
 === "Windows 11"
     ??? info "Written Instructions"
@@ -211,53 +209,53 @@ On Atlas, there are two options for driver installation:
 
 ## :material-wrench-cog-outline: Installing AtlasOS
 
-1. Using **Microsoft Edge** go to our [Official Website](https://atlasos.net) and download **AME Wizard** and the **Atlas Playbook**
+??? danger "AME Wizard suddenly closing or being deleted?"
+    Add AME Wizard as an exclusion or disable **Real-time protection** in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
 
-1. Extract both zipped folders to your desktop for ease of use
+    To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md) page.
 
-1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the **Atlas Playbook folder** and restart
+1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
 
-1. Navigate to **Windows Settings** and update Windows until no more updates or optional updates are available
+1. Extract both downloads to your desktop
 
-    - If you had chosen **Manual Driver Installation**, you should un-pause Windows Updates to follow this step
+1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
+
+1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, un-pause Windows Updates to follow this step
 
 1. Open the **Microsoft Store** and update all apps that have pending updates
 
 1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    - Click on **Updates** at the top of the application and check for AME Wizard updates
-    - SmartScreen may warn you that AME Wizard is an unrecognized application because it's not digitally signed. You can bypass this warning by clicking **More info** and then **Run anyway**
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+    1. Click on **Updates** at the top and make sure AME Wizard is up to date
 
-1. Drag and drop the `Atlas Playbook.apbx` into AME Wizard from the Atlas Playbook folder
+1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder into AME Wizard
 
 1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
 
-!!! danger "AME Wizard closing and/or being deleted?"
-    Add AME Wizard as an exclusion in the Windows Security settings, or disable **Real Time Protection**. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
-
-    To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md) page.
-
 ### :material-microsoft-windows-classic: Your old Windows installation
 
-If you reinstalled Windows using the method on the documentation, your previous Windows installation has been moved to a `Windows.old` folder in your Windows drive. This contains all of your old Windows user data, meaning that you can retrieve any data you may need from it.
-
-When you're certain all data needed has been retrieved, follow these steps to delete it:
+If you reinstalled Windows using the method in the documentation, your previous Windows installation should be in `Windows.old`. When you're sure that you've retrieved any valuable data from it, follow these steps:
 
 1. Open **Windows Settings** -> **System** -> **Storage**
 1. Click **Temporary files**, and wait for it to scan your files
 1. Select **Previous version of Windows**, and then click **Remove files**
 
-## :material-robot-happy: Finalizing your installation of AtlasOS
+## :material-package-variant-closed-plus: Getting your drivers
 
-You're almost finished with setting up Atlas. There are a couple more steps before you start setting up software!
+You're almost finished with setting up Atlas. Before you start setting up software, follow the option you chose earlier to get your drivers:
 
-- **Manual Driver Installation:** If this is you, go to [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up needed drivers in our recommended way.
+- **Manual Driver Installation:** If this is you, see [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up needed drivers in our recommended way.
 
-- **Automatic Driver Installation:** If this is you, you do not need to set up drivers - they are installed automatically through Windows Updates.
+- **Automatic Driver Installation:** If this is you, you should not need to set up drivers - drivers are installed through Windows Updates.
 
-After you've finished with your drivers, you can optionally [configure your Atlas installation](post-installation/atlas-folder/configuration.md).
+## :material-flag-checkered: All done!
 
-If you encounter any issues after installation, view our [**FAQ & Troubleshooting**](../faq-and-troubleshooting/removed-features.md) section. If you're still having issues, feel free to seek help on our [Forums](https://forum.atlasos.net) or [Discord server](https://discord.atlasos.net). We have a large community of people who care and dedicate their spare time to helping others.
+If you need help, there are links below to a large community of people who care and dedicate their spare time to helping others and to a few other areas of the documentation.
 
-With all that out of the way, we hope you enjoy using AtlasOS! :smile:
+We hope you enjoy using AtlasOS! :smile:
+
+- [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-forum: Forums](https://forum.atlasos.net)
+- [:material-chat-question: FAQ & Troubleshooting](../faq-and-troubleshooting/removed-features.md)
+- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/configuration.md)
