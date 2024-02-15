@@ -252,7 +252,7 @@ You're almost finished with setting up Atlas. Before you start setting up softwa
 
 ## :material-flag-checkered: All done!
 
-If you need help, there are links below to a large community of people who care and dedicate their spare time to helping others and to a few other areas of the documentation.
+If you need any help, you can find links below to a large community of individuals who are dedicated to helping others, as well as a few other areas of the documentation.
 
 We hope you enjoy using AtlasOS! :smile:
 
