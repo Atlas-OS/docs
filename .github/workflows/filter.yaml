@@ -27,6 +27,7 @@ jobs:
             exclude_labels="
             bypass
             auto-pr
+            dependencies
             "
             
             no_run=false
