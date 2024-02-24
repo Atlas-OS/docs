@@ -221,6 +221,7 @@ On Atlas, there are two options for driver installation:
 1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
 
 1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, un-pause Windows Updates to follow this step
+    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../faq-and-troubleshooting/common-questions/windows-update-errors.md#material-microsoft-windows-windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
 
 1. Open the **Microsoft Store** and update all apps that have pending updates
 
