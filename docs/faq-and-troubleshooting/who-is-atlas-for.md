@@ -7,6 +7,8 @@ icon: material/head-check
 
 **We designed Atlas for any enthusiast looking to improve Windows' privacy, performance, and ease of use.**
 
+---
+
 Atlas' goal is to make a stable and easy-to-use Windows modification that *almost everyone* can use, with a strong focus on compatibility and usability.
 
 However, with that in mind, we wouldn't recommend installing Atlas if:
