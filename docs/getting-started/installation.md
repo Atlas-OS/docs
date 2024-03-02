@@ -113,13 +113,6 @@ You can find your network driver online by searching for your device/motherboard
 
     3. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
-??? danger "Bypassing Windows 11 Requirements (optional)"
-
-    To bypass the Windows 11 requirements, open the `Bypass Windows 11 Requirements.cmd` script in your folder before continuing.
-    Before bypassing the requirements, check if you can enable any BIOS settings to meet the official requirements, such as TPM and Secure Boot.
-
-    :simple-windows10: We recommend using Windows 10 instead of bypassing requirements.
-
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
 1. Disconnect any cables providing your computer internet, such as an ethernet cable. Do not reconnect it until instructed to do so
