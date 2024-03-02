@@ -7,10 +7,6 @@ icon: material/microsoft-windows
 
 **You'll need to reinstall Windows to revert Atlas' modifications.**
 
-This is required because our installation instructions on our documentation guide you to reinstall Windows (deleting your previous install), and then, install Atlas.
+Due to the number of modifications Atlas makes, there is currently no single-click way to revert its changes. Options built into Windows, such as those from Windows Recovery or Advanced Startup, are not recommended because they will not revert all modifications.
 
-If you need help reinstalling Windows, you can use Google, YouTube or follow our guide on how to install Atlas, but skip out running AME Wizard.
-
-This will get you to a completely stock Windows installation.
-
-🔗 [https://docs.atlasos.net/getting-started/installation/](../../getting-started/installation.md)
+To reinstall Windows, follow [Microsoft's guide using installation media](https://support.microsoft.com/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7) or another guide using an ISO file/installation media.
