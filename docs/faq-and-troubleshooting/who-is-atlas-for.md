@@ -5,10 +5,18 @@ icon: material/head-check
 
 # :material-head-check: Who is Atlas designed for?
 
-**Atlas is for any enthusiast looking to improve the privacy, performance, and ease of use of their Windows installation.**
+**We designed Atlas for any enthusiast looking to improve Windows' privacy, performance, and ease of use.**
 
-We're on a mission to make a modification of Windows which *mostly* everyone can use, with the least amount of drawbacks. We only recommend installing Atlas on computers that you fully own and are not managed by any other entity.
+Atlas' goal is to make a stable and easy-to-use Windows modification that *almost everyone* can use, with a strong focus on compatibility and usability.
 
-Atlas aims for the best compatibility and modifications possible, but you should be prepared to troubleshoot any potential issues. Although unlikely, you should also be prepared to reinstall Windows. This isn't always suitable for everyone.
+However, with that in mind, we wouldn't recommend installing Atlas if:
 
-Keep in mind that Atlas is always improving with each new version, meaning that the likelihood of issues should be constantly going down.
+- You're installing it on a computer you do not wholly own
+- You aren't willing to perform potential Windows troubleshooting
+- You aren't willing to reinstall Windows
+
+### New releases
+
+Remember that Atlas continuously improves by fixing bugs and adding more features with each new version, meaning the likelihood of issues will continually decrease.
+
+We hope that Atlas helps you get more out of Windows! :smile:
