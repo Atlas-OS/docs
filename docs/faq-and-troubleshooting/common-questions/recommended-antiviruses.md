@@ -15,7 +15,7 @@ These applications offer continuous protection against malware.
 
 1. **Windows Defender (Highly Recommended)** [:material-open-in-new:](windowsdefender:)
 
-   Lightweight, consistently updated malware definitions and native protection inside of Windows.
+       Lightweight, consistently updated malware definitions and native protection inside of Windows.
 
 2. **Bitdefender Antivirus Free Edition** [:material-download:](https://download.bitdefender.com/windows/installer/en-us/bitdefender_avfree.exe)
 
