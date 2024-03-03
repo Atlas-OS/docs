@@ -13,11 +13,7 @@ For those seeking reliable anti-virus programs, here are some top recommendation
 ## Real-time Scanners
 These applications offer continuous protection against malware.
 
-1. **Kaspersky Free Antivirus (Recommended)** [:material-download:](https://kaspersky.com/downloads/free-antivirus)
-
-	Provides real-time protection against a variety of threats. Ideal for those seeking the best security.
-
-2. **Bitdefender Antivirus Free Edition** [:material-download:](https://download.bitdefender.com/windows/installer/en-us/bitdefender_avfree.exe)
+1. **Bitdefender Antivirus Free Edition** [:material-download:](https://download.bitdefender.com/windows/installer/en-us/bitdefender_avfree.exe)
 
 	Offers lightweight yet effective protection.
 
