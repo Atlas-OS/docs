@@ -36,6 +36,12 @@ Windows has a built-in video app called Film & TV. However, it is not included b
 
 [Download Film & TV ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT) | [Download HEVC Codec](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
 
+## Photos
+
+Windows has a built-in photos app called Photos. However, it is not included by default in Atlas. This app is useful for displaying photos.
+
+[Download Photos](ms-windows-store://pdp/?ProductId=9wzdncrfjbh4)
+
 ## foobar2000
 
 FooBar2000 is a music player that allows you to play both local and online music. It can handle audio with multiple tracks and is user-friendly.
