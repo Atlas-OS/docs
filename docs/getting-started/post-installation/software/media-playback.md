@@ -30,11 +30,12 @@ Windows Media Player is a built-in feature of the Windows operating system, but 
 
 [Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 
-## Film & TV
+## Movies & TV
 
-Windows has a built-in video app called Film & TV. However, it is not included by default in Atlas. This app is useful for playing videos and provides more advanced features than Windows Media Player. It is important to note that Film & TV does not include all codecs like MPV or VLC Media Player by default and may require users to purchase additional codecs.
+Windows has a built-in video app called Movies & TV. However, it is not included by default in Atlas. This app is useful for playing videos and provides more advanced features than Windows Media Player. It is important to note that Film & TV does not include all codecs like MPV or VLC Media Player by default and may require users to purchase additional codecs.
 
-[Download Film & TV ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT) | [Download HEVC Codec](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
+[Download Film & TV ->](ms-windows-store://pdp/?ProductId=9wzdncrfj3p2) | [Download HEVC Codec](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
+
 
 ## foobar2000
 
