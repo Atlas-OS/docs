@@ -33,11 +33,11 @@ See the alternatives below.
 </noscript>
 
 <!--
-    This is based upon the Microsoft Software Download Listing website by massgravel on GitHub.
+    This is based upon the Microsoft Software Download Listing website by gravesoft on GitHub.
 -->
 <!--
     The JavaScript file that is used with this is licensed under GNU Affero General Public License v3.0,
-    per the original project. https://github.com/massgravel/msdl/blob/main/LICENSE
+    per the original project. https://github.com/gravesoft/msdl/blob/main/LICENSE
 -->
 <!--
     See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js
@@ -78,7 +78,7 @@ See the alternatives below.
 
 <input id="msdl-session-id" type="hidden">
 
-:simple-github: **Downloader based upon:** [Microsoft Software Download Listing](https://github.com/massgravel/msdl)
+:simple-github: **Downloader based upon:** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl)
 </center>
 
 <script>
