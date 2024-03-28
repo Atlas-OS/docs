@@ -6,65 +6,59 @@ icon: material/sign-caution
 # :material-sign-caution: Advanced Configuration
 
 !!! danger "User risk"
-    If you are not confident with your technical ability, it is recommended to avoid this section. Any misinterpretation can result in compatibility issues and other problems. Therefore, it's important to understand what you are doing and how to revert it. This section is intended for advanced users only.
+    If you are not confident in your technical ability, it is recommended that you avoid this section.
+    
+    Any misinterpretation can result in compatibility issues and other problems. Therefore, it's essential to understand what you are doing and how to revert it. 
 
-All of the configuration files listed here are located in the `6. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
+Each section here corresponds to a sub-folder in the `6. Advanced Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
 
-## Affinity
+## :material-hammer-screwdriver: Driver Configuration
 
-Affinities allow you to specify which core a driver or process runs on. As Windows puts most drivers on Core 0 by default, we can alter this to improve performance and latency. Allocating drivers to their own core will reduce interrupts on Core 0.
+This folder contains links to tools to set driver affinities manually. Affinities allow you to specify which core a driver or process runs on. We can manually alter this for a potential performance gain, as Windows defaults most drivers on CPU core 0. Allocating drivers to their separate cores should theoretically help reduce interrupts on core 0.
 
-This folder contains a few links to some tools to manually set driver affinities.
+Additionally, this folder has a link to [MSI Utility V3](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/) to configure Message Signal-based Interrupts for devices.
 
-## Boot Configuration
+## :material-desktop-tower: Boot Configuration
 
-Here you can change the boot configuration for Windows, which can modify the quality of life and pre-boot behavior.
+Here, you can change the boot configuration for Windows for quality of life and troubleshooting.
 
-You can either completely mess things up or potentially (unlikely) improve performance with experimental options.
+See the `View Current Values.cmd` script for your boot configuration.
 
-## DSCP
+## :material-cog: Lanman Workstation (SMB)
 
-The Differentiated Services Code Point (DSCP) is a policy for managing network traffic. It prioritizes data from specific applications and games to ensure optimal performance and responsiveness.
+Lanman Workstation (SMB) is a service required for features such as file sharing, but it is also necessary for many pieces of software to function, such as AMD Ryzen Master.
 
-When running the script, it will ask you for an executable. Select the executable (game binary file) to enable DSCP.
+To disable it, run the `Disable Lanman Workstation.cmd` script, but remember the bad compatibility.
 
+## :simple-nvidia: NVIDIA Display Container
 
-## Lanman Workstation (SMB)
+!!! warning "Disabling will break features"
+    Disabling the NVIDIA Display Container will break the NVIDIA Control Panel and any other NVIDIA features until it is re-enabled. 
+    These scripts are aimed at users that have a stripped driver, and people that barely touch the NVIDIA Control Panel.
 
-Lanman Workstation (SMB) is a service that provides features like file sharing but is also required for software like AMD Ryzen Master to function. On Atlas, it has been enabled by default. To disable it run the `Disable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
+These scripts allow you to toggle the 'NVIDIA Display Container LS' service, as it connects to a few NVIDIA IPs and uses a tiny bit of CPU usage.
+We only recommend using these if you want a very minimal configuration.
 
+## :material-list-box: Process Explorer
 
-## NVIDIA Display Container
+!!! warning "Enabling could break features"
+    Atlas disables the `pcw` driver for less system resource usage when installing Process Explorer, which is responsible for performance counters.
+    Having the performance counter driver disabled could have unexpected effects on software.
 
-This allows you to enable/disable the 'NVIDIA Display Container LS service', which connects to a few NVIDIA IPs and uses a tiny bit of CPU usage.
-These scripts are aimed at users that have a stripped driver, and people that barely touch the NVIDIA Control Panel.
-
-## Static IP
-
-In this section, you can set up your network configuration as a Static IP, which can be a useful choice if your computer serves as a local server or if you need to do port forwarding. This method also reduces the number of services required.
-
-## Utilities
-
-The files in this folder are open-source projects in our [GitHub utilities repository](https://github.com/Atlas-OS/utilities).
-
-### Process Explorer
-
-Process Explorer is an application part of Microsoft Sysinternals Suite of utilities. Process Explorer can be best described as an advanced version of the Task Manager, allowing the user to see what resources a program is using. More information can be found on [Microsoft's documentation for process explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).
+Process Explorer is an application part of the [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) suite of utilities. Process Explorer can be best described as an advanced version of the Task Manager. [Microsoft's documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) for Process Explorer gives more information about its capabilities.
 
 This folder has scripts that can automate the installation/uninstallation of this utility.
 
-### Gameutil
+## :material-network: Static IP
 
-Gameutil is our own utility that can be used to automate tasks such as setting Timer Resolution, killing Desktop Window Manager (DWM) or Explorer, disabling CPU Idle states and cleaning memory. In our GitHub repository, we have some [usage instructions & descriptions](https://github.com/Atlas-OS/utilities/tree/dev#gameutil-rs) to help you get started.
-
-We only recommend the use of Gameutil for Windows 10, as has yet to be updated for full Windows 11 support.
-
-### MSI Utility V3
-
-This is a utility to allows you to enable the Message Signaled Interrupts (MSI) feature on your system's devices, which may help improve performance by eliminating interrupt conflicts from multiple devices. We have a link in this folder to a forum post that further explains the performance and latency benefits of MSI mode, along with the download link for MSI Utility V3.
+In this folder, you can use the `Automatically Set Static IP.cmd` script to automatically configure your network locally with a static IP, which can be helpful if your computer serves as a local server.
 
 ## Wi-Fi
 
-Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas, it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
+!!! warning "Disabling will break features"
+    Disabling Wi-Fi is known to break Microsoft Store, some WSL features, and more.
+    We only disabling Wi-Fi if you want a very minimal configuration and are okay with the compatibility issues.
 
-You may need to [install drivers](../drivers/getting-started.md) for Wi-Fi to work.
+Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. To disable its services, run the `Disable Wi-Fi.cmd` script.
+
+Although Atlas keeps Wi-Fi services enabled by default, you may need to [install drivers](../drivers/getting-started.md) for Wi-Fi to work correctly.
