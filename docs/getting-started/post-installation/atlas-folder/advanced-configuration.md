@@ -53,7 +53,7 @@ This folder has scripts that can automate the installation/uninstallation of thi
 
 In this folder, you can use the `Automatically Set Static IP.cmd` script to automatically configure your network locally with a static IP, which can be helpful if your computer serves as a local server.
 
-## Wi-Fi
+## :material-wifi: Wi-Fi
 
 !!! warning "Disabling will break features"
     Disabling Wi-Fi is known to break Microsoft Store, some WSL features, and more.

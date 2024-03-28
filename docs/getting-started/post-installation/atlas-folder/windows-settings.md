@@ -5,49 +5,49 @@ icon: material/microsoft-windows
 
 # :material-microsoft-windows: Windows Settings
 
-Windows Settings is a folder on Atlas that lets you change the most common settings when you set up Atlas. For some of these, you may need to use the "Activation" file and activate Windows.
+This folder contains shortcuts to commonly used Windows Settings for Atlas. When you run these shortcuts, you will go straight to the Windows Settings page for the setting you want to configure.
 
-All of the configuration files listed here are located in the `5. Windows Settings` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
-
-When you run these files, you will go straight to the Windows Settings page for the setting you want to configure.
+Each section here corresponds to a sub-folder in the `5. Windows Settings` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
 
 ## :material-lock-open-outline: Activation
 
-This file will take you to the page in Windows Settings for Activation. Before you can change some of the other settings, you will need to activate Windows.
+!!! note "Atlas does not modify Windows activation"
+    Atlas is **not** a pre-activated or pirated version of Windows.
 
-Atlas requires you to Activate Windows with a valid legitimate license before performing the installation. Activation is a one-time thing that you will not have to do again.
-
-!!! warning "Atlas is not pre-activated"
-    Atlas is **not** a pre-activated version of Windows. We require you to Activate Windows with a valid legitimate license before performing the installation. Before you buy a Windows license, make sure the seller is trusted and the license is legitimate, no matter where you buy it.
+This shortcut will take you to the Windows Settings 'Activation' page. Before you can change some of the other settings, you will need to activate Windows.
 
 ## :material-palette-swatch-outline: Colors
 
-This file will take you to the Windows Settings page for Colors. You can change the color and styling of your Atlas installation on this page.
+This shortcut will take you to the Windows Settings 'Colors' page. Here, you can change the accent color and other related options for your Atlas installation.
 
 ## :material-clock-outline: Date & Time
 
-This file will take you to the Windows Settings Date & Time page. On this page, you can change and correct how your Atlas installation shows the time and date.
+This shortcut will take you to the Windows Settings 'Date & Time' page. On this page, you can change and correct how your Atlas installation shows the time and date.
 
 ## :material-apps: Default Apps
 
-This file will take you to the page in Windows Settings called Default Apps. You can change the default apps for certain file types on this page. For instance, you can change the default browser from Internet Explorer to Chrome.
+This shortcut will take you to the Windows Settings 'Default Apps' page. Here, you can change the default apps for specific file types. For instance, you can change the default browser.
+
+## :material-clock-fast: Default Graphics Settings (HAGS)
+
+This shortcut will take you to the Windows Settings 'Default Graphics Settings' page. Here, you can select options such as [Hardware Accelerated GPU Scheduling](https://devblogs.microsoft.com/directx/hardware-accelerated-gpu-scheduling/).
 
 ## :material-monitor-screenshot: Desktop Icons
 
-This file will take you to the Windows Settings page for desktop icon settings. On this page, you can change what icons you want to see on your desktop.
+This shortcut will take you to the settings page for desktop icons. You can change the icons you want to see on your desktop.
 
 ## :material-alphabetical: Language
 
-This file will take you to the Windows Settings page for language settings. You can change the display and input language of your Atlas installation on this page.
+This shortcut will take you to the Windows Settings 'Language & Region' page. Here, you can change your Atlas installation's display and input language.
 
 ## :material-account-eye-outline: Privacy
 
-This file will take you to the Windows Settings page for Privacy. On this page, you can change how private your Atlas installation is.
+This shortcut will take you to the Windows Settings 'Privacy & Security' page. Here, you can change how private your Atlas installation is.
 
 ## :material-globe-model: Region
 
-This file will take you to the Windows Settings page to change your country and region settings.
+This shortcut will take you to the legacy settings page for region settings. Here, you have more control over the standard Windows Settings 'Language & Region' page.
 
 ## :material-menu: Taskbar
 
-This file will take you to the Windows Settings page for the Taskbar. On this page, you can customize the taskbar to your liking.
+This shortcut will take you to the Windows Settings 'Taskbar' page. Here, you can customize the taskbar to your liking.
