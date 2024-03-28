@@ -96,7 +96,7 @@ For this reason, we **strongly** recommend that you either:
 - Download your network drivers beforehand and store them on external storage
 - Have the ability to download and transfer network drivers from another device later
 
-You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple latest network drivers are available for your device, download all of them.
+You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available on your device, download all of them.
 
 ## :material-microsoft-windows: Reinstalling Windows
 
@@ -115,7 +115,7 @@ You can find your network driver online by searching for your device/motherboard
 
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
-1. Disconnect any cables providing your computer internet, such as an ethernet cable. Do not reconnect it until instructed to do so
+1. Disconnect any cables providing internet to your computer, such as an ethernet cable. Do not reconnect it until instructed to do so
 
 1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer** to mount it
 
@@ -141,7 +141,7 @@ Your current Windows installation should be moved to a `Windows.old` folder afte
 
 ### :material-cog: Initial setup (OOBE)
 
-After completing this step, you should be at the desktop without an internet connection.
+After completing this step, you should be on your desktop without an internet connection.
 
 === "Windows 11"
     ??? info "Written Instructions"
@@ -172,10 +172,10 @@ After completing this step, you should be at the desktop without an internet con
 
 ## :material-screwdriver: Driver Updates
 
-Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows comes with basic drivers pre-installed, some devices, such as Bluetooth devices, printers, or speakers, likely require additional drivers to function properly.
+Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows comes with basic drivers pre-installed, some devices, such as Bluetooth devices, printers, or speakers, likely require additional drivers to function correctly.
 On Atlas, there are two options for driver installation:
 
-| :material-update: Automatic Driver Installation & Updates | :material-download: Manual Driver Installation & Updates |
+| :material-update: Installation & Updates from Windows Update | :material-download: Manual Installation & Updates |
 | --------------------------------------- | ------------------------------------ |
 | :material-check-all: Easiest if you don't know how to get drivers | :material-check-all: Potentially less system resource usage |
 | :material-check: Best compatibility, especially with OEM apps | :material-check-all: Less potential bloat/annoyances |
@@ -184,7 +184,9 @@ On Atlas, there are two options for driver installation:
 
 **Choose the option you wish to install with and follow the instructions.**
 
-=== "Automatic Driver Installation"
+If you don't know, choose 'Driver Installation & Updates from Windows Update.'
+
+=== "Driver Installation & Updates from Windows Update"
     1. Connect your device to the internet
 
     1. Move on to the next section
@@ -240,9 +242,9 @@ If you reinstalled Windows using the method in the documentation, your previous 
 
 You're almost finished with setting up Atlas. Before you start setting up software, follow the option you chose earlier to get your drivers:
 
-- **Manual Driver Installation:** If this is you, see [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up needed drivers in our recommended way.
+- **Manual Driver Installation:** If this is you, we recommend seeing [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up the needed drivers.
 
-- **Automatic Driver Installation:** If this is you, you should not need to set up drivers - drivers are installed through Windows Updates.
+- **Driver Installation & Updates from Windows Update:** If this is you, get drivers by manually checking for Windows Updates. To get them automatically, enable [automatic Windows Updates](../getting-started/post-installation/atlas-folder/general-configuration.md#automatic-updates).
 
 ## :material-flag-checkered: All done!
 
@@ -252,4 +254,4 @@ We hope you enjoy using AtlasOS! :smile:
 
 - [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-forum: Forums](https://forum.atlasos.net)
 - [:material-chat-question: FAQ & Troubleshooting](../faq-and-troubleshooting/removed-features.md)
-- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/configuration.md)
+- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)

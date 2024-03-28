@@ -28,6 +28,12 @@ The Differentiated Services Code Point (DSCP) is a policy for managing network t
 
 When running the script, it will ask you for an executable. Select the executable (game binary file) to enable DSCP.
 
+
+## Lanman Workstation (SMB)
+
+Lanman Workstation (SMB) is a service that provides features like file sharing but is also required for software like AMD Ryzen Master to function. On Atlas, it has been enabled by default. To disable it run the `Disable Lanman Workstation.cmd` file in the `Lanman Workstation (SMB)` folder.
+
+
 ## NVIDIA Display Container
 
 This allows you to enable/disable the 'NVIDIA Display Container LS service', which connects to a few NVIDIA IPs and uses a tiny bit of CPU usage.

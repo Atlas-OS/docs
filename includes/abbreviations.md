@@ -21,6 +21,4 @@
 *[OS]: Operating System
 *[Windows drive]: Commonly referred to as the C drive
 *[EULA]: End-user license agreement
-*[Manual Driver Installation]: Refers to the choice of Driver installation you chose for installing Atlas
-*[Automatic Driver Installation]: Refers to the choice of Driver installation you chose for installing Atlas
 *[ISO file]: A virtual copy of everything on a DVD, such as the Windows Setup.
