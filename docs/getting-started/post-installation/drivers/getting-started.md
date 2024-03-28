@@ -21,7 +21,7 @@ We recommend only installing the necessary drivers. Necessary drivers likely inc
 
 If you are unsure of the drivers required for each device, look up your hardware components to find specific drivers and install them accordingly.
 
-## :material-cogs: Graphics (GPU/iGPU) Drivers
+## :material-cogs: Graphics (GPU/iGPU) drivers
 
 !!! warning
     If you have integrated and dedicated graphics, you must install both drivers.
@@ -34,7 +34,7 @@ We do not recommend installing your graphics drivers via SDIO as they can be hea
 * [AMD ->](../drivers/amd.md)
 * [Intel ->](../drivers/intel.md)
 
-## :material-screwdriver: Other Drivers
+## :material-screwdriver: Other drivers
 
 It's important to understand that when you have chosen the **manual driver updates** path when installing AtlasOS, no drivers will be installed when needed.
 
