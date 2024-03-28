@@ -21,13 +21,14 @@ plugins:
         - widget.kapa.ai/*
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards (Insiders)
-  - social:
-      cards_layout: default/variant
-      cards_layout_options:
-        background_color: "#1991FF"
-        color: "#FFFFFF"
-        font_family: Inter
-        logo: docs/assets/brand/icon-white.svg
+  # Disables until https://github.com/squidfunk/mkdocs-material/issues/6983 is fixed
+  # - social:
+  #     cards_layout: default/variant
+  #     cards_layout_options:
+  #       background_color: "#1991FF"
+  #       color: "#FFFFFF"
+  #       font_family: Inter
+  #       logo: docs/assets/brand/icon-white.svg
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors (Insiders)
   - git-committers:
