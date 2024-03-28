@@ -21,7 +21,7 @@ icon: material/home
 
     Customize and tweak your AtlasOS installation to your liking.
 
-    [-> Post Installation](getting-started/post-installation/atlas-folder/configuration.md)
+    [-> Post Installation](getting-started/post-installation/atlas-folder/general-configuration.md)
 
 -   :material-chat-question:{ .lg .middle } __FAQ & Troubleshooting__
 

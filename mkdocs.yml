@@ -26,12 +26,6 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
     - Post Installation:
-      - Atlas Folder:
-        - Configuration: getting-started/post-installation/atlas-folder/configuration.md
-        - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
-        - Optional Tweaks: getting-started/post-installation/atlas-folder/optional-tweaks.md
-        - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
-        - Security: getting-started/post-installation/atlas-folder/security.md
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
         - NVIDIA: getting-started/post-installation/drivers/nvidia.md
@@ -50,6 +44,12 @@ nav:
         - Updating the BIOS: getting-started/post-installation/hardware/updating-the-bios.md
         - XMP/DOCP: getting-started/post-installation/hardware/enabling-xmp-or-docp.md
         - Resizable BAR: getting-started/post-installation/hardware/resizable-bar.md
+    - Atlas Configuration:
+      - General Configuration: getting-started/post-installation/atlas-folder/general-configuration.md
+      - Interface Tweaks: getting-started/post-installation/atlas-folder/interface-tweaks.md
+      - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
+      - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
+      - Security: getting-started/post-installation/atlas-folder/security.md
 
   - FAQ & Troubleshooting:
     - What's removed?: faq-and-troubleshooting/removed-features.md

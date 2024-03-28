@@ -3,17 +3,17 @@ description: An overview of all general configuration options installed by the A
 icon: material/cog
 ---
 
-# :material-cog: Configuration
+# :material-cog: General Configuration
 
-This section will present a comprehensive list of the general configuration options in the Atlas folder. It is important to note that you should only modify these configuration settings if you understand what you are doing or if a team member specifically requests you to do so.
+This page will present a comprehensive list of the general configuration options in the Atlas folder. It is important to note that you should only modify these configuration settings if you understand what you are doing or if a team member requests you to do so.
 
 For more configuration options, check:
 
-- [Advanced Configuration ->](advanced-configuration.md)
-- [Optional Tweaks ->](optional-tweaks.md)
+- [Interface Tweaks ->](interface-tweaks.md)
 - [Windows Settings ->](windows-settings.md)
+- [Advanced Configuration ->](advanced-configuration.md)
 
-You can find the configuration files listed here by opening the Atlas folder in your Start Menu or desktop and then going into the `3. Configuration` folder. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you deleted it.
+Each section here corresponds to a sub-folder in the `3. General Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
 
 ## :material-application: Background Apps
 
@@ -23,7 +23,7 @@ By default, Atlas disables background apps in Windows. However, you may need to 
 
 On Atlas, we have made Bluetooth support a configurable option to allow users who do not use the feature to have fewer running Windows services.
 
-Although the initial setup prompts if you want to disable Bluetooth support, you can toggle it afterward. Run the `Enable Bluetooth.cmd` or `Disable Bluetooth.cmd` file and restart your computer.
+Although the initial setup prompts if you want to disable Bluetooth support, you can toggle it afterward. Run the `Enable Bluetooth.cmd` or `Disable Bluetooth.cmd` script and restart your computer.
 
 Remember that you may need to install drivers for Bluetooth to work. [View our guide here](../../../faq-and-troubleshooting/common-questions/bluetooth-compatibility.md).
 
@@ -31,7 +31,7 @@ Remember that you may need to install drivers for Bluetooth to work. [View our g
 
 Troubleshooting is a built-in feature in Windows that helps you troubleshoot issues with your computer.
 
-Atlas disables it by default to have fewer running Windows services. To enable it, run the `Enable Troubleshooting.cmd` file in the `Diagnostics and Troubleshooting` folder and restart your computer.
+Atlas disables it by default to have fewer running Windows services. To enable it, run the `Enable Troubleshooting.cmd` script and restart your computer.
 
 ## :material-gamepad: FSO and Game Bar
 
@@ -39,11 +39,26 @@ Game Bar is a built-in feature in Windows that can record your screen, take scre
 
 Atlas enables both Game Bar and FSO support by default. However, if you want to use [Fullscreen Exclusive](https://wiki.special-k.info/en/SwapChain) instead, run `Disable FSO & Game Bar Support.reg`, which should allow you to use Fullscreen Exclusive in supported games. Remember that specific games might still require the **Disable full-screen optimizations** compatibility option.
 
+## :material-chat-processing: Microsoft Copilot
+
+!!! tip "Microsoft Edge"
+    This feature requires Microsoft Edge, so the script will prompt you to re-install it if Edge is not installed.
+
+[Copilot](https://en.wikipedia.org/wiki/Microsoft_Copilot) is an AI chatbot by Microsoft integrated into the latest Windows 10 and 11 versions, with an icon in the taskbar to open its sidebar where you can interact with it.
+
+By default, Atlas disables Copilot as it is seen as an annoyance to most users and raises privacy concerns for some users. To enable it again, run the `Enable Microsoft Copilot.cmd` script.
+
+## :material-phone: Mobile Devices (Phone Link)
+
+'Mobile devices' refers to the Settings page where you can link your phone to Windows in various ways, such as using the 'Phone Link' app or the new 'Manage mobile devices' app in Windows 11.
+
+By default, Atlas disables this Settings page as it conflicts with some policies. Run the `Enable Mobile Device Settings.cmd` script to enable it again.
+
 ## :material-network: Network Discovery
 
 Network discovery is a built-in feature in Windows that discovers other computers on your network.
 
-On Atlas, we keep its services enabled by default as we have determined they are not resource-intensive. With that in mind, if you want to disable them, run the `Disable Network Discovery Services.cmd` file and restart.
+On Atlas, we keep its services enabled by default as we have determined they are not resource-intensive. With that in mind, if you want to disable them, run the `Disable Network Discovery Services.cmd` script and restart.
 
 Be aware that compatibility issues can arise if you disable services like these.
 
@@ -51,7 +66,7 @@ Be aware that compatibility issues can arise if you disable services like these.
 
 File sharing allows sending files across your local network to other Windows devices, and it's a part of network discovery.
 
-File sharing is disabled by default on Windows. However, you can only use it on Atlas by running the `Enable File Sharing.cmd` file.
+File sharing is disabled by default on Windows. However, you can only use it on Atlas by running the `Enable File Sharing.cmd` script.
 
 ### Network Navigation Pane
 
@@ -63,7 +78,7 @@ Atlas disables the network navigation pane by default, but if you want to see th
 
 On Atlas, we have made notification support a configurable option to allow users who do not want the feature to have fewer Windows services running.
 
-Although the initial setup prompts if you want to disable notification support, you can toggle it afterward. Run the `Enable Notifications.cmd` or `Disable Notifications.cmd` file and restart your computer.
+Although the initial setup prompts if you want to disable notification support, you can toggle it afterward. Run the `Enable Notifications.cmd` or `Disable Notifications.cmd` script and restart your computer.
 
 ## :material-power-plug: Power
 
@@ -90,36 +105,29 @@ Hibernation is disabled by default due to excess storage used for a hibernation 
 
 This folder's scripts control multiple power-saving aspects, such as the power scheme and device power saving. Disabling power-saving increases power consumption and idle temperatures but can improve responsiveness and performance.
 
-Although the initial setup prompts if you want to disable power-saving, you can toggle it afterward. Run either the `Default Power-saving.cmd` or `Disable Power-saving.cmd` file and restart your computer.
+Although the initial setup prompts if you want to disable power-saving, you can toggle it afterward. Run `Default Power-saving.cmd` or `Disable Power-saving.cmd` script and restart your computer. 
 
 ### Timer Resolution
 
-!!! note "Support"
-    This script does not exist on Windows 10, as it is not supported.
+!!! info "Windows 11-only"
 
 Atlas includes a script that utilizes [@amitxv's TimerResolution utility](https://github.com/amitxv/TimerResolution) to increase the precision of Windows' timer, which benefits applications requiring consistent pacing or [sleeping](https://en.wikipedia.org/wiki/Sleep_(system_call)), such as framerate limiters in some games.
 
-However, this is at the cost of increased power consumption and is not always beneficial for all applications, so we recommend that you do your own testing.
+However, this is at the cost of increased power consumption and is not always beneficial for all applications, so we recommend you do testing.
 
-Run the `Enable timer resolution.cmd` or `Disable timer resolution (default).cmd` file to toggle this high precision, and use the `! MeasureSleep.exe` utility to track it. See [@amitxv's TimerResolution repository](https://github.com/amitxv/TimerResolution#timerresolution) for more information.
+Run the `Enable timer resolution.cmd` script to enable this high precision, and use the `! MeasureSleep.exe` utility to track it. See [@amitxv's TimerResolution repository](https://github.com/amitxv/TimerResolution#timerresolution) for more information.
 
 ## :material-printer: Printing
 
 On Atlas, we have made printing support a configurable option to allow users who do not utilize it to have fewer Windows services running.
 
-Although the initial setup prompts if you want to disable printing support, you can toggle it afterward. Run the `Enable Printing.cmd` or `Disable Printing.cmd` file and restart your computer.
+Although the initial setup prompts if you want to disable printing support, you can toggle it afterward. Run the `Enable Printing.cmd` or `Disable Printing.cmd` script and restart your computer.
 
 ## :material-card-search: Search Indexing
 
 Search indexing is a built-in feature in Windows that indexes the contents of your computer. Indexing the contents of your PC helps you get faster results when you're searching it for files and other things.
 
-On Atlas, we have disabled it by default to make the system more lightweight, as indexing can be a resource-intensive process. If you want to enable it, run the `Enable Search Indexing.cmd` file and restart your computer.
-
-## :material-microsoft-windows: Start Menu
-
-The Start Menu folder primarily contains the `Install Open-Shell.cmd` script that automatically installs [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/), the [Fluent-Metro skin](https://github.com/bonzibudd/Fluent-Metro), and the Atlas Open-Shell Preset that configures it.
-
-Additionally, there are some extra links to other start menu customization programs. You can uninstall these programs later to revert to the regular Windows start menu.
+On Atlas, we have disabled it by default to make the system more lightweight, as indexing can be a resource-intensive process. If you want to enable it, run the `Enable Search Indexing.cmd` script and restart your computer.
 
 ## :material-restore: System Restore
 
@@ -128,21 +136,36 @@ System Restore is a final resort when taking snapshots of your machine. It backs
 By default, Atlas leaves System Restore enabled. However, you might want to disable it as it is sometimes ineffective and can cause problems.
 You can disable it by running `Disable System Restore.reg` in the `System Restore` folder, followed by a system restart.
 
-## :material-animation: Visual Effects
-
-Windows enables various visual effects by default. These include animated menus, icons, and animations while minimizing and maximizing windows.
-
-These can significantly enhance the appearance of Windows but can reduce overall responsiveness and the feeling of 'snappiness.'
-
-For this reason, Atlas disables visual effects by default. Run the `Default Windows Visual Effects.cmd` file to restore Windows' default visual effects.
-
 ## :material-vpn: VPN
 
 A VPN (Virtual Private Network) allows you to connect to the internet more securely and privately. Windows has services to provide support for VPNs.
 
-On Atlas, we keep its services enabled by default as we have determined they are not resource-intensive. With that in mind, if you want to disable them, run the `Disable VPN support.cmd` file.
+On Atlas, we keep its services enabled by default as we have determined they are not resource-intensive. With that in mind, if you want to disable them, run the `Disable VPN support.cmd` script.
 
 Be aware that compatibility issues can arise if you disable services like these.
+
+## :material-search-web: Web Search (includes Search Highlights)
+
+Web search refers to Windows' online functionality related to the search in the start menu or search icon on the taskbar, such as Bing search results.
+
+Search highlights are a part of this in the form of an icon on the search box that allows you to see the current topic of the day.
+
+By default, Atlas disables web search as it makes Windows Search feel slower and has potential privacy issues for some users. You can enable web search again by running the `Enable Web Search.cmd` script.
+
+## :material-widgets: Widgets (News and Interests)
+
+!!! tip "Microsoft Edge"
+    This feature requires Microsoft Edge, so the script will prompt you to re-install it if Edge is not installed.
+
+[Widgets](https://support.microsoft.com/en-us/windows/stay-up-to-date-with-widgets-7ba79aaa-dac6-4687-b460-ad16a06be6e4), known as [News and Interests](https://support.microsoft.com/en-gb/windows/stay-up-to-date-with-news-and-interests-a39baa08-7488-4169-9ed8-577238f46f8f) on Windows 10, are additions to the taskbar that have cards that include information such as the news and the weather.
+
+By default, Atlas disables Widgets or News and Interests because it is seen as an annoyance to many users and a potential privacy concern to some users. You can enable Widgets or News and Interests again by running the `Enable Widgets.cmd` script.
+
+## :material-pine-tree: Windows Spotlight
+
+Windows Spotlight is a feature included with Windows 10 and 11, which downloads images and advertisements from Bing and displays them as background wallpapers on the lock screen or desktop.
+
+By default, Atlas disables it as Atlas has its theme, and the feature raises privacy concerns for some users. To enable it, run the `Windows Spotlight.reg` file and restart your computer.
 
 ## :material-update: Windows Update
 

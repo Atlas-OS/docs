@@ -9,9 +9,9 @@ When it comes to other drivers, which include Bluetooth, scanners, and printer d
 
 By this, we mean searching the **device model** or **motherboard manufacturer** as they have the drivers listed and work more efficiently than SDIO generic drivers.
 
-Snappy Driver Installer Origin (SDIO) scans your device for connected and wireless devices that don't have drivers. It's not recommended to select drivers where you don't have issues.
+## Other options
 
-## :material-screwdriver: Snappy Driver Installer Origin
+### :material-screwdriver: Snappy Driver Installer Origin
 
 Snappy Driver Installer Origin (SDIO) can help you find drivers that are compatible with your hardware. SDIO scans your system for missing or outdated drivers and installs the most up-to-date ones for you. It's highly discouraged to install all driver's SDIO lists. You should only make changes, update or install drivers if you have issues specifically with devices.
 
