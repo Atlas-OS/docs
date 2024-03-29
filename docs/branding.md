@@ -183,6 +183,32 @@ We make all of our brand assets available to the public in a variety of formats 
 
 ## Wallpapers
 
+### Atlas v0.4
+
+#### Version 1
+
+=== "v0.4 Version 1"
+    ![AtlasOS v0.4 Version 1 Wallpaper](assets/brand/wallpapers/16_9/v0.4/v1/preview/16_9-v0.4-v1-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.4 Version 1 Wallpaper 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_9/v0.4/v1/16_9-v0.4-v1.png)
+
+    [:material-download: Download v0.4 Version 1 Wallpaper 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/v0.4/v1/16_10-v0.4-v1.png)
+
+    [:material-download: Download v0.4 Version 1 Wallpaper 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/v0.4/v1/21_9-v0.4-v1.png)
+
+    [:material-download: Download v0.4 Version 1 Wallpaper 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/v0.4/v1/4_3-v0.4-v1.png)
+
+=== "v0.4 Version 1.1"
+    ![AtlasOS v0.4 Version 1.1 Wallpaper](assets/brand/wallpapers/16_9/v0.4/v2/preview/16_9-v0.4-v2-preview.png){ width=650 loading=lazy }
+
+    [:material-download: Download v0.4 Version 2 Wallpaper 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_9/v0.4/v2/16_9-v0.4-v2.png)
+
+    [:material-download: Download v0.4 Version 2 Wallpaper 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/v0.4/v2/16_10-v0.4-v2.png)
+
+    [:material-download: Download v0.4 Version 2 Wallpaper 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/v0.4/v2/21_9-v0.4-v2.png)
+
+    [:material-download: Download v0.4 Version 2 Wallpaper 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/v0.4/v2/4_3-v0.4-v2.png)
+
 ### Atlas v0.3
 
 #### Version 1
