@@ -6,13 +6,17 @@ icon: material/camera
 
 # :material-camera: Screenshotting
 
-In Windows, the Snipping Tool is not included in Atlas by default. It can be reinstalled from the Microsoft Store. However, we've kept the shortcut for quickly taking screenshots: ++win+shift+s++.
+## Snipping Tool
 
-If you're looking for something more advanced, we recommend the following options.
+The modern Snipping Tool app is in Windows by default, called 'Snip & Sketch' on Windows 10, replacing the legacy Snipping Tool in Windows 11. You were asked if you wanted to remove it from Atlas during the initial configuration. However, you can still reinstall it using the link provided below.
+
+`winget install -e --id 9MZ95KL8MR0L`
+
+[:simple-microsoftstore: Download Snipping Tool ->](ms-windows-store://pdp/?ProductId=9MZ95KL8MR0L)
 
 ## ShareX
 
-ShareX is an advanced tool for capturing screenshots that not only allows you to take screenshots of your screen but also provides advanced options to edit and enhance the captured images. With a wide range of features, ShareX stands out as the best option for capturing and editing screenshots, making it the ideal choice for most users.
+ShareX is an advanced tool for capturing screenshots that allows you to take screenshots or recordings of your screen and provides advanced options to edit and enhance the captures. With a wide range of features, ShareX is the best option for capturing and editing screenshots, making it the ideal choice for most users.
 
 `winget install -e --id ShareX.ShareX`
 
@@ -20,7 +24,7 @@ ShareX is an advanced tool for capturing screenshots that not only allows you to
 
 ## Lightshot
 
-Lightshot is a lightweight and proprietary screenshot tool that enables you to capture and edit screenshots. It can be installed and run on most computers.
+Lightshot is a lightweight but proprietary tool that enables you to capture and edit screenshots. We recommend ShareX over Lightshot, but some users may prefer Lightshot over it.
 
 `winget install -e --id Skillbrains.Lightshot`
 
