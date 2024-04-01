@@ -15,6 +15,14 @@ The Alt-Tab folder lets you choose whether to use the modern Alt-Tab menu or the
 
 By default, Atlas keeps the modern Alt-Tab menu, but if you wish to use the legacy menu, run the `Legacy Alt-Tab.reg` file.
 
+## :material-gesture-swipe-down: Edge Swipe
+
+Edge swipe is anything that has to do with gestures on the edges of the screen, e.g., swiping right or left to open Widgets or the Notification Center.
+
+However, these gestures do not only include a touchscreen. It also consists of a title bar that shows when you put your mouse cursor to the top of the screen in certain fullscreen games, likely from the Microsoft Store.
+
+Although such gestures are meant to be convenient, many users are inconvenienced by accidentally triggering them. For this reason, edge swipe is disabled by default on Atlas. To enable it again, run `Allow Edge Swipe.reg` and restart Explorer.
+
 ## :material-menu-open: Context Menus
 
 ### Run With Priority in the context menu
@@ -107,6 +115,12 @@ You can restore the default `- Shortcut` text using the `Restore Shortcut Text.r
 The Start Menu folder primarily contains the `Install Open-Shell.cmd` script that automatically installs [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/), the [Fluent-Metro skin](https://github.com/bonzibudd/Fluent-Metro), and the Atlas Open-Shell Preset that configures it.
 
 Additionally, there are some extra links to other start menu customization programs. You can uninstall these programs later to revert to the regular Windows start menu.
+
+## :material-file-document-multiple: Unlock Recent Items
+
+In this case, recent items refer to the multiple features in Windows that track recently opened documents, application usage, and more.
+
+By default, Atlas disables recent items using policies, meaning you can't change the settings. However, by running `Unlock Recent Items.cmd`, you can unlock recent item settings and re-enable whichever you'd like.
 
 ## :material-message-text: Verbose Status Messages
 
