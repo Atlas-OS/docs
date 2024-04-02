@@ -55,6 +55,7 @@ nav:
     - What's removed?: faq-and-troubleshooting/removed-features.md
     - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
     - Common Questions:
+      - Acrobat not installing: faq-and-troubleshooting/common-questions/acrobat-not-installing.md
       - AME Wizard Deleted: faq-and-troubleshooting/common-questions/ame-wizard-deleted.md
       - Atlas and Security: faq-and-troubleshooting/common-questions/atlas-and-security.md
       - Atlas Folder Missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
