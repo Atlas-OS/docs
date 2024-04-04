@@ -29,7 +29,6 @@ These components require manual tweaking to re-enable and are not tested.
 - Various syncing using a Microsoft account
 - General advertisements and Windows tips
 - Uncommonly used context menus
-- Online speech recognition
 - Activity history
 
 ## :material-application: Applications uninstalled by default
