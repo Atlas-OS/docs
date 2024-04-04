@@ -67,7 +67,10 @@ To restore default mitigations, run the `Set Windows Default Mitigations.cmd` sc
 
 ### Fault Tolerant Heap
 
-[Fault Tolerant Heap](https://learn.microsoft.com/en-us/windows/win32/win7appqual/fault-tolerant-heap "Microsoft FTH documentation") is a feature that applies software mitigations to repeatedly crashing processes at the cost of significantly reduced performance. Atlas disables this by default.
+!!! info "AMD and Intel CPUs only"
+    This tweak does not exist on ARM64-based CPUs.
+
+[Fault Tolerant Heap](https://learn.microsoft.com/en-us/windows/win32/win7appqual/fault-tolerant-heap "Microsoft FTH documentation") is a feature (unrelated to security) that applies software mitigations to repeatedly crashing processes at the cost of significantly reduced performance. Atlas disables this by default.
 
 If you are having consistent application crashes, try enabling FTH.
 
