@@ -112,6 +112,9 @@ You can restore the default `- Shortcut` text using the `Restore Shortcut Text.r
 
 ## :material-microsoft-windows: Start Menu
 
+!!! info "AMD and Intel CPUs only"
+    Open-Shell is incompatible with ARM64-based CPUs, so the script and preset linked below won't exist for Atlas installations on ARM.
+
 The Start Menu folder primarily contains the `Install Open-Shell.cmd` script that automatically installs [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/), the [Fluent-Metro skin](https://github.com/bonzibudd/Fluent-Metro), and the Atlas Open-Shell Preset that configures it.
 
 Additionally, there are some extra links to other start menu customization programs. You can uninstall these programs later to revert to the regular Windows start menu.
