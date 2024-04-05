@@ -8,7 +8,7 @@ icon: material/cogs
 
 !!! danger "Read before continuing"
 
-    AtlasOS complies with the Windows EULA and does not modify Windows activation. To install AtlasOS, you must have Windows activated beforehand.
+    AtlasOS complies with the Windows EULA and does not modify Windows activation. Installing Atlas will not activate Windows.
     
     We recommended looking at our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md) before installing.
 

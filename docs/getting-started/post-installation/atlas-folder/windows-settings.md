@@ -12,7 +12,7 @@ Each section here corresponds to a sub-folder in the `5. Windows Settings` direc
 ## :material-lock-open-outline: Activation
 
 !!! note "Atlas does not modify Windows activation"
-    Atlas is **not** a pre-activated or pirated version of Windows.
+    Atlas is **not** a pre-activated (pirated) version of Windows.
 
 This shortcut will take you to the Windows Settings 'Activation' page. Before you can change some of the other settings, you will need to activate Windows.
 
