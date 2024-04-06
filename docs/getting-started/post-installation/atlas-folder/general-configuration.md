@@ -27,12 +27,6 @@ Although the initial setup prompts if you want to disable Bluetooth support, you
 
 Remember that you may need to install drivers for Bluetooth to work. [View our guide here](../../../faq-and-troubleshooting/common-questions/bluetooth-compatibility.md).
 
-## :material-hammer-screwdriver: Diagnostics and Troubleshooting
-
-Troubleshooting is a built-in feature in Windows that helps you troubleshoot issues with your computer.
-
-Atlas disables it by default to have fewer running Windows services. To enable it, run the `Enable Troubleshooting.cmd` script and restart your computer.
-
 ## :material-gamepad: FSO and Game Bar
 
 Game Bar is a built-in feature in Windows that can record your screen, take screenshots, show performance information, and more. It relies on [Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/), which is shortened to FSO.
@@ -106,6 +100,10 @@ Hibernation is disabled by default due to excess storage used for a hibernation 
 This folder's scripts control multiple power-saving aspects, such as the power scheme and device power saving. Disabling power-saving increases power consumption and idle temperatures but can improve responsiveness and performance.
 
 Although the initial setup prompts if you want to disable power-saving, you can toggle it afterward. Run `Default Power-saving.cmd` or `Disable Power-saving.cmd` script and restart your computer. 
+
+### Sleep Study
+
+[SleepStudy](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby-sleepstudy) is a feature in Windows that allows users to diagnose modern standby. By default, Atlas disables SleepStudy's components to reduce any potential overhead it could bring. However, tracking laptop battery levels while sleeping may need these components, so Atlas includes the `Enable Sleep Study.cmd` script to re-enable it.
 
 ### Timer Resolution
 
