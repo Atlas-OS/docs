@@ -15,8 +15,7 @@ icon: material/cogs
 ## :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2)
-    - For Windows 11, you can bypass the TPM and Secure Boot requirements, although it is not recommended
-    - We recommend choosing Windows 11 if you meet the official requirements
+    - We strongly recommend choosing Windows 11 if you meet the official requirements
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
 - Knowledge of general Windows troubleshooting and usage
