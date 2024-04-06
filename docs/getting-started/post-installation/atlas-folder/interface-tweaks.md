@@ -17,9 +17,9 @@ By default, Atlas keeps the modern Alt-Tab menu, but if you wish to use the lega
 
 ## :material-gesture-swipe-down: Edge Swipe
 
-Edge swipe is anything that has to do with gestures on the edges of the screen, e.g., swiping right or left to open Widgets or the Notification Center.
+Edge swipe is anything that has to do with gestures on the edges of the screen, e.g., on touchscreens, swiping right or left to open Widgets or the Notification Center.
 
-However, these gestures do not only include a touchscreen. It also consists of a title bar that shows when you put your mouse cursor to the top of the screen in certain fullscreen games, likely from the Microsoft Store.
+However, these gestures do not only include touchscreen devices. It also consists of a title bar that shows when you put your mouse cursor to the top of the screen in certain fullscreen games, likely from the Microsoft Store.
 
 Although such gestures are meant to be convenient, many users are inconvenienced by accidentally triggering them. For this reason, edge swipe is disabled by default on Atlas. To enable it again, run `Allow Edge Swipe.reg` and restart Explorer.
 
