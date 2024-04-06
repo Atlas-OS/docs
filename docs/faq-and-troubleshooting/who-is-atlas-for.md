@@ -9,7 +9,7 @@ icon: material/head-check
 
 ---
 
-Atlas' goal is to make a stable and easy-to-use Windows modification that *almost everyone* can use, with a strong focus on compatibility and usability.
+Atlas's goal is to make a stable and easy-to-use Windows modification that *almost everyone* can use, with a strong focus on compatibility and usability.
 
 However, with that in mind, we wouldn't recommend installing Atlas if:
 

@@ -6,38 +6,44 @@ icon: simple/vlcmediaplayer
 
 # :simple-vlcmediaplayer: Media
 
-We keep Windows Media Player Legacy by default, if you're looking for something else we'll cover more options in this guide.
-
 ## VLC Media Player
 
-One of the most known media players, because it does it well. It has all the codecs you'll need installed and ready for playback.
+VLC is one of the most well-known media players because it is simple and works well. It has all the codecs you'll need installed and ready for playback.
 
 `winget install -e --id VideoLAN.VLC`
 
-[Download VLC Media Player ->](ms-windows-store://pdp/?ProductId=XPDM1ZW6815MQM)
+[:simple-microsoftstore: Download VLC Media Player ->](ms-windows-store://pdp/?ProductId=XPDM1ZW6815MQM)
 
-## MPV
+## mpv
 
-MPV is primarily meant to be used through the command line. However, we recommend using a fork of MPV that comes with a more user-friendly graphical interface and is available on the Microsoft Store for easier access. MPV supports a wide variety of video outputs and offers many features that are highly valued by video enthusiasts.
+For media enthusiasts, mpv is an excellent minimal player that supports almost all codecs. Advanced features include scripting and customization options.
 
-`winget install -e --id 9N64SQZTB3LM`
+[Download mpv ->](https://mpv.io/installation/)
 
-[Download mpv.net fork ->](ms-windows-store://pdp/?ProductId=9N64SQZTB3LM)
+### mpv.net
+
+For a more accessible experience, we suggest using mpv.net, a fork of mpv with a more user-friendly graphical interface. It is available on the Microsoft Store for convenient access.
+
+`winget install -e --id mpv.net`
+
+[:simple-microsoftstore: Download mpv.net ->](ms-windows-store://pdp/?ProductId=9N64SQZTB3LM)
 
 ## Windows Media Player
 
-Windows Media Player is a built-in feature of the Windows operating system, but it is not included in Atlas by default. It is a useful tool for playing videos and music, and it offers more advanced features than the Film & TV app. However, it does not include all codecs like MPV or VLC Media Player by default. To use Windows Media Player, you may need to install a codec expansion pack.
+Microsoft has recently given a fresh update to Windows Media Player, which is now available by default on the latest versions of Windows. The updated version comes with a modern and user-friendly interface.
 
-[Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
+However, unlike mpv or VLC Media Player, it does not support all codecs. You may need to install codec expansion packs to view specific media files in Windows Media Player.
 
-## Film & TV
+`winget install -e --id 9WZDNCRFJ3PT`
 
-Windows has a built-in video app called Film & TV. However, it is not included by default in Atlas. This app is useful for playing videos and provides more advanced features than Windows Media Player. It is important to note that Film & TV does not include all codecs like MPV or VLC Media Player by default and may require users to purchase additional codecs.
+[:simple-microsoftstore: Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 
-[Download Film & TV ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT) | [Download HEVC Codec](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
+[:simple-microsoftstore: Download HEVC Codec ->](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
 
 ## foobar2000
 
-FooBar2000 is a music player that allows you to play both local and online music. It can handle audio with multiple tracks and is user-friendly.
+FooBar2000 is a music player that allows you to play local and online music. It can handle audio with multiple tracks and is user-friendly.
 
-[Download foobar2000 ->](https://www.foobar2000.org/).
+`winget install -e --id PeterPawlowski.foobar2000`
+
+[Download foobar2000 ->](https://www.foobar2000.org/)

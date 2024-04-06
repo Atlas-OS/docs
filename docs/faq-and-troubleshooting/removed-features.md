@@ -1,29 +1,70 @@
 ---
-description: All Windows features removed by the AtlasOS playbook
-icon: material/file-remove
+description: Lists of the different components and features removed or disabled from Atlas
+icon: material/cog
 ---
 
-# :material-delete-off: Features removed from Atlas
+# :material-cog: Components and features removed or disabled from Atlas
 
-Please do keep in mind that Atlas is made for performance and privacy, so many features and services that are not needed have been disabled for these reasons, without any easy way for enabling them. When services or features are taken away, they can cause problems with the apps you use or even with hardware, although generally unlikely. Keep this in mind before installing Atlas.
+Atlas turns off many unnecessary Windows components and features for optimal performance, usability, and privacy; for some features or components, enabling them again requires manual tweaking. We have compiled a list of most of Atlas's changes on this page.
 
-Atlas gets rid of the following services and features:
+To see the exact changes made, refer to the [Atlas source code](https://github.com/Atlas-OS/Atlas).
 
-- :simple-opentelemetry: Telemetry (components can be toggled for troubleshooting purposes)
-- :material-application-cog: Smart App Control
-- :material-sync: Settings Sync
+## :material-delete: What's permanently deleted?
 
-### :material-application: Applications or features uninstalled by default
+These components require a Windows reinstall to get back.
+
+- [Smart App Control](https://support.microsoft.com/en-gb/topic/what-is-smart-app-control-285ea03d-fa88-4d56-882e-6698afdb7003)
+    - Once it's disabled in Windows, you can't reinstall it
+    - Disabled as it sends lots of data to Microsoft
+    - Requires optional diagnostic data in Windows
+    - Causes unusable slowdowns if Defender is disabled
+
+## :material-cog-pause: What's disabled?
+
+These components require manual tweaking to re-enable and are not tested.
+
+- Telemetry
+    - Atlas has the option to toggle telemetry components for troubleshooting
+    - The underlying policies turning off various telemetry have no options in the Atlas folder. This includes Windows Error Reporting, CEIP, and more
+- Various syncing using a Microsoft account
+- General advertisements and Windows tips
+- Uncommonly used context menus
+- Activity history
+
+## :material-application: Applications uninstalled by default
 
 These can be reinstalled after installation, but are removed by default.
 
-- :material-shopping-outline: Many default included Microsoft Store applications
-- :material-update: Microsoft Update Health Tools
-- :simple-internetexplorer: Internet Explorer
-- :material-heart-pulse: PC Health Check
-- :simple-microsoftonedrive: OneDrive
+- **Internet Explorer**<br/>
+  Only on Windows 10, can be re-enabled as an optional feature
+- **OneDrive**<br/>
+  If it's set up, it's not removed. This is to prevent data loss
+- **Microsoft Edge**<br/>
+  Optional - the user has a choice to keep or remove it<br/>
+  Edge can be reinstalled using the `1. Software\Remove Edge.cmd` script
+- **Steps Recorder**<br/>
+  Deprecated - can be re-enabled as an optional feature
+- **Legacy Windows Media Player**<br/>
+  Replaced by modern player - can be re-enabled as an optional feature
+- **Maths Recognizer**<br/>
+  Only on stock Windows 10 by default, can be enabled as an optional feature
 
-!!! tip
-    If something isn't working, try enabling services or features inside the [Atlas folder on your Desktop](file://C:/Users/default/Desktop/Atlas), and follow our [Configuration guide](../getting-started/post-installation/drivers/getting-started.md) for more info.
+### Microsoft Store Apps
 
-    Atlas gives you the option to enable/disable lots of other options too, which you can also find in the folder above.
+You can reinstall all of the below using the Microsoft Store.
+
+| **Store Apps (Column 1)** | **Store Apps (Column 2)**           | **Store Apps (Column 3)** |
+| ------------------------- | ----------------------------------- | ------------------------- |
+| Microsoft Teams           | Clipchamp                           | Disney+                   |
+| Cortana (deprecated)      | Xbox Console Companion (deprecated) | Mail and Calendar         |
+| Tips (deprecated)         | Films & TV                          | Microsoft Family Safety   |
+| Dev Home                  | Microsoft Weather                   | Microsoft News            |
+| Get Help                  | 3D Viewer                           | Microsoft Office Hub      |
+| Microsoft Sticky Notes    | Microsoft OneNote                   | People                    |
+| Skype                     | Microsoft To Do                     | Windows Alarms & Clock    |
+| Feedback Hub              | Windows Maps                        | Voice Recorder            |
+| Phone Link                | Snipping Tool (optional)            | Snip & Sketch (optional)  |
+
+## Having a problem?
+
+If something isn't working, search the documentation for a script or configuration file to fix the particular feature or service. Atlas allows you to toggle many options inside the Atlas configuration folder.

@@ -2,3 +2,4 @@ git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-inside
 pillow
 cairosvg
 mkdocs-git-committers-plugin-2
+mkdocs-redirects
