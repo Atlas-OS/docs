@@ -24,7 +24,7 @@ packages:
       parse5: 7.1.2
       parse5-htmlparser2-tree-adapter: 7.0.0
       parse5-parser-stream: 7.1.2
-      undici: 5.28.3
+      undici: 5.28.4
       whatwg-mimetype: 3.0.0
     dev: false
 
@@ -53,7 +53,7 @@ packages:
       sharp: 0.32.6
       svgo: 3.0.2
       table: 6.8.1
-      undici: 5.28.3
+      undici: 5.28.4
     transitivePeerDependencies:
       - '@swc/helpers'
       - react
@@ -1754,8 +1754,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /undici@5.28.3:
-    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
+  /undici@5.28.4:
+    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0

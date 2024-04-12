@@ -1,5 +1,5 @@
 // AGPL-3.0-only https://spdx.org/licenses/AGPL-3.0-or-later.html
-// Modified from https://github.com/massgravel/msdl for use in AtlasOS documentation
+// Modified from https://github.com/gravesoft/msdl for use in AtlasOS documentation
 //
 // Changes:
 //  - Auto-selecting language, and removing 'Choose once'
@@ -13,7 +13,7 @@ const langsUrl =
 const downUrl =
     "https://www.microsoft.com/en-us/api/controls/contentinclude/html?pageId=cfa9e580-a81e-4a4b-a846-7b21bf4e2e5b&host=www.microsoft.com&segments=software-download%2Cwindows11&query=&action=GetProductDownloadLinksBySku&sdVersion=2";
 const sessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&session_id=";
-const apiUrl = "https://massgrave.dev/api/msdl/";
+const apiUrl = "https://api.gravesoft.dev/msdl/";
 const sharedSessionGUID = "c2452a22-b85c-4f2b-a20c-7cb8c4dc95ac";
 const langAttempt = 3;
 
