@@ -3,3 +3,4 @@ pillow
 cairosvg
 mkdocs-git-committers-plugin-2
 mkdocs-redirects
+idna>=3.7
