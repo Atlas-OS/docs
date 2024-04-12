@@ -110,7 +110,7 @@ You can find your network driver online by searching for your device/motherboard
     3. Install Windows using your USB stick
     7. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
     
-    <h2>Using Ventoy (recommended for simplified setup in Windows 11)</h4>
+    <h2>Using Ventoy</h4>
     
     !!! trick "You can store files other than ISOs on the Ventoy USB stick. It won't break anything."
 
