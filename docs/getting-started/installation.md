@@ -113,7 +113,8 @@ You can find your network driver online by searching for your device/motherboard
     4. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
     <h3>Using Ventoy (recommended for simplified setup in Windows 11)</h4>
-        
+    
+    !!! warning "You may want to disable Secure Boot in your BIOS before proceeding"
     !!! tip "Keep in mind"
         You can store files other than ISOs on the Ventoy USB stick. It won't break anything.
 
