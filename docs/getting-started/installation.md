@@ -115,12 +115,12 @@ You can find your network driver online by searching for your device/motherboard
     !!! trick "You can store files other than ISOs on the Ventoy USB stick. It won't break anything."
 
     1. Disable Secure Boot in your BIOS
-    2. Download the latest Windows release of Ventoy from [here](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable
+    2. Download the latest Windows release of Ventoy from [here](https://github.com/ventoy/Ventoy/releases/){:target="_blank"} and extract it wherever you feel comfortable
     3. From the extracted folder run `Ventoy2Disk.exe`
     4. In the opened window select your USB stick and press "Install"
     5. Drag (copy) the downloaded ISO file into the bigger partition of the USB stick
-    6. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD))
-    7. You will be shown menu with each ISO file where you need to pick the right one using ++enter++
+    6. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD){:target="_blank"})
+    7. You will be shown a menu with each ISO file where you need to pick the right one using ++enter++
     8. Choose "Boot in normal mode" using the same key
     9. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
@@ -279,3 +279,4 @@ We hope you enjoy using AtlasOS! :smile:
 - [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-forum: Forums](https://forum.atlasos.net)
 - [:material-chat-question: FAQ & Troubleshooting](../faq-and-troubleshooting/removed-features.md)
 - [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
+
