@@ -122,7 +122,7 @@ You can find your network driver online by searching for your device/motherboard
     6. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD){:target="_blank"})
     7. You will be shown a menu with each ISO file where you need to pick the right one using ++enter++
     8. Choose "Boot in normal mode" using the same key
-    9. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
+    9. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe). **You won't to type in `oobe\bypassnro` with Ventoy**.
 
 
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
@@ -158,14 +158,9 @@ After completing this step, you should be on your desktop without an internet co
 === "Windows 11"
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout.
-        
-        2. Unless you are using Ventoy:
-            
-            2.1. Press ++shift+f10++ to open the Command Prompt.
-            
-            2.2. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
-        
-        3. Continue through with setup as normal, but make sure to:
+        2. Press ++shift+f10++ to open the Command Prompt.
+        3. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+        4. Continue through with setup as normal, but make sure to:
             - Not connect to the internet
             - Deny each option in the **Privacy** section
 
