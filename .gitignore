@@ -2,6 +2,7 @@
 .cache/
 site/
 .jampack/
+envname
 
 # Dependencies
 node_modules/

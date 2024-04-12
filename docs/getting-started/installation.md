@@ -102,29 +102,28 @@ You can find your network driver online by searching for your device/motherboard
 ???+ info "USB Installation (optional)"
 
     The method listed here **does not** require a USB stick. Using a USB stick or not will practically have the same result.
-
-    <h2>Installing via USB</h3>
-    <h3>Using the Media Creation Tool</h4>
-
-    1. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
-    2. Disconnect any cables providing your computer internet, such as an ethernet cable
-        - Do not reconnect to the internet until instructed to
-    3. Install Windows using your USB stick
-    4. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
-
-    <h3>Using Ventoy (recommended for simplified setup in Windows 11)</h4>
+    <h2>Using the Media Creation Tool</h4>
     
-    !!! warning "You may want to disable Secure Boot in your BIOS before proceeding"
-    !!! tip "Keep in mind"
-        You can store files other than ISOs on the Ventoy USB stick. It won't break anything.
-
-    1. [Download](https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-windows.zip) Ventoy and extract it wherever you feel comfortable
-    2. From the extracted folder run `Ventoy2Disk.exe`
-    3. In the opened window choose your USB stick and press the "Install" button
-    4. The downloaded Windows ISO file now needs to be copied (dragged) into the bigger partition of the USB stick
-    5. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD)), but you will be prompted with a menu with each ISO file where you need to choose the right one using ++enter++
-    6. Choose "Boot in normal mode" using the same key
+    1. Disconnect any cables providing your computer internet, such as an ethernet cable
+        - Do not reconnect to the internet until instructed to
+    2. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
+    3. Install Windows using your USB stick
     7. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
+    
+    <h2>Using Ventoy (recommended for simplified setup in Windows 11)</h4>
+    
+    !!! trick "You can store files other than ISOs on the Ventoy USB stick. It won't break anything."
+
+    1. Disable Secure Boot in your BIOS
+    2. Download the latest Windows release of Ventoy from [here](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable
+    3. From the extracted folder run `Ventoy2Disk.exe`
+    4. In the opened window select your USB stick and press "Install"
+    5. Drag (copy) the downloaded ISO file into the bigger partition of the USB stick
+    6. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD))
+    7. You will be shown menu with each ISO file where you need to pick the right one using ++enter++
+    8. Choose "Boot in normal mode" using the same key
+    9. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
+
 
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
@@ -157,7 +156,6 @@ Your current Windows installation should be moved to a `Windows.old` folder afte
 After completing this step, you should be on your desktop without an internet connection.
 
 === "Windows 11"
-    !!! trick "Typing in `oobe\bypassnro` is not required if you are using Ventoy"
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout.
         1. Press ++shift+f10++ to open the Command Prompt.
