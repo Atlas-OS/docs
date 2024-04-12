@@ -104,11 +104,11 @@ You can find your network driver online by searching for your device/motherboard
     The method listed here **does not** require a USB stick. Using a USB stick or not will practically have the same result.
     <h2>Using the Media Creation Tool</h4>
     
-    1. Disconnect any cables providing your computer internet, such as an ethernet cable
+    1. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
+    2. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
-    2. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
     3. Install Windows using your USB stick
-    7. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
+    4. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
     
     <h2>Using Ventoy</h4>
     
