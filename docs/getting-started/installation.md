@@ -119,10 +119,13 @@ You can find your network driver online by searching for your device/motherboard
     3. From the extracted folder run `Ventoy2Disk.exe`
     4. In the opened window select your USB stick and press "Install"
     5. Drag (copy) the downloaded ISO file into the bigger partition of the USB stick
-    6. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD){:target="_blank"})
-    7. You will be shown a menu with each ISO file where you need to pick the right one using ++enter++
-    8. Choose "Boot in normal mode" using the same key
-    9. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe). **You won't need to type in `oobe\bypassnro` with Ventoy**.
+    
+    6. Disconnect any cables providing your computer internet, such as an ethernet cable
+        - Do not reconnect to the internet until instructed to
+    7. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD){:target="_blank"})
+    8. You will be shown a menu with each ISO file where you need to pick the right one using ++enter++
+    9. Choose "Boot in normal mode" using the same key
+    10. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe). **You won't need to type in `oobe\bypassnro` with Ventoy**.
 
 
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
