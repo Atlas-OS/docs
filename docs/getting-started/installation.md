@@ -101,16 +101,29 @@ You can find your network driver online by searching for your device/motherboard
 
 ???+ info "USB Installation (optional)"
 
-    The method listed here **does not** require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media) if you prefer to. Using a USB stick or not will practically have the same result.
+    The method listed here **does not** require a USB stick. Using a USB stick or not will practically have the same result.
 
-    <h3>Installing via USB</h3>
+    <h2>Installing via USB</h3>
+    <h3>Using the Media Creation Tool</h4>
 
-    1. Disconnect any cables providing your computer internet, such as an ethernet cable
+    1. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
+    2. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
+    3. Install Windows using your USB stick
+    4. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
-    2. Install Windows using your USB stick
+    <h3>Using Ventoy (recommended for simplified setup in Windows 11)</h4>
+        
+    !!! tip "Keep in mind"
+        You can store files other than ISOs on the Ventoy USB stick. It won't break anything.
 
-    3. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
+    1. [Download](https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-windows.zip) Ventoy and extract it wherever you feel comfortable
+    2. From the extracted folder run `Ventoy2Disk.exe`
+    3. In the opened window choose your USB stick and press the "Install" button
+    4. The downloaded Windows ISO file now needs to be copied (dragged) into the bigger partition of the USB stick
+    5. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD)), but you will be prompted with a menu with each ISO file where you need to choose the right one using ++enter++
+    6. Choose "Boot in normal mode" using the same key
+    7. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
@@ -143,10 +156,11 @@ Your current Windows installation should be moved to a `Windows.old` folder afte
 After completing this step, you should be on your desktop without an internet connection.
 
 === "Windows 11"
+    !!! trick "Typing in `oobe\bypassnro` is not required if you are using Ventoy"
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout.
         1. Press ++shift+f10++ to open the Command Prompt.
-        1. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+        1. Type in `oobe\bypassnro` and press ++enter++ **unless you are using Ventoy**. Your computer will restart.
         1. Continue through with setup as normal, but make sure to:
             - Not connect to the internet
             - Deny each option in the **Privacy** section
