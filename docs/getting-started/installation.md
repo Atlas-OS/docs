@@ -101,16 +101,32 @@ You can find your network driver online by searching for your device/motherboard
 
 ???+ info "USB Installation (optional)"
 
-    The method listed here **does not** require a USB stick, but [you can still reinstall Windows using one](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media) if you prefer to. Using a USB stick or not will practically have the same result.
-
-    <h3>Installing via USB</h3>
-
-    1. Disconnect any cables providing your computer internet, such as an ethernet cable
+    The method listed here **does not** require a USB stick. Using a USB stick or not will practically have the same result.
+    <h2>Using the Media Creation Tool</h4>
+    
+    1. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
+    2. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
+    3. Install Windows using your USB stick
+    4. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
+    
+    <h2>Using Ventoy</h4>
+    
+    !!! trick "You can store files other than ISOs on the Ventoy USB stick. It won't break anything."
 
-    2. Install Windows using your USB stick
+    1. Disable Secure Boot in your BIOS
+    2. Download the latest Windows release of Ventoy from [here](https://github.com/ventoy/Ventoy/releases/){:target="_blank"} and extract it wherever you feel comfortable
+    3. From the extracted folder run `Ventoy2Disk.exe`
+    4. In the opened window select your USB stick and press "Install"
+    5. Drag (copy) the downloaded ISO file into the bigger partition of the USB stick
+    
+    6. Disconnect any cables providing your computer internet, such as an ethernet cable
+        - Do not reconnect to the internet until instructed to
+    7. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD){:target="_blank"})
+    8. You will be shown a menu with each ISO file where you need to pick the right one using ++enter++
+    9. Choose "Boot in normal mode" using the same key
+    10. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe). **You won't need to type in `oobe\bypassnro` with Ventoy**.
 
-    3. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
 
 Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
@@ -145,9 +161,9 @@ After completing this step, you should be on your desktop without an internet co
 === "Windows 11"
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout.
-        1. Press ++shift+f10++ to open the Command Prompt.
-        1. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
-        1. Continue through with setup as normal, but make sure to:
+        2. Press ++shift+f10++ to open the Command Prompt.
+        3. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+        4. Continue through with setup as normal, but make sure to:
             - Not connect to the internet
             - Deny each option in the **Privacy** section
 
@@ -261,3 +277,4 @@ We hope you enjoy using AtlasOS! :smile:
 - [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-forum: Forums](https://forum.atlasos.net)
 - [:material-chat-question: FAQ & Troubleshooting](../faq-and-troubleshooting/removed-features.md)
 - [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
+

@@ -21,4 +21,4 @@
 *[OS]: Operating System
 *[Windows drive]: Commonly referred to as the C drive
 *[EULA]: End-user license agreement
-*[ISO file]: A virtual copy of everything on a DVD, such as the Windows Setup.
+*[ISO file]: A virtual copy of everything on a DVD, such as the Windows Setup
