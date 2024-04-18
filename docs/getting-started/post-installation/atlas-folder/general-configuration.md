@@ -29,6 +29,14 @@ Remember that you may need to install drivers for Bluetooth to work. [View our g
 
 ## :material-gamepad: FSO and Game Bar
 
+!!! note "This doesn't fully disable Game Bar"
+    The script included in Atlas to disable Game Bar only turns off support for Game Bar, meaning that games might not use a display mode that supports Game Bar, and it might run in the background less, if at all. However, Game Bar will still be accessible with ++win+g++.
+    
+    There's no known method to fully disable Game Bar except for uninstalling it, which isn't officially supported and is known to cause issues.
+
+!!! warning "Performance issues"
+    Disabling support for Game Bar on modern AMD CPUs could cause [performance problems](https://www.neowin.net/news/microsofts-xbox-game-bar-boosts-windows-11-and-10-gaming-performance-on-amd-ryzen-7950x3d/).
+
 Game Bar is a built-in feature in Windows that can record your screen, take screenshots, show performance information, and more. It relies on [Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/), which is shortened to FSO.
 
 Atlas enables both Game Bar and FSO support by default. However, if you want to use [Fullscreen Exclusive](https://wiki.special-k.info/en/SwapChain) instead, run `Disable FSO & Game Bar Support.reg`, which should allow you to use Fullscreen Exclusive in supported games. Remember that specific games might still require the **Disable full-screen optimizations** compatibility option.
