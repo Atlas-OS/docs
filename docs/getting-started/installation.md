@@ -99,60 +99,60 @@ You can find your network driver online by searching for your device/motherboard
 
 ## :material-microsoft-windows: Reinstalling Windows
 
-???+ info "USB Installation (optional)"
+!!! question "Which method should I pick?"
+    Using a USB drive or not will practically have the same result. We recommend reinstalling Windows using the [**"No USB Drive"**](#__tabbed_2_1) method, although this does not work if you're not on Windows.
 
-    The method listed here **does not** require a USB stick. Using a USB stick or not will practically have the same result.
-    <h2>Using the Media Creation Tool</h4>
-    
-    1. [Follow the guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#bkmk_clean_install_of_windows_10_using_installation_media){:target="_blank"}
-    2. Disconnect any cables providing your computer internet, such as an ethernet cable
+=== "No USB Drive (recommended)"
+
+    Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
+
+    1. Disconnect any cables providing internet to your computer, such as an ethernet cable. Do not reconnect it until instructed to do so
+
+    1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer** to mount it
+
+    1. Open **This PC**, and note down the mounted ISO's drive letter (e.g. `H:`) for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
+
+    1. Press ++win+r++ to open the Run dialog
+
+    1. Type in your noted-down drive letter, including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
+
+    1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
+        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
+
+    1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
+
+    1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
+
+    1. Choose your edition of Windows. We strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+
+    1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
+
+    1. Select your Windows drive, click next, click **OK** to the warning about `Windows.old`, and let the installation finish
+
+=== "USB Drive"
+
+    !!! danger "Data loss"
+        Following this guide will destroy all data on the USB drive, as well as data on your drives. Remember to use a USB drive with a higher capacity than the Windows ISO file size.
+
+    This guide presumes you have some experience installing operating systems. If you get stuck and it's possible to use the [**"No USB Drive"**](#__tabbed_2_1) method, we recommend that instead.
+
+    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable. Alternatively, get it using a package manager. Anything is okay
+
+    1. Inside the Ventoy folder, run **Ventoy2Disk**
+
+    1. In the opened window, select your USB drive and click **Install**
+
+    1. Copy your downloaded ISO file into the USB drive (labeled Ventoy)
+
+    1. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
-    3. Install Windows using your USB stick
-    4. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe)
     
-    <h2>Using Ventoy</h4>
-    
-    !!! trick "You can store files other than ISOs on the Ventoy USB stick. It won't break anything."
+    1. Using the BIOS menu, boot from the USB drive
 
-    1. Disable Secure Boot in your BIOS
-    2. Download the latest Windows release of Ventoy from [here](https://github.com/ventoy/Ventoy/releases/){:target="_blank"} and extract it wherever you feel comfortable
-    3. From the extracted folder run `Ventoy2Disk.exe`
-    4. In the opened window select your USB stick and press "Install"
-    5. Drag (copy) the downloaded ISO file into the bigger partition of the USB stick
-    
-    6. Disconnect any cables providing your computer internet, such as an ethernet cable
-        - Do not reconnect to the internet until instructed to
-    7. Boot from the USB stick (you may want to refer to [this](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD){:target="_blank"})
-    8. You will be shown a menu with each ISO file where you need to pick the right one using ++enter++
-    9. Choose "Boot in normal mode" using the same key
-    10. Skip to [**Initial Setup (OOBE)**](#initial-setup-oobe). **You won't need to type in `oobe\bypassnro` with Ventoy**.
+    1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
+    1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
 
-Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
-
-1. Disconnect any cables providing internet to your computer, such as an ethernet cable. Do not reconnect it until instructed to do so
-
-1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer** to mount it
-
-1. Open **This PC**, and note down the mounted ISO's drive letter (e.g. `H:`) for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
-
-1. Press ++win+r++ to open the Run dialog
-
-1. Type in your noted-down drive letter, including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
-
-1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-    - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
-
-
-1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
-
-1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
-
-1. Choose your edition of Windows. We strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
-
-1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
-
-1. Select your Windows drive, click next, click **OK** to the warning about `Windows.old`, and let the installation finish
 
 ### :material-cog: Initial setup (OOBE)
 
@@ -161,9 +161,10 @@ After completing this step, you should be on your desktop without an internet co
 === "Windows 11"
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout.
-        2. Press ++shift+f10++ to open the Command Prompt.
-        3. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
-        4. Continue through with setup as normal, but make sure to:
+        1. Press ++shift+f10++ to open the Command Prompt.
+        1. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
+            - This step might not be needed when using Ventoy
+        1. Continue through with setup as normal, but make sure to:
             - Not connect to the internet
             - Deny each option in the **Privacy** section
 
