@@ -73,7 +73,6 @@ async function getDownload() {
     let isoLink; let sharedSession = false;
 
     async function useProxy() {
-        sharedSession = true;
         try {
             console.warn("ISO Downloader: Getting ISO from Microsoft failed, attempting to use the proxy...");
             isoLink = await getDownloadLink(false, true);
@@ -88,11 +87,12 @@ async function getDownload() {
         console.info("ISO Downloader: Getting download from Microsoft without shared session...");
         isoLink = await getDownloadLink(false);
     } catch (e) {
+        sharedSession = true;
+
         // Shared session isn't used for users that will invalidate it
         if (!shouldUseSharedSession) await useProxy();
 
         // Microsoft without shared session failed, attempting with shared session
-        sharedSession = true;
         try {
             console.warn("ISO Downloader: Getting ISO from Microsoft without shared session failed, attempting using shared session...");
             isoLink = await getDownloadLink(true);
@@ -102,17 +102,24 @@ async function getDownload() {
         }
     }
 
-    if (!sharedSession) {
-        console.info("ISO Downloader: Validating shared sessions...");
-        fetch(sessionUrl + sharedSessionGUID);
-        fetch(sessionUrl + "de40cb69-50a5-415e-a0e8-3cf1eed1b7cd");
-        fetch(apiUrl + 'add_session?session_id=' + sessionId.value)
-    }
-
     if (!isoLink) {
         showError("ISO_LINK_NOT_DEFINED");
     } else if (isoLink.startsWith("https://software.download.prss.microsoft.com")) {
-        console.info("ISO Downloader: Succeeded, prompting to download ISO.")
+        console.info("ISO Downloader: Everything worked, preparing to download ISO.")
+
+        if (!sharedSession) {
+            console.info("ISO Downloader: Validating shared sessions...");
+
+            [
+                sessionUrl + sharedSessionGUID,
+                sessionUrl + "de40cb69-50a5-415e-a0e8-3cf1eed1b7cd",
+                apiUrl + 'add_session?session_id=' + sessionId.value
+            ].forEach(a => {
+                fetch(a).catch(() => {});
+            });
+        }
+
+        console.info("ISO Downloader: Downloading ISO...")
         pleaseWait.style.display = "none";
         downloadLink.setAttribute("href", isoLink);
         download.style.display = "block";
@@ -209,6 +216,7 @@ function getWindows(id) {
     getLangFailCount = 0;
 
     // Start new session
+    // Always has a CORS error - can be ignored as we don't need the response from the request
     sessionId.value = uuidv4();
     const xhr = new XMLHttpRequest();
     xhr.open("GET", sessionUrl + sessionId.value, true);
