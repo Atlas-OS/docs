@@ -86,6 +86,7 @@ theme:
   features:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.path
     - navigation.indexes
     - navigation.top
