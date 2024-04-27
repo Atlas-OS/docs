@@ -7,7 +7,7 @@ icon: material/apple
 
 **If iTunes is not recognizing your Apple device, it's likely a driver issue. You can fix this by downloading and installing the Apple USB Drivers.**
 
-If you're using Atlas and have not enabled [Automatic Driver Installation](../../getting-started/post-installation/atlas-folder/general-configuration.md#driver-updates), you will need to install the Apple USB driver manually.
+If you're using Atlas and have not enabled [Automatic Driver Installation](../../getting-started/post-installation/drivers/getting-started.md#want-driver-installation-updates-through-windows-update-instead), you will need to install the Apple USB driver manually.
 
 ## :material-package-down: Manual Installation
 
