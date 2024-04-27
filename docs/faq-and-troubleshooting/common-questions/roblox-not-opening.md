@@ -21,17 +21,15 @@ Refer to your motherboard's manual if you don't know the key for it.
 
 ### 2. Creating a New Local Account and Installing Roblox
 
-Follow the steps below to create a new local account and install Roblox:
+- Navigate to `Settings > Accounts > Other Accounts > Add Account` to create a new local account.
 
-1. Navigate to `:material-cog:Settings > :fontawesome-solid-user:Accounts > :fontawesome-solid-user-plus:Other Accounts > Add Account` to create a new local account.
+- Sign out of your current account and log into the newly created one.
 
-2. Sign out of your current account and log into the newly created one.
+- Transfer all your data (Desktop, Downloads, etc.) from the old user account to the new one.
 
-3. Transfer all your data (Desktop, Downloads, etc.) from the old user account to the new one.
+- Install Roblox as you normally would.
 
-4. Install Roblox as you normally would.
-
-5. After ensuring all your data has been successfully transferred, you may delete the old user account.
+- After ensuring all your data has been successfully transferred, you may delete the old user account.
 
 !!! warning
 
