@@ -10,6 +10,7 @@ icon: simple/roblox
 # :material-cog: Enabling TPM 2.0 and Secure Boot
 
 **If you are on 11, you probably already have TPM 2.0 and Secure Boot enabled, so skip this step if you already have it enabled**
+
 To enable TPM 2.0 and Secure Boot, you need to access the BIOS of your computer (refer to your motherboard's manual if you don't know the key for it) and enable "TPM 2.0" (or "Trusted Platform Model") and "Secure Boot".
 
 # :material-account-supervisor-outline: Creating a new Local Account and installing roblox on it
