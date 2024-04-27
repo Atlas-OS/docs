@@ -5,7 +5,7 @@ icon: simple/roblox
 
 # :simple-roblox: Why is Roblox not opening?
 
-**There is currently two workarounds for this, which involves enabling TPM 2.0 and Secure Boot, creating an User Account and installing roblox there. Follow the steps below to fix the problem**
+**There is currently two workarounds for this, which involves enabling TPM 2.0 and Secure Boot and creating an User Account and installing roblox there. Follow the steps below to fix the problem**
 
 # :material-cog: Enabling TPM 2.0 and Secure Boot
 
