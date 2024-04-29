@@ -1,0 +1,29 @@
+{% extends "main.html" %}
+
+<!-- Content -->
+{% block content %}
+<div align="center" markdown>
+
+    <h1>
+        404 - Not found
+    </h1>
+    <p>This page does not exist or has been moved.
+    <br><br>
+    Please <a href="https://discord.atlasos.net" target="_blank" rel="noopener" title="AtlasOS Discord">contact us</a> or make a <a href="https://github.com/Atlas-OS/docs/compare/dev...master" target="_blank" rel="noopener noreferrer">pull request</a> if you think a redirect is necessary.</p>
+    <a href="javascript:history.back()" class="md-button">
+
+        <span class="twemoji">
+        {% include ".icons/material/arrow-left.svg" %}
+        </span>
+        Go Back
+
+    </a>
+    <a href="/" class="md-button">
+        <span class="twemoji">
+        {% include ".icons/material/home.svg" %}
+        </span>
+        Home
+    </a>
+</div>
+
+{% endblock %}
