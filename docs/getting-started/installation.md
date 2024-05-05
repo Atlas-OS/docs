@@ -152,7 +152,7 @@ You can find your network driver online by searching for your device/motherboard
         ??? failure "Verification Error"
             If you get an error screen like this one, follow the steps below:
 
-            ![vtoy-verification-error-0x1A](../assets/images/mokmanager.png){ width=400 }
+            ![vtoy-verification-error-0x1A](../assets/images/vtoy-secure-error.png){ width=400 }
 
             ------
 
