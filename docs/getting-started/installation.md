@@ -134,9 +134,9 @@ You can find your network driver online by searching for your device/motherboard
     !!! danger "Data loss"
         Following this guide will destroy all data on the USB drive, as well as data on your drives. Remember to use a USB drive with a higher capacity than the Windows ISO file size.
 
-    This guide presumes you have some experience installing operating systems. If you get stuck and it's possible to use the [**"No USB Drive"**](#__tabbed_2_1) method, we recommend that instead.
+    **This guide presumes you have some experience installing operating systems. If you get stuck and it's possible to use the ["No USB Drive"](#__tabbed_2_1) method, we recommend that instead.**
 
-    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable. Alternatively, get it using a package manager. Anything is okay
+    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable. Alternatively, get it using a package manager.
 
     1. Inside the Ventoy folder, run **Ventoy2Disk**
 
@@ -146,12 +146,56 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
-    
+
     1. Using the BIOS menu, boot from the USB drive
 
-    1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
+        ??? failure "Verification Error"
+            If you get an error screen like this one, follow the steps below:
 
-    1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
+            ![vtoy-verification-error-0x1A](../assets/images/mokmanager.png){ width=400 }
+
+            ------
+
+            Press ++enter++ to load **MokManager**.
+
+            Press any key to begin key management.
+
+            From here, the controls are: **Arrow keys to move and ++enter++ to select.**
+
+            ??? tip "Video Demonstration"
+                <center>
+                <video src="/assets/videos/enroll-key-vtoy.mp4" controls muted></video>
+                </center>
+
+            <!-- It keeps converting the list to use letters so I did this -->
+
+            1\. Choose **Enroll Key From Disk**
+
+
+            2\. Choose `VTOYEFI`
+
+
+            3\. Choose `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`
+
+
+            4\. Choose **Continue**
+
+
+            5\. Choose **Yes**
+
+
+            6\. Choose **Reboot**
+            
+            
+            Boot from the USB again. All should be fixed.
+
+            ------
+
+            If it is still not working, try Hash Enrollment, as detailed in [Ventoy's guide](https://ventoy.net/en/doc_secure.html).
+
+    2. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
+
+    3. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
 
 
 ### :material-cog: Initial setup (OOBE)
@@ -163,7 +207,7 @@ After completing this step, you should be on your desktop without an internet co
         1. Once the setup starts, select your language and then your keyboard layout.
         1. Press ++shift+f10++ to open the Command Prompt.
         1. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
-            - This step might not be needed when using Ventoy
+            - This step is not needed when using Ventoy
         1. Continue through with setup as normal, but make sure to:
             - Not connect to the internet
             - Deny each option in the **Privacy** section

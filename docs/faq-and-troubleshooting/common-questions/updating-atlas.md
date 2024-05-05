@@ -5,7 +5,9 @@ icon: material/microsoft-windows
 
 # :material-microsoft-windows: How do I update AtlasOS to the latest version?
 
-**If you're running an Atlas Playbook version v0.2.0 or below, you can not update Atlas or Windows version.** The latest versions of Atlas support cumulative Windows Updates, which include security and quality patches for Windows.
+**If you're running an Atlas Playbook version of 0.2.0 or below, you cannot update your Atlas or Windows version. Additionally, Atlas versions under 0.4.0 require a full reinstall to update to the latest Atlas version.** 
+
+The latest versions of Atlas support cumulative Windows Updates, which include security and quality patches for Windows.
 
 ## What should I do on an older version?
 
