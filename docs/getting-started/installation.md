@@ -149,53 +149,41 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Using the BIOS menu, boot from the USB drive
 
-        ??? failure "Verification Error"
-            If you get an error screen like this one, follow the steps below:
-
-            ![vtoy-verification-error-0x1A](../assets/images/vtoy-secure-error.png){ width=400 }
-
-            ------
-
-            Press ++enter++ to load **MokManager**.
-
-            Press any key to begin key management.
-
-            From here, the controls are: **Arrow keys to move and ++enter++ to select.**
+        ??? failure "'Security Violation' Error"
 
             ??? tip "Video Demonstration"
                 <center>
-                <video src="/assets/videos/enroll-key-vtoy.mp4" controls muted></video>
+                    <video src="/assets/videos/enroll-key-vtoy.mp4" controls muted></video>
+                    <p>Credit to [Ventoy](https://ventoy.net/en/doc_secure.html) for the video demonstration.<p>
                 </center>
-
-            <!-- It keeps converting the list to use letters so I did this -->
-
-            1\. Choose **Enroll Key From Disk**
-
-
-            2\. Choose `VTOYEFI`
-
-
-            3\. Choose `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`
-
-
-            4\. Choose **Continue**
-
-
-            5\. Choose **Yes**
-
-
-            6\. Choose **Reboot**
             
+            ![vtoy-verification-error-0x1A](../assets/images/vtoy-secure-error.png){ align=right width=200 }
+
+            If you get an error screen saying there was a 'Security Violation,' follow the steps below:
+
+            1\. Press ++enter++ to load **MokManager**
+
+            2\. Press any key to begin key management
+
+            3\. Choose **Enroll Key From Disk**
+
+            4\. Choose `VTOYEFI`
+                
+            - The controls are arrow keys to move and ++enter++ to select
+
+            5\. Choose `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`
+
+            6\. Choose **Continue**, then **Yes**, and finally **Reboot**
             
-            Boot from the USB again. All should be fixed.
+            7\. Boot from the USB again, as the issue should be resolved
 
             ------
 
-            If it is still not working, try Hash Enrollment, as detailed in [Ventoy's guide](https://ventoy.net/en/doc_secure.html).
+            If it is still not working, try 'Hash Enrollment,' as detailed in [Ventoy's guide](https://ventoy.net/en/doc_secure.html).
 
-    2. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
+    1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
-    3. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
+    1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
 
 
 ### :material-cog: Initial setup (OOBE)
