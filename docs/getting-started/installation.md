@@ -215,7 +215,6 @@ After completing this step, you should be on your desktop without an internet co
 
     <center>
         <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
-        <p>Credit to [@amitxv](https://github.com/amitxv) for the video demonstration.<p>
     </center>
 
 ## :material-screwdriver: Driver Updates
