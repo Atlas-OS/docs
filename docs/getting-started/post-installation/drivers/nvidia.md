@@ -27,8 +27,6 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 
 ## :material-cog: Configure NVIDIA Control Panel
 
-This section was partly based on [AMIT's documentation](https://github.com/amitxv/PC-Tuning/blob/main/docs/configure-nvidia.md)
-
 - Open the NVIDIA Control Panel by right-clicking on the desktop.
 - Disable ``Desktop > Show Notification Tray Icon``
 - Configure the following in the ``3D Settings -> Manage 3D settings`` page:
