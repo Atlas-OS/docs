@@ -15,7 +15,7 @@ icon: material/cogs
 ## :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2)
-    - We strongly recommend choosing Windows 11 if you meet the official requirements
+    - We don't recommend bypassing Windows 11's requirements due to potential incompatibilities with updates and anticheats
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
 - Knowledge of general Windows troubleshooting and usage
@@ -41,6 +41,9 @@ See the alternatives below.
 <!--
     See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js
 -->
+
+!!! question "Which version should I choose?"
+    If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
