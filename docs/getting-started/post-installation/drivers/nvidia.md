@@ -12,7 +12,7 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - Download [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall).
 - Open the application and click ``Next``.
 
-??? danger "Is the download unusually slow or stuck?"
+??? question Slow or Stuck Download
     Go to [NVIDIA's advanced driver search](https://www.nvidia.com/download/find.aspx) and download the latest Game Ready Driver after selecting your hardware and operating system.
     Launch NVCleanstall, choose ``Use driver files on disk`` and locate the previously downloaded driver. Hit ``Next`` and continue with the installation.
 
@@ -34,12 +34,10 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 - Navigate to ``3D Settings -> Adjust image settings with preview``
     - Select **Use the advanced 3D image settings** and hit **Take me there**
 - Configure the following in the ``3D Settings -> Manage 3D settings`` page:
-    - Anisotropic filtering - Application-controlled (We recommend changing this on a per-game basis)
+    - Anisotropic filtering - Off
     - Antialiasing - Gamma correction - Off
-    - Antialiasing - Mode - Application-controlled
     - Low Latency Mode - On (This setting limits pre-rendered frames to 1)
     - Power management mode - Prefer maximum performance
-    - Preferred refresh rate - Highest available
     - Shader Cache Size - Unlimited
     - Texture filtering - Quality - High performance
     - Threaded Optimization - Offloads GPU-related processing tasks on the CPU, it usually hurts frame pacing. If you are CPU bottlenecked, choose the ``Off`` option.
