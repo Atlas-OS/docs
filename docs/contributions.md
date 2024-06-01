@@ -1,5 +1,5 @@
 ---
-description: The official contribution guidelines for the AtlasOS playbook
+description: The official contribution guidelines for Atlas
 icon: material/handshake
 ---
 
