@@ -11,7 +11,7 @@ Atlas uses [:simple-github: GitHub](https://github.com/Atlas-OS) to manage every
 
 ## :octicons-git-commit-24: Areas of contribution
 
-### **Atlas Playbook**
+### Atlas Playbook
 
 [:simple-github: GitHub Repository](https://github.com/Atlas-OS/Atlas){ .md-button }
 [:material-tag: Releases](https://github.com/Atlas-OS/Atlas/releases){ .md-button }
@@ -21,9 +21,9 @@ This repository contains Atlas' central source code, a Playbook file (`.apbx`) u
 
 If you're unsure where to start, read [AME's documentation](https://docs.ameliorated.io/developers.html) for help.
 
-Consider using virtualisation software like [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor.html) or [Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to test. You can use 7-Zip or the included `src\playbook\local-build.cmd` script to build your Playbook.
+Consider using virtualization software like [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor.html) or [Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to test. You can use 7-Zip or the included `src\playbook\local-build.cmd` script to build your Playbook.
 
-### **Atlas Documentation**
+### Atlas Documentation
 
 [:simple-github: GitHub Repository](https://github.com/Atlas-OS/docs){ .md-button }
 [:material-license: License (CC-BY-SA-4.0)](https://github.com/Atlas-OS/docs/blob/master/LICENSE){ .md-button }
