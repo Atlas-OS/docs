@@ -6,11 +6,9 @@ icon: material/cogs
 
 # :material-package-down: Installing AtlasOS
 
-!!! danger "Read before continuing"
+This guide will walk you through fully reinstalling Windows, installing Atlas on top of it, and completing other necessary steps. A full Windows reinstall is needed to ensure stability during the initial installation of Atlas.
 
-    AtlasOS complies with the Windows EULA and does not modify Windows activation. Installing Atlas will not activate Windows.
-    
-    We recommended looking at our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md) before installing.
+Before continuing, we recommend reviewing our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md).
 
 ## :material-clipboard-list-outline: Prerequisites
 
