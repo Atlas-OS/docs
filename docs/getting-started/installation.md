@@ -14,7 +14,7 @@ icon: material/cogs
 
 ## :material-clipboard-list-outline: Prerequisites
 
-- Meeting the system requirements for [Windows 11](https://www.microsoft.com/en-gb/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/en-gb/windows/windows-10-specifications#primaryR2)
+- Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
     - We don't recommend bypassing Windows 11's requirements due to potential incompatibilities with updates and anticheats
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
@@ -31,6 +31,9 @@ Before installing Atlas, you need to reinstall Windows. To fully reinstall Windo
 See the alternatives below.
 </noscript>
 
+!!! question "Which version should I choose?"
+    If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
+
 <!--
     This is based upon the Microsoft Software Download Listing website by gravesoft on GitHub.
 -->
@@ -41,9 +44,6 @@ See the alternatives below.
 <!--
     See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js
 -->
-
-!!! question "Which version should I choose?"
-    If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
@@ -157,7 +157,7 @@ You can find your network driver online by searching for your device/motherboard
             ??? tip "Video Demonstration"
                 <center>
                     <video src="/assets/videos/enroll-key-vtoy.mp4" controls muted></video>
-                    <p>Credit to [Ventoy](https://ventoy.net/en/doc_secure.html) for the video demonstration.<p>
+                    <p>Credit to [Ventoy](https://ventoy.net/doc_secure.html) for the video demonstration.<p>
                 </center>
             
             ![vtoy-verification-error-0x1A](../assets/images/vtoy-secure-error.png){ align=right width=200 }
@@ -182,7 +182,7 @@ You can find your network driver online by searching for your device/motherboard
 
             ------
 
-            If it is still not working, try 'Hash Enrollment,' as detailed in [Ventoy's guide](https://ventoy.net/en/doc_secure.html).
+            If it is still not working, try 'Hash Enrollment,' as detailed in [Ventoy's guide](https://ventoy.net/doc_secure.html).
 
     1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
