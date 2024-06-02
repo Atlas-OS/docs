@@ -24,6 +24,7 @@ Follow the methods below to fix the problem.
     1. Navigate to the following section in the "Settings" app to create a new local account:
 
         :material-microsoft-windows: Windows 10: `Accounts > Family & other users > Add someone else to this PC`
+        
         :material-microsoft: Windows 11: `Accounts > Other users > Add other user`
 
     1. Sign out of your current account and log into the newly created one.
