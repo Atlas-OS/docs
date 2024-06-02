@@ -1,94 +1,77 @@
 ---
-description: The official contribution guidelines for the AtlasOS playbook
+description: The official contribution guidelines for Atlas
 icon: material/handshake
 ---
 
 # :material-handshake: Contribution Guidelines
 
-This page provides guidelines on how to contribute to Atlas. All contributions are much appreciated!
+This page provides guidelines on how to contribute to Atlas. We highly appreciate your contributions!
 
-Atlas uses Git to manage everything on the platform [:simple-github: GitHub](https://github.com/Atlas-OS). To more easily interact with Git, you can use:
+Atlas uses [:simple-github: GitHub](https://github.com/Atlas-OS) to manage everything. See the [GitHub quick start guide](https://docs.github.com/get-started/quickstart) first if you're unfamiliar with GitHub. Apart from how to use GitHub, this page tells you everything else.
 
-* An IDE like [:simple-visualstudiocode: Visual Studio Code](https://code.visualstudio.com/) or [:simple-vscodium: VSCodium](https://vscodium.com)
-* [:simple-github: GitHub Desktop](https://desktop.github.com/) (recommended)
+## :octicons-git-commit-24: Areas of contribution
 
-Alternatively, you can use the [:simple-git: Git](https://git-scm.com/) command-line. Use whichever Git interface you find most familiar and easiest. Before contributing, you should [research](https://docs.github.com/en/get-started/quickstart) about Git first.
+### Atlas Playbook
 
-## :octicons-git-commit-24: How you can contribute
+[:simple-github: GitHub Repository](https://github.com/Atlas-OS/Atlas){ .md-button }
+[:material-tag: Releases](https://github.com/Atlas-OS/Atlas/releases){ .md-button }
+[:material-license: License (GPLv3)](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE){ .md-button }
 
-* [:material-pen-plus: **Atlas Playbook**](https://github.com/Atlas-OS/Atlas) - The Atlas playbook (`.apbx`) that is used in AME Wizard.
-	* ([GPLv3](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/Atlas/blob/main/.github/CODE_OF_CONDUCT.md))
-	* Read AME Wizard's [:material-file-document: Documentation](https://docs.ameliorated.io/developers.html) for help.
+This repository contains Atlas' central source code, a Playbook file (`.apbx`) used with AME Wizard. It contains all the various scripts, configurations, and more that Atlas applies to people's systems.
 
-* [:material-language-rust: **Atlas Utilities**](https://github.com/Atlas-OS/Atlas-Utilities) - General tools used in Atlas like `filepicker.exe`, made in Rust.
-	*  ([GPLv3](https://github.com/Atlas-OS/Atlas-Utilities/blob/main/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/utilities/blob/master/.github/CODE_OF_CONDUCT.md))
+If you're unsure where to start, read [AME's documentation](https://docs.ameliorated.io/developers.html) for help.
 
-* [:material-book-plus-multiple: **Atlas Documentation**](https://github.com/Atlas-OS/docs) - The website that you are looking at.
-	* ([:fontawesome-brands-creative-commons: CC-BY-SA-4.0](https://github.com/Atlas-OS/docs/blob/master/LICENSE)) ([:octicons-code-of-conduct-16: CoC](https://github.com/Atlas-OS/docs/blob/master/.github/CODE_OF_CONDUCT.md))
-	* Read [this](https://github.com/Atlas-OS/docs/blob/master/.github/CONTRIBUTING.md) documentation-specific contribution guide for help.
+Consider using virtualization software like [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor.html) or [Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to test. You can use 7-Zip or the included `src\playbook\local-build.cmd` script to build your Playbook.
 
-These are the three main repositories to contribute to. There might also may be other repositories that fits your expertise. [Check out our GitHub organisation](https://github.com/Atlas-OS).
+### Atlas Documentation
 
-If a repository has a specified template for pull requests or issues, please use them. Otherwise, the maintainers reserve the right to close and lock your issue without further response.
+[:simple-github: GitHub Repository](https://github.com/Atlas-OS/docs){ .md-button }
+[:material-license: License (CC-BY-SA-4.0)](https://github.com/Atlas-OS/docs/blob/master/LICENSE){ .md-button }
 
-## :material-chat-question: How it works
+The website that you are looking at. We made the Atlas documentation in [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), a documentation framework that uses markdown.
 
-Each repository has a `dev` branch and a `main` or `master` branch for development.
+See the repository on how to get started contributing.
 
-!!! warning
-	Make **all of your changes** to the `dev` branch of the respective repositories!
+## :octicons-issue-closed-24: How our GitHub Issues work
 
-	Never commit or pull request directly to the `main` branches.
+For transparency with users, we keep issues that affect the current release open and label them with the **fixed next release**.
 
-The `dev` branch exists to ensure that only approved and high-quality changes are merged into the `main` branch.
+## :octicons-git-pull-request-24: How to make changes
 
-A pull request **every week** will be automatically created to merge the `dev` branch into the `main` branch, where the changes can be properly reviewed by **5 contributors** before the pull request is merged. The only exclusion to having less than 5 reviews is if there's not enough people reviewing, e.g. 4 reviews for documentation.
+!!! tip "Unsure if people like your change?"
+	Consider proposing the change to people in the [:simple-discord: Discord](https://discord.gg/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues) first.
+	
+	Regardless, remember that it's okay to make mistakes. People will give feedback in your pull requests anyways; don't worry about it too much.
 
-This ensures that all changes are thoroughly reviewed and agreed upon collectively, resulting in fewer bugs, improved code quality, and a more organized development process.
 
-You will have to make your own fork of the respective Atlas repository, and then make a pull request to merge your modified fork's branch into the `dev` branch.
+1. Make a fork, or for team members, a branch in the repository
+1. Make your changes, then make a pull request to the primary branch of the repository
+1. Wait for at least two reviews, **depending on the size of the change**
+	- For team members, we only require one review
+1. When it's merged, it will be squash-merged into the primary branch of the repository
+	- This means all commits from the branch will be combined into one
 
-### :material-git: People with write access
-
-!!! note
-	This only applies to people with direct access to commit to the repositories, without the need to do a pull request.
-
-	This list is from our [GitHub organisation's member list](https://github.com/orgs/Atlas-OS/people).
-
-For any significant changes, consider creating a pull request for the `dev` branch instead of committing directly.
-
-This means less potential headache in the future if the change is disagreed upon, as you can avoid reverting all of the disliked changes for the automatic pull request every week.
-
-If you want to, you can also manually trigger the automatic pull request to merge `dev` into `main` early, but the 5 reviews will still be in effect. As a note, if you need to urgently fix something, you can use the `bypass` label to bypass your pull request being automatically closed by the pull request filter.
-
-For regular pull requests, you can make your own branch in the Atlas repository or make a fork, it is your choice.
+The only exclusion to this is when there is an urgent change, which team members might directly commit to the primary branch of a repository.
 
 ## :material-format-letter-case: Formatting
 
-Before each commit, ensure that:
+Before a pull request, ensure that:
 
-* Your changes comply with the overall formatting of a repository
-* There are the most minimal amount of mistakes, check grammar and anything else important
-	* For any YAML change, please verify that it is valid before committing with [YAML Lint](https://www.yamllint.com/).
-* People would generally agree with the change
-	* If you don't know, ask people in the [:simple-discord: Discord](https://discord.gg/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues).
-
-Making sure that your commits are already to a high standard means that development will be faster and more organized. However, keep in mind that it's okay to make mistakes sometimes, as people will give feedback/reviews in your pull requests, so don't worry about it too much.
+- Your changes comply with the general formatting of a repository
+- There's a minimal amount of mistakes; check grammar and anything else important
+	- For YAML changes, verify that they are valid using a linter
 
 ### :octicons-verified-16: Commit Signature Verification
-We highly recommend setting up [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification). This marks your commits as 'Verified', indicating they come from a trusted source.
 
-You can install [:simple-gnuprivacyguard: GPG](https://gnupg.org/) (used for signing) in Windows with [Scoop](https://scoop.sh/) with the following command:
-```
-scoop install gpg
-```
-Check out this [detailed guide on setting up verified commits](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md).
+We highly recommend setting up [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification). This marks your commits as **:material-checkbox-marked-circle: Verified**, indicating commits have not been forged by someone else.
+
+Check out this [detailed guide on setting up verified commits](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md). You can install [:simple-gnuprivacyguard: GPG](https://gnupg.org/) (used for signing) in Windows with [Scoop](https://scoop.sh/): `scoop install gpg`
 
 ### :octicons-git-branch-16: Conventional Commits
 
-We recommend using [:simple-conventionalcommits: Conventional Commits](https://www.conventionalcommits.org/) in Atlas repositories for consistency and more descriptive commits. You can also take a look at [Angular's Conventional Commits](https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit) for more guidance.
+We recommend using [:simple-conventionalcommits: Conventional Commits](https://www.conventionalcommits.org/) in Atlas repositories for consistency and more descriptive commits. You can also look at [Angular's Conventional Commits](https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit) for more guidance.
 
-Conventional Commits are a type of commit message format that helps to make the commit history more readable and easier to navigate.
+Conventional Commits are a commit message format that helps to make the commit history more readable and easier to navigate.
 
 *Example*: [`feat: ✨ add fAllowFullControl`](https://github.com/Atlas-OS/Atlas/commit/72cdcc7b327df19fd07e9c6eb0a10812ac6936b0)
 
