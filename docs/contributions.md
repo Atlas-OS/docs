@@ -14,8 +14,8 @@ Atlas uses [:simple-github: GitHub](https://github.com/Atlas-OS) to manage every
 ### Atlas Playbook
 
 [:simple-github: GitHub Repository](https://github.com/Atlas-OS/Atlas){ .md-button }
-[:material-tag: Releases](https://github.com/Atlas-OS/Atlas/releases){ .md-button }
 [:material-license: License (GPLv3)](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE){ .md-button }
+[:material-tag: Releases](https://github.com/Atlas-OS/Atlas/releases){ .md-button }
 
 This repository contains Atlas' central source code, a Playbook file (`.apbx`) used with AME Wizard. It contains all the various scripts, configurations, and more that Atlas applies to people's systems.
 
@@ -41,7 +41,7 @@ For transparency with users, we keep issues that affect the current release open
 !!! tip "Unsure if people like your change?"
 	Consider proposing the change to people in the [:simple-discord: Discord](https://discord.gg/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues) first.
 	
-	Regardless, remember that it's okay to make mistakes. People will give feedback in your pull requests anyways; don't worry about it too much.
+	Regardless, remember that it's okay to make mistakes. People will give feedback in your pull requests anyway; don't worry about it too much.
 
 
 1. Make a fork, or for team members, a branch in the repository
