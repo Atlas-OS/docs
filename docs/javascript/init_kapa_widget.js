@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("data-project-name", "Atlas");
     script.setAttribute("data-project-color", "#2894F3");
     script.setAttribute("data-project-logo", "https://avatars.githubusercontent.com/u/78708182?s=128");
+    script.setAttribute("data-modal-disclaimer", "You can find further support on our [Discord server](https://discord.com/servers/atlas-795710270000332800) or [in the forums](https://forum.atlasos.net/). Remember that not all answers are accurate, as results are AI-generated.")
+    script.setAttribute("data-modal-example-questions", "Does Atlas support Windows Defender?,Who is Atlas for?,What does Atlas do?")
+    script.setAttribute("data-modal-example-questions-col-span", "12")
     script.async = true;
 
     script.onload = () => {
