@@ -1,5 +1,7 @@
 # AtlasOS Documentation
 
+<a href="https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge&color=1A91FF" /></a>
+
 Atlas documentation hosted on Cloudflare Pages using Material for MkDocs.
 
 Here you can help Atlas with documentation, for now we do not have translation capabilities but they will be added in the future.

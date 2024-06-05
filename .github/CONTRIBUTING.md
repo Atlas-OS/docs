@@ -2,9 +2,9 @@
 
 **Read here first:** https://docs.atlasos.net/contributions
 
-Thank you for being invested in helping out AtlasOS and our documentation. This is amazingly useful to us and we appreciate it a lot!
+Thank you for being invested in helping out AtlasOS and our documentation. This is amazingly useful to us, and we appreciate it a lot!
 
-Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
+Read our [Code of Conduct](https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
 ## How to use Markdown and MkDocs
 
@@ -14,7 +14,7 @@ We also use [MkDocs](https://www.mkdocs.org/) to build our documentation. If you
 
 The theme we use for [MkDocs](https://www.mkdocs.org/) is [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). If you are new to Material for MkDocs, we recommend reading the [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material/) to get started. You can find lots of useful information on styling, and how to use MkDocs to your best.
 
-## Issues
+## Issues 
 
 If you find any issues with our documentation, please [open an issue](https://github.com/Atlas-OS/docs/issues/new). Please fill issues out with utmost detail and preferably images too so we can understand where we went wrong or so contributors can make a pull request to fix the issue.
 
