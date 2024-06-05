@@ -11,6 +11,8 @@ Atlas uses [:simple-github: GitHub](https://github.com/Atlas-OS) to manage every
 
 ## :octicons-git-commit-24: Areas of contribution
 
+A [Code of Conduct](https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md) applies to each Atlas repository. Please read this before contributing.
+
 ### Atlas Playbook
 
 [:simple-github: GitHub Repository](https://github.com/Atlas-OS/Atlas){ .md-button }
