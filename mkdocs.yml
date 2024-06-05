@@ -152,7 +152,6 @@ extra_javascript:
 extra_css:
   - stylesheets/msdl.v2.css
   - stylesheets/theme.v3.css
-  - stylesheets/kapa.v1.css
 
 
 extra:
