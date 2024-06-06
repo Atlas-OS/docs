@@ -145,8 +145,8 @@ theme:
 # Extra Settings
 #
 extra_javascript:
-  - javascript/msdl.js
-  - javascript/init_kapa_widget.js
+  - javascript/msdl.v1.js
+  - javascript/init_kapa_widget.v1.js
 
 
 extra_css:
