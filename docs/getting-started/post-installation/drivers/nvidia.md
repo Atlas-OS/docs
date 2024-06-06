@@ -11,10 +11,13 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 
 - Download [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall).
 - Open the application and click ``Next``.
-- Make sure that only ``Display Driver`` is checked and click ``Next``.
 
-!!! warning
-    If you are on a laptop, make sure that ``Optimus`` is also selected, read more info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus)
+??? question "Is the download unusually slow or stuck?"
+    Go to [NVIDIA's advanced driver search](https://www.nvidia.com/download/find.aspx) and download the latest Game Ready Driver after selecting your hardware and operating system.
+    Launch NVCleanstall, choose ``Use driver files on disk`` and locate the previously downloaded driver. Hit ``Next`` and continue with the installation.
+
+- **For Desktops:** Make sure that only ``Display Driver`` is checked and click ``Next``.
+- **For Laptops:** Check ``Display Driver`` and ``Optimus`` and click ``Next``. (More info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus))
 
 - After the driver is downloaded tick the following:
     - Disable Installer Telemetry & Advertising
@@ -28,7 +31,8 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 ## :material-cog: Configure NVIDIA Control Panel
 
 - Open the NVIDIA Control Panel by right-clicking on the desktop.
-- Disable ``Desktop > Show Notification Tray Icon``
+- Navigate to ``3D Settings -> Adjust image settings with preview``
+    - Select **Use the advanced 3D image settings** and hit **Take me there**
 - Configure the following in the ``3D Settings -> Manage 3D settings`` page:
     - Anisotropic filtering - Off
     - Antialiasing - Gamma correction - Off
@@ -43,10 +47,11 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
     - Output dynamic range - Full
     - Output color depth - Value matching your monitor specification
 - Optionally increase the level of ``Digital vibrance`` in ``Display -> Adjust desktop color settings`` as it manages color saturation and intestity, and can reduce eye strain.
-    - Also check out [VibranceGUI](https://vibrancegui.com).
+    - For an alternative way to adjust your digital vibrance, check out [VibranceGUI](https://vibrancegui.com).
 - Configure the following in the ``Display -> Adjust desktop size and position`` page:
-    - Select a scaling mode - No scaling
-    - Perform scaling on - Display
+    - **For playing in native resolution:** Select scaling mode - No scaling
+    - **For playing in stretched resolution:** Select scaling mode - Fullscreen
+    - For setting up true display scaling, check out [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU).
 - Set dynamic range to ``Full`` in ``Video -> Adjust video color settings -> Advanced``
 
 ## :material-temperature-celsius: Force P-State 0 (advanced)
