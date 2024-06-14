@@ -257,12 +257,6 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
     To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md) page.
 
-!!! warning "Remote Desktop"
-    You can't use Remote Desktop to install Atlas due to a bug in AME Wizard v0.7.4, the latest version as of writing this.
-    This issue will be fixed in the next AME Wizard release.
-    This also includes Hyper-V with its Enhanced Session Mode, which needs to be disabled for a successful installation.
-    
-    You can use Remote Desktop after installing Atlas.
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
 
