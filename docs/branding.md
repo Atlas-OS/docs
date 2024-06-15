@@ -222,7 +222,7 @@ We make all of our brand assets available to the public in a variety of formats 
 === "Version 3"
     ![AtlasOS Banner Version 3](assets/brand/preview/banners/preview-banner-v3.png)
 
-    [:material-download: PNG (1920x653)](ttps://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/banners/banner-v3.png)
+    [:material-download: PNG (1920x653)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/banners/banner-v3.png)
 
 ## Wallpapers
 
@@ -230,7 +230,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 #### Rev 1
 
-=== "v0.4 Rev 1"
+=== "v0.4 Rev 1.0"
     ![AtlasOS v0.4 Rev 1 Wallpaper](assets/brand/preview/wallpapers/v0.4/rev-1/preview-wallpaper-atlas-v0.4-rev1.0.png){ width=650 loading=lazy }
 
     [:material-download: PNG 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_9/v0.4/v1/16_9-v0.4-v1.png)
@@ -256,7 +256,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 #### Rev 1
 
-=== "v0.3 Rev 1"
+=== "v0.3 Rev 1.0"
 
     ![AtlasOS v0.3 Rev 1 Wallpaper](assets/brand/preview/wallpapers/v0.3/rev-1/preview-wallpaper-atlas-v0.3-rev1.0.png){ width=650 loading=lazy }
 
@@ -294,7 +294,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 #### Rev 2
 
-=== "v0.3 Rev 2"
+=== "v0.3 Rev 2.0"
 
     ![AtlasOS v0.3 Rev ](assets/brand/preview/wallpapers/v0.3/rev-2/preview-wallpaper-atlas-v0.3-rev2.0.png){ width=650 loading=lazy }
 
@@ -320,7 +320,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 #### Rev 3
 
-=== "v0.3 Rev 3"
+=== "v0.3 Rev 3.0"
 
     ![AtlasOS v0.3 Rev 3 Wallpaper](assets/brand/preview/wallpapers/v0.3/rev-3/preview-wallpaper-atlas-v0.3-rev3.0.png){ width=650 loading=lazy }
 
@@ -370,7 +370,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 #### Rev 4
 
-=== "v0.3 Rev 4"
+=== "v0.3 Rev 4.0"
 
     ![AtlasOS v0.3 Rev 4.0 Wallpaper](assets/brand/preview/wallpapers/v0.3/rev-4/preview-wallpaper-atlas-v0.3-rev4.0.png){ width=650 loading=lazy }
 
