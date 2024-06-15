@@ -9,7 +9,7 @@ We're proud to share our official branding assets with our community. Whether yo
 
 We make all of our brand assets available to the public in a variety of formats and sizes, allowing you to use them however you see fit. You can either make cool fan art or use it in your AtlasOS video reviews. The only limit is your imagination!
 
-!!! info
+!!! info ""
 
     The utilization of our branding assets is subject to our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/atlas_brand_guidelines.pdf). We kindly request that you adhere to these guidelines to ensure the appropriate application of the AtlasOS branding.
 
