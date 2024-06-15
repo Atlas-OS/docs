@@ -7,11 +7,11 @@ icon: material/palette
 
 We're proud to share our official branding assets with our community. Whether you're making a video, a website, or a presentation, you can use these assets to show your support for AtlasOS.
 
-We make all of our brand assets available to the public in a variety of formats and sizes, allowing you to use them however you see fit. You can either make cool fan art or use it in your AtlasOS video reviews. The only limit is your imagination!
+We make all our brand assets available to the public in various formats and sizes, allowing you to use them however you see fit. You can make cool fan art or use it in your AtlasOS video reviews. The only limit is your imagination!
 
 !!! info ""
 
-    The utilization of our branding assets is subject to our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/atlas_brand_guidelines.pdf). We kindly request that you adhere to these guidelines to ensure the appropriate application of the AtlasOS branding.
+    The utilization of our branding assets is subject to our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/atlas_brand_guidelines.pdf). We kindly request that you adhere to these guidelines to apply the AtlasOS branding appropriately.
 
 ## Logomarks
 <center>
@@ -202,7 +202,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
     ---
 
-    [:material-download: PNG (460x460)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/avatars/avatar-v1.png)
+    [:material-download: PNG (460x460)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/avatars/avatar-v2.png)
 
 </div>
 </center>
@@ -217,7 +217,7 @@ We make all of our brand assets available to the public in a variety of formats 
 === "Version 2"
     ![AtlasOS Banner Version 2](assets/brand/preview/banners/preview-banner-v2.png)
 
-    [:material-download: PNG (1920x653)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/banners/banner-v1.png)
+    [:material-download: PNG (1920x653)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/banners/banner-v2.png)
 
 === "Version 3"
     ![AtlasOS Banner Version 3](assets/brand/preview/banners/preview-banner-v3.png)
@@ -304,7 +304,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
     [:material-download: PNG 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/v0.3/v2/Wallpapper%2021_9%20-%20v0.3%20v4.png)
 
-    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/v0.3/v2/Wallpapper%2014_3%20-%20v0.3%20v4.png)
+    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/v0.3/v2/Wallpapper%204_3%20-%20v0.3%20v4.png)
 
 === "v0.3 Rev 2.1"
 
@@ -316,7 +316,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
     [:material-download: PNG 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/v0.3/v2/Wallpapper%2021_9%20-%20v0.3%20v7.png)
 
-    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/v0.3/v2/Wallpapper%2014_3%20-%20v0.3%20v7.png)
+    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/v0.3/v2/Wallpapper%204_3%20-%20v0.3%20v7.png)
 
 #### Rev 3
 
@@ -464,7 +464,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
     [:material-download: PNG 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/generic/Wallpapper%2016_10%20-%20Night%20Wordmark.png)
 
-    [:material-download: PNG 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_+/generic/Wallpapper%2021_9%20-%20Night%20Wordmark.png)
+    [:material-download: PNG 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/generic/Wallpapper%2021_9%20-%20Night%20Wordmark.png)
 
     [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/4_3/generic/Wallpapper%204_3%20-%20Night%20Wordmark.png)
 
