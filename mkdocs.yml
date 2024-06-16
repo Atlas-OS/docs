@@ -50,6 +50,7 @@ nav:
       - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
       - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
       - Security: getting-started/post-installation/atlas-folder/security.md
+      - Troubleshooting: getting-started/post-installation/atlas-folder/troubleshooting.md
 
   - FAQ & Troubleshooting:
     - What's removed?: faq-and-troubleshooting/removed-features.md
@@ -59,7 +60,6 @@ nav:
       - AME Wizard Deleted: faq-and-troubleshooting/common-questions/ame-wizard-deleted.md
       - Atlas and Security: faq-and-troubleshooting/common-questions/atlas-and-security.md
       - Atlas Folder Missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
-      - Atlas Folder Scripts: faq-and-troubleshooting/common-questions/atlas-folder-scripts.md
       - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
       - Bluetooth Compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
       - Build Not Supported: faq-and-troubleshooting/common-questions/build-not-supported.md

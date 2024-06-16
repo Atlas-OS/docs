@@ -39,6 +39,7 @@ plugins:
       redirect_maps:
         'getting-started/post-installation/atlas-folder/configuration.md': 'getting-started/post-installation/atlas-folder/general-configuration.md'
         'getting-started/post-installation/atlas-folder/optional-tweaks.md': 'getting-started/post-installation/atlas-folder/interface-tweaks.md'
+        'getting-started/faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
