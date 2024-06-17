@@ -10,13 +10,17 @@ When running the Playbook, some users might experience these messages:
 - **'Reticulating splines'** - meaning there has been no status change in 5 minutes
 - **'Action taking a long time'** - meaning there has been no status change in 15 minutes
 
-Most of the time, this isn't an issue and is likely due to a slow internet connection or computer. However, it could be stuck if it has been on this screen for a long time. In that case, see [scroll down to see solutions](#ensure-youre-on-a-clean-install-of-windows).
+Most of the time, this isn't an issue and is likely due to a slow internet connection or computer. However, it could be stuck if it has been on this screen for a long time. In that case, [scroll down to see solutions](#ensure-youre-on-a-clean-install-of-windows).
 
 ![AME Wizard 'Apply Playbook' window demonstrating what 'Reticulating Splines' and 'Action taking a long time' looks like](../../assets/images/reticulating-splines.webp)
 
-## :material-broom: Ensure you're on a clean install of Windows
+## :material-broom: Prerequisites
 
-Ensure that you're on a fresh install of fully updated Windows. We **highly** recommend following our [installation guide](../../getting-started/installation.md) for this. Installing Atlas on a non-fresh Windows installation is generally considered unsupported and can cause the Playbook to get stuck.
+1. Ensure that you're on a fresh install of fully updated Windows. We **highly** recommend following our [installation guide](../../getting-started/installation.md) for this. Installing Atlas on a non-fresh Windows installation is considered unsupported and can cause the Playbook to get stuck.
+
+1. Make sure that your hardware is stable. If you have overclocks, try turning them off.
+
+1. Remember that only the latest version of the Atlas Playbook is supported.
 
 ## :material-checkbox-marked-outline: Fixes
 
