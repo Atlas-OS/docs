@@ -35,12 +35,12 @@ nav:
         - Others: getting-started/post-installation/drivers/others.md
       - Software:
         - Getting Started: getting-started/post-installation/software/getting-started.md
+        - Anti Virus: getting-started/post-installation/software/anti-virus.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
         - Media: getting-started/post-installation/software/media-playback.md
         - Screenshotting: getting-started/post-installation/software/screenshotting.md
         - System Info: getting-started/post-installation/software/system-info.md
         - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
-        - Recommended Antiviruses: getting-started/post-installation/software/recommended-antiviruses.md
       - Hardware:
         - Updating the BIOS: getting-started/post-installation/hardware/updating-the-bios.md
         - XMP/DOCP: getting-started/post-installation/hardware/enabling-xmp-or-docp.md
@@ -61,11 +61,15 @@ nav:
       - Build Not Supported: faq-and-troubleshooting/ame-wizard-errors/build-not-supported.md
       - Can't Disable Defender: faq-and-troubleshooting/ame-wizard-errors/cant-disable-defender.md
     - Common Questions:
-      - Acrobat not installing: faq-and-troubleshooting/common-questions/acrobat-not-installing.md
       - Atlas and Security: faq-and-troubleshooting/common-questions/atlas-and-security.md
+      - Updating Atlas: faq-and-troubleshooting/common-questions/updating-atlas.md
+      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
       - Atlas Folder Missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
       - Atlas Folder Scripts: faq-and-troubleshooting/common-questions/atlas-folder-scripts.md
-      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
+      - Windows Editions: faq-and-troubleshooting/common-questions/windows-editions.md
+      - Windows Update Errors: faq-and-troubleshooting/common-questions/windows-update-errors.md
+      - Testing Nightly Builds: faq-and-troubleshooting/common-questions/testing-nightly-builds.md
+      - Acrobat not installing: faq-and-troubleshooting/common-questions/acrobat-not-installing.md
       - Bluetooth Compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
       - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
       - iTunes Compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
@@ -73,10 +77,7 @@ nav:
       - Microsoft Store: faq-and-troubleshooting/common-questions/microsoft-store.md
       - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
       - Roblox not opening: faq-and-troubleshooting/common-questions/roblox-not-opening.md
-      - Testing Nightly Builds: faq-and-troubleshooting/common-questions/testing-nightly-builds.md
-      - Updating Atlas: faq-and-troubleshooting/common-questions/updating-atlas.md
-      - Windows Editions: faq-and-troubleshooting/common-questions/windows-editions.md
-      - Windows Update Errors: faq-and-troubleshooting/common-questions/windows-update-errors.md
+      - FIFA/EAFC not launching: faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md
 
 
 #
