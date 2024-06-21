@@ -255,7 +255,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 ??? danger "AME Wizard suddenly closing or being deleted?"
     Add AME Wizard as an exclusion or disable **Real-time protection** in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
 
-    To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md) page.
+    To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md) page.
 
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
@@ -272,7 +272,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq-and-troubleshooting/common-questions/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
     1. Click on **Updates** at the top and make sure AME Wizard is up to date
 
 1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder into AME Wizard
