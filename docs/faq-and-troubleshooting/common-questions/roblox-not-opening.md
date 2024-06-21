@@ -14,10 +14,11 @@ Follow the methods below to fix the problem.
     Refer to your motherboard's manual if you don't know how to access your BIOS.
 
 
-2. Set UAC to default
+2. Enable UAC
 
-    - Open the Control Panel, search for `Change User Account Control settings` and set it to Level 2 (default)
-    - If UAC was disabled (set to Level 0), reinstall Roblox after enabling it.
+    - Open the Control Panel, search for `Change User Account Control settings` and set it to either Level 1, 2 or 3.
+      
+    If UAC was disabled (set to Level 0), reinstall Roblox after enabling it.
 
 
 3. Create a new Local Account
