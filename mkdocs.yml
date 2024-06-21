@@ -40,6 +40,7 @@ nav:
         - Screenshotting: getting-started/post-installation/software/screenshotting.md
         - System Info: getting-started/post-installation/software/system-info.md
         - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
+        - Recommended Antiviruses: getting-started/post-installation/software/recommended-antiviruses.md
       - Hardware:
         - Updating the BIOS: getting-started/post-installation/hardware/updating-the-bios.md
         - XMP/DOCP: getting-started/post-installation/hardware/enabling-xmp-or-docp.md
@@ -69,7 +70,6 @@ nav:
       - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
       - iTunes Compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
       - Microsoft Store: faq-and-troubleshooting/common-questions/microsoft-store.md
-      - Recommended Antiviruses: faq-and-troubleshooting/common-questions/recommended-antiviruses.md
       - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
       - Roblox not opening: faq-and-troubleshooting/common-questions/roblox-not-opening.md
       - Testing Nightly Builds: faq-and-troubleshooting/common-questions/testing-nightly-builds.md

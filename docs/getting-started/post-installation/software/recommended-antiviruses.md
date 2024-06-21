@@ -6,7 +6,7 @@ icon: material/virus-outline
 # :material-virus-outline: Which antivirus should I use?
 
 !!! tip "We recommend Windows Defender"
-	Windows Defender should be your first choice as your antivirus, as it's free, constantly updating, and integrated into Windows. However, if you are looking for something more advanced, consider the options on this page.
+	Windows Defender should be your first choice as your antivirus, as it's free, constantly updating, and integrated into Windows. However, consider the options on this page if you want something more advanced.
 
 For those seeking reliable anti-virus programs, here are some top recommendations. This page includes both on-demand and real-time anti-virus solutions.
 
@@ -15,7 +15,7 @@ These applications offer continuous protection against malware.
 
 1. **Windows Defender (Highly Recommended)** [:material-open-in-new:](windowsdefender:)
 
-       Lightweight, consistently updated malware definitions and native protection inside of Windows.
+	Lightweight, consistently updated malware definitions and native protection inside of Windows.
 
 2. **Bitdefender Antivirus Free Edition** [:material-download:](https://download.bitdefender.com/windows/installer/en-us/bitdefender_avfree.exe)
 
