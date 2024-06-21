@@ -5,9 +5,7 @@ icon: material/play-pause
 
 # :material-play-pause: How do I install the Media Feature Pack?
 
-![](../../assets/images/media-features-missing.png){ align=right width=350 }
-
-**In Atlas v0.4.0, Windows Media Player (Legacy) is uninstalled by default, which causes this issue. It can be reinstalled reasonably easily.**
+**In Atlas v0.4.0, Windows Media Player (Legacy) is uninstalled by default, which can cause an error about missing Media Features in some apps. It can be reinstalled reasonably easily. [Scroll to see solutions](#reinstalling-the-media-pack).**
 
 Alternatively, you might be on an N-edition of Windows. We recommend not using these as there's little benefit; Atlas already does the debloating. You can check in `winver.exe`.
 
@@ -27,4 +25,3 @@ Alternatively, you might be on an N-edition of Windows. We recommend not using t
 1. Click **Next** then **Add**
 
 1. Wait for it to install
-
