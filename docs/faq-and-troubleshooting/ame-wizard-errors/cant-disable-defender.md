@@ -11,4 +11,4 @@ Atlas requires you to follow the installation documentation to reinstall the lat
 
 [Installing AtlasOS -->](../../getting-started/installation.md)
 
-![AME Wizard 'Apply Playbook' window demonstrating what 'Reticulating Splines' and 'Action taking a long time' looks like](../../assets/images/ame-defender-inaccessible.png)
+![AME Wizard erroring saying it can't open Windows Defender settings](../../assets/images/ame-defender-inaccessible.png)

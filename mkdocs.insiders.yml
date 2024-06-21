@@ -39,6 +39,9 @@ plugins:
       redirect_maps:
         'getting-started/post-installation/atlas-folder/configuration.md': 'getting-started/post-installation/atlas-folder/general-configuration.md'
         'getting-started/post-installation/atlas-folder/optional-tweaks.md': 'getting-started/post-installation/atlas-folder/interface-tweaks.md'
+        'faq-and-troubleshooting/common-questions/atlas-playbook.stuck.md': 'faq-and-troubleshooting/ame-wizard-errors/atlas-playbook.stuck.md'
+        'faq-and-troubleshooting/common-questions/build-not-supported.md': 'faq-and-troubleshooting/ame-wizard-errors/build-not-supported.md'
+        'faq-and-troubleshooting/common-questions/ame-wizard-deleted.md': 'faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
