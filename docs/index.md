@@ -31,13 +31,13 @@ icon: material/home
 
     [-> Visit FAQ](faq-and-troubleshooting/removed-features.md)
 
--   :material-git:{ .lg .middle } __Contribution Guidelines__
+-   :material-handshake:{ .lg .middle } __Contribution Guidelines__
 
     ---
 
     Learn how you can contribute to AtlasOS, and do so effectively.
 
-    [-> Contribution Guidelines](contributions.md)
+    [-> Contribution Guidelines](contributing/contribution-guidelines.md)
 
 </div>
 

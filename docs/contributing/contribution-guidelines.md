@@ -19,11 +19,9 @@ A [Code of Conduct](https://github.com/Atlas-OS/.github/blob/main/profile/CODE_O
 [:material-license: License (GPLv3)](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE){ .md-button }
 [:material-tag: Releases](https://github.com/Atlas-OS/Atlas/releases){ .md-button }
 
-This repository contains Atlas' central source code, a Playbook file (`.apbx`) used with AME Wizard. It contains all the various scripts, configurations, and more that Atlas applies to people's systems.
+This repository contains Atlas' central source code, which is eventually packaged into a Playbook file (`.apbx`) used with [AME Wizard](https://ameliorated.io/). It contains all the various scripts, configurations, and more that Atlas applies to people's systems.
 
-If you're unsure where to start, read [AME's documentation](https://docs.ameliorated.io/developers.html) for help.
-
-Consider using virtualization software like [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor.html) or [Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to test. You can use 7-Zip or the included `src\playbook\local-build.cmd` script to build your Playbook.
+See the [Playbook contribution guide](playbook.md) on how to get started.
 
 ### Atlas Documentation
 
@@ -32,7 +30,7 @@ Consider using virtualization software like [VMWare Workstation](https://www.vmw
 
 The website that you are looking at. We made the Atlas documentation in [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), a documentation framework that uses markdown.
 
-See the repository on how to get started contributing.
+See the [documentation contribution guide](documentation.md) on how to get started.
 
 ## :octicons-issue-closed-24: How our GitHub Issues work
 
@@ -53,7 +51,7 @@ For transparency with users, we keep issues that affect the current release open
 1. When it's merged, it will be squash-merged into the primary branch of the repository
 	- This means all commits from the branch will be combined into one
 
-The only exclusion to this is when there is an urgent change, which team members might directly commit to the primary branch of a repository.
+The only exclusion to this system is for team members not using pull requests when there is an uncontroversial and well-tested change.
 
 ## :material-format-letter-case: Formatting
 
