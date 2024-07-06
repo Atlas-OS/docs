@@ -1,9 +1,9 @@
 ---
-description: What to do if your Windows build is not supported by AtlasOS.
+description: How do I fix AME Wizard saying that this Windows build is not supported?
 icon: material/microsoft-windows-classic
 ---
 
-# :material-microsoft-windows-classic: How do I fix AME Wizard saying that this Windows build not supported?
+# :material-microsoft-windows-classic: How do I fix AME Wizard saying that this Windows build is not supported?
 
 **You have likely not followed the installation documentation to reinstall Windows.**
 

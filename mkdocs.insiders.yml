@@ -37,9 +37,18 @@ plugins:
   # https://github.com/mkdocs/mkdocs-redirects
   - redirects:
       redirect_maps:
+          # Renamed Atlas folders
         'getting-started/post-installation/atlas-folder/configuration.md': 'getting-started/post-installation/atlas-folder/general-configuration.md'
         'getting-started/post-installation/atlas-folder/optional-tweaks.md': 'getting-started/post-installation/atlas-folder/interface-tweaks.md'
         'getting-started/faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
+
+          # New AME Wizard errors section
+        'faq-and-troubleshooting/common-questions/atlas-playbook-stuck.md': 'faq-and-troubleshooting/ame-wizard-errors/atlas-playbook-stuck.md'
+        'faq-and-troubleshooting/common-questions/build-not-supported.md': 'faq-and-troubleshooting/ame-wizard-errors/build-not-supported.md'
+        'faq-and-troubleshooting/common-questions/ame-wizard-deleted.md': 'faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md'
+
+          # Moved as it gives mostly software recommendations
+        'faq-and-troubleshooting/common-questions/recommended-antiviruses.md': 'getting-started/post-installation/software/anti-virus.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
