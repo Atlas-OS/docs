@@ -145,6 +145,7 @@ theme:
   icon:
     edit: material/file-edit
     view: material/file-eye
+    repo: fontawesome/brands/github-alt
 
 
 #
