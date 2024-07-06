@@ -2,9 +2,9 @@ site_name: Atlas Documentation
 site_url: https://docs.atlasos.net
 
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
-repo_url: https://github.com/Atlas-OS/docs
-repo_name: Atlas-OS/docs
-edit_uri: edit/master/docs/
+repo_url: https://github.com/Atlas-OS/Atlas
+repo_name: Atlas Playbook
+edit_uri: https://github.com/Atlas-OS/docs/edit/master/docs
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
