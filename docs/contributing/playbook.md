@@ -11,7 +11,7 @@ This page will cover how to modify, test, and build Atlas. We highly recommend r
 
 ### What Playbooks are
 
-AME Wizard Playbooks are a [script-esque](https://en.wikipedia.org/wiki/Scripting_language) system structured in [YAML](https://gettaurus.org/docs/YAMLTutorial/) to do various tasks, like [running executables](https://docs.ameliorated.io/developers/actions/Run.html) or setting [Registry entries](https://docs.ameliorated.io/developers/actions/RegistryValue.html). These Playbooks are then run on an easy user interface called [AME Wizard](https://ameliorated.io/).
+AME Wizard Playbooks are a [script-esque](https://en.wikipedia.org/wiki/Scripting_language) system structured in [YAML](https://gettaurus.org/docs/YAMLTutorial/) to do various tasks, like [running executables](https://docs.ameliorated.io/developers/actions/Run.html) or setting [Registry entries](https://docs.ameliorated.io/developers/actions/RegistryValue.html). An [open-source backend](https://github.com/Ameliorated-LLC/trusted-uninstaller-cli) runs these Playbooks on an easy user interface called [AME Wizard](https://ameliorated.io/).
 
 Atlas is a Playbook, and alongside [AME's documentation](https://docs.ameliorated.io/developers.html), we recommend searching around the repository's source code to get familiar with how the basic Playbook structure works and how we've structured Atlas' Playbook.
 
@@ -91,7 +91,7 @@ Here's a comparison of our two recommendations:
 
 Snapshotting is a feature in most virtual machine software that saves the current memory, disk, and settings state of a virtual machine so that you can restore it later.
 
-Snapshots are handy for Atlas as you can test one Playbook and revert to an older snapshot to test a another Playbook once finished.
+Snapshots are handy for Atlas as you can test one Playbook and revert to an older snapshot to test another Playbook once finished.
 Additionally, you can save a VM while testing something specific and return to it later.
 
 ### Which snapshots to make
