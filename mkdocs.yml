@@ -27,6 +27,8 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
       # discord_friendly_name: ['how-to-install', 'install', 'installation']
+    - Reverting Atlas: getting-started/reverting-atlas.md
+      # discord_friendly_name: ['revert', 'uninstall-atlas']
     - Post Installation:
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
@@ -81,7 +83,6 @@ nav:
       - iTunes Compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
       - Installing the Media Pack: faq-and-troubleshooting/common-questions/media-pack-not-found.md
       - Microsoft Store: faq-and-troubleshooting/common-questions/microsoft-store.md
-      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
       - Roblox not opening: faq-and-troubleshooting/common-questions/roblox-not-opening.md
       - FIFA/EAFC not launching: faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md
 
@@ -250,6 +251,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+      base_path: ['./docs/getting-started/']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:
