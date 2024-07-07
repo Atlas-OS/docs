@@ -65,7 +65,26 @@ Before a pull request, ensure that:
 
 We highly recommend setting up [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification). This marks your commits as **:material-checkbox-marked-circle: Verified**, indicating commits have not been forged by someone else.
 
-Check out this [detailed guide on setting up verified commits](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md). You can install [:simple-gnuprivacyguard: GPG](https://gnupg.org/) (used for signing) in Windows with [Scoop](https://scoop.sh/): `scoop install gpg`
+Check out this [detailed guide on setting up verified commits](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md).
+
+#### Installing GPG/GnuPG (used for signing)
+
+=== "Windows"
+
+	- [Scoop](https://scoop.sh/) (`scoop install gpg`)
+	- [Gpg4Win](https://www.gpg4win.org/) (installer)
+	- [Windows Package Manager](https://learn.microsoft.com/windows/package-manager/winget/) (`winget install GnuPG.GnuPG`)
+
+=== "Linux"
+	Use your distro's package manager to install GPG.
+
+	- [Arch Linux](https://wiki.archlinux.org/title/GnuPG): `sudo pacman -S gnupg`
+	- [Ubuntu](https://help.ubuntu.com/community/GnuPrivacyGuardHowto)/[Debian](https://wiki.debian.org/GnuPG): `sudo apt install gnugp`
+	- [Fedora](https://fedoraproject.org/wiki/Cryptography#GnuPG): `sudo dnf install gnupg`
+
+=== "macOS"
+
+	- [Brew](https://formulae.brew.sh/formula/gnupg): `brew install gnupg`
 
 ### :octicons-git-branch-16: Conventional Commits
 

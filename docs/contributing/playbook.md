@@ -37,7 +37,7 @@ If you want to test existing builds, consider viewing our [GitHub Actions](https
     1. Install the [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) extension
         - Non-Windows users must [install PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell) first
     1. Install [7-Zip](https://7-zip.org/) or [NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r) if not done already
-        - Non-Windows users *still need* official 7-Zip (`7zz`) in PATH
+        - For [macOS](https://formulae.brew.sh/formula/sevenzip)/[Linux](https://wiki.archlinux.org/title/p7zip), install 7-Zip (official or `p7zip`) using a package manager
     1. **Optional:** Install the other extensions recommended in the 'Extensions' tab
     1. Use the 'Run and Debug' options to build a Playbook
         - See the [`.vscode` launch options](https://github.com/Atlas-OS/Atlas/blob/main/.vscode/launch.json) to know what each option does
@@ -46,7 +46,7 @@ If you want to test existing builds, consider viewing our [GitHub Actions](https
 === "Using the build script directly"
 
     1. Install [7-Zip](https://7-zip.org/) or [NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r) if not done already
-        - For macOS/Linux, install official 7-Zip (`7zz`) using a package manager
+        - For [macOS](https://formulae.brew.sh/formula/sevenzip)/[Linux](https://wiki.archlinux.org/title/p7zip), install 7-Zip (official or `p7zip`) using a package manager
     1. For macOS/Linux, install [the latest PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
     1. Navigate to `src\playbook` in the cloned Atlas repo
     1. If on Windows, run `local-build.cmd`, else use `local-build.sh`
@@ -69,6 +69,7 @@ Here's a comparison of our two recommendations:
 |                         **Ease of Installation**                          |          :material-check: Installation through [Windows features](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v), no external downloads           | :material-alert-circle-outline: It's [officially free now](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html), but you need to tediously sign-up for a Broadcom account |
 |                             **Compatibility**                             |                                                     :material-alert-circle-outline: Enables 'Secure system,' which causes issues for some apps                                                     |                                                                       :material-check-all: No incompatibilities with apps as it's not directly in the kernel                                                                       |
 |                              **Guest Tools**                              | :material-alert-circle-outline: Annoying to work with as it's [just an RDP session](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/enhanced-session-mode), low FPS |                                                                        :material-check-all: Has a vGPU, 60fps viewport, good drag-and-drop support, stable                                                                         |
+|                           **Operating Systems**                           |                                                                       :material-check: Hyper-V is only avaliable on Windows                                                                        |                                                                                        :material-check-all: Avaliable on Linux and Windows                                                                                         |
 
 !!! note "Apple-silicon Mac users"
 
