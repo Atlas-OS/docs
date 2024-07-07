@@ -24,6 +24,7 @@ nav:
     - Branding Kit: branding.md
     - Contributing:
       - Contribution Guidelines: contributing/contribution-guidelines.md
+      - Documentation: contributing/documentation.md
       - Playbook: contributing/playbook.md
 
   - Getting Started:
