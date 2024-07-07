@@ -1,0 +1,2 @@
+mkdocs-material
+-r base-requirements.txt
