@@ -1,10 +1,10 @@
 @echo off
 title Locally Hosting Atlas Documentation
 
-where mkdocs > nul 2>&1 || (
-	echo It doesn't seem like MkDocs Material is installed, as it wasn't found in PATH.
+where pip > nul 2>&1 || (
+	echo It doesn't seem like pip is installed, as it wasn't found in PATH.
 	echo]
-	echo To install it: https://squidfunk.github.io/mkdocs-material/getting-started/#latest
+	echo Ensure Python from its website is installed: https://www.python.org/
 	echo]
 	echo Press any key to exit...
 	pause > nul
@@ -17,4 +17,5 @@ echo If there's any errors, make sure MkDocs Material is installed correctly, se
 echo To close the server, exit this window.
 
 echo]
+pip install -r local-requirements.txt
 mkdocs serve
