@@ -14,8 +14,10 @@ This page details how to reinstall from Atlas to vanilla Windows.
 
 If you're experiencing issues, ensure you're on the [latest version of Atlas](installation.md), and then consider getting help from the following:
 
-- The documentation you're on currently
-- 'Ask AI' in the corner of this page
+- :material-file-search: The documentation you're on currently
+- <a style="cursor: pointer" onclick="const button=document.querySelector('#kapa-widget-container > button'); if (button) button.click();">
+    <p>:material-robot: 'Ask AI' in the corner of this page</p>
+  </a>
 - [:simple-discord: Our Discord server](https://discord.atlasos.net)
 - [:material-forum: The Atlas forums](https://forum.atlasos.net)
 
