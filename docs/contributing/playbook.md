@@ -5,7 +5,7 @@ icon: custom/atlas
 
 # :custom-atlas: Contributing to the Atlas Playbook
 
-This page will cover how to modify, test, and build Atlas. We highly recommend reading through the [Contribution Guidelines](contribution-guidelines.md) first!
+This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
 
 ## :material-book-search: How the Playbook works
 
@@ -17,7 +17,7 @@ Atlas is a Playbook, and alongside [AME's documentation](https://docs.ameliorate
 
 ### What Atlas uses internally
 
-You can learn as you go, but consider getting some familiarity with the following if you're going to directly contribute to the Playbook:
+You can learn as you go, but consider getting some familiarity with the following if you're going to contribute to the Playbook directly:
 
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/learn)
 - [PowerShell scripting](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started)
