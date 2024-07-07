@@ -49,7 +49,7 @@ If you want to test existing builds, consider viewing our [GitHub Actions](https
         - For macOS/Linux, install official 7-Zip (`7zz`) using a package manager
     1. For macOS/Linux, install [the latest PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
     1. Navigate to `src\playbook` in the cloned Atlas repo
-    1. If on Windows, run `local-build.cmd`, else run `local-build.sh`
+    1. If on Windows, run `local-build.cmd`, else use `local-build.sh`
 
 ## :material-test-tube: How to run your built Playbooks
 
