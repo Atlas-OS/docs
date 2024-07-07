@@ -89,13 +89,13 @@ Additionally, you can save a VM while testing something specific and return to i
 ### Which snapshots to make
 
 !!! tip "Setup your snapshots ready for a Playbook"
-    It's best to make your initial snapshots already set up with AME Wizard and some essential utilities (e.g. [Sysinternals](https://learn.microsoft.com/sysinternals/)) so that you can just drag-and-drop a Playbook as soon as you go to a snapshot.
+    It's best to make your initial snapshots already set up with [AME Wizard](https://download.ameliorated.io/AME%20Wizard%20Beta.zip) and some essential utilities (e.g. [Sysinternals](https://learn.microsoft.com/sysinternals/downloads/)) so that you can just drag-and-drop a Playbook as soon as you go to a snapshot.
 
 We recommend making three initial snapshots:
 
 - Stock Windows **without** Windows Updates installed
-    - For testing updates after installing Atlas
-    - To ensure updates don't install, [pause updates indefinitely](../assets/other/pause-updates.reg) before connecting to the internet
+    - For testing installing Windows Updates after installing Atlas
+    - To ensure updates don't install, [pause updates indefinitely](../assets/other/pause-updates.reg) before connecting to the internet. Un-pause them later in Windows Settings
 - Stock Windows **with** Windows Updates installed
     - Consider updating Windows and remaking the snapshot every so often
 - **Optional:** A current release Atlas snapshot if you need to test anything there
