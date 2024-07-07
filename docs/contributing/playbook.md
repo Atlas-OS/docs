@@ -103,6 +103,7 @@ We recommend making three initial snapshots:
 
 - Stock Windows **without** Windows Updates installed
     - For testing updates after installing Atlas
+    - To ensure updates don't install, [pause updates indefinitely](../assets/other/pause-updates.reg) before connecting to the internet
 - Stock Windows **with** Windows Updates installed
     - Consider updating Windows and remaking the snapshot every so often
 - **Optional:** A current release Atlas snapshot if you need to test anything there
