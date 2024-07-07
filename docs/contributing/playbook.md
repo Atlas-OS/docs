@@ -45,21 +45,11 @@ If you want to test existing builds, consider viewing our [GitHub Actions](https
 
 === "Using the build script directly"
 
-    For Windows users:
-
     1. Install [7-Zip](https://7-zip.org/) or [NanaZip](https://apps.microsoft.com/detail/9n8g7tscl18r) if not done already
+        - For macOS/Linux, install official 7-Zip (`7zz`) using a package manager
+    1. For macOS/Linux, install [the latest PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
     1. Navigate to `src\playbook` in the cloned Atlas repo
-    1. Run `local-build.cmd`
-
-    For non-Windows users:
-
-    1. [Install the latest PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
-    1. Install official 7-Zip (`7zz`) using a package manager
-    1. Navigate to **src** in the cloned Atlas repo, and run `local-build.ps1` in PowerShell with these arguments:
-    ```
-    -AddLiveLog -ReplaceOldPlaybook -Removals WinverRequirement, Verification -DontOpenPbLocation
-    ```
-
+    1. If on Windows, run `local-build.cmd`, else run `local-build.sh`
 
 ## :material-test-tube: How to run your built Playbooks
 
