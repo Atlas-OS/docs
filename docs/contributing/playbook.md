@@ -72,10 +72,12 @@ Here's a comparison of our two recommendations:
 
 !!! note "Apple-silicon Mac users"
 
-    Due to not being tested frequently, we would appreciate it if you could test using Atlas with Windows-on-ARM using your Apple-silicon-based device. For this, consider using either:
+    Due to not being tested frequently, we would appreciate it if you could test Atlas with Windows-on-ARM (11) using your Apple-silicon-based device. For this, consider using either:
     
     [VMWare Fusion (free with Broadcom account)](https://www.vmware.com/products/desktop-hypervisor.html){ .md-button target="_blank" }
     [Parallels (14-day trial)](https://www.parallels.com/){ .md-button target="_blank" }
+
+    **Note:** ARM ISOs aren't available on Microsoft's website. Instead, these apps download them for you.
 
 ### What snapshots are
 
