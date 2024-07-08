@@ -22,7 +22,8 @@ We recommend viewing [their reference documentation](https://squidfunk.github.io
 ## :material-package-down: Installing dependencies
 
 1. As MkDocs Material uses Python, you must install [Python](https://www.python.org/downloads/) alongside `pip`
-1. Run `pip install -r requirements.txt` to install all the dependencies inside of the repository
+1. Run `pip install -r local-requirements.txt` to install all the dependencies inside of the repository
+    - You might need to use a virtual environment on Linux or distro-specific packages for dependencies
     - Consider checking the VSCode extension recommendations
 
 ## :material-eye: Viewing your changes live
