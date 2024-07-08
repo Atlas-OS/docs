@@ -25,7 +25,7 @@ If you're experiencing issues, ensure you're on the [latest version of Atlas](in
 
 We're constantly improving Atlas, so although you're uninstalling now, we hope to see your problem solved in the future.
 
-Please consider reporting your problem on the [Atlas GitHub Issues](https://github.com/Atlas-OS/Atlas) so we can fix it.
+Please consider reporting your problem on the [Atlas GitHub Issues](https://github.com/Atlas-OS/Atlas/issues) so we can fix it.
 Alternatively, give feedback in our forums or Discord, as mentioned earlier.
 
 ---
