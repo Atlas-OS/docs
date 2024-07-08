@@ -16,7 +16,7 @@ If you're experiencing issues, ensure you're on the [latest version of Atlas](in
 
 - :material-file-search: The documentation you're on currently
 - <a onclick="clickKapaAi();" href="javascript:void(0)">
-    <p>:material-robot: 'Ask AI' in the corner of this page</p>
+    :material-robot: 'Ask AI' in the corner of this page
   </a>
 - [:simple-discord: Our Discord server](https://discord.atlasos.net)
 - [:material-forum: The Atlas forums](https://forum.atlasos.net)
