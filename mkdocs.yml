@@ -27,8 +27,6 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
       # discord_friendly_name: ['how-to-install', 'install', 'installation']
-    - Reverting Atlas: getting-started/reverting-atlas.md
-      # discord_friendly_name: ['revert', 'uninstall-atlas']
     - Post Installation:
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
@@ -63,6 +61,8 @@ nav:
     - What's removed?: faq-and-troubleshooting/removed-features.md
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
+    - Reverting Atlas: getting-started/reverting-atlas.md
+      # discord_friendly_name: ['revert', 'uninstall-atlas']
     - AME Wizard Errors:
       - AME Wizard Deleted: faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md
       - Atlas Playbook Stuck: faq-and-troubleshooting/ame-wizard-errors/atlas-playbook-stuck.md
