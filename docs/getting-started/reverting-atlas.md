@@ -39,6 +39,7 @@ installation.md:iso
 installation.md:iso1
 installation.md:drivers
 installation.md:reinstalling
+installation.md:reinstalling1
 --8<--
 
 ## :material-desktop-classic: Continue with setup

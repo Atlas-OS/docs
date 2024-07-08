@@ -133,7 +133,10 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
 
-    1. Choose your edition of Windows. For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+    1. Choose your edition of Windows
+    <!-- --8<-- [end:reinstalling] -->
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+    <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
@@ -194,7 +197,9 @@ You can find your network driver online by searching for your device/motherboard
     1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
     1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
-<!-- --8<-- [end:reinstalling] -->
+    <!-- --8<-- [end:reinstalling1] -->
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+
 
 ### :material-cog: Initial setup (OOBE)
 
