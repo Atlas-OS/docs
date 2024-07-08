@@ -44,6 +44,6 @@ installation.md:reinstalling1
 
 ## :material-desktop-classic: Continue with setup
 
-You should now be at the regular Windows initial setup, back on stock Windows.
+You should now be at the regular Windows initial setup and back on stock Windows.
 
 --8<-- "installation.md:oldinstall"
