@@ -37,6 +37,9 @@ plugins:
   # https://github.com/mkdocs/mkdocs-redirects
   - redirects:
       redirect_maps:
+          # Contributions was turned into a section
+        'contributions.md': 'contributing/contribution-guidelines.md'
+
           # Renamed Atlas folders
         'getting-started/post-installation/atlas-folder/configuration.md': 'getting-started/post-installation/atlas-folder/general-configuration.md'
         'getting-started/post-installation/atlas-folder/optional-tweaks.md': 'getting-started/post-installation/atlas-folder/interface-tweaks.md'

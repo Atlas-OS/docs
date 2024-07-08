@@ -21,8 +21,11 @@ copyright: >
 nav:
   - Home:
     - Home: index.md
-    - Contribution Guidelines: contributions.md
     - Branding Kit: branding.md
+    - Contributing:
+      - Contribution Guidelines: contributing/contribution-guidelines.md
+      - Documentation: contributing/documentation.md
+      - Playbook: contributing/playbook.md
 
   - Getting Started:
     - Installation: getting-started/installation.md
