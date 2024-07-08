@@ -24,3 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.head.appendChild(script);
 });
+
+function clickKapaAi() {
+    const button = document.querySelector('#kapa-widget-container > button')
+    if (button) button.click()
+}
