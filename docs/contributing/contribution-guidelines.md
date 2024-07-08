@@ -79,12 +79,12 @@ Check out this [detailed guide on setting up verified commits](https://gist.gith
 	Use your distro's package manager to install GPG.
 
 	- [Arch Linux](https://wiki.archlinux.org/title/GnuPG): `sudo pacman -S gnupg`
-	- [Ubuntu](https://help.ubuntu.com/community/GnuPrivacyGuardHowto)/[Debian](https://wiki.debian.org/GnuPG): `sudo apt install gnugp`
+	- [Ubuntu](https://help.ubuntu.com/community/GnuPrivacyGuardHowto)/[Debian](https://wiki.debian.org/GnuPG): `sudo apt install gnupg`
 	- [Fedora](https://fedoraproject.org/wiki/Cryptography#GnuPG): `sudo dnf install gnupg`
 
 === "macOS"
 
-	- [Brew](https://formulae.brew.sh/formula/gnupg): `brew install gnupg`
+	- [Homebrew](https://formulae.brew.sh/formula/gnupg): `brew install gnupg`
 
 ### :octicons-git-branch-16: Conventional Commits
 

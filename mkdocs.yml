@@ -2,9 +2,9 @@ site_name: Atlas Documentation
 site_url: https://docs.atlasos.net
 
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
-repo_url: https://github.com/Atlas-OS/docs
-repo_name: Atlas-OS/docs
-edit_uri: edit/master/docs/
+repo_url: https://github.com/Atlas-OS/Atlas
+repo_name: Atlas Playbook
+edit_uri: https://github.com/Atlas-OS/docs/edit/master/docs
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
@@ -22,19 +22,27 @@ nav:
   - Home:
     - Home: index.md
     - Branding Kit: branding.md
+    - Contributing:
+      - Contribution Guidelines: contributing/contribution-guidelines.md
+      - Documentation: contributing/documentation.md
+      - Playbook: contributing/playbook.md
 
   - Getting Started:
     - Installation: getting-started/installation.md
+      # discord_friendly_name: ['how-to-install', 'install', 'installation']
     - Post Installation:
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
+          # discord_friendly_name: 'drivers'
         - NVIDIA: getting-started/post-installation/drivers/nvidia.md
         - AMD: getting-started/post-installation/drivers/amd.md
         - Intel: getting-started/post-installation/drivers/intel.md
         - Chipset: getting-started/post-installation/drivers/chipset.md
         - Others: getting-started/post-installation/drivers/others.md
+          # discord_friendly_name: ['other-drivers', 'drivers-other']
       - Software:
         - Getting Started: getting-started/post-installation/software/getting-started.md
+          # discord_friendly_name: 'software'
         - Anti Virus: getting-started/post-installation/software/anti-virus.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
         - Media: getting-started/post-installation/software/media-playback.md
@@ -54,6 +62,7 @@ nav:
 
   - FAQ & Troubleshooting:
     - What's removed?: faq-and-troubleshooting/removed-features.md
+      # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
     - AME Wizard Errors:
       - AME Wizard Deleted: faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md
@@ -152,6 +161,7 @@ theme:
   icon:
     edit: material/file-edit
     view: material/file-eye
+    repo: fontawesome/brands/github-alt
 
 
 #
