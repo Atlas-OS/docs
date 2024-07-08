@@ -52,6 +52,7 @@ plugins:
           # Moved to a more fully fleged page
           # Has to be in 'getting-started' for relative links
         'faq-and-troubleshooting/common-questions/reverting-atlas.md': 'getting-started/reverting-atlas.md'
+        'faq-and-troubleshooting/reverting-atlas.md': 'getting-started/reverting-atlas.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
