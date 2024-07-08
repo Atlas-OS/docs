@@ -1,14 +1,14 @@
 ---
 title: Reverting Atlas
-description: How to revert Atlas and return to stock Windows
+description: How to uninstall AtlasOS
 icon: material/emoticon-cry
 ---
 
 # :material-emoticon-cry: Reverting Atlas
 
-As Atlas disables the 'Reset this PC' feature due to its unreliability and not being a true reinstall of Windows, some users get confused about how to uninstall Atlas.
+As Atlas disables the 'Reset this PC' feature due to its unreliability and not being a true reinstall of Windows, some users get confused about how to get back to stock Windows.
 
-This page details how to reinstall from Atlas to vanilla Windows.
+This page details how to reinstall from Atlas to stock Windows fully, which uninstalls Atlas.
 
 ## :material-handshake: Before uninstalling
 
