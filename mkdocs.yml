@@ -22,10 +22,6 @@ nav:
   - Home:
     - Home: index.md
     - Branding Kit: branding.md
-    - Contributing:
-      - Contribution Guidelines: contributing/contribution-guidelines.md
-      - Documentation: contributing/documentation.md
-      - Playbook: contributing/playbook.md
 
   - Getting Started:
     - Installation: getting-started/installation.md
@@ -88,6 +84,14 @@ nav:
       - Roblox not opening: faq-and-troubleshooting/common-questions/roblox-not-opening.md
       - FIFA/EAFC not launching: faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md
 
+  - Development:
+    - Contribution Guidelines: contributing/contribution-guidelines.md
+    - Documentation: contributing/documentation.md
+    - Playbook: contributing/playbook.md
+    
+    - Testing:
+      - What to test: contributing/testing/what-to-test.md
+      - Reporting issues: contributing/testing/reporting-issues.md
 
 #
 # Theme Settings
