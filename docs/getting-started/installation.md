@@ -10,17 +10,22 @@ This guide will walk you through fully reinstalling Windows, installing Atlas on
 
 Before continuing, we recommend reviewing our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md).
 
+<!-- --8<-- [start:prerequisites] -->
 ## :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
     - We don't recommend bypassing Windows 11's requirements due to potential incompatibilities with updates and anticheats
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
+    <!-- --8<-- [end:prerequisites] -->
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
 - Knowledge of general Windows troubleshooting and usage
 
+<!-- --8<-- [start:iso] -->
 ## :material-disc: Download an ISO
+<!-- --8<-- [end:iso] -->
 
-Before installing Atlas, you need to reinstall Windows. To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
+Before installing Atlas, you need to reinstall Windows. <!-- --8<-- [start:iso1] -->
+To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
 
 <span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel and AMD CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span> ARM ISOs have to be [built manually](https://uupdump.net/fetchupd.php?arch=arm64&ring=retail&build=22631.1).
 
@@ -86,7 +91,9 @@ See the alternatives below.
     styleSheet.innerText = '.noJs { display: revert !important }'
     document.head.appendChild(styleSheet)
 </script>
+<!-- --8<-- [end:iso1] -->
 
+<!-- --8<-- [start:drivers] -->
 ## :material-ethernet: Network Drivers
 
 By default, Windows may not have your computer's network drivers, meaning your computer would be left without a network connection.
@@ -97,7 +104,9 @@ For this reason, we **strongly** recommend that you either:
 - Have the ability to download and transfer network drivers from another device later
 
 You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available on your device, download all of them.
+<!-- --8<-- [end:drivers] -->
 
+<!-- --8<-- [start:reinstalling] -->
 ## :material-microsoft-windows: Reinstalling Windows
 
 !!! question "Which method should I pick?"
@@ -124,7 +133,10 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
 
-    1. Choose your edition of Windows. We strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+    1. Choose your edition of Windows
+    <!-- --8<-- [end:reinstalling] -->
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+    <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
@@ -185,6 +197,8 @@ You can find your network driver online by searching for your device/motherboard
     1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
     1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
+    <!-- --8<-- [end:reinstalling1] -->
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
 
 
 ### :material-cog: Initial setup (OOBE)
@@ -279,13 +293,15 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
 
+<!-- --8<-- [start:oldinstall] -->
 ### :material-microsoft-windows-classic: Your old Windows installation
 
-If you reinstalled Windows using the method in the documentation, your previous Windows installation should be in `Windows.old`. When you're sure that you've retrieved any valuable data from it, follow these steps:
+If you reinstalled Windows using the no-USB method, your previous Windows installation should be in `Windows.old`. When you're sure that you've retrieved any valuable data from it, follow these steps:
 
 1. Open **Windows Settings** -> **System** -> **Storage**
 1. Click **Temporary files**, and wait for it to scan your files
 1. Select **Previous version of Windows**, and then click **Remove files**
+<!-- --8<-- [end:oldinstall] -->
 
 ## :material-package-variant-closed-plus: Getting your drivers
 
