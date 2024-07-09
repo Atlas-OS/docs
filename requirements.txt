@@ -1,2 +1,4 @@
 git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-insiders.git
+pillow
+cairosvg
 -r base-requirements.txt
