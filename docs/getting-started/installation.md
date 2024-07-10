@@ -127,7 +127,7 @@ You can find your network driver online by searching for your device/motherboard
     1. Type in your noted-down drive letter, including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../general-faq/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
+        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, and then attempt this again
 
     1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
 
@@ -135,7 +135,7 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Choose your edition of Windows
     <!-- --8<-- [end:reinstalling] -->
-        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../general-faq/windows-editions.md) for more information
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
     <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
@@ -198,7 +198,7 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
     <!-- --8<-- [end:reinstalling1] -->
-        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../general-faq/windows-editions.md) for more information
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
 
 
 ### :material-cog: Initial setup (OOBE)

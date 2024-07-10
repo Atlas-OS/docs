@@ -60,6 +60,9 @@ nav:
     - What's removed?: install-faq/removed-features.md
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: install-faq/who-is-atlas-for.md
+    - Atlas ISO files: install-faq/atlas-iso-files.md
+    - Windows Editions: install-faq/windows-editions.md
+    - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
     - Reverting Atlas: getting-started/reverting-atlas.md
       # discord_friendly_name: ['revert', 'uninstall-atlas']
     - AME Wizard Errors:
@@ -71,15 +74,12 @@ nav:
   - General FAQ:
     - Atlas and Security: general-faq/atlas-and-security.md
     - Updating Atlas: general-faq/updating-atlas.md
-    - Atlas ISO files: general-faq/atlas-iso-files.md
     - Atlas Folder Missing: general-faq/atlas-folder-missing.md
     - Atlas Folder Scripts: general-faq/atlas-folder-scripts.md
-    - Windows Editions: general-faq/windows-editions.md
     - Windows Update Errors: general-faq/windows-update-errors.md
     - Testing Nightly Builds: general-faq/testing-nightly-builds.md
     - Acrobat not installing: general-faq/acrobat-not-installing.md
     - Bluetooth Compatibility: general-faq/bluetooth-compatibility.md
-    - Decrypting using BitLocker: general-faq/decryptying-using-bitlocker.md
     - iTunes Compatibility: general-faq/itunes-compatibility.md
     - Installing the Media Pack: general-faq/media-pack-not-found.md
     - Microsoft Store: general-faq/microsoft-store.md
