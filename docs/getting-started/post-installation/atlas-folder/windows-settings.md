@@ -7,7 +7,7 @@ icon: material/microsoft-windows
 
 This folder contains shortcuts to commonly used Windows Settings for Atlas. When you run these shortcuts, you will go straight to the Windows Settings page for the setting you want to configure.
 
-Each section here corresponds to a sub-folder in the `5. Windows Settings` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
+Each section here corresponds to a sub-folder in the `5. Windows Settings` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
 ## :material-lock-open-outline: Activation
 

@@ -13,7 +13,7 @@ We believe that power users should be able to have a choice over the balance bet
 
 Atlas alerts users about the risks of disabling security features, as well as never unknowingly reducing security. One way that this is done is through the AME Wizard configuration prompts.
 
-[Configuring Security in Atlas -->](../../getting-started/post-installation/atlas-folder/security.md)
+[Configuring Security in Atlas -->](../getting-started/post-installation/atlas-folder/security.md)
 
 ## Security compared to unmodified Windows
 
@@ -25,7 +25,7 @@ Both Ameliorated and Atlas are always finding ways to be as transparent as possi
 
 ## Legacy versions of Atlas
 
-Legacy versions of Atlas, meaning before the `v0.3.x` versions, previously raised many security concerns. We advise anyone that are on these versions of Atlas to [reinstall Windows and upgrade to the latest version](../../getting-started/installation.md).
+Legacy versions of Atlas, meaning before the `v0.3.x` versions, previously raised many security concerns. We advise anyone that are on these versions of Atlas to [reinstall Windows and upgrade to the latest version](../getting-started/installation.md).
 
 We listened to the feedback, and we have taken a shift to include maintaining security as a goal of Atlas. Many of the concerns have been rectified in the latest versions, such as:
 
