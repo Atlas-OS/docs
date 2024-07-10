@@ -56,7 +56,7 @@ nav:
       - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
       - Security: getting-started/post-installation/atlas-folder/security.md
 
-  - FAQ & Troubleshooting:
+  - Install FAQ:
     - What's removed?: faq-and-troubleshooting/removed-features.md
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
@@ -210,9 +210,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Atlas-OS
       name: AtlasOS on GitHub
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/AtlasOS
-      name: AtlasOS on Twitter
+    - icon: simple/x
+      link: https://x.com/AtlasOS
+      name: AtlasOS on X
 
 
 #
