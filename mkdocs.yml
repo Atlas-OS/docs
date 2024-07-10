@@ -56,7 +56,7 @@ nav:
       - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
       - Security: getting-started/post-installation/atlas-folder/security.md
 
-  - Install FAQ:
+  - FAQ & Troubleshooting:
     - What's removed?: faq-and-troubleshooting/removed-features.md
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
