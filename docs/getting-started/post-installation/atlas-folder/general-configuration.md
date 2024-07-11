@@ -13,7 +13,7 @@ For more configuration options, check:
 - [Windows Settings ->](windows-settings.md)
 - [Advanced Configuration ->](advanced-configuration.md)
 
-Each section here corresponds to a sub-folder in the `3. General Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
+Each section here corresponds to a sub-folder in the `3. General Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
 ## :material-application: Background Apps
 
@@ -25,7 +25,7 @@ On Atlas, we have made Bluetooth support a configurable option to allow users wh
 
 Although the initial setup prompts if you want to disable Bluetooth support, you can toggle it afterward. Run the `Enable Bluetooth.cmd` or `Disable Bluetooth.cmd` script and restart your computer.
 
-Remember that you may need to install drivers for Bluetooth to work. [View our guide here](../../../faq-and-troubleshooting/common-questions/bluetooth-compatibility.md).
+Remember that you may need to install drivers for Bluetooth to work. [View our guide here](../../../general-faq/bluetooth-compatibility.md).
 
 ## :material-gamepad: FSO and Game Bar
 

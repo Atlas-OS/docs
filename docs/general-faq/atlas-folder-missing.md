@@ -9,7 +9,7 @@ icon: material/folder-question
 
 If you wish to have the folder on your desktop, you should right-click on the folder and create a shortcut.
 
-![The AtlasDesktop folder on an AtlasOS installation, which is located in the Windows folder](../../assets/images/atlasdesktop-windows-folder.webp)
+![The AtlasDesktop folder on an AtlasOS installation, which is located in the Windows folder](../assets/images/atlasdesktop-windows-folder.webp)
 
 ## What about if I can't find AtlasDesktop?
 

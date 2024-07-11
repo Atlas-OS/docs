@@ -2,9 +2,9 @@ site_name: Atlas Documentation
 site_url: https://docs.atlasos.net
 
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
-repo_url: https://github.com/Atlas-OS/docs
-repo_name: Atlas-OS/docs
-edit_uri: edit/master/docs/
+repo_url: https://github.com/Atlas-OS/Atlas
+repo_name: Atlas Playbook
+edit_uri: https://github.com/Atlas-OS/docs/edit/master/docs
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
@@ -21,21 +21,24 @@ copyright: >
 nav:
   - Home:
     - Home: index.md
-    - Contribution Guidelines: contributions.md
     - Branding Kit: branding.md
 
   - Getting Started:
     - Installation: getting-started/installation.md
+      # discord_friendly_name: ['how-to-install', 'install', 'installation']
     - Post Installation:
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
+          # discord_friendly_name: 'drivers'
         - NVIDIA: getting-started/post-installation/drivers/nvidia.md
         - AMD: getting-started/post-installation/drivers/amd.md
         - Intel: getting-started/post-installation/drivers/intel.md
         - Chipset: getting-started/post-installation/drivers/chipset.md
         - Others: getting-started/post-installation/drivers/others.md
+          # discord_friendly_name: ['other-drivers', 'drivers-other']
       - Software:
         - Getting Started: getting-started/post-installation/software/getting-started.md
+          # discord_friendly_name: 'software'
         - Anti Virus: getting-started/post-installation/software/anti-virus.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
         - Media: getting-started/post-installation/software/media-playback.md
@@ -54,31 +57,44 @@ nav:
       - Security: getting-started/post-installation/atlas-folder/security.md
       - Troubleshooting: getting-started/post-installation/atlas-folder/troubleshooting.md
 
-  - FAQ & Troubleshooting:
-    - What's removed?: faq-and-troubleshooting/removed-features.md
-    - Who is Atlas for?: faq-and-troubleshooting/who-is-atlas-for.md
+  - Install FAQ:
+    - What's removed?: install-faq/removed-features.md
+      # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
+    - Who is Atlas for?: install-faq/who-is-atlas-for.md
+    - Atlas ISO files: install-faq/atlas-iso-files.md
+    - Windows Editions: install-faq/windows-editions.md
+    - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
+    - Reverting Atlas: getting-started/reverting-atlas.md
+      # discord_friendly_name: ['revert', 'uninstall-atlas']
     - AME Wizard Errors:
-      - AME Wizard Deleted: faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md
-      - Atlas Playbook Stuck: faq-and-troubleshooting/ame-wizard-errors/atlas-playbook-stuck.md
-      - Build Not Supported: faq-and-troubleshooting/ame-wizard-errors/build-not-supported.md
-      - Can't Disable Defender: faq-and-troubleshooting/ame-wizard-errors/cant-disable-defender.md
-    - Common Questions:
-      - Atlas and Security: faq-and-troubleshooting/common-questions/atlas-and-security.md
-      - Updating Atlas: faq-and-troubleshooting/common-questions/updating-atlas.md
-      - Atlas ISO files: faq-and-troubleshooting/common-questions/atlas-iso-files.md
-      - Atlas Folder Missing: faq-and-troubleshooting/common-questions/atlas-folder-missing.md
-      - Windows Editions: faq-and-troubleshooting/common-questions/windows-editions.md
-      - Windows Update Errors: faq-and-troubleshooting/common-questions/windows-update-errors.md
-      - Testing Nightly Builds: faq-and-troubleshooting/common-questions/testing-nightly-builds.md
-      - Acrobat not installing: faq-and-troubleshooting/common-questions/acrobat-not-installing.md
-      - Bluetooth Compatibility: faq-and-troubleshooting/common-questions/bluetooth-compatibility.md
-      - Decrypting using BitLocker: faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md
-      - iTunes Compatibility: faq-and-troubleshooting/common-questions/itunes-compatibility.md
-      - Microsoft Store: faq-and-troubleshooting/common-questions/microsoft-store.md
-      - Reverting Atlas: faq-and-troubleshooting/common-questions/reverting-atlas.md
-      - Roblox not opening: faq-and-troubleshooting/common-questions/roblox-not-opening.md
-      - FIFA/EAFC not launching: faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md
+      - AME Wizard Deleted: install-faq/ame-wizard-errors/ame-wizard-deleted.md
+      - Atlas Playbook Stuck: install-faq/ame-wizard-errors/atlas-playbook-stuck.md
+      - Build Not Supported: install-faq/ame-wizard-errors/build-not-supported.md
+      - Can't Disable Defender: install-faq/ame-wizard-errors/cant-disable-defender.md
 
+  - General FAQ:
+    - Atlas and Security: general-faq/atlas-and-security.md
+    - Updating Atlas: general-faq/updating-atlas.md
+    - Atlas Folder Missing: general-faq/atlas-folder-missing.md
+    - Atlas Folder Scripts: general-faq/atlas-folder-scripts.md
+    - Windows Update Errors: general-faq/windows-update-errors.md
+    - Testing Nightly Builds: general-faq/testing-nightly-builds.md
+    - Acrobat not installing: general-faq/acrobat-not-installing.md
+    - Bluetooth Compatibility: general-faq/bluetooth-compatibility.md
+    - iTunes Compatibility: general-faq/itunes-compatibility.md
+    - Installing the Media Pack: general-faq/media-pack-not-found.md
+    - Microsoft Store: general-faq/microsoft-store.md
+    - Roblox not opening: general-faq/roblox-not-opening.md
+    - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
+
+  - Development:
+    - Contribution Guidelines: contributing/contribution-guidelines.md
+    - Documentation: contributing/documentation.md
+    - Playbook: contributing/playbook.md
+    
+    - Testing:
+      - What to test: contributing/testing/what-to-test.md
+      - Reporting issues: contributing/testing/reporting-issues.md
 
 #
 # Theme Settings
@@ -144,6 +160,7 @@ theme:
   icon:
     edit: material/file-edit
     view: material/file-eye
+    repo: fontawesome/brands/github-alt
 
 
 #
@@ -151,7 +168,7 @@ theme:
 #
 extra_javascript:
   - javascript/msdl.v1.js
-  - javascript/init_kapa_widget.v1.js
+  - javascript/init_kapa_widget.v2.js
 
 
 extra_css:
@@ -195,9 +212,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Atlas-OS
       name: AtlasOS on GitHub
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/AtlasOS
-      name: AtlasOS on Twitter
+    - icon: simple/x
+      link: https://x.com/AtlasOS
+      name: AtlasOS on X
 
 
 #
@@ -243,6 +260,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+      base_path: ['./docs/getting-started/']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:

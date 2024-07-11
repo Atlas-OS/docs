@@ -8,19 +8,24 @@ icon: material/cogs
 
 This guide will walk you through fully reinstalling Windows, installing Atlas on top of it, and completing other necessary steps. A full Windows reinstall is needed to ensure stability during the initial installation of Atlas.
 
-Before continuing, we recommend reviewing our page on [who Atlas is for](../faq-and-troubleshooting/who-is-atlas-for.md).
+Before continuing, we recommend reviewing our page on [who Atlas is for](../install-faq/who-is-atlas-for.md).
 
+<!-- --8<-- [start:prerequisites] -->
 ## :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
     - We don't recommend bypassing Windows 11's requirements due to potential incompatibilities with updates and anticheats
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
+    <!-- --8<-- [end:prerequisites] -->
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
 - Knowledge of general Windows troubleshooting and usage
 
+<!-- --8<-- [start:iso] -->
 ## :material-disc: Download an ISO
+<!-- --8<-- [end:iso] -->
 
-Before installing Atlas, you need to reinstall Windows. To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
+Before installing Atlas, you need to reinstall Windows. <!-- --8<-- [start:iso1] -->
+To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
 
 <span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel and AMD CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span> ARM ISOs have to be [built manually](https://uupdump.net/fetchupd.php?arch=arm64&ring=retail&build=22631.1).
 
@@ -86,7 +91,9 @@ See the alternatives below.
     styleSheet.innerText = '.noJs { display: revert !important }'
     document.head.appendChild(styleSheet)
 </script>
+<!-- --8<-- [end:iso1] -->
 
+<!-- --8<-- [start:drivers] -->
 ## :material-ethernet: Network Drivers
 
 By default, Windows may not have your computer's network drivers, meaning your computer would be left without a network connection.
@@ -97,7 +104,9 @@ For this reason, we **strongly** recommend that you either:
 - Have the ability to download and transfer network drivers from another device later
 
 You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available on your device, download all of them.
+<!-- --8<-- [end:drivers] -->
 
+<!-- --8<-- [start:reinstalling] -->
 ## :material-microsoft-windows: Reinstalling Windows
 
 !!! question "Which method should I pick?"
@@ -118,13 +127,16 @@ You can find your network driver online by searching for your device/motherboard
     1. Type in your noted-down drive letter, including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md) to resolve this, and then attempt this again
+        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, and then attempt this again
 
     1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
 
     1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
 
-    1. Choose your edition of Windows. We strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../faq-and-troubleshooting/common-questions/windows-editions.md) for more information
+    1. Choose your edition of Windows
+    <!-- --8<-- [end:reinstalling] -->
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
+    <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
@@ -185,6 +197,8 @@ You can find your network driver online by searching for your device/motherboard
     1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
     1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
+    <!-- --8<-- [end:reinstalling1] -->
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
 
 
 ### :material-cog: Initial setup (OOBE)
@@ -255,7 +269,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 ??? danger "AME Wizard suddenly closing or being deleted?"
     Add AME Wizard as an exclusion or disable **Real-time protection** in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
 
-    To read more about this, view our [**AME Wizard Deleted**](../faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md) page.
+    To read more about this, view our [**AME Wizard Deleted**](../install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
 
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
@@ -265,27 +279,29 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
 
 1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, un-pause Windows Updates to follow this step
-    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../faq-and-troubleshooting/common-questions/windows-update-errors.md#windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
+    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../general-faq/windows-update-errors.md#windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
 
 1. Open the **Microsoft Store** and update all apps that have pending updates
 
 1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq-and-troubleshooting/ame-wizard-errors/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../install-faq/ame-wizard-errors/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
     1. Click on **Updates** at the top and make sure AME Wizard is up to date
 
 1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder into AME Wizard
 
 1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
 
+<!-- --8<-- [start:oldinstall] -->
 ### :material-microsoft-windows-classic: Your old Windows installation
 
-If you reinstalled Windows using the method in the documentation, your previous Windows installation should be in `Windows.old`. When you're sure that you've retrieved any valuable data from it, follow these steps:
+If you reinstalled Windows using the no-USB method, your previous Windows installation should be in `Windows.old`. When you're sure that you've retrieved any valuable data from it, follow these steps:
 
 1. Open **Windows Settings** -> **System** -> **Storage**
 1. Click **Temporary files**, and wait for it to scan your files
 1. Select **Previous version of Windows**, and then click **Remove files**
+<!-- --8<-- [end:oldinstall] -->
 
 ## :material-package-variant-closed-plus: Getting your drivers
 
@@ -302,6 +318,6 @@ If you need any help, you can find links below to a large community of individua
 We hope you enjoy using AtlasOS! :smile:
 
 - [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-forum: Forums](https://forum.atlasos.net)
-- [:material-chat-question: FAQ & Troubleshooting](../faq-and-troubleshooting/removed-features.md)
+- [:material-chat-question: FAQ & Troubleshooting](../install-faq/removed-features.md)
 - [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
 

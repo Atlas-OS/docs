@@ -23,21 +23,21 @@ icon: material/home
 
     [-> Post Installation](getting-started/post-installation/atlas-folder/general-configuration.md)
 
--   :material-chat-question:{ .lg .middle } __FAQ & Troubleshooting__
+-   :material-chat-question:{ .lg .middle } __Frequently Asked Questions__
 
     ---
 
     Get the answer to any frequently asked questions regarding AtlasOS.
 
-    [-> Visit FAQ](faq-and-troubleshooting/removed-features.md)
+    [-> Install FAQ](install-faq/removed-features.md) | [-> General FAQ](general-faq/atlas-and-security.md)
 
--   :material-git:{ .lg .middle } __Contribution Guidelines__
+-   :material-handshake:{ .lg .middle } __Development__
 
     ---
 
     Learn how you can contribute to AtlasOS, and do so effectively.
 
-    [-> Contribution Guidelines](contributions.md)
+    [-> Contribution Guidelines](contributing/contribution-guidelines.md)
 
 </div>
 
