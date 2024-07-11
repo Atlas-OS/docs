@@ -7,7 +7,7 @@ icon: material/auto-fix
 
 Atlas includes scripts for troubleshooting and resolving specific problems with your installation.
 
-Each section here corresponds to a sub-folder in the `8. Troubleshooting` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
+Each section here corresponds to a sub-folder in the `8. Troubleshooting` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
 ## :material-network-outline: Network
 

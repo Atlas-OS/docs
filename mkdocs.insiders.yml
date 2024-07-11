@@ -71,7 +71,6 @@ plugins:
         'faq-and-troubleshooting/common-questions/atlas-and-security.md': 'general-faq/atlas-and-security.md'
         'faq-and-troubleshooting/common-questions/updating-atlas.md': 'general-faq/updating-atlas.md'
         'faq-and-troubleshooting/common-questions/atlas-folder-missing.md': 'general-faq/atlas-folder-missing.md'
-        'faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'general-faq/atlas-folder-scripts.md'
         'faq-and-troubleshooting/common-questions/windows-update-errors.md': 'general-faq/windows-update-errors.md'
         'faq-and-troubleshooting/common-questions/testing-nightly-builds.md': 'general-faq/testing-nightly-builds.md'
         'faq-and-troubleshooting/common-questions/acrobat-not-installing.md': 'general-faq/acrobat-not-installing.md'
@@ -81,6 +80,10 @@ plugins:
         'faq-and-troubleshooting/common-questions/microsoft-store.md': 'general-faq/microsoft-store.md'
         'faq-and-troubleshooting/common-questions/roblox-not-opening.md': 'general-faq/roblox-not-opening.md'
         'faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md': 'general-faq/fifa-and-eafc-not-launching.md'
+
+          # 'Troubleshooting' moved to Atlas Configuration
+        'faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
+        'general-faq/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset
