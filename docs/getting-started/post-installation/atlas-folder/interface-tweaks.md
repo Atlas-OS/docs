@@ -7,7 +7,7 @@ icon: material/hammer
 
 Atlas applies many interface tweaks to improve Windows' general usability, with customizability in many changes. For example, you could toggle Windows 11's modern context menu. Overall, we aim to enable you to pick and choose how you like your Windows.
 
-Each section here corresponds to a sub-folder in the `3. Interface Tweaks` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
+Each section here corresponds to a sub-folder in the `3. Interface Tweaks` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
 ## :material-keyboard-tab: Alt-Tab
 

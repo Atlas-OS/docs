@@ -9,13 +9,13 @@ icon: material/update
 
 ## :material-microsoft-windows: Windows 10 Error 0x80070643
 
-![A screenshot of Windows 10's 'Windows Update' page with the error 0x80070643](../../assets/images/win10-winre-update-error.png)
+![A screenshot of Windows 10's 'Windows Update' page with the error 0x80070643](../assets/images/win10-winre-update-error.png)
 
 This issue is on Microsoft's end with the update [KB5034441 for Windows 10](https://support.microsoft.com/en-gb/topic/kb5034441-windows-recovery-environment-update-for-windows-10-version-21h2-and-22h2-january-9-2024-62c04204-aaa5-4fee-a02a-2fdea17075a8). Try the two fixes listed below and retry updates:
 
 1. **Ensure that you have adequate free storage**
     
-    You should have at least 1GB of free storage on your Windows drive. If you have little free storage after reinstalling Windows, you likely haven't removed the backup of your previous Windows installation. See [Your old Windows installation](../../getting-started/installation.md#your-old-windows-installation) for more information.
+    You should have at least 1GB of free storage on your Windows drive. If you have little free storage after reinstalling Windows, you likely haven't removed the backup of your previous Windows installation. See [Your old Windows installation](../getting-started/installation.md#your-old-windows-installation) for more information.
 
 1. **Enable Windows Recovery**    
     1. Open **Command Prompt as Administrator**

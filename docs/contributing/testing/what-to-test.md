@@ -7,7 +7,7 @@ icon: material/test-tube
 
 This page covers what we recommend testing in an in-development build. See [the reporting issues page](reporting-issues.md) if you find any problems.
 
-If you haven't set up a virtual machine, see the [Playbook contributing page](../playbook.md) on how to do so. However, feel free to test it on real hardware, especially if it's a [release candidate](../../faq-and-troubleshooting/common-questions/testing-nightly-builds.md)!
+If you haven't set up a virtual machine, see the [Playbook contributing page](../playbook.md) on how to do so. However, feel free to test it on real hardware, especially if it's a [release candidate](../../general-faq/testing-nightly-builds.md)!
 
 !!! note "Ensure what you test works on stock Windows first"
     To reduce the amount of false reports, please verify that any issues encountered on Atlas do not happen in the same environment and configuration on unmodified Windows.

@@ -10,7 +10,7 @@ icon: material/sign-caution
     
     Any misinterpretation can result in compatibility issues and other problems. Therefore, it's essential to understand what you are doing and how to revert it. 
 
-Each section here corresponds to a sub-folder in the `6. Advanced Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md) if you can't find it.
+Each section here corresponds to a sub-folder in the `6. Advanced Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
 ## :material-hammer-screwdriver: Driver Configuration
 
