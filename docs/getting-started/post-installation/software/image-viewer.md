@@ -36,6 +36,6 @@ Microsoft Photos is an image viewer made by Microsoft and installed by default o
 
 [:fontawesome-brands-microsoft: Download Microsoft Photos ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJBH4)
 
-[:fontawesome-brands-microsoft: Download HVEC Video Extensions ->](ms-windows-store://pdp/?ProductId=9NMZLZ57R3T7)
+[:fontawesome-brands-microsoft: Download HEVC Video Extensions ->](ms-windows-store://pdp/?ProductId=9NMZLZ57R3T7)
 
 [:fontawesome-brands-microsoft: Download HEIF Image Extensions ->](ms-windows-store://pdp/?ProductId=9PMMSR1CGPWG)
