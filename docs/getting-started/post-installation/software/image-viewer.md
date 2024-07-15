@@ -30,7 +30,7 @@ Nomacs is a simple yet powerful open source image viewer used for the viewing an
 
 ## Microsoft Photos
 
-Microsoft Photos is an image viewer made by Microsoft and installed by default on AtlasOS. It has a modern UI and features integrations with OneDrive and iCloud. However, unlike the previosly listed options, it does not support all codecs by default so you may have to download additional codec extensions from the Microsft Store.
+Microsoft Photos is an image viewer made by Microsoft and installed by default on AtlasOS. It has a modern UI and features integrations with OneDrive and iCloud. However, unlike the previosly listed options, it does not support all codecs by default so you may have to download additional codec extensions from the Microsoft Store.
 
 `winget install -e --id 9WZDNCRFJBH4`
 
