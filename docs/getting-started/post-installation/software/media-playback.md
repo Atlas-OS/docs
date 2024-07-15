@@ -1,10 +1,10 @@
 ---
-title: Media software
-description: Recommended media software for AtlasOS
+title: Media Player
+description: Recommended Media Players for AtlasOS
 icon: simple/vlcmediaplayer
 ---
 
-# :simple-vlcmediaplayer: Media
+# :simple-vlcmediaplayer: Media Player
 
 ## VLC Media Player
 
@@ -12,7 +12,7 @@ VLC is one of the most well-known media players because it is simple and works w
 
 `winget install -e --id VideoLAN.VLC`
 
-[:simple-microsoftstore: Download VLC Media Player ->](ms-windows-store://pdp/?ProductId=XPDM1ZW6815MQM)
+[:fontawesome-brands-microsoft: Download VLC Media Player ->](ms-windows-store://pdp/?ProductId=XPDM1ZW6815MQM)
 
 ## mpv
 
@@ -26,7 +26,7 @@ For a more accessible experience, we suggest using mpv.net, a fork of mpv with a
 
 `winget install -e --id mpv.net`
 
-[:simple-microsoftstore: Download mpv.net ->](ms-windows-store://pdp/?ProductId=9N64SQZTB3LM)
+[:fontawesome-brands-microsoft: Download mpv.net ->](ms-windows-store://pdp/?ProductId=9N64SQZTB3LM)
 
 ## Windows Media Player
 
@@ -36,9 +36,9 @@ However, unlike mpv or VLC Media Player, it does not support all codecs. You may
 
 `winget install -e --id 9WZDNCRFJ3PT`
 
-[:simple-microsoftstore: Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
+[:fontawesome-brands-microsoft: Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 
-[:simple-microsoftstore: Download HEVC Codec ->](ms-windows-store://pdp/?ProductId=9N4WGH0Z6VHQ)
+[:fontawesome-brands-microsoft: Download HEVC Codec ->](ms-windows-store://pdp/?ProductId=9NMZLZ57R3T7)
 
 ## foobar2000
 
