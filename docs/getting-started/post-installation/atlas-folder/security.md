@@ -21,8 +21,8 @@ Each section here corresponds to a sub-folder in the `7. Security` directory loc
 === "Information"
 
 
-    !!! warning Core Isolation Page Missing
-        You must have Virtulization enabled to use Core Isolation features. If you can't find the Core Isolation page in Windows Security, you may need to enable Virtualization in your BIOS/UEFI settings.
+    !!! tip "Missing the page?"
+        If you can't find the core isolation page in Windows Security, you may need to enable virtualization in your BIOS/UEFI settings.
 
     [Core isolation](https://support.microsoft.com/en-us/windows/core-isolation-e30ed737-17d8-42f3-a2a9-87521df09b78) is a security feature of Windows that protects essential core processes of Windows from malicious software by isolating them in memory. It mostly does this by running those core processes in a virtualized environment.
     
