@@ -114,7 +114,7 @@ You can find your network driver online by searching for your device/motherboard
 
 === "No USB Drive (recommended)"
 
-    Your current Windows installation should be moved to a `Windows.old` folder after reinstalling. You can delete this after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
+    As a consequence of following this method, your current Windows installation should be automatically moved to a `Windows.old` folder after reinstalling. You can delete this folder after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
 
     1. Disconnect any cables providing internet to your computer, such as an ethernet cable. Do not reconnect it until instructed to do so
 
