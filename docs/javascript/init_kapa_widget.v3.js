@@ -18,7 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 const cssRules = Array.from(kapaStyle.sheet.cssRules).map(rule => rule.cssText).join('\n');
                 const node = document.body.appendChild(kapaStyle);
                 node.appendChild(document.createTextNode(cssRules));
-            }
+            };
+
+            // Don't translate AI widget
+            // It looks broken and spams requests. AI can already do other languages
+            document.querySelectorAll(".mantine-Modal-root, [id=kapa-widget-container]").forEach(a => a.classList.add("notranslate"));
         }, 150);
     };
 

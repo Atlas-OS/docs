@@ -168,7 +168,7 @@ theme:
 #
 extra_javascript:
   - javascript/msdl.v1.js
-  - javascript/init_kapa_widget.v2.js
+  - javascript/init_kapa_widget.v3.js
   - javascript/misc.v1.js
 
 
