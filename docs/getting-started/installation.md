@@ -86,11 +86,6 @@ See the alternatives below.
 :simple-github: **Downloader based upon:** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl)
 </center>
 
-<script>
-    var styleSheet = document.createElement("style")
-    styleSheet.innerText = '.noJs { display: revert !important }'
-    document.head.appendChild(styleSheet)
-</script>
 <!-- --8<-- [end:iso1] -->
 
 <!-- --8<-- [start:drivers] -->

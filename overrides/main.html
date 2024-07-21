@@ -1,1 +1,7 @@
 {% extends "base.html" %}
+
+<script>
+    var styleSheet = document.createElement("style")
+    styleSheet.innerText = '.noJs { visibility: unset !important }'
+    document.head.appendChild(styleSheet)
+</script>
