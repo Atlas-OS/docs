@@ -1,0 +1,26 @@
+<!--
+    Site language selector - https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/partials/alternate.html
+    Modified to use Google Translate
+-->
+
+<div class="md-header__option">
+    <div class="md-select">
+        <button
+            class="md-header__button md-icon"
+            aria-label="{{ lang.t('select.language') }}"
+        >
+            {% include ".icons/" ~ "material/google-translate" ~ ".svg" %}
+        </button>
+        <div class="md-select__inner" style="padding: 10px">
+            <div id="google_translate_element"></div>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                }
+            </script>
+            
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>        
+        </div>
+    </div>
+</div>
