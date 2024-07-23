@@ -41,7 +41,8 @@ nav:
           # discord_friendly_name: 'software'
         - Anti Virus: getting-started/post-installation/software/anti-virus.md
         - Web Browsers: getting-started/post-installation/software/web-browsers.md
-        - Media: getting-started/post-installation/software/media-playback.md
+        - Media Player: getting-started/post-installation/software/media-playback.md
+        - Image Viewer: getting-started/post-installation/software/image-viewer.md
         - Screenshotting: getting-started/post-installation/software/screenshotting.md
         - System Info: getting-started/post-installation/software/system-info.md
         - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
@@ -168,6 +169,7 @@ theme:
 extra_javascript:
   - javascript/msdl.v1.js
   - javascript/init_kapa_widget.v2.js
+  - javascript/misc.v1.js
 
 
 extra_css:

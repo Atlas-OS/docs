@@ -20,3 +20,6 @@ You can now make all your changes and view them live!
 
 ## Credits
 - [Hummingbot documentation](https://github.com/hummingbot/hummingbot) for many aspects of the documentation theming, such as the blurred header
+
+## 💙 Contributors
+<a href="https://github.com/Atlas-OS/docs/graphs/contributors" target="_blank"><img src="https://contrib.rocks/image?repo=Atlas-OS/docs&columns=18" alt="Avatars of all contributors"></a>

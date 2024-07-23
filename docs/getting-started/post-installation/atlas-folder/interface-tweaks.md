@@ -52,6 +52,12 @@ By default, Atlas restores the legacy context menu on Windows 11, which has more
 
 ## :material-folder-cog: File Explorer Customization
 
+### App Icons on Thumbnails
+
+By default, Atlas displays the default app for certain files in the corner of the thumbnail. A common example would be a video thumbnail showing the associated media player in the bottom right.
+
+To disable this, run `Disable App Icons on Thumbnails.reg`, go up a directory and use the 'Restart Explorer' shortcut.
+
 ### Automatic Folder Discovery
 
 On default Windows, File Explorer determines the type of folder based on its content and applies a respective template. For example, a folder containing primarily videos will get the "Icons" view type.

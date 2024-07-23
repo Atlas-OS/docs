@@ -20,6 +20,10 @@ Each section here corresponds to a sub-folder in the `7. Security` directory loc
 
 === "Information"
 
+
+    !!! tip "Missing the page?"
+        If you can't find the core isolation page in Windows Security, you may need to enable virtualization in your BIOS/UEFI settings.
+
     [Core isolation](https://support.microsoft.com/en-us/windows/core-isolation-e30ed737-17d8-42f3-a2a9-87521df09b78) is a security feature of Windows that protects essential core processes of Windows from malicious software by isolating them in memory. It mostly does this by running those core processes in a virtualized environment.
     
     For Windows 11 users on supported hardware, core isolation features are enabled by default. Although effective, it comes at a **significant performance cost**. We generally recommend disabling core isolation features as the [performance hit](https://www.tomshardware.com/news/windows-11-gaming-benchmarks-performance-vbs-hvci-security) outweighs the security benefits for many users. However, remember that core isolation might not affect some applications and games more than others.
