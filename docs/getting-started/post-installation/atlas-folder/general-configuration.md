@@ -117,11 +117,11 @@ Although the initial setup prompts if you want to disable power-saving, you can 
 
 !!! info "Windows 11-only"
 
-Atlas includes a script that uses TimerResolution utility to increase the precision of Windows' timer, which benefits applications requiring consistent pacing or [sleeping](https://en.wikipedia.org/wiki/Sleep_(system_call)), such as framerate limiters in some games.
+Atlas includes a script that uses [@valleyofdoom's TimerResolution utility](https://github.com/valleyofdoom/TimerResolution) to increase the precision of Windows' timer, which benefits applications requiring consistent pacing or [sleeping](https://en.wikipedia.org/wiki/Sleep_(system_call)), such as framerate limiters in some games.
 
 However, this is at the cost of increased power consumption and is not always beneficial for all applications, so we recommend you do testing.
 
-Run the `Enable timer resolution.cmd` script to enable this high precision, and use the `! MeasureSleep.exe` utility to track it.
+Run the `Enable timer resolution.cmd` script to enable this high precision, and use the `! MeasureSleep.exe` utility to track it. See [@valleyofdoom's TimerResolution repository](https://github.com/valleyofdoom/TimerResolution#timerresolution) for more information.
 
 ## :material-printer: Printing
 
