@@ -204,9 +204,6 @@ extra:
     - icon: material/earth
       link: https://atlasos.net
       name: AtlasOS Website
-    - icon: material/forum
-      link: https://forum.atlasos.net
-      name: AtlasOS Forums
     - icon: fontawesome/brands/discord
       link: https://discord.atlasos.net
       name: AtlasOS on Discord
