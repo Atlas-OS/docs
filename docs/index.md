@@ -43,9 +43,12 @@ icon: material/home
 
 ## :material-head-question-outline: What is AtlasOS?
 
-Atlas is an open-source, transparent project that modifies Windows to eliminate drawbacks that negatively impact gaming performance.
+Atlas, or AtlasOS, is an open-source project that enhances Windows by eliminating factors negatively impacting gaming.
 
-Atlas is an ideal choice for reducing system latency, network latency, and input lag, while maintaining system privacy and prioritizing performance.
+Optimizations include enhanced privacy, usability, performance, and changes for minimal stutters and input lag while focusing on maintaining functionality.
 
-!!! info ""
-    If you are interested in learning more about Atlas and how it works, please visit our [website](https://atlasos.net/), explore our [GitHub repository](https://github.com/Atlas-OS/Atlas), or join our [Discord server](https://discord.atlasos.net/) to connect with the Atlas community and get support.
+!!! tip "Want to know more?"
+
+    - [Our GitHub repository README](https://github.com/Atlas-OS/Atlas) for more in-depth overviews
+    - [Our Discord server](https://discord.atlasos.net/) to connect with the Atlas community and get support
+    - [The Atlas Website](https://atlasos.net/) for a general overview of Atlas
