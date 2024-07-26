@@ -40,6 +40,9 @@ installation.md:iso1
 installation.md:drivers
 installation.md:reinstalling
 installation.md:reinstalling1
+installation.md:reinstalling2
+            installation.md:windowsOldNotice
+installation.md:reinstalling3
 --8<--
 
 ## :material-desktop-classic: Continue with setup
