@@ -227,6 +227,13 @@ plugins:
 
 
 #
+# Folders to refresh on
+#
+watch:
+  - includes
+
+
+#
 # Python Markdown
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions
@@ -259,7 +266,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
-      base_path: ['./docs/getting-started/']
+      base_path: ['./docs/getting-started/', '.']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:

@@ -19,6 +19,6 @@
 *[AME Wizard]: A tool that is used to run modification packages (Playbooks) for Windows
 *[OEM]: Original Equipment Manufacturer
 *[OS]: Operating System
-*[Windows drive]: Commonly referred to as the C drive
+*[Windows drive]: The drive Windows is installed to, mostly known as the "C drive"
 *[EULA]: End-user license agreement
 *[ISO file]: A virtual copy of everything on a DVD, such as the Windows Setup
