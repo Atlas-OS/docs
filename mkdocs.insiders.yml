@@ -65,7 +65,7 @@ plugins:
         'faq-and-troubleshooting/ame-wizard-errors/build-not-supported.md': 'install-faq/ame-wizard-errors/build-not-supported.md'
         'faq-and-troubleshooting/ame-wizard-errors/cant-disable-defender.md': 'install-faq/ame-wizard-errors/cant-disable-defender.md'
         'faq-and-troubleshooting/common-questions/decryptying-using-bitlocker.md': 'install-faq/decrypting-using-bitlocker.md'
-        'faq-and-troubleshooting/common-questions/windows-editions.md': 'install-faq/windows-editions.md'
+        'faq-and-troubleshooting/common-questions/windows-editions.md': 'install-faq/windows-version-support.md'
         'faq-and-troubleshooting/common-questions/atlas-iso-files.md': 'install-faq/atlas-iso-files.md'
         'faq-and-troubleshooting/common-questions/atlas-and-security.md': 'general-faq/atlas-and-security.md'
         'faq-and-troubleshooting/common-questions/updating-atlas.md': 'general-faq/updating-atlas.md'
@@ -80,6 +80,9 @@ plugins:
         'faq-and-troubleshooting/common-questions/microsoft-store.md': 'general-faq/microsoft-store.md'
         'faq-and-troubleshooting/common-questions/roblox-not-opening.md': 'general-faq/roblox-not-opening.md'
         'faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md': 'general-faq/fifa-and-eafc-not-launching.md'
+
+          # Seperating 'Windows Editions' into 'Supported Windows Versions' & 'Windows Home isn't Supported'
+        'install-faq/windows-editions.md': 'install-faq/windows-version-support.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   - typeset

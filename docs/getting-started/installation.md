@@ -130,7 +130,7 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Choose your edition of Windows
     <!-- --8<-- [end:reinstalling] -->
-        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [supported Windows versions](../install-faq/windows-version-support.md#which-windows-editions) for more information
     <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
@@ -193,7 +193,7 @@ You can find your network driver online by searching for your device/motherboard
 
     1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
     <!-- --8<-- [end:reinstalling1] -->
-        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
+        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [supported Windows versions](../install-faq/windows-version-support.md#which-windows-editions) for more information
 
 
 ### :material-cog: Initial setup (OOBE)
