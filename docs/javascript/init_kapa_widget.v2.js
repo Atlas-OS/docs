@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("data-modal-example-questions-col-span", "12")
     script.async = true;
 
-    script.onload = () => {[:material-github: GitHub Discussions]()
+    script.onload = () => {
         const kapaLoadedCheck = setInterval(() => {
             const kapaStyle = document.head.querySelector('style[data-emotion="mantine"]');
             if (kapaStyle && kapaStyle.sheet) {
