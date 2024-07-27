@@ -206,7 +206,7 @@ We **strongly** recommend you back up any valuable data to an external drive or 
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
-    1. At the 'Where do you want to install Windows?' screen, do one of the following:
+    1. At the 'Where do you want to install Windows?' screen, choose one of the following:
 
         === "Keeping data (recommended)"
             !!! note "Previous Windows data"
