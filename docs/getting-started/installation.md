@@ -48,7 +48,7 @@ See the alternatives below.
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
-        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
+        1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
         1. Click the **Accept** button to agree to the Microsoft license terms
         1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
             - **Language:** Your desired language
@@ -90,7 +90,7 @@ See the alternatives below.
 
 By default, Windows may not have your computer's network drivers, meaning after reinstalling, your computer could have no internet connection.
 
-For this reason, we **strongly** recommend that you do one of the below:
+For this reason, we **strongly** recommend that you do one of the following:
 
 - Download your network drivers beforehand and store them on external storage
 - Have the ability to download and transfer network drivers from another device later
@@ -134,7 +134,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     <!-- --8<-- [end:reinstalling] -->
     <!-- --8<-- [start:atlasEditions] -->
         - [Windows Pro](../install-faq/windows-version-support.md) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
-        - If you don't get an option to choose an edition, you can always upgrade later by changing your Windows product key, without any requirement to re-apply Atlas
+        - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall Atlas
     <!-- --8<-- [end:atlasEditions] -->
     <!-- --8<-- [start:reinstalling1] -->
 
@@ -214,7 +214,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
             --8<-- "installation.md:windowsOldNotice"
             <!-- --8<-- [start:reinstalling3] -->
 
-            - Identify the partition you want to install Windows to by looking at the total sizes, then select it
+            - Identify the disk partition you want to install Windows to by looking at the total sizes, then select it
             - Click **Next**, then click **OK** to the warning about `Windows.old`
 
         === "Deleting data on one drive"
@@ -223,14 +223,14 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
             - Identify the drive number you want to install Windows to
                 - You can identify your drives by their total sizes
-            - One by one, carefully delete **your drive number's** partitions
+            - One by one, carefully delete **your drive number's** disk partitions
             - Select the unallocated space of your drive number
             - Click **Next**
 
         === "Deleting data on all drives"
             !!! danger "This permanently deletes data on all drives!"
 
-            - One by one, delete each partition in the window
+            - One by one, delete each disk partition in the window
             - Select the unallocated space of the drive you want to install Windows to
                 - You can identify your drives by their total sizes
             - Click **Next**
@@ -247,7 +247,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
         1. Once the setup starts, select your language and then your keyboard layout
         1. Press ++shift+f10++ to open Command Prompt
         1. Type in `oobe\bypassnro`, press ++enter++, and wait for your computer to restart
-            - This step is unnecessary when using Ventoy
+            - This step is not necessary if you are using Ventoy
         1. Continue through with setup, but:
             - Do not connect to the internet
             - Deny each option in the **Privacy** section
@@ -277,7 +277,7 @@ On Atlas, there are two options for external drivers:
 | :material-update: Installation & Updates from Windows Update | :material-download: Manual Installation & Updates |
 | --------------------------------------- | ------------------------------------ |
 | :material-check-all: Easiest if you don't know how to get drivers | :material-check-all: Potentially less system resource usage |
-| :material-check: Best compatibility, especially with OEM apps | :material-check-all: Less potential bloat/annoyances |
+| :material-check: Best compatibility, especially with OEM apps | :material-check-all: Less potentially unwanted applications |
 | :material-check-all: Latest security & feature updates automatically | :material-check: Full control over your driver versions |
 | :material-check: Almost never having to manually get drivers | :material-alert-circle-outline: You will likely need to get drivers for new devices |
 
