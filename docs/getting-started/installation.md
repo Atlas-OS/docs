@@ -107,7 +107,7 @@ We **strongly** recommend you back up any valuable data to an external drive or 
 === ":material-microsoft: No USB Drive (recommended)"
 
     <!-- --8<-- [start:windowsOldNotice] -->
-    **Presuming you have enough storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can delete this folder afterward, which this guide [covers later](#your-old-windows-installation).
+    **Presuming you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can delete this folder afterward, which this guide [covers later](#your-old-windows-installation).
     <!-- --8<-- [end:windowsOldNotice] -->
 
     This method only works if you're already on Windows.
