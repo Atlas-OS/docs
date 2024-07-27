@@ -1,5 +1,5 @@
 ---
-description: How do I fix AME Wizard "Requirements not met" when installing AtlasOS?
+description: How do I fix AME Wizard 'Requirements not met' when installing AtlasOS?
 icon: material/microsoft-windows-classic
 ---
 
