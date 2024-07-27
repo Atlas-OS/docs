@@ -9,7 +9,7 @@ icon: material/list-status
 
 ---
 
-Atlas supports the latest, [non-beta/non-Insider](https://en.wikipedia.org/wiki/Windows_Insider) versions of Windows 10 and 11.
+Atlas only supports the latest, [non-beta/non-Insider](https://en.wikipedia.org/wiki/Windows_Insider) versions of Windows 10 and 11. Insider isn't supported for stability and privacy, as it usually has bugs we can't account for, and it requires sending extra diagnostic data to Microsoft.
 
 We *strongly recommend* following our [installation guide](../getting-started/installation.md) for installing a supported version, as the initial Atlas install requires a Windows reinstallation regardless.
 
