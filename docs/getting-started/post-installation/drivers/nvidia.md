@@ -30,6 +30,8 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
 
 ## :material-cog: Configure NVIDIA Control Panel
 
+This section was partly based on [valleyofdoom's documentation](https://github.com/valleyofdoom/PC-Tuning/blob/main/docs/configure-nvidia.md).
+
 - Open the NVIDIA Control Panel by right-clicking on the desktop.
 - Navigate to ``3D Settings -> Adjust image settings with preview``
     - Select **Use the advanced 3D image settings** and hit **Take me there**

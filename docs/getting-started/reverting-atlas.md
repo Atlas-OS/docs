@@ -19,7 +19,7 @@ If you're experiencing issues, ensure you're on the [latest version of Atlas](in
     :material-robot: 'Ask AI' in the corner of this page
   </a>
 - [:simple-discord: Our Discord server](https://discord.atlasos.net)
-- [:material-forum: The Atlas forums](https://forum.atlasos.net)
+- [:material-github: Atlas' GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
 
 ### If you're still having problems...
 
@@ -40,6 +40,9 @@ installation.md:iso1
 installation.md:drivers
 installation.md:reinstalling
 installation.md:reinstalling1
+installation.md:reinstalling2
+            installation.md:windowsOldNotice
+installation.md:reinstalling3
 --8<--
 
 ## :material-desktop-classic: Continue with setup

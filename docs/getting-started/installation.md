@@ -8,13 +8,13 @@ icon: material/cogs
 
 This guide will walk you through fully reinstalling Windows, installing Atlas on top of it, and completing other necessary steps. A full Windows reinstall is needed to ensure stability during the initial installation of Atlas.
 
-Before continuing, we recommend reviewing our page on [who Atlas is for](../install-faq/who-is-atlas-for.md).
+Before continuing, we recommend reviewing our page to see [who Atlas is for](../install-faq/who-is-atlas-for.md).
 
 <!-- --8<-- [start:prerequisites] -->
 ## :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
-    - We don't recommend bypassing Windows 11's requirements due to potential incompatibilities with updates and anticheats
+    - We don't recommend bypassing Windows 11's requirements due to potential problems with updates and game anti-cheats
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
     <!-- --8<-- [end:prerequisites] -->
     - If you have an ARM-based CPU, you can only use Atlas with Windows 11
@@ -38,26 +38,23 @@ See the alternatives below.
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
 <!--
-    This is based upon the Microsoft Software Download Listing website by gravesoft on GitHub.
--->
-<!--
-    The JavaScript file that is used with this is licensed under GNU Affero General Public License v3.0,
-    per the original project. https://github.com/gravesoft/msdl/blob/main/LICENSE
--->
-<!--
-    See the JavaScript: https://raw.githubusercontent.com/Atlas-OS/docs/master/docs/javascripts/msdl.js
+    The ISO downloader JavaScript is rewritten from the MSDL website by Gravesoft on GitHub.
+    Major credit to them and MSDL's various contributors! :)
+
+    GNU Affero General Public License v3.0 is the license for the MSDL JavaScript included here on the
+    Atlas docs, as per the original project: https://github.com/gravesoft/msdl/blob/main/LICENSE
 -->
 
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
-        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
         1. Click the **Accept** button to agree to the Microsoft license terms
         1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
-            - **Language:** Desired language
+            - **Language:** Your desired language
             - **Edition:** Windows 10 or 11
             - **Architecture (Windows 10 only):** 64-bit (x64)
-        1. Select the **ISO file** option and choose the download location
+        1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
 <center class="noJs centerMsdl">
@@ -83,7 +80,7 @@ See the alternatives below.
 
 <input id="msdl-session-id" type="hidden">
 
-:simple-github: **Downloader based upon:** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl)
+:simple-github: **Credit to the** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl) **project**
 </center>
 
 <!-- --8<-- [end:iso1] -->
@@ -91,64 +88,71 @@ See the alternatives below.
 <!-- --8<-- [start:drivers] -->
 ## :material-ethernet: Network Drivers
 
-By default, Windows may not have your computer's network drivers, meaning your computer would be left without a network connection.
+By default, Windows may not have your computer's network drivers, meaning after reinstalling, your computer could have no internet connection.
 
-For this reason, we **strongly** recommend that you either:
+For this reason, we **strongly** recommend that you do one of the below:
 
 - Download your network drivers beforehand and store them on external storage
 - Have the ability to download and transfer network drivers from another device later
 
-You can find your network driver online by searching for your device/motherboard's official support page or your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available on your device, download all of them.
+!!! question "Where do I get my network drivers?"
+    You can find your computer's network drivers online by searching for your device or motherboard's official support page. If you can't find it, try searching online for your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available, download them all.
 <!-- --8<-- [end:drivers] -->
 
 <!-- --8<-- [start:reinstalling] -->
 ## :material-microsoft-windows: Reinstalling Windows
 
-!!! question "Which method should I pick?"
-    Using a USB drive or not will practically have the same result. We recommend reinstalling Windows using the [**"No USB Drive"**](#__tabbed_2_1) method, although this does not work if you're not on Windows.
+Before continuing, we **strongly** recommend you back up any valuable data to an external drive or [a cloud service](https://mega.io/).
 
-=== "No USB Drive (recommended)"
+=== ":material-microsoft: No USB Drive (recommended)"
 
-    As a consequence of following this method, your current Windows installation should be automatically moved to a `Windows.old` folder after reinstalling. You can delete this folder after reinstalling Windows, which will be covered later. However, you should still externally backup files before proceeding.
+    <!-- --8<-- [start:windowsOldNotice] -->
+    **Presuming you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can delete this folder afterward, which this guide [covers later](#your-old-windows-installation).
+    <!-- --8<-- [end:windowsOldNotice] -->
 
-    1. Disconnect any cables providing internet to your computer, such as an ethernet cable. Do not reconnect it until instructed to do so
+    This method only works if you're already on Windows.
 
-    1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer** to mount it
+    1. Disconnect any cables providing internet to your computer, such as an ethernet cable. Do not reconnect any until instructed to do so
 
-    1. Open **This PC**, and note down the mounted ISO's drive letter (e.g. `H:`) for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
+    1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer**
+
+    1. Open **This PC** in File Explorer, and remember the ISO's drive letter (e.g. `H`) for the next step. The drive should look similar to ![Windows Setup icon](../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
 
     1. Press ++win+r++ to open the Run dialog
 
-    1. Type in your noted-down drive letter, including the colon, and then **without a space**, type `\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
+    1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, and then attempt this again
+        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, and then attempt this step again
 
-    1. Select **No thanks** when prompted for updates and uncheck the box for **I want to help make the Windows installation better**
+    1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
-    1. Click **I don't have a product key**, as Windows will activate automatically later, presuming that Windows is legitimately activated beforehand
+    1. If prompted, click **I don't have a product key**, as Windows should auto-activate later
+        - If Windows doesn't auto-activate, you can enter a key later within Windows
 
     1. Choose your edition of Windows
     <!-- --8<-- [end:reinstalling] -->
-        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
+    <!-- --8<-- [start:atlasEditions] -->
+        - [Windows Pro](../install-faq/windows-version-support.md) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
+        - If you don't get an option to choose an edition, you can always upgrade later by changing your Windows product key, without any requirement to re-apply Atlas
+    <!-- --8<-- [end:atlasEditions] -->
     <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
-    1. Select your Windows drive, click next, click **OK** to the warning about `Windows.old`, and let the installation finish
+    1. Select your Windows drive, click **Next**, click **OK** to the warning about `Windows.old`, and let the installation finish
 
-=== "USB Drive"
+=== ":material-usb-flash-drive: USB Drive"
 
-    !!! danger "Data loss"
-        Following this guide will destroy all data on the USB drive, as well as data on your drives. Remember to use a USB drive with a higher capacity than the Windows ISO file size.
+    This method works on Linux and Windows.
 
-    **This guide presumes you have some experience installing operating systems. If you get stuck and it's possible to use the ["No USB Drive"](#__tabbed_2_1) method, we recommend that instead.**
-
-    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable. Alternatively, get it using a package manager.
+    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable.        
+        - Linux users can get it using a package manager
 
     1. Inside the Ventoy folder, run **Ventoy2Disk**
 
     1. In the opened window, select your USB drive and click **Install**
+        - This will destroy all data on the USB drive!
 
     1. Copy your downloaded ISO file into the USB drive (labeled Ventoy)
 
@@ -191,23 +195,61 @@ You can find your network driver online by searching for your device/motherboard
 
     1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
-    1. Follow [Microsoft's guide](https://support.microsoft.com/en-us/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7#ID0EDBBBBBBBDBD) for a clean installation from step 4 (clicking **Install now**)
-    <!-- --8<-- [end:reinstalling1] -->
-        - For Atlas, we strongly recommend and officially support Windows Pro, with **Windows Home not being officially supported.** See our page on [Windows Editions](../install-faq/windows-editions.md) for more information
+    1. At the 'Windows Setup' box, select your preferred language preferences, click **Next**, then click **Install Now**
 
+    1. If prompted, click **I don't have a product key**, as Windows will activate automatically later (as long as you have previously activated Windows legitimately)
+
+    1. Choose your Windows edition
+    <!-- --8<-- [end:reinstalling1] -->
+--8<-- "installation.md:atlasEditions"
+    <!-- --8<-- [start:reinstalling2] -->
+
+    1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
+
+    1. At the 'Where do you want to install Windows?' screen, choose one of the following:
+
+        === "Keeping data (recommended)"
+            !!! note "Previous Windows data"
+                <!-- --8<-- [end:reinstalling2] -->
+            --8<-- "installation.md:windowsOldNotice"
+            <!-- --8<-- [start:reinstalling3] -->
+
+            - Identify the partition you want to install Windows to by looking at the total sizes, then select it
+            - Click **Next**, then click **OK** to the warning about `Windows.old`
+
+        === "Deleting data on one drive"
+            !!! danger "This permanently deletes data!"
+                Make sure to follow the instructions carefully.
+
+            - Identify the drive number you want to install Windows to
+                - You can identify your drives by their total sizes
+            - One by one, carefully delete **your drive number's** partitions
+            - Select the unallocated space of your drive number
+            - Click **Next**
+
+        === "Deleting data on all drives"
+            !!! danger "This permanently deletes data on all drives!"
+
+            - One by one, delete each partition in the window
+            - Select the unallocated space of the drive you want to install Windows to
+                - You can identify your drives by their total sizes
+            - Click **Next**
+    
+    1. Wait for Windows to install
+<!-- --8<-- [end:reinstalling3] -->
 
 ### :material-cog: Initial setup (OOBE)
 
-After completing this step, you should be on your desktop without an internet connection.
+You can either watch the video or use the 'Written Instructions' for this section.
 
 === "Windows 11"
     ??? info "Written Instructions"
-        1. Once the setup starts, select your language and then your keyboard layout.
-        1. Press ++shift+f10++ to open the Command Prompt.
-        1. Type in `oobe\bypassnro` and press ++enter++. Your computer will restart.
-            - This step is not needed when using Ventoy
-        1. Continue through with setup as normal, but make sure to:
-            - Not connect to the internet
+        1. Once the setup starts, select your language and then your keyboard layout
+        1. Press ++shift+f10++ to open Command Prompt
+        1. Type in `oobe\bypassnro`, press ++enter++, and wait for your computer to restart
+            - This step is unnecessary when using Ventoy
+        1. Continue through with setup, but:
+            - Do not connect to the internet
             - Deny each option in the **Privacy** section
 
     <center>
@@ -221,7 +263,7 @@ After completing this step, you should be on your desktop without an internet co
         - Click **I don't have internet** when prompted to connect to the internet
         - Click **Continue with limited setup** or **Domain join** after the 'Internet' page
         - Deny each option in the **Privacy** section
-        - Don't accept Cortana
+        - Deny Cortana
 
     <center>
         <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
@@ -229,8 +271,8 @@ After completing this step, you should be on your desktop without an internet co
 
 ## :material-screwdriver: Driver Updates
 
-Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows comes with basic drivers pre-installed, some devices, such as Bluetooth devices, printers, or speakers, likely require additional drivers to function correctly.
-On Atlas, there are two options for driver installation:
+Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices may need external drivers to function correctly.
+On Atlas, there are two options for external drivers:
 
 | :material-update: Installation & Updates from Windows Update | :material-download: Manual Installation & Updates |
 | --------------------------------------- | ------------------------------------ |
@@ -253,7 +295,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
     1. Open **Settings** -> **Windows Update**
 
-    1. Temporarily **Pause Updates** for at least 1 week
+    1. Temporarily **Pause Updates** for at least one week
 
     1. Connect your device to the internet
     
@@ -262,10 +304,9 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 ## :material-wrench-cog-outline: Installing AtlasOS
 
 ??? danger "AME Wizard suddenly closing or being deleted?"
-    Add AME Wizard as an exclusion or disable **Real-time protection** in the Windows Security settings. This is usually necessary when a new version of AME Wizard is released, which has not been used much yet.
+    Especially when a new version of AME Wizard is released, you might need to add AME Wizard as an exclusion or turn off **Real-time protection** in Windows Security. 
 
     To read more about this, view our [**AME Wizard Deleted**](../install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
-
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
 
@@ -273,12 +314,13 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
 
-1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, un-pause Windows Updates to follow this step
+1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, click **Resume Updates** to follow this step
     - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../general-faq/windows-update-errors.md#windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
 
-1. Open the **Microsoft Store** and update all apps that have pending updates
+1. Open the **Microsoft Store** and update all apps
+    - There might be a prompt to update the Microsoft Store first
 
-1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
+1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more available updates
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
     1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../install-faq/ame-wizard-errors/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
@@ -286,12 +328,14 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder into AME Wizard
 
-1. Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
+1. Follow the on-screen instructions from AME Wizard to install the Atlas Playbook
 
 <!-- --8<-- [start:oldinstall] -->
 ### :material-microsoft-windows-classic: Your old Windows installation
 
-If you reinstalled Windows using the no-USB method, your previous Windows installation should be in `Windows.old`. When you're sure that you've retrieved any valuable data from it, follow these steps:
+If you previously followed steps that mentioned a `Windows.old` folder, you can find your previous Windows data at the start of your Windows drive in `Windows.old`. 
+
+When you're sure that you've retrieved any valuable data from it, follow these steps:
 
 1. Open **Windows Settings** -> **System** -> **Storage**
 1. Click **Temporary files**, and wait for it to scan your files
@@ -300,11 +344,11 @@ If you reinstalled Windows using the no-USB method, your previous Windows instal
 
 ## :material-package-variant-closed-plus: Getting your drivers
 
-You're almost finished with setting up Atlas. Before you start setting up software, follow the option you chose earlier to get your drivers:
+You've almost finished setting up Atlas!
 
-- **Manual Driver Installation:** If this is you, we recommend seeing [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up the needed drivers.
+- **Manual Driver Installation:** If you previously chose this, we recommend seeing [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up the needed drivers.
 
-- **Driver Installation & Updates from Windows Update:** If this is you, get drivers by manually checking for Windows Updates. To get them automatically, enable [automatic Windows Updates](../getting-started/post-installation/atlas-folder/general-configuration.md#automatic-updates).
+- **Driver Installation & Updates from Windows Update:** If you previously chose this, get drivers by manually checking for Windows Updates. To get them automatically, enable [automatic Windows Updates](../getting-started/post-installation/atlas-folder/general-configuration.md#automatic-updates).
 
 ## :material-flag-checkered: All done!
 
@@ -312,7 +356,7 @@ If you need any help, you can find links below to a large community of individua
 
 We hope you enjoy using AtlasOS! :smile:
 
-- [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-forum: Forums](https://forum.atlasos.net)
+- [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
 - [:material-chat-question: FAQ & Troubleshooting](../install-faq/removed-features.md)
 - [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
 

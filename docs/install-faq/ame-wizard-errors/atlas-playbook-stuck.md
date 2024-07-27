@@ -36,6 +36,6 @@ However, please remember that these actions are responsible for specific functio
 
 ### Reporting the issue or asking for help
 
-Consider asking for help on the [Discord server](https://discord.atlasos.net/) or [forums](https://forum.atlasos.net/), and if there's no solution there, consider opening a [GitHub Issue](https://github.com/atlas-os/atlas/issues) to help us fix your problem.
+Consider asking for help on the [Discord server](https://discord.atlasos.net/) or [GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions), and if there's no solution, consider opening a [GitHub Issue](https://github.com/atlas-os/atlas/issues) to help us fix your problem.
 
 Make sure to include your `Output.txt` log.

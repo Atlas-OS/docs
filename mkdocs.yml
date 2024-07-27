@@ -61,8 +61,9 @@ nav:
     - What's removed?: install-faq/removed-features.md
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: install-faq/who-is-atlas-for.md
+    - Supported Windows Versions: install-faq/windows-version-support.md
+    - Windows Home isn't Supported: install-faq/windows-home.md
     - Atlas ISO files: install-faq/atlas-iso-files.md
-    - Windows Editions: install-faq/windows-editions.md
     - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
     - Reverting Atlas: getting-started/reverting-atlas.md
       # discord_friendly_name: ['revert', 'uninstall-atlas']
@@ -204,9 +205,6 @@ extra:
     - icon: material/earth
       link: https://atlasos.net
       name: AtlasOS Website
-    - icon: material/forum
-      link: https://forum.atlasos.net
-      name: AtlasOS Forums
     - icon: fontawesome/brands/discord
       link: https://discord.atlasos.net
       name: AtlasOS on Discord
@@ -226,6 +224,13 @@ plugins:
   - search:
       lang: en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+
+#
+# Folders to refresh on
+#
+watch:
+  - includes
 
 
 #
@@ -261,7 +266,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
-      base_path: ['./docs/getting-started/']
+      base_path: ['./docs/getting-started/', '.']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:
