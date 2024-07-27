@@ -210,7 +210,7 @@ We **strongly** recommend you back up any valuable data to an external drive or 
 
         === "Keeping data (recommended)"
             !!! note "Previous Windows data"
-            <!-- --8<-- [end:reinstalling2] -->
+                <!-- --8<-- [end:reinstalling2] -->
             --8<-- "installation.md:windowsOldNotice"
             <!-- --8<-- [start:reinstalling3] -->
 
