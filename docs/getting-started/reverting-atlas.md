@@ -34,7 +34,7 @@ Alternatively, give feedback in our forums or Discord, as mentioned earlier.
     Follow the [Atlas installation guide](installation.md) instead. This page is for reverting Atlas.
 
 --8<--
-installation.md:prerequisites
+installation.md:style
 installation.md:iso
 installation.md:iso1
 installation.md:drivers
@@ -45,8 +45,9 @@ installation.md:reinstalling2
 installation.md:reinstalling3
 --8<--
 
-## :material-desktop-classic: Continue with setup
+## **4.** :material-desktop-classic: Continue with setup
 
 You should now be at the regular Windows initial setup and back on stock Windows.
 
+### **4.1.** :material-microsoft-windows-classic: Your old Windows installation
 --8<-- "installation.md:oldinstall"
