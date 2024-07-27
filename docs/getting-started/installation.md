@@ -48,13 +48,13 @@ See the alternatives below.
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
-        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool and open it
+        1. Download the [Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
         1. Click the **Accept** button to agree to the Microsoft license terms
         1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
-            - **Language:** Desired language
+            - **Language:** Your desired language
             - **Edition:** Windows 10 or 11
             - **Architecture (Windows 10 only):** 64-bit (x64)
-        1. Select the **ISO file** option and choose the download location
+        1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
 <center class="noJs centerMsdl">
@@ -102,7 +102,7 @@ For this reason, we **strongly** recommend that you do one of the below:
 <!-- --8<-- [start:reinstalling] -->
 ## :material-microsoft-windows: Reinstalling Windows
 
-We **strongly** recommend you back up any valuable data to an external drive or [a cloud service](https://mega.io/) before continuing.
+Before continuing, we **strongly** recommend you back up any valuable data to an external drive or [a cloud service](https://mega.io/).
 
 === ":material-microsoft: No USB Drive (recommended)"
 
@@ -344,7 +344,7 @@ When you're sure that you've retrieved any valuable data from it, follow these s
 
 ## :material-package-variant-closed-plus: Getting your drivers
 
-You're almost finished with setting up Atlas.
+You've almost finished setting up Atlas!
 
 - **Manual Driver Installation:** If you previously chose this, we recommend seeing [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up the needed drivers.
 
