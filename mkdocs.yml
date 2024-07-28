@@ -170,7 +170,7 @@ theme:
 extra_javascript:
   - javascript/msdl.v1.js
   - javascript/init_kapa_widget.v2.js
-  - javascript/misc.v1.js
+  - javascript/misc.v2.js
 
 
 extra_css:
@@ -265,8 +265,8 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#snippets
   - pymdownx.snippets:
       auto_append:
-        - includes/abbreviations.md
-      base_path: ['./docs/getting-started/', '.']
+        - abbreviations.md
+      base_path: ['./docs/getting-started/', 'includes']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:
