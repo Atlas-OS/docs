@@ -96,7 +96,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, and then attempt this step again
+        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, then retry from step 5 onwards
 
     1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
