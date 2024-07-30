@@ -1,3 +1,9 @@
+# ATLAS
+<!-- --8<-- [start:atlasVer] -->
+0.4.0
+<!-- --8<-- [end:atlasVer] -->
+
+
 # MSDL
 <!-- --8<-- [start:win11] -->
 23H2
