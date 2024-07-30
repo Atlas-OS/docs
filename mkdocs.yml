@@ -183,7 +183,6 @@ extra:
   generator: false
 
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
-
   msdl:
     win11: 
       version: 23H2
