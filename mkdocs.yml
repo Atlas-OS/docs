@@ -183,6 +183,8 @@ extra:
   generator: false
 
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
+  atlas:
+    release: 0.4.0
   msdl:
     win11: 
       version: 23H2
