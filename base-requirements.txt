@@ -3,3 +3,6 @@ mkdocs-git-committers-plugin-2
 
 # https://github.com/mkdocs/mkdocs-redirects
 mkdocs-redirects
+
+# https://mkdocs-macros-plugin.readthedocs.io/en/stable/
+mkdocs-macros-plugin
