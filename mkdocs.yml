@@ -170,7 +170,6 @@ theme:
 extra_javascript:
   - javascript/msdl.v1.js
   - javascript/init_kapa_widget.v2.js
-  - javascript/misc.v2.js
 
 
 extra_css:

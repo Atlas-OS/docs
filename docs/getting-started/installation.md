@@ -18,6 +18,12 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
 </style>
 <!-- --8<-- [end:style] -->
 
+<script>
+    var styleSheet = document.createElement("style")
+    styleSheet.innerText = '.noJs { display: revert !important }'
+    document.head.appendChild(styleSheet)
+</script>
+
 ## **0.** :material-clipboard-list-outline: Prerequisites
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
