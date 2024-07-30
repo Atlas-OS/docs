@@ -13,9 +13,9 @@ As of the latest version, Atlas only supports:
 { .annotate }
 
 - **Windows 11:**
---8<-- "vars.md:win11"
+{{ win11.version }}
 - **Windows 10:**
---8<-- "vars.md:win10"
+{{ win10.version }}
 
 Only the latest [non-beta/non-Insider](https://en.wikipedia.org/wiki/Windows_Insider) versions are supported. Insider isn't for stability and privacy, as it usually has bugs we can't account for, and it requires sending extra diagnostic data to Microsoft.
 
