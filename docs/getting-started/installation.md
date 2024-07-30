@@ -16,13 +16,13 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
         color: var(--md-typeset-a-color);
     }
 </style>
-<!-- --8<-- [end:style] -->
 
 <script>
     var styleSheet = document.createElement("style")
     styleSheet.innerText = '.noJs { display: revert !important }'
     document.head.appendChild(styleSheet)
 </script>
+<!-- --8<-- [end:style] -->
 
 ## **0.** :material-clipboard-list-outline: Prerequisites
 
