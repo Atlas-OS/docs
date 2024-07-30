@@ -16,6 +16,12 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
         color: var(--md-typeset-a-color);
     }
 </style>
+
+<script>
+    var styleSheet = document.createElement("style")
+    styleSheet.innerText = '.noJs { display: revert !important }'
+    document.head.appendChild(styleSheet)
+</script>
 <!-- --8<-- [end:style] -->
 
 ## **0.** :material-clipboard-list-outline: Prerequisites
@@ -43,14 +49,6 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-<!--
-    The ISO downloader JavaScript is rewritten from the MSDL website by Gravesoft on GitHub.
-    Major credit to them and MSDL's various contributors! :)
-
-    GNU Affero General Public License v3.0 is the license for the MSDL JavaScript included here on the
-    Atlas docs, as per the original project: https://github.com/gravesoft/msdl/blob/main/LICENSE
--->
-
 ??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
@@ -63,32 +61,7 @@ See the alternatives below.
         1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
-<center class="noJs centerMsdl">
-<div class="msdl-button-container">
-    <button class="msdl-button" style="margin-right: 2px" onclick="getWindows(2935);">Download Windows 11 64-bit</button>
-    <button class="msdl-button" style="margin-left: 2px" onclick="getWindows(2618);">Download Windows 10 64-bit</button>
-</div>
-
-<div id="msdl-ms-content"></div>
-
-<div id="msdl-please-wait">
-    <p>Please wait...</p>
-</div>
-
-<div id="msdl-processing-error">
-    <p>An error has occurred while processing your request. Try refreshing the page or using an alternative method.</p>
-    <p id="msdl-error-code">Error: Unknown</p>
-</div>
-
-<div id="msdl-download">
-    <p>A download should soon be started, if not, <a id="msdl-download-link" href="about:blank">click here download the ISO</a>.</p>
-</div>
-
-<input id="msdl-session-id" type="hidden">
-
-:simple-github: **Credit to the** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl) **project**
-</center>
-
+--8<-- "msdl.md"
 <!-- --8<-- [end:iso1] -->
 
 <!-- --8<-- [start:drivers] -->
@@ -129,7 +102,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, and then attempt this step again
+        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, then retry from step 5 onwards
 
     1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
