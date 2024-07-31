@@ -231,11 +231,12 @@ extra:
 #
 plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
-  - search:
+  search:
       lang: en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - macros
-      
+  macros:
+      on_error_fail: true
+      include_dir: includes
 
 
 #

@@ -37,6 +37,9 @@ Alternatively, give feedback in our forums or Discord, as mentioned earlier.
 installation.md:style
 installation.md:iso
 installation.md:iso1
+--8<--
+{% include 'msdl.md' %}
+--8<--
 installation.md:drivers
 installation.md:reinstalling
 installation.md:reinstalling1
