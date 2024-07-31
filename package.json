@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "optimize": "jampack ./site"
+    "optimize": "jampack --nowrite ./site"
   },
   "dependencies": {
     "@divriots/jampack": "^0.21.1"
