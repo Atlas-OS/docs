@@ -25,7 +25,13 @@ Although such gestures are meant to be convenient, many users are inconvenienced
 
 ## :material-menu-open: Context Menus
 
-### Run With Priority in the context menu
+### Extract in the Context Menu
+
+By default, Atlas hides the extract option in the context menu and replaces it with [NanaZip](https://github.com/M2Team/NanaZip).
+
+To add back the extract option in the context menu, run `Add Extract.reg`, go up a directory and run `Restart Explorer.cmd`.
+
+### Run With Priority in the Context Menu
 
 Process priorities are a feature in Windows that tells Windows how to allocate resources to an application.
 
@@ -62,7 +68,7 @@ To disable this, run `Disable App Icons on Thumbnails.reg`, go up a directory an
 
 On default Windows, File Explorer determines the type of folder based on its content and applies a respective template. For example, a folder containing primarily videos will get the "Icons" view type.
 
-On Atlas, it is disabled by default due to responsiveness issues experienced by some users when navigating through File Explorer. You can re-enable this feature by running `Enable Automatic Folder Discovery.reg`, going up a directory and using the 'Restart Explorer' shortcut.
+On Atlas, it is disabled by default due to responsiveness issues experienced by some users when navigating through File Explorer. You can re-enable this feature by running `Enable Automatic Folder Discovery.reg`, going up a directory and running `Restart Explorer.cmd`.
 
 ### Compact View
 
