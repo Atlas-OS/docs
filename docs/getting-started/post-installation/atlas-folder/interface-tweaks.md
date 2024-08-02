@@ -29,7 +29,7 @@ Although such gestures are meant to be convenient, many users are inconvenienced
 
 By default, Atlas hides the extract option in the context menu and replaces it with [NanaZip](https://github.com/M2Team/NanaZip).
 
-To revert this, run `Add Extract.reg`, go up a directory and run `Restart Explorer.cmd`.
+To add back the extract option in the context menu, run `Add Extract.reg`, go up a directory and run `Restart Explorer.cmd`.
 
 ### Run With Priority in the Context Menu
 
