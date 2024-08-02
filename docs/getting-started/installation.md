@@ -335,7 +335,7 @@ If you need any help, you can find links below to a large community of individua
 
 We hope you enjoy using AtlasOS! :smile:
 
+- [:material-download: Install your Drivers](post-installation/drivers/getting-started.md)
+- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
 - [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
 - [:material-chat-question: FAQ & Troubleshooting](../install-faq/removed-features.md)
-- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
-
