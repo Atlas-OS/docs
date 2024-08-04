@@ -20,6 +20,9 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
 
 ## **0.** :material-clipboard-list-outline: Prerequisites
 
+!!! danger "Atlas requires a full Windows reinstall to uninstall"
+    As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](reverting-atlas.md).
+
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
     - We don't recommend bypassing Windows 11's requirements due to potential problems with updates and game anti-cheats
 - 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
