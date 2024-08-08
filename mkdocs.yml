@@ -279,7 +279,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - abbreviations.md
-      base_path: ['./docs/getting-started/', 'includes']
+      base_path: ['./docs/getting-started/', './docs/contributing/', 'includes']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:

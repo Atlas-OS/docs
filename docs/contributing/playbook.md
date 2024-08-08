@@ -7,29 +7,40 @@ icon: custom/atlas
 
 This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
 
+--8<-- "contribution-guidelines.md:gitNotice"
+
 ## :material-book-search: How the Playbook works
 
 ### What Playbooks are
 
-AME Wizard Playbooks are a [script-esque](https://en.wikipedia.org/wiki/Scripting_language) system structured in [YAML](https://gettaurus.org/docs/YAMLTutorial/) to do various tasks, like [running executables](https://docs.ameliorated.io/developers/actions/Run.html) or setting [Registry entries](https://docs.ameliorated.io/developers/actions/RegistryValue.html). An [open-source backend](https://github.com/Ameliorated-LLC/trusted-uninstaller-cli) runs these Playbooks on an easy user interface called [AME Wizard](https://ameliorated.io/).
+AME Wizard Playbooks are bundles of regular scripts, executables, and other files alongside script-like AME [YAML](https://gettaurus.org/docs/YAMLTutorial/) files.
+These YAML files have commands called [actions](https://docs.ameliorated.io/developers/actions.html), which can do things like running executables or setting Registry entries.
 
-Atlas is a Playbook, and alongside [AME's documentation](https://docs.ameliorated.io/developers.html), we recommend searching around the repository's source code to get familiar with how the basic Playbook structure works and how we've structured Atlas' Playbook.
+[AME Wizard](https://ameliorated.io/) is the easy-to-use GUI for users to run Playbooks, and it uses the open-source [TrustedUninstaller](https://github.com/Ameliorated-LLC/trusted-uninstaller-cli) as its backend.
+
+To start adding to Atlas, alongside [AME's documentation](https://docs.ameliorated.io/developers.html), we recommend browsing our repository's source code to get familiar with how we've structured Atlas.
 
 ### What Atlas uses internally
 
-You can learn as you go, but consider getting some familiarity with the following if you're going to contribute to the Playbook directly:
+The Atlas Playbook primarily uses the following three languages:
 
-- [Visual Studio Code (VSCode)](https://code.visualstudio.com/learn)
-- [PowerShell scripting](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started)
-- [Batch scripting](https://ss64.com/nt/syntax.html)
-- What the [Windows Registry](https://en.wikipedia.org/wiki/Windows_Registry) is
+1. [PowerShell scripting](https://learn.microsoft.com/powershell/scripting/learn/ps101/01-getting-started)
+1. [Batch scripting](https://ss64.com/nt/syntax.html)
+1. [YAML](https://gettaurus.org/docs/YAMLTutorial/) - Yet Another Markup Language
+
+Additionally, for development, we recommend using:
+
+- [Visual Studio Code](https://code.visualstudio.com/learn)
+    - The Atlas repo contains VSCode configs by default for building, syntax highlighting, and more
 - The [Microsoft documentation](https://learn.microsoft.com/windows/resources/)
-- [YAML](https://gettaurus.org/docs/YAMLTutorial/) - Yet Another Markup Language
-
+- Nirsoft utilities
+    1. [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html)
+    1. [ServiWin](https://www.nirsoft.net/utils/serviwin.html)
+- [Sysinternals](https://learn.microsoft.com/sysinternals/downloads/)
 
 ## :material-hammer-screwdriver: How to build a Playbook
 
-If you want to test existing builds, consider viewing our [GitHub Actions](https://github.com/Atlas-OS/Atlas/actions/workflows/apbx.yaml), which builds a Playbook for each commit. Otherwise, clone the [`Atlas-OS/Atlas`](https://github.com/Atlas-OS/Atlas) repo before continuing or your own fork for it.
+If you want to test existing builds, consider viewing our [GitHub Actions](https://github.com/Atlas-OS/Atlas/actions/workflows/apbx.yaml), which builds a Playbook for each commit. Otherwise, clone the [`Atlas-OS/Atlas`](https://github.com/Atlas-OS/Atlas) repo before continuing or using your fork.
 
 === "Using VSCode"
 
@@ -53,7 +64,7 @@ If you want to test existing builds, consider viewing our [GitHub Actions](https
 
 ## :material-test-tube: How to run your built Playbooks
 
-For testing, we primarily use virtual machine snapshotting unless we are testing for a final release, in which case we test on real hardware.
+For testing, we primarily use virtual machines unless we are testing for a final release, in which case we test on real hardware.
 
 This section will tell you how we set up virtual machines for testing.
 
@@ -69,23 +80,23 @@ Here's a comparison of our two recommendations:
 |                         **Ease of Installation**                          |          :material-check: Installation through [Windows features](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v), no external downloads           | :material-alert-circle-outline: It's [officially free now](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html), but you need to tediously sign-up for a Broadcom account |
 |                             **Compatibility**                             |                                                     :material-alert-circle-outline: Enables 'Secure system,' which causes issues for some apps                                                     |                                                                       :material-check-all: No incompatibilities with apps as it's not directly in the kernel                                                                       |
 |                              **Guest Tools**                              | :material-alert-circle-outline: Annoying to work with as it's [just an RDP session](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/enhanced-session-mode), low FPS |                                                                        :material-check-all: Has a vGPU, 60fps viewport, good drag-and-drop support, stable                                                                         |
-|                           **Operating Systems**                           |                                                                       :material-check: Hyper-V is only avaliable on Windows                                                                        |                                                                                        :material-check-all: Avaliable on Linux and Windows                                                                                         |
+|                           **Operating Systems**                           |                                                                       :material-check: Hyper-V is only avaliable on Windows                                                                        |                                                                                        :material-check-all: Available on Linux and Windows                                                                                         |
 
 !!! note "Apple-silicon Mac users"
 
-    Due to not being tested frequently, we would appreciate it if you could test Atlas with Windows-on-ARM (11) using your Apple-silicon-based device. For this, consider using either:
+    We would appreciate it if you could test Atlas with Windows 11 on-ARM using your Apple-silicon-based device. For this, consider using either:
     
     [VMWare Fusion (free with Broadcom account)](https://www.vmware.com/products/desktop-hypervisor.html){ .md-button target="_blank" }
     [Parallels (14-day trial)](https://www.parallels.com/){ .md-button target="_blank" }
 
     **Note:** ARM ISOs aren't available on Microsoft's website. Instead, these apps download them for you.
 
-### What snapshots are
+### Snapshotting
 
-Snapshotting is a feature in most virtual machine software that saves the current memory, disk, and settings state of a virtual machine so that you can restore it later.
+Snapshotting is a feature in most virtual machine software that saves the current memory, disk, and settings of a virtual machine so that you can restore it later.
 
-Snapshots are handy for Atlas as you can test one Playbook and revert to an older snapshot to test another Playbook once finished.
-Additionally, you can save a VM while testing something specific and return to it later.
+Snapshots are handy for Atlas as you can test one Playbook and revert to unmodified Windows to test another Playbook once finished.
+Additionally, you can save a snapshot for testing something specific and return to it later.
 
 ### Which snapshots to make
 
@@ -104,4 +115,4 @@ We recommend making three initial snapshots:
 
 ### That's it!
 
-Any Atlas Playbook should be ready to get tested now. Ensure to test what you're working on extensively. :partying_face:
+Any Atlas Playbook should be ready to get tested now. Ensure that you extensively test what you're working on. :partying_face:
