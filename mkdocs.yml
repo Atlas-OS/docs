@@ -87,6 +87,7 @@ nav:
     - Microsoft Store: general-faq/microsoft-store.md
     - Roblox not opening: general-faq/roblox-not-opening.md
     - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
+    - Shortcuts show up as .url files: general-faq/game-url-files.md
 
   - Development:
     - Contribution Guidelines: contributing/contribution-guidelines.md
