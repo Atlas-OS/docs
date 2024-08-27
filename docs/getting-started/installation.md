@@ -286,7 +286,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net)
 
-1. On the website, click 'Get started', then click **->Already following the guide?** at the bottom, and download the **Atlas Playbook** and **AME Wizard**
+1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
 
 1. Extract both downloads to your desktop
 
