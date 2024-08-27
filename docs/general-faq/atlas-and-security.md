@@ -23,11 +23,11 @@ Versions of Atlas earlier than `v0.3` are now considered legacy and previously r
 
 ### Why was Atlas unsecure previously?
 
-When Atlas became more popular, we realized the necessity of catering to a broader audience. Under new development, we acted on the feedback and have shifted to include maintaining security in Atlas's goals, which is what we should have done previously.
+When Atlas became more popular, we realized the necessity of catering to a broader audience that expects these security features. Under new development, we acted on the feedback and have shifted Atlas's goals to include maintaining security, which is what we should have done previously.
 
 ### What has changed since?
 
-As well as feature and stability improvements, we rectified the security concerns in the latest versions, such as:
+As well as many feature and stability improvements, the latest versions of Atlas have many security improvements, such as:
 
 1. Windows Update support
 1. Windows Defender support

@@ -20,9 +20,11 @@ Most of the time, this isn't an issue and is likely due to a slow internet conne
 
 1. Make sure that your hardware is stable. If you have overclocks, try turning them off.
 
-1. Remember that only the latest version of the Atlas Playbook is supported.
+1. Make sure you're using the latest version of the Atlas Playbook.
 
 ## :material-checkbox-marked-outline: Fixes
+
+Try following these in order. If one doesn't solve your problem, move to the next.
 
 ### Restarting and re-applying the Playbook
 

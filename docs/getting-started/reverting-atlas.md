@@ -6,13 +6,13 @@ icon: material/emoticon-cry
 
 # :material-emoticon-cry: Reverting Atlas
 
-As Atlas disables the 'Reset this PC' feature due to its unreliability and not being a true reinstall of Windows, some users get confused about how to get back to stock Windows.
+As Atlas disables the 'Reset this PC' feature due to its unreliability and not being a full reinstall of Windows, some users are unsure how to get back to stock Windows.
 
 This page details how to reinstall from Atlas to stock Windows fully, which uninstalls Atlas.
 
 ## :material-handshake: Before uninstalling
 
-If you're experiencing issues, ensure you're on the [latest version of Atlas](installation.md), and then consider getting help from the following:
+If you're on an [outdated version of Atlas](https://github.com/Atlas-OS/Atlas/releases), we unfortunately can't help. Otherwise, we can help you if you're experiencing issues on the latest version. See the below:
 
 - :material-file-search: The documentation you're on currently
 - <a onclick="clickKapaAi();" href="javascript:void(0)">
@@ -23,7 +23,7 @@ If you're experiencing issues, ensure you're on the [latest version of Atlas](in
 
 ### If you're still having problems...
 
-We're constantly improving Atlas, so although you're uninstalling now, we hope to see your problem solved in the future.
+We're constantly improving Atlas, so although you're uninstalling now, we hope to see your problem solved in the future. :slight_smile:
 
 Please consider reporting your problem on the [Atlas GitHub Issues](https://github.com/Atlas-OS/Atlas/issues) so we can fix it.
 Alternatively, give feedback in our GitHub Discussions or Discord, as mentioned earlier.

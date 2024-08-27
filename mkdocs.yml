@@ -62,7 +62,7 @@ nav:
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: install-faq/who-is-atlas-for.md
     - Supported Windows Versions: install-faq/windows-version-support.md
-    - Windows Home isn't Supported: install-faq/windows-home.md
+    - Windows Home Support: install-faq/windows-home.md
     - Atlas ISO files: install-faq/atlas-iso-files.md
     - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
     - Reverting Atlas: getting-started/reverting-atlas.md

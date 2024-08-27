@@ -15,7 +15,7 @@ This issue is on Microsoft's end with the update [KB5034441 for Windows 10](http
 
 1. **Ensure that you have adequate free storage**
     
-    You should have at least 1GB of free storage on your Windows drive. If you have little free storage after reinstalling Windows, you likely haven't removed the backup of your previous Windows installation. See [Your old Windows installation](../getting-started/installation.md#your-old-windows-installation) for more information.
+    You should have at least 1GB of free storage on your Windows drive. If you have little free storage after reinstalling Windows, you likely haven't removed the backup of your previous Windows installation. See [Your old Windows installation](../getting-started/your-old-windows-installation#51-your-old-windows-installation) for more information.
 
 1. **Enable Windows Recovery**    
     1. Open **Command Prompt as Administrator**
@@ -30,7 +30,7 @@ This issue is on Microsoft's end with the update [KB5034441 for Windows 10](http
     1. Click **Next**, then click **Hide updates**
     1. Check the update for **KB5034441**, click **Next**, then click **Close**
 
-1. **Follow the [USB drive method](../getting-started/installation.md#3-material-microsoft-windows-reinstalling-windows) to install Atlas, and follow the steps to delete all partitions**
+1. **Follow the [USB drive method](../getting-started/installation.md#3-reinstalling-windows) to install Atlas, and follow the steps to delete all partitions**
 
 ## :material-restore-alert: General errors
 

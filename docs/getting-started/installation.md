@@ -83,7 +83,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 === ":material-microsoft: No USB Drive (recommended)"
 
     <!-- --8<-- [start:windowsOldNotice] -->
-    **Presuming you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can delete this folder afterward, which this guide [covers later](#your-old-windows-installation).
+    **Only if you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can retrieve data from the folder and delete it afterward, which this guide [covers later](#your-old-windows-installation).
     <!-- --8<-- [end:windowsOldNotice] -->
 
     This method only works if you're already on Windows.
@@ -109,8 +109,8 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Choose your edition of Windows
     <!-- --8<-- [end:reinstalling] -->
     <!-- --8<-- [start:atlasEditions] -->
-        - [Windows Pro](../install-faq/windows-version-support.md) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
-        - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall Atlas
+        - [Windows Pro](../install-faq/windows-version-support.md#which-windows-editions-are-supported) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
+        - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything
     <!-- --8<-- [end:atlasEditions] -->
     <!-- --8<-- [start:reinstalling1] -->
 
@@ -135,7 +135,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
 
-    1. Using the BIOS menu, boot from the USB drive
+    1. Restart your computer, boot into your BIOS' boot menu, then select the USB drive
 
         ??? failure "'Security Violation' Error"
 
@@ -154,10 +154,10 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
             2\. Press any key to begin key management
 
             3\. Choose **Enroll Key From Disk**
-
-            4\. Choose `VTOYEFI`
                 
             - The controls are arrow keys to move and ++enter++ to select
+
+            4\. Choose `VTOYEFI`
 
             5\. Choose `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`
 
@@ -169,9 +169,9 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
             If it is still not working, try 'Hash Enrollment,' as detailed in [Ventoy's guide](https://ventoy.net/doc_secure.html).
 
-    1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
+    1. Once booted into the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
-    1. At the 'Windows Setup' box, select your preferred language preferences, click **Next**, then click **Install Now**
+    1. Once booted into the Windows Setup, select your preferred language preferences, click **Next**, then click **Install Now**
 
     1. If prompted, click **I don't have a product key**, as Windows will activate automatically later (as long as you have previously activated Windows legitimately)
 
@@ -195,7 +195,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
         === "Deleting data on one drive"
             !!! danger "This permanently deletes data!"
-                Make sure to follow the instructions carefully.
+                Make sure to follow the instructions carefully to ensure you don't delete the wrong partitions.
 
             - Identify the drive number you want to install Windows to
                 - You can identify your drives by their total sizes
@@ -247,7 +247,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
 
 ## **4.** :material-screwdriver: Driver Updates
 
-Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices may need external drivers to function correctly.
+Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
 
 | :material-update: Installation & Updates from Windows Update | :material-download: Manual Installation & Updates |

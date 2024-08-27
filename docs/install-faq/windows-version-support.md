@@ -25,7 +25,5 @@ We recommend **Windows Pro** or **Windows Enterprise**. [Except for Windows Home
 
 The only exclusions to this are:
 
-- Enterprise LTSC editions
-    - Atlas already debloats Windows' included apps
-- Windows Server
-    - Supporting it would require too much extra testing
+- **Enterprise LTSC:** LTSC editions are often not on the latest Windows versions, which we don't test nor support
+- **Windows Server:** Supporting it would require too much extra testing

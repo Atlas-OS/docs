@@ -28,7 +28,7 @@ The Atlas Playbook primarily uses the following three languages:
 1. [Batch scripting](https://ss64.com/nt/syntax.html)
 1. [YAML](https://gettaurus.org/docs/YAMLTutorial/) - Yet Another Markup Language
 
-Additionally, for development, we recommend using:
+For development tools, we recommend using:
 
 - [Visual Studio Code](https://code.visualstudio.com/learn)
     - The Atlas repo contains VSCode configs by default for building, syntax highlighting, and more
