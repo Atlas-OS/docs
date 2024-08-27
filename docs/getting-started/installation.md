@@ -284,7 +284,9 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
     To read more about this, view our [**AME Wizard Deleted**](../install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
 
-1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
+1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net)
+
+1. On the website, click 'Get started', then click **->Already following the guide?** at the bottom, and download the **Atlas Playbook** and **AME Wizard**
 
 1. Extract both downloads to your desktop
 
