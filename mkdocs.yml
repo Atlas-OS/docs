@@ -4,12 +4,12 @@ site_url: https://docs.atlasos.net
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
 repo_url: https://github.com/Atlas-OS/Atlas
 repo_name: Atlas Playbook
-edit_uri: https://github.com/Atlas-OS/docs/edit/master/docs
+edit_uri: https://github.com/Atlas-OS/docs/edit/main/docs
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
   <span class="twemoji"><img style="filter: invert(0.8)" src="/assets/creative-commons.svg"></span>
-  <a href="https://github.com/Atlas-OS/docs/blob/master/LICENSE">CC-BY-SA-4.0</a>
+  <a href="https://github.com/Atlas-OS/docs/blob/main/LICENSE">CC-BY-SA-4.0</a>
   <br>AtlasOS is not affiliated with Microsoft.
 #  <a href="#__consent">Change cookie settings</a>
 

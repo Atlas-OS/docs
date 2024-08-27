@@ -30,7 +30,7 @@ See the [Playbook contribution guide](playbook.md) on how to get started.
 ### Atlas Documentation
 
 [:simple-github: GitHub Repository](https://github.com/Atlas-OS/docs){ .md-button }
-[:material-license: License (CC-BY-SA-4.0)](https://github.com/Atlas-OS/docs/blob/master/LICENSE){ .md-button }
+[:material-license: License (CC-BY-SA-4.0)](https://github.com/Atlas-OS/docs/blob/main/LICENSE){ .md-button }
 
 The website that you are looking at. We made the Atlas documentation in [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), a documentation framework that uses markdown.
 

@@ -30,7 +30,7 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#document-contributors (Insiders)
   git-committers:
     repository: Atlas-OS/docs
-    branch: master
+    branch: main
 
   # https://github.com/mkdocs/mkdocs-redirects
   redirects:
