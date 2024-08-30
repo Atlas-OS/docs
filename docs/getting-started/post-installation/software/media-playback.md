@@ -60,6 +60,6 @@ MusicBee is a solid alternative to Foobar2000 for users seeking a more modern-fe
 
 ## Dopamine 2
 
-Dopamine 2 is an audio player which tries to make organizing and listening to music as simple and pretty as possible. Includes media organization and folder scanning, a miniplayer, Discord rich presence, a taskbar playback controller, multiple colour schemes, and more!
+Dopamine 2 is an audio player which tries to make organizing and listening to music as simple and pretty as possible and includes many additional features.
 
 [Download Dopamine 2 ->](https://github.com/digimezzo/dopamine-windows/releases) 
