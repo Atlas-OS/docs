@@ -47,3 +47,12 @@ FooBar2000 is a music player that allows you to play local and online music. It 
 `winget install -e --id PeterPawlowski.foobar2000`
 
 [Download foobar2000 ->](https://www.foobar2000.org/)
+
+
+## MusicBee
+
+MusicBee is a solid alternative to Foobar2000 for users seeking a more modern-feeling app while still being lightweight.
+
+`winget install -e --id MusicBee.MusicBee`
+
+[Download MusicBee ->](https://www.getmusicbee.com/)
