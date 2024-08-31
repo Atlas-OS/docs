@@ -12,7 +12,7 @@ VLC is one of the most well-known media players because it is simple and works w
 
 `winget install -e --id VideoLAN.VLC`
 
-[:fontawesome-brands-microsoft: Download VLC Media Player ->](ms-windows-store://pdp/?ProductId=XPDM1ZW6815MQM)
+[:material-microsoft: Download VLC Media Player ->](ms-windows-store://pdp/?ProductId=XPDM1ZW6815MQM)
 
 ## mpv
 
@@ -26,7 +26,7 @@ For a more accessible experience, we suggest using mpv.net, a fork of mpv with a
 
 `winget install -e --id mpv.net`
 
-[:fontawesome-brands-microsoft: Download mpv.net ->](ms-windows-store://pdp/?ProductId=9N64SQZTB3LM)
+[:material-microsoft: Download mpv.net ->](ms-windows-store://pdp/?ProductId=9N64SQZTB3LM)
 
 ## Windows Media Player
 
@@ -36,9 +36,9 @@ However, unlike mpv or VLC Media Player, it does not support all codecs. You may
 
 `winget install -e --id 9WZDNCRFJ3PT`
 
-[:fontawesome-brands-microsoft: Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
+[:material-microsoft: Download Windows Media Player ->](ms-windows-store://pdp/?ProductId=9WZDNCRFJ3PT)
 
-[:fontawesome-brands-microsoft: Download HEVC Codec ->](ms-windows-store://pdp/?ProductId=9NMZLZ57R3T7)
+[:material-microsoft: Download HEVC Codec ->](ms-windows-store://pdp/?ProductId=9NMZLZ57R3T7)
 
 ## foobar2000
 
@@ -62,4 +62,10 @@ MusicBee is a solid alternative to Foobar2000 for users seeking a more modern-fe
 
 Dopamine 2 is an audio player which tries to make organizing and listening to music as simple and pretty as possible and includes many additional features.
 
-[Download Dopamine 2 ->](https://github.com/digimezzo/dopamine-windows/releases) 
+[Download Dopamine 2 ->](https://github.com/digimezzo/dopamine-windows/releases/latest)
+
+## Elisa
+
+Elisa is a modern and beautiful music player made by KDE, with a simple, easy to use interface and internet radio support.
+
+[:material-microsoft: Download Elisa ->](ms-windows-store://pdp/?productid=9pb5md7zh8tl)
