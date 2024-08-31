@@ -12,7 +12,7 @@ The modern Snipping Tool app is in Windows by default, called 'Snip & Sketch' on
 
 `winget install -e --id 9MZ95KL8MR0L`
 
-[:simple-microsoftstore: Download Snipping Tool ->](ms-windows-store://pdp/?ProductId=9MZ95KL8MR0L)
+[:material-microsoft: Download Snipping Tool ->](ms-windows-store://pdp/?ProductId=9MZ95KL8MR0L)
 
 ## ShareX
 
@@ -20,7 +20,7 @@ ShareX is an advanced tool for capturing screenshots that allows you to take scr
 
 `winget install -e --id ShareX.ShareX`
 
-[Download ShareX ->](ms-windows-store://pdp/?ProductId=9NBLGGH4Z1SP)
+[:material-microsoft: Download ShareX ->](ms-windows-store://pdp/?ProductId=9NBLGGH4Z1SP)
 
 ## Lightshot
 
@@ -29,3 +29,11 @@ Lightshot is a lightweight but proprietary tool that enables you to capture and 
 `winget install -e --id Skillbrains.Lightshot`
 
 [Download Lightshot ->](https://app.prntscr.com/en/index.html)
+
+## Flameshot
+
+Powerful yet simple to use open-source screenshot software. Has basic capture, upload, and annotation tools.
+
+`winget install -e --id Flameshot.Flameshot`
+
+[Download Flameshot ->](https://flameshot.org/#download)
