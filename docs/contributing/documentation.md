@@ -33,7 +33,7 @@ The docs will refresh on any page change and reflect what you've just saved.
 === "Windows"
 
     1. Run `locally-host.cmd` to host the documentation preview
-        - This also installs and updates depedencies
+        - This also installs and updates dependencies
     1. Navigate to the URL it provides in the console
 
 === "Non-Windows"
