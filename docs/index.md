@@ -43,7 +43,7 @@ icon: material/home
 
 ## :material-head-question-outline: What is AtlasOS?
 
-AtlasOS, or Atlas, is an open-source project that enhances Windows by applying privacy, usability, performance optimizations in a convenient and [customizable](getting-started/post-installation/atlas-folder/general-configuration.md) way.
+AtlasOS, or Atlas, is an open-source project that enhances Windows by conveniently applying privacy, usability, and performance optimizations, all while maintaining functionality and [customizability](https://docs.atlasos.net/getting-started/post-installation/atlas-folder/general-configuration/).
 
 If you'd like to learn more, see our:
 
