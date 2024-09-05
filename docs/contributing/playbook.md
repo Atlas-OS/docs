@@ -61,7 +61,7 @@ If you want to test existing builds, consider viewing our [GitHub Actions](https
         - For [macOS](https://formulae.brew.sh/formula/sevenzip)/[Linux](https://wiki.archlinux.org/title/p7zip), install 7-Zip (official or `p7zip`) using a package manager
     1. For macOS/Linux, install [the latest PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
     1. Navigate to `src\playbook` in the cloned Atlas repo
-    1. If on Windows, run `local-build.cmd`, else use `local-build.sh`
+    1. If on Windows, run `build-playbook.cmd`, else use `build-playbook.sh`
 
 ## :material-test-tube: How to run your built Playbooks
 
