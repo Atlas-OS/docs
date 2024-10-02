@@ -5,7 +5,7 @@ icon: material/list-status
 
 # :material-list-status: Which Windows versions does Atlas support?
 
-**Atlas supports the latest stable Windows 10 and 11 versions in the same download. However, [Windows Home editions aren't supported.](windows-home.md)**
+**Atlas is compatible with supported versions of Windows 10 and 11 in the same download. However, [Windows Home editions aren't supported.](windows-home.md)**
 
 ---
 
