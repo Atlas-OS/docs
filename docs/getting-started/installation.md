@@ -46,7 +46,14 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-??? grey-tip "Alternatives"
+<!-- Windows Media Tool Serving 24H2, don't recommend until supported by Atlas -->
+
+??? danger "Alternative sources for Windows 11 ISOs"
+    We unfortunately do no yet support Windows 11 version **24H2** on AtlasOS and plan to allow support for our next release.
+
+    At this time we do not recommend obtaining Windows 11 ISOs through Microsoft's Website and the Windows Media Creation tool as **23H2** will not be available to download through those sources.
+
+<!--??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
         1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
@@ -57,6 +64,7 @@ See the alternatives below.
             - **Architecture (Windows 10 only):** 64-bit (x64)
         1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
+->>
 
 <!-- --8<-- [end:iso1] -->
 {% include 'msdl.md' %}
