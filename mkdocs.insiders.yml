@@ -83,4 +83,4 @@ plugins:
       'install-faq/windows-editions.md': 'install-faq/windows-version-support.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
-  typeset: {}
+  # typeset: {}
