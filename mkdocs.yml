@@ -184,7 +184,7 @@ extra:
 
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
   atlas:
-    release: 0.4.5
+    release: 0.4.1
   msdl:
     win11: 
       version: 24H2
