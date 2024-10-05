@@ -15,17 +15,40 @@ For more configuration options, check:
 
 Each section here corresponds to a sub-folder in the `3. General Configuration` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
+
+## :material-update: Automatic Updates
+
+Automatic Windows Updates automatically download and install security and other updates to your computer.
+
+On Atlas, they are disabled by default, as [update notifications](#update-notifications) should notify users of critical updates without interrupting their work. However, this is fundamentally a decrease in security for convenience, and it is an overall personal preference. If you keep them disabled, remember to install updates occasionally for security.
+
+Run the `Enable Automatic Updates.reg` file to enable automatic updates.
+
 ## :material-application: Background Apps
 
 By default, Atlas disables background apps in Windows. However, you may need to enable this for games like Sea of Thieves or specific apps with background notifications. To enable background apps, run `Enable Background Apps.reg` and restart.
 
-## :material-bluetooth: Bluetooth
+## :material-run-fast: CPU Idle
 
-On Atlas, we have made Bluetooth support a configurable option to allow users who do not use the feature to have fewer running Windows services.
+!!! danger "Read first"
+    Disabling CPU idle on systems where [hyper-threading](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html) or [SMT](https://www.wepc.com/cpu/faq/what-does-smt-mean-what-is-smt-multithreading-explained/) is enabled will cause a major drop in performance. You can't use the script below if Atlas detects that either is enabled.
 
-Although the initial setup prompts if you want to disable Bluetooth support, you can toggle it afterward. Run the `Enable Bluetooth.cmd` or `Disable Bluetooth.cmd` script and restart your computer.
+    Remember that disabling idle will likely cause more power usage and increased temperatures.
+    Therefore, it is not recommended to disable idle if you leave your PC running for extended durations, have inadequate cooling, uncontrolled voltages or a laptop.
 
-Remember that you may need to install drivers for Bluetooth to work. [View our guide here](../../../general-faq/bluetooth-compatibility.md).
+Disabling idle should theoretically increase performance as it forces the CPU to operate at [C-State 0](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/xperf/p-states-and-c-states), which prevents the CPU clocks from constantly fluctuating and eliminates the latency penalty introduced from restoring and transitioning to a higher C-State.
+
+You can use the `Disable Idle.cmd` script to disable idle, or the `Enable Idle (default).cmd` to enable it. Additionally, you can add a toggle to disable idle on the desktop by running the `Add Idle Toggle in Desktop Context Menu.reg` file.
+
+## :material-laptop: Delivery Optimization
+
+Delivery Optimization helps speed up Windows Updates by sharing the data via other Windows machines on your local network. We've disabled this to reduce background network usage. If you wish to enable this, run the `Enable Delivery Optimization.reg` file.
+
+## :material-share: File Sharing
+
+File sharing allows sending files across your local network to other Windows devices, and it's a part of network discovery.
+
+File sharing is disabled by default on Windows. However, you can only use it on Atlas by running the `Enable File Sharing.cmd` script.
 
 ## :material-gamepad: FSO and Game Bar
 
@@ -40,6 +63,18 @@ Remember that you may need to install drivers for Bluetooth to work. [View our g
 Game Bar is a built-in feature in Windows that can record your screen, take screenshots, show performance information, and more. It relies on [Fullscreen Optimizations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/), which is shortened to FSO.
 
 Atlas enables both Game Bar and FSO support by default. However, if you want to use [Fullscreen Exclusive](https://wiki.special-k.info/en/SwapChain) instead, run `Disable FSO & Game Bar Support.reg`, which should allow you to use Fullscreen Exclusive in supported games. Remember that specific games might still require the **Disable full-screen optimizations** compatibility option.
+
+## :material-harddisk: Hibernation
+
+Hibernate essentially puts your computer to sleep, but instead of saving your running applications to your RAM, it saves them to your drive. This allows your computer to turn off entirely, meaning hibernation mode uses no power. Once the computer is powered back on, it will resume everything you left off.
+
+Hibernation is disabled by default due to excess storage used for a hibernation file, but you can enable it by running the `Enable Hibernation.cmd` script.
+
+## :material-compass: Location
+
+Microsoft's location service enables Windows devices to pinpoint their exact geographic location, allowing apps to provide location-based features such as navigation.
+
+Atlas disables location by default due to it often not being needed, but you can enable it by running the `Enable Location.cmd` script.
 
 ## :material-chat-processing: Microsoft Copilot
 
@@ -56,64 +91,42 @@ By default, Atlas disables Copilot as it is seen as an annoyance to most users a
 
 By default, Atlas disables this Settings page as it conflicts with some policies. Run the `Enable Mobile Device Settings.cmd` script to enable it again.
 
-## :material-network: Network Discovery
-
-Network discovery is a built-in feature in Windows that discovers other computers on your network.
-
-On Atlas, we keep its services enabled by default as we have determined they are not resource-intensive. With that in mind, if you want to disable them, run the `Disable Network Discovery Services.cmd` script and restart.
-
-Be aware that compatibility issues can arise if you disable services like these.
-
-### File Sharing
-
-File sharing allows sending files across your local network to other Windows devices, and it's a part of network discovery.
-
-File sharing is disabled by default on Windows. However, you can only use it on Atlas by running the `Enable File Sharing.cmd` script.
-
-### Network Navigation Pane
-
-The network navigation pane is in the File Explorer sidebar labeled 'Network,' allowing you to view other devices on your local network.
-
-Atlas disables the network navigation pane by default, but if you want to see the network pane, run the `User Network Navigation Pane choice.reg` file, restart your computer, right-click the File Explorer sidebar, and check the box to enable it.
-
-## :material-exclamation-thick: Notifications
-
-On Atlas, we have made notification support a configurable option to allow users who do not want the feature to have fewer Windows services running.
-
-Although the initial setup prompts if you want to disable notification support, you can toggle it afterward. Run the `Enable Notifications.cmd` or `Disable Notifications.cmd` script and restart your computer.
-
-## :material-power-plug: Power
-
-### CPU Idle
-
-!!! danger "Hyper-threading/SMT and power usage warning"
-    Disabling CPU idle on systems where [hyper-threading](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html) or [SMT](https://www.wepc.com/cpu/faq/what-does-smt-mean-what-is-smt-multithreading-explained/) is enabled will cause a major drop in performance. You can't use the script below if Atlas detects that either is enabled.
-
-    Remember that disabling idle will likely cause more power usage and increased temperatures.
-    Therefore, it is not recommended to disable idle if you leave your PC running for extended durations, have inadequate cooling, uncontrolled voltages or a laptop.
-
-
-Disabling idle should theoretically increase performance as it forces the CPU to operate at [C-State 0](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/xperf/p-states-and-c-states), which prevents the CPU clocks from constantly fluctuating and eliminates the latency penalty introduced from restoring and transitioning to a higher C-State.
-
-You can use the `Disable Idle.cmd` script to disable idle, or the `Enable Idle (default).cmd` to enable it. Additionally, you can add a toggle to disable idle on the desktop by running the `Add Idle Toggle in Desktop Context Menu.reg` file.
-
-### Hibernation
-
-Hibernate essentially puts your computer to sleep, but instead of saving your running applications to your RAM, it saves them to your drive. This allows your computer to turn off entirely, meaning hibernation mode uses no power. Once the computer is powered back on, it will resume everything you left off.
-
-Hibernation is disabled by default due to excess storage used for a hibernation file, but you can enable it by running the `Enable Hibernation.cmd` script.
-
-### Power-saving
+## :material-tree: Power-saving
 
 This folder's scripts control multiple power-saving aspects, such as the power scheme and device power saving. Disabling power-saving increases power consumption and idle temperatures but can improve responsiveness and performance.
 
 Although the initial setup prompts if you want to disable power-saving, you can toggle it afterward. Run `Default Power-saving.cmd` or `Disable Power-saving.cmd` script and restart your computer. 
 
-### Sleep Study
+## :material-card-search: Search Indexing
+
+Search indexing is a built-in feature in Windows that indexes the contents of your computer. Indexing the contents of your PC helps you get faster results when you're searching it for files and other things.
+
+On Atlas, we have made indexing not search in your files to make the system more lightweight by default, as indexing can be a resource-intensive process. However, if you want to enable all indexing, run the `Enable Search Indexing.cmd` script and restart your computer.
+
+## :material-power-sleep: Sleep
+
+Sleep mode is a feature that puts your device into a state that keeps your work in memory while using very little power, so you can easily and quickly resume what you were doing later.
+
+Atlas enables sleep mode by default. However, some users might want to disable it to use hibernation only, or for other purposes. You can disable sleep by running the `Disable Sleep.cmd` script.
+
+## :material-sleep: Sleep Study
 
 [SleepStudy](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby-sleepstudy) is a feature in Windows that allows users to diagnose modern standby. By default, Atlas disables SleepStudy's components to reduce any potential overhead it could bring. However, tracking laptop battery levels while sleeping may need these components, so Atlas includes the `Enable Sleep Study.cmd` script to re-enable it.
 
-### Timer Resolution
+## :material-store: Store App Archiving
+
+App archiving automatically removes unused apps from your device, preserving their data and settings for easy reinstallation when needed again.
+
+Atlas disables this by default so that you can always use your apps. However, you can enable app archiving again by running `Enable Store App Archiving.reg`.
+
+## :material-restore: System Restore
+
+System Restore is a final resort when taking snapshots of your machine. It backs up certain Windows and application settings that can be restored later.
+
+By default, Atlas leaves System Restore enabled. However, you might want to disable it as it is sometimes ineffective and can cause problems.
+You can disable it by running `Disable System Restore.reg` in the `System Restore` folder, followed by a system restart.
+
+## :material-timer: Timer Resolution
 
 !!! info "Windows 11-only"
 
@@ -123,32 +136,11 @@ However, this is at the cost of increased power consumption and is not always be
 
 Run the `Enable timer resolution.cmd` script to enable this high precision, and use the `! MeasureSleep.exe` utility to track it. See [@valleyofdoom's TimerResolution repository](https://github.com/valleyofdoom/TimerResolution#timerresolution) for more information.
 
-## :material-printer: Printing
+## :material-bell: Update Notifications
 
-On Atlas, we have made printing support a configurable option to allow users who do not utilize it to have fewer Windows services running.
+Windows Update typically shows update notifications to alert a user of when an update is going to be installed, or if automatic updates are disabled, to manually click 'Check for updates' to update the system.
 
-Although the initial setup prompts if you want to disable printing support, you can toggle it afterward. Run the `Enable Printing.cmd` or `Disable Printing.cmd` script and restart your computer.
-
-## :material-card-search: Search Indexing
-
-Search indexing is a built-in feature in Windows that indexes the contents of your computer. Indexing the contents of your PC helps you get faster results when you're searching it for files and other things.
-
-On Atlas, we have disabled it by default to make the system more lightweight, as indexing can be a resource-intensive process. If you want to enable it, run the `Enable Search Indexing.cmd` script and restart your computer.
-
-## :material-restore: System Restore
-
-System Restore is a final resort when taking snapshots of your machine. It backs up certain Windows and application settings that can be restored later.
-
-By default, Atlas leaves System Restore enabled. However, you might want to disable it as it is sometimes ineffective and can cause problems.
-You can disable it by running `Disable System Restore.reg` in the `System Restore` folder, followed by a system restart.
-
-## :material-vpn: VPN
-
-A VPN (Virtual Private Network) allows you to connect to the internet more securely and privately. Windows has services to provide support for VPNs.
-
-On Atlas, we keep its services enabled by default as we have determined they are not resource-intensive. With that in mind, if you want to disable them, run the `Disable VPN support.cmd` script.
-
-Be aware that compatibility issues can arise if you disable services like these.
+On Atlas, they are enabled by default so that users with [notifications](#notifications) enabled get alerts about important updates.
 
 ## :material-search-web: Web Search (includes Search Highlights)
 
@@ -172,23 +164,3 @@ By default, Atlas disables Widgets or News and Interests because it is seen as a
 Windows Spotlight is a feature included with Windows 10 and 11, which downloads images and advertisements from Bing and displays them as background wallpapers on the lock screen or desktop.
 
 By default, Atlas disables it as Atlas has its theme, and the feature raises privacy concerns for some users. To enable it, run the `Windows Spotlight.reg` file and restart your computer.
-
-## :material-update: Windows Update
-
-### Automatic Updates
-
-Automatic Windows Updates automatically download and install security and other updates to your computer.
-
-On Atlas, they are disabled by default, as [update notifications](#update-notifications) should notify users of critical updates without interrupting their work. However, this is fundamentally a decrease in security for convenience, and it is an overall personal preference. If you keep them disabled, remember to install updates occasionally for security.
-
-Run the `Enable Automatic Updates.reg` file to enable automatic updates.
-
-### Delivery Optimization
-
-Delivery Optimization helps speed up Windows Updates by sharing the data via other Windows machines on your local network. We've disabled this to reduce background network usage. If you wish to enable this, run the `Enable Delivery Optimization.reg` file.
-
-### Update Notifications
-
-Windows Update typically shows update notifications to alert a user of when an update is going to be installed, or if automatic updates are disabled, to manually click 'Check for updates' to update the system.
-
-On Atlas, they are enabled by default so that users with [notifications](#notifications) enabled get alerts about important updates.
