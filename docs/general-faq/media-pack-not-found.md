@@ -9,10 +9,6 @@ icon: material/play-pause
 
 Alternatively, you might be on an N-edition of Windows. We recommend not using these as there's little benefit; Atlas already does the debloating. You can check in `winver.exe`.
 
-!!! tip "v0.5.0 installs won't have this issue"
-
-    In the next release, Atlas will not remove Windows Media Player (Legacy) for compatibility purposes.
-
 ## :material-checkbox-marked-outline: Reinstalling the Media Pack
 
 1. Open **Settings**, and navigate from:

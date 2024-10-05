@@ -5,14 +5,20 @@ icon: material/microsoft-windows
 
 # :material-microsoft-windows: How do I update AtlasOS to the latest version?
 
-**If you're running an Atlas Playbook version of 0.2.0 or below, you cannot update your Atlas or Windows version. Additionally, Atlas versions under 0.4.0 require a full reinstall to update to the latest Atlas version.** 
+**Please refer to the compatibility table listed below.** 
+
+|                | Windows Update                                                         | Updating Atlas                                                       | Support from the Atlas team         |
+| -------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------- |
+| v0.2.0 & below | :material-close-octagon: No support                                    | :material-close-octagon: No support                                  | :material-close-octagon: No support |
+| v0.3.x         | :material-check: Can't upgrade to v0.5, so 24H2 won't be available     | :material-close-octagon: No support                                  | :material-close-octagon: No support |
+| v0.4.0         | :material-check-all: Will be able to update to 24H2 when v0.5 releases | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
+| v0.4.5         | :material-check-all: Will be able to update to 24H2 when v0.5 releases | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
 
 The latest versions of Atlas support cumulative Windows Updates, which include security and quality patches for Windows.
 
-## What should I do on an older version?
+## What should I do if I'm on an unsupported version?
 
-Many changes that older Atlas versions made were irreversible, meaning that updating to the latest version of Atlas does not revert those changes. This makes for an unsupported configuration and causes stability issues.
+We **strongly** recommend that you do one of the following:
 
-Previous versions of Atlas [have security concerns](atlas-and-security.md#legacy-versions-of-atlas), which only increase over time due to a lack of Windows Updates. These versions of Atlas are no longer supported, lack features, and lack many bug fixes.
-
-[Reinstalling Windows and installing Atlas -->](../getting-started/installation.md)
+- [Reinstall Windows and install the latest Atlas -->](../getting-started/installation.md)
+- [Reinstall to unmodified Windows -->](../getting-started/reverting-atlas.md)
