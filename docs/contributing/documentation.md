@@ -5,7 +5,9 @@ icon: material/book-edit
 
 # :material-book-edit: Contributing to the Atlas documentation
 
-This page will cover how to modify and locally view the Atlas documentation. We highly recommend reading through the [Contribution Guidelines](contribution-guidelines.md) first!
+This page will cover how to modify and locally view the Atlas documentation. This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
+
+--8<-- "contribution-guidelines.md:gitNotice"
 
 We presume you've already cloned the [`Atlas-OS/docs`](https://github.com/Atlas-OS/docs) repository.
 
@@ -17,14 +19,12 @@ We presume you've already cloned the [`Atlas-OS/docs`](https://github.com/Atlas-
 - HTML, JavaScript, and CSS overrides
 - Extended [Markdown](https://www.markdowntutorial.com/) for the pages
 
-We recommend viewing [their reference documentation](https://squidfunk.github.io/mkdocs-material/reference/).
+!!! tip
+    We recommend viewing [their reference documentation](https://squidfunk.github.io/mkdocs-material/reference/).
 
-## :material-package-down: Installing dependencies
+## :material-package-down: Prerequisites
 
-1. As MkDocs Material uses Python, you must install [Python](https://www.python.org/downloads/) alongside `pip`
-1. Run `pip install -r local-requirements.txt` to install all the dependencies inside of the repository
-    - You might need to use a virtual environment on Linux or distro-specific packages for dependencies
-    - Consider checking the VSCode extension recommendations
+As MkDocs Material uses Python, you must install [Python](https://www.python.org/downloads/), including `pip`. Additionally, consider checking the VSCode extension recommendations.
 
 ## :material-eye: Viewing your changes live
 
@@ -33,9 +33,13 @@ The docs will refresh on any page change and reflect what you've just saved.
 === "Windows"
 
     1. Run `locally-host.cmd` to host the documentation preview
+        - This also installs and updates dependencies
     1. Navigate to the URL it provides in the console
 
 === "Non-Windows"
 
+    1. Run `pip install -r local-requirements.txt` to install all the dependencies inside of the repository
+        - You might need to use a virtual environment or distro-specific packages for dependencies
+        - Consider checking the VSCode extension recommendations
     1. Run `mkdocs serve` to host the documentation preview
     1. Navigate to the URL it provides in the console

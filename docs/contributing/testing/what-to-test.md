@@ -5,16 +5,16 @@ icon: material/test-tube
 
 # :material-test-tube: What you can test for in Atlas
 
-This page covers what we recommend testing in an in-development build. See [the reporting issues page](reporting-issues.md) if you find any problems.
+This page covers what we recommend in general alpha or release candidate build testing. If you find any problems, please look at [the reporting issues page](reporting-issues.md).
 
-If you haven't set up a virtual machine, see the [Playbook contributing page](../playbook.md) on how to do so. However, feel free to test it on real hardware, especially if it's a [release candidate](../../general-faq/testing-nightly-builds.md)!
+If you still need to set up a virtual machine, see the [Playbook contributing page](../playbook.md) for instructions. However, feel free to test it on real hardware, especially if it's a [release candidate](../../general-faq/testing-nightly-builds.md)!
 
 !!! note "Ensure what you test works on stock Windows first"
     To reduce the amount of false reports, please verify that any issues encountered on Atlas do not happen in the same environment and configuration on unmodified Windows.
 
 ## :octicons-person-16: Your personally used Windows features
 
-Testing the features you use is recommended, especially if it's not a typical configuration or usage. Some examples of this include:
+Testing the features you use is recommended, especially if it's different from a typical configuration or usage. Some examples of this include:
 
 - Non-English languages
     - Multiple languages & keyboard layouts
@@ -25,9 +25,9 @@ Testing the features you use is recommended, especially if it's not a typical co
 
 ## :material-gamepad: Your personally used apps/games
 
-We recommend testing all your personally used software and games in a realistic environment to ensure that Atlas has brought no incompatibilities.
+We recommend testing all software and games you personally use in a realistic environment to ensure that Atlas has not introduced incompatibilities.
 
-Ensure you install drivers properly beforehand and can't reproduce any encountered issues on stock Windows in the same environment.
+Please ensure you install drivers properly beforehand and can't reproduce any encountered issues on stock Windows in the same environment.
 
 ## :material-update: Windows Update
 

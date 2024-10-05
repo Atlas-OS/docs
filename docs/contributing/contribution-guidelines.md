@@ -7,7 +7,11 @@ icon: material/handshake
 
 This page provides guidelines on how to contribute to Atlas. We highly appreciate your contributions!
 
-Atlas uses [:simple-github: GitHub](https://github.com/Atlas-OS) to manage everything. See the [GitHub quick start guide](https://docs.github.com/get-started/quickstart) first if you're unfamiliar with GitHub. Apart from how to use GitHub, this page tells you everything else.
+<!-- --8<-- [start:gitNotice] -->
+## :material-github: Our contribution platform
+
+Atlas uses [:material-github: GitHub](https://github.com/Atlas-OS) to manage everything. Please note that our documentation does not contain instructions on how to use GitHub or Git; if you're unfamiliar with them, see the [GitHub quick-start guide](https://docs.github.com/get-started/quickstart) first.
+<!-- --8<-- [end:gitNotice] -->
 
 ## :octicons-git-commit-24: Areas of contribution
 
@@ -26,7 +30,7 @@ See the [Playbook contribution guide](playbook.md) on how to get started.
 ### Atlas Documentation
 
 [:simple-github: GitHub Repository](https://github.com/Atlas-OS/docs){ .md-button }
-[:material-license: License (CC-BY-SA-4.0)](https://github.com/Atlas-OS/docs/blob/master/LICENSE){ .md-button }
+[:material-license: License (CC-BY-SA-4.0)](https://github.com/Atlas-OS/docs/blob/main/LICENSE){ .md-button }
 
 The website that you are looking at. We made the Atlas documentation in [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), a documentation framework that uses markdown.
 
@@ -63,7 +67,7 @@ Before a pull request, ensure that:
 
 ### :octicons-verified-16: Commit Signature Verification
 
-We highly recommend setting up [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification). This marks your commits as **:material-checkbox-marked-circle: Verified**, indicating commits have not been forged by someone else.
+We highly recommend setting up [commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification). It marks your commits as **:material-checkbox-marked-circle: Verified**, indicating that someone else has not forged commits.
 
 Check out this [detailed guide on setting up verified commits](https://gist.github.com/Beneboe/3183a8a9eb53439dbee07c90b344c77e#file-how-to-setup-verified-commits-md).
 
@@ -90,9 +94,8 @@ Check out this [detailed guide on setting up verified commits](https://gist.gith
 
 We recommend using [:simple-conventionalcommits: Conventional Commits](https://www.conventionalcommits.org/) in Atlas repositories for consistency and more descriptive commits. You can also look at [Angular's Conventional Commits](https://github.com/angular/angular/blob/68a6a07/CONTRIBUTING.md#commit) for more guidance.
 
-Conventional Commits are a commit message format that helps to make the commit history more readable and easier to navigate.
+Conventional Commits is a commit message format that helps make the commit history more readable and easier to navigate.
 
 *Example*: [`feat: ✨ add fAllowFullControl`](https://github.com/Atlas-OS/Atlas/commit/72cdcc7b327df19fd07e9c6eb0a10812ac6936b0)
 
-- [**Extension for Visual Studio Code**](https://github.com/vivaxy/vscode-conventional-commits)
-- [**Emoji reference**](https://gitmoji.dev) (optional)
+[Extension for Visual Studio Code ->](https://github.com/vivaxy/vscode-conventional-commits)

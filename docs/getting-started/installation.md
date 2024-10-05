@@ -16,15 +16,12 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
         color: var(--md-typeset-a-color);
     }
 </style>
-
-<script>
-    var styleSheet = document.createElement("style")
-    styleSheet.innerText = '.noJs { display: revert !important }'
-    document.head.appendChild(styleSheet)
-</script>
 <!-- --8<-- [end:style] -->
 
 ## **0.** :material-clipboard-list-outline: Prerequisites
+
+!!! danger "Atlas requires a full Windows reinstall to uninstall"
+    As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](reverting-atlas.md).
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
     - We don't recommend bypassing Windows 11's requirements due to potential problems with updates and game anti-cheats
@@ -49,7 +46,14 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-??? grey-tip "Alternatives"
+<!-- Windows Media Tool Serving 24H2, don't recommend until supported by Atlas -->
+
+??? danger "Alternative sources for Windows 11 ISOs"
+    We unfortunately do no yet support Windows 11 version **24H2** on AtlasOS and plan to allow support for our next release.
+
+    At this time we do not recommend obtaining Windows 11 ISOs through Microsoft's Website and the Windows Media Creation tool as **23H2** will not be available to download through those sources.
+
+<!--??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
         1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
@@ -60,9 +64,10 @@ See the alternatives below.
             - **Architecture (Windows 10 only):** 64-bit (x64)
         1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
+->>
 
---8<-- "msdl.md"
 <!-- --8<-- [end:iso1] -->
+{% include 'msdl.md' %}
 
 <!-- --8<-- [start:drivers] -->
 ## **2.** :material-ethernet: Network Drivers
@@ -86,7 +91,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 === ":material-microsoft: No USB Drive (recommended)"
 
     <!-- --8<-- [start:windowsOldNotice] -->
-    **Presuming you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can delete this folder afterward, which this guide [covers later](#your-old-windows-installation).
+    **Only if you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can retrieve data from the folder and delete it afterward, which this guide [covers later](#your-old-windows-installation).
     <!-- --8<-- [end:windowsOldNotice] -->
 
     This method only works if you're already on Windows.
@@ -112,8 +117,8 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Choose your edition of Windows
     <!-- --8<-- [end:reinstalling] -->
     <!-- --8<-- [start:atlasEditions] -->
-        - [Windows Pro](../install-faq/windows-version-support.md) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
-        - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall Atlas
+        - [Windows Pro](../install-faq/windows-version-support.md#which-windows-editions-are-supported) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
+        - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything
     <!-- --8<-- [end:atlasEditions] -->
     <!-- --8<-- [start:reinstalling1] -->
 
@@ -138,7 +143,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Disconnect any cables providing your computer internet, such as an ethernet cable
         - Do not reconnect to the internet until instructed to
 
-    1. Using the BIOS menu, boot from the USB drive
+    1. Restart your computer, boot into your BIOS' boot menu, then select the USB drive
 
         ??? failure "'Security Violation' Error"
 
@@ -157,10 +162,10 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
             2\. Press any key to begin key management
 
             3\. Choose **Enroll Key From Disk**
-
-            4\. Choose `VTOYEFI`
                 
             - The controls are arrow keys to move and ++enter++ to select
+
+            4\. Choose `VTOYEFI`
 
             5\. Choose `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`
 
@@ -172,9 +177,9 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
             If it is still not working, try 'Hash Enrollment,' as detailed in [Ventoy's guide](https://ventoy.net/doc_secure.html).
 
-    1. At the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
+    1. Once booted into the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
-    1. At the 'Windows Setup' box, select your preferred language preferences, click **Next**, then click **Install Now**
+    1. Once booted into the Windows Setup, select your preferred language preferences, click **Next**, then click **Install Now**
 
     1. If prompted, click **I don't have a product key**, as Windows will activate automatically later (as long as you have previously activated Windows legitimately)
 
@@ -198,7 +203,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
         === "Deleting data on one drive"
             !!! danger "This permanently deletes data!"
-                Make sure to follow the instructions carefully.
+                Make sure to follow the instructions carefully to ensure you don't delete the wrong partitions.
 
             - Identify the drive number you want to install Windows to
                 - You can identify your drives by their total sizes
@@ -250,7 +255,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
 
 ## **4.** :material-screwdriver: Driver Updates
 
-Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices may need external drivers to function correctly.
+Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
 
 | :material-update: Installation & Updates from Windows Update | :material-download: Manual Installation & Updates |
@@ -287,7 +292,9 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
     To read more about this, view our [**AME Wizard Deleted**](../install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
 
-1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net), then download the **Atlas Playbook** and **AME Wizard**
+1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net)
+
+1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
 
 1. Extract both downloads to your desktop
 

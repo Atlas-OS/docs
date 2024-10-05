@@ -4,12 +4,12 @@ site_url: https://docs.atlasos.net
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
 repo_url: https://github.com/Atlas-OS/Atlas
 repo_name: Atlas Playbook
-edit_uri: https://github.com/Atlas-OS/docs/edit/master/docs
+edit_uri: https://github.com/Atlas-OS/docs/edit/main/docs
 
 # https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#change-cookie-settings
 copyright: >
   <span class="twemoji"><img style="filter: invert(0.8)" src="/assets/creative-commons.svg"></span>
-  <a href="https://github.com/Atlas-OS/docs/blob/master/LICENSE">CC-BY-SA-4.0</a>
+  <a href="https://github.com/Atlas-OS/docs/blob/main/LICENSE">CC-BY-SA-4.0</a>
   <br>AtlasOS is not affiliated with Microsoft.
 #  <a href="#__consent">Change cookie settings</a>
 
@@ -63,7 +63,7 @@ nav:
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
     - Who is Atlas for?: install-faq/who-is-atlas-for.md
     - Supported Windows Versions: install-faq/windows-version-support.md
-    - Windows Home isn't Supported: install-faq/windows-home.md
+    - Windows Home Support: install-faq/windows-home.md
     - Atlas ISO files: install-faq/atlas-iso-files.md
     - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
     - Reverting Atlas: getting-started/reverting-atlas.md
@@ -87,6 +87,7 @@ nav:
     - Microsoft Store: general-faq/microsoft-store.md
     - Roblox not opening: general-faq/roblox-not-opening.md
     - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
+    - Shortcuts show up as .url files: general-faq/game-url-files.md
 
   - Development:
     - Contribution Guidelines: contributing/contribution-guidelines.md
@@ -181,6 +182,17 @@ extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice
   generator: false
 
+  # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
+  atlas:
+    release: 0.4.0
+  msdl:
+    win11: 
+      version: 23H2
+      pid: 2935
+    win10: 
+      version: 22H2
+      pid: 2618
+
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
   analytics:
     provider: custom
@@ -220,9 +232,12 @@ extra:
 #
 plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
-  - search:
+  search:
       lang: en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  macros:
+      on_error_fail: true
+      include_dir: includes
 
 
 #
@@ -265,7 +280,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - abbreviations.md
-      base_path: ['./docs/getting-started/', 'includes']
+      base_path: ['./docs/getting-started/', './docs/contributing/', 'includes']
 
   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs
   - pymdownx.tabbed:

@@ -22,3 +22,4 @@
 *[Windows drive]: The drive Windows is installed to, mostly known as the "C drive"
 *[EULA]: End-user license agreement
 *[ISO file]: A virtual copy of everything on a DVD, such as the Windows Setup
+*[script-like]: A script is a set of instructions that typically automate an otherwise manual process

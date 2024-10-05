@@ -1,4 +1,6 @@
-git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-insiders.git
+# Currently broken
+# git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-insiders.git
+mkdocs-material
 pillow
 cairosvg
 -r base-requirements.txt
