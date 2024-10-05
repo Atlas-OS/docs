@@ -77,11 +77,3 @@ To restore default mitigations, run the `Set Windows Default Mitigations.cmd` sc
 [Fault Tolerant Heap](https://learn.microsoft.com/en-us/windows/win32/win7appqual/fault-tolerant-heap "Microsoft FTH documentation") is a feature (unrelated to security) that applies software mitigations to repeatedly crashing processes at the cost of significantly reduced performance. Atlas disables this by default.
 
 If you are having consistent application crashes, try enabling FTH.
-
-## :octicons-shield-lock-16: User Account Control (UAC)
-
-[User Account Control (UAC)](https://en.wikipedia.org/wiki/User_Account_Control) is a feature in Windows that helps control what changes software can make to your computer. It helps protect against applications malfunctioning and making harmful changes to your computer.
-
-Please note that most well-made malware can easily bypass UAC and that the only proper way to protect yourself against UAC bypasses is to use a standard user account.
-
-When UAC is disabled, everything will be run as Administrator. This is more of a risk, but if you want to disable it, run the `Disable UAC.cmd` script.
