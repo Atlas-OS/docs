@@ -184,11 +184,11 @@ extra:
 
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
   atlas:
-    release: 0.4.0
+    release: 0.4.5
   msdl:
     win11: 
-      version: 23H2
-      pid: 2935
+      version: 24H2
+      pid: 3113
     win10: 
       version: 22H2
       pid: 2618
