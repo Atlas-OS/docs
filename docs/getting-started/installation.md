@@ -171,7 +171,9 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     1. Once booted into the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
-    1. Once booted into the Windows Setup, select your preferred language preferences, click **Next**, then click **Install Now**
+    1. **If you're installing Windows 11,** once booted into the Windows Setup, click 'Next' twice, then click 'Previous version of setup' in the bottom left corner of the window
+
+    1. Select your preferred language preferences, click **Next**, then click **Install Now**
 
     1. If prompted, click **I don't have a product key**, as Windows will activate automatically later (as long as you have previously activated Windows legitimately)
 
