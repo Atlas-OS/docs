@@ -50,6 +50,12 @@ File sharing allows sending files across your local network to other Windows dev
 
 File sharing is disabled by default on Windows. However, you can only use it on Atlas by running the `Enable File Sharing.cmd` script.
 
+#### Network Navigation Pane
+
+The network navigation pane is in the File Explorer sidebar labeled 'Network,' allowing you to view other devices on your local network.
+
+Atlas disables the network navigation pane by default, but if you want to see the network pane, run the `User Network Navigation Pane choice.reg` file, restart your computer, right-click the File Explorer sidebar, and check the box to enable it.
+
 ## :material-gamepad: FSO and Game Bar
 
 !!! note "This doesn't fully disable Game Bar"
