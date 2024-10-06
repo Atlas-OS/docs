@@ -23,9 +23,13 @@ Testing the features you use is recommended, especially if it's different from a
 - Accessibility features
 - Hyper-V and WSL
 
+## :octicons-person-16: New user accounts
+
+Try making then logging into new user accounts, and making sure that all tweaks apply.
+
 ## :material-gamepad: Your personally used apps/games
 
-We recommend testing all software and games you personally use in a realistic environment to ensure that Atlas has not introduced incompatibilities.
+We recommend testing all software and games you use in a realistic environment to ensure that Atlas has not introduced incompatibilities.
 
 Please ensure you install drivers properly beforehand and can't reproduce any encountered issues on stock Windows in the same environment.
 
