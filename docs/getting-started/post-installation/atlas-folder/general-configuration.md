@@ -82,7 +82,9 @@ Microsoft's location service enables Windows devices to pinpoint their exact geo
 
 Atlas disables location by default due to it often not being needed, but you can enable it by running the `Enable Location.cmd` script.
 
-## :material-chat-processing: Microsoft Copilot
+## :material-robot-happy: AI Features
+
+### Microsoft Copilot
 
 !!! tip "Microsoft Edge"
     This feature requires Microsoft Edge, so the script will prompt you to re-install it if Edge is not installed.
@@ -90,6 +92,14 @@ Atlas disables location by default due to it often not being needed, but you can
 [Copilot](https://en.wikipedia.org/wiki/Microsoft_Copilot) is an AI chatbot by Microsoft integrated into the latest Windows 10 and 11 versions, with an icon in the taskbar to open its sidebar where you can interact with it.
 
 By default, Atlas disables Copilot as it is seen as an annoyance to most users and raises privacy concerns for some users. To enable it again, run the `Enable Microsoft Copilot.cmd` script.
+
+### Recall
+
+!!! info "Windows 11-only"
+
+Recall uses AI to automatically take screenshots of the content you view, so that you can easily search or use a timeline to see exactly what you were doing later.
+
+By default, Atlas disables Recall as it is a privacy concern. To re-enable it for supported devices, run the `Enable Recall Support.reg` script.
 
 ## :material-phone: Mobile Devices (Phone Link)
 
