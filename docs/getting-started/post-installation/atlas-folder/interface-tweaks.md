@@ -14,6 +14,8 @@ Each section here corresponds to a sub-folder in the `3. Interface Tweaks` direc
 
 ## :material-keyboard-tab: Alt-Tab
 
+!!! info "Windows 10-only"
+
 The Alt-Tab folder lets you choose whether to use the modern Alt-Tab menu or the legacy one. The modern one is the default Windows Alt-Tab menu, while the legacy one is used in Windows 7 and below.
 
 By default, Atlas keeps the modern Alt-Tab menu, but if you wish to use the legacy menu, run the `Legacy Alt-Tab.reg` file.
