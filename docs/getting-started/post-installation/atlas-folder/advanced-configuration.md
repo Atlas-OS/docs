@@ -62,6 +62,9 @@ These scripts allow you to toggle the 'NVIDIA Display Container LS' service, as 
 
 ### Printing
 
+!!! warning "Acrobat Support"
+    Disabling printing services is known to break installing Adobe Acrobat.
+
 These scripts toggle printing support. Remember that you'll likely need to install drivers for printing to work.
 
 ### Superfetch
