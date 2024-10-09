@@ -7,12 +7,12 @@ icon: material/microsoft-windows
 
 **Please refer to the compatibility table listed below.** 
 
-|                | Windows Update                                                                            | Updating Atlas                                                       | Support from the Atlas team         |
-| -------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------- |
-| v0.2.0 & below | :material-close-octagon: No support                                                       | :material-close-octagon: No support                                  | :material-close-octagon: No support |
-| v0.3.x         | :material-check: Can't upgrade to v0.5, so 24H2 won't be available                        | :material-close-octagon: No support                                  | :material-close-octagon: No support |
-| v0.4.0         | :material-check-all: Will be able to update to 24H2 when v0.5 releases                    | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
-| v0.4.1         | :material-check-all: Will be able to update to future feature releases when v0.5 releases | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
+|                | Windows Update                                                                                    | Updating Atlas                                                       | Support from the Atlas team         |
+| -------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------- |
+| v0.2.0 & below | :material-close-octagon: No support                                                               | :material-close-octagon: No support                                  | :material-close-octagon: No support |
+| v0.3.x         | :material-check: Can't upgrade to v0.5, so 24H2 won't be available                                | :material-close-octagon: No support                                  | :material-close-octagon: No support |
+| v0.4.0         | :material-check-all: Will be able to update to 24H2 when v0.5 releases                            | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
+| v0.4.1         | :material-check-all: Will be able to update to future Windows feature releases when v0.5 releases | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
 
 The latest versions of Atlas support cumulative Windows Updates, which include security and quality patches for Windows.
 
