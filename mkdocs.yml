@@ -56,6 +56,7 @@ nav:
       - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
       - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
       - Security: getting-started/post-installation/atlas-folder/security.md
+      - Troubleshooting: getting-started/post-installation/atlas-folder/troubleshooting.md
 
   - Install FAQ:
     - What's removed?: install-faq/removed-features.md
@@ -77,10 +78,8 @@ nav:
     - Atlas and Security: general-faq/atlas-and-security.md
     - Updating Atlas: general-faq/updating-atlas.md
     - Atlas Folder Missing: general-faq/atlas-folder-missing.md
-    - Atlas Folder Scripts: general-faq/atlas-folder-scripts.md
     - Windows Update Errors: general-faq/windows-update-errors.md
     - Testing Nightly Builds: general-faq/testing-nightly-builds.md
-    - Acrobat not installing: general-faq/acrobat-not-installing.md
     - Bluetooth Compatibility: general-faq/bluetooth-compatibility.md
     - iTunes Compatibility: general-faq/itunes-compatibility.md
     - Installing the Media Pack: general-faq/media-pack-not-found.md
@@ -184,11 +183,11 @@ extra:
 
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
   atlas:
-    release: 0.4.0
+    release: 0.4.1
   msdl:
     win11: 
-      version: 23H2
-      pid: 2935
+      version: 24H2
+      pid: 3113
     win10: 
       version: 22H2
       pid: 2618

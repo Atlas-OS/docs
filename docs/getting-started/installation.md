@@ -46,14 +46,7 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-<!-- Windows Media Tool Serving 24H2, don't recommend until supported by Atlas -->
-
-??? danger "Alternative sources for Windows 11 ISOs"
-    We unfortunately do no yet support Windows 11 version **24H2** on AtlasOS and plan to allow support for our next release.
-
-    At this time we do not recommend obtaining Windows 11 ISOs through Microsoft's Website and the Windows Media Creation tool as **23H2** will not be available to download through those sources.
-
-<!--??? grey-tip "Alternatives"
+??? grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
         1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
@@ -64,7 +57,6 @@ See the alternatives below.
             - **Architecture (Windows 10 only):** 64-bit (x64)
         1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
-->>
 
 <!-- --8<-- [end:iso1] -->
 {% include 'msdl.md' %}
@@ -179,7 +171,9 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     1. Once booted into the Ventoy menu, select the Windows ISO using the arrow keys, press ++enter++, click **Boot in normal mode**, and press ++enter++ again
 
-    1. Once booted into the Windows Setup, select your preferred language preferences, click **Next**, then click **Install Now**
+    1. **If you're installing Windows 11,** once booted into the Windows Setup, click 'Next' twice, then click 'Previous version of setup' in the bottom left corner of the window
+
+    1. Select your preferred language preferences, click **Next**, then click **Install Now**
 
     1. If prompted, click **I don't have a product key**, as Windows will activate automatically later (as long as you have previously activated Windows legitimately)
 
@@ -342,7 +336,7 @@ If you need any help, you can find links below to a large community of individua
 
 We hope you enjoy using AtlasOS! :smile:
 
+- [:material-download: Install your Drivers](post-installation/drivers/getting-started.md)
+- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
 - [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
 - [:material-chat-question: FAQ & Troubleshooting](../install-faq/removed-features.md)
-- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
-

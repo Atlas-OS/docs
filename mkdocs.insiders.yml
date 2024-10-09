@@ -41,6 +41,7 @@ plugins:
         # Renamed Atlas folders
       'getting-started/post-installation/atlas-folder/configuration.md': 'getting-started/post-installation/atlas-folder/general-configuration.md'
       'getting-started/post-installation/atlas-folder/optional-tweaks.md': 'getting-started/post-installation/atlas-folder/interface-tweaks.md'
+      'getting-started/faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
 
         # New AME Wizard errors section
       'faq-and-troubleshooting/common-questions/atlas-playbook-stuck.md': 'install-faq/ame-wizard-errors/atlas-playbook-stuck.md'
@@ -68,7 +69,6 @@ plugins:
       'faq-and-troubleshooting/common-questions/atlas-and-security.md': 'general-faq/atlas-and-security.md'
       'faq-and-troubleshooting/common-questions/updating-atlas.md': 'general-faq/updating-atlas.md'
       'faq-and-troubleshooting/common-questions/atlas-folder-missing.md': 'general-faq/atlas-folder-missing.md'
-      'faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'general-faq/atlas-folder-scripts.md'
       'faq-and-troubleshooting/common-questions/windows-update-errors.md': 'general-faq/windows-update-errors.md'
       'faq-and-troubleshooting/common-questions/testing-nightly-builds.md': 'general-faq/testing-nightly-builds.md'
       'faq-and-troubleshooting/common-questions/acrobat-not-installing.md': 'general-faq/acrobat-not-installing.md'
@@ -79,6 +79,10 @@ plugins:
       'faq-and-troubleshooting/common-questions/roblox-not-opening.md': 'general-faq/roblox-not-opening.md'
       'faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md': 'general-faq/fifa-and-eafc-not-launching.md'
 
+        # 'Troubleshooting' moved to Atlas Configuration
+      'faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
+      'general-faq/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
+      
         # Seperating 'Windows Editions' into 'Supported Windows Versions' & 'Windows Home isn't Supported'
       'install-faq/windows-editions.md': 'install-faq/windows-version-support.md'
 

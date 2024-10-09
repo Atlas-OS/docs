@@ -9,23 +9,26 @@ Atlas applies many interface tweaks to improve Windows' general usability, with 
 
 Each section here corresponds to a sub-folder in the `3. Interface Tweaks` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
 
+!!! tip "Applying changes"
+    You might need to run the `Restart Explorer.cmd` file after changing your settings to apply them.
+
 ## :material-keyboard-tab: Alt-Tab
+
+!!! info "Windows 10-only"
 
 The Alt-Tab folder lets you choose whether to use the modern Alt-Tab menu or the legacy one. The modern one is the default Windows Alt-Tab menu, while the legacy one is used in Windows 7 and below.
 
 By default, Atlas keeps the modern Alt-Tab menu, but if you wish to use the legacy menu, run the `Legacy Alt-Tab.reg` file.
 
-## :material-gesture-swipe-down: Edge Swipe
-
-Edge swipe is anything that has to do with gestures on the edges of the screen, e.g., on touchscreens, swiping right or left to open Widgets or the Notification Center.
-
-However, these gestures do not only include touchscreen devices. It also consists of a title bar that shows when you put your mouse cursor to the top of the screen in certain fullscreen games, likely from the Microsoft Store.
-
-Although such gestures are meant to be convenient, many users are inconvenienced by accidentally triggering them. For this reason, edge swipe is disabled by default on Atlas. To enable it again, run `Allow Edge Swipe.reg` and restart Explorer.
-
 ## :material-menu-open: Context Menus
 
-### Run With Priority in the context menu
+### Extract in the Context Menu
+
+By default, Atlas hides the extract option in the context menu and replaces it with [NanaZip](https://github.com/M2Team/NanaZip).
+
+To add back the extract option in the context menu, run `Add Extract.reg`, go up a directory and run `Restart Explorer.cmd`.
+
+### Run With Priority in the Context Menu
 
 Process priorities are a feature in Windows that tells Windows how to allocate resources to an application.
 
@@ -50,13 +53,25 @@ You can alternatively use `Add Terminals (no Windows Terminal).reg` to have the 
 
 By default, Atlas restores the legacy context menu on Windows 11, which has more options and is more responsive. You can run the `New Context Menu.reg` file if you prefer the modern context menu.
 
+## :material-gesture-swipe-down: Edge Swipe
+
+Edge swipe is anything that has to do with gestures on the edges of the screen, e.g., on touchscreens, swiping right or left to open Widgets or the Notification Center.
+
+However, it also consists of a title bar that shows when you put your mouse cursor to the top of the screen in some fullscreen games. Some users are inconvenienced by this. For this reason, you can disable edge swipe on Atlas by running `Disallow Edge Swipe.reg` and restarting Explorer.
+
 ## :material-folder-cog: File Explorer Customization
+
+### App Icons on Thumbnails
+
+By default, Atlas displays the default app for certain files in the corner of the thumbnail. A common example would be a video thumbnail showing the associated media player in the bottom right.
+
+To disable this, run `Disable App Icons on Thumbnails.reg`, go up a directory and use the 'Restart Explorer' shortcut.
 
 ### Automatic Folder Discovery
 
 On default Windows, File Explorer determines the type of folder based on its content and applies a respective template. For example, a folder containing primarily videos will get the "Icons" view type.
 
-On Atlas, it is disabled by default due to responsiveness issues experienced by some users when navigating through File Explorer. You can re-enable this feature by running `Enable Automatic Folder Discovery.reg`, going up a directory and using the 'Restart Explorer' shortcut.
+On Atlas, it is disabled by default due to responsiveness issues experienced by some users when navigating through File Explorer. You can re-enable this feature by running `Enable Automatic Folder Discovery.reg`, going up a directory and running `Restart Explorer.cmd`.
 
 ### Compact View
 
@@ -96,19 +111,43 @@ The lock screen in Windows shows the date and time and, optionally, other add-on
 
 By default, Atlas has the lock screen enabled. If you want to disable the lock screen, run the `Hide Lock Screen.reg` file.
 
+## :material-microsoft-windows-classic: Old Flyouts
+
+!!! info "Windows 10-only"
+
+### Battery Flyout
+
+Reverts to the old [Windows 7 battery flyout](https://www.tenforums.com/tutorials/15754-use-old-new-battery-flyout-power-indicator-windows-10-a.html), which might pop-up faster on older systems.
+
+### Date and Time Flyout
+
+Reverts to the old [Windows 7 Date and Time flyout](https://winaero.com/get-the-old-windows-7-like-calendar-and-date-pane-in-windows-10/), which might pop-up faster on older systems.
+
+### Volume Flyout
+
+Reverts to the old [Windows 7 volume flyout](https://winaero.com/enable-old-volume-control-in-windows-10/), which might pop-up faster on older systems.
+
 ## :material-file-link: Shortcut Icon
 
 Shortcuts created in Windows have an icon indicating that they're shortcuts by default.
 
 You can customize this icon on Atlas by disabling it or setting it to the legacy but smaller classic icon. Run either the `Classic.reg` file or the `None (security risk).reg` file.
 
-None is a security risk because there will be no way to see whether an icon is a shortcut. For example, you could double-click something with a folder icon, thinking it's a folder, but it could be a shortcut to run something malicious.
+**None is a security risk** because there's no way to see whether an icon is a shortcut or not. As an example, you could double-click something with a folder icon, thinking it's a folder, but it could be a shortcut to run a malicious command.
 
 ## :material-link-edit: Shortcut Text
 
 By default, Windows appends `- Shortcut` to the end of new shortcut names. By default, Altas disables this. You can tell something is a shortcut by looking at the icon anyway.
 
 You can restore the default `- Shortcut` text using the `Restore Shortcut Text.reg` file.
+
+## :material-link-edit: Snap Layouts
+
+!!! info "Windows 11-only"
+
+Windows 11 offers Snap Layouts, a feature that enables you to choose from presets how to arrange the current window on your screen.
+
+By default, Atlas keeps them enabled. However, some users might find them annoying, so you can disable them by running `Disable Snap Layouts.reg`.
 
 ## :material-microsoft-windows: Start Menu
 
@@ -127,11 +166,11 @@ By default, Atlas disables recent items using policies, meaning you can't change
 
 ## :material-message-text: Verbose Status Messages
 
-By default, Atlas has verbose startup, shutdown, logon, and logoff status messages so you can have more insight into exactly what's happening in each process.
+Here you can enable verbose startup, shutdown, logon, and logoff status messages so you can have more insight into exactly what's happening in each process.
 
-You can disable verbose status messages by running the `Disable Verbose Messages.reg` file.
+Atlas keeps them enabled by default to prevent confusion, but you can enable them by running `Enable Verbose Messages.reg`.
 
-## :material-animation: Visual Effects
+## :material-animation: Visual Effects (Animations)
 
 Windows enables various visual effects by default. These include animated menus, icons, and animations while minimizing and maximizing windows.
 
