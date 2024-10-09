@@ -1,6 +1,6 @@
-# Currently broken
 # git+https://${MATERIAL_INSIDERS}@github.com/whallin/local-mkdocs-material-insiders.git
-mkdocs-material
+git+https://${MATERIAL_INSIDERS}@github.com/Atlas-OS/mkdocs-material-insiders.git
+# mkdocs-material
 pillow
 cairosvg
 -r base-requirements.txt
