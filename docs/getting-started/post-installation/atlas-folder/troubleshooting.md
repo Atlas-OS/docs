@@ -46,6 +46,10 @@ When installing some apps, some users may experience errors 2502 and 2503. These
 
 This script resets those permissions to the Windows defaults, fixing the issue.
 
+## :material-update: Repair Windows Components
+
+This script will repair and replace any corrupt Windows components and system files. For general issues, this might be an easy fix. Note that no components of Atlas are reverted by using this script.
+
 ## :material-cog-outline: Set Services to Defaults
 
 This script goes through the [`8. Advanced Configuration\Services`](advanced-configuration.md#services) folder and sets the Atlas defaults for everything. Additionally, you have the option to restore a service backup.
