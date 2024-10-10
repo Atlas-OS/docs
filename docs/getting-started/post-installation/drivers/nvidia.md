@@ -25,7 +25,8 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
     - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/amd/#disable-multi-plane-overlay-mpo)
     - Disable Driver Telemetry in ``Show Expert Tweaks``
     - Use method compatible with Easy-Anti-Cheat
-    - Automatically accept the "driver unsigned" warning
+        - **This currently does not work on Windows 11 24H2!**
+        - Automatically accept the "driver unsigned" warning
 - Click ``Install`` and continue with the NVIDIA driver installation as usual.
 
 ## :material-cog: Configure NVIDIA Control Panel
