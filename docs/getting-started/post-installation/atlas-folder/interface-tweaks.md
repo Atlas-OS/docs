@@ -168,7 +168,7 @@ By default, Atlas disables recent items using policies, meaning you can't change
 
 Here you can enable verbose startup, shutdown, logon, and logoff status messages so you can have more insight into exactly what's happening in each process.
 
-Atlas keeps them enabled by default to prevent confusion, but you can enable them by running `Enable Verbose Messages.reg`.
+Atlas keeps them disabled by default to prevent confusion, but you can enable them by running `Enable Verbose Messages.reg`.
 
 ## :material-animation: Visual Effects (Animations)
 
