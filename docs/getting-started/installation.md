@@ -224,7 +224,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout
         1. Press ++shift+f10++ to open Command Prompt
-        1. Type in `oobe\bypassnro`, press ++enter++, and wait for your computer to restart
+        1. Type in `%systemroot%\System32\oobe\BypassNRO.cmd`, press ++enter++, and wait for your computer to restart
             - This step is not necessary if you are using Ventoy
         1. Continue through with setup, but:
             - Do not connect to the internet
