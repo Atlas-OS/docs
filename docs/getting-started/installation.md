@@ -46,7 +46,10 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-??? grey-tip "Alternatives"
+!!! failure "MSDL is currently not working"
+    Please use the alternative method mentioned below to download your ISOs.
+
+!!! grey-tip "Alternatives"
     === "Windows Media Creation Tool"
 
         1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
@@ -58,8 +61,9 @@ See the alternatives below.
         1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
-<!-- --8<-- [end:iso1] -->
-{% include 'msdl.md' %}
+ <!-- --8<-- [end:iso1] -->
+
+
 
 <!-- --8<-- [start:drivers] -->
 ## **2.** :material-ethernet: Network Drivers
