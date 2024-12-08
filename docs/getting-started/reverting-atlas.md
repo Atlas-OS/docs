@@ -38,7 +38,7 @@ installation.md:style
 installation.md:iso
 installation.md:iso1
 --8<--
-
+<!-- Placeholder for msdl.md include -->
 --8<--
 installation.md:drivers
 installation.md:reinstalling
