@@ -47,9 +47,32 @@ See the alternatives below.
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
 !!! failure "MSDL is currently not working"
-    Please use the alternative method mentioned below to download your ISOs.
+    Please download the ISO from [official microsoft sources.](#official-microsoft-sources)
 
+<!-- Remember to revert this back to ??? from !!! when MSDL is fixed. -->
+<!-- Please don't remove the "Offical Microsoft Sources" tab when MSDL is fixed either. -->
+<!-- Remember to remove "(currently broken)" when MSDL is fixed -->
 !!! grey-tip "Alternatives"
+
+    !!! tip 
+        Even though the downloader we use in our docs use Microsoft's servers (currently broken), you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
+
+    <div id="official-microsoft-sources"></div>
+    === "Official Microsoft Sources"
+
+        ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
+
+        - Click the link above and **scroll down** to **Download Windows 11 Disk Image (ISO) for x64 devices.**<br> **DO NOT** use the **Installation Assistant** or **Create Windows 11 Installation Media.**
+        - Select **Windows 11 (multi-edition ISO for x64 devices)** and click **Download Now.**
+        - Select your desired language and press confirm.
+        - Click **64-bit Download** to begin your download.
+
+        ### [Windows 10 :material-download:](https://www.microsoft.com/en-us/software-download/windows10ISO)
+
+        - Click the link abvove and select **Windows 10 (multi-edition ISO)** and click **Confirm.**
+        - Select your desired language and press confirm.
+        - Click **64-bit Download** to begin your download.
+
     === "Windows Media Creation Tool"
 
         1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) or [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
@@ -61,8 +84,8 @@ See the alternatives below.
         1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
- <!-- --8<-- [end:iso1] -->
-
+<!-- --8<-- [end:iso1] -->
+<!-- Placeholder for msdl.md include -->
 
 
 <!-- --8<-- [start:drivers] -->
