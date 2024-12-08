@@ -10,7 +10,7 @@ icon: material/image
 
 qView is an open source image viewer with the goal to be as minimalistic as possible. It is incredibly lightweight and offers a clean and minimal UI. If you just want to view images and don't need any extra features, qView is the best choice.
 
-`winget install -e --id mpv.net`
+`winget install -e --id jurplel.qView`
 
 [Download qView ->](https://interversehq.com/qview/download/)
 
