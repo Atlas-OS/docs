@@ -51,10 +51,11 @@ See the alternatives below.
 
 <!-- Remember to revert this back to ??? from !!! when MSDL is fixed. -->
 <!-- Please don't remove the "Offical Microsoft Sources" tab when MSDL is fixed either. -->
+<!-- Remember to remove "(currently broken)" when MSDL is fixed -->
 !!! grey-tip "Alternatives"
 
     !!! tip 
-        Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
+        Even though the downloader we use in our docs use Microsoft's servers (currently broken), you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
 
     <div id="official-microsoft-sources"></div>
     === "Official Microsoft Sources"
