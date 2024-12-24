@@ -1,3 +1,13 @@
+// AGPL-3.0-only https://spdx.org/licenses/AGPL-3.0-or-later.html
+// Modified from https://github.com/gravesoft/msdl for use in AtlasOS documentation
+//
+// Changes:
+//  - Auto-selecting language, and removing 'Choose once'
+//  - Removing table to download other versions
+//  - Restructuring of script
+//  - Simplification of certain functions like updateVars
+//  - Fixes/adaptations for use in Atlas documentation
+
 const msApiUrl = "https://www.microsoft.com/software-download-connector/api/"
 const parms = "?profile=606624d44113&Locale=en-US&sessionID="
 const sessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&session_id="
