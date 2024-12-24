@@ -1,20 +1,9 @@
-// AGPL-3.0-only https://spdx.org/licenses/AGPL-3.0-or-later.html
-// Modified from https://github.com/gravesoft/msdl for use in AtlasOS documentation
-//
-// Changes:
-//  - Auto-selecting language, and removing 'Choose once'
-//  - Removing table to download other versions
-//  - Restructuring of script
-//  - Simplification of certain functions like updateVars
-//  - Fixes/adaptations for use in Atlas documentation
+const msApiUrl = "https://www.microsoft.com/software-download-connector/api/"
+const parms = "?profile=606624d44113&Locale=en-US&sessionID="
+const sessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&session_id="
+const apiUrl = "https://api.gravesoft.dev/msdl/"
 
-const langsUrl =
-    "https://www.microsoft.com/en-us/api/controls/contentinclude/html?pageId=cd06bda8-ff9c-4a6e-912a-b92a21f42526&host=www.microsoft.com&segments=software-download%2cwindows11&query=&action=getskuinformationbyproductedition&sdVersion=2";
-const downUrl =
-    "https://www.microsoft.com/en-us/api/controls/contentinclude/html?pageId=cfa9e580-a81e-4a4b-a846-7b21bf4e2e5b&host=www.microsoft.com&segments=software-download%2Cwindows11&query=&action=GetProductDownloadLinksBySku&sdVersion=2";
-const sessionUrl = "https://vlscppe.microsoft.com/fp/tags?org_id=y6jn8c31&session_id=";
-const apiUrl = "https://api.gravesoft.dev/msdl/";
-const sharedSessionGUID = "c2452a22-b85c-4f2b-a20c-7cb8c4dc95ac";
+const sharedSessionGUID = "47cbc254-4a79-4be6-9866-9c625eb20911";
 const langAttempt = 3;
 
 let sessionId;
@@ -32,174 +21,224 @@ function uuidv4() {
     return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) => (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16));
 }
 
+function updateVars() {
+    let id = document.getElementById('product-languages').value;
+    if (id == "") {
+        document.getElementById('submit-sku').disabled = 1;
+        return;
+    }
+
+    document.getElementById('submit-sku').disabled = 0;
+    skuId = JSON.parse(id)['id'];
+    console.log(`Updated skuId: ${skuId}`);
+    return skuId;
+}
+
 function showError(error) {
     processingError.style.display = "block";
     pleaseWait.style.display = "none";
     msContent.style.display = "none";
-
-    if (error) {
-        console.error("ISO Downloader: " + error);
-        processingErrorText.style.display = "block";
-        processingErrorText.innerHTML = 'Error: ' + error
-    } else {
-        processingErrorText.style.display = "none";
-    }
+    processingError.innerHTML = 'Error: ' + error;
+    console.error('Error: ' + error);
 }
 
-async function getDownloadLink(sharedSession, useProxy = false) {
-    let url;
-    if (useProxy) {
-        url = `${apiUrl}proxy?product_id=${winProductID}&sku_id=${skuId}`;
-    } else {
-        url = `${downUrl}&skuId=${skuId}&sessionId=${sharedSession ? sharedSessionGUID : sessionId.value}`
-    }
-
-    const response = await fetch(url);
-    const data = await response.text();
-    const parser = new DOMParser();
-    const downloadElements = parser.parseFromString(data, "text/html").getElementsByTagName("a");
-
-    for (let i = 0; i < downloadElements.length; i++) {
-        const href = downloadElements[i].getAttribute('href');
-        if (href && href.includes('_x64')) return href;
-    }
-
-    throw new Error
+function getFileNameFromLink(link) {
+    let raw_link = link.split('?')[0];
+    return raw_link.split('/').pop();
 }
 
-async function getDownload() {
-    msContent.style.display = "none";
-    pleaseWait.style.display = "block";
-    let isoLink; let sharedSession = false;
-
-    async function useProxy() {
-        try {
-            console.warn("ISO Downloader: Getting ISO from Microsoft failed, attempting to use the proxy...");
-            isoLink = await getDownloadLink(false, true);
-        } catch (e) {
-            // Everything failed, show error
-            console.error("ISO Downloader: Retrieving the ISO from both Microsoft and the proxy failed, showing error to the user...");
-            showError("COMPLETE_FAILURE");
+function getLanguages(productId) {
+    let url = `${msApiUrl}getskuinformationbyproductedition${parms}${sessionId.value}&ProductEditionId=${productId}`;
+    let xhr = new XMLHttpRequest();
+    xhr.onload = onLanguageXhrChange;
+    xhr.onerror = function() {
+        getLangFailCount++;
+        if (getLangFailCount > langAttempt) {
+            showError("Failed to retrieve languages.");
+        } else {
+            getLanguages(productId);
         }
-    }
-
-    try {
-        console.info("ISO Downloader: Getting download from Microsoft without shared session...");
-        isoLink = await getDownloadLink(false);
-    } catch (e) {
-        sharedSession = true;
-
-        // Shared session isn't used for users that will invalidate it
-        if (!shouldUseSharedSession) await useProxy();
-
-        // Microsoft without shared session failed, attempting with shared session
-        try {
-            console.warn("ISO Downloader: Getting ISO from Microsoft without shared session failed, attempting using shared session...");
-            isoLink = await getDownloadLink(true);
-        } catch (e) {
-            // Microsoft with and without shared session failed, try proxy
-            await useProxy();
-        }
-    }
-
-    if (!isoLink) {
-        showError("ISO_LINK_NOT_DEFINED");
-    } else if (isoLink.startsWith("https://software.download.prss.microsoft.com")) {
-        console.info("ISO Downloader: Everything worked, preparing to download ISO.")
-
-        if (!sharedSession) {
-            console.info("ISO Downloader: Validating shared sessions...");
-
-            [
-                sessionUrl + sharedSessionGUID,
-                sessionUrl + "de40cb69-50a5-415e-a0e8-3cf1eed1b7cd",
-                apiUrl + 'add_session?session_id=' + sessionId.value
-            ].forEach(a => {
-                fetch(a).catch(() => {});
-            });
-        }
-
-        console.info("ISO Downloader: Downloading ISO...")
-        pleaseWait.style.display = "none";
-        downloadLink.setAttribute("href", isoLink);
-        download.style.display = "block";
-        window.location = isoLink;
-    } else {
-        showError("ISO_LINK_NOT_MICROSOFT");
-    }
-}
-
-function updateVars() {
-    skuId = JSON.parse(document.getElementById("product-languages").value)["id"];
+    };    
+    xhr.open("GET", url, true);
+    xhr.send();
 }
 
 function onLanguageXhrChange() {
-    msContent.innerHTML = this.responseText;
-    if (document.getElementById("errorModalMessage")) getLangError(true);
-    console.info("ISO Downloader: Successfully got languages...")
-
+    if (this.status != 200) {
+        showError("Failed to retrieve languages.");
+        return;
+    }
     pleaseWait.style.display = "none";
     msContent.style.display = "block";
 
-    let prodLang = document.getElementById("product-languages");
-    let submitSku = document.getElementById("submit-sku");
+    let langHtml = langJsonStrToHTML(this.responseText);
+    msContent.innerHTML = langHtml;
 
-    if (prodLang && submitSku) {
-        submitSku.setAttribute("onClick", "getDownload();");
-        submitSku.setAttribute("class", "md-button");
-        prodLang.setAttribute("onChange", "updateVars();");
+    let submitSku = document.getElementById('submit-sku');
+    submitSku.setAttribute("onClick", "getDownload();");
 
-        let options = prodLang.options;
-        let emptyRemoved;
-        let englishSet;
-
-        for (let i = options.length - 1; i >= 0; i--) {
-            let option = options[i];
-            let optionValue = option.value;
-
-            if (optionValue === "") {
-                prodLang.removeChild(option);
-                emptyRemoved = true;
-            } else if (optionValue.includes('language":"English International"}')) {
-                option.selected = true;
-                englishSet = true;
-            }
-
-            if (englishSet && emptyRemoved) {
-                break;
-            }
-        }
-    } else {
-        showError("UNEXPECTED_LANG_RESPONSE");
-    }
+    let prodLang = document.getElementById('product-languages');
+    prodLang.setAttribute("onChange", "updateVars();");
 
     updateVars();
 }
 
-function getLangError(msFailure) {
-    setTimeout(() => {
-        getLangFailCount++;
-        if (getLangFailCount > langAttempt) {
-            if (msFailure) {
-                showError("MS_FAILED_TO_GET_LANGS");
-            } else {
-                showError("HTTP_FAILED_TO_GET_LANGS");
-            }
-        } else {
-            console.warn(`ISO Downloader: Failed to get langauges ${getLangFailCount} times, and Microsoft's response failing is ${msFailure}. Max tries is ${langAttempt}.`)
-            getLanguages(true);
-        }
-    }, 1000);
+function langJsonStrToHTML(jsonStr) {
+    let json = JSON.parse(jsonStr);
+    let container = document.createElement('div');
+
+    let header = document.createElement('h2');
+    header.textContent = "Select the product language";
+    container.appendChild(header);
+
+    let info = document.createElement('p');
+    info.innerHTML = "You'll need to choose the same language when you install Windows. To see what language you're currently using, go to <strong>Time and language</strong> in PC settings or <strong>Region</strong> in Control Panel.";
+    container.appendChild(info);
+
+    let select = document.createElement('select');
+    select.id = "product-languages";
+
+    let defaultOption = document.createElement('option');
+    defaultOption.value = "";
+    defaultOption.selected = "selected";
+    defaultOption.textContent = "Choose one";
+    select.appendChild(defaultOption);
+
+    json.Skus.forEach(sku => {
+        let option = document.createElement('option');
+        option.value = JSON.stringify({ id: sku.Id });
+        option.textContent = sku.LocalizedLanguage;
+        select.appendChild(option);
+    });
+
+    container.appendChild(select);
+
+    let button = document.createElement('button');
+    button.id = "submit-sku";
+    button.textContent = "Submit";
+    button.disabled = true;
+    button.setAttribute("onClick", "getDownload();");
+
+    container.appendChild(button);
+
+    return container.innerHTML;
 }
 
-function getLanguages(sharedSession = false) {
+function getDownload(sharedSession = false) {
+    msContent.style.display = "none";
+    pleaseWait.style.display = "block";
+    skuId = skuId ? skuId : updateVars();
+    let sessionGUID = sharedSession ? sharedSessionGUID : sessionId.value;
+    let url = `${msApiUrl}GetProductDownloadLinksBySku${parms}${sessionGUID}&SKU=${skuId}`;
+    console.log(`Requesting download links from URL: ${url}`);
     let xhr = new XMLHttpRequest();
-    xhr.onload = onLanguageXhrChange;
-    xhr.onerror = function() {
-        getLangError(false);
-    };    
-    xhr.open("GET", `${langsUrl}&productEditionId=${winProductID}&sessionId=${sharedSession ? sharedSessionGUID : sessionId.value}`, true);
+    xhr.onload = function() {
+        onDownloadsXhrChange(sharedSession);
+    };
+    xhr.open("GET", url, true);
     xhr.send();
+}
+
+function onDownloadsXhrChange(sharedSession) {
+    if (this.status != 200) {
+        if (!sharedSession) {
+            console.log("Request failed, retrying with shared session...");
+            getDownload(true);
+        } else {
+            console.log("Request failed, using server proxy...");
+            getFromServer();
+        }
+        return;
+    }
+
+    let response = JSON.parse(this.responseText);
+    console.log('Download response:', response);
+
+    if (response.Errors || response.ValidationContainer.Errors) {
+        if (!sharedSession) {
+            console.log("Request failed, retrying with shared session...");
+            getDownload(true);
+        } else {
+            console.log("Request failed, using server proxy...");
+            getFromServer();
+        }
+        return;
+    }
+
+    pleaseWait.style.display = "none";
+    msContent.innerHTML = "";
+    msContent.style.display = "block";
+
+    response.ProductDownloadOptions.forEach(option => {
+        let optionContainer = document.createElement('div');
+        let header = document.createElement('h1');
+        header.textContent = `Windows 11 ${option.LocalizedLanguage}`;
+        let downloadButton = document.createElement('a');
+        downloadButton.href = option.Uri;
+        downloadButton.textContent = getFileNameFromLink(option.Uri);
+        downloadButton.target = "_blank";
+        optionContainer.appendChild(downloadButton);
+        msContent.appendChild(optionContainer);
+
+        // Trigger automatic download
+        const link = document.createElement('a');
+        link.href = option.Uri;
+        link.download = getFileNameFromLink(option.Uri);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+}
+
+function getFromServer() {
+    console.log("Using server proxy to get the download link.");
+    let url = `${apiUrl}proxy?product_id=${winProductID}&sku_id=${skuId}`;
+    let xhr = new XMLHttpRequest();
+    xhr.onload = displayResponseFromServer;
+    xhr.open("GET", url, true);
+    xhr.send();
+}
+
+function displayResponseFromServer() {
+  if (this.status != 200) {
+      showError("Failed to retrieve download links from server.");
+      return;
+  }
+
+  const response = JSON.parse(this.responseText);
+  console.log('Server proxy response:', response);
+
+  // Check if ProductDownloadOptions array is present and has elements
+  if (!response.ProductDownloadOptions || response.ProductDownloadOptions.length === 0) {
+      showError("No download options available from server.");
+      return;
+  }
+
+  pleaseWait.style.display = "none";
+  msContent.innerHTML = "";
+  msContent.style.display = "block";
+
+  response.ProductDownloadOptions.forEach(option => {
+      if (option.Uri && option.Uri.includes('_x64')) {
+          let optionContainer = document.createElement('div');
+          let header = document.createElement('h1');
+          header.textContent = `Windows 11 ${option.LocalizedLanguage}`;
+          let downloadButton = document.createElement('a');
+          downloadButton.href = option.Uri;
+          downloadButton.textContent = getFileNameFromLink(option.Uri);
+          downloadButton.target = "_blank";
+          optionContainer.appendChild(downloadButton);
+          msContent.appendChild(optionContainer);
+
+          // Trigger automatic download
+          const link = document.createElement('a');
+          link.href = option.Uri;
+          link.download = getFileNameFromLink(option.Uri);
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+      }
+  });
 }
 
 function getWindows(id) {
@@ -208,7 +247,6 @@ function getWindows(id) {
     msContent = document.getElementById("msdl-ms-content");
     pleaseWait = document.getElementById("msdl-please-wait");
     processingError = document.getElementById("msdl-processing-error");
-    processingErrorText = document.getElementById("msdl-error-code");
     download = document.getElementById("msdl-download");
     downloadLink = document.getElementById("msdl-download-link");
 
@@ -216,14 +254,11 @@ function getWindows(id) {
     getLangFailCount = 0;
 
     // Start new session
-    // Always has a CORS error - can be ignored as we don't need the response from the request
     sessionId.value = uuidv4();
     const xhr = new XMLHttpRequest();
     xhr.open("GET", sessionUrl + sessionId.value, true);
     xhr.send();
 
-    // Check if user should use shared sesion
-    // This should ensure that the user doesn't invalidate the shared session
     let mxhr = new XMLHttpRequest();
     mxhr.onload = function () {
         if (this.status != 200) shouldUseSharedSession = false;
@@ -239,5 +274,5 @@ function getWindows(id) {
 
     // Retrieve languages
     winProductID = id;
-    getLanguages();
+    getLanguages(winProductID);
 }
