@@ -1,5 +1,5 @@
 ---
-description: Why is Roblox not opening?
+description: Why is Roblox not launching?
 icon: simple/roblox
 ---
 
@@ -24,7 +24,4 @@ Follow the methods below to fix the problem.
 3. Enable UAC
 
     - Open the Control Panel, search for `Change User Account Control settings` and set it to either Level 1, 2 or 3. **If UAC was disabled (set to Level 0), reinstall Roblox after enabling it.**
-    
-    !!! warning
 
-        Be sure to verify that all your important data has been moved before deleting the old account.
