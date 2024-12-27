@@ -3,17 +3,19 @@ description: Why is Roblox not opening?
 icon: simple/roblox
 ---
 
-# :simple-roblox: Why is Roblox not opening?
+# :simple-roblox: Why is Roblox not launching?
 
-**Some users may experience Roblox not opening on Atlas due to various factors.**
+**Some users may experience Roblox not launching on Atlas due to various factors.**
 
 Follow the methods below to fix the problem.
 
-1. Time skip to fix the issue
+1. Change time and date
 
     - Open the Start Menu, search for `Date & time settings` and toggle `Set the time automatically` off.
     
     - Click on `Change` and add one day to the date setting.
+
+    - After one day, you can re-enable the automatic time and date setting.
 
 2. Enable TPM and Secure Boot
 
