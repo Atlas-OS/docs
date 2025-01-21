@@ -13,7 +13,7 @@ Follow the methods below to fix the problem.
 
     - Open the Start Menu, search for `Date & time settings` and toggle `Set the time automatically` off.
     
-    - Click on `Change` and add one day (I.e. `Jan. 20th` --> `Jan 21th`) to the date setting.
+    - Click on `Change` and add one day (I.e. `Jan. 20th` --> `Jan. 21th`) to the date setting.
 
     - After one day, you can re-enable the automatic time and date setting.
 
