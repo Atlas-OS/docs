@@ -13,7 +13,7 @@ We presume you've already cloned the [`Atlas-OS/docs`](https://github.com/Atlas-
 
 ## :material-book-search: How the documentation is built
 
-[MkDocs Material](https://squidfunk.github.io/mkdocs-material/) is used to build the Atlas docs, which uses the following:
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) is used to build the Atlas docs, powered by the following:
 
 - YAML configuration
 - HTML, JavaScript, and CSS overrides
@@ -24,7 +24,7 @@ We presume you've already cloned the [`Atlas-OS/docs`](https://github.com/Atlas-
 
 ## :material-package-down: Prerequisites
 
-As MkDocs Material uses Python, you must install [Python](https://www.python.org/downloads/), including `pip`. Additionally, consider checking the VSCode extension recommendations.
+As Material for MkDocs uses Python, you must install [Python](https://www.python.org/downloads/), including `pip`. Additionally, consider checking the VSCode extension recommendations.
 
 ## :material-eye: Viewing your changes live
 
@@ -39,7 +39,7 @@ The docs will refresh on any page change and reflect what you've just saved.
 === "Non-Windows"
 
     1. Run `pip install -r local-requirements.txt` to install all the dependencies inside of the repository
-        - You might need to use a virtual environment or distro-specific packages for dependencies
+        - You might need to use a virtual environment like `pipenv` or distro-specific packages for dependencies
         - Consider checking the VSCode extension recommendations
     1. Run `mkdocs serve` to host the documentation preview
     1. Navigate to the URL it provides in the console
