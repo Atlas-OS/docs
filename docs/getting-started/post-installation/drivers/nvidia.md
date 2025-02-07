@@ -16,8 +16,9 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
     Go to [NVIDIA's advanced driver search](https://www.nvidia.com/download/find.aspx) and download the latest Game Ready Driver after selecting your hardware and operating system.
     Launch NVCleanstall, choose ``Use driver files on disk`` and locate the previously downloaded driver. Hit ``Next`` and continue with the installation.
 
-- **For Desktops:** Make sure that only ``Display Driver`` is checked and click ``Next``.
-- **For Laptops:** Check ``Display Driver`` and ``Optimus`` and click ``Next``. (More info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus))
+- **For Driver Versions 566.36 and above:** Make sure to check ``NvApp``.
+- **For Desktops:** Check ``Display Driver`` and click ``Next``.
+- **For Laptops:** Check ``Display Driver`` and check ``Optimus`` (If it's visible) and click ``Next``. (More info on [NVIDIA's Website](https://www.nvidia.com/en-us/geforce/technologies/optimus))
 
 - After the driver is downloaded tick the following:
     - Disable Installer Telemetry & Advertising
@@ -25,9 +26,8 @@ We recommend using NVCleanstall, as it is a GUI alternative to manually strippin
     - Disable [Multiplane Overlay (MPO)](https://docs.atlasos.net/getting-started/post-installation/drivers/amd/#disable-multi-plane-overlay-mpo)
     - Disable Driver Telemetry in ``Show Expert Tweaks``
     - Use method compatible with Easy-Anti-Cheat
-        - **This currently does not work on Windows 11 24H2!**
         - Automatically accept the "driver unsigned" warning
-- Click ``Install`` and continue with the NVIDIA driver installation as usual.
+- Click ``Install`` then select ``NVIDIA Graphics Card`` only and continue with the NVIDIA driver installation as usual.
 
 ## :material-cog: Configure NVIDIA Control Panel
 
