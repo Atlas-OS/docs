@@ -5,7 +5,7 @@ icon: material/book-edit
 
 # :material-book-edit: Contributing to the Atlas documentation
 
-This page will cover how to modify and locally view the Atlas documentation. This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
+This page will cover how to modify and locally view the Atlas documentation. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
 
 --8<-- "contribution-guidelines.md:gitNotice"
 
