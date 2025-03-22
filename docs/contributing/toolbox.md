@@ -7,6 +7,8 @@ icon: material/toolbox
 
 This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
 
+We presume you've already cloned the [`Atlas-OS/atlas-toolbox`](https://github.com/Atlas-OS/atlas-toolbox) repository.
+
 --8<-- "contribution-guidelines.md:gitNotice"
 
 ### What Atlas uses internally
