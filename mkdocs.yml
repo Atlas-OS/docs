@@ -92,6 +92,7 @@ nav:
     - Contribution Guidelines: contributing/contribution-guidelines.md
     - Documentation: contributing/documentation.md
     - Playbook: contributing/playbook.md
+    - Toolbox: contributing/toolbox.md
     
     - Testing:
       - What to test: contributing/testing/what-to-test.md
