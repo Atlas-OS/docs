@@ -36,6 +36,15 @@ The website that you are looking at. We made the Atlas documentation in [MkDocs 
 
 See the [documentation contribution guide](documentation.md) on how to get started.
 
+### Atlas Toolbox
+
+[:simple-github: GitHub Repository](https://github.com/Atlas-OS/toolbox){ .md-button }
+[:material-license: License (GPLv3)](https://github.com/Atlas-OS/toolbox/blob/main/LICENSE){ .md-button }
+[:material-tag: Releases](https://github.com/Atlas-OS/astlas-toolbox/releases){ .md-button }
+
+This repository contains the Atlas Toolbox's central source code, which is eventually published in a .msi installer.
+
+See the [AtlasOS Toolbox contribution guide](toolbox.md) on how to get started.
 ## :octicons-issue-closed-24: How our GitHub Issues work
 
 For transparency with users, we keep issues that affect the current release open and label them with the **fixed next release**.
