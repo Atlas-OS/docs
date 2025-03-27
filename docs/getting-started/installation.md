@@ -46,10 +46,9 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-??? grey-tip "Alternatives"
 
     !!! tip 
-        Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
+        Even though the downloader we use in our docs use Microsoft's servers (currently broken), you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
 
     <div id="official-microsoft-sources"></div>
     === "Official Microsoft Sources"
@@ -79,7 +78,7 @@ See the alternatives below.
         1. After the ISO has completed downloading, click **Finish**
 
 <!-- --8<-- [end:iso1] -->
-{% include 'msdl.md' %}
+
 
 
 <!-- --8<-- [start:drivers] -->
