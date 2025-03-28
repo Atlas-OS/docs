@@ -79,6 +79,7 @@ plugins:
       'faq-and-troubleshooting/common-questions/roblox-not-opening.md': 'general-faq/roblox-not-opening.md'
       'faq-and-troubleshooting/common-questions/fifa-and-eafc-not-launching.md': 'general-faq/fifa-and-eafc-not-launching.md'
       'faq-and-troubleshooting/common-questions/verify-iso-integrity.md': 'general-faq/verify-iso-integrity.md'
+      'faq-and-troubleshooting/common-questions/what-can-atlas-be-applied-on.md': general-faq/what-can-atlas-be-applied-on.md
 
         # 'Troubleshooting' moved to Atlas Configuration
       'faq-and-troubleshooting/common-questions/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'

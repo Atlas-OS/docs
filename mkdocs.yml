@@ -88,6 +88,7 @@ nav:
     - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
     - Shortcuts show up as .url files: general-faq/game-url-files.md
     - Verify ISO integrity: general-faq/verify-iso-integrity.md
+    - What can Atlas be applied on?: general-faq/what-can-atlas-be-applied-on.md
 
   - Development:
     - Contribution Guidelines: contributing/contribution-guidelines.md
