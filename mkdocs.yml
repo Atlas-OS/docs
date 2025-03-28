@@ -87,6 +87,7 @@ nav:
     - Roblox not launching: general-faq/roblox-not-launching.md
     - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
     - Shortcuts show up as .url files: general-faq/game-url-files.md
+    - Verify ISO integrity: general-faq/verify-iso-integrity.md
 
   - Development:
     - Contribution Guidelines: contributing/contribution-guidelines.md
