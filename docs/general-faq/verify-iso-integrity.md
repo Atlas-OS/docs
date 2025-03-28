@@ -22,7 +22,7 @@ Verifying your ISO ensures:
     ```cmd
     certutil -hashfile <path_to_iso> SHA256
     ```
-4. Download the ISO file twice from the same source.  
+3. Download the ISO file twice from the same source.  
     Compare the hash values of both downloads using the command provided above.  
     If the hash values match, your ISO file is intact and safe to use. If they do not match, try downloading the file again and repeat the verification process.
 
