@@ -27,7 +27,7 @@ For the best results, please use one of these supported stable builds.
     • **Release Preview**
 
 Only the latest non‑beta, non‑Insider versions are supported.  
-Insider builds **are not** designed for **stability**, may include untested bugs, and require extra diagnostic data to be sent to Microsoft.
+Insider builds **are not** designed for **stability**. They may include untested bugs and require additional diagnostic data to be sent to Microsoft.
 
 ---
 
