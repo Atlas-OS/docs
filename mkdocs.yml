@@ -66,6 +66,7 @@ nav:
     - Windows Home Support: install-faq/windows-home.md
     - Atlas ISO files: install-faq/atlas-iso-files.md
     - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
+    - Enabling TPM 2.0: general-faq/enabling-tpm.md
     - Reverting Atlas: getting-started/reverting-atlas.md
       # discord_friendly_name: ['revert', 'uninstall-atlas']
     - AME Wizard Errors:
@@ -75,19 +76,29 @@ nav:
       - Can't Disable Defender: install-faq/ame-wizard-errors/cant-disable-defender.md
 
   - General FAQ:
+    # Top-level common FAQs
     - Atlas and Security: general-faq/atlas-and-security.md
+    - Checking Atlas Version: general-faq/checking-atlas-version.md
     - Updating Atlas: general-faq/updating-atlas.md
-    - Atlas Folder Missing: general-faq/atlas-folder-missing.md
-    - Windows Update Errors: general-faq/windows-update-errors.md
-    - Testing Nightly Builds: general-faq/testing-nightly-builds.md
-    - Bluetooth Compatibility: general-faq/bluetooth-compatibility.md
-    - iTunes Compatibility: general-faq/itunes-compatibility.md
-    - Installing the Media Pack: general-faq/media-pack-not-found.md
-    - Microsoft Store: general-faq/microsoft-store.md
-    - Roblox not launching: general-faq/roblox-not-launching.md
-    - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
-    - Shortcuts show up as .url files: general-faq/game-url-files.md
-    - Verify ISO integrity: general-faq/verify-iso-integrity.md
+    - Upgrading Windows Version: general-faq/upgrading-windows-version.md
+    - Windows 10 vs 11: general-faq/windows-10-vs-11.md
+    - Installation & Data Loss: general-faq/installation-data-loss.md
+    - Microsoft Account Usage: general-faq/microsoft-account-usage.md
+    # Sub-sections for other FAQs
+    - Troubleshooting:
+      - Resetting Atlas: general-faq/resetting-atlas.md
+      - Atlas Folder Missing: general-faq/atlas-folder-missing.md
+      - Windows Update Errors: general-faq/windows-update-errors.md
+      - Bluetooth Compatibility: general-faq/bluetooth-compatibility.md
+      - iTunes Compatibility: general-faq/itunes-compatibility.md
+      - Installing the Media Pack: general-faq/media-pack-not-found.md
+      - Microsoft Store: general-faq/microsoft-store.md
+      - Roblox not launching: general-faq/roblox-not-launching.md
+      - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
+      - Shortcuts show up as .url files: general-faq/game-url-files.md
+    - Advanced Topics:
+      - Verify ISO integrity: general-faq/verify-iso-integrity.md
+      - Testing Nightly Builds: general-faq/testing-nightly-builds.md
 
   - Development:
     - Contribution Guidelines: contributing/contribution-guidelines.md
