@@ -216,9 +216,8 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
         === "Keeping data (recommended)"
             !!! note "Previous Windows data"
                 <!-- --8<-- [end:reinstalling2] -->
-            --8<-- "installation.md:windowsOldNotice" -->
-            <!-- --8<-- [start:reinstalling3] -->
-
+                <!-- --8<-- "installation.md:windowsOldNotice" -->
+                <!-- --8<-- [start:reinstalling3] -->
             - Identify the disk partition you want to install Windows to by looking at the total sizes, then select it
             - Click **Next**, then click **OK** to the warning about `Windows.old`
 
