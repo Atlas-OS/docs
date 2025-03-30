@@ -131,6 +131,10 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
         - [Windows Pro](../install-faq/windows-version-support.md#which-windows-editions-are-supported) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
         - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything
     <!-- --8<-- [end:atlasEditions] -->
+
+    !!! note "Windows 11 Requirement Error?"
+        If installing Windows 11 and you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../general-faq/enabling-tpm.md)
+
     <!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
@@ -199,6 +203,10 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Choose your Windows edition
     <!-- --8<-- [end:reinstalling1] -->
 --8<-- "installation.md:atlasEditions"
+
+    !!! note "Windows 11 Requirement Error?"
+        If installing Windows 11 and you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../general-faq/enabling-tpm.md)
+
     <!-- --8<-- [start:reinstalling2] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
@@ -208,7 +216,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
         === "Keeping data (recommended)"
             !!! note "Previous Windows data"
                 <!-- --8<-- [end:reinstalling2] -->
-            --8<-- "installation.md:windowsOldNotice"
+            --8<-- "installation.md:windowsOldNotice" -->
             <!-- --8<-- [start:reinstalling3] -->
 
             - Identify the disk partition you want to install Windows to by looking at the total sizes, then select it
