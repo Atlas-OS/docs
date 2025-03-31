@@ -3,7 +3,7 @@ description: How secure is AtlasOS?
 icon: material/shield
 ---
 
-# :material-shield: How secure is Atlas?
+# :material-shield: How secure is AtlasOS?
 
 **Atlas aims to be as secure as you want, including the ability to toggle Windows Defender, [mitigations](../getting-started/post-installation/atlas-folder/security.md#mitigations), and automatic Windows updates freely.**
 
