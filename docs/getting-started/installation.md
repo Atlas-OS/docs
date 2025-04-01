@@ -251,8 +251,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
         1. Once the setup starts, select your language and then your keyboard layout
         1. Press ++shift+f10++ to open Command Prompt
         1. Type in `start ms-cxh:localonly`, press ++enter++
-        1. Enter in your username, password, and security questions 
-            - Press **Next** and wait for Windows to finish setting up
+        1. Enter your username, password, and security questions 
             - Deny each option in the **Privacy** section and press **Accept**
 
 
