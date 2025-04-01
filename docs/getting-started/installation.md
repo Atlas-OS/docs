@@ -250,11 +250,11 @@ You can either watch the video or use the 'Written Instructions' for this sectio
     ??? info "Written Instructions"
         1. Once the setup starts, select your language and then your keyboard layout
         1. Press ++shift+f10++ to open Command Prompt
-        1. Type in `oobe\bypassnro`, press ++enter++, and wait for your computer to restart
-            - This step is not necessary if you are using Ventoy
-        1. Continue through with setup, but:
-            - Do not connect to the internet
-            - Deny each option in the **Privacy** section
+        1. Type in `start ms-cxh:localonly`, press ++enter++
+        1. Enter in your username, password, and security questions 
+            - Press **Next** and wait for Windows to finish setting up
+            - Deny each option in the **Privacy** section and press **Accept**
+
 
     <center>
         <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
