@@ -110,6 +110,7 @@ function langJsonStrToHTML(jsonStr) {
     button.textContent = "Download";
     button.disabled = true;
     button.setAttribute("onClick", "getDownload();");
+    button.classList = "msdl-button";
     container.appendChild(button);
 
     return container.innerHTML;
