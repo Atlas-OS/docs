@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Installing Atlas OS
 description: The official AtlasOS playbook installation guide
 icon: material/cogs
 ---
