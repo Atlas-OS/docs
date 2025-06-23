@@ -58,6 +58,8 @@ nav:
       - Security: getting-started/post-installation/atlas-folder/security.md
       - Troubleshooting: getting-started/post-installation/atlas-folder/troubleshooting.md
 
+  - Upgrading Atlas: getting-started/upgrading.md
+
   - Install FAQ:
     - What's removed?: install-faq/removed-features.md
       # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
