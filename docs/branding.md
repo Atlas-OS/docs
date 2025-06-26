@@ -14,8 +14,8 @@ We make all our brand assets available to the public in various formats and size
     The utilization of our branding assets is subject to our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/atlas_brand_guidelines.pdf). We kindly request that you adhere to these guidelines to apply the AtlasOS branding appropriately.
 
 ## Logomarks
-<center>
-<div class="grid cards" markdown>
+
+<div style="text-align: center;" class="grid cards" markdown>
 
 -   ![AtlasOS Ice Logomark](assets/brand/preview/logomark/preview-logomark-ice.png){ width=250 loading=lazy }
 
@@ -68,11 +68,11 @@ We make all our brand assets available to the public in various formats and size
     [:material-download: PDF](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/logomark/black/Logomark%20-%20Black%20Black.pdf)
 
 </div>
-</center>
+
 
 ## Wordmarks
-<center>
-<div class="grid cards" markdown>
+
+<div style="text-align: center;" class="grid cards" markdown>
 
 -   ![AtlasOS Ice Wordmark](assets/brand/preview/wordmark/preview-wordmark-ice.png){ width=250 loading=lazy }
 
@@ -125,11 +125,10 @@ We make all our brand assets available to the public in various formats and size
     [:material-download: PDF](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wordmark/black/Wordmark%20-%20Black.pdf)
 
 </div>
-</center>
 
 ## Icon
-<center>
-<div class="grid cards" markdown>
+
+<div style="text-align: center;" class="grid cards" markdown>
 
 -   ![AtlasOS Ice Icon](assets/brand/preview/icons/preview-icon-ice.png){ width=128 loading=lazy }
 
@@ -182,11 +181,10 @@ We make all our brand assets available to the public in various formats and size
     [:material-download: PDF](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/icons/black/Icon%20-%20Black.pdf)
 
 </div>
-</center>
 
 ## Avatars
-<center>
-<div class="grid cards" markdown>
+
+<div style="text-align: center;" class="grid cards" markdown>
 
 -   ![AtlasOS GitHub Banner Version 1](assets/brand/preview/avatars/preview-avatar-v1.png){ width=128 loading=lazy style="border-radius:5%" }
 
@@ -205,7 +203,6 @@ We make all our brand assets available to the public in various formats and size
     [:material-download: PNG (460x460)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/avatars/avatar-v2.png)
 
 </div>
-</center>
 
 ## Banners
 
