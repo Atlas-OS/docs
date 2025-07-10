@@ -38,9 +38,9 @@ See the [documentation contribution guide](documentation.md) on how to get start
 
 ### Atlas Toolbox
 
-[:simple-github: GitHub Repository](https://github.com/Atlas-OS/toolbox){ .md-button }
-[:material-license: License (GPLv3)](https://github.com/Atlas-OS/toolbox/blob/main/LICENSE){ .md-button }
-[:material-tag: Releases](https://github.com/Atlas-OS/astlas-toolbox/releases){ .md-button }
+[:simple-github: GitHub Repository](https://github.com/Atlas-OS/atlas-toolbox){ .md-button }
+[:material-license: License (GPLv3)](https://github.com/Atlas-OS/atlas-toolbox/blob/main/LICENSE){ .md-button }
+[:material-tag: Releases](https://github.com/Atlas-OS/atlas-toolbox/releases){ .md-button }
 
 This repository contains the Atlas Toolbox's central source code, which is eventually published in a .msi installer.
 
