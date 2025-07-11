@@ -1,4 +1,4 @@
-// AGPL-3.0-only https://spdx.org/licenses/AGPL-3.0-or-later.html
+// AGPL-3.0-or-later https://spdx.org/licenses/AGPL-3.0-or-later.html
 // Modified from https://github.com/gravesoft/msdl for use in AtlasOS documentation
 //
 // Changes:
