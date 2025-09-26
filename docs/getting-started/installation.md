@@ -311,8 +311,6 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
     To read more about this, view our [**AME Wizard Deleted**](../install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
 
-**If you have chosen [**Manual Driver Installation**](#driver-updates)**, run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
-
 1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, click **Resume Updates** to follow this step
     - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../general-faq/windows-update-errors.md#windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
 
@@ -327,6 +325,9 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Extract both downloads to your desktop
 
+    !!! note "Manual Driver installation"
+		**If you have chosen [**Manual Driver Installation**](#driver-updates)**, run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
+	
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
     1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../install-faq/ame-wizard-errors/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
     1. Click on **Updates** at the top and make sure AME Wizard is up to date
