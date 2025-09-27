@@ -325,7 +325,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Extract both downloads to your desktop
 
-    !!! note "Manual Driver installation"
+    !!! info ""
 		**If you have chosen [**Manual Driver Installation**](#driver-updates)**, run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
 	
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
