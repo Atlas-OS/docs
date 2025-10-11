@@ -50,6 +50,7 @@ See the alternatives below.
     Downloading Windows 11 from Microsoft's website will get you Windows 11 25H2, which is not yet supported by Atlas. 
     
 ??? grey-tip "Alternatives (Windows 10 Only)"
+
     !!! tip 
         Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
         
