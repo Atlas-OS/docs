@@ -46,13 +46,13 @@ See the alternatives below.
 !!! question "Which version should I choose?"
     If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-??? grey-tip "Alternatives"
+!!! warning "Please download Windows 11 using the button below"
+    Downloading Windows 11 from Microsoft's website will get yoy Windows 11 25H2, which is not yet supported by Atlas. 
+    
+??? grey-tip "Alternatives (Windows 10 Only)"
     !!! tip 
         Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
-
-    !!! warning
-        Both of the following alternative download methods will download the 25H2 version of Windows 11, which is not yet supported by Atlas. Please use the "Download Windows 11 24H2" button below this section instead.
-
+        
     <div id="official-microsoft-sources"></div>
     === "Official Microsoft Sources"
 
