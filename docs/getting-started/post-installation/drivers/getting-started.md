@@ -28,7 +28,7 @@ If you are unsure of the drivers required for each device, look up your hardware
     
     For example, if you have an Intel CPU with integrated graphics and an NVIDIA GPU, you must install both the Intel and NVIDIA drivers. This is most commonly the case with gaming/studio laptops.
 
-We do not recommend installing your graphics drivers via SDIO as they can be heavily debloated. We have included installation guides for popular graphics card brands below:
+We do not recommend installing your graphics drivers via SDIO as they can be heavily bloated. We have included installation guides for popular graphics card brands below:
 
 * [NVIDIA ->](../drivers/nvidia.md)
 * [AMD ->](../drivers/amd.md)

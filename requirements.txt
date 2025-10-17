@@ -1,4 +1,4 @@
-git+https://${ATLAS_ADMIN}@github.com/Atlas-OS/mkdocs-material-insiders.git
+mkdocs-material
 pillow
 cairosvg
 

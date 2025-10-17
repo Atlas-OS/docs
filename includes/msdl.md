@@ -35,5 +35,5 @@
 
 <input id="msdl-session-id" type="hidden">
 
-:simple-github: **Credit to the** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl) **project**
+ **Script Licensed under [AGPL-3.0](https://spdx.org/licenses/AGPL-3.0-or-later.html)**<br>:simple-github: **Credit to the** [Microsoft Software Download Listing](https://github.com/gravesoft/msdl) **project**
 </center>
