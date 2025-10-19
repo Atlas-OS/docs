@@ -1,21 +1,7 @@
 ---
-title: Upgrading AtlasOS
-description: How to upgrade an existing AtlasOS installation to a newer version without reinstalling Windows.
-icon: material/rocket-launch
+title: 1. Update
+description: 
 ---
-
-# :material-rocket-launch: Upgrading AtlasOS
-
-> **TLDR:** If you're already running AtlasOS **v0.4.x or later**, you can upgrade straight to a newer version (for example v0.5.x) with AME Wizard. Clean installs are not required, but are still recommended.  
-
-## Requirements
-
-* Your PC must currently have **AtlasOS 0.4.x or newer** installed.  
-  Users on **0.3.x** need to perform a fresh install instead.
-* The latest **AME Wizard** executable.  
-* The **new Atlas Playbook** (`.apbx`) you want to upgrade to (e.g. `Atlas Playbook 0.5.x`).
-
-## Step-by-step guide
 
 1. **Download assets**  
    Grab the newest Atlas Playbook and AME Wizard from the [AtlasOS website](https://atlasos.net) (or the same links used in the installation guide).
@@ -42,3 +28,4 @@ icon: material/rocket-launch
 ---
 
 Need help? Ask in the [:simple-discord: Discord server](https://discord.atlasos.net) or open a topic on [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions). 
+

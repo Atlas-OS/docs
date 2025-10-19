@@ -1,98 +1,9 @@
 ---
-title: Installation
-description: The official AtlasOS playbook installation guide
-icon: material/cogs
+title: 2a. Install with Playbook
+description: 
 ---
 
-# :material-package-down: Installing AtlasOS
-
-This guide will walk you through fully reinstalling Windows, installing Atlas on top of it, and completing other necessary steps. A full Windows reinstall is needed to ensure stability during the initial installation of Atlas.
-
-Before continuing, we recommend reviewing our page to see [who Atlas is for](../install-faq/who-is-atlas-for.md).
-
-<!-- --8<-- [start:style] -->
-<style>
-    h2 strong, h3 strong {
-        color: var(--md-typeset-a-color);
-    }
-</style>
-<!-- --8<-- [end:style] -->
-
-## **0.** :material-clipboard-list-outline: Prerequisites
-
-!!! danger "Atlas requires a full Windows reinstall to uninstall"
-    As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](reverting-atlas.md).
-
-- Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1) or [Windows 10](https://www.microsoft.com/windows/windows-10-specifications#primaryR2)
-    - We don't recommend bypassing Windows 11's requirements due to potential problems with updates and game anti-cheats
-- 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
-    - If you have an ARM-based CPU, you can only use Atlas with Windows 11
-- Knowledge of general Windows troubleshooting and usage
-
-<!-- --8<-- [start:iso] -->
-## **1.** :material-disc: Download an ISO
-<!-- --8<-- [end:iso] -->
-
-Before installing Atlas, you need to reinstall Windows. <!-- --8<-- [start:iso1] -->
-To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
-
-<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel and AMD CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span> ARM ISOs have to be [built manually](https://uupdump.net/fetchupd.php?arch=arm64&ring=retail&build=22631.1).
-
-<noscript>
-<b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
-See the alternatives below.
-</noscript>
-
-!!! question "Which version should I choose?"
-    If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
-
-!!! warning "Please download Windows 11 using the button below"
-    Downloading Windows 11 from Microsoft's website will get you Windows 11 25H2, which is not yet supported by Atlas. 
-    
-??? grey-tip "Alternatives (Windows 10 Only)"
-
-    !!! tip 
-        Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
-        
-    <div id="official-microsoft-sources"></div>
-    === "Official Microsoft Sources"
-
-        ### [Windows 10 :material-download:](https://www.microsoft.com/en-us/software-download/windows10ISO)
-
-        - Click the link abvove and select **Windows 10 (multi-edition ISO)** and click **Confirm.**
-        - Select your desired language and press confirm.
-        - Click **64-bit Download** to begin your download.
-
-    === "Windows Media Creation Tool"
-
-        1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool, then open it
-        1. Click the **Accept** button to agree to the Microsoft license terms
-        1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
-            - **Language:** Your desired language
-            - **Edition:** Windows 10
-            - **Architecture (Windows 10 only):** 64-bit (x64)
-        1. Choose the **ISO file** option, then choose the download location
-        1. After the ISO has completed downloading, click **Finish**
-
-<!-- --8<-- [end:iso1] -->
-{% include 'msdl.md' %}
-
-<!-- --8<-- [start:drivers] -->
-## **2.** :material-ethernet: Network Drivers
-
-By default, Windows may not have your computer's network drivers, meaning after reinstalling, your computer could have no internet connection.
-
-For this reason, we **strongly** recommend that you do one of the following:
-
-- Download your network drivers beforehand and store them on external storage
-- Have the ability to download and transfer network drivers from another device later
-
-!!! question "Where do I get my network drivers?"
-    You can find your computer's network drivers online by searching for your device or motherboard's official support page. If you can't find it, try searching online for your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available, download them all.
-<!-- --8<-- [end:drivers] -->
-
-<!-- --8<-- [start:reinstalling] -->
-## **3.** :material-microsoft-windows: Reinstalling Windows
+## :material-microsoft-windows: **2a.1** Reinstalling Windows
 
 Before continuing, we **strongly** recommend you back up any valuable data to an external drive or [a cloud service](https://mega.io/).
 
@@ -239,37 +150,25 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Wait for Windows to install
 <!-- --8<-- [end:reinstalling3] -->
 
-### **3.1.** :material-cog: Initial setup (OOBE)
+## :material-cog: **2a.2** Initial setup (OOBE)
 
 You can either watch the video or use the 'Written Instructions' for this section.
 
-=== "Windows 11"
-    ??? info "Written Instructions"
-        1. Once the setup starts, select your language and then your keyboard layout
-        1. Press ++shift+f10++ to open Command Prompt
-        1. Type in `start ms-cxh:localonly`, press ++enter++
-        1. Enter your username, password, and security questions 
-            - Deny each option in the **Privacy** section and press **Accept**
-
+=== "Video"
 
     <center>
         <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
     </center>
 
-=== "Windows 10"
-    ??? info "Written Instructions"
-        Go through the setup, but make sure to:
+=== "Written Instructions"
 
-        - Click **I don't have internet** when prompted to connect to the internet
-        - Click **Continue with limited setup** or **Domain join** after the 'Internet' page
-        - Deny each option in the **Privacy** section
-        - Deny Cortana
+    1. Once the setup starts, select your language and then your keyboard layout
+    2. Press ++shift+f10++ to open Command Prompt
+    3. Type in `start ms-cxh:localonly`, press ++enter++
+    4. Enter your username, password, and security questions 
+            - Deny each option in the **Privacy** section and press **Accept**
 
-    <center>
-        <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
-    </center>
-
-## **4.** :material-screwdriver: Driver Updates
+## :material-screwdriver: **2a.3** Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
@@ -301,7 +200,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
     
     1. Move on to the next section
 
-## **5.** :material-wrench-cog-outline: Installing AtlasOS
+## :material-wrench-cog-outline: **2a.4** Installing AtlasOS
 
 ??? danger "AME Wizard suddenly closing or being deleted?"
     Especially when a new version of AME Wizard is released, you might need to add AME Wizard as an exclusion or turn off **Real-time protection** in Windows Security. 
@@ -332,7 +231,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Follow the on-screen instructions from AME Wizard to install the Atlas Playbook
 
-### **5.1.** :material-microsoft-windows-classic: Your old Windows installation
+## :material-microsoft-windows-classic: **2a.5** Your old Windows installation
 <!-- --8<-- [start:oldinstall] -->
 
 If you previously followed steps that mentioned a `Windows.old` folder, you can find your previous Windows data at the start of your Windows drive in `Windows.old`. 
@@ -344,21 +243,9 @@ When you're sure that you've retrieved any valuable data from it, follow these s
 1. Select **Previous version of Windows**, and then click **Remove files**
 <!-- --8<-- [end:oldinstall] -->
 
-## **6.** :material-package-variant-closed-plus: Getting your drivers
 
-You've almost finished setting up Atlas!
+<div class="grid cards" markdown>
 
-- **Manual Driver Installation:** If you previously chose this, we recommend seeing [our post-installation driver guide](post-installation/drivers/getting-started.md) to help set up the needed drivers.
+-   #### Next: **[-> Setting up Atlas](/getting-started/install/setting-up)**
 
-- **Driver Installation & Updates from Windows Update:** If you previously chose this, get drivers by manually checking for Windows Updates. To get them automatically, enable [automatic Windows Updates](../getting-started/post-installation/atlas-folder/general-configuration.md#automatic-updates).
-
-## **7.** :material-flag-checkered: All done!
-
-If you need any help, you can find links below to a large community of individuals who are dedicated to helping others, as well as a few other areas of the documentation.
-
-We hope you enjoy using AtlasOS! :smile:
-
-- [:material-download: Install your Drivers](post-installation/drivers/getting-started.md)
-- [:material-cog: Configure your Atlas installation](post-installation/atlas-folder/general-configuration.md)
-- [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
-- [:material-chat-question: FAQ & Troubleshooting](../install-faq/removed-features.md)
+</div>
