@@ -169,14 +169,15 @@ extra:
   msdl:
     win11: 
       version: 25H2
-      archetecture: x86_64
+      architecture: x86_64
       pid: 3113
     win11arm: 
       version: 25H2
-      archetecture: ARM64
+      architecture: ARM64
       pid: 3265
     win10: 
       version: 22H2
+      architecture: x86_64
       pid: 2618
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
