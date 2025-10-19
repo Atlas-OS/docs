@@ -199,8 +199,8 @@ extra:
     release: 0.4.1
   msdl:
     win11: 
-      version: 24H2
-      pid: 3113
+      version: 25H2
+      pid: 3262
     win10: 
       version: 22H2
       pid: 2618
