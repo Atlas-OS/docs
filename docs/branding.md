@@ -266,24 +266,24 @@ We make all our brand assets available to the public in various formats and size
 
 #### Rev 1
 
-=== "v0.5 Rev 1.0 (dark)"
-    ![preview-wallpaper-v0.4-rev1.0](assets/brand/preview/wallpapers/v0.5/rev-1/dark/preview-wallpaper-v0.5-rev1.0.png){ width=830 loading=lazy }
+=== "v0.5 Rev 1.0"
+    ![preview-wallpaper-v0.4-rev1.0](assets/brand/preview/wallpapers/v0.5/rev-1/preview-wallpaper-v0.5-rev1.0.png){ width=830 loading=lazy }
 
     <div style="text-align: center;" class="grid" markdown>
-    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/dark/wallpaper-v0.5-rev1.0-4_3.png){ .card }
-    [:material-download: PNG 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/dark/wallpaper-v0.5-rev1.0-16_9.png){ .card }
-    [:material-download: PNG 16:10 (3840x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/dark/wallpaper-v0.5-rev1.0-16_10.png){ .card }
-    [:material-download: PNG 21:9 (5040x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/dark/wallpaper-v0.5-rev1.0-21_9.png){ .card }
+    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.0-4_3.png){ .card }
+    [:material-download: PNG 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.0-16_9.png){ .card }
+    [:material-download: PNG 16:10 (3840x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.0-16_10.png){ .card }
+    [:material-download: PNG 21:9 (5040x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.0-21_9.png){ .card }
     </div>
 
-=== "v0.5 Rev 1.0 (light)"
-    ![preview-wallpaper-v0.4-rev1.0](assets/brand/preview/wallpapers/v0.5/rev-1/light/preview-wallpaper-v0.5-rev1.0.png){ width=830 loading=lazy }
+=== "v0.5 Rev 1.1"
+    ![preview-wallpaper-v0.4-rev1.0](assets/brand/preview/wallpapers/v0.5/rev-1/preview-wallpaper-v0.5-rev1.1.png){ width=830 loading=lazy }
 
     <div style="text-align: center;" class="grid" markdown>
-    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/light/wallpaper-v0.5-rev1.0-4_3.png){ .card }
-    [:material-download: PNG 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/light/wallpaper-v0.5-rev1.0-16_9.png){ .card }
-    [:material-download: PNG 16:10 (3840x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/light/wallpaper-v0.5-rev1.0-16_10.png){ .card }
-    [:material-download: PNG 21:9 (5040x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/light/wallpaper-v0.5-rev1.0-21_9.png){ .card }
+    [:material-download: PNG 4:3 (3072x2304)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.1-4_3.png){ .card }
+    [:material-download: PNG 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.1-16_9.png){ .card }
+    [:material-download: PNG 16:10 (3840x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.1-16_10.png){ .card }
+    [:material-download: PNG 21:9 (5040x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/v0.5/rev-1/wallpaper-v0.5-rev1.1-21_9.png){ .card }
     </div>
 
 ### Atlas v0.4
