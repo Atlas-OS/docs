@@ -15,7 +15,6 @@
 <center markdown class="noJs centerMsdl">
 <div class="msdl-button-container">
     <button markdown class="msdl-button" style="margin-right: 2px" onclick="getWindows({{ msdl.win11.pid }});">Download Windows 11 {{ msdl.win11.version }}</button>
-    <button markdown class="msdl-button" style="margin-left: 2px" onclick="getWindows({{ msdl.win10.pid }});">Download Windows 10 {{ msdl.win10.version }}</button>
 </div>
 
 <div id="msdl-ms-content"></div>

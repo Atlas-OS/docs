@@ -18,7 +18,6 @@ Running an operating system without security updates poses a significant securit
 AtlasOS development prioritizes compatibility and optimization for the **latest supported Windows versions**, which is currently Windows 11.
 
 *   **Primary Focus:** Windows 11 receives the primary focus for development, testing, and new features.
-*   **Secondary Support for Windows 10:** While Windows 10 is supported for now, it is considered secondary.
 *   **End of Atlas Support for Win10:** AtlasOS will **cease support for Windows 10** in alignment with Microsoft's end-of-life date (October 14, 2025). Future Atlas releases beyond this date may not be compatible with or tested on Windows 10.
 
 ## :material-check-decagram-outline: Conclusion: Use Windows 11

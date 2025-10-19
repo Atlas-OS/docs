@@ -5,7 +5,7 @@ icon: material/list-status
 
 # :material-list-status: Which Windows versions does Atlas support?
 
-Atlas is designed to work on specific, stable Windows builds to ensure a reliable experience. **Atlas supports the latest stable Windows 10 and 11 versions in the same download.** However, [Windows Home editions aren't supported](windows-home.md).
+Atlas is designed to work on specific, stable Windows builds to ensure a reliable experience. **Atlas supports the latest stable Windows 11 versions in the same download.** However, [Windows Home editions aren't supported](windows-home.md).
 
 ---
 
@@ -14,7 +14,6 @@ Atlas is designed to work on specific, stable Windows builds to ensure a reliabl
 As of the latest version, Atlas only supports:
   
 - **Windows 11:** {{ msdl.win11.version }} 
-- **Windows 10:** {{ msdl.win10.version }}
 - **Windows 11 ARM:** {{ msdl.win11.version }} 
 
 For the best results, please use one of these supported stable builds.

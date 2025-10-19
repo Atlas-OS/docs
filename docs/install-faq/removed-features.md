@@ -36,7 +36,7 @@ These components require manual tweaking to re-enable and are not tested.
 These can be reinstalled after installation, but are removed by default.
 
 - **Internet Explorer**<br/>
-  Only on Windows 10, can be re-enabled as an optional feature
+  Can be re-enabled as an optional feature
 - **OneDrive**<br/>
   If it's set up, it's not removed. This is to prevent data loss
 - **Microsoft Edge**<br/>
@@ -47,7 +47,7 @@ These can be reinstalled after installation, but are removed by default.
 - **Legacy Windows Media Player**<br/>
   Replaced by modern player - can be re-enabled as an optional feature
 - **Maths Recognizer**<br/>
-  Only on stock Windows 10 by default, can be enabled as an optional feature
+  Can be enabled as an optional feature
 
 ### Microsoft Store Apps
 

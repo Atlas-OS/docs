@@ -8,7 +8,7 @@ icon: material/camera
 
 ## Snipping Tool
 
-The modern Snipping Tool app is in Windows by default, called 'Snip & Sketch' on Windows 10, replacing the legacy Snipping Tool in Windows 11. You were asked if you wanted to remove it from Atlas during the initial configuration. However, you can still reinstall it using the link provided below.
+The modern Snipping Tool app is in Windows by default, called 'Snip & Sketch' starting from Windows 10, replacing the legacy Snipping Tool in Windows 11. You were asked if you wanted to remove it from Atlas during the initial configuration. However, you can still reinstall it using the link provided below.
 
 `winget install -e --id 9MZ95KL8MR0L`
 
