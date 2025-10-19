@@ -1,4 +1,5 @@
 ---
+title: Branding
 description: See the official branding and wallpapers for AtlasOS
 icon: material/palette
 ---
