@@ -1,29 +1,27 @@
 ---
-title: Home
 description: The official documentation for AtlasOS
 icon: material/home
 ---
-
 
 # :material-home: AtlasOS Documentation
 
 <div class="grid cards" markdown>
 
--   :material-power:{ .lg .middle } __Install / Upgrade Atlas__
+-   :material-power:{ .lg .middle } __Install AtlasOS__
 
     ---
 
     Get started with setting up AtlasOS on your system in just a few minutes.
 
-    [-> Install / Upgrade](getting-started/index.md)
+    [-> Install AtlasOS](getting-started/installation.md)
 
--   :material-wrench:{ .lg .middle } __Post Install__
+-   :material-wrench:{ .lg .middle } __Post Installation__
 
     ---
 
-    Complete common post-installation tasks and optimize it for your daily use.
+    Customize and tweak your AtlasOS installation to your liking.
 
-    [-> Install / Upgrade](getting-started/index.md)
+    [-> Post Installation](getting-started/post-installation/atlas-folder/general-configuration.md)
 
 -   :material-chat-question:{ .lg .middle } __Frequently Asked Questions__
 
