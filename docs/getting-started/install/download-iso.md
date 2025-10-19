@@ -20,9 +20,9 @@ See the alternatives below.
 </noscript>
 
 !!! question "Which version should I choose?"
-    If you are using a **Intel or AMD CPU** with the `x86_64` archetecture, Download the x86_64 version.
+    If you are using a **Intel or AMD CPU** with the `x86_64` architecture, Download the x86_64 version.
 
-    If you are using a **Snapdragon SoC** with the `ARM64` archetecture, Download the ARM64 version.
+    If you are using a **Snapdragon SoC** with the `ARM64` architecture, Download the ARM64 version.
 
 ??? grey-tip "Alternatives"
 

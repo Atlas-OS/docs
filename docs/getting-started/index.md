@@ -11,7 +11,7 @@ Choose your way to start your AtlasOS Journey!
 
     ---
 
-    For systems that does not have atlas installed, or matching anything below.
+    For systems that do not have atlas installed, or matching anything below.
 
     **Situations:**
 
@@ -26,7 +26,7 @@ Choose your way to start your AtlasOS Journey!
 
     ---
 
-    For Systems that currently have Atlas installed.
+    For systems that currently have Atlas installed.
 
     **Requirements:**
 

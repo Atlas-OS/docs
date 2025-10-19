@@ -11,7 +11,7 @@ description: Upgrade your existing AtlasOS installation to the latest version us
    Drop the downloaded `.apbx` file into the AME Wizard window.
 4. **Choose "Upgrade"**  
    When prompted, select **Upgrade** rather than **Run again**.  
-   AME Wizard will analyse the current installation and apply only the changes required for the new version.
+   AME Wizard will analyze the current installation and apply only the changes required for the new version.
 5. **Let the wizard finish**  
    Follow on-screen instructions and wait until the process completes. Your PC will reboot.
 
