@@ -1,6 +1,6 @@
 ---
 title: 0. Before Continuing
-description: 
+description: Verify system requirements and backup your data before installing AtlasOS
 ---
 
 Please confirm that you have met all of the following requirements.

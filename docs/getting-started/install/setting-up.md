@@ -1,6 +1,6 @@
 ---
 title: 3. Setting Up Atlas
-description: 
+description: Complete your AtlasOS setup by installing drivers and configuring your system
 ---
 
 ## :material-package-variant-closed-plus: **3.1** Getting your drivers

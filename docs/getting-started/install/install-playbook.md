@@ -1,6 +1,6 @@
 ---
 title: 2a. Install with Playbook
-description: 
+description: Install AtlasOS using the traditional Playbook method with AME Wizard
 ---
 
 ## :material-microsoft-windows: **2a.1** Reinstalling Windows

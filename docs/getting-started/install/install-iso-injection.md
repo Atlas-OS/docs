@@ -1,6 +1,6 @@
 ---
 title: 2b. Install with ISO
-description: 
+description: Install AtlasOS using the ISO injection method for experienced users
 ---
 
 ## TBD

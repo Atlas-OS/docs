@@ -1,6 +1,6 @@
 ---
 title: 1. Update
-description: 
+description: Upgrade your existing AtlasOS installation to the latest version using AME Wizard
 ---
 
 1. **Download assets**  

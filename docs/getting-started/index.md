@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: 
+description: Choose your way to start your AtlasOS journey - install fresh or upgrade your current installation.
 ---
 
 Choose your way to start your AtlasOS Journey!

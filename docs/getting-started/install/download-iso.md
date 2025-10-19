@@ -1,6 +1,6 @@
 ---
 title: 1. Download an ISO
-description: 
+description: Download a Windows ISO and prepare network drivers for AtlasOS installation
 ---
 
 <!-- --8<-- [start:iso] -->
