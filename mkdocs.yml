@@ -24,83 +24,52 @@ nav:
     - Branding Kit: branding.md
 
   - Getting Started:
-    - Installation: getting-started/installation.md
+    - Getting Started: getting-started/index.md
+    - Install: 
+      - 0. Before Continuing: getting-started/install/before-continuing.md
+      - 1. Download ISO: getting-started/install/download-iso.md
+      - 2a.Install with Playbook: getting-started/install/install-playbook.md
+      - 2b. Install with ISO Injection: getting-started/install/install-iso-injection.md
+      - 3. Setting up Atlas: getting-started/install/setting-up.md
+    - Upgrade:
+      - 0. Before Continuing: getting-started/upgrade/before-continuing.md
+      - 1. Upgrade with Playbook: getting-started/upgrade/upgrade-playbook.md
       # discord_friendly_name: ['how-to-install', 'install', 'installation']
-    - Post Installation:
-      - Drivers:
-        - Getting Started: getting-started/post-installation/drivers/getting-started.md
-          # discord_friendly_name: 'drivers'
-        - NVIDIA: getting-started/post-installation/drivers/nvidia.md
-        - AMD: getting-started/post-installation/drivers/amd.md
-        - Intel: getting-started/post-installation/drivers/intel.md
-        - Chipset: getting-started/post-installation/drivers/chipset.md
-        - Others: getting-started/post-installation/drivers/others.md
-          # discord_friendly_name: ['other-drivers', 'drivers-other']
-      - Software:
-        - Getting Started: getting-started/post-installation/software/getting-started.md
-          # discord_friendly_name: 'software'
-        - Anti Virus: getting-started/post-installation/software/anti-virus.md
-        - Web Browsers: getting-started/post-installation/software/web-browsers.md
-        - Media Player: getting-started/post-installation/software/media-playback.md
-        - Image Viewer: getting-started/post-installation/software/image-viewer.md
-        - Screenshotting: getting-started/post-installation/software/screenshotting.md
-        - System Info: getting-started/post-installation/software/system-info.md
-        - Text Editors & IDEs: getting-started/post-installation/software/text-editors.md
-      - Hardware:
-        - Updating the BIOS: getting-started/post-installation/hardware/updating-the-bios.md
-        - XMP/DOCP: getting-started/post-installation/hardware/enabling-xmp-or-docp.md
-        - Resizable BAR: getting-started/post-installation/hardware/resizable-bar.md
-    - Atlas Configuration:
-      - General Configuration: getting-started/post-installation/atlas-folder/general-configuration.md
-      - Interface Tweaks: getting-started/post-installation/atlas-folder/interface-tweaks.md
-      - Windows Settings: getting-started/post-installation/atlas-folder/windows-settings.md
-      - Advanced Configuration: getting-started/post-installation/atlas-folder/advanced-configuration.md
-      - Security: getting-started/post-installation/atlas-folder/security.md
-      - Troubleshooting: getting-started/post-installation/atlas-folder/troubleshooting.md
+  
+  - Post Install:
+    - Post Install: post-install/index.md
 
-  - Install FAQ:
-    - What's removed?: install-faq/removed-features.md
-      # discord_bot_names: ['removed-features', 'deleted-features', 'whats-stripped']
-    - Who is Atlas for?: install-faq/who-is-atlas-for.md
-    - Supported Windows Versions: install-faq/windows-version-support.md
-    - Windows Home Support: install-faq/windows-home.md
-    - Atlas ISO files: install-faq/atlas-iso-files.md
-    - Decrypting using BitLocker: install-faq/decrypting-using-bitlocker.md
-    - Enabling TPM 2.0: general-faq/enabling-tpm.md
-    - Reverting Atlas: getting-started/reverting-atlas.md
-      # discord_friendly_name: ['revert', 'uninstall-atlas']
-    - AME Wizard Errors:
-      - AME Wizard Deleted: install-faq/ame-wizard-errors/ame-wizard-deleted.md
-      - Atlas Playbook Stuck: install-faq/ame-wizard-errors/atlas-playbook-stuck.md
-      - Build Not Supported: install-faq/ame-wizard-errors/build-not-supported.md
-      - Can't Disable Defender: install-faq/ame-wizard-errors/cant-disable-defender.md
+    - Toolbox: 
+      - Toolbox: post-install/toolbox/index.md
 
-  - General FAQ:
-    # Top-level common FAQs
-    - Atlas and Security: general-faq/atlas-and-security.md
-    - Checking Atlas Version: general-faq/checking-atlas-version.md
-    - Updating Atlas: general-faq/updating-atlas.md
-    - Upgrading Windows Version: general-faq/upgrading-windows-version.md
-    - Windows 10 vs 11: general-faq/windows-10-vs-11.md
-    - Installation & Data Loss: general-faq/installation-data-loss.md
-    - Microsoft Account Usage: general-faq/microsoft-account-usage.md
-    # Sub-sections for other FAQs
-    - Troubleshooting:
-      - Resetting Atlas: general-faq/resetting-atlas.md
-      - Atlas Folder Missing: general-faq/atlas-folder-missing.md
-      - Windows Update Errors: general-faq/windows-update-errors.md
-      - Bluetooth Compatibility: general-faq/bluetooth-compatibility.md
-      - iTunes Compatibility: general-faq/itunes-compatibility.md
-      - Installing the Media Pack: general-faq/media-pack-not-found.md
-      - Microsoft Store: general-faq/microsoft-store.md
-      - Roblox not launching: general-faq/roblox-not-launching.md
-      - FIFA/EAFC not launching: general-faq/fifa-and-eafc-not-launching.md
-      - Shortcuts show up as .url files: general-faq/game-url-files.md
-    - Advanced Topics:
-      - Verify ISO integrity: general-faq/verify-iso-integrity.md
-      - Testing Nightly Builds: general-faq/testing-nightly-builds.md
+    - Drivers:
+      - Drivers: post-install/drivers/index.md
+      - Intel Drivers: post-install/drivers/intel.md
+      - AMD Drivers: post-install/drivers/amd.md
+      - NVIDIA Drivers: post-install/drivers/nvidia.md
+      - Chipset Drivers: post-install/drivers/chipset.md
+      - Other Drivers: post-install/drivers/others.md
 
-  - Development:
+    - Hardware:
+      - Hardware: post-install/hardware/index.md
+      - Enabling XMP or DOCP: post-install/hardware/enabling-xmp-or-docp.md
+      - Resizable BAR: post-install/hardware/resizable-bar.md
+      - Updating BIOS/UEFI: post-install/hardware/updating-the-bios.md
+
+    - Software:
+      - Software: post-install/software/index.md
+      - Anti-virus: post-install/software/anti-virus.md
+      - Image Viewer: post-install/software/image-viewer.md
+      - Media Playback: post-install/software/media-playback.md
+      - Screenshotting: post-install/software/screenshotting.md
+      - System Info: post-install/software/system-info.md
+      - Text Editors: post-install/software/text-editors.md
+      - Web Browsers: post-install/software/web-browsers.md
+
+  - FAQ:
+    - FAQ: faq/index.md
+
+  - Contributing & Development:
     - Contribution Guidelines: contributing/contribution-guidelines.md
     - Documentation: contributing/documentation.md
     - Playbook: contributing/playbook.md
@@ -196,13 +165,19 @@ extra:
 
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
   atlas:
-    release: 0.4.1
+    release: 0.5.0
   msdl:
     win11: 
-      version: 24H2
+      version: 25H2
+      architecture: x86_64
       pid: 3113
+    win11arm: 
+      version: 25H2
+      architecture: ARM64
+      pid: 3265
     win10: 
       version: 22H2
+      architecture: x86_64
       pid: 2618
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
