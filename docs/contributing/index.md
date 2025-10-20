@@ -52,7 +52,7 @@ For transparency with users, we keep issues that affect the current release open
 ## :octicons-git-pull-request-24: How to make changes
 
 !!! tip "Unsure if people like your change?"
-	Consider proposing the change to people in the [:simple-discord: Discord](https://discord.gg/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues) first.
+	Consider proposing the change to people in the [:simple-discord: Discord](https://discord.com/invite/atlasos) or [:octicons-issue-opened-16: GitHub issues](https://github.com/Atlas-OS/Atlas/issues) first.
 	
 	Regardless, remember that it's okay to make mistakes. People will give feedback in your pull requests anyway; don't worry about it too much.
 

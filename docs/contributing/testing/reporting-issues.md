@@ -27,8 +27,8 @@ Please report to the [Atlas GitHub Issues](https://github.com/Atlas-OS/Atlas/iss
 
 ### If it's from a GitHub branch...
 
-Ideally, report to the `📘 ┃ playbook` channel under our [Discord's 'Development' category](../../general-faq/testing-nightly-builds.md). Otherwise, report to the [Atlas GitHub Issues](https://github.com/Atlas-OS/Atlas/issues). Ensure that you follow the issue template.
+Ideally, report to the `📘 ┃ playbook` channel under our [Discord's 'Development' category](https://discord.com/invite/atlasos). Otherwise, report to the [Atlas GitHub Issues](https://github.com/Atlas-OS/Atlas/issues). Ensure that you follow the issue template.
 
-### If it's a [preview from our Discord](../../general-faq/testing-nightly-builds.md)...
+### If it's a [preview from our Discord](https://discord.com/invite/atlasos)...
 
 Report to the designated `🧪 ┃ issue-reporting` forum channel under the 'Development' category.

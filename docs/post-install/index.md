@@ -13,7 +13,7 @@ Use the links below to jump to the topic you need:
 - [:material-chip: Drivers](drivers/index.md) — Guidance for installing and updating device drivers (Intel, AMD, NVIDIA, chipsets, and others).
 - [:material-memory: Hardware](hardware/index.md) — Hardware-related optimizations such as enabling XMP/DOCP, Resizable BAR, and BIOS/UEFI updates.
 - [:material-microsoft-windows: Software](software/index.md) — Suggested apps and software settings including anti-virus, media playback, image viewers, and more.
-- [:custom-atlas:]
+- [:custom-atlas: Atlas Folder](atlas-folder/index.md) — The Atlas Folder.
 
 If you’re unsure where to start, follow the order above:.
 

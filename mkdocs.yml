@@ -75,6 +75,7 @@ nav:
   - FAQ:
     - FAQ: faq/index.md
     - Install: faq/install.md
+    - Post Install: faq/post-install.md
     - General: faq/general.md
     - AME: faq/ame.md
 
@@ -213,7 +214,7 @@ extra:
       link: https://atlasos.net
       name: AtlasOS Website
     - icon: fontawesome/brands/discord
-      link: https://discord.atlasos.net
+      link: https://discord.com/invite/atlasos
       name: AtlasOS on Discord
     - icon: fontawesome/brands/github
       link: https://github.com/Atlas-OS

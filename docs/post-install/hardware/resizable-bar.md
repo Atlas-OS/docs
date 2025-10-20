@@ -26,7 +26,7 @@ If you do not meet these specifications, it's recommended to not enable the feat
 ## :material-progress-question: How to Check if Resizable BAR is Enabled?
 
 1. [Download GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/) and open the application
-1. Check to see if **Rezisable BAR** is disabled or enabled [**GPU-Z Example**](../../../assets/images/gpu-z-resizable-bar.png).
+1. Check to see if **Rezisable BAR** is disabled or enabled [**GPU-Z Example**](../../assets/images/gpu-z-resizable-bar.png).
     1. GPU-Z allows you to see why it's disabled. Click on **Disabled** to see more information about what you're missing.
 
 ## :material-check: How to Enable Resizable BAR?

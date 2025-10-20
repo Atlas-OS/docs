@@ -7,7 +7,7 @@ icon: material/test-tube
 
 This page covers what we recommend in general alpha or release candidate build testing. If you find any problems, please look at [the reporting issues page](reporting-issues.md).
 
-If you still need to set up a virtual machine, see the [Playbook contributing page](../playbook.md) for instructions. However, feel free to test it on real hardware, especially if it's a [release candidate](../../general-faq/testing-nightly-builds.md)!
+If you still need to set up a virtual machine, see the [Playbook contributing page](../playbook.md) for instructions. However, feel free to test it on real hardware, especially if it's a [release candidate](../../faq/index.md)!
 
 !!! note "Ensure what you test works on stock Windows first"
     To reduce the amount of false reports, please verify that any issues encountered on Atlas do not happen in the same environment and configuration on unmodified Windows.
@@ -47,7 +47,7 @@ As Atlas supports Windows Update, consider testing the following that all make u
 Consider testing local network features such as:
 
 - Windows file sharing
-    - Enable with the [Atlas script](../../getting-started/post-install/atlas-folder/general-configuration.md#file-sharing) first
+    - Enable with the [Atlas script](../../post-install/atlas-folder/configuration.md#file-sharing) first
     - Ensure that it works on stock Windows
 - Screencasting
 - Remote Desktop
