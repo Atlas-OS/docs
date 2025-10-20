@@ -23,7 +23,7 @@ icon: material/home
 
     Complete common post-installation tasks and optimize it for your daily use.
 
-    [-> Install / Upgrade](getting-started/index.md)
+    [-> Post Install](getting-started/index.md)
 
 -   :material-chat-question:{ .lg .middle } __Frequently Asked Questions__
 
@@ -31,7 +31,7 @@ icon: material/home
 
     Get the answer to any frequently asked questions regarding AtlasOS.
 
-    [-> Install FAQ](install-faq/removed-features.md) | [-> General FAQ](general-faq/atlas-and-security.md)
+    [-> FAQ](faq/index.md)
 
 -   :material-handshake:{ .lg .middle } __Development__
 
@@ -39,7 +39,7 @@ icon: material/home
 
     Learn how you can contribute to AtlasOS, and do so effectively.
 
-    [-> Contribution Guidelines](contributing/contribution-guidelines.md)
+    [-> Contribution Guidelines](contributing/index.md)
 
 </div>
 

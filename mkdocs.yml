@@ -26,15 +26,13 @@ nav:
   - Getting Started:
     - Getting Started: getting-started/index.md
     - Install: 
-      - 0. Before Continuing: getting-started/install/before-continuing.md
-      - 1. Download ISO: getting-started/install/download-iso.md
-      - 2a.Install with Playbook: getting-started/install/install-playbook.md
-      - 2b. Install with ISO Injection: getting-started/install/install-iso-injection.md
-      - 3. Setting up Atlas: getting-started/install/setting-up.md
+      - Before Continuing: getting-started/install/before-continuing.md
+      - Install with Playbook: getting-started/install/install-playbook.md
+      - Install with ISO Injection: getting-started/install/install-iso-injection.md
+      - Setting up Atlas: getting-started/install/setting-up.md
     - Upgrade:
-      - 0. Before Continuing: getting-started/upgrade/before-continuing.md
-      - 1. Upgrade with Playbook: getting-started/upgrade/upgrade-playbook.md
-      # discord_friendly_name: ['how-to-install', 'install', 'installation']
+      - Before Continuing: getting-started/upgrade/before-continuing.md
+      - Upgrade with Playbook: getting-started/upgrade/upgrade-playbook.md
   
   - Post Install:
     - Post Install: post-install/index.md
@@ -68,9 +66,12 @@ nav:
 
   - FAQ:
     - FAQ: faq/index.md
+    - Install: faq/install.md
+    - General: faq/general.md
+    - AME: faq/ame.md
 
-  - Contributing & Development:
-    - Contribution Guidelines: contributing/contribution-guidelines.md
+  - Contributing:
+    - Contribution Guidelines: contributing/index.md
     - Documentation: contributing/documentation.md
     - Playbook: contributing/playbook.md
     - Toolbox: contributing/toolbox.md
