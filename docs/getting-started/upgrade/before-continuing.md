@@ -1,6 +1,6 @@
 ---
-title: 0. Before Continuing
 description: How to upgrade an existing AtlasOS installation to a newer version without reinstalling Windows.
+icon: material/information
 ---
 
 # :material-rocket-launch: Upgrading AtlasOS

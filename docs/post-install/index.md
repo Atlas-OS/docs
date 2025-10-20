@@ -1,6 +1,6 @@
 ---
-title: Post Install
 description: Steps and recommendations to finish setup, configure Atlas, install drivers, and optimize your system after installing AtlasOS.
+icon: material/briefcase-download
 ---
 
 # Post Install
@@ -9,10 +9,11 @@ After installing AtlasOS, this section walks you through the recommended next st
 
 Use the links below to jump to the topic you need:
 
-- [:material-toolbox: Toolbox & utilities](toolbox/index.md) — Helpful tools, scripts, and utilities to manage and maintain your Atlas installation.
+- [:material-toolbox: Toolbox](toolbox/index.md) — Helpful tools, scripts, and utilities to manage and maintain your Atlas installation.
 - [:material-chip: Drivers](drivers/index.md) — Guidance for installing and updating device drivers (Intel, AMD, NVIDIA, chipsets, and others).
-- [:material-memory: Hardware tweaks](hardware/index.md) — Hardware-related optimizations such as enabling XMP/DOCP, Resizable BAR, and BIOS/UEFI updates.
-- [:material-microsoft-windows: Software recommendations](software/index.md) — Suggested apps and software settings including anti-virus, media playback, image viewers, and more.
+- [:material-memory: Hardware](hardware/index.md) — Hardware-related optimizations such as enabling XMP/DOCP, Resizable BAR, and BIOS/UEFI updates.
+- [:material-microsoft-windows: Software](software/index.md) — Suggested apps and software settings including anti-virus, media playback, image viewers, and more.
+- [:custom-atlas:]
 
 If you’re unsure where to start, follow the order above:.
 

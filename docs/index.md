@@ -49,7 +49,7 @@ AtlasOS, or Atlas, is an open-source project that enhances Windows by convenient
 
 If you'd like to learn more, see our:
 
-- [GitHub repository README](https://github.com/Atlas-OS/Atlas) for more in-depth overviews
-- [GitHub repository's source code](https://github.com/Atlas-OS/Atlas/tree/main/src) for what Atlas does under the hood
-- [Discord server](https://discord.atlasos.net/) to connect with the Atlas community and get support
-- [Website](https://atlasos.net/) for a general overview of Atlas
+- [:simple-github: GitHub repository README](https://github.com/Atlas-OS/Atlas) for more in-depth overviews
+- [:simple-github: GitHub repository's source code](https://github.com/Atlas-OS/Atlas/tree/main/src) for what Atlas does under the hood
+- [:simple-discord: Discord server](https://discord.atlasos.net/) to connect with the Atlas community and get support
+- [:custom-atlas: Website](https://atlasos.net/) for a general overview of Atlas

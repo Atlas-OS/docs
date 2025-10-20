@@ -1,8 +1,8 @@
 ---
-title: Getting Started
 description: Choose your way to start your AtlasOS journey, fresh or upgrade your current installation
+icon: material/book-information-variant
 ---
-
+# :material-book-information-variant: Getting Started
 Choose your way to start your AtlasOS Journey!
 
 <div class="grid cards" markdown>
@@ -20,7 +20,7 @@ Choose your way to start your AtlasOS Journey!
 
     ---
 
-    **[-> Install](/getting-started/install/before-continuing)**
+    **[-> Install](install/before-continuing.md)**
 
 -   #### :material-rocket: Update Current Install
 
@@ -35,6 +35,6 @@ Choose your way to start your AtlasOS Journey!
 
     ---
 
-    **[-> Upgrade](/getting-started/upgrade/before-continuing)**
+    **[-> Upgrade](upgrade/before-continuing.md)**
 
 </div>

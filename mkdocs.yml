@@ -64,6 +64,14 @@ nav:
       - Text Editors: post-install/software/text-editors.md
       - Web Browsers: post-install/software/web-browsers.md
 
+    - Atlas Folder:
+      - Atlas Folder: post-install/atlas-folder/index.md
+      - Advanced Configuration: post-install/atlas-folder/advanced-configuration.md
+      - Configuration: post-install/atlas-folder/configuration.md
+      - Optional Tweaks: post-install/atlas-folder/optional-tweaks.md
+      - Security: post-install/atlas-folder/security.md
+      - Windows Settings: post-install/atlas-folder/windows-settings.md
+
   - FAQ:
     - FAQ: faq/index.md
     - Install: faq/install.md

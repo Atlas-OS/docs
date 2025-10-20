@@ -1,6 +1,7 @@
 ---
 title: 1. Update
 description: Upgrade your existing AtlasOS installation to the latest version using AME Wizard
+icon: material/rocket-launch
 ---
 
 1. **Download assets**  

@@ -47,7 +47,7 @@ As Atlas supports Windows Update, consider testing the following that all make u
 Consider testing local network features such as:
 
 - Windows file sharing
-    - Enable with the [Atlas script](../../getting-started/post-installation/atlas-folder/general-configuration.md#file-sharing) first
+    - Enable with the [Atlas script](../../getting-started/post-install/atlas-folder/general-configuration.md#file-sharing) first
     - Ensure that it works on stock Windows
 - Screencasting
 - Remote Desktop

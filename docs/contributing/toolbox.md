@@ -5,7 +5,7 @@ icon: material/toolbox
 
 # :material-toolbox: Contributing to the Atlas Toolbox
 
-This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
+This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](index.md) first!
 
 We presume you've already cloned the [`Atlas-OS/atlas-toolbox`](https://github.com/Atlas-OS/atlas-toolbox) repository.
 

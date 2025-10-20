@@ -1,6 +1,6 @@
 ---
-title: 0. Before Continuing
 description: Verify system requirements and backup your data before installing AtlasOS
+icon: material/information
 ---
 
 Please confirm that you have met all of the following requirements.
@@ -27,7 +27,7 @@ Atlas provides two installation methods, Playbook & ISO Injection.
 
     ---
 
-    **[-> Install with Playbook](/getting-started/install/install-playbook)**
+    **[-> Install with Playbook](install-playbook.md)**
 
 -   #### :material-minidisc: ISO Injection
 
@@ -38,7 +38,7 @@ Atlas provides two installation methods, Playbook & ISO Injection.
 
     ---
 
-    **[-> Install with ISO Injection](/getting-started/install/install-iso-injection)**
+    **[-> Install with ISO Injection](install-iso-injection.md)**
 
 </div>
 

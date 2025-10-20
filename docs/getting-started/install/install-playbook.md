@@ -1,9 +1,63 @@
 ---
-title: 2a. Install with Playbook
-description: Install AtlasOS using the traditional Playbook method with AME Wizard
+description: 
+icon: material/book-arrow-down
 ---
 
-## :material-microsoft-windows: **2a.1** Reinstalling Windows
+<!-- --8<-- [start:iso] -->
+## :material-disc: **1.** Download an ISO
+<!-- --8<-- [end:iso] -->
+
+Before installing Atlas, you need a clean ISO.
+
+<!-- --8<-- [start:iso1] -->
+To fully reinstall Windows, you need to download your desired Windows version's ISO file, which will be used later in the guide.
+
+<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
+
+<noscript>
+<b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
+See the alternatives below.
+</noscript>
+
+!!! question "Which version should I choose?"
+    If you are using a **Intel or AMD CPU** with the `x86_64` archetecture, Download the x86_64 version.
+
+    If you are using a **Snapdragon SoC** with the `ARM64` archetecture, Download the ARM64 version.
+
+??? grey-tip "Alternatives"
+
+    !!! tip 
+        Even though the downloader in our docs uses official Microsoft servers, you can still download the ISO directly from their website.
+        
+    <div id="official-microsoft-sources"></div>
+    === "Official Microsoft Sources"
+
+        ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
+
+        - Click the link above and find "Download Windows 11 Disk Image (ISO) for x64 devices"
+        - Click on the"Select Download" dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm.**
+        - Select your desired language and press confirm.
+        - Click **64-bit Download** to begin your download.
+
+<!-- --8<-- [end:iso1] -->
+{% include 'msdl.md' %}
+
+<!-- --8<-- [start:drivers] -->
+## :material-ethernet: **2.** Network Drivers
+
+By default, Windows may not have your computer's network drivers, meaning after reinstalling, your computer could have no internet connection.
+
+For this reason, we **strongly** recommend that you do one of the following:
+
+- Download your network drivers beforehand and store them on external storage
+- Have the ability to download and transfer network drivers from another device later
+
+!!! question "Where do I get my network drivers?"
+    You can find your computer's network drivers online by searching for your device or motherboard's official support page. If you can't find it, try searching online for your network device's name in [Device Manager](../assets/images/device-manager-nic.webp) instead. If multiple of the latest network drivers are available, download them all.
+<!-- --8<-- [end:drivers] -->
+
+
+## :material-microsoft-windows: **3.** Reinstalling Windows
 
 Before continuing, we **strongly** recommend you back up any valuable data to an external drive or [a cloud service](https://mega.io/).
 
@@ -26,7 +80,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-        - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../install-faq/decrypting-using-bitlocker.md) to resolve this, then retry from step 5 onwards
+    - The message ["Make sure BitLocker Drive Encryption is suspended"](../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../faq/install.md) to resolve this, then retry from step 5 onwards
 
     1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
@@ -36,7 +90,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Choose your edition of Windows
     <!-- --8<-- [end:reinstalling] -->
     <!-- --8<-- [start:atlasEditions] -->
-        - [Windows Pro](../install-faq/windows-version-support.md#which-windows-editions-are-supported) is recommended. [Windows Home is not officially supported](../install-faq/windows-home.md)
+    - [Windows Pro](../faq/install.md#which-windows-editions-are-supported) is recommended. [Windows Home is not officially supported](../faq/install.md)
         - If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything
     <!-- --8<-- [end:atlasEditions] -->
 
@@ -150,7 +204,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Wait for Windows to install
 <!-- --8<-- [end:reinstalling3] -->
 
-## :material-cog: **2a.2** Initial setup (OOBE)
+## :material-cog: **4.** Initial setup (OOBE)
 
 You can either watch the video or use the 'Written Instructions' for this section.
 
@@ -168,7 +222,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
     4. Enter your username, password, and security questions 
             - Deny each option in the **Privacy** section and press **Accept**
 
-## :material-screwdriver: **2a.3** Driver Updates
+## :material-screwdriver: **5.** Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
@@ -200,12 +254,12 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
     
     1. Move on to the next section
 
-## :material-wrench-cog-outline: **2a.4** Installing AtlasOS
+## :material-wrench-cog-outline: **6.** Installing AtlasOS
 
 ??? danger "AME Wizard suddenly closing or being deleted?"
     Especially when a new version of AME Wizard is released, you might need to add AME Wizard as an exclusion or turn off **Real-time protection** in Windows Security. 
 
-    To read more about this, view our [**AME Wizard Deleted**](../install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
+    To read more about this, view our [**AME Wizard Deleted**](../faq/ame.md) page.
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net)
 
@@ -224,14 +278,14 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more available updates
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../install-faq/ame-wizard-errors/ame-wizard-deleted.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-it-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
     1. Click on **Updates** at the top and make sure AME Wizard is up to date
 
 1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder into AME Wizard
 
 1. Follow the on-screen instructions from AME Wizard to install the Atlas Playbook
 
-## :material-microsoft-windows-classic: **2a.5** Your old Windows installation
+## :material-microsoft-windows-classic: **7.** Your old Windows installation
 <!-- --8<-- [start:oldinstall] -->
 
 If you previously followed steps that mentioned a `Windows.old` folder, you can find your previous Windows data at the start of your Windows drive in `Windows.old`. 
@@ -246,6 +300,6 @@ When you're sure that you've retrieved any valuable data from it, follow these s
 
 <div class="grid cards" markdown>
 
--   #### Next: **[-> Setting up Atlas](/getting-started/install/setting-up)**
+-   #### Next: **[-> Setting up Atlas](setting-up.md)**
 
 </div>
