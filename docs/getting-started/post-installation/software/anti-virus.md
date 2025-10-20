@@ -24,7 +24,7 @@ These applications offer continuous protection against malware.
 ## On-demand Scanners
 These tools are designed for manual scanning and removal of threats and do not run continuously.
 
-!!! info "Kaspersky is available for Non-US customers only"
+!!! info "Kaspersky is not available in the United States"
 1. **Kaspersky Virus Removal Tool (Recommended)** [:material-download:](https://devbuilds.s.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe)
 
 	A powerful tool for detecting and eliminating various types of malware.
