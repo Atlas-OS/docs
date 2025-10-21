@@ -3,7 +3,7 @@ description: Choose your way to start your AtlasOS journey, fresh or upgrade you
 icon: material/book-information-variant
 ---
 # :material-book-information-variant: Getting Started
-Choose your way to start your AtlasOS Journey!
+Choose your way to start your AtlasOS journey!
 
 <div class="grid cards" markdown>
 
@@ -11,7 +11,7 @@ Choose your way to start your AtlasOS Journey!
 
     ---
 
-    For systems that do not have atlas installed, or matching anything below.
+    For systems that do not have Atlas installed, or matching anything below.
 
     **Situations:**
 
