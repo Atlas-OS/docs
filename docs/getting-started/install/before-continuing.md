@@ -29,7 +29,7 @@ Atlas provides two installation methods, Playbook & ISO Injection.
 
     **[-> Install with Playbook](install-playbook.md)**
 
--   #### :material-minidisc: ISO Injection
+-   #### :material-minidisc: ISO Injection (EXPERIMENTAL)
 
     ---
 
