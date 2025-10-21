@@ -14,15 +14,16 @@ icon: material/disc-player
     This is a known issue with AME Wizard. Please do a [traditional playbook install](.\install-playbook.md) if you are not comfortable with this.
 
 Due to issues with ISOs, we recommend you use AME Wizard's ISO downloader
-1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
 
+1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
 1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
 1. Extract both downloads to your desktop
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
     1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
     1. Click on **Updates** at the top and make sure AME Wizard is up to date
 1. Click on the **More Options** tab on the left side of the window
-2. Select **Download ISO** and make sure **Windows 11** is selected, then click **Ok**
+1. Select **Download ISO** and make sure **Windows 11** is selected, then click **OK**.
+
 This should download a Windows 11 25H2 ISO.
 
 <noscript>
@@ -38,33 +39,32 @@ See the alternatives below.
         Even though the downloader in our docs uses official Microsoft servers, you can still download the ISO directly from their website.
         
     === "Classic ISO downloader (MSDL)"
-        Due to issues with non-english ISOs, we higly recommend you use AME Wizard's built in downloader. 
+        Due to issues with non-english ISOs, we highly recommend you use AME Wizard's built-in downloader. 
         
-        If you still wish to use the built-in ISO downloader,
+        If you still wish to use the classic ISO downloader,
         please go to the [traditional playbook install](.\install-playbook.md) page and download an **english ISO** there, then come back here.
 
     === "Official Microsoft Sources"
 
         ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
 
-        - Click the link above and find "Download Windows 11 Disk Image (ISO) for x64 devices"
-        - Click on the"Select Download" dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm.**
-        - Select your desired language and press confirm.
+        - Click the link above and find **Download Windows 11 Disk Image (ISO) for x64 devices**.
+        - Click on the"Select Download" dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm**.
+        - Select your desired language and press **Confirm**.
         - Click **64-bit Download** to begin your download.
 
 <!-- --8<-- [end:iso1] -->
 
 <!-- --8<-- [start:injection] -->
 ## :material-file-edit: Injecting the playbook
-1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder folder into AME Wizard
+1. Drag `Atlas Playbook.apbx` from your desktop into AME Wizard
 2. Select the Windows 11 ISO previously downloaded
 3. Click on the **Select a playbook to modify**
 4. Make sure AtlasOS is selected, and click **Ok**
 5. Click next when you see **AtlasOS Playbook selected**
 6. Select all the options you would normally choose when installing AtlasOS playbook
 7. At the end, you will be prompted to select which drivers you want to come with the ISO, we recommend keeping **Include additional network drivers** selected
-8. Click **Next**. You will be asked to choose a username, then a password, and then click **Next**
-   1. If you do not want a password, leave the box empty and click **Next**
+8. Click **Next**. You will be asked to choose an username and a password for the user account - provide them and then click **Next**. *If you do not want a password, leave the box empty*
 9. Wait for the injection to finish
 <!-- --8<-- [start:drivers] -->
 ## :material-microsoft-windows: **3.** Reinstalling Windows
@@ -98,23 +98,23 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
         - If Windows doesn't auto-activate, you can enter a key later within Windows
 
     1. Choose your edition of Windows.
-    <!-- --8<-- [end:reinstalling] -->
-    <!-- --8<-- [start:atlasEditions] -->
+        <!-- --8<-- [end:reinstalling] -->
+        <!-- --8<-- [start:atlasEditions] -->
 
-    !!! note "Supported Editions"
+        !!! note "Supported Editions"
 
-        - Windows Pro
-        - Windows Pro for Workstation
-        - Windows Enterprise (Excluding LTSC, IoT LTSC)
+            - Windows Pro
+            - Windows Pro for Workstation
+            - Windows Enterprise (Excluding LTSC, IoT LTSC)
 
-        **Windows Home is not Supported.** If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything.
-    <!-- --8<-- [end:atlasEditions] -->
+            **Windows Home is not Supported.** If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything.
+        <!-- --8<-- [end:atlasEditions] -->
 
-    <!-- --8<-- [start:reinstalling1] -->
+        <!-- --8<-- [start:reinstalling1] -->
 
-    2. Accept the license agreement and click **Custom: Install Windows only (advanced)**
+    1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
-    3. Select your Windows drive, click **Next**, click **OK** to the warning about `Windows.old`, and let the installation finish
+    1. Select your Windows drive, click **Next**, click **OK** to the warning about `Windows.old`, and let the installation finish
 
 === ":material-usb-flash-drive: USB Drive"
 
@@ -222,7 +222,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 This step is different than most Windows 11 installs due to AME's custom OOBE. Simply follow the instructions on screen
 
 !!! Warning
-    If asked to connect to the internet, please do so. AtlasOS requires aninternet connection to be properly installed without issues
+    If asked to connect to the internet, please do so. AtlasOS requires an internet connection to be properly installed without issues
 !!! Warning
     After this initial OOBE, your desktop will be similar to regular Windows 11. Please wait for the new user script to run before doing anything.
 
