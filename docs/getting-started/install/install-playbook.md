@@ -12,7 +12,7 @@ Before installing Atlas, you need a clean ISO to fully reinstall Windows.
 <!-- --8<-- [start:iso1] -->
 Choose your desired Windows version's ISO file, which will be used later in the guide.
 
-<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
+<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. They get the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
 
 <noscript>
 <b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
@@ -20,9 +20,9 @@ See the alternatives below.
 </noscript>
 
 !!! question "Which version should I choose?"
-    If you are using a **Intel or AMD CPU** with the `x86_64` archetecture, Download the x86_64 version.
+    If you are using an **Intel or AMD CPU** with the `x86_64` archetecture, download the x86_64 version.
 
-    If you are using a **Snapdragon SoC** with the `ARM64` archetecture, Download the ARM64 version.
+    If you are using a **Snapdragon SoC** with the `ARM64` archetecture, download the ARM64 version.
 
 ??? grey-tip "Alternatives"
 
@@ -34,10 +34,21 @@ See the alternatives below.
 
         ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
 
-        - Click the link above and find "Download Windows 11 Disk Image (ISO) for x64 devices"
-        - Click on the"Select Download" dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm.**
-        - Select your desired language and press confirm.
+        - Click the link above and find **Download Windows 11 Disk Image (ISO) for x64 devices**
+        - Click on the **Select Download** dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm**.
+        - Select your desired language and press **Confirm**.
         - Click **64-bit Download** to begin your download.
+
+    === "Windows Media Creation Tool"
+
+        1. Download the [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
+        1. Click the **Accept** button to agree to the Microsoft license terms
+        1. Verify if the selected language and edition are correct:
+            - **Language:** Your desired language
+            - **Edition:** Windows 11
+            If they are not correct, uncheck **Use the recommended options for this PC** and make changes to the options as described above.
+        1. Click **Next**. Choose the **ISO file** option, then choose the download location
+        1. After the ISO has completed downloading, click **Finish**
 
 <!-- --8<-- [end:iso1] -->
 {% include 'msdl.md' %}
@@ -98,22 +109,22 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
         - If Windows doesn't auto-activate, you can enter a key later within Windows
 
     1. Choose your edition of Windows.
-    <!-- --8<-- [end:reinstalling] -->
-    <!-- --8<-- [start:atlasEditions] -->
+		<!-- --8<-- [end:reinstalling] -->
+		<!-- --8<-- [start:atlasEditions] -->
 
-    !!! note "Supported Editions"
+		!!! note "Supported Editions"
 
-        - Windows Pro
-        - Windows Pro for Workstation
-        - Windows Enterprise (Excluding LTSC, IoT LTSC)
+			- Windows Pro
+			- Windows Pro for Workstations
+			- Windows Enterprise (excluding LTSC, IoT LTSC)
 
-        **Windows Home is not Supported.** If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished reinstalling, without having to reinstall anything.
-    <!-- --8<-- [end:atlasEditions] -->
+			**Windows Home is not supported.** If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished installing, without having to reinstall anything.
+		<!-- --8<-- [end:atlasEditions] -->
 
-    !!! note "Windows 11 Requirement Error?"
-        If installing Windows 11 and you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general.md)
+		!!! note "Windows 11 Requirement Error?"
+			If you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general.md)
 
-    <!-- --8<-- [start:reinstalling1] -->
+		<!-- --8<-- [start:reinstalling1] -->
 
     1. Accept the license agreement and click **Custom: Install Windows only (advanced)**
 
