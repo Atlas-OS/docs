@@ -18,5 +18,5 @@ echo To close the server, exit this window.
 
 echo]
 pip install -r local-requirements.txt
-mkdocs serve
+python.exe -m mkdocs serve
 pause
