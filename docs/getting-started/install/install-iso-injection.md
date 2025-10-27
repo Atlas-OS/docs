@@ -2,47 +2,27 @@
 description: Install AtlasOS using the ISO injection method for experienced users
 icon: material/disc-player
 ---
+
 <!-- --8<-- [start:iso] -->
 ## :material-disc: **1.** Download an ISO
 <!-- --8<-- [end:iso] -->
 
 <!-- --8<-- [start:iso1] -->
-!!! danger "ISO Injection with non-english ISOs break the administrator account"
-    This is a known issue with AME Wizard. Please download your ISO using AME Wizard, or download an english ISO using our alternatives.
+You will need to download an ISO before you can inject the playbook.
 
-!!! danger "ISO Injection currently disables Ctrl+Alt+Del keybind"
-    This is a known issue with AME Wizard. Please do a [traditional playbook install](.\install-playbook.md) if you are not comfortable with this.
+Choose your desired Windows version's ISO file, which will be used later in the guide.
 
-Due to issues with ISOs, we recommend you use AME Wizard's ISO downloader
-
-1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
-1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
-1. Extract both downloads to your desktop
-1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
-    1. Click on **Updates** at the top and make sure AME Wizard is up to date
-1. Click on the **More Options** tab on the left side of the window
-1. Select **Download ISO** and make sure **Windows 11** is selected, then click **OK**.
-
-This should download a Windows 11 25H2 ISO.
+<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
 
 <noscript>
 <b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
 See the alternatives below.
 </noscript>
 
-
-
 ??? grey-tip "Alternatives"
 
-    !!! tip 
-        Even though the downloader in our docs uses official Microsoft servers, you can still download the ISO directly from their website.
-        
-    === "Classic ISO downloader (MSDL)"
-        Due to issues with non-english ISOs, we highly recommend you use AME Wizard's built-in downloader. 
-        
-        If you still wish to use the classic ISO downloader,
-        please go to the [traditional playbook install](.\install-playbook.md) page and download an **english ISO** there, then come back here.
+    !!! tip
+        Even though the downloader in our docs uses official Microsoft servers, you can still download the ISO directly from their website or from AME directly.
 
     === "Official Microsoft Sources"
 
@@ -53,20 +33,43 @@ See the alternatives below.
         - Select your desired language and press **Confirm**.
         - Click **64-bit Download** to begin your download.
 
+    === "AME Wizard's ISO dowloader"
+        1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
+        1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas        Playbook** and **AME Wizard**
+        1. Extract both downloads to your desktop
+        1. Open `AME Wizard Beta.exe` from the AME Wizard folder
+            1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+            1. Click on **Updates** at the top and make sure AME Wizard is up to date
+        1. Click on the **More Options** tab on the left side of the window
+        1. Select **Download ISO** and make sure **Windows 11** is selected, then click **OK**.
+
+        This should download a Windows 11 25H2 ISO.
+
 <!-- --8<-- [end:iso1] -->
+{% include 'msdl.md' %}
 
 <!-- --8<-- [start:injection] -->
+
 ## :material-file-edit: Injecting the playbook
+
+1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
+1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas        Playbook** and **AME Wizard**
+1. Extract both downloads to your desktop
+1. Open `AME Wizard Beta.exe` from the AME Wizard folder
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+1. Click on **Updates** at the top and make sure AME Wizard is up to date
+1. Drag the previously downloaded ISO file into AME Wizard
 1. Drag `Atlas Playbook.apbx` from your desktop into AME Wizard
-2. Select the Windows 11 ISO previously downloaded
-3. Click on the **Select a playbook to modify**
+2. Select the Windows 11 ISO from the left side 
+3. Click on the **Select a playbook to modify** button
 4. Make sure AtlasOS is selected, and click **Ok**
 5. Click next when you see **AtlasOS Playbook selected**
 6. Select all the options you would normally choose when installing AtlasOS playbook
 7. At the end, you will be prompted to select which drivers you want to come with the ISO, we recommend keeping **Include additional network drivers** selected
-8. Click **Next**. You will be asked to choose an username and a password for the user account - provide them and then click **Next**. *If you do not want a password, leave the box empty*
+8. Click **Next**. You will be asked to choose an username and a password for the user account - provide them and then click **Next**. _If you do not want a password, leave the box empty_
 9. Wait for the injection to finish
 <!-- --8<-- [start:drivers] -->
+
 ## :material-microsoft-windows: **3.** Reinstalling Windows
 
 Before continuing, we **strongly** recommend you back up any valuable data to an external drive or [a cloud service](before-continuing.md).
@@ -120,10 +123,10 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     This method works on Linux and Windows.
 
-    !!! tip 
+    !!! tip
         Even thought this method works on both Linux and Windows, please note that AME Wizard and ISO Injection only works in Windows.
 
-    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable.        
+    1. Download the latest release of [Ventoy :material-download:](https://github.com/ventoy/Ventoy/releases/) and extract it wherever you feel comfortable.
         - Linux users can get it using a package manager
 
     2. Inside the Ventoy folder, run **Ventoy2Disk**
@@ -145,7 +148,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
                     <video src="/assets/videos/enroll-key-vtoy.mp4" controls muted></video>
                     <p>Credit to [Ventoy](https://ventoy.net/doc_secure.html) for the video demonstration.<p>
                 </center>
-            
+
             ![vtoy-verification-error-0x1A](/assets/images/vtoy-secure-error.png){ align=right width=200 }
 
             If you get an error screen saying there was a 'Security Violation,' follow the steps below:
@@ -155,7 +158,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
             2\. Press any key to begin key management
 
             3\. Choose **Enroll Key From Disk**
-                
+
             - The controls are arrow keys to move and ++enter++ to select
 
             4\. Choose `VTOYEFI`
@@ -163,7 +166,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
             5\. Choose `ENROLL_THIS_KEY_IN_MOKMANAGER.cer`
 
             6\. Choose **Continue**, then **Yes**, and finally **Reboot**
-            
+
             7\. Boot from the USB again, as the issue should be resolved
 
             ------
@@ -180,6 +183,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     11. Choose your Windows edition
     <!-- --8<-- [end:reinstalling1] -->
+
 --8<-- "installation.md:atlasEditions"
 
     <!-- --8<-- [start:reinstalling2] -->
@@ -213,8 +217,9 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
             - Select the unallocated space of the drive you want to install Windows to
                 - You can identify your drives by their total sizes
             - Click **Next**
-    
+
     3. Wait for Windows to install
+
 <!-- --8<-- [end:reinstalling3] -->
 
 ## :material-cog: **4.** Initial setup (OOBE)
@@ -222,13 +227,12 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 This step is different than most Windows 11 installs due to AME's custom OOBE. Simply follow the instructions on screen
 
 !!! Warning
-    If asked to connect to the internet, please do so. AtlasOS requires an internet connection to be properly installed without issues
+If asked to connect to the internet, please do so. AtlasOS requires an internet connection to be properly installed without issues
 !!! Warning
-    After this initial OOBE, your desktop will be similar to regular Windows 11. Please wait for the new user script to run before doing anything.
-
+After this initial OOBE, your desktop will be similar to regular Windows 11. Please wait for the new user script to run before doing anything.
 
 <div class="grid cards" markdown>
 
--   #### Next: **[-> Setting up Atlas](setting-up.md)**
+- #### Next: **[-> Setting up Atlas](setting-up.md)**
 
 </div>
