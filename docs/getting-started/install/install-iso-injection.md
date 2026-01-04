@@ -3,6 +3,9 @@ description: Install AtlasOS using the ISO injection method for experienced user
 icon: material/disc-player
 ---
 
+!!! warning
+    ISO injection is an experimental feature and may encounter bugs. If you experienced any, please report them on our [Issue Tracker](https://github.com/Atlas-OS/Atlas/issues).
+
 <!-- --8<-- [start:iso] -->
 ## :material-disc: **1.** Download an ISO
 <!-- --8<-- [end:iso] -->
@@ -48,7 +51,7 @@ See the alternatives below.
         1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas        Playbook** and **AME Wizard**
         1. Extract both downloads to your desktop
         1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-            1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+            1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../../faq/install-faq/ame-wizard-errors/ame-wizard-deleted.md), bypass this warning by clicking **More info** and **Run anyway**
             1. Click on **Updates** at the top and make sure AME Wizard is up to date
         1. Click on the **More Options** tab on the left side of the window
         1. Select **Download ISO** and make sure **Windows 11** is selected, then click **OK**.
@@ -87,7 +90,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 === ":material-microsoft: No USB Drive (recommended)"
 
     <!-- --8<-- [start:windowsOldNotice] -->
-    **Only if you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can retrieve data from the folder and delete it afterward, which this guide [covers later](#your-old-windows-installation).
+    **Only if you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can retrieve data from the folder and delete it afterward, which this guide [covers later](#5-your-old-windows-installation).
     <!-- --8<-- [end:windowsOldNotice] -->
 
     This method only works if you're already on Windows.
@@ -103,7 +106,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-    - The message ["Make sure BitLocker Drive Encryption is suspended"](../../assets/images/win-setup-run-dialog.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../../assets/images/bitlocker-error-setup.jpg) to resolve this, then retry from step 5 onwards
+    - The message ["Make sure BitLocker Drive Encryption is suspended"](../../assets/images/win-setup-run-dialog.webp) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../../assets/images/bitlocker-error-setup.jpg) to resolve this, then retry from step 5 onwards
 
     1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
@@ -240,6 +243,19 @@ This step is different than most Windows 11 installs due to AME's custom OOBE. S
     If asked to connect to the internet, please do so. AtlasOS requires an internet connection to be properly installed without issues
 
     After this initial OOBE, your desktop will be similar to regular Windows 11. Please wait for the new user script to run before doing anything.
+
+## :material-microsoft-windows-classic: **5.** Your old Windows installation
+<!-- --8<-- [start:oldinstall] -->
+
+If you previously followed steps that mentioned a `Windows.old` folder, you can find your previous Windows data at the start of your Windows drive in `Windows.old`. 
+
+When you're sure that you've retrieved any valuable data from it, follow these steps:
+
+1. Open **Windows Settings** -> **System** -> **Storage**
+1. Click **Temporary files**, and wait for it to scan your files
+1. Select **Previous version of Windows**, and then click **Remove files**
+<!-- --8<-- [end:oldinstall] -->
+
 
 <div class="grid cards" markdown>
 
