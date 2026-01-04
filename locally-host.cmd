@@ -17,6 +17,6 @@ echo If there's any errors, make sure MkDocs Material is installed correctly, se
 echo To close the server, exit this window.
 
 echo]
-pip install -r local-requirements.txt
+pip install -r requirements.txt
 python.exe -m mkdocs serve
 pause
