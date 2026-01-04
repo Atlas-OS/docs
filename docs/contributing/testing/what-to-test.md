@@ -7,7 +7,7 @@ icon: material/test-tube
 
 This page covers what we recommend in general alpha or release candidate build testing. If you find any problems, please look at [the reporting issues page](reporting-issues.md).
 
-If you still need to set up a virtual machine, see the [Playbook contributing page](../playbook.md) for instructions. However, feel free to test it on real hardware, especially if it's a [release candidate](../../faq/index.md)!
+If you still need to set up a virtual machine, see the [Playbook contributing page](../playbook.md) for instructions. However, feel free to test it on real hardware, especially if it's a [release candidate](../testing/reporting-issues.md)!
 
 !!! note "Ensure what you test works on stock Windows first"
     To reduce the amount of false reports, please verify that any issues encountered on Atlas do not happen in the same environment and configuration on unmodified Windows.
