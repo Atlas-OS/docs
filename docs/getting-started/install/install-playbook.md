@@ -46,10 +46,7 @@ See the alternatives below.
 </noscript>
 
 !!! question "Which version should I choose?"
-    If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
-
-!!! warning "Please download Windows 11 using the button below"
-    Downloading Windows 11 from Microsoft's website will get you Windows 11 25H2, which is not yet supported by Atlas. 
+    For AMD and Intel CPUs, download the x86_64 (x64) version. For Qualcomm Snapdragon or other supported ARM SoCs, download the ARM64 version
     
 ??? grey-tip "Alternatives (x86_64 Only)"
 
@@ -318,7 +315,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
     To read more about this, view our [**AME Wizard Deleted**](../../faq/install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
 
-1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net)
+1. Open your browser (e.g. Microsoft Edge) and search [`atlasos.net`](https://atlasos.net)
 
 1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
 
