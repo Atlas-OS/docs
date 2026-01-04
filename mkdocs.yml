@@ -261,6 +261,9 @@ extra:
 # Plugins
 #
 plugins:
+  # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
+  typeset:
+
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   search:
       lang: en
