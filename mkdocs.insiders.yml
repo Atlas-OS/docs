@@ -117,7 +117,7 @@ plugins:
       'general-faq/atlas-folder-scripts.md': 'getting-started/post-installation/atlas-folder/troubleshooting.md'
       
         # Seperating 'Windows Editions' into 'Supported Windows Versions' & 'Windows Home isn't Supported'
-      'install-faq/windows-editions.md': 'install-faq/windows-version-support.md'
+      'install-faq/windows-editions.md': 'faq/install-faq/windows-version-support.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   # typeset: {}
