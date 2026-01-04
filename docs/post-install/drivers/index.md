@@ -9,11 +9,11 @@ If you have installed AtlasOS through the manual driver installation method, thi
 ## :material-update: Want driver installation & updates through Windows Update instead?
 
 !!! question "What is best?"
-    You can find a comparison of both options on the [Installation](../../installation.md#driver-updates) page.
+    You can find a comparison of both options on the [Installation](../../getting-started/install/install-playbook.md/#2-network-drivers) page.
 
-You can find files to toggle getting drivers from Windows Update in the `2. Drivers` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../../general-faq/atlas-folder-missing.md) if you can't find it.
+You can find files to toggle getting drivers from Windows Update in the `2. Drivers` directory located in the Atlas folder, which you can find in the Start Menu or on the desktop. Check out [our guide to restore the Atlas folder](../../faq/general-faq/atlas-folder-missing.md) if you can't find it.
 
-Remember that toggling this option will not uninstall any current drivers on your computer. You must manually check for Windows Updates to get driver updates if you don't have [automatic Windows Updates](../atlas-folder/general-configuration.md#automatic-updates) enabled.
+Remember that toggling this option will not uninstall any current drivers on your computer. You must manually check for Windows Updates to get driver updates if you don't have [automatic Windows Updates](../atlas-folder/configuration.md#driver-updates) enabled.
 
 ## :material-emoticon-confused-outline: Which drivers do I need?
 

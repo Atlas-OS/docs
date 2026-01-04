@@ -12,7 +12,7 @@ If you're using Atlas and have not enabled [Automatic Driver Installation](../..
 ## :material-package-down: Manual Installation
 
 !!! tip
-    If you're experiencing significant issues with drivers, consider enabling [Automatic Driver Installation](../../post-install/atlas-folder/configuration.md#automatic-updates) from the Atlas folder.
+    If you're experiencing significant issues with drivers, consider enabling [Automatic Driver Installation](../../post-install/atlas-folder/configuration.md#driver-updates) from the Atlas folder.
 
 1. Download the latest Apple USB drivers from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=Apple%2C%20Inc.%20-%20USBDevice) that begins with a three-digit version number.
 

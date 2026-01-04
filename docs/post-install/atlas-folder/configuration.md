@@ -13,7 +13,7 @@ For more configuration options, check:
 - [Optional Tweaks](optional-tweaks.md)
 - [Windows Settings](windows-settings.md)
 
-All of the configuration files listed here are located in the `3. Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
+All of the configuration files listed here are located in the `3. Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../faq/general-faq/atlas-folder-missing.md).
 
 ## Background Apps
 
@@ -23,7 +23,7 @@ By default we disable background apps in Windows, however, you may need to enabl
 
 Bluetooth is a built-in feature in Windows that allows you to connect devices to your computer. On Atlas, it has been disabled by default to make the system more responsive and less bloated. To enable it run the `Enable Bluetooth.cmd` file in the `Bluetooth` folder and restart.
 
-You may need to install drivers for Bluetooth to work. [View our guide here](../../../faq-and-troubleshooting/common-questions/bluetooth-compatibility.md).
+You may need to install drivers for Bluetooth to work. [View our guide here](../../faq/general-faq/bluetooth-compatibility.md).
 
 ## Diagnostics and Troubleshooting
 

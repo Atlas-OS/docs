@@ -11,4 +11,4 @@ Atlas requires you to follow the installation documentation to reinstall the lat
 
 [Installing AtlasOS -->](../../../getting-started/index.md)
 
-![AME Wizard erroring saying it can't open Windows Defender settings](../../assets/images/ame-defender-inaccessible.png)
+![AME Wizard erroring saying it can't open Windows Defender settings](../../../assets/images/ame-defender-inaccessible.png)

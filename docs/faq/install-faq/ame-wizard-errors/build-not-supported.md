@@ -11,4 +11,4 @@ You'll see an error under **"Requirements not met"** saying that your Windows bu
 
 [Installing AtlasOS -->](../../../getting-started/index.md)
 
-![Screenshot of AME Wizard with the Atlas playbook, with the error 'This Windows build is not supported by this Playbook.'](../../assets/images/atlas-build-unsupported.webp)
+![Screenshot of AME Wizard with the Atlas playbook, with the error 'This Windows build is not supported by this Playbook.'](../../../assets/images/atlas-build-unsupported.webp)

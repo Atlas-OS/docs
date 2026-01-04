@@ -14,7 +14,7 @@ icon: material/security
     **Atlas is not responsible** for any damages caused by disabling security features against our recommendations.
 
 !!! tip
-    If you deleted the folder, check out [our guide to restore the Atlas folder](../../faq/post-install.md)..
+    If you deleted the folder, check out [our guide to restore the Atlas folder](../../faq/general-faq/atlas-folder-missing.md)..
 
 In this section, we will list all of the 'Security' options in the Atlas folder, how to change them and their defaults.
 

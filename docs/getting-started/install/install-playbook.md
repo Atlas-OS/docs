@@ -8,7 +8,7 @@ icon: material/book-arrow-down
 
 This guide will walk you through fully reinstalling Windows, installing Atlas on top of it, and completing other necessary steps. A full Windows reinstall is needed to ensure stability during the initial installation of Atlas.
 
-Before continuing, we recommend reviewing our page to see [who Atlas is for](../install-faq/who-is-atlas-for.md).
+Before continuing, we recommend reviewing our page to see [who Atlas is for](../../faq/install-faq/who-is-atlas-for.md).
 
 <!-- --8<-- [start:style] -->
 <style>
@@ -21,7 +21,7 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
 ## **0.** :material-clipboard-list-outline: Prerequisites
 
 !!! danger "Atlas requires a full Windows reinstall to uninstall"
-    As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](reverting-atlas.md).
+    As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](../../faq/install-faq/reverting-atlas.md).
 
 - Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1)
     - We don't recommend bypassing Windows 11's requirements due to potential problems with updates and game anti-cheats
@@ -91,7 +91,7 @@ For this reason, we **strongly** recommend that you do one of the following:
 
 !!! question "Where do I get my network drivers?"
     !!! info inline ""
-        ![](/assets/images/device-manager-nic.webp)
+        ![](../../assets/images/device-manager-nic.webp)
 
     You can find your computer's network drivers online by searching for your device or motherboard's official support page. 
 
@@ -111,7 +111,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 === ":material-microsoft: No USB Drive (recommended)"
 
     <!-- --8<-- [start:windowsOldNotice] -->
-    **Only if you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can retrieve data from the folder and delete it afterward, which this guide [covers later](#your-old-windows-installation).
+    **Only if you have enough free storage**, after finishing the Windows reinstall, `Windows.old` will be at the start of your Windows drive, containing your old data. You can retrieve data from the folder and delete it afterward, which this guide [covers later](#7-your-old-windows-installation).
     <!-- --8<-- [end:windowsOldNotice] -->
 
     This method only works if you're already on Windows.
@@ -120,14 +120,14 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer**
 
-    1. Open **This PC** in File Explorer, and remember the ISO's drive letter (e.g. `H`) for the next step. The drive should look similar to ![Windows Setup icon](/assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
+    1. Open **This PC** in File Explorer, and remember the ISO's drive letter (e.g. `H`) for the next step. The drive should look similar to ![Windows Setup icon](../../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
 
     1. Press ++win+r++ to open the Run dialog
 
-    1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](/assets/images/win-setup-run-dialog.webp)
+    1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-    - The message ["Make sure BitLocker Drive Encryption is suspended"](/assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../../faq/install.md) to resolve this, then retry from step 5 onwards
+    - The message ["Make sure BitLocker Drive Encryption is suspended"](../../assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../../faq/install-faq/decrypting-using-bitlocker.md) to resolve this, then retry from step 5 onwards
 
     1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
@@ -148,7 +148,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 		<!-- --8<-- [end:atlasEditions] -->
 
 		!!! note "Windows 11 Requirement Error?"
-			If you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general.md)
+			If you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general-faq/enabling-tpm.md)
 
 		<!-- --8<-- [start:reinstalling1] -->
 
@@ -183,7 +183,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
                     <p>Credit to [Ventoy](https://ventoy.net/doc_secure.html) for the video demonstration.<p>
                 </center>
             
-            ![vtoy-verification-error-0x1A](/assets/images/vtoy-secure-error.png){ align=right width=200 }
+            ![vtoy-verification-error-0x1A](../../assets/images/vtoy-secure-error.png){ align=right width=200 }
 
             If you get an error screen saying there was a 'Security Violation,' follow the steps below:
 
@@ -220,7 +220,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 --8<-- "installation.md:atlasEditions"
 
     !!! note "Windows 11 Requirement Error?"
-        If installing Windows 11 and you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general.md)
+        If installing Windows 11 and you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general-faq/enabling-tpm.md)
 
     <!-- --8<-- [start:reinstalling2] -->
 
@@ -280,7 +280,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
         <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
     </center>
 
-## **4.** :material-screwdriver: Driver Updates
+## **5.** :material-screwdriver: Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
@@ -317,7 +317,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 ??? danger "AME Wizard suddenly closing or being deleted?"
     Especially when a new version of AME Wizard is released, you might need to add AME Wizard as an exclusion or turn off **Real-time protection** in Windows Security. 
 
-    To read more about this, view our [**AME Wizard Deleted**](../../faq/ame.md) page.
+    To read more about this, view our [**AME Wizard Deleted**](../../faq/install-faq/ame-wizard-errors/ame-wizard-deleted.md) page.
 
 1. Open Microsoft Edge, search [`atlasos.net`](https://atlasos.net)
 
@@ -325,10 +325,10 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 
 1. Extract both downloads to your desktop
 
-1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
+1. If you have chosen [**Manual Driver Installation**](#5-driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
 
 1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, click **Resume Updates** to follow this step
-    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../general-faq/windows-update-errors.md#windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
+    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../../faq/general-faq/windows-update-errors.md) for a fix, retry updating, and continue with the rest of the installation guide
 
 1. Open the **Microsoft Store** and update all apps
     - There might be a prompt to update the Microsoft Store first
@@ -336,7 +336,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 1. Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more available updates
 
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../../faq/install-faq/ame-wizard-errors/ame-wizard-deleted.md), bypass this warning by clicking **More info** and **Run anyway**
     1. Click on **Updates** at the top and make sure AME Wizard is up to date
 
 1. Drag `Atlas Playbook.apbx` from the Atlas Playbook folder into AME Wizard

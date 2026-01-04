@@ -29,5 +29,5 @@ If you're experiencing issues with the Microsoft Store, these are unrelated to A
     3. Paste in `9WZDNCRFJBMP` and click the tick button
     4. Scroll down until you find the files starting with `Microsoft.WindowsStore`
     5. Click on the one that has the highest version number and ends in `.msixbundle`
-       ![msstoreappx](../assets/images/msstoreappx.webp)
+       ![msstoreappx](../../assets/images/msstoreappx.webp)
     6. Double-click the downloaded file, and click **Install**

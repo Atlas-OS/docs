@@ -19,4 +19,4 @@ To ensure compliance and safety, you install Atlas by using [AME Wizard](https:/
 
 ## What does the ISO downloader do?
 
-The [ISO downloader in our documentation](../../getting-started/index.md#1-download-an-iso) downloads unmodified ISOs directly from Microsoft's servers. They are there for your convenience.
+The [ISO downloader in our documentation](../../getting-started/install/install-playbook.md#1-download-an-iso) downloads unmodified ISOs directly from Microsoft's servers. They are there for your convenience.

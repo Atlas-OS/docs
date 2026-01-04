@@ -23,7 +23,7 @@ icon: material/rocket-launch
 
 ## Troubleshooting & older versions
 
-* If AME Wizard doesn't offer the **Upgrade** option, double-check that you're on Atlas 0.4.x or newer by using the [Checking Atlas Version](../../faq/general.md#checking-atlas-version) guide.
+* If AME Wizard doesn't offer the **Upgrade** option, double-check that you're on Atlas 0.4.x or newer by using the [Checking Atlas Version](../../faq/general-faq/checking-atlas-version.md) guide.
 * Systems on **0.3.x** can't be upgraded in-place—follow the [Installation guide](../install/before-continuing.md) for a clean reinstall.
 
 ---

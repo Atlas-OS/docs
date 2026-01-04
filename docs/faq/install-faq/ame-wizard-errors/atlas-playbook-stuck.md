@@ -12,7 +12,7 @@ When running the Playbook, some users might experience these messages:
 
 Most of the time, this isn't an issue and is likely due to a slow internet connection or computer. However, it could be stuck if it has been on this screen for a long time. In that case, [scroll down to see solutions](#prerequisites).
 
-![AME Wizard 'Apply Playbook' window demonstrating what 'Reticulating Splines' and 'Action taking a long time' looks like](../../assets/images/reticulating-splines.webp)
+![AME Wizard 'Apply Playbook' window demonstrating what 'Reticulating Splines' and 'Action taking a long time' looks like](../../../assets/images/reticulating-splines.webp)
 
 ## :material-broom: Prerequisites
 

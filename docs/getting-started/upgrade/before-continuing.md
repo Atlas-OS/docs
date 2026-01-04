@@ -17,6 +17,6 @@ icon: material/information
 If you've met all of the requirements above, click below to proceed to the next step.
 <div class="grid cards" markdown>
 
--   #### Next: **[-> Upgrade Playbook](/getting-started/upgrade/upgrade-playbook)**
+-   #### Next: **[-> Upgrade Playbook](./upgrade-playbook.md)**
 
 </div>

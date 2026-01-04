@@ -7,7 +7,7 @@ icon: material/sign-caution
 
 If you are not confident with your technical ability, it is recommended to avoid this section. Any misinterpretation can result in compatibility issues and other problems. Therefore, it's important to understand what you are doing and how to revert it. This section is intended for advanced users only.
 
-All of the configuration files listed here are located in the `6. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../../faq-and-troubleshooting/common-questions/atlas-folder-missing.md).
+All of the configuration files listed here are located in the `6. Advanced Configuration` folder. In the Atlas folder which is on the Desktop. If you deleted the folder, check out [our guide to restore the Atlas folder](../../faq/general-faq/atlas-folder-missing.md).
 
 ## Affinity
 
@@ -60,4 +60,4 @@ This is a utility to allows you to enable the Message Signaled Interrupts (MSI) 
 
 Wi-Fi is a feature in Windows that lets your computer connect to the internet wirelessly. On Atlas, it has been enabled by default since it is very widely used. To disable it just run the `Disable Wi-Fi.cmd` file in the `Wi-Fi` folder.
 
-You may need to [install drivers](../drivers/getting-started.md) for Wi-Fi to work.
+You may need to [install drivers](../drivers/index.md) for Wi-Fi to work.
