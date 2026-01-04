@@ -5,7 +5,7 @@ icon: custom/atlas
 
 # :custom-atlas: Contributing to the Atlas Playbook
 
-This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](contribution-guidelines.md) first!
+This page will cover how to modify, test, and build Atlas. If you plan to contribute, we recommend reading the [Contribution Guidelines](index.md) first!
 
 --8<-- "contribution-guidelines.md:gitNotice"
 

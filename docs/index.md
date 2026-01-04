@@ -1,27 +1,29 @@
 ---
+title: Home
 description: The official documentation for AtlasOS
 icon: material/home
 ---
+
 
 # :material-home: AtlasOS Documentation
 
 <div class="grid cards" markdown>
 
--   :material-power:{ .lg .middle } __Install AtlasOS__
+-   :material-power:{ .lg .middle } __Install / Upgrade Atlas__
 
     ---
 
     Get started with setting up AtlasOS on your system in just a few minutes.
 
-    [-> Install AtlasOS](getting-started/installation.md)
+    [-> Install / Upgrade](getting-started/index.md)
 
--   :material-wrench:{ .lg .middle } __Post Installation__
+-   :material-wrench:{ .lg .middle } __Post Install__
 
     ---
 
-    Customize and tweak your AtlasOS installation to your liking.
+    Complete common post-installation tasks and optimize it for your daily use.
 
-    [-> Post Installation](getting-started/post-installation/atlas-folder/general-configuration.md)
+    [-> Post Install](getting-started/index.md)
 
 -   :material-chat-question:{ .lg .middle } __Frequently Asked Questions__
 
@@ -29,15 +31,15 @@ icon: material/home
 
     Get the answer to any frequently asked questions regarding AtlasOS.
 
-    [-> Install FAQ](install-faq/removed-features.md) | [-> General FAQ](general-faq/atlas-and-security.md)
+    [-> FAQ](faq/index.md)
 
--   :material-handshake:{ .lg .middle } __Development__
+-   :material-handshake:{ .lg .middle } __Contributing & Development__
 
     ---
 
     Learn how you can contribute to AtlasOS, and do so effectively.
 
-    [-> Contribution Guidelines](contributing/contribution-guidelines.md)
+    [-> Contribution](contributing/index.md)
 
 </div>
 
@@ -47,7 +49,7 @@ AtlasOS, or Atlas, is an open-source project that enhances Windows by convenient
 
 If you'd like to learn more, see our:
 
-- [GitHub repository README](https://github.com/Atlas-OS/Atlas) for more in-depth overviews
-- [GitHub repository's source code](https://github.com/Atlas-OS/Atlas/tree/main/src) for what Atlas does under the hood
-- [Discord server](https://discord.atlasos.net/) to connect with the Atlas community and get support
-- [Website](https://atlasos.net/) for a general overview of Atlas
+- [:simple-github: GitHub repository README](https://github.com/Atlas-OS/Atlas) for more in-depth overviews
+- [:simple-github: GitHub repository's source code](https://github.com/Atlas-OS/Atlas/tree/main/src) for what Atlas does under the hood
+- [:simple-discord: Discord server](https://discord.com/invite/atlasos) to connect with the Atlas community and get support
+- [:custom-atlas: Website](https://atlasos.net/) for a general overview of Atlas

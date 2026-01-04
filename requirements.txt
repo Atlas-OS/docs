@@ -1,6 +1,15 @@
-git+https://${ATLAS_ADMIN}@github.com/Atlas-OS/mkdocs-material-insiders.git
+# Insiders are free now. https://squidfunk.github.io/mkdocs-material/blog/2025/11/11/insiders-now-free-for-everyone/
+mkdocs-material
+
 pillow
+
 cairosvg
 
-# Everything else needed
--r base-requirements.txt
+# https://github.com/ojacques/mkdocs-git-committers-plugin-2
+mkdocs-git-committers-plugin-2
+
+# https://github.com/mkdocs/mkdocs-redirects
+mkdocs-redirects
+
+# https://mkdocs-macros-plugin.readthedocs.io/en/stable/
+mkdocs-macros-plugin
