@@ -28,7 +28,7 @@ nav:
     - Install: 
       - Before Continuing: getting-started/install/before-continuing.md
       - Install with Playbook: getting-started/install/install-playbook.md
-      - Install with ISO Injection (EXPERIMENTAL): getting-started/install/install-iso-injection.md
+      - Install with ISO Injection: getting-started/install/install-iso-injection.md
       - Setting up Atlas: getting-started/install/setting-up.md
     - Upgrade:
       - Before Continuing: getting-started/upgrade/before-continuing.md
