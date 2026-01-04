@@ -213,7 +213,7 @@ extra:
     win11: 
       version: 25H2
       architecture: x86_64
-      pid: 3113
+      pid: 3262
     win11arm: 
       version: 25H2
       architecture: ARM64

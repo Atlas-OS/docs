@@ -1,7 +1,33 @@
 ---
-description: 
+title: Installation
+description: The official AtlasOS Playbook installation guide
 icon: material/book-arrow-down
 ---
+
+# :material-package-down: Installing AtlasOS
+
+This guide will walk you through fully reinstalling Windows, installing Atlas on top of it, and completing other necessary steps. A full Windows reinstall is needed to ensure stability during the initial installation of Atlas.
+
+Before continuing, we recommend reviewing our page to see [who Atlas is for](../install-faq/who-is-atlas-for.md).
+
+<!-- --8<-- [start:style] -->
+<style>
+    h2 strong, h3 strong {
+        color: var(--md-typeset-a-color);
+    }
+</style>
+<!-- --8<-- [end:style] -->
+
+## **0.** :material-clipboard-list-outline: Prerequisites
+
+!!! danger "Atlas requires a full Windows reinstall to uninstall"
+    As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](reverting-atlas.md).
+
+- Meeting the system requirements for [Windows 11](https://www.microsoft.com/windows/windows-11-specifications#table1)
+    - We don't recommend bypassing Windows 11's requirements due to potential problems with updates and game anti-cheats
+- 64-bit CPU ([you can check what you have](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808))
+    - If you have an ARM-based CPU, you can only use Atlas with Windows 11
+- Knowledge of general Windows troubleshooting and usage
 
 <!-- --8<-- [start:iso] -->
 ## :material-disc: **1.** Download an ISO
@@ -20,34 +46,34 @@ See the alternatives below.
 </noscript>
 
 !!! question "Which version should I choose?"
-    If you are using an **Intel or AMD CPU** with the `x86_64` archetecture, download the x86_64 version.
+    If you meet the official requirements, we **strongly** recommend choosing Windows 11. If not, use Windows 10.
 
-    If you are using a **Snapdragon SoC** with the `ARM64` archetecture, download the ARM64 version.
-
-??? grey-tip "Alternatives"
+!!! warning "Please download Windows 11 using the button below"
+    Downloading Windows 11 from Microsoft's website will get you Windows 11 25H2, which is not yet supported by Atlas. 
+    
+??? grey-tip "Alternatives (Windows 10 Only)"
 
     !!! tip 
-        Even though the downloader in our docs uses official Microsoft servers, you can still download the ISO directly from their website.
+        Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
         
     <div id="official-microsoft-sources"></div>
     === "Official Microsoft Sources"
 
-        ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
+        ### [Windows 10 :material-download:](https://www.microsoft.com/en-us/software-download/windows10ISO)
 
-        - Click the link above and find **Download Windows 11 Disk Image (ISO) for x64 devices**
-        - Click on the **Select Download** dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm**.
-        - Select your desired language and press **Confirm**.
+        - Click the link abvove and select **Windows 10 (multi-edition ISO)** and click **Confirm.**
+        - Select your desired language and press confirm.
         - Click **64-bit Download** to begin your download.
 
     === "Windows Media Creation Tool"
 
-        1. Download the [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
+        1. Download the [Windows 10 :material-download:](https://go.microsoft.com/fwlink/?LinkId=691209) Media Creation Tool, then open it
         1. Click the **Accept** button to agree to the Microsoft license terms
-        1. Verify if the selected language and edition are correct:
+        1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
             - **Language:** Your desired language
-            - **Edition:** Windows 11
-            If they are not correct, uncheck **Use the recommended options for this PC** and make changes to the options as described above.
-        1. Click **Next**. Choose the **ISO file** option, then choose the download location
+            - **Edition:** Windows 10
+            - **Architecture (Windows 10 only):** 64-bit (x64)
+        1. Choose the **ISO file** option, then choose the download location
         1. After the ISO has completed downloading, click **Finish**
 
 <!-- --8<-- [end:iso1] -->
@@ -241,15 +267,20 @@ You can either watch the video or use the 'Written Instructions' for this sectio
         <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
     </center>
 
-=== "Written Instructions"
+=== "Windows 10"
+    ??? info "Written Instructions"
+        Go through the setup, but make sure to:
 
-    1. Once the setup starts, select your language and then your keyboard layout
-    2. Press ++shift+f10++ to open Command Prompt
-    3. Type in `start ms-cxh:localonly`, press ++enter++
-    4. Enter your username, password, and security questions 
-            - Deny each option in the **Privacy** section and press **Accept**
+        - Click **I don't have internet** when prompted to connect to the internet
+        - Click **Continue with limited setup** or **Domain join** after the 'Internet' page
+        - Deny each option in the **Privacy** section
+        - Deny Cortana
 
-## :material-screwdriver: **5.** Driver Updates
+    <center>
+        <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
+    </center>
+
+## **4.** :material-screwdriver: Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
@@ -297,7 +328,7 @@ If you don't know, choose 'Driver Installation & Updates from Windows Update.'
 1. If you have chosen [**Manual Driver Installation**](#driver-updates), run `Disable Drivers Installation in Windows Update.reg` from the extracted Atlas Playbook download and restart
 
 1. Open **Settings** and update Windows, including optional updates, until no more updates are available. If paused, click **Resume Updates** to follow this step
-    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../faq/install.md#windows-update-errors) for a fix, retry updating, and continue with the rest of the installation guide
+    - If there's an error updating on Windows 10, see our page on [:material-update: Windows Update Errors](../general-faq/windows-update-errors.md#windows-10-error-0x80070643) for a fix, retry updating, and continue with the rest of the installation guide
 
 1. Open the **Microsoft Store** and update all apps
     - There might be a prompt to update the Microsoft Store first
