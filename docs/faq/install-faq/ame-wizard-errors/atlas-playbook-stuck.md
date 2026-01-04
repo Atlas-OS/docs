@@ -16,7 +16,7 @@ Most of the time, this isn't an issue and is likely due to a slow internet conne
 
 ## :material-broom: Prerequisites
 
-1. Ensure that you're on a fresh install of fully updated Windows. We **highly** recommend following our [installation guide](../../getting-started/installation.md) for this. Installing Atlas on a non-fresh Windows installation is considered unsupported and can cause the Playbook to get stuck.
+1. Ensure that you're on a fresh install of fully updated Windows. We **highly** recommend following our [installation guide](../../../getting-started/index.md) for this. Installing Atlas on a non-fresh Windows installation is considered unsupported and can cause the Playbook to get stuck.
 
 1. Make sure that your hardware is stable. If you have overclocks, try turning them off.
 

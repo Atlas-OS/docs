@@ -62,6 +62,6 @@ Once you find the setting:
 
 ## Step 5: Retry Windows Installation
 
-After your computer restarts, attempt the Windows 11 installation step from the [Atlas Installation Guide](../getting-started/installation.md) again. The requirements check should now pass if TPM was the only issue.
+After your computer restarts, attempt the Windows 11 installation step from the [Atlas Installation Guide](../../getting-started/index.md) again. The requirements check should now pass if TPM was the only issue.
 
 If you continue to have problems, double-check your BIOS/UEFI settings and consult your hardware manufacturer's documentation. 

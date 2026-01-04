@@ -26,6 +26,6 @@ If you wish to move to a newer version of Windows (e.g., Windows 11) and continu
 
 **Follow the official Installation Guide** to reinstall the desired Windows version (e.g., Windows 11) and apply the corresponding AtlasOS playbook. Remember to back up your personal data beforehand.
 
-[:link: Atlas Installation Guide](../getting-started/installation.md)
+[:link: Atlas Installation Guide](../../getting-started/index.md)
 
 This process ensures a clean slate for both the new Windows installation and the Atlas modifications, minimizing the risk of conflicts and ensuring a stable, supported system. 

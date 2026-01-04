@@ -24,7 +24,7 @@ We understand it can be frustrating to be on an older version. Unfortunately, ve
 
 To ensure you have the best and most secure experience, we **strongly** recommend one of these options:
 
-1.  **Fresh Start with the Latest Atlas:** [Reinstall Windows and then install the newest version of AtlasOS.](../getting-started/installation.md) This is the best way to get all the current benefits.
-2.  **Return to Standard Windows:** [Reinstall a standard, unmodified version of Windows.](../getting-started/reverting-atlas.md)
+1.  **Fresh Start with the Latest Atlas:** [Reinstall Windows and then install the newest version of AtlasOS.](../../getting-started/index.md) This is the best way to get all the current benefits.
+2.  **Return to Standard Windows:** [Reinstall a standard, unmodified version of Windows.](../install-faq/reverting-atlas.md)
 
 We know reinstalling can be a bit of work, but it's the safest path forward from these older versions.

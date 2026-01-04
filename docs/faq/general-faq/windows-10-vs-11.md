@@ -30,5 +30,5 @@ Using Windows 11 as the base for your AtlasOS installation is crucial for:
 
 We strongly advise against new installations using Windows 10.
 
-[:link: View Supported Windows Versions](/install-faq/windows-version-support)
-[:link: Atlas Installation Guide](/getting-started/installation) 
+[:link: View Supported Windows Versions](../install-faq/windows-version-support.md)
+[:link: Atlas Installation Guide](../../getting-started/index.md) 

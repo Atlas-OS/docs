@@ -13,6 +13,6 @@ We often post announcements to the development Discord role when we need help te
 
 These builds are different from the ones automatically built on our GitHub. Official development builds posted on our Discord are ready to be tested for feedback.
 
-See ['Contributing to the Atlas Playbook'](../contributing/playbook.md) for more information on testing. :smile:
+See ['Contributing to the Atlas Playbook'](../../contributing/playbook.md) for more information on testing. :smile:
 
-![The Atlas Discord server's 'Channels & Role' page, cropped onto the 'Development' role](../assets/images/discord-development-role.webp)
+![The Atlas Discord server's 'Channels & Role' page, cropped onto the 'Development' role](../../assets/images/discord-development-role.webp)

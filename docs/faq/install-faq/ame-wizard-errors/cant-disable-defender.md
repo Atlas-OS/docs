@@ -9,6 +9,6 @@ icon: material/shield-search
 
 Atlas requires you to follow the installation documentation to reinstall the latest version of Windows. We advise against using the **Reset this PC** feature within Windows, as this is not considered a complete Windows reinstall and would likely not solve this issue.
 
-[Installing AtlasOS -->](../../getting-started/installation.md)
+[Installing AtlasOS -->](../../../getting-started/index.md)
 
 ![AME Wizard erroring saying it can't open Windows Defender settings](../../assets/images/ame-defender-inaccessible.png)

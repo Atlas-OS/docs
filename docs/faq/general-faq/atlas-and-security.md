@@ -5,9 +5,9 @@ icon: material/shield
 
 # :material-shield: How secure is AtlasOS?
 
-**Atlas aims to be as secure as you want, including the ability to toggle Windows Defender, [mitigations](../getting-started/post-installation/atlas-folder/security.md#mitigations), and automatic Windows updates freely.**
+**Atlas aims to be as secure as you want, including the ability to toggle Windows Defender, [mitigations](../../post-install/atlas-folder/security.md#mitigations), and automatic Windows updates freely.**
 
-While knowing potential risks, we believe power users should be able to customize security and convenience. Atlas alerts users about the dangers of turning off security features. We alert you through pre-install configuration prompts, [documentation](../getting-started/post-installation/atlas-folder/security.md), and our Atlas folder scripts.
+While knowing potential risks, we believe power users should be able to customize security and convenience. Atlas alerts users about the dangers of turning off security features. We alert you through pre-install configuration prompts, [documentation](../../post-install/atlas-folder/security.md), and our Atlas folder scripts.
 
 Additionally, you can always change security post-install.
 
@@ -19,7 +19,7 @@ Regardless, Atlas aims to have similar parity with unmodified Windows' security 
 
 ## :material-timeline-question: Legacy versions of Atlas
 
-Versions of Atlas earlier than `v0.3` are now considered legacy and previously raised many security concerns. We **strongly recommend** that anyone on these Atlas versions [reinstall Windows and upgrade to the latest version](../getting-started/installation.md), as they are unsecure and unsupported.
+Versions of Atlas earlier than `v0.3` are now considered legacy and previously raised many security concerns. We **strongly recommend** that anyone on these Atlas versions [reinstall Windows and upgrade to the latest version](../../getting-started/index.md), as they are unsecure and unsupported.
 
 ### Why was Atlas unsecure previously?
 

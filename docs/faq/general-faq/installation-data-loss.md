@@ -17,7 +17,7 @@ For a working and supported AtlasOS system, you **must**:
 1. Perform a clean installation of a compatible Windows version.
 2. Apply the Atlas playbook immediately after the Windows setup.
 
-[:link: Refer to the Installation Guide for supported Windows versions and steps](../getting-started/installation.md)
+[:link: Refer to the Installation Guide for supported Windows versions and steps](../../getting-started/index.md)
 
 ## :material-file-document-outline: Will I lose my personal files and data?
 
@@ -33,4 +33,4 @@ If you are asking this question, it means you have **not** read or followed the 
 
 **Do not proceed further without consulting the guide:**
 
-[:link: Atlas Installation Guide](../getting-started/installation.md)
+[:link: Atlas Installation Guide](../../getting-started/index.md)

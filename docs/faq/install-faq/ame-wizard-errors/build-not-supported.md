@@ -9,6 +9,6 @@ icon: material/microsoft-windows-classic
 
 You'll see an error under **"Requirements not met"** saying that your Windows build isn't supported. To get to [a supported version](../windows-version-support.md), follow the installation guide.
 
-[Installing AtlasOS -->](../../getting-started/installation.md)
+[Installing AtlasOS -->](../../../getting-started/index.md)
 
 ![Screenshot of AME Wizard with the Atlas playbook, with the error 'This Windows build is not supported by this Playbook.'](../../assets/images/atlas-build-unsupported.webp)

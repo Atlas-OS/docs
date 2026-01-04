@@ -18,7 +18,7 @@ This is a quick way to see your Windows build number and the Atlas Playbook vers
 3.  A window will appear showing your Windows version and OS Build number. Below the user name, you should also see the **Atlas Playbook version** installed (e.g., `Atlas Playbook v0.4.1`).
 
 <figure markdown="span">
-  ![Winver dialog showing Atlas Playbook version](../assets/images/winver-atlas-version.png)
+  ![Winver dialog showing Atlas Playbook version](../../assets/images/winver-atlas-version.png)
   <figcaption>Atlas Playbook v0.4.1 shown in the winver dialog</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ You can also find detailed system information, including the Atlas Playbook vers
 5.  Further down, under the "Windows specifications" section, you'll find the base Windows Edition (e.g., Windows 11 Pro) and the Version number (e.g., 22H2).
 
 <figure markdown="span">
-  ![Windows Settings About page showing Atlas Playbook version under the device name](../assets/images/windows-settings-atlas-version.png)
+  ![Windows Settings About page showing Atlas Playbook version under the device name](../../assets/images/windows-settings-atlas-version.png)
   <figcaption>Atlas Playbook v0.4.1 shown in the Windows Settings About page</figcaption>
 </figure>
 

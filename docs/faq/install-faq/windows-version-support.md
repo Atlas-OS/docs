@@ -37,4 +37,4 @@ We recommend **Windows Pro** or **Windows Enterprise**. With the exception of [W
 - **Enterprise LTSC:** These editions often lag behind the latest Windows versions, which we don't test or support.
 - **Windows Server:** Supporting these would require too much extra testing.
 
-We *strongly recommend* following our [installation guide](../getting-started/installation.md) for installing a supported version, as the initial Atlas install requires a Windows reinstallation regardless.
+We *strongly recommend* following our [installation guide](../../getting-started/index.md) for installing a supported version, as the initial Atlas install requires a Windows reinstallation regardless.

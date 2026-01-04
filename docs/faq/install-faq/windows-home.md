@@ -7,7 +7,7 @@ icon: material/home-remove
 
 **Although you can install Atlas on Windows Home, we do not recommend it as some of Atlas' privacy, usability, and performance optimizations don't apply.**
 
-Atlas uses group policies to tweak various parts of Windows that generally can't be done in regular Settings. However, many group policies on Windows Home do not work, such as disabling [**Automatic Driver Installation**](../getting-started/installation.md#driver-updates).
+Atlas uses group policies to tweak various parts of Windows that generally can't be done in regular Settings. However, many group policies on Windows Home do not work, such as disabling [**Automatic Driver Installation**](../../getting-started/index.md#driver-updates).
 
 Additionally, Windows Home is missing valuable features, such as:[^1]
 

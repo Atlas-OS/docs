@@ -23,10 +23,10 @@ If you want to start fresh with AtlasOS (effectively "resetting" your Atlas inst
 
 **Follow the official Installation Guide for detailed steps:**
 
-[:link: Atlas Installation Guide](../getting-started/installation.md)
+[:link: Atlas Installation Guide](../../getting-started/index.md)
 
 ## :material-undo-variant: Just Want to Remove Atlas?
 
 If your goal is simply to return to a standard version of Windows without AtlasOS, you should follow the guide for reverting Atlas, which also involves a clean Windows installation.
 
-[:link: Reverting Atlas Guide](../getting-started/reverting-atlas.md) 
+[:link: Reverting Atlas Guide](../install-faq/reverting-atlas.md) 
