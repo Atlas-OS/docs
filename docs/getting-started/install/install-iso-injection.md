@@ -12,7 +12,7 @@ You will need to download an ISO before you can inject the playbook.
 
 Choose your desired Windows version's ISO file, which will be used later in the guide.
 
-<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. It gets the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
+<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. They get the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
 
 <noscript>
 <b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
@@ -32,6 +32,16 @@ See the alternatives below.
         - Click on the"Select Download" dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm**.
         - Select your desired language and press **Confirm**.
         - Click **64-bit Download** to begin your download.
+
+    === "Windows Media Creation Tool"
+
+        1. Download the [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
+        1. Click the **Accept** button to agree to the Microsoft license terms
+        1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
+            - **Language:** Your desired language
+            - **Edition:** Windows 11
+        1. Choose the **ISO file** option, then choose the download location
+        1. After the ISO has completed downloading, click **Finish**
 
     === "AME Wizard's ISO dowloader"
         1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
@@ -53,10 +63,10 @@ See the alternatives below.
 ## :material-file-edit: Injecting the playbook
 
 1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
-1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas        Playbook** and **AME Wizard**
+1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
 1. Extract both downloads to your desktop
 1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../faq/ame.md#why-is-ame-being-falsely-flagged), bypass this warning by clicking **More info** and **Run anyway**
+    1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../../faq/install-faq/ame-wizard-errors/ame-wizard-deleted.md), bypass this warning by clicking **More info** and **Run anyway**
 1. Click on **Updates** at the top and make sure AME Wizard is up to date
 1. Drag the previously downloaded ISO file into AME Wizard
 1. Drag `Atlas Playbook.apbx` from your desktop into AME Wizard
@@ -86,14 +96,14 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     1. Right-click the previously downloaded ISO file and select **Open With** -> **File Explorer**
 
-    1. Open **This PC** in File Explorer, and remember the ISO's drive letter (e.g. `H`) for the next step. The drive should look similar to ![Windows Setup icon](/assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
+    1. Open **This PC** in File Explorer, and remember the ISO's drive letter (e.g. `H`) for the next step. The drive should look similar to ![Windows Setup icon](../../assets/images/win-setup.webp){ .twemoji } **CCCOMA_X64FRE_EN-GB_DV9**
 
     1. Press ++win+r++ to open the Run dialog
 
-    1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](/assets/images/win-setup-run-dialog.webp)
+    1. Inside the Run dialog, type in the previously remembered drive letter, and then **without a space**, type `:\sources\setup.exe` after it. [**Example:** `H:\sources\setup.exe`](../../assets/images/win-setup-run-dialog.webp)
 
     1. Press ++enter++ on the Run dialog, and accept the User Account Control prompt
-    - The message ["Make sure BitLocker Drive Encryption is suspended"](/assets/images/bitlocker-error-setup.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../../faq/install.md) to resolve this, then retry from step 5 onwards
+    - The message ["Make sure BitLocker Drive Encryption is suspended"](../../assets/images/win-setup-run-dialog.jpg) could appear from the Windows Setup when you press ++enter++. Refer to our [BitLocker decrypting instructions](../../assets/images/bitlocker-error-setup.jpg) to resolve this, then retry from step 5 onwards
 
     1. Select **No thanks** when prompted for updates, then uncheck the box for **I want to help make the Windows installation better**
 
@@ -149,7 +159,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
                     <p>Credit to [Ventoy](https://ventoy.net/doc_secure.html) for the video demonstration.<p>
                 </center>
 
-            ![vtoy-verification-error-0x1A](/assets/images/vtoy-secure-error.png){ align=right width=200 }
+            ![vtoy-verification-error-0x1A](../../assets/images/vtoy-secure-error.png){ align=right width=200 }
 
             If you get an error screen saying there was a 'Security Violation,' follow the steps below:
 
@@ -224,12 +234,12 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
 ## :material-cog: **4.** Initial setup (OOBE)
 
-This step is different than most Windows 11 installs due to AME's custom OOBE. Simply follow the instructions on screen
+This step is different than most Windows 11 installs due to AME's custom OOBE. Simply follow the instructions on screen.
 
 !!! Warning
-If asked to connect to the internet, please do so. AtlasOS requires an internet connection to be properly installed without issues
-!!! Warning
-After this initial OOBE, your desktop will be similar to regular Windows 11. Please wait for the new user script to run before doing anything.
+    If asked to connect to the internet, please do so. AtlasOS requires an internet connection to be properly installed without issues
+
+    After this initial OOBE, your desktop will be similar to regular Windows 11. Please wait for the new user script to run before doing anything.
 
 <div class="grid cards" markdown>
 
