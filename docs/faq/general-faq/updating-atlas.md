@@ -11,7 +11,7 @@ You can find out which version you have by following the steps in the [Checking 
 
 Check the table below to see if you can upgrade your Atlas install with AME Wizard directly:
 
-!!! warning "
+!!! warning
     Windows 11 is now required for the latest release of AtlasOS. See [here](./windows-10-vs-11.md)
 
 |                |  Upgrading Atlas With AME Wizard                                     | Support from the Atlas team         |
