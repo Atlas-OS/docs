@@ -3,7 +3,7 @@ description: How do I update my Atlas Install?
 icon: custom/atlas
 ---
 
-# :material-microsoft-windows: Keeping AtlasOS Up-to-Date
+# :custom-atlas: Keeping AtlasOS Up-to-Date
 
 Keeping your AtlasOS installation current ensures you benefit from the latest features, security updates, and compatibility improvements. 
 
