@@ -63,7 +63,7 @@ See the alternatives below.
 
 <!-- --8<-- [start:injection] -->
 
-## :material-file-edit: Injecting the playbook
+## :material-file-edit: 2. Injecting the playbook
 
 1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
 1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas Playbook** and **AME Wizard**
