@@ -36,7 +36,7 @@ plugins:
   redirects:
     redirect_maps:
         # Contributions was turned into a section
-      'contributions.md': 'contributing/contribution-guidelines.md'
+      'contributions.md': 'contributing/index.md'
 
         # FAQ pages moved to /faq/ subfolder
       'general-faq/atlas-and-security.md': 'faq/general-faq/atlas-and-security.md'
@@ -118,6 +118,35 @@ plugins:
       
         # Seperating 'Windows Editions' into 'Supported Windows Versions' & 'Windows Home isn't Supported'
       'install-faq/windows-editions.md': 'faq/install-faq/windows-version-support.md'
+
+        # New getting started page
+      'getting-started/installation.md': 'getting-started/index.md'
+      'getting-started/reverting-atlas.md': 'faq/install-faq/reverting-atlas.md'
+
+        # Moved post install into its own dir
+      'getting-started/post-installation/drivers/getting-started.md': 'post-install/drivers/index.md'
+      'getting-started/post-installation/drivers/nvidia.md': 'post-install/drivers/nvidia.md'
+      'getting-started/post-installation/drivers/amd.md': 'post-install/drivers/amd.md'
+      'getting-started/post-installation/drivers/intel.md': 'post-install/drivers/intel.md'
+      'getting-started/post-installation/drivers/chipset.md': 'post-install/drivers/chipset.md'
+      'getting-started/post-installation/drivers/others.md': 'post-install/drivers/others.md'
+      'getting-started/post-installation/software/getting-started.md': 'post-install/software/index.md'
+      'getting-started/post-installation/software/anti-virus.md': 'post-install/software/anti-virus.md'
+      'getting-started/post-installation/software/web-browsers.md': 'post-install/software/web-browsers.md'
+      'getting-started/post-installation/software/media-playback.md': 'post-install/software/media-playback.md'
+      'getting-started/post-installation/software/image-viewer.md': 'post-install/software/image-viewer.md'
+      'getting-started/post-installation/software/screenshotting.md': 'post-install/software/screenshotting.md'
+      'getting-started/post-installation/software/system-info.md': 'post-install/software/system-info.md'
+      'getting-started/post-installation/software/text-editors.md': 'post-install/software/text-editors.md'
+      'getting-started/post-installation/hardware/updating-the-bios.md': 'post-install/hardware/updating-the-bios.md'
+      'getting-started/post-installation/hardware/enabling-xmp-or-docp.md': 'post-install/hardware/enabling-xmp-or-docp.md'
+      'getting-started/post-installation/hardware/resizable-bar.md': 'post-install/hardware/resizable-bar.md'
+      'getting-started/post-installation/atlas-folder/general-configuration.md': 'post-install/atlas-folder/general-configuration.md'
+      'getting-started/post-installation/atlas-folder/interface-tweaks.md': 'post-install/atlas-folder/interface-tweaks.md'
+      'getting-started/post-installation/atlas-folder/windows-settings.md': 'post-install/atlas-folder/windows-settings.md'
+      'getting-started/post-installation/atlas-folder/advanced-configuration.md': 'post-install/atlas-folder/advanced-configuration.md'
+      'getting-started/post-installation/atlas-folder/security.md': 'post-install/atlas-folder/security.md'
+      'getting-started/post-installation/atlas-folder/troubleshooting.md': 'post-install/atlas-folder/troubleshooting.md'
 
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin (Insiders)
   # typeset: {}
