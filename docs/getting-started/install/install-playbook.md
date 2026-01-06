@@ -276,7 +276,7 @@ You can either watch the video or use the 'Written Instructions' for this sectio
         <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
     </center>
 
-## **5.** :material-screwdriver: Driver Updates
+## :material-screwdriver: **5.** Driver Updates
 
 Drivers are essential software components that enable the OS to communicate with hardware devices. While Windows has fundamental drivers, some devices need external drivers to function correctly.
 On Atlas, there are two options for external drivers:
