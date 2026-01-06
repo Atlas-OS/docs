@@ -1,30 +1,30 @@
 ---
-description: How do I update AtlasOS to the latest version?
-icon: material/microsoft-windows
+description: How do I update my Atlas Install?
+icon: custom/atlas
 ---
 
 # :material-microsoft-windows: Keeping AtlasOS Up-to-Date
 
-Keeping your AtlasOS installation current ensures you benefit from the latest features, security updates, and compatibility improvements. How you update depends on the version you're currently running. You can find out which version you have by following the steps in the [Checking Your AtlasOS Version guide](./checking-atlas-version.md).
+Keeping your AtlasOS installation current ensures you benefit from the latest features, security updates, and compatibility improvements. 
 
-Check the table below to see the update options available for your version:
+You can find out which version you have by following the steps in the [Checking Your AtlasOS Version guide](./checking-atlas-version.md).
 
-|                | Windows Update                                                                                    | Updating Atlas                                                       | Support from the Atlas team         |
-| -------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------- |
-| v0.2.0 & below | :material-close-octagon: No support                                                               | :material-close-octagon: No support                                  | :material-close-octagon: No support |
-| v0.3.x         | :material-check: Can't upgrade to v0.5, so 24H2 won't be available                                | :material-close-octagon: No support                                  | :material-close-octagon: No support |
-| v0.4.0         | :material-check-all: Will be able to update to 24H2 when v0.5 releases                            | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
-| v0.4.1         | :material-check-all: Will be able to update to future Windows feature releases when v0.5 releases | :material-check: Will be able to update to Atlas v0.5 on its release | :material-check-all: Supported      |
+Check the table below to see if you can upgrade your Atlas install directly With AME Wizard:
 
-**Good news!** If you're on version 0.4.0 or later, Atlas supports cumulative Windows Updates. This means you'll receive regular security and quality patches directly from Microsoft. When future major Windows versions (like 24H2) and new Atlas releases (like v0.5) become available, you'll be able to update smoothly.
+!!! warning "
+    Windows 11 is now required for the latest release of AtlasOS. See [here](./windows-10-vs-11.md)
 
-## What if I'm on an older, unsupported version (v0.3.x or earlier)?
+|                |  Upgrading Atlas With AME Wizard                                     | Support from the Atlas team         |
+| -------------- | -------------------------------------------------------------------- | ----------------------------------- |
+| v0.3.x & below | :material-close-octagon: No support                                  | :material-close-octagon: No support |
+| v0.4.0         | :material-close-octagon: No support                                  | :material-close-octagon: No support |
+| v0.4.1         | :material-check: Fully supported (Windows 11 24H2 only)              | :material-close-octagon: No support |
+| v0.5.0         | :material-check: Fully Supported (Windows 11 24H2 and 25H2 only)     | :material-check-all: Supported      |
 
-We understand it can be frustrating to be on an older version. Unfortunately, versions v0.3.x and earlier don't support direct updates to newer Atlas releases or the latest Windows feature updates.
+## What if I'm on an older, unsupported version (v0.3.x and below)?
 
-To ensure you have the best and most secure experience, we **strongly** recommend one of these options:
+We understand it can be frustrating to be on an older version. Unfortunately, versions v0.3.x and earlier don't support direct updates to newer Atlas releases.
 
-1.  **Fresh Start with the Latest Atlas:** [Reinstall Windows and then install the newest version of AtlasOS.](../../getting-started/index.md) This is the best way to get all the current benefits.
-2.  **Return to Standard Windows:** [Reinstall a standard, unmodified version of Windows.](../install-faq/reverting-atlas.md)
+To ensure you have the best and most secure experience, we **strongly** recommend [reinstalling Windows and then install the newest version of AtlasOS.](../../getting-started/index.md) This is the best way to get all the current benefits.
 
 We know reinstalling can be a bit of work, but it's the safest path forward from these older versions.
