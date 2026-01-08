@@ -132,7 +132,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
     <!-- --8<-- [end:reinstalling] -->
     
     !!! note "Windows 11 Requirement Error?"
-      If you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general-faq/enabling-tpm.md)
+        If installing Windows 11 and you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general-faq/enabling-tpm.md)
 
     <!-- --8<-- [start:reinstalling1] -->
 
