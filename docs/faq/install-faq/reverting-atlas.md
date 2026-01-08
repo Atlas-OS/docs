@@ -36,11 +36,6 @@ Alternatively, give feedback in our GitHub Discussions or Discord, as mentioned 
 ## :material-disc: **1.** Download an ISO
 <!-- --8<-- [end:iso] -->
 
-Before installing Atlas, you need a clean ISO to fully reinstall Windows.
-
-<!-- --8<-- [start:iso1] -->
-Choose your desired Windows version's ISO file, which will be used later in the guide.
-
 <span class="noJs">The buttons below download an ISO directly from Microsoft's servers. They get the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
 
 <noscript>
@@ -49,7 +44,7 @@ See the alternatives below.
 </noscript>
 
 !!! question "Which version should I choose?"
-    For AMD and Intel CPUs, download the x86_64 (x64) version. For Qualcomm Snapdragon or other supported ARM SoCs, download the ARM64 version
+    For AMD and Intel CPUs, download the x86_64 (x64) version. For Qualcomm Snapdragon or other supported ARM SoCs, download the ARM64 version.
     
 ??? grey-tip "Alternatives (x86_64 Only)"
 
@@ -135,17 +130,7 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
     1. Choose your edition of Windows.
     <!-- --8<-- [end:reinstalling] -->
-    <!-- --8<-- [start:atlasEditions] -->
-
-    !!! note "Supported Editions"
-
-      - Windows Pro
-      - Windows Pro for Workstations
-      - Windows Enterprise (excluding LTSC, IoT LTSC)
-
-      **Windows Home is not supported.** If the Windows Setup did not give a choice of edition and it installs Windows Home anyway, you can always change Windows edition later by changing your Windows product key once Windows has finished installing, without having to reinstall anything.
-    <!-- --8<-- [end:atlasEditions] -->
-
+    
     !!! note "Windows 11 Requirement Error?"
       If you encounter an error stating your PC doesn't meet the requirements, you might need to enable TPM 2.0 in your BIOS/UEFI. See our guide: [:link: Enabling TPM 2.0](../../faq/general-faq/enabling-tpm.md)
 
