@@ -245,9 +245,9 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
 Watch the video and follow step by step.
 
-    <center>
-        <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
-    </center>
+<center>
+    <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
+</center>
 
 ## :material-desktop-classic: **5.** Continue with setup
 
