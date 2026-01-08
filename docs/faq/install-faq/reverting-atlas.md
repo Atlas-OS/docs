@@ -258,25 +258,10 @@ Before continuing, we **strongly** recommend you back up any valuable data to an
 
 ## :material-cog: **4.** Initial setup (OOBE)
 
-You can either watch the video or use the 'Written Instructions' for this section.
-
-=== "Video"
+Watch the video and follow step by step.
 
     <center>
         <video src="/assets/videos/win11-OOBE.mp4" controls muted width="560" height="420"></video>
-    </center>
-
-=== "Windows 10"
-    ??? info "Written Instructions"
-        Go through the setup, but make sure to:
-
-        - Click **I don't have internet** when prompted to connect to the internet
-        - Click **Continue with limited setup** or **Domain join** after the 'Internet' page
-        - Deny each option in the **Privacy** section
-        - Deny Cortana
-
-    <center>
-        <video src="/assets/videos/win10-OOBE.mp4" controls muted width="560" height="420"></video>
     </center>
 
 ## :material-desktop-classic: **5.** Continue with setup
