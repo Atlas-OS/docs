@@ -18,7 +18,7 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
 </style>
 <!-- --8<-- [end:style] -->
 
-## **0.** :material-clipboard-list-outline: Prerequisites
+## :material-clipboard-list-outline: **0.** Prerequisites
 
 !!! danger "Atlas requires a full Windows reinstall to uninstall"
     As of the current versions of Atlas, if you ever need to uninstall it, you'll need to [reinstall Windows](../../faq/install-faq/reverting-atlas.md).
