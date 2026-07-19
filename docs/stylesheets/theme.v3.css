@@ -289,8 +289,73 @@ nav[class="md-tabs"] {
     border-color: transparent;
 }
 
+/* Global call-to-action buttons */
+.md-button {
+    color: var(--md-primary-fg-color--light) !important;
+    border-color: currentcolor !important;
+}
+
+.md-button:hover {
+    background-color: var(--md-primary-fg-color--light) !important;
+    border-color: var(--md-primary-fg-color--light) !important;
+    color: var(--md-accent-bg-color) !important;
+}
+
 .md-typeset .md-button:focus {
     background: transparent;
+}
+
+/* ISO download buttons */
+.iso-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0.25em 0 0.5em;
+}
+
+/* Pull the primary ISO button closer under the alternatives tip */
+.md-typeset details.grey-tip {
+    margin-bottom: 0.5em;
+}
+
+.md-typeset details.grey-tip + .iso-button-container {
+    margin-top: 0;
+}
+
+.md-typeset a.iso-button {
+    border: .1rem solid;
+    border-color: currentcolor;
+    border-radius: .1rem;
+    color: var(--md-primary-fg-color--light);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: .625em 2em;
+    transition: color 125ms, background-color 125ms, border-color 125ms;
+    text-align: center;
+}
+
+.md-typeset a.iso-button:hover {
+    background-color: var(--md-primary-fg-color--light);
+    border-color: var(--md-primary-fg-color--light);
+    color: var(--md-accent-bg-color);
+}
+
+.md-typeset .admonition.grey-tip,
+.md-typeset details.grey-tip {
+    border-color: #9e9e9e;
+}
+
+.md-typeset .grey-tip > .admonition-title,
+.md-typeset .grey-tip > summary {
+    background-color: #9e9e9e1a;
+}
+
+.md-typeset .grey-tip > .admonition-title::before,
+.md-typeset .grey-tip > summary:before {
+    background-color: #9e9e9e;
+    -webkit-mask-image: var(--md-admonition-icon--tip);
+    mask-image: var(--md-admonition-icon--tip);
 }
 
 

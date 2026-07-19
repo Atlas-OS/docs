@@ -7,7 +7,7 @@ icon: material/disc-player
     ISO injection is an experimental feature added in the Atlas Playbook 0.5.0 release, previous versions do not have this. If you experienced any bug using it, please report them on our [Issue Tracker](https://github.com/Atlas-OS/Atlas/issues).
 
 !!! warning
-    For general users, we only offer support for Atlas Playbook {{ atlas.release }} installed on the latest, non-beta Windows 11 {{ msdl.win11.version }} install. If you are on older versions, or have a unsupported Windows install, please follow our [installation guide](before-continuing.md) to get the latest release.
+    For general users, we only offer support for Atlas Playbook {{ atlas.release }} installed on the latest, non-beta Windows 11 {{ windows.win11.version }} install. If you are on older versions, or have an unsupported Windows install, please follow our [installation guide](before-continuing.md) to get the latest release.
 
 <!-- --8<-- [start:iso] -->
 ## :material-disc: **1.** Download an ISO
@@ -16,53 +16,35 @@ icon: material/disc-player
 <!-- --8<-- [start:iso1] -->
 You will need to download an ISO before you can inject the playbook.
 
-Choose your desired Windows version's ISO file, which will be used later in the guide.
+Download a clean Windows ISO from Microsoft, which will be used later in the guide.
 
-<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. They get the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
+!!! question "Which version should I choose?"
+    For AMD and Intel CPUs, download the x86_64 (x64) version. For Qualcomm Snapdragon or other supported ARM SoCs, download the ARM64 version.
 
-<noscript>
-<b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
-See the alternatives below.
-</noscript>
+1. Click the download button below
+1. Under **Download Windows 11 Disk Image (ISO)**, select **Windows 11 (multi-edition ISO for x64 devices)** or **Windows 11 (multi-edition ISO for Arm64 devices)**, then click **Confirm**
+1. Select your desired language and click **Confirm**
+1. Click **64-bit Download** (or the Arm64 download button) to begin your download
 
-??? grey-tip "Alternatives"
+??? grey-tip "Alternative: Windows Media Creation Tool (x86_64 only)"
 
-    !!! tip
-        Even though the downloader in our docs uses official Microsoft servers, you can still download the ISO directly from their website or from AME directly.
+    <div class="iso-button-container" markdown>
+    [Download Media Creation Tool](https://go.microsoft.com/fwlink/?linkid=2156295){ .iso-button }
+    </div>
 
-    === "Official Microsoft Sources"
+    1. Download the Media Creation Tool using the button above, then open it
+    1. Click the **Accept** button to agree to the Microsoft license terms
+    1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
+        - **Language:** Your desired language
+        - **Edition:** Windows 11
+    1. Choose the **ISO file** option, then choose the download location
+    1. After the ISO has completed downloading, click **Finish**
 
-        ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
-
-        - Click the link above and find **Download Windows 11 Disk Image (ISO) for x64 devices**.
-        - Click on the"Select Download" dropdown, choose **Windows 11 (multi-edition ISO)**, and click **Confirm**.
-        - Select your desired language and press **Confirm**.
-        - Click **64-bit Download** to begin your download.
-
-    === "Windows Media Creation Tool"
-
-        1. Download the [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
-        1. Click the **Accept** button to agree to the Microsoft license terms
-        1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
-            - **Language:** Your desired language
-            - **Edition:** Windows 11
-        1. Choose the **ISO file** option, then choose the download location
-        1. After the ISO has completed downloading, click **Finish**
-
-    === "AME Wizard's ISO dowloader"
-        1. Open your web browser, search [`atlasos.net`](https://atlasos.net)
-        1. On the website, click 'Get started', then click **-> Already following the guide?** at the bottom of the pop-up, and download the **Atlas        Playbook** and **AME Wizard**
-        1. Extract both downloads to your desktop
-        1. Open `AME Wizard Beta.exe` from the AME Wizard folder
-            1. If there is a warning from SmartScreen that AME Wizard is an [unrecognized application](../../faq/install-faq/ame-wizard-errors/ame-wizard-deleted.md), bypass this warning by clicking **More info** and **Run anyway**
-            1. Click on **Updates** at the top and make sure AME Wizard is up to date
-        1. Click on the **More Options** tab on the left side of the window
-        1. Select **Download ISO** and make sure **Windows 11** is selected, then click **OK**.
-
-        This should download a Windows 11 25H2 ISO.
+<div class="iso-button-container" markdown>
+[Download Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11){ .iso-button }
+</div>
 
 <!-- --8<-- [end:iso1] -->
-{% include 'msdl.md' %}
 
 <!-- --8<-- [start:injection] -->
 

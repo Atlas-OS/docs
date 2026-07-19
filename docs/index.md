@@ -23,7 +23,7 @@ icon: material/home
 
     Complete common post-installation tasks and optimize it for your daily use.
 
-    [-> Post Install](getting-started/index.md)
+    [-> Post Install](post-install/index.md)
 
 -   :material-chat-question:{ .lg .middle } __Frequently Asked Questions__
 

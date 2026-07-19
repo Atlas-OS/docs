@@ -194,12 +194,10 @@ theme:
 # Extra Settings
 #
 extra_javascript:
-  - javascript/msdl.v1.js
   - javascript/init_kapa_widget.v2.js
 
 
 extra_css:
-  - stylesheets/msdl.v2.css
   - stylesheets/theme.v3.css
 
 
@@ -210,19 +208,12 @@ extra:
   # https://mkdocs-macros-plugin.readthedocs.io/en/stable/pages/#1-variable
   atlas:
     release: 0.5.0
-  msdl:
-    win11: 
+  windows:
+    win11:
       version: 25H2
-      architecture: x86_64
-      pid: 3262
-    win11arm: 
+    win11arm:
       version: 25H2
-      architecture: ARM64
-      pid: 3265
-    win10: 
-      version: 22H2
-      architecture: x86_64
-      pid: 2618
+
 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#configuration
   analytics:

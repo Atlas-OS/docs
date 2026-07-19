@@ -17,6 +17,6 @@ Distributing ISO files violates Microsoft's terms and poses **major safety risks
 
 To ensure compliance and safety, you get Atlas by using [AME Wizard](https://ameliorated.io/), which modifies a stock Windows ISO and get you Atlas (or modify Windows on a new live installation, applying configurations like an ISO file). We recommend reading our [installation guide](../../getting-started/index.md) to install Atlas using this system.
 
-## What does the ISO downloader do?
+## Where do I get a Windows ISO?
 
-The [ISO downloader in our documentation](../../getting-started/install/install-playbook.md#1-download-an-iso) downloads unmodified ISOs directly from Microsoft's servers. They are there for your convenience.
+Our [installation guide](../../getting-started/install/install-playbook.md#1-download-an-iso) links to Microsoft's official download page for unmodified Windows ISOs. You can also use the Windows Media Creation Tool as an alternative.
