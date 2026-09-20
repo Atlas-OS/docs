@@ -1,6 +1,6 @@
 ---
 description: Lists of the different components and features removed or disabled from Atlas
-icon: material/cog
+icon: material/cogOIP.webp
 ---
 
 # :material-cog: Components and features removed or disabled from Atlas
