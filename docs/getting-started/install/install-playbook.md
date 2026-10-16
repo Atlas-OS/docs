@@ -36,44 +36,35 @@ Before continuing, we recommend reviewing our page to see [who Atlas is for](../
 Before installing Atlas, you need a clean ISO to fully reinstall Windows.
 
 <!-- --8<-- [start:iso1] -->
-Choose your desired Windows version's ISO file, which will be used later in the guide.
-
-<span class="noJs">The buttons below download an ISO directly from Microsoft's servers. They get the latest version of your desired Windows version for [Intel, AMD, and ARM CPUs](https://www.tenforums.com/tutorials/132836-check-what-processor-cpu-windows-pc.html#option1).</span>
-
-<noscript>
-<b>The documentation's Windows ISO downloader doesn't show for you due to the documentation being loaded without JavaScript.</b>
-See the alternatives below.
-</noscript>
+Download a clean Windows ISO from Microsoft, which will be used later in the guide.
 
 !!! question "Which version should I choose?"
-    For AMD and Intel CPUs, download the x86_64 (x64) version. For Qualcomm Snapdragon or other supported ARM SoCs, download the ARM64 version
-    
-??? grey-tip "Alternatives (x86_64 Only)"
+    For AMD and Intel CPUs, download the x86_64 (x64) version. For Qualcomm Snapdragon or other supported ARM SoCs, download the ARM64 version.
 
-    !!! tip 
-        Even though the downloader we use in our docs use Microsoft's servers, you can also download the ISO directly from Microsoft or use the Windows Media Creation Tool.
-        
-    <div id="official-microsoft-sources"></div>
-    === "Official Microsoft Sources"
+1. Click the download button below
+1. Under **Download Windows 11 Disk Image (ISO)**, select **Windows 11 (multi-edition ISO for x64 devices)** or **Windows 11 (multi-edition ISO for Arm64 devices)**, then click **Confirm**
+1. Select your desired language and click **Confirm**
+1. Click **64-bit Download** (or the Arm64 download button) to begin your download
 
-        ### [Windows 11 :material-download:](https://www.microsoft.com/en-us/software-download/windows11)
+??? grey-tip "Alternative: Windows Media Creation Tool (x86_64 only)"
 
-        - Click the link above and select **Windows 11 (multi-edition ISO for x64 devices)** in the dropdown, then click **Confirm.**
-        - Select your desired language and press confirm.
-        - Click **64-bit Download** to begin your download.
+    <div class="iso-button-container" markdown>
+    [Download Media Creation Tool](https://go.microsoft.com/fwlink/?linkid=2156295){ .iso-button }
+    </div>
 
-    === "Windows Media Creation Tool"
+    1. Download the Media Creation Tool using the button above, then open it
+    1. Click the **Accept** button to agree to the Microsoft license terms
+    1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
+        - **Language:** Your desired language
+        - **Edition:** Windows 11
+    1. Choose the **ISO file** option, then choose the download location
+    1. After the ISO has completed downloading, click **Finish**
 
-        1. Download the [Windows 11 :material-download:](https://go.microsoft.com/fwlink/?linkid=2156295) Media Creation Tool, then open it
-        1. Click the **Accept** button to agree to the Microsoft license terms
-        1. Select **Create installation media (USB flash drive, DVD, or ISO file) for another PC**, click **Next**, and choose:
-            - **Language:** Your desired language
-            - **Edition:** Windows 11
-        1. Choose the **ISO file** option, then choose the download location
-        1. After the ISO has completed downloading, click **Finish**
+<div class="iso-button-container" markdown>
+[Download Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11){ .iso-button }
+</div>
 
 <!-- --8<-- [end:iso1] -->
-{% include 'msdl.md' %}
 
 <!-- --8<-- [start:drivers] -->
 ## :material-ethernet: **2.** Network Drivers

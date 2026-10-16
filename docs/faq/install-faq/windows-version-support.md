@@ -13,8 +13,8 @@ Atlas is designed to work on specific, stable Windows builds to ensure a reliabl
 
 As of the latest version, Atlas only supports:
   
-- **Windows 11:** {{ msdl.win11.version }} 
-- **Windows 11 ARM:** {{ msdl.win11.version }} 
+- **Windows 11:** {{ windows.win11.version }} 
+- **Windows 11 ARM:** {{ windows.win11arm.version }} 
 
 For the best results, please use one of these supported stable builds.
 
