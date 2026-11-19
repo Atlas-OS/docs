@@ -20,4 +20,4 @@ Welcome to the Atlas FAQ! Here you'll find answers to the most common questions 
 
 For more detailed answers, browse the categories in the sidebar or use the search bar above.
 
-If you can't find your answer, please visit our [Discord](https://discord.com/invite/atlasos) or [GitHub Issues](https://github.com/Atlas-OS/docs/issues) for further support.
+If you can't find your answer, please visit our [Discord](https://discord.atlasos.net) or [GitHub Issues](https://github.com/Atlas-OS/docs/issues) for further support.
