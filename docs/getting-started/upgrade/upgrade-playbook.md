@@ -28,5 +28,4 @@ icon: material/rocket-launch
 
 ---
 
-Need help? Ask in the [:simple-discord: Discord server](https://discord.com/invite/atlasos) or open a topic on [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions). 
-
+Need help? Ask in the [:simple-discord: Discord server](https://discord.atlasos.net) or open a topic on [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions).

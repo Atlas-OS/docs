@@ -51,5 +51,5 @@ If you'd like to learn more, see our:
 
 - [:simple-github: GitHub repository README](https://github.com/Atlas-OS/Atlas) for more in-depth overviews
 - [:simple-github: GitHub repository's source code](https://github.com/Atlas-OS/Atlas/tree/main/src) for what Atlas does under the hood
-- [:simple-discord: Discord server](https://discord.com/invite/atlasos) to connect with the Atlas community and get support
+- [:simple-discord: Discord server](https://discord.atlasos.net) to connect with the Atlas community and get support
 - [:custom-atlas: Website](https://atlasos.net/) for a general overview of Atlas
