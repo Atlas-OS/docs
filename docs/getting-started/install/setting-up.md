@@ -19,5 +19,5 @@ We hope you enjoy using AtlasOS! :smile:
 
 - [:material-download: Install your Drivers](../../post-install/drivers/index.md)
 - [:material-cog: Configure your Atlas installation](../../post-install/atlas-folder/index.md)
-- [:simple-discord: Discord server](https://discord.com/invite/atlasos) & [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
+- [:simple-discord: Discord server](https://discord.atlasos.net) & [:material-github: GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions)
 - [:material-chat-question: FAQ & Troubleshooting](../../faq/index.md)
