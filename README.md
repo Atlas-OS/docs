@@ -2,11 +2,11 @@
 
 <a href="https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge&color=1A91FF" /></a>
 
-This repository contains the Atlas documentation hosted on Cloudflare Pages using Material for MkDocs.
+The Atlas documentation has moved to [atlasos.net/docs](https://atlasos.net/docs/). This repository preserves the former MkDocs site.
 
-**Want to contribute?** Please check out the [Atlas Contribution Guidelines](https://docs.atlasos.net/contributions) for more information.
+For corrections and new guides, use the [website repository](https://github.com/Atlas-OS/website/tree/main/src/content/docs). See [Writing documentation](https://atlasos.net/docs/contributing/docs/) to get started.
 
-## How do I contribute?
+## Building the archived site locally
 
 As MkDocs Material uses Python, you must install [Python](https://www.python.org/downloads/) alongside `pip` before continuing.
 
